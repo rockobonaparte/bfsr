@@ -1,0 +1,1155 @@
+{
+  "name": "Vanilla Minecraft",
+  "description": "This is a modified version of Minecraft using mods from the greater Minecraft community. However, if you have never played Minecraft before, you are probably completely lost. This book isn\u0027t really a good guide for surviving your first few nights, but it will get you in the right direction for getting established nonetheless. Just remember that a normal day is 20 minutes. Immediately think of good areas where you might want to set up a base. Either dig into the ground or cover yourself into a cave. Building a house right away isn\u0027t possible.",
+  "quests": [
+    {
+      "name": "Punching Trees",
+      "description": "The PC version of Minecraft does not come with an instruction manual. This means learning how to play by reading contradictory Wikis and watching lots of video on YouTube. Let\u0027s not do that. This chapter will guide you through some basics of playing the unmodified game. You should know this stuff before starting the modified parts of the game.",
+      "x": 22,
+      "y": 16,
+      "icon": {
+        "id": "minecraft:log"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "The very first thing you do in Minecraft is punch a tree to get wood. Find an oak tree (oak wood), and beat it up with your hand! Hold down the left mouse button until the wood breaks away. The tree will, um, probably be left levitating in the air. Shut up. Punch out a total of three logs. Come back here with those logs, and select \"Manual Detect\" for a reward!",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:log"
+              },
+              "required": 3,
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:sapling"
+        },
+        {
+          "id": "minecraft:tnt",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "mineCRAFT",
+      "description": "Minecraft is a game about . . . mining and crafting. Here you will make a crafting table so you can make cool stuff. If you look at your inventory (default: \u0027e\u0027 on keyboard) you will see various items on the right. If you click on one, it will usually show a recipe for making it. If you see a 3x3 grid with stuff in it, that\u0027s a crafting recipe. You need a crafting table for that. Let\u0027s make one!",
+      "x": 50,
+      "y": 47,
+      "icon": {
+        "id": "minecraft:crafting_table"
+      },
+      "prerequisites": [
+        "Punching Trees"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Open up your inventory. You should see a 2x2 grid next to your player\u0027s portrait. Drop a log into that grid. It will yield 4 wooden planks. Take those planks, and fill the grid with them. That will build a crafting table.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:crafting_table"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:log"
+        },
+        {
+          "id": "minecraft:sapling"
+        }
+      ]
+    },
+    {
+      "name": "Axe Me a Question",
+      "description": "You will need more wood than that to do anything cool! Make an axe! Make it ... out of wood! It will be a warning to the other trees!",
+      "x": 77,
+      "y": 77,
+      "icon": {
+        "id": "minecraft:wooden_axe"
+      },
+      "prerequisites": [
+        "mineCRAFT"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Right click your crafting table. Then type \"axe\" into the search bar at the bottom. On the right you will have many choices, but select the wooden axe with a left click. On the bottom right of the recipe is a question mark. Shift-left-click it and it will autocomplete the recipe in your crafting table. You can always lay out the recipe manually if it doesn\u0027t work, but it usually fails because it can\u0027t find the items it needs.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:wooden_axe"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:planks",
+          "amount": 3
+        },
+        {
+          "id": "minecraft:stick",
+          "amount": 2
+        },
+        {
+          "id": "minecraft:dye",
+          "damage": 15,
+          "amount": 4
+        },
+        {
+          "id": "minecraft:sapling"
+        }
+      ]
+    },
+    {
+      "name": "Deforestation",
+      "description": "Now you can go on a woodcutting rampage with your axe! But wait! There is one mod called VeinMiner that speeds this up. If you hold down the tilde key (by default) while hitting a tree with an axe, it will knock out the whole tree. It will take a little longer, and wear down your axe and your energy as if you had knocked out each block manually. Still, it\u0027s a real timesaver. It also works for digging certain blocks as well as for mining ores.",
+      "x": 127,
+      "y": 112,
+      "icon": {
+        "id": "minecraft:log"
+      },
+      "prerequisites": [
+        "Axe Me a Question"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Turn in 16 logs. If you\u0027re running out of trees, plant some of those saplings I gave you! To speed it up, right click them with that bone meal I just gave you. Within 4 applications, you should have at least another tree.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:log"
+              },
+              "required": 16,
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:wooden_axe"
+        },
+        {
+          "id": "minecraft:sapling"
+        },
+        {
+          "id": "minecraft:apple",
+          "amount": 2
+        },
+        {
+          "id": "minecraft:dye",
+          "damage": 15,
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "MINEcraft",
+      "description": "Now let\u0027s put some holes in the ground. Build a wooden pick. You can then break stone with it. Not all stones can be broken with a wooden pick, but this will give you enough cobblestone that you can make more sophisticated tools.",
+      "x": 176,
+      "y": 123,
+      "icon": {
+        "id": "minecraft:wooden_pickaxe"
+      },
+      "prerequisites": [
+        "Deforestation"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:wooden_pickaxe"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:stick",
+          "amount": 2
+        },
+        {
+          "id": "minecraft:planks",
+          "amount": 3
+        },
+        {
+          "id": "minecraft:torch",
+          "amount": 4
+        },
+        {
+          "id": "minecraft:apple"
+        }
+      ]
+    },
+    {
+      "name": "Upping The Heat",
+      "description": "It\u0027s time for Baby\u0027s First Furnace! Place 8 cobblestone in a hollow square in a crafting table, and you\u0027ll get a furnace. Place fuel (wood, coal, charcoal) in the bottom slot, and items to burn in the top. You can smelt ores into ingots, cook food, and make charcoal--among many other things. Just beware, there is a smeltery we will be building that can double the yield from ore compared to using this furnace. So don\u0027t smelt all your ores right away!",
+      "x": 173,
+      "y": 93,
+      "icon": {
+        "id": "minecraft:furnace"
+      },
+      "prerequisites": [
+        "MINEcraft"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:furnace"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:cobblestone",
+          "amount": 8
+        },
+        {
+          "id": "minecraft:apple"
+        }
+      ]
+    },
+    {
+      "name": "The King Of Kingsford",
+      "description": "Charcoal is used similarly to coal, but it is made from burning logs. Since you can always make more trees, charcoal is renewable! Some mods do treat it different from coal, so use charcoal in place of coal wherever it doesn\u0027t matter.",
+      "x": 190,
+      "y": 62,
+      "icon": {
+        "id": "minecraft:coal",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Upping The Heat"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:coal",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:log"
+        },
+        {
+          "id": "minecraft:apple"
+        }
+      ]
+    },
+    {
+      "name": "Torch Yur Chamber",
+      "description": "Torches illuminate the night and dark passageways. Monsters cannot be spawned in lit areas, so you are motivated to light all your tunnels. Combine coal/charcoal with a stick to make 4 torches. You can hit F7 to find areas that need illumination. Yellow X\u0027s mean they\u0027re dark at night, and red X\u0027s are dark all the time. Any of these places could spawn monsters. Light them up!",
+      "x": 225,
+      "y": 61,
+      "icon": {
+        "id": "minecraft:torch"
+      },
+      "prerequisites": [
+        "The King Of Kingsford"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "I\u0027ve been spraying you with torches before you hit this quest, so I have to ask for a pile of them to prove you actually made some yourself. You can make 64 torches from 16 coal/charcoal.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:torch"
+              },
+              "required": 64
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:stick"
+        },
+        {
+          "id": "minecraft:coal",
+          "damage": 1
+        },
+        {
+          "id": "minecraft:apple"
+        }
+      ]
+    },
+    {
+      "name": "Mr. Sandman",
+      "description": "Sand is usually used to create glass in vanilla Minecraft, and it has many uses in modified Minecraft. You will need lots of it. You can usually find sand next to bodies of water. There are usually not layers of it otherwise in the world, except for deserts.",
+      "x": 141,
+      "y": 188,
+      "icon": {
+        "id": "minecraft:sand"
+      },
+      "prerequisites": [
+        "Do You Dig It?"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:sand"
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:apple"
+        },
+        {
+          "id": "minecraft:sandstone",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Do You Dig It?",
+      "description": "Shovels handle dirt, gravel, sand, and clay very quickly. Given that we have the VeinMiner mod installed, holding the VeinMiner key (tilde \u0027~\u0027 is default), it will pull up large pockets of the stuff. You will need some of those ingredients later. For now, it at least helps bust through the dirt layer where you want to settle in.",
+      "x": 114,
+      "y": 159,
+      "icon": {
+        "id": "minecraft:wooden_shovel"
+      },
+      "prerequisites": [
+        "Deforestation"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:wooden_shovel"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:stick",
+          "amount": 2
+        },
+        {
+          "id": "minecraft:planks"
+        },
+        {
+          "id": "minecraft:apple"
+        }
+      ]
+    },
+    {
+      "name": "Start Graveling",
+      "description": "Gravel is usually something you just run into underground and gets in the way. However, there are a few recipes that put it to use in modified Minecraft. Also, extracting it exposes flint, which is another useful ingredient in arrows, a flint/steel lighter, and various modded items.",
+      "x": 99,
+      "y": 190,
+      "icon": {
+        "id": "minecraft:gravel"
+      },
+      "prerequisites": [
+        "Do You Dig It?"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:gravel"
+              },
+              "required": 16
+            },
+            {
+              "item": {
+                "id": "minecraft:flint"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:apple"
+        },
+        {
+          "id": "minecraft:arrow",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Clay More",
+      "description": "Clay is not too useful in vanilla Minecraft. You can make bricks with it, and that\u0027s about it. It is a slightly more useful material in modded Minecraft, where we build smelteries and steel furnaces with piles of the stuff. You can usually find clay near pockets of water. You may have to look under water. Use the veinminer key to extract volumes of it with a shovel.",
+      "x": 77,
+      "y": 164,
+      "icon": {
+        "id": "minecraft:clay"
+      },
+      "prerequisites": [
+        "Do You Dig It?"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:clay_ball"
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:apple"
+        },
+        {
+          "id": "minecraft:brick",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Getting Stoned",
+      "description": "Stone is by far the most common material you will find underground. When mined, it will break into cobblestone. This is the poor-man\u0027s material. You will eventually end up with tons of it. It\u0027s a common way to build up a base. You can turn it back into stone by running it through a furnace. Put four stone blocks in a 2x2 grid and you\u0027ll get stone bricks. Some recipes require it, or you just might like the look of it.",
+      "x": 176,
+      "y": 159,
+      "icon": {
+        "id": "minecraft:stone"
+      },
+      "prerequisites": [
+        "MINEcraft"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Collect Cobblestone",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:cobblestone"
+              },
+              "required": 4
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Back to Stone",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:stone"
+              },
+              "required": 4
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Stone Bricks",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:stonebrick"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:apple"
+        },
+        {
+          "id": "minecraft:coal",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Coal For Christmas",
+      "description": "Coal can be found in veins underground. It is generally interchangeable with charcoal, but not renewable. However, it is convenient to take when you find it, and you can quickly make torches with it underground when you are otherwise far from your base.",
+      "x": 204,
+      "y": 141,
+      "icon": {
+        "id": "minecraft:coal"
+      },
+      "prerequisites": [
+        "MINEcraft"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:coal"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:coal"
+        },
+        {
+          "id": "minecraft:torch",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:apple",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "Iron Man",
+      "description": "Iron is a major ore in Minecraft. It makes for generally useful tools, strong weapons, and tough armor. It is also a common metal in modifications to the game. Finally, you\u0027ll need some iron to make steel. You will want to start stockpiling it. In a furnace, one ore yields one iron ingot. Save some for a smeltery! There, one ore yields two iron ingots!",
+      "x": 221,
+      "y": 91,
+      "icon": {
+        "id": "minecraft:iron_ore"
+      },
+      "prerequisites": [
+        "MINEcraft",
+        "Upping The Heat"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Iron Ore",
+          "longDescription": "Iron is all over the place in this mod pack, but it is easier to find below sea level (Y\u003d64). In most other modpacks, you can only find it below sea level. I still remember the first time I played Minecraft. There I was, digging through mountains, never down, and finding nothing. That sucked.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:iron_ore"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Iron Ingots",
+          "longDescription": "Turn in one iron ingot. You make one by running the iron ore through that furnace you should have by now. I should warn you this quest book is going to open up all kinds of new stuff when you finish this.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:iron_ingot"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:iron_ingot",
+          "amount": 2
+        },
+        {
+          "id": "minecraft:apple",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Wool In Your Eyes",
+      "description": "Wool is useful for a few things in regular Minecraft, and has expanded uses in modified Minecraft. You can find wool directly from sheep, or from assembling cotton. Either right click on them with a pair of shears or, you know, kill them. You\u0027ll likely get some wool that way eventually.",
+      "x": 42,
+      "y": 98,
+      "icon": {
+        "id": "minecraft:wool"
+      },
+      "prerequisites": [
+        "Axe Me a Question"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "If you are having problems finding sheep for some reason, punch a bunch of grass to get cotton seeds. You can plant those in tilled soil near water (see the farming quests). Crafted as a 3x3 block will give you 1 wool block.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:wool"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:wool",
+          "amount": 6
+        },
+        {
+          "id": "minecraft:apple"
+        }
+      ]
+    },
+    {
+      "name": "Eat Your Wheaties",
+      "description": "Wheat is produced from seeds planted in tilled soil, and left for some time. You can accelerate it with bonemeal, or later, modded items like watering cans, sprinklers, fertilizers, or lilypads of fertility (don\u0027t ask). Start planting!",
+      "x": 227,
+      "y": 17,
+      "icon": {
+        "id": "minecraft:wheat"
+      },
+      "prerequisites": [
+        "Spreading Your Seed"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Collect Wheat",
+          "longDescription": "Collect three blocks of wheat.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:wheat"
+              },
+              "required": 3
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Make Bread",
+          "longDescription": "Form three blocks of wheat in a line in a crafting table and it will turn to bread. Yes, I know this is really unrealistic. You also knocked down a tree with your bare hands earlier. Think about that.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bread"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:pumpkin_seeds"
+        },
+        {
+          "id": "minecraft:melon_seeds"
+        },
+        {
+          "id": "minecraft:carrot"
+        },
+        {
+          "id": "minecraft:potato"
+        }
+      ]
+    },
+    {
+      "name": "Knock Knock",
+      "description": "Hopefully it has not gotten dark yet. If so, you are in trouble! You need a safe shelter. You could probably turn some logs into planks and surround yourself with them. Now how do you get out! Make a door! Doors keep bad guys out. They don\u0027t know how to use them. Meanwhile, you can stare through doors to see if there are nasties on the other side.",
+      "x": 108,
+      "y": 51,
+      "icon": {
+        "id": "minecraft:wooden_door"
+      },
+      "prerequisites": [
+        "Deforestation"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:wooden_door"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:planks",
+          "amount": 6
+        },
+        {
+          "id": "TConstruct:GlassBlock",
+          "amount": 2
+        },
+        {
+          "id": "minecraft:torch"
+        }
+      ]
+    },
+    {
+      "name": "Nice Chest",
+      "description": "Run out of room in your inventory yet? If not, you will soon! Chests are places where you can store excess inventory. Mods provide *very intricate* ways to store things, but a vanilla chest is a good start. Lay 8 planks in a square and you\u0027ll build a chest. You can place two chests side-by-side to make a double chest, but no wider! The chest must be free on top to be able to use it. Right-click to place it, and right-click to use it.",
+      "x": 139,
+      "y": 71,
+      "icon": {
+        "id": "minecraft:chest"
+      },
+      "prerequisites": [
+        "Deforestation"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:chest"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:chest"
+        }
+      ]
+    },
+    {
+      "name": "Diamonds!",
+      "description": "Diamonds are a top-tier, rare item to find while mining. You will need a pick of higher quality to get this stuff. Some examples: iron, bronze, steel, and alumite. Your best bet is to get down to Y\u003d12 and just plug away. Navigate lava caves down there with a bucket of water. Diamonds are the default \"I need this to be hard to do\" recipe ingredient. You will need a few of them in your adventures.",
+      "x": 259,
+      "y": 113,
+      "icon": {
+        "id": "minecraft:diamond"
+      },
+      "prerequisites": [
+        "{Tools and Toys}[Mining Like The Romans]",
+        "Iron Man",
+        "{Tools and Toys}[I Pick You!]",
+        "{Go To Hell}[Try The Pink Stuff]"
+      ],
+      "parentrequirement": 1,
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Here I would like to mention that if you get to The Nether, you can find piles of diamond ore at Y\u003d34, which is roughly right above the lava oceans that spawn there. Each one of those blocks gives you two diamonds. The \"Go To Hell\" chapter has all kinds of tips on how to get to The Nether much earlier than most people do in a vanilla game.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:diamond"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:diamond"
+        },
+        {
+          "id": "minecraft:apple",
+          "amount": 3
+        },
+        {
+          "id": "Backpack:workbenchbackpack",
+          "damage": 217
+        }
+      ]
+    },
+    {
+      "name": "Lapius Lazuli",
+      "description": "This is actually a vanilla minecraft item that you can mine. It\u0027s generally used wherever you need something \"blue\" in modded recipes. If you apply it to a tool, it will start to apply \"fortune\" to it. Coal will give more coal, lapis will give more lapis, and ... diamonds will give more diamonds.",
+      "x": 254,
+      "y": 86,
+      "icon": {
+        "id": "minecraft:dye",
+        "damage": 4
+      },
+      "prerequisites": [
+        "Iron Man"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:dye",
+                "damage": 4
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:lapis_block"
+        }
+      ]
+    },
+    {
+      "name": "Hoedown",
+      "description": "You can use a hoe to till the earth. To actually get usable farmland, it has to be dirt within three squares of water. If you get a bucket, you can actually place some water closer to your base. Otherwise, you will have to run out to somewhere potentially unsafe to play with crops.",
+      "x": 136,
+      "y": 17,
+      "icon": {
+        "id": "minecraft:wooden_hoe"
+      },
+      "prerequisites": [
+        "mineCRAFT"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:wooden_hoe"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:stick",
+          "amount": 2
+        },
+        {
+          "id": "minecraft:planks",
+          "amount": 2
+        },
+        {
+          "id": "minecraft:apple"
+        }
+      ]
+    },
+    {
+      "name": "Spreading Your Seed",
+      "description": "Seeds grow wheat in tilled soil. You will have to find some seeds. How? Punch some grass! You\u0027ll eventually find some. Various mods in Minecraft add all kinds of other seeds. We are including two common ones: barley and cotton. Barley is generally grows better than wheat and is mostly exchangeable. Cotton produces string and wool, which you\u0027ll need for cloth recipes.",
+      "x": 183,
+      "y": 17,
+      "icon": {
+        "id": "minecraft:wheat_seeds"
+      },
+      "prerequisites": [
+        "Hoedown"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:wheat_seeds"
+              }
+            },
+            {
+              "item": {
+                "id": "Natura:barley.seed",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "Natura:barley.seed"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:bread"
+        },
+        {
+          "id": "minecraft:wheat_seeds",
+          "amount": 3
+        },
+        {
+          "id": "Natura:barley.seed",
+          "damage": 1,
+          "amount": 3
+        },
+        {
+          "id": "Natura:barley.seed",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "Sugar Cane Make Paper",
+      "description": "Yes, sugar cane is used to make paper. I know. Anyways, you\u0027ll find some reeds of it near bodies of water sometimes. Just punch them. You can plant them on ground adjacent to water near your base. They grow fastest on sand. They won\u0027t grow on tilled soil.",
+      "x": 264,
+      "y": 17,
+      "icon": {
+        "id": "minecraft:reeds"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:reeds"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:reeds",
+          "amount": 3
+        },
+        {
+          "id": "minecraft:paper"
+        },
+        {
+          "id": "minecraft:sugar"
+        },
+        {
+          "id": "minecraft:apple"
+        }
+      ]
+    },
+    {
+      "name": "Buckets",
+      "description": "You\u0027re going to have to move some water and lava around. Right now, you\u0027re particularly probably obsessed with getting a farm going inside your base. Yes, you can do that. You can grow trees inside too! But for crops, you will need it well-lit, and water within three blocks of the dirt you\u0027re trying to use. So carrying some water in a bucket to your magic spot is crucial.",
+      "x": 235,
+      "y": 130,
+      "icon": {
+        "id": "minecraft:bucket"
+      },
+      "prerequisites": [
+        "Iron Man"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bucket"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:bucket"
+        },
+        {
+          "id": "minecraft:melon_seeds",
+          "amount": 4
+        },
+        {
+          "id": "minecraft:pumpkin_seeds",
+          "amount": 4
+        },
+        {
+          "id": "minecraft:carrot",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Bed Time",
+      "description": "At night, you can use a bed to, well, skip the night until the morning. This is a good way to weather being surrounded by monsters. Speaking of weather, you can also use it to skip rain. However, you can\u0027t already be surrounded by monsters. It will also reset your spawn point, so if you die, you will go back to that bed . . . if you keep it where it was. On a server with other people, this does not work unless the server has it set that if a majority of users hit the sack, it will advance the time.",
+      "x": 75,
+      "y": 124,
+      "icon": {
+        "id": "minecraft:bed"
+      },
+      "prerequisites": [
+        "Wool In Your Eyes",
+        "Deforestation"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:bed"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:wool",
+          "amount": 5
+        },
+        {
+          "id": "BiblioCraft:BiblioLamp"
+        }
+      ]
+    },
+    {
+      "name": "Covering Your Glass Hole",
+      "description": "You can turn sand into glass in a furnace. This glass breaks if harvested from the world. Later, you can throw sand in the smeltery and get a glass that isn\u0027t so encumbered. However, this kind of glass is useful in various game modifications, so you should get comfortable with it.",
+      "x": 182,
+      "y": 194,
+      "icon": {
+        "id": "minecraft:glass"
+      },
+      "prerequisites": [
+        "Mr. Sandman"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:glass"
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:glass",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Brick House",
+      "description": "You can turn clay into bricks in the furnace too. If you want to make a brick house, good for you. Some game mods use bricks in their recipes, so you should at least know where it comes from.",
+      "x": 45,
+      "y": 186,
+      "icon": {
+        "id": "minecraft:brick_block"
+      },
+      "prerequisites": [
+        "Clay More"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:brick"
+              },
+              "required": 5
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:brick_block",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:brick",
+          "amount": 7
+        }
+      ]
+    },
+    {
+      "name": "I\u0027m On A Boat!",
+      "description": "Boats let you quickly whisk across water. They are also buggy as all hell. The boats will randomly break, and you will find yourself some distance back from where you just were. But with the oceans in the Alternate Terrain Generator, they are a great way to poke around other regions. Monsters don\u0027t swim very well, so you can kind of hide out in the ocean overnight. If you plan on taking an ocean trip, build more than one of them. Right-click some water with the boat selected to place it. Right-click on the boat to get in. Hit Shift to get out. The boat might fling itself away from you, but if it stays in range, you can usually bop it with an axe to reclaim it. Or it will crash into the shore and turn into chunks of wood. Your luck. Build more than one.",
+      "x": 142,
+      "y": 146,
+      "icon": {
+        "id": "minecraft:boat"
+      },
+      "prerequisites": [
+        "Deforestation"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:boat"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:boat"
+        },
+        {
+          "id": "minecraft:fish",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Dynamite!! (Actually, TNT)",
+      "description": "You may have noticed you got two TNT for punching a tree. This is a bizarre reward, but I have my reasons. You have to find yourself a place to set up your base before the sun goes down. While on a tree murdering spree, look for cool places to tuck into for, well, the rest of the game. The most surefire thing you can do is get to sea level and just scrape into the side of a mound. Or you can just start digging downwards diagonally into the dirt. If there\u0027s a redwood tree nearby, you can live in that, although it\u0027s a liability for fires, as well as if you run a tree harvester near it; it will end up eating up your base! On the plus side, VeinMiner ignores the bark, so you can quickly clear the inside without risking wrecking the whole tree. However, for this game, I am partial to caves, if you can find them. You have to be fast. You want to plug off the cave with whatever you have at hand (wood, dirt, sand) so baddies can\u0027t come from deeper inside and kill you before you illuminate the whole cave. Either way, the dynamite will help you very quickly, and ceremoniously, make some holes in the rock. You will want to put it, say, at least 8 blocks of dirt underground. Otherwise, it might pop a big hole in the roof and leave you exposed. It\u0027s usually better to deploy it once you\u0027re hitting rock. Use the buttons you\u0027re getting here for free to trigger the TNT. Place the button next to the TNT, right click it, and run back a good 12 blocks or more. The two blocks of TNT should carve you out a nice starting space.",
+      "x": 72,
+      "y": 15,
+      "icon": {
+        "id": "minecraft:tnt"
+      },
+      "prerequisites": [
+        "Punching Trees"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:log"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:stone_button",
+          "amount": 2
+        },
+        {
+          "id": "minecraft:apple"
+        }
+      ]
+    }
+  ],
+  "reputation": []
+}

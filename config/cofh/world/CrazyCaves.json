@@ -1,0 +1,529 @@
+{
+	"caves": {
+        "template": "uniform",
+		"block": "minecraft:air",
+        "material": "minecraft:stone",
+        "clusterSize": 300,
+        "numClusters": 30,
+        "minHeight": 3,
+        "maxHeight": 256,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [0]
+    },	
+    "strata1": {
+        "template": "uniform",
+        "block": "Artifice:tile.artifice.limestone.bluish",
+        "material": "minecraft:stone",
+        "clusterSize": 30,
+        "numClusters": 15,
+        "minHeight": 60,
+        "maxHeight": 70,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [0]
+    },
+    "strata2": {
+        "template": "uniform",
+        "block": "Artifice:tile.artifice.limestone.greenish",
+        "material": "minecraft:stone",
+        "clusterSize": 30,
+        "numClusters": 15,
+        "minHeight": 70,
+        "maxHeight": 80,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [0]
+    },
+    "strata3": {
+        "template": "uniform",
+        "block": "Artifice:tile.artifice.limestone.brown",
+        "material": "minecraft:stone",
+        "clusterSize": 30,
+        "numClusters": 15,
+        "minHeight": 80,
+        "maxHeight": 90,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [0]
+    },
+    "strata4": {
+        "template": "uniform",
+        "block": "Artifice:tile.artifice.basalt",
+        "material": "minecraft:stone",
+        "clusterSize": 30,
+        "numClusters": 15,
+        "minHeight": 90,
+        "maxHeight": 100,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [0]
+    },
+    "strata5": {
+        "template": "uniform",
+        "block": "Artifice:tile.artifice.limestone.reddish",
+        "material": "minecraft:stone",
+        "clusterSize": 30,
+        "numClusters": 15,
+        "minHeight": 100,
+        "maxHeight": 110,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [0]
+    },
+    "strata6": {
+        "template": "uniform",
+        "block": "Artifice:tile.artifice.limestone.tan",
+        "material": "minecraft:stone",
+        "clusterSize": 30,
+        "numClusters": 15,
+        "minHeight": 110,
+        "maxHeight": 120,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [0]
+    },
+    "strata7": {
+        "template": "uniform",
+        "block": "Artifice:tile.artifice.limestone.lightgray",
+        "material": "minecraft:stone",
+        "clusterSize": 30,
+        "numClusters": 15,
+        "minHeight": 120,
+        "maxHeight": 130,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [0]
+    },
+    "strata8": {
+        "template": "uniform",
+        "block": "Artifice:tile.artifice.marble",
+        "material": "minecraft:stone",
+        "clusterSize": 30,
+        "numClusters": 15,
+        "minHeight": 130,
+        "maxHeight": 140,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [0]
+    },
+    "strata9": {
+        "template": "uniform",
+        "block": "Artifice:tile.artifice.limestone.gray",
+        "material": "minecraft:stone",
+        "clusterSize": 30,
+        "numClusters": 15,
+        "minHeight": 140,
+        "maxHeight": 150,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [0]
+    },	
+    "strata10": {
+        "template": "uniform",
+        "block": "Artifice:tile.artifice.limestone.bluish",
+        "material": "minecraft:stone",
+        "clusterSize": 30,
+        "numClusters": 15,
+        "minHeight": 150,
+        "maxHeight": 160,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [0]
+    },
+    "strata11": {
+        "template": "uniform",
+        "block": "Artifice:tile.artifice.limestone.greenish",
+        "material": "minecraft:stone",
+        "clusterSize": 30,
+        "numClusters": 15,
+        "minHeight": 160,
+        "maxHeight": 170,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [0]
+    },
+    "strata12": {
+        "template": "uniform",
+        "block": "Artifice:tile.artifice.limestone.brown",
+        "material": "minecraft:stone",
+        "clusterSize": 30,
+        "numClusters": 15,
+        "minHeight": 170,
+        "maxHeight": 180,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [0]
+    },
+    "strata13": {
+        "template": "uniform",
+        "block": "Artifice:tile.artifice.basalt",
+        "material": "minecraft:stone",
+        "clusterSize": 30,
+        "numClusters": 15,
+        "minHeight": 180,
+        "maxHeight": 190,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [0]
+    },
+    "strata14": {
+        "template": "uniform",
+        "block": "Artifice:tile.artifice.limestone.reddish",
+        "material": "minecraft:stone",
+        "clusterSize": 30,
+        "numClusters": 15,
+        "minHeight": 190,
+        "maxHeight": 200,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [0]
+    },
+    "strata15": {
+        "template": "uniform",
+        "block": "Artifice:tile.artifice.limestone.tan",
+        "material": "minecraft:stone",
+        "clusterSize": 30,
+        "numClusters": 15,
+        "minHeight": 200,
+        "maxHeight": 210,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [0]
+    },
+    "strata16": {
+        "template": "uniform",
+        "block": "Artifice:tile.artifice.limestone.lightgray",
+        "material": "minecraft:stone",
+        "clusterSize": 30,
+        "numClusters": 15,
+        "minHeight": 210,
+        "maxHeight": 220,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [0]
+    },
+    "strata17": {
+        "template": "uniform",
+        "block": "Artifice:tile.artifice.marble",
+        "material": "minecraft:stone",
+        "clusterSize": 30,
+        "numClusters": 15,
+        "minHeight": 220,
+        "maxHeight": 230,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [0]
+    },
+    "strata18": {
+        "template": "uniform",
+        "block": "Artifice:tile.artifice.limestone.gray",
+        "material": "minecraft:stone",
+        "clusterSize": 30,
+        "numClusters": 15,
+        "minHeight": 230,
+        "maxHeight": 240,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [0]
+    },		
+    "tinHigh": {
+        "template": "uniform",
+        "block": {"name": "ThermalFoundation:Ore", "metadata": 1},
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 15,
+        "minHeight": 64,
+        "maxHeight": 256,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [0]
+    },
+    "silverHigh": {
+        "template": "uniform",
+        "block": [
+            {"name": "ThermalFoundation:Ore", "metadata": 2, "weight":80},
+            {"name": "ThermalFoundation:Ore", "metadata": 3, "weight":20}
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 15,
+        "minHeight": 64,
+        "maxHeight": 256,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [0]
+    },
+    "leadHigh": {
+        "template": "uniform",
+        "block": [
+            {"name": "ThermalFoundation:Ore", "metadata": 3, "weight": 90},
+            {"name": "ThermalFoundation:Ore", "metadata": 2, "weight": 10}
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 15,
+        "minHeight": 64,
+        "maxHeight": 256,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [0]
+    },
+    "nickelHigh": {
+        "template": "uniform",
+        "block": {"name": "ThermalFoundation:Ore", "metadata": 4},
+        "material": "minecraft:stone",
+        "clusterSize": 4,
+        "numClusters": 16,
+        "minHeight": 64,
+        "maxHeight": 256,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [0]
+    },
+    "platinumHigh": {
+        "template": "uniform",
+        "chunkChance": 4,
+        "block": [
+            {"name": "ThermalFoundation:Ore", "metadata": 5, "weight": 80},
+            {"name": "ThermalFoundation:Ore", "metadata": 4, "weight": 20}
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 4,
+        "minHeight": 64,
+        "maxHeight": 256,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [0]
+    },
+	"yelloriteHigh": {
+        "template": "uniform",
+        "block": "BigReactors:YelloriteOre",
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 15,
+        "minHeight": 64,
+        "maxHeight": 256,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [0]
+    },
+    "coalHigh": {
+        "template": "uniform",
+        "block": "coal_ore",
+        "material": "stone",
+        "clusterSize": 16,
+        "numClusters": 15,
+        "minHeight": 64,
+        "maxHeight": 256,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [0]
+    },
+    "ironHigh": {
+        "template": "uniform",
+        "block": "iron_ore",
+        "material": "stone",
+        "clusterSize": 12,
+        "numClusters": 60,
+        "minHeight": 80,
+        "maxHeight": 256,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [0]
+    },
+    "goldHigh": {
+        "template": "uniform",
+        "block": "gold_ore",
+        "material": "stone",
+        "clusterSize": 8,
+        "numClusters": 25,
+        "minHeight": 64,
+        "maxHeight": 256,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [0]
+    },
+    "redstoneHigh": {
+        "template": "uniform",
+        "block": "redstone_ore",
+        "material": "stone",
+        "clusterSize": 7,
+        "numClusters": 40,
+        "minHeight": 64,
+        "maxHeight": 256,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [0]
+    },
+    "diamondHigh": {
+        "template": "uniform",
+        "block": "diamond_ore",
+        "material": "stone",
+        "clusterSize": 7,
+        "numClusters": 12,
+        "minHeight": 64,
+        "maxHeight": 256,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [0]
+    },
+    "emeraldHigh": {
+        "template": "uniform",
+        "block": "emerald_ore",
+        "material": "stone",
+        "clusterSize": 7,
+        "numClusters": 12,
+        "minHeight": 64,
+        "maxHeight": 256,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [0]
+    },
+    "lapisHigh": {
+        "template": "uniform",
+        "block": "lapis_ore",
+        "material": "stone",
+        "clusterSize": 6,
+        "numClusters": 12,
+        "minHeight": 64,
+        "maxHeight": 256,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [0]
+    },
+    "aluminumHigh": {
+        "template": "uniform",
+        "block": {
+			"name": "TConstruct:SearedBrick", 
+			"metadata": 5
+		},	
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 30,
+        "minHeight": 64,
+        "maxHeight": 256,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [0]
+    }
+}

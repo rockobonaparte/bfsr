@@ -1,0 +1,227 @@
+{
+    "copper": {
+        "template": "uniform",
+        "block": "ThermalFoundation:Ore",
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 45,
+        "minHeight": 40,
+        "maxHeight": 80,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },	
+    "aluminum": {
+        "template": "uniform",
+        "block": {
+			"name": "TConstruct:SearedBrick", 
+			"metadata": 5
+		},	
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 30,
+        "minHeight": 40,
+        "maxHeight": 80,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "tin": {
+        "template": "uniform",
+        "block": {"name": "ThermalFoundation:Ore", "metadata": 1},
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 50,
+        "minHeight": 20,
+        "maxHeight": 64,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "silver": {
+        "template": "uniform",
+        "block": [
+            {"name": "ThermalFoundation:Ore", "metadata": 2, "weight":80},
+            {"name": "ThermalFoundation:Ore", "metadata": 3, "weight":20}
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 20,
+        "minHeight": 5,
+        "maxHeight": 40,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "lead": {
+        "template": "uniform",
+        "block": [
+            {"name": "ThermalFoundation:Ore", "metadata": 3, "weight": 90},
+            {"name": "ThermalFoundation:Ore", "metadata": 2, "weight": 10}
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 30,
+        "minHeight": 10,
+        "maxHeight": 40,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "nickel": {
+        "template": "uniform",
+        "block": {"name": "ThermalFoundation:Ore", "metadata": 4},
+        "material": "minecraft:stone",
+        "clusterSize": 4,
+        "numClusters": 24,
+        "minHeight": 5,
+        "maxHeight": 42,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "platinum": {
+        "template": "uniform",
+        "chunkChance": 4,
+        "block": [
+            {"name": "ThermalFoundation:Ore", "metadata": 5, "weight": 80},
+            {"name": "ThermalFoundation:Ore", "metadata": 4, "weight": 20}
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 4,
+        "minHeight": 5,
+        "maxHeight": 12,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "copperHigh": {
+        "template": "uniform",
+        "block": "ThermalFoundation:Ore",
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 70,
+        "minHeight": 48,
+        "maxHeight": 96,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"osmium_booster": {
+        "template": "uniform",
+        "block": "Mekanism:OreBlock",
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 15,
+        "minHeight": 10,
+        "maxHeight": 120,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"yellorite": {
+        "template": "uniform",
+        "block": "BigReactors:YelloriteOre",
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 30,
+        "minHeight": 10,
+        "maxHeight": 40,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"silicon": {
+        "template": "uniform",
+        "block": {
+			"name": "GalacticraftCore:tile.gcBlockCore", 
+			"metadata": 8
+		},		
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 30,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}

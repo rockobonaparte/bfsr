@@ -1,0 +1,77 @@
+{
+    "extra_glowstone": {
+        "template": {
+			"type": "cave", 
+			"generator": "stalactite",
+			"ceiling": "true",
+			"genBody": "minecraft:air",
+			"minHeight": 3,
+			"heightVariance": 10,
+			"genSize": 6,
+			"heightMod": 3,
+			"sizeVariance": 4,
+			"smooth": "false",
+			"fat": "true"			
+		},
+        "block": "minecraft:glowstone",
+        "material": "minecraft:netherrack",		
+        "clusterSize": 20,
+        "numClusters": 2,
+        "minHeight": 48,
+        "maxHeight": 110,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "none",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "cobalt": {
+        "template": "uniform",
+        "block": {
+			"name": "TConstruct:SearedBrick", 
+			"metadata": 1
+		},		
+        "material": "minecraft:netherrack",		
+        "clusterSize": 6,
+        "numClusters": 35,
+        "minHeight": 1,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "none",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "ardite": {
+        "template": "uniform",
+        "block": {
+			"name": "TConstruct:SearedBrick", 
+			"metadata": 2 
+		},	
+        "material": "minecraft:netherrack",		
+        "clusterSize": 6,
+        "numClusters": 24,
+        "minHeight": 1,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "none",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}

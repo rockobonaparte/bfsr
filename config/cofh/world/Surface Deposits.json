@@ -1,0 +1,56 @@
+{
+	"surface_lava":
+	{
+        "template": {
+			"type": "surface", 
+			"generator": "lake",
+			"outlineBlock": "Artifice:tile.artifice.basalt",
+			"useMaterial": "true"
+		},
+        "block": "minecraft:lava",
+        "material": [
+			{ "name": "minecraft:stone" },
+			{ "name": "minecraft:dirt" },
+			{ "name": "minecraft:grass" }
+		],
+        "clusterSize": 20,
+        "numClusters": 2,
+        "minHeight": 58,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+	},
+    "pond_clay": 
+	{
+        "template": {
+			"type": "underfluid",
+			"genFluid": "minecraft:water"
+		},
+        "block": "clay",		
+        "material": [
+			{ "name": "minecraft:sand" },
+			{ "name": "minecraft:gravel" },
+			{ "name": "minecraft:stone" },
+			{ "name": "minecraft:dirt" },
+			{ "name": "Mekanism:SaltBlock" }
+		],		
+        "clusterSize": 16,
+        "numClusters": 28,
+        "minHeight": 48,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "blacklist",
+        "biomes": [2, 17, 130],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }	
+}

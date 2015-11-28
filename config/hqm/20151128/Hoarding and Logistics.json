@@ -1,0 +1,1149 @@
+{
+  "name": "Hoarding and Logistics",
+  "description": "This chapter shows some ways to move items and fluids around. There are also some novel storage devices. It also introduces Applied Energistics 2, which is a comprehensive storage and automation modification. Your entire item storage system can be represented in basically hard disks with it. You whole bases\u0027 inventory could collapse down into a single, searchable storage box with a screen. If you are getting all your stuff mixed up, I would suggest trying it out. The quest rewards eliminate some of the tedium in setting it up.",
+  "quests": [
+    {
+      "name": "Fetch Me An Ale, Wrench!",
+      "description": "You will find various technical mods have their own magic tool for doing this or that. The crescent hammer from Thermal Expansion works with most of them. When it becomes time to start setting up machinery in your base, the wrench because more important than your pickaxe. When you right-click machines with this tool, it will preserve the state of the machines--often even preserving their inventory so it isn\u0027t vomited on the floor. Fluid tanks keep their fluids. Batteries keep their power. Most convenient is that one right-click will dismantle the machine, duct, pipe, conduit, or whatever you have. This is much more convenient than having to bang on them with a pick.",
+      "x": 26,
+      "y": 21,
+      "icon": {
+        "id": "ThermalExpansion:wrench"
+      },
+      "prerequisites": [
+        "{Vanilla Minecraft}[Iron Man]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "You will need 3 iron ingots and 1 tin ingot to make this crescent hammer. It will never wear out, so you will have this for the rest of your game. You should look into creating a traveller\u0027s belt so you can set up a \"domestic\" hotbar separate from an \"adventure\" hotbar.",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalExpansion:wrench"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ThermalExpansion:meter"
+        }
+      ]
+    },
+    {
+      "name": "Ducts For Items And Water",
+      "description": "You can use ducts to connect machines to chests, chests to chests, and machines to machines. There are ducts specifically for items and ducts specifically for fluids. They can be upgraded. Note, you don\u0027t want to pump lava through these basic fluid ducts; they\u0027ll blow up.",
+      "x": 26,
+      "y": 80,
+      "icon": {
+        "id": "ThermalDynamics:ThermalDynamics_32"
+      },
+      "prerequisites": [
+        "Fetch Me An Ale, Wrench!"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalDynamics:ThermalDynamics_16",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "ThermalDynamics:ThermalDynamics_32",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:materials",
+          "damage": 9,
+          "amount": 4
+        },
+        {
+          "id": "TConstruct:materials",
+          "damage": 10,
+          "amount": 4
+        },
+        {
+          "id": "minecraft:glass",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Item Filtering",
+      "description": "Filters control items going in, and servos control items going out. This is how you can set up routing between places. Slap them on the ends of ducts and then configure them with your bare hand. You can right-click on one with that crescent hammer to take it off the pipe.",
+      "x": 25,
+      "y": 143,
+      "icon": {
+        "id": "ThermalDynamics:servo"
+      },
+      "prerequisites": [
+        "Ducts For Items And Water"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Pushing And Pulling",
+          "longDescription": "Annoying tip: The servos don\u0027t automatically draw from connected devices. They have to be activated. You could put a lever next to one and flip it on, but that\u0027s dumb. When right-clicking on one, you will see its options. Over in the top-right is a red area you can expand to determine how it triggers from redstone signals. Disable that and it will switch to \"always on.\"",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalDynamics:filter"
+              }
+            },
+            {
+              "item": {
+                "id": "ThermalDynamics:servo"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Levers For The Servos",
+          "longDescription": "Well, maybe you want to use a lever. I\u0027m not your mom.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:lever"
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ThermalDynamics:retriever",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Storing Fluids",
+      "description": "Sometimes you\u0027ll feel the need to move some fluids around. Specifically, lava, and probably destabilized redstone later. You can put in and take out fluids from these with a bucket, connect them with fluiducts, or put them right on top of machines that take their fluids. The seared tanks from Tinker\u0027s Construct can handle most fluids too, but only 4 buckets worth. These can handle 8. There are higher-tier ones that can handle more.",
+      "x": 66,
+      "y": 115,
+      "icon": {
+        "id": "ThermalExpansion:Tank",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Ducts For Items And Water"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Fun note: If you fill one of these up with lava, put it on top of a lava generator for electrical power, and then left click the bottom of it with a crescent hammer, it will automatically dump into it. It could be enough RF power for the machines you need to get to the moon. However, you\u0027d have to be frugal, and you\u0027re probably better off... using more than two lava generators.",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalExpansion:Tank",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ThermalDynamics:ThermalDynamics_16",
+          "damage": 2,
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "name": "A Higher-Capacity Chest",
+      "description": "If you want to just cram more stuff into the same chest, try an iron chest. It has more slots to it. Wasn\u0027t that nice?",
+      "x": 59,
+      "y": 82,
+      "icon": {
+        "id": "IronChest:BlockIronChest"
+      },
+      "prerequisites": [
+        "{Vanilla Minecraft}[Iron Man]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "IronChest:BlockIronChest"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "IronChest:BlockIronChest"
+        }
+      ]
+    },
+    {
+      "name": "Applied Energistics",
+      "description": "The Applied Energistics 2 (hearby known as \"AE2\" is a crazy storage and automation Minecraft mod. You could set this up with a bunch of your machines to make everything for you before you even need it, automatically. People on servers who are into this tend to turn into the IT Guy. It\u0027s seriously nuts. But for today, we\u0027re just going to exploit storage. Imagine instead of all these stupid chests that all your items were stored on hard disks, and you could get them and craft with them from a single computer? You can!",
+      "x": 181,
+      "y": 14,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiMaterial"
+      },
+      "prerequisites": [
+        "{Vanilla Minecraft}[MINEcraft]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Normal AE2 requires going on a scavenger hunt for a bunch of crap to really get into it. Instead, just show me some AE2 Certus Quartz and I\u0027ll give you the stuff that would require hours of hunting around.",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 15
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 14
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 13
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 19
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 1,
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Processors",
+      "description": "Many of the recipes require various processors. I gave you all the forms for them in the intro quest. You will need to build a press and then use the templates to make the processors. The important thing to know is when a recipe calls for a processor, it\u0027s always the same material and press as these: engineering \u003d diamond, calculation \u003d certus quartz, logic \u003d gold, and silicon \u003d ...silicon.",
+      "x": 218,
+      "y": 38,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiMaterial",
+        "damage": 22
+      },
+      "prerequisites": [
+        "Applied Energistics"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Inscriber",
+          "longDescription": "Build an inscriber. You\u0027ll need some sticky pistons, which are derived from slime. This inscriber will produce all these processors.",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockInscriber"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Logic Processor",
+          "longDescription": "Run some gold through with the logic press, then some silicon through with the silicon press. Then put the two pieces in the two main slots without a press. Add some redstone in the middle slot and it will inscribe you an actual processor. Isn\u0027t that how you make chips in the real world? I have people in the industry, and they tell me all that stuff about hydrochloric acid and laser etching is just a front for smashing gold and burnt quartz together.",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 22
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 22,
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "Data Cables",
+      "description": "AE2\u0027s machines are connected together into what is called a \"Material Energy^3 Network,\" or \"ME Network\" for short. The basic data cable for this will connect up to 8 AE2 devices at once. You can then make more sophisticated cables to handle more devices, but you will need to build a controller to facilitate more than 8 on one network. We\u0027re just starting out with an \"ad hoc\" network.",
+      "x": 186,
+      "y": 60,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiPart",
+        "damage": 16
+      },
+      "prerequisites": [
+        "Applied Energistics"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "I suppose you shouldn\u0027t be too surprised by the number of people in IT that like AE2. It\u0027s just like their day job, except monsters literally do blow up on them! Fun fact: My manager tried this mod pack as part of a teambuilding exercise, and he literally dug himself into a hole he couldn\u0027t escape. I can\u0027t make this stuff up!",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiPart",
+                "damage": 16
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:item.ItemMultiPart",
+          "damage": 16,
+          "amount": 4
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 3,
+          "amount": 4
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 2,
+          "amount": 4
+        },
+        {
+          "id": "appliedenergistics2:tile.BlockCharger"
+        }
+      ]
+    },
+    {
+      "name": "Drive To Succeed",
+      "description": "An ME drive stores up to 10 storage cells. So you can plop 10 of those 1k drives in. This will let you store 41,600 instances spread across 630 items, depending on circumstance. It\u0027s something like having 23 chests in one space! Well, that\u0027s when you fill it up with storage cells. You\u0027ll start with your first one, although I will give you two more for putting up with this.",
+      "x": 225,
+      "y": 118,
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockDrive"
+      },
+      "prerequisites": [
+        "Data Cables",
+        "Your First Hard Drive"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "You\u0027re going to need two engineering processors to make this thing. You\u0027ll need to use the engineering press with diamonds to manufacture them.",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockDrive"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:tile.BlockSkyStone",
+          "amount": 8
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 1,
+          "amount": 8
+        },
+        {
+          "id": "appliedenergistics2:item.ItemBasicStorageCell.1k",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Your First Hard Drive",
+      "description": "We will make a 1K storage cell. All the storage cells can store only 63 unique items. The 1K storage cell can store 4160 items, spread across at most 63 unique items. Alternately, it can store something like 8128 instances of a single item. For our race to the moon, this is good enough. Consider putting all your logs and cobblestone somewhere else, like a Deep Storage Unit.",
+      "x": 246,
+      "y": 73,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemBasicStorageCell.1k"
+      },
+      "prerequisites": [
+        "Processors"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemBasicStorageCell.1k"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 12,
+          "amount": 8
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 2,
+          "amount": 8
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 3,
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "A Terminal Condition",
+      "description": "You can\u0027t actually use this network without a terminal. We are going to build a crafting terminal. Not only will this show you everything stored inside your drives, but you can craft from it directly. You don\u0027t have to take everything out, do your stuff, and put it back in. No, you can do it right there in the built-in crafting grid!",
+      "x": 196,
+      "y": 151,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiPart",
+        "damage": 360
+      },
+      "prerequisites": [
+        "Accept My Love"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "The Basic Terminal",
+          "longDescription": "Technically, if you just make this terminal and hook it up to the network, you should be able to see your stuff. Well, after you supply power, of course!",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiPart",
+                "damage": 380
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "The Crafting Terminal",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiPart",
+                "damage": 360
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:item.ItemBasicStorageCell.1k"
+        },
+        {
+          "id": "appliedenergistics2:tile.BlockEnergyCell"
+        }
+      ]
+    },
+    {
+      "name": "I Need Some ME Time",
+      "description": "These are like the brains of an ME network. IT people would consider it more like a router. With a controller, you can handle more than 8 devices at a time. Connect power up to the controller, and it will power the rest of the network. Each side allows a cable out to as many devices as the cable supports. So with our basic cables, you can connect 8 devices out from each side individually. Assuming one side is being given power, that\u0027s 5 sides to spare, so you could operate 40 devices from this controller with basic cables.",
+      "x": 247,
+      "y": 175,
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockController"
+      },
+      "prerequisites": [
+        "Your First Hard Drive",
+        "A Terminal Condition"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockController"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "extracells:part.base",
+          "damage": 3
+        },
+        {
+          "id": "extracells:storage.fluid"
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "Deep Storage Unit",
+      "description": "This is a powered device that can store ridiculous amount of ... one single item. It\u0027s a great place to stuff cobblestone, for example. Lots and lots of cobblestone. Like, billions of cobblestone.",
+      "x": 139,
+      "y": 180,
+      "icon": {
+        "id": "MineFactoryReloaded:machine.1",
+        "damage": 3
+      },
+      "prerequisites": [
+        "{Vanilla Minecraft}[Iron Man]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.1",
+                "damage": 3
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "IronChest:BlockIronChest",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Back To School",
+      "description": "You may find that your inventory is just loaded up with random junk, and it\u0027s getting really tedious to run back to your base just to throw it all into storage. You could make a backpack. Right click on it, and it will open up a brand-new inventory into which you can shove stuff and keep going. It\u0027s made from leather. If you\u0027re short on cows or don\u0027t want to harm them, you can run some zombie flesh through a furnace to make the leather.",
+      "x": 137,
+      "y": 54,
+      "icon": {
+        "id": "Backpack:backpack"
+      },
+      "prerequisites": [
+        "{Bear Grylls Quick Guide}[Crawling In My Skin]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Backpack:backpack"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Backpack:workbenchbackpack",
+          "damage": 17
+        }
+      ]
+    },
+    {
+      "name": "Accept My Love",
+      "description": "Did I mention an ME network needs power? To feed it some of that RF juice, you will need an energy acceptor. Put that somewhere on the network and connect your power generators to it.",
+      "x": 180,
+      "y": 111,
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockEnergyAcceptor"
+      },
+      "prerequisites": [
+        "Data Cables"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockEnergyAcceptor"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:glowstone_dust",
+          "amount": 4
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 10,
+          "amount": 4
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 7,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Hardcore Plumbers",
+      "description": "The hardened fluiduct can withstand the extreme temperatures of lava. You are thinking of pumping lava into your smeltery, you will want to use these. The basic copper fluiducts will disintegrate very quickly.",
+      "x": 56,
+      "y": 143,
+      "icon": {
+        "id": "ThermalDynamics:ThermalDynamics_16",
+        "damage": 3
+      },
+      "prerequisites": [
+        "Ducts For Items And Water"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "These require invar, which is an alloy of 2:1 iron:nickel. You might need to dig down a little deeper to find ferrous/nickel ore. Fortunately, you don\u0027t need much of it.",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalDynamics:ThermalDynamics_16",
+                "damage": 3
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ThermalDynamics:ThermalDynamics_16",
+          "damage": 2,
+          "amount": 4
+        },
+        {
+          "id": "TConstruct:Smeltery",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "No, You Can\u0027t Sleep In It",
+      "description": "The knapsack is yet another way of portably storing an entire inventory\u0027s worth of stuff. The benefit of it over a backpack is that it exists in a separate inventory tab, so you don\u0027t normally have to see it. Well, that can also get annoying. It\u0027s better to use a backpack for fast storage, and a knapsack for longer-term storage. It requires making two iron tough tool rods. People usually make this thing later in the game then they could because they forget they can cast tough tool rods with a base Tinkers Construct tables.",
+      "x": 97,
+      "y": 20,
+      "icon": {
+        "id": "TConstruct:knapsack"
+      },
+      "prerequisites": [
+        "{Bear Grylls Quick Guide}[Crawling In My Skin]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Tough Tool Rods",
+          "longDescription": "The tough rod templating is confusing because the stencil is shaped different than the cast. You want to make sure you\u0027re getting the *tough* tool rod, not just a regular tool rod. If you screw up, throw the components back in the smeltery for a do-over.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:woodPattern",
+                "damage": 14
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:metalPattern",
+                "damage": 14
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Hit The Sack",
+          "longDescription": "You will have to cast two iron tough tool rods, which is an odd amount of iron. Think about what you use to make swords and picks, and then think about all the iron going into something you\u0027re slinging over your back. I don\u0027t get it either.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:knapsack"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:leather",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "Earning Your ... Brownish Belt",
+      "description": "The traveler\u0027s belt can only hold 9 items, which is coincidentally how many items you see in your hotbar. In fact, the belt lets you flip between your current hotbar and one it contains. So you can throw a bunch of junk in the toolbelt hotbar that you are normally struggling to balance in your current hotbar. Important note: You have to wear the belt through the armor screen in your inventory, and you have to use the belt toggle key to make the flip. That is mapped by default to \u0027B\u0027 which apparently every other mod is trying to use. I recommend going to the control configuration screen and changing it to \u0027V\u0027 or something else quick at your disposal.",
+      "x": 135,
+      "y": 19,
+      "icon": {
+        "id": "TConstruct:travelBelt",
+        "nbt": "{TinkerAccessory:{Damage:0,Built:1b,BaseDurability:500,ModDurability:0.0f,Broken:0b,BonusDurability:0,Modifiers:5,TotalDurability:500}}"
+      },
+      "prerequisites": [
+        "{Bear Grylls Quick Guide}[Crawling In My Skin]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Pay special attention to the aluminum you need. Yes, this is a really goofy belt. You will never be the cool kid in school with this belt, but with all the swords you\u0027ll hang off of it, nobody is going to say a thing to you.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:travelBelt",
+                "nbt": "{TinkerAccessory:{Damage:0,Built:1b,BaseDurability:500,ModDurability:0.0f,BonusDurability:0,Broken:0b,TotalDurability:500,Modifiers:5}}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:leather",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "name": "Golden Bag Of Holding",
+      "description": "This little bag has the capacity of a double chest! It is a nice bag to root for if you have a bunch of resources, but no leather. This usually happens when you\u0027re running around underground too much. However, you will need a diamond, a pile of gold, and some wool. You can make wool from string, but preferably you have been farming cotton. If not, I guess you will now!",
+      "x": 56,
+      "y": 180,
+      "icon": {
+        "id": "ExtraUtilities:golden_bag"
+      },
+      "prerequisites": [
+        "{Vanilla Minecraft}[Wool In Your Eyes]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Seriously, start handling cotton early in your game. If you are ever playing some other quest mod pack... get that cotton!",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:golden_bag"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ExtraUtilities:golden_bag"
+        }
+      ]
+    },
+    {
+      "name": "Awww Soo Cute!!! ::^_^::",
+      "description": "It\u0027s just little! If you put a chest in a crafting grid, you can turn it into 9 mini chests! This is totally stupid! Actually, it\u0027s a nice thing to have when you are setting up some automated piping system for your machines, and you need a buffer, but not a huge buffer. These little guys do the job perfectly.",
+      "x": 97,
+      "y": 83,
+      "icon": {
+        "id": "ExtraUtilities:chestMini"
+      },
+      "prerequisites": [
+        "{Vanilla Minecraft}[Nice Chest]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Throw a chest in a crafting grid. End of story. If you hate it, put all 9 of the mini chests back in the grid and get your chest back.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:chestMini"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chisel:present",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Getting Drawered In",
+      "description": "The Storage Drawers mod is new for Minecraft 1.7.10. Applied Energistics is still well-regarded as the ultimate storage solution, but storage drawers gives you something you can use very early in the game. Instead of poring through piles of chests, you can slap all your items on the wall in drawers, and pull/push them through right and left clicks. You can get pretty fast with this once you get the hang of them. This requires a ton of wood, but you should be able to acquire that easily.",
+      "x": 105,
+      "y": 116,
+      "icon": {
+        "id": "StorageDrawers:halfDrawers4"
+      },
+      "prerequisites": [
+        "{Vanilla Minecraft}[Deforestation]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "1x1 Drawer",
+          "longDescription": "The 1x1 drawer seems kind of stupid, but it makes for a nice hole for throwing in the base stone you are mining (cobblestone, limestone, marble, granite, blablabla). This slaps it up on a wall where you can pull/push it quickly.",
+          "items": [
+            {
+              "item": {
+                "id": "StorageDrawers:fullDrawers1"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "2x2 Drawer",
+          "longDescription": "A 2x2 lets you slap 4 things in one block. By the way, I come from a part of the US where they pronounce \"drawer\" as \"draw.\" My mother still does it, and it makes my wife squeal because she loves regional accents.",
+          "items": [
+            {
+              "item": {
+                "id": "StorageDrawers:fullDrawers4"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "StorageDrawers:fullDrawers4",
+          "amount": 16
+        },
+        {
+          "id": "StorageDrawers:fullDrawers1",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "Compacting Drawers",
+      "description": "These are a good place to stuff refined metals. They can go in as blocks, ingots, or nuggets, and it will just internally cram them into blocks. This gives you a lot of space.",
+      "x": 106,
+      "y": 148,
+      "icon": {
+        "id": "StorageDrawers:compDrawers"
+      },
+      "prerequisites": [
+        "Getting Drawered In"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Just make one, and I\u0027ll give you some more.",
+          "items": [
+            {
+              "item": {
+                "id": "StorageDrawers:compDrawers"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "StorageDrawers:compDrawers",
+          "amount": 7
+        }
+      ]
+    },
+    {
+      "name": "Controlling Drawers",
+      "description": "The drawer controller serves as a giant mouth for pulling crap out of your inventory and into your storage drawers. Later, when you set up Applied Energistics, you can slap a storage bus on it, and make your storage drawer inventory available to your ME network. This is a smart thing to make in the long term.",
+      "x": 105,
+      "y": 182,
+      "icon": {
+        "id": "StorageDrawers:controller"
+      },
+      "prerequisites": [
+        "Compacting Drawers"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "It does require a diamond. Apparently, it works in a 12x12 area. What you want to do is arrange your drawers on a wall and shove the controller on the ground somewhere in the middle of the wall. If you double-right-click it, it will suck up all the non-tool stuff in your inventory it can and add it to your drawers in one swoop.",
+          "items": [
+            {
+              "item": {
+                "id": "StorageDrawers:controller"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "StorageDrawers:upgradeStatus",
+          "damage": 2,
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "Increasing Drawer Space",
+      "description": "There are various tiers of upgrades your can apply to your drawers. Some let you know if they are full. Others increase space. The obsidian-level upgrade should be pretty easy to make if you have been following the hell tutorials. Use these to boost space in some of the drawers where you\u0027ve been having space problems.",
+      "x": 139,
+      "y": 148,
+      "icon": {
+        "id": "StorageDrawers:upgrade",
+        "damage": 4
+      },
+      "prerequisites": [
+        "Compacting Drawers"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "If you want to do this a lot, and lava is becoming a problem, look up the lava fabricator to make lava quickly.",
+          "items": [
+            {
+              "item": {
+                "id": "StorageDrawers:upgrade",
+                "damage": 4
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "StorageDrawers:upgrade",
+          "damage": 4,
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "No Bag Ban Here!",
+      "description": "I live in a city that banned plastic bags, which makes the MFR plastic bags pretty funny. These things can only hold a few stacks of items, but they are so easy to make. They require plastic, but not leather or wool. They are a great way to prolong finding your final base by letting you pack up all your junk as you wander the country-side like a gypsy bag lady.",
+      "x": 60,
+      "y": 21,
+      "icon": {
+        "id": "MineFactoryReloaded:plastic.bag"
+      },
+      "prerequisites": [
+        "{A Post-Scarcity Economy}[Minefactory Reloaded]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "They do require string though. Hey, how about farming some cotton! I will throw in some explosives so you can carve out your next base with less fuss!",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:plastic.bag"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "MineFactoryReloaded:plastic.bag",
+          "amount": 3
+        },
+        {
+          "id": "TConstruct:explosive.slime",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Nice Rack! Oh, nice shelf too",
+      "description": "There are a few things that should get dedicated storage. You should have a tool rack near the door to your base. You put your weapons and \"outside tools\" in there. When you go outside, you put your wrenches and base tools in that rack and take out all the outside tools. A bookshelf organizes all the manuals, guides, and whatnot you accumulate playing other quest packs. A shelf for potions is also nice if you horde that kind of stuff.",
+      "x": 25,
+      "y": 179,
+      "icon": {
+        "id": "BiblioCraft:BiblioRack"
+      },
+      "prerequisites": [
+        "{Vanilla Minecraft}[Deforestation]",
+        "{Vanilla Minecraft}[Iron Man]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Tool rack",
+          "longDescription": "Each tool rack can hold four tools. I generally need three racks to hold all the random stuff I get when playing for real.",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:BiblioRack"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Bookcase",
+          "longDescription": "Yeah, you can throw all your books in a chest, but you have conditioned yourself your whole life to look for books in a bookcase, so make one that you\u0027ll put somewhere accessible.",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:Bibliotheca"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Potion Shelf",
+          "longDescription": "One of these should last you for a long time . . . until you build a mob grinder.",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:BiblioPotionShelf"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "BiblioCraft:Armor Stand"
+        },
+        {
+          "id": "BiblioCraft:BiblioRack",
+          "damage": 6
+        },
+        {
+          "id": "BiblioCraft:BiblioPotionShelf",
+          "damage": 6
+        }
+      ]
+    },
+    {
+      "name": "Not Just For Smoking Meat",
+      "description": "Extra Utilities provides drums for storing fluids. Fluids can be automatically inserted/removed from drums from the top and bottom. You can use a bucket on them instead if that is your thing. The big deal is that one drum can store 256 buckets worth of one liquid. Remember to use a wrench to move them!",
+      "x": 134,
+      "y": 92,
+      "icon": {
+        "id": "ExtraUtilities:drum"
+      },
+      "prerequisites": [
+        "{Vanilla Minecraft}[Iron Man]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "It does take a lot of iron, but you are probably swimming in iron by this point.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:drum"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ExtraUtilities:drum"
+        }
+      ]
+    },
+    {
+      "name": "Only The Strongest Survive",
+      "description": "If you wrap up a chest in 4 tin, you can make a strongbox. For this, you get a chest that has... less capacity than the original one. What?! Well, if you fill it up and bust it with a pick, it will keep its contents! It is not as nice as a backpack since you have to pop it back down to use it, but chances are that you\u0027ll have the chest and then tin before the leather or cloth.",
+      "x": 60,
+      "y": 52,
+      "icon": {
+        "id": "ThermalExpansion:Strongbox",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Fetch Me An Ale, Wrench!"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "Just surround a chest with a tin ingot on each side in a crafting grid.",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalExpansion:Strongbox",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ThermalExpansion:Strongbox",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Box Of Enchantment",
+      "description": "Here\u0027s a fun one. You can enchant these strongboxes! Maybe you\u0027ve run into the enchantment table. Maybe not. We haven\u0027t really mentioned it because vanilla enchanting is a lottery of suck. You get to pick one of three enchantments without knowing what they will be. However, a strongbox can only take one enchantment: holding. It doesn\u0027t matter what you pick for it then, so pick the cheapest.",
+      "x": 96,
+      "y": 52,
+      "icon": {
+        "id": "ThermalExpansion:Strongbox"
+      },
+      "prerequisites": [
+        "Only The Strongest Survive"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "An Enchantment Table",
+          "longDescription": "Well I guess you need an enchantment table. This is annoying to make, but you might as well as somewhere in your adventures, you need to give something somewhere one of these as a crafting ingredient. You will need some obsidian, two diamonds, and a book.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:enchanting_table"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "The Bigger Box",
+          "longDescription": "Slap the strongbox in the enchantment table, and just pick which ever one is the cheapest enchantment. It will sap from your experience bar, but you should have more than enough to do it by now, just from gathering coal and charcoal. To have the quest detect it correctly, empty out the box first. Oh, and use the original strongbox, not the cool resonant one I gave you. Your reward are essence berries which can be eaten to restore the XP you spent making this thing. THEN you can enchant the resonant strongbox too! Muahaha!",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalExpansion:Strongbox",
+                "damage": 1,
+                "nbt": "{ench:[0:{id:100s,lvl:1s}],Inventory:[]}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:oreBerries",
+          "damage": 5,
+          "amount": 16
+        }
+      ]
+    }
+  ],
+  "reputation": []
+}
