@@ -120,7 +120,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "Existing Holes\n\nWhy dig a hole when you can use an existing one? Look for blemishes on the map. Build a stack of torches, press F9 to find what areas to illuminate, and then rush down there.",
+            "text": "Existing Holes\n\nWhy dig a hole when you can use an existing one? Look for blemishes on the map. Build a stack of torches, press F7 to find what areas to illuminate, and then rush down there.",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -473,6 +473,6 @@
   "iconColorPass1": 0,
   "iconColorPass2": 0,
   "language": "en_US",
-  "displayName": "Baby_s_First_Base_",
+  "displayName": "Baby's First Base",
   "displayInCreative": true
 }
