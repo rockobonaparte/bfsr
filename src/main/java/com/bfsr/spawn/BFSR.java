@@ -26,5 +26,6 @@ public class BFSR {
         ServerCommandManager manager = (ServerCommandManager) event.getServer().getCommandManager();
         manager.registerCommand(new BfsrSpawnCommand());
         manager.registerCommand(new BfsrGotoNurseryCommand());
+        manager.registerCommand(new BfsrRegenTutorialDimension());
     }
 }
