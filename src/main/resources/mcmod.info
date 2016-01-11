@@ -1,0 +1,16 @@
+[
+{
+  "modid": "bfsr",
+  "name": "BFSR",
+  "description": "Baby's First Space Race helpers.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Rocko Bonaparte"],
+  "credits": "The Forge and FML guys",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
