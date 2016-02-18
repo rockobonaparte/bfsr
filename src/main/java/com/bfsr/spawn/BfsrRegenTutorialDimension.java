@@ -1,6 +1,12 @@
 package com.bfsr.spawn;
 
+import cpw.mods.fml.common.FMLLog;
 import net.minecraft.block.Block;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.gui.GuiButton;
+import net.minecraft.client.gui.GuiCreateWorld;
+import net.minecraft.client.gui.GuiScreen;
+import net.minecraft.client.gui.GuiTextField;
 import net.minecraft.command.ICommand;
 import net.minecraft.command.ICommandSender;
 import net.minecraft.entity.player.EntityPlayer;
@@ -8,9 +14,23 @@ import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.init.Blocks;
 import net.minecraft.util.ChunkCoordinates;
 import net.minecraft.world.World;
+import net.minecraft.world.WorldSettings;
+import net.minecraft.world.WorldType;
+import net.minecraft.world.chunk.storage.AnvilSaveConverter;
+import net.minecraft.world.storage.ISaveFormat;
+import net.minecraft.world.storage.ISaveHandler;
+import net.minecraft.world.storage.WorldInfo;
+import org.apache.commons.io.FileUtils;
+import org.apache.commons.lang3.StringUtils;
+import org.apache.logging.log4j.Level;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Random;
+
+import cpw.mods.fml.common.ObfuscationReflectionHelper;
 
 public class BfsrRegenTutorialDimension  implements ICommand {
 
@@ -82,6 +102,30 @@ public class BfsrRegenTutorialDimension  implements ICommand {
         ((EntityPlayerMP) player).playerNetServerHandler.setPlayerLocation(px + .5d, py, pz + .5d, pyaw, ppitch);
 
     } // end commandRegenTutorialWorld
+
+    public static final String templateName = "template";
+    public static final String tutorialDimensionFolder = "DIM2";
+    public static final String[] folderNameObfuscated = new String[] { "field_146336_i" };
+
+    protected void overwriteTutorialWorld()
+    {
+        Minecraft mc = Minecraft.getMinecraft();
+
+        File mcDataDir = mc.mcDataDir;
+
+        String folderName = ObfuscationReflectionHelper.getPrivateValue(BfsrRegenTutorialDimension.class, this, folderNameObfuscated);
+
+        try
+        {
+            FileUtils.copyDirectory(new File(mcDataDir.getAbsoluteFile() + File.separator + templateName + File.separator + tutorialDimensionFolder),
+                    new File(mcDataDir.getAbsoluteFile() + File.separator + "saves" + File.separator + folderName + File.separator + tutorialDimensionFolder));
+        }
+        catch (IOException e)
+        {
+            FMLLog.info("The template world does not exist at " + templateName, e);
+            return;
+        }
+    }
 
     @Override
     public boolean canCommandSenderUseCommand(ICommandSender icommandsender) {

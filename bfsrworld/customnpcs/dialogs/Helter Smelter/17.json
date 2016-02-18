@@ -1,0 +1,84 @@
+{
+    "AvailabilityQuest4": 0,
+    "DecreaseFaction1Points": 0b,
+    "AvailabilityQuest3": 0,
+    "AvailabilityFactionId": -1,
+    "AvailabilityMinPlayerLevel": 0,
+    "AvailabilityQuest3Id": -1,
+    "AvailabilityQuest2": 0,
+    "AvailabilityQuest2Id": -1,
+    "AvailabilityQuestId": -1,
+    "DialogQuest": -1,
+    "DialogText": "This rooms shows the classic 3x3 smeltery broken up into segments so you can walk around it and figure out how it's made. If you already know how to make that smeltery, you don't need to come down here. Otherwise, feel free to crawl around the floors and examine the different layers of the smeltery.Here at the bottom, you can see the 3x3 square of seared bricks you need for the smeltery floor.The next floor shows the base level of the smeltery. It is a 5x5 square of seared bricks without corners. The smeltery doesn't care about corners. There is a smeltery controller and a tank next to it that stores the lava to fuel these. You need both for a valid smeltery. You can also see the casting tables and basins you can use around the smeltery. This would put the tables at a normal standing height.The top floor shows all the drains. There are no drains over the controller and the tank because there are no tables or basins there. You could technically put some there, but they will get in the way of playing with the smeltery.",
+    "AvailabilityQuest": 0,
+    "AvailabilityFactionStance": 0,
+    "DialogDisableEsc": 0b,
+    "AvailabilityDayTime": 0,
+    "AvailabilityFaction2": 0,
+    "ModRev": 16,
+    "AvailabilityDialog": 0,
+    "DialogShowWheel": 0b,
+    "DecreaseFaction2Points": 0b,
+    "AvailabilityDialog2": 0,
+    "AvailabilityFaction2Stance": 0,
+    "Options": [
+        {
+            "OptionSlot": 0,
+            "Option": {
+                "DialogColor": 14737632,
+                "DialogCommand": "",
+                "Dialog": 19,
+                "OptionType": 1,
+                "Title": "Why a 3x3 smeltery?"
+            }
+        },
+        {
+            "OptionSlot": 1,
+            "Option": {
+                "DialogColor": 14737632,
+                "DialogCommand": "",
+                "Dialog": 18,
+                "OptionType": 1,
+                "Title": "Can you answer some general smelting questions?"
+            }
+        },
+        {
+            "OptionSlot": 2,
+            "Option": {
+                "DialogColor": 14737632,
+                "DialogCommand": "",
+                "Dialog": -1,
+                "OptionType": 0,
+                "Title": "Well that's interesting, but see you later!"
+            }
+        }
+    ],
+    "OptionFaction2Points": 100,
+    "AvailabilityQuest4Id": -1,
+    "DialogHideNPC": 0b,
+    "AvailabilityFaction": 0,
+    "AvailabilityDialog2Id": -1,
+    "DialogCommand": "",
+    "AvailabilityDialog4": 0,
+    "AvailabilityDialog3": 0,
+    "DialogMail": {
+        "Sender": "",
+        "Time": 0L,
+        "Message": {
+        },
+        "Subject": "",
+        "MailItems": [
+        ],
+        "BeenRead": 0b,
+        "MailQuest": -1,
+        "TimePast": 1453184694866L
+    },
+    "OptionFactions1": -1,
+    "AvailabilityDialogId": -1,
+    "OptionFactions2": -1,
+    "AvailabilityFaction2Id": -1,
+    "OptionFaction1Points": 100,
+    "DialogTitle": "What's This Place?",
+    "AvailabilityDialog3Id": -1,
+    "AvailabilityDialog4Id": -1
+}

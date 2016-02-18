@@ -1,0 +1,74 @@
+{
+    "AvailabilityQuest4": 0,
+    "DecreaseFaction1Points": 0b,
+    "AvailabilityQuest3": 0,
+    "AvailabilityFactionId": -1,
+    "AvailabilityMinPlayerLevel": 0,
+    "AvailabilityQuest3Id": -1,
+    "AvailabilityQuest2": 0,
+    "AvailabilityQuest2Id": -1,
+    "AvailabilityQuestId": -1,
+    "DialogQuest": -1,
+    "DialogText": "Baby's First Space Race is normally tested using the \"Alternate Terrain Generator\" also known as \"ATG.\" When you create a new world, you can change the terrain type from Default to ATG if you keep clicking on that button. It makes nice islands with useful caves. The lava pools and resource generation is tweaked particularly for it. If this is your first time playing, you can just create a new world now and throw this one out. You should probably also enable cheats so you can get yourself out of a jam. This is a tutorial modpack, after all! I'd just skip the bonus chest because you can get cool stuff right here in Baby's First City.",
+    "AvailabilityQuest": 0,
+    "AvailabilityFactionStance": 0,
+    "DialogDisableEsc": 0b,
+    "AvailabilityDayTime": 0,
+    "AvailabilityFaction2": 0,
+    "ModRev": 16,
+    "AvailabilityDialog": 0,
+    "DialogShowWheel": 0b,
+    "DecreaseFaction2Points": 0b,
+    "AvailabilityDialog2": 0,
+    "AvailabilityFaction2Stance": 0,
+    "Options": [
+        {
+            "OptionSlot": 0,
+            "Option": {
+                "DialogColor": 14737632,
+                "DialogCommand": "",
+                "Dialog": 5,
+                "OptionType": 1,
+                "Title": "What about the teleporters?"
+            }
+        },
+        {
+            "OptionSlot": 1,
+            "Option": {
+                "DialogColor": 14737632,
+                "DialogCommand": "",
+                "Dialog": -1,
+                "OptionType": 0,
+                "Title": "Bye!!!!"
+            }
+        }
+    ],
+    "OptionFaction2Points": 100,
+    "AvailabilityQuest4Id": -1,
+    "DialogHideNPC": 0b,
+    "AvailabilityFaction": 0,
+    "AvailabilityDialog2Id": -1,
+    "DialogCommand": "",
+    "AvailabilityDialog4": 0,
+    "AvailabilityDialog3": 0,
+    "DialogMail": {
+        "Sender": "",
+        "Time": 0L,
+        "Message": {
+        },
+        "Subject": "",
+        "MailItems": [
+        ],
+        "BeenRead": 0b,
+        "MailQuest": -1,
+        "TimePast": 1451544796547L
+    },
+    "OptionFactions1": -1,
+    "AvailabilityDialogId": -1,
+    "OptionFactions2": -1,
+    "AvailabilityFaction2Id": -1,
+    "OptionFaction1Points": 100,
+    "DialogTitle": "Recommended Overworld",
+    "AvailabilityDialog3Id": -1,
+    "AvailabilityDialog4Id": -1
+}

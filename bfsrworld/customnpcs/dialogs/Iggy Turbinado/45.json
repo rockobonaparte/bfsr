@@ -1,0 +1,74 @@
+{
+    "AvailabilityQuest4": 0,
+    "DecreaseFaction1Points": 0b,
+    "AvailabilityQuest3": 0,
+    "AvailabilityFactionId": -1,
+    "AvailabilityMinPlayerLevel": 0,
+    "AvailabilityQuest3Id": -1,
+    "AvailabilityQuest2": 0,
+    "AvailabilityQuest2Id": -1,
+    "AvailabilityQuestId": -1,
+    "DialogQuest": -1,
+    "DialogText": "Oh yeah, sure! Sure!!The easy thing would be to just put another 16 fans on it after getting another steam generator going. I think this farm as-is could do it. That will get you over 10,000 RF/tick, which means you could run two mining lasers prechargers continuously.If you have some cool stuff, you could make enderium and replace the coils with it. Then you could use the electrum to make all the advanced conduit you'd need to run all this power everywhere.We wanted around 1800 rpm from the turbine because that's a performance sweet spot. You're not going to improve that much more. It's pretty tight!",
+    "AvailabilityQuest": 0,
+    "AvailabilityFactionStance": 0,
+    "DialogDisableEsc": 0b,
+    "AvailabilityDayTime": 0,
+    "AvailabilityFaction2": 0,
+    "ModRev": 16,
+    "AvailabilityDialog": 0,
+    "DialogShowWheel": 0b,
+    "DecreaseFaction2Points": 0b,
+    "AvailabilityDialog2": 0,
+    "AvailabilityFaction2Stance": 0,
+    "Options": [
+        {
+            "OptionSlot": 0,
+            "Option": {
+                "DialogColor": 14737632,
+                "DialogCommand": "",
+                "Dialog": 42,
+                "OptionType": 1,
+                "Title": "Uhh, steam?"
+            }
+        },
+        {
+            "OptionSlot": 1,
+            "Option": {
+                "DialogColor": 14737632,
+                "DialogCommand": "",
+                "Dialog": -1,
+                "OptionType": 0,
+                "Title": "Yeah okay I'm done. Bye!"
+            }
+        }
+    ],
+    "OptionFaction2Points": 100,
+    "AvailabilityQuest4Id": -1,
+    "DialogHideNPC": 0b,
+    "AvailabilityFaction": 0,
+    "AvailabilityDialog2Id": -1,
+    "DialogCommand": "",
+    "AvailabilityDialog4": 0,
+    "AvailabilityDialog3": 0,
+    "DialogMail": {
+        "Sender": "",
+        "Time": 0L,
+        "Message": {
+        },
+        "Subject": "",
+        "MailItems": [
+        ],
+        "BeenRead": 0b,
+        "MailQuest": -1,
+        "TimePast": 1454994104296L
+    },
+    "OptionFactions1": -1,
+    "AvailabilityDialogId": -1,
+    "OptionFactions2": -1,
+    "AvailabilityFaction2Id": -1,
+    "OptionFaction1Points": 100,
+    "DialogTitle": "Could You Make This Better",
+    "AvailabilityDialog3Id": -1,
+    "AvailabilityDialog4Id": -1
+}

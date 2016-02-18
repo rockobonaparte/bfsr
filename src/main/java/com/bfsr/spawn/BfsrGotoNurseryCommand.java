@@ -62,7 +62,7 @@ public class BfsrGotoNurseryCommand implements ICommand {
         }
     }
 
-    private static void commandNursery(EntityPlayer player) {
+    public static void commandNursery(EntityPlayer player) {
         World world = player.worldObj;
         if ( world.isRemote ) { return; }
 
@@ -83,7 +83,7 @@ public class BfsrGotoNurseryCommand implements ICommand {
 
         // actually go there now
         FMLLog.info("Player being moved to origin in dimension.");
-        ((EntityPlayerMP) player).playerNetServerHandler.setPlayerLocation(0.0d, 66.0d, 0.0d, 0.0f, 0.0f);
+        ((EntityPlayerMP) player).playerNetServerHandler.setPlayerLocation(13.0d, 66.0d, 30.0d, 0.0f, 0.0f);
     } // end commandSpawn
 
     @Override
