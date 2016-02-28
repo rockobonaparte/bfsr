@@ -1,3 +1,0 @@
-minecraft:apple,4,0
-minecraft:torch,2,0
-Enchiridion2:book,1,0,{identifier:"Baby_s_First_Base_"}
