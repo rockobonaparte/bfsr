@@ -1,29 +1,29 @@
 {
     "ItemGiverChained": [
     ],
-    "ItemGiversList": [
+    "TransportData": [
+    ],
+    "FactionData": [
+        {
+            "Points": 2000,
+            "Faction": 0
+        }
     ],
     "BankData": [
     ],
-    "PlayerCompanionId": 0,
+    "ItemGiversList": [
+    ],
     "MailData": [
     ],
-    "UUID": "6e84f691-5fad-4b86-aea2-97b6b127a1a3",
+    "PlayerName": "RockoBonaparte",
     "QuestData": {
         "CompletedQuests": [
         ],
         "ActiveQuests": [
         ]
     },
-    "TransportData": [
-    ],
-    "PlayerName": "RockoBonaparte",
-    "FactionData": [
-        {
-            "Faction": 0,
-            "Points": 2000
-        }
-    ],
+    "UUID": "6e84f691-5fad-4b86-aea2-97b6b127a1a3",
+    "PlayerCompanionId": 0,
     "DialogData": [
         {
             "Dialog": 4
@@ -62,46 +62,49 @@
             "Dialog": 15
         },
         {
-            "Dialog": 17
-        },
-        {
             "Dialog": 16
         },
         {
-            "Dialog": 19
+            "Dialog": 17
         },
         {
             "Dialog": 18
         },
         {
-            "Dialog": 21
+            "Dialog": 19
         },
         {
             "Dialog": 20
         },
         {
-            "Dialog": 23
+            "Dialog": 21
         },
         {
             "Dialog": 22
         },
         {
-            "Dialog": 25
+            "Dialog": 23
         },
         {
             "Dialog": 24
         },
         {
-            "Dialog": 27
+            "Dialog": 25
         },
         {
             "Dialog": 26
         },
         {
-            "Dialog": 29
+            "Dialog": 27
         },
         {
             "Dialog": 28
+        },
+        {
+            "Dialog": 29
+        },
+        {
+            "Dialog": 33
         },
         {
             "Dialog": 34
@@ -110,7 +113,10 @@
             "Dialog": 35
         },
         {
-            "Dialog": 33
+            "Dialog": 36
+        },
+        {
+            "Dialog": 37
         },
         {
             "Dialog": 38
@@ -119,49 +125,43 @@
             "Dialog": 39
         },
         {
-            "Dialog": 36
-        },
-        {
-            "Dialog": 37
-        },
-        {
-            "Dialog": 42
-        },
-        {
             "Dialog": 40
         },
         {
             "Dialog": 41
         },
         {
-            "Dialog": 46
+            "Dialog": 42
         },
         {
             "Dialog": 44
         },
         {
-            "Dialog": 51
-        },
-        {
-            "Dialog": 50
+            "Dialog": 46
         },
         {
             "Dialog": 48
         },
         {
-            "Dialog": 55
+            "Dialog": 50
         },
         {
-            "Dialog": 54
+            "Dialog": 51
         },
         {
             "Dialog": 53
         },
         {
-            "Dialog": 57
+            "Dialog": 54
+        },
+        {
+            "Dialog": 55
         },
         {
             "Dialog": 56
+        },
+        {
+            "Dialog": 57
         }
     ]
 }

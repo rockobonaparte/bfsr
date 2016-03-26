@@ -1,0 +1,71 @@
+{
+    "ItemGiverChained": [
+    ],
+    "TransportData": [
+    ],
+    "FactionData": [
+        {
+            "Points": 2000,
+            "Faction": 0
+        }
+    ],
+    "BankData": [
+    ],
+    "ItemGiversList": [
+    ],
+    "MailData": [
+    ],
+    "PlayerName": "theresajayne",
+    "QuestData": {
+        "CompletedQuests": [
+        ],
+        "ActiveQuests": [
+        ]
+    },
+    "UUID": "02522d55-2542-47db-b999-68c0a992ea38",
+    "PlayerCompanionId": 0,
+    "DialogData": [
+        {
+            "Dialog": 4
+        },
+        {
+            "Dialog": 6
+        },
+        {
+            "Dialog": 8
+        },
+        {
+            "Dialog": 10
+        },
+        {
+            "Dialog": 11
+        },
+        {
+            "Dialog": 14
+        },
+        {
+            "Dialog": 15
+        },
+        {
+            "Dialog": 53
+        },
+        {
+            "Dialog": 54
+        },
+        {
+            "Dialog": 55
+        },
+        {
+            "Dialog": 23
+        },
+        {
+            "Dialog": 24
+        },
+        {
+            "Dialog": 56
+        },
+        {
+            "Dialog": 25
+        }
+    ]
+}

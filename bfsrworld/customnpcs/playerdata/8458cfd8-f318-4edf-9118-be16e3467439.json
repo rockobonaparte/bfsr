@@ -1,0 +1,29 @@
+{
+    "ItemGiverChained": [
+    ],
+    "TransportData": [
+    ],
+    "FactionData": [
+        {
+            "Points": 2000,
+            "Faction": 0
+        }
+    ],
+    "BankData": [
+    ],
+    "ItemGiversList": [
+    ],
+    "MailData": [
+    ],
+    "PlayerName": "Datasmurf",
+    "QuestData": {
+        "CompletedQuests": [
+        ],
+        "ActiveQuests": [
+        ]
+    },
+    "UUID": "8458cfd8-f318-4edf-9118-be16e3467439",
+    "PlayerCompanionId": 0,
+    "DialogData": [
+    ]
+}

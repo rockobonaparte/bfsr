@@ -1,0 +1,25 @@
+{
+    "ItemGiverChained": [
+    ],
+    "TransportData": [
+    ],
+    "FactionData": [
+    ],
+    "BankData": [
+    ],
+    "ItemGiversList": [
+    ],
+    "MailData": [
+    ],
+    "PlayerName": "mesnomer",
+    "QuestData": {
+        "CompletedQuests": [
+        ],
+        "ActiveQuests": [
+        ]
+    },
+    "UUID": "2d3f2c8a-4c40-4242-8087-c55fb6c3c7d2",
+    "PlayerCompanionId": 0,
+    "DialogData": [
+    ]
+}

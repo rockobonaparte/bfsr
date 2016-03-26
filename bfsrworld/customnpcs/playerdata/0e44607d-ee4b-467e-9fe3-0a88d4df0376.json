@@ -1,0 +1,65 @@
+{
+    "ItemGiverChained": [
+    ],
+    "TransportData": [
+    ],
+    "FactionData": [
+        {
+            "Points": 2000,
+            "Faction": 0
+        }
+    ],
+    "BankData": [
+    ],
+    "ItemGiversList": [
+    ],
+    "MailData": [
+    ],
+    "PlayerName": "fallentaiyoko",
+    "QuestData": {
+        "CompletedQuests": [
+        ],
+        "ActiveQuests": [
+        ]
+    },
+    "UUID": "0e44607d-ee4b-467e-9fe3-0a88d4df0376",
+    "PlayerCompanionId": 0,
+    "DialogData": [
+        {
+            "Dialog": 48
+        },
+        {
+            "Dialog": 50
+        },
+        {
+            "Dialog": 51
+        },
+        {
+            "Dialog": 4
+        },
+        {
+            "Dialog": 52
+        },
+        {
+            "Dialog": 5
+        },
+        {
+            "Dialog": 40
+        },
+        {
+            "Dialog": 41
+        },
+        {
+            "Dialog": 42
+        },
+        {
+            "Dialog": 44
+        },
+        {
+            "Dialog": 45
+        },
+        {
+            "Dialog": 46
+        }
+    ]
+}
