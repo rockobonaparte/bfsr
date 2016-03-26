@@ -38,6 +38,7 @@ Found creative tab: natura.nether
 Found creative tab: natura.trees
 Found creative tab: buildingBlocks
 Found creative tab: Nether Ores
+Found creative tab: NotEnoughWands
 Found creative tab: tabOpenBlocks
 Found creative tab: Random Things
 Found creative tab: storageDrawers
@@ -137,14 +138,14 @@ override called. Params: Mekanism, GlowPanel, 0
 Regex match found! Mekanism:GlowPanel matches Mekanism:GlowPanel.
 Found ItemStack Mekanism:GlowPanel. 64xitem.GlowPanel@0
 Loading: ForgeMicroblock.js
-getRandomMaterial called. Returned: Artifice:tile.artifice.basalt_1
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, Artifice:tile.artifice.basalt_1
+getRandomMaterial called. Returned: Artifice:tile.artifice.lamp.cyan
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, Artifice:tile.artifice.lamp.cyan
 Loading: ExtraUtilities.js
 override called. Params: ExtraUtilities, drum, 0,1
 Regex match found! ExtraUtilities:drum matches ExtraUtilities:drum.
 Found ItemStack ExtraUtilities:drum. 64xtile.extrautils:drum@0
-getRandomMaterial called. Returned: Artifice:tile.artifice.glasswall_2
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ExtraUtilitiesObject). Params: 1,2,3, Artifice:tile.artifice.glasswall_2
+getRandomMaterial called. Returned: Artifice:tile.artifice.lamp.lime
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ExtraUtilitiesObject). Params: 1,2,3, Artifice:tile.artifice.lamp.lime
 Loading: BuildCraft.js
 Loading: Bibliocraft.js
 override called. Params: BiblioCraft, *, 0
@@ -282,7 +283,7 @@ Loading: AppliedEnergistics2.js
 getFacadeItem called. Returned: appliedenergistics2:item.ItemFacade
 getSubTypes called.
 getNumberOfTypes called. Returned: 1977
-override called. Params: appliedenergistics2, item.ItemFacade, 409
+override called. Params: appliedenergistics2, item.ItemFacade, 766
 Regex match found! appliedenergistics2:item.ItemFacade matches appliedenergistics2:item.ItemFacade.
 Found ItemStack appliedenergistics2:item.ItemFacade. 64xitem.appliedenergistics2.ItemFacade@0
 Loading: Tcon.js
