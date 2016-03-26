@@ -1,0 +1,1375 @@
+{
+  "book": [
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-23_00.24.10.png",
+            "xPos": 225,
+            "yPos": 18,
+            "width": 176.0,
+            "height": 148.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "So yeah, the Boomtower. It\u0027s for boompower. Sounds cool? You\u0027re wrong. It sounds . . . LOUD! Just about everything used in this makes noise, but especially the TNT generators. Muahahaha.\n\nIf you were given this book, then you\u0027re about ready to make this thing. There are more effective ways to generate power, but this is the most hilarious way we currently can comprehend.\n\nIt is a good exercise because it involves machines going into even more machines. A lot of modding made this possible!",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 26,
+            "yPos": 20,
+            "width": 173.0,
+            "height": 170.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-22_23.55.42.png",
+            "xPos": 54,
+            "yPos": 127,
+            "width": 123.0,
+            "height": 80.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-22_23.56.09.png",
+            "xPos": 226,
+            "yPos": 13,
+            "width": 131.0,
+            "height": 119.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-22_23.56.15.png",
+            "xPos": 278,
+            "yPos": 116,
+            "width": 123.0,
+            "height": 80.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "What cobblestone generator you use is up to you. The quest book emphasizes a different way, but we\u0027re using an igneous extruder here since it\u0027s good enough.\n\nRight click it with a bucket of water and a bucket of lava, and it will start pooping out cobble.\n\nRight-click it to check it.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 29,
+            "yPos": 20,
+            "width": 171.0,
+            "height": 90.0
+          }
+        },
+        {
+          "type": "FeatureBox",
+          "properties": {
+            "color": "FFFFFFFF",
+            "xPos": 241,
+            "yPos": 134,
+            "width": 82.0,
+            "height": 48.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "If it looks like this, then it\u0027s working!",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 247,
+            "yPos": 144,
+            "width": 68.0,
+            "height": 32.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-22_23.56.59.png",
+            "xPos": 225,
+            "yPos": 27,
+            "width": 178.0,
+            "height": 125.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Poop out a pulverizer here. Note: Boomhauer screwed up the igneous extruder. It should be flipped around. So the pulverizer should be one block back and two blocks to the side.\n\nThis isn\u0027t the end of the world if you do it different, but if you don\u0027t know what you\u0027re doing, then imitation is the ultimately flattery.\n\nThis side will turn cobble into sand.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 26,
+            "yPos": 22,
+            "width": 178.0,
+            "height": 174.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-22_23.57.33.png",
+            "xPos": 223,
+            "yPos": 18,
+            "width": 171.0,
+            "height": 147.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Opposite the pulverizer, you need to set up:\n\n1. A crusher\n2. A SAG mill\n3. An empty space\n4. One more crusher\n\nThis side turns cobble into gravel, then gravel into flint, and then flint into gunpowder.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 23,
+            "yPos": 19,
+            "width": 169.0,
+            "height": 152.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-22_23.57.46.png",
+            "xPos": 224,
+            "yPos": 18,
+            "width": 175.0,
+            "height": 140.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "There will be byproducts from both sides that will gum up every thing. Put a trash can two blocks away from the extruder so that both sides have even access to it.\n\nThe pulverizer sometimes makes gravel and the crusher sometimes makes sand. Trying to route this around for reuse is a huge fuss, so it\u0027s better to just toss that stuff out before it jams everything!",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 29,
+            "yPos": 24,
+            "width": 161.0,
+            "height": 147.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-22_23.58.23.png",
+            "xPos": 221,
+            "yPos": 16,
+            "width": 179.0,
+            "height": 141.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "You need a cyclic assembler. I am putting it aways to the side of the pulverizer. It should be opposite the lone little crusher from the other side.\n\nThis device will turn the gunpowder and sand into TNT, but it will need a schematic to know that is its job.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 25,
+            "yPos": 22,
+            "width": 175.0,
+            "height": 133.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-22_23.59.04.png",
+            "xPos": 41,
+            "yPos": 94,
+            "width": 143.0,
+            "height": 97.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-22_23.59.23.png",
+            "xPos": 222,
+            "yPos": 12,
+            "width": 160.0,
+            "height": 101.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-22_23.59.27.png",
+            "xPos": 222,
+            "yPos": 94,
+            "width": 160.0,
+            "height": 100.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Slap down a machinist workbench somewhere nearby. Give it the recipe for TNT, and a schematic on the left slide. Select \"Write Schematic,\" and boom! Oh sorry, I don\u0027t mean something will explode, just that you\u0027ll get the schematic you need . . . :3",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 28,
+            "yPos": 20,
+            "width": 175.0,
+            "height": 73.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-22_23.59.37.png",
+            "xPos": 222,
+            "yPos": 17,
+            "width": 174.0,
+            "height": 161.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Toss that schematic in the center slot of the cyclic assembler. You can get to this screen by right-clicking the cyclic assembler from any direction. Just don\u0027t do that with a wrench in your hand, or you will wind up just spinning it around!",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 27,
+            "yPos": 21,
+            "width": 172.0,
+            "height": 152.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-23_00.01.06.png",
+            "xPos": 29,
+            "yPos": 71,
+            "width": 173.0,
+            "height": 126.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-23_00.03.01.png",
+            "xPos": 224,
+            "yPos": 72,
+            "width": 174.0,
+            "height": 125.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Well, let\u0027s work on the tower part of all this. Set yourself up a column of whatever you want, start running a ladder up it, and then build a cage around it",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 29,
+            "yPos": 19,
+            "width": 170.0,
+            "height": 50.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "every few blocks. I recommend every 3 blocks. This will keep you from falling off during a detonation! I\u0027d make it upwards of 10 stories tall. Then explosions can\u0027t reach you on the ground.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 227,
+            "yPos": 17,
+            "width": 168.0,
+            "height": 50.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-23_00.05.07.png",
+            "xPos": 33,
+            "yPos": 96,
+            "width": 163.0,
+            "height": 99.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-23_00.05.35.png",
+            "xPos": 229,
+            "yPos": 95,
+            "width": 160.0,
+            "height": 99.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Set up the platform. You should have a hole somewhat centered for you to climb out of the tower top. Punch a hole over your cycle assembler. That\u0027s where all the power and TNT will travel.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 30,
+            "yPos": 20,
+            "width": 165.0,
+            "height": 71.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Line up some TNT generators next to the cycle assembler hole. Put in more than you think you need! It is going to be really rough going to maintain this once you get it running!",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 229,
+            "yPos": 20,
+            "width": 159.0,
+            "height": 68.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-23_00.06.20.png",
+            "xPos": 28,
+            "yPos": 94,
+            "width": 165.0,
+            "height": 101.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Run some power conduit between all the machines along their backs. I set up this shape to make this easily accessible.\n\nThen, run power up from the cyclic assembler into the TNT generators.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 28,
+            "yPos": 19,
+            "width": 160.0,
+            "height": 65.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-23_00.07.02.png",
+            "xPos": 230,
+            "yPos": 54,
+            "width": 160.0,
+            "height": 100.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-23_00.07.08.png",
+            "xPos": 31,
+            "yPos": 27,
+            "width": 167.0,
+            "height": 158.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "The whole rig should look something like this. Note the extra bit of power conduit I ran over the top of the cyclic assembler in order to build up into my hole for the TNT generators.\n\nNote: The \"03\" is just the number of the lab in which I did this work. It has no special meaning!",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 232,
+            "yPos": 33,
+            "width": 159.0,
+            "height": 154.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "If you have to spin around machines, right click them with a wrench.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 35,
+            "yPos": 24,
+            "width": 157.0,
+            "height": 97.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-23_00.07.22.png",
+            "xPos": 36,
+            "yPos": 60,
+            "width": 161.0,
+            "height": 100.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-23_00.07.25.png",
+            "xPos": 226,
+            "yPos": 60,
+            "width": 169.0,
+            "height": 101.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "You will notice that I spun around my igneous extruder here this way.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 227,
+            "yPos": 25,
+            "width": 155.0,
+            "height": 45.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-23_00.07.40.png",
+            "xPos": 30,
+            "yPos": 87,
+            "width": 167.0,
+            "height": 99.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-23_00.07.49.png",
+            "xPos": 224,
+            "yPos": 87,
+            "width": 167.0,
+            "height": 100.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Start laying item conduit by right-clicking between the machines with the conduit in your hand. It will snake itself into the same spaces as the power conduit.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 32,
+            "yPos": 23,
+            "width": 160.0,
+            "height": 53.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Unfortunately, when it runs into a machine, it usually makes the wrong decision of what it should be doing. This conduit is trying to pull items out of this pulverizer when it should be inserting them!",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 224,
+            "yPos": 22,
+            "width": 166.0,
+            "height": 58.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-23_00.08.16.png",
+            "xPos": 247,
+            "yPos": 39,
+            "width": 125.0,
+            "height": 126.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "With a yeta wrench in hand, you can right-click the tiny green arrow on the end of the conduit to change its direction.\n\nWhen you get frustrated trying to do that, right-click on the larger port it\u0027s plugging into and you\u0027ll get this screen.\n\nYou can just switch it to insert mode there and be confident it will listen to you!",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 32,
+            "yPos": 24,
+            "width": 161.0,
+            "height": 158.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-23_00.08.16_1.png",
+            "xPos": 220,
+            "yPos": 23,
+            "width": 176.0,
+            "height": 132.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Now right-click the pulverizer. I doubt it\u0027s filling with cobble quite yet, but don\u0027t fret. Click on the gear icon on the right side, and the configuration will expand.\n\nThis screen notes which sides can take things in, and which sides can poop out stuff. The machine has colored areas. Blue is in. Red is primary out. Yellow is secondary out. You want the blue to go in the back, yellow to go out the top, and red to go out the left side.\n\nAfter doing this, it may start to fill with cobble. If it doesn\u0027t then we work on the igneous extruder\u0027s setup.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 29,
+            "yPos": 21,
+            "width": 173.0,
+            "height": 171.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-23_00.08.44.png",
+            "xPos": 50,
+            "yPos": 72,
+            "width": 124.0,
+            "height": 120.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-23_00.08.49.png",
+            "xPos": 251,
+            "yPos": 72,
+            "width": 124.0,
+            "height": 121.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Make sure the extruder\u0027s conduit is set to extract, and that its redstone mode is \"Active without signal.\" You are not going to trigger the conduit, so you want that junk disabled!",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 27,
+            "yPos": 18,
+            "width": 174.0,
+            "height": 50.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Also, turn on round-robin mode with that blue spinning loop icon. This will split the cobblestone output between the two different sides.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 225,
+            "yPos": 18,
+            "width": 177.0,
+            "height": 51.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Beat up that crusher\u0027s item conduit so it plugs into the crusher instead of out of it too. Get used to this. Get really used to this.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 234,
+            "yPos": 33,
+            "width": 153.0,
+            "height": 74.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-23_00.10.43.png",
+            "xPos": 27,
+            "yPos": 33,
+            "width": 173.0,
+            "height": 144.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-23_00.09.48.png",
+            "xPos": 233,
+            "yPos": 30,
+            "width": 161.0,
+            "height": 152.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "The crusher won\u0027t be taking cobblestone right away because its sides are also not set up right. It has the same kind of idea on sides as the pulverizer. However, it\u0027s from a different mod so it uses different colors.\n\nThe crusher uses RED for input and BLUE for output. Note that this is the opposite of Thermal Expansion machines like the pulverizer.\n\nDeal with it, by clicking on the side config button in the upper left.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 33,
+            "yPos": 25,
+            "width": 161.0,
+            "height": 148.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-23_00.10.18.png",
+            "xPos": 32,
+            "yPos": 92,
+            "width": 157.0,
+            "height": 100.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "You want to set up the little squares with this color scheme, and also turn on auto-eject by clicking on that \u0027A\u0027 in the upper-right corner.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 33,
+            "yPos": 23,
+            "width": 155.0,
+            "height": 65.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-23_00.10.46.png",
+            "xPos": 232,
+            "yPos": 60,
+            "width": 159.0,
+            "height": 131.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Your crusher should start filling up with cobble. If it doesn\u0027t, stop here and figure it out. It won\u0027t fix itself!",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 236,
+            "yPos": 18,
+            "width": 153.0,
+            "height": 52.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-23_00.10.56.png",
+            "xPos": 226,
+            "yPos": 34,
+            "width": 174.0,
+            "height": 145.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Start trying to connect the SAG mill to the other crusher. You are going to see something like this. You might have to set up the SAG mill side to export. However, the input side of the crusher normally won\u0027t go.\n\nIt turns out the crusher isn\u0027t accepting things from the left. Take a guess at how we\u0027ll fix that . . .",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 34,
+            "yPos": 37,
+            "width": 160.0,
+            "height": 141.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-23_00.12.17.png",
+            "xPos": 38,
+            "yPos": 90,
+            "width": 161.0,
+            "height": 100.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "You might have guessed that the left side should be red. However, I am popping output out the top. I will run a conduit overhead so I can sneak in under it to maintain the machines.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 39,
+            "yPos": 22,
+            "width": 154.0,
+            "height": 57.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "After making these changes--including turning on auto-eject--the conduit should connect to the crusher. If not, you can right-click it with a yeta wrench and do what you gotta do. You should be getting comfortable with this stuff now.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 230,
+            "yPos": 23,
+            "width": 162.0,
+            "height": 166.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-23_00.13.35.png",
+            "xPos": 228,
+            "yPos": 44,
+            "width": 167.0,
+            "height": 120.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Run some item conduit up and out of that crusher. Don\u0027t forget to make sure the top of the crusher has conduit set to extract! Run it up and over everything, then down beside the cycle assemble so you get it in its back. Then rin some more up out the top of the assembler.\n\nNote: We just created a CYCLE. These are generally bad with item conduits. Machines that get full will try to spin stuff around in these loops and crash stuff. Mods have gotten better at this, but don\u0027t test it. We\u0027ll fix it next.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 30,
+            "yPos": 25,
+            "width": 163.0,
+            "height": 167.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-23_00.13.59.png",
+            "xPos": 225,
+            "yPos": 29,
+            "width": 171.0,
+            "height": 133.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Right click on the item conduit between the top and back sides and it should remove those links. This will tell everything these are two different segments. The cycle is broken!\n\nIf you screw up, shift-right-click to completely break the conduit, then try again with a fresh line.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 32,
+            "yPos": 27,
+            "width": 153.0,
+            "height": 130.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-23_00.14.40.png",
+            "xPos": 223,
+            "yPos": 25,
+            "width": 175.0,
+            "height": 148.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Okay, the cyclic assembler is a real riot to set up. You want green to come in the back. Purple should come in the right side. And Orange should go out the top.\n\nThis green/orange thing lets you keep sand and gunpowder separate. Otherwise, sand would probably overwhelm the assembler\u0027s inventory, and all TNT production would cease.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 33,
+            "yPos": 26,
+            "width": 161.0,
+            "height": 147.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-23_00.14.57.png",
+            "xPos": 225,
+            "yPos": 33,
+            "width": 176.0,
+            "height": 131.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Now, run some conduit out the left from the pulverizer into the right of the cyclic assembler. Make sure the pulverizer side is extracting, and the assembler side is inserting.\n\nOh hey, extracting! Remember to turn off redstone control!",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 31,
+            "yPos": 24,
+            "width": 163.0,
+            "height": 149.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-23_00.17.03.png",
+            "xPos": 226,
+            "yPos": 41,
+            "width": 170.0,
+            "height": 104.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Let\u0027s do the whole trash can thing. Run some conduit out the tops of both the SAG mill and the pulverizer. Connect them overhead to the trash can. Make sure the SAG mill and the pulverizer sides are set to extract, and the trash can is set to insert.\n\nActually, it\u0027s a little more intricate than this . . .",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 32,
+            "yPos": 27,
+            "width": 167.0,
+            "height": 157.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-23_00.17.27.png",
+            "xPos": 59,
+            "yPos": 83,
+            "width": 100.0,
+            "height": 100.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-23_00.17.42.png",
+            "xPos": 258,
+            "yPos": 81,
+            "width": 105.0,
+            "height": 103.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Let\u0027s really tell the SAG mill how things will go. On the side going into the crusher, install a filter set to only move flint. Just drop in some flint. It won\u0027t actually take it, it will just be programmed by it.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 223,
+            "yPos": 17,
+            "width": 165.0,
+            "height": 56.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "The SAG mill sometimes produces sand, which will confuse the crusher. So on the top side, apply an item filter, and specify it should filter for sand. The SAG mill will then output its sand out the top.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 27,
+            "yPos": 18,
+            "width": 170.0,
+            "height": 55.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-23_00.17.52.png",
+            "xPos": 230,
+            "yPos": 24,
+            "width": 166.0,
+            "height": 150.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Did you remember the cycle assembler had to extract out the top? Yes? Did you disable redstone control of it? Yes? Did you set it to round robin so all the TNT generators would get their even ration of fuel?\n\nI didn\u0027t think so!!!",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 33,
+            "yPos": 25,
+            "width": 170.0,
+            "height": 157.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-23_00.18.11.png",
+            "xPos": 29,
+            "yPos": 88,
+            "width": 167.0,
+            "height": 100.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-23_00.18.34.png",
+            "xPos": 229,
+            "yPos": 88,
+            "width": 163.0,
+            "height": 100.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Start running the item conduit up to the top of the boomtower, where you can feed it into the TNT generators.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 31,
+            "yPos": 21,
+            "width": 159.0,
+            "height": 57.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Make sure to spread the conduit to each generator!",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 229,
+            "yPos": 20,
+            "width": 160.0,
+            "height": 59.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-23_00.18.37.png",
+            "xPos": 225,
+            "yPos": 51,
+            "width": 175.0,
+            "height": 102.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "\"Oh, come on! Really? We have to set the item conduit to insert mode on each one?\"\n\nProbably.\n\nSee if you can get that yeta wrench pointed right on the green arrows this time, and maybe this will be easy.\n\nMaybe they will already be in insert mode. Haha! I kid!",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 32,
+            "yPos": 22,
+            "width": 166.0,
+            "height": 168.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-23_00.19.33.png",
+            "xPos": 227,
+            "yPos": 20,
+            "width": 170.0,
+            "height": 101.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "So hey.\n\nThe funny thing about this power generation rig is that, well, it needs power to run.\n\nThat sucks.\n\nI gave you this quest after you got the basics, so you should be able to get some starting juice into here. I shoved an energy cell in and get it moving tha way.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 28,
+            "yPos": 21,
+            "width": 170.0,
+            "height": 162.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-23_00.19.51.png",
+            "xPos": 29,
+            "yPos": 93,
+            "width": 168.0,
+            "height": 102.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-23_00.19.58.png",
+            "xPos": 227,
+            "yPos": 94,
+            "width": 167.0,
+            "height": 101.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "All the machines should eventually spring to life. If they don\u0027t, find the first one in the chain that doesn\u0027t. You have something screwing up right before it.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 31,
+            "yPos": 21,
+            "width": 163.0,
+            "height": 65.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Both the pulverizer and the SAG mill sound like an old clothes dryer I had.\n\nI really needed a new one.\n\nI line dry my clothes now because I\u0027m a hippy.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 227,
+            "yPos": 20,
+            "width": 162.0,
+            "height": 66.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Eventually, your cyclic assembler should fill up with gunpowder and sand. If one side is missing after a minute, then that side has a bug. You have to go check the machine and conduit setups. Also, check for power!\n\nDid you turn off redstone control of your extract ducts?\n\nIs round-robin set for the extruder?",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 38,
+            "yPos": 29,
+            "width": 148.0,
+            "height": 155.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-23_00.20.35_1.png",
+            "xPos": 235,
+            "yPos": 27,
+            "width": 148.0,
+            "height": 145.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-23_00.22.19.png",
+            "xPos": 232,
+            "yPos": 43,
+            "width": 160.0,
+            "height": 102.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Bwahahaha! Over time it should look something like this. However, if you took a picture where I\u0027m standing, they\u0027d bury you in a lunchbox!\n\nAs it stands, this setup cannot handle that many generators. The crushing side is slower than the pulverizing side. We won\u0027t balance it between those sections completely in this book.\n\nHowever, we will at least balance the crusher side on itself.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 31,
+            "yPos": 24,
+            "width": 155.0,
+            "height": 160.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-23_00.23.20.png",
+            "xPos": 222,
+            "yPos": 21,
+            "width": 179.0,
+            "height": 158.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Both crushers need speed upgrades. The first one that gets cobble needs two. The second one needs four. Why four? The SAG mill sometimes doubles the amount of flint coming in, so it\u0027s working against more material.\n\nClick the upper-right icon in the crusher to add upgrades. Yes, it reads as \"Disable upgrades.\" Ignore that. You\u0027re enabling them.\n\nThis isn\u0027t the first time something in Minecraft was confusing.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 32,
+            "yPos": 26,
+            "width": 164.0,
+            "height": 155.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-23_00.23.26.png",
+            "xPos": 224,
+            "yPos": 20,
+            "width": 175.0,
+            "height": 160.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Slap some upgrades in the upper-right slot. They are Mekanism speed upgrades. Remember, 2 for the cobblestone crusher, and 4 for the flint crusher.\n\nAfter this, you can try to fully balance the system by creating a second bank of crushers and SAG mills.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 31,
+            "yPos": 23,
+            "width": 162.0,
+            "height": 161.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Boomhauer_s_Boomtower/2016-03-23_00.24.42.png",
+            "xPos": 220,
+            "yPos": 36,
+            "width": 183.0,
+            "height": 110.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "PS: If the explosions are annoying you for some reason (why?), you can put in 3 sound mufflers from OpenBlocks across from them. That will completely mute them.\n\nBut that is crazy!",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 28,
+            "yPos": 24,
+            "width": 169.0,
+            "height": 159.0
+          }
+        }
+      ],
+      "pageName": ""
+    }
+  ],
+  "uniqueName": "Boomhauer_s_Boomtower",
+  "color": 16777215,
+  "showBackground": true,
+  "showArrows": true,
+  "showNumber": true,
+  "iconPass1": "",
+  "iconPass2": "",
+  "iconColorisePass1": false,
+  "iconColorisePass2": false,
+  "iconColorPass1": 0,
+  "iconColorPass2": 0,
+  "language": "en_US",
+  "displayName": "Boomhauer_s_Boomtower",
+  "displayInCreative": true
+}

@@ -1,0 +1,232 @@
+{
+  "book": [
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Baby_s_Third_Ore_Processing/2016-03-26_02.07.28.png",
+            "xPos": 222,
+            "yPos": 20,
+            "width": 178.0,
+            "height": 117.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Here\u0027s a quick guide to 3x ore processing, straight from lab #2. You will need:\n\nA source for water\nA purification chamber\nA crusher\nAn enrichment chamber\nAn energized smelter\nA gas-burning engine\nAn electrolytic separator\nA source of power\nPower conduit/cables/ducts\nA water pipe/conduit\nBasic pressurized pipe",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 32,
+            "yPos": 25,
+            "width": 164.0,
+            "height": 172.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Arrange your ore processing machines left-to-right:",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 29,
+            "yPos": 22,
+            "width": 162.0,
+            "height": 19.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "Mekanism:MachineBlock 9",
+            "xPos": 46,
+            "yPos": 51,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "Mekanism:MachineBlock 3",
+            "xPos": 83,
+            "yPos": 52,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "Mekanism:MachineBlock 0",
+            "xPos": 121,
+            "yPos": 52,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "Mekanism:MachineBlock 10",
+            "xPos": 160,
+            "yPos": 51,
+            "width": 32.0,
+            "height": 32.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Purification Chamber\nCrusher\nEnrichment Chamber\nEnergized Smelter\n\nConsider putting a chest to the right of the smelter.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 30,
+            "yPos": 91,
+            "width": 154.0,
+            "height": 91.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Baby_s_Third_Ore_Processing/2016-03-26_02.08.00.png",
+            "xPos": 222,
+            "yPos": 22,
+            "width": 159.0,
+            "height": 100.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Right click each, and go to the machine configuration button. Copy the above. To turn on auto-eject, press the \u0027A\u0027 button up top. You can left-click the boxes to set them. Shift-left-click quickly unsets them.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 224,
+            "yPos": 129,
+            "width": 161.0,
+            "height": 64.0
+          }
+        }
+      ],
+      "pageName": "smelter"
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Baby_s_Third_Ore_Processing/2016-03-26_02.07.43.png",
+            "xPos": 30,
+            "yPos": 21,
+            "width": 167.0,
+            "height": 101.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "The electrolytic separator is actually really obnoxious to set up because its sides cannot be reassigned.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 32,
+            "yPos": 128,
+            "width": 162.0,
+            "height": 67.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "If you look at the separator from the side that has the tanks:\n\nWater: Front\nHydrogen: Left\nOxygen: Right\nPower: Top\n\nPower can go a few places, but not the fluid and gasses.\n\nInstall pressurized pipe out from each side. The oxygen side goes to the purification chamber. That machine will know enough to connect it and start using it.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 227,
+            "yPos": 21,
+            "width": 168.0,
+            "height": 163.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Baby_s_Third_Ore_Processing/2016-03-26_02.07.52.png",
+            "xPos": 30,
+            "yPos": 21,
+            "width": 165.0,
+            "height": 99.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "The gas-burning generator will accept the hydrogen from most sides. I used the bottom here. However, it connects power from the side opposite the blue cylindrical tanks.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 31,
+            "yPos": 127,
+            "width": 163.0,
+            "height": 64.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Baby_s_Third_Ore_Processing/2016-03-26_02.08.28.png",
+            "xPos": 232,
+            "yPos": 22,
+            "width": 100.0,
+            "height": 100.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "If you did it right, the separator should look kind of like this. You should be able to put metal ores into the purification chamber, and it will start to chew them up. Note, the crusher is a first bottleneck because it has to consume the result of the tripling.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 227,
+            "yPos": 129,
+            "width": 165.0,
+            "height": 66.0
+          }
+        }
+      ],
+      "pageName": ""
+    }
+  ],
+  "uniqueName": "Baby_s_Third_Ore_Processing",
+  "color": 16777215,
+  "showBackground": true,
+  "showArrows": true,
+  "showNumber": true,
+  "iconPass1": "",
+  "iconPass2": "",
+  "iconColorisePass1": false,
+  "iconColorisePass2": false,
+  "iconColorPass1": 0,
+  "iconColorPass2": 0,
+  "language": "en_US",
+  "displayName": "Baby_s_Third_Ore_Processing",
+  "displayInCreative": true
+}

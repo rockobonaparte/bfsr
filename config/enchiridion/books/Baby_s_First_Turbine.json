@@ -1,0 +1,891 @@
+{
+  "book": [
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Baby_s_First_Turbine/2016-03-20_01.22.24.png",
+            "xPos": 226,
+            "yPos": 19,
+            "width": 173.0,
+            "height": 170.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Baby\u0027s First Turbine!\n\nLet\u0027s say you have a lot of steam. What will you do with it? A turbine can turn it into RF power! \nOr, let\u0027s say you have a little nuclear reactor. Well, you can convert it into a steam generator. Then, you will have a lot of steam. What will you do with it? A turbine can turn it into RF power!",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 32,
+            "yPos": 24,
+            "width": 164.0,
+            "height": 153.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "TURBINE MATH",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF000000",
+            "xPos": 223,
+            "yPos": 21,
+            "width": 159.0,
+            "height": 10.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Finding the right balance of everything when building a turbine is hard. In particular, calculating how many coil blocks you need of whatever resource you have. Furthermore, turbines are most efficient at multiples of 900 rpm, and 1800 rpm is the best. A release of Big Reactors in the future might even have them explode at over 2000 rpm!\n\nThe fan blade math, however, is easy:\n25 mb/tick of steam per blade\n2,000 mb/tick of steam per turbine",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 223,
+            "yPos": 33,
+            "width": 165.0,
+            "height": 158.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "TURBINE BASICS",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF000000",
+            "xPos": 27,
+            "yPos": 22,
+            "width": 161.0,
+            "height": 11.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "The turbine is a chasis of turbine blocks and turbine glass that spins when filled with steam, codensing the steam into water. Meanwhile, certain blocks at the base of the turbine, called coils, are siphoning off some of that spin to generate RF power.\n\nThe turbine walls don\u0027t have to be turbine glass, but they sure are pretty, so you should really think about it.\n\nThe fan is a long column with multiple fan blades sticking off of it.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 29,
+            "yPos": 38,
+            "width": 171.0,
+            "height": 156.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Baby_s_First_Turbine/2016-03-20_01.04.48.png",
+            "xPos": 224,
+            "yPos": 16,
+            "width": 169.0,
+            "height": 167.0
+          }
+        },
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "MineFactoryReloaded:machine.1 6",
+            "xPos": 30,
+            "yPos": 83,
+            "width": 29.0,
+            "height": 29.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Assumptions",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF000000",
+            "xPos": 29,
+            "yPos": 20,
+            "width": 145.0,
+            "height": 16.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "You have either:\n1. The liquid ender reactor\n2. Two fueled steam boilers\n\nThis turbine can roughly do both",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 29,
+            "yPos": 32,
+            "width": 178.0,
+            "height": 47.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Most people don\u0027t use the steam boilers for this, but that\u0027s cool if you did!",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF800080",
+            "xPos": 64,
+            "yPos": 83,
+            "width": 133.0,
+            "height": 27.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Getting Started",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF000000",
+            "xPos": 30,
+            "yPos": 121,
+            "width": 165.0,
+            "height": 30.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Lay out a base of turbine blocks",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 30,
+            "yPos": 135,
+            "width": 162.0,
+            "height": 42.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Baby_s_First_Turbine/2016-03-20_01.05.54.png",
+            "xPos": 225,
+            "yPos": 19,
+            "width": 166.0,
+            "height": 167.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "The second layer should have:\n1. Turbine blocks in the corners.\n2. Turbine glass on the outside. They let you watch the turbine spin.\n3. A turbine shaft in the center.\n4. A ring of electrum blocks around the shaft.\n\nThe third layer should repeat this.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 25,
+            "yPos": 23,
+            "width": 176.0,
+            "height": 145.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Baby_s_First_Turbine/2016-03-20_01.07.01.png",
+            "xPos": 227,
+            "yPos": 20,
+            "width": 170.0,
+            "height": 162.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "You were supposed to repeat the previous layer twice!",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF800000",
+            "xPos": 29,
+            "yPos": 22,
+            "width": 161.0,
+            "height": 9.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "This is the last coil layer!\n\nCreate another layer kind of like the previous two, but only use four coils in a + sign arrangement. This is because roughly 20 electrum coils will keep the shaft around the 1800 rpm range naturally.\n\nIt does swing a little when the reactor has a fractional amount of waste, by the way.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 29,
+            "yPos": 49,
+            "width": 167.0,
+            "height": 142.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Baby_s_First_Turbine/2016-03-20_01.07.33.png",
+            "xPos": 223,
+            "yPos": 16,
+            "width": 175.0,
+            "height": 171.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "This is the first fan layer. Set up a similar outer casing, and keep extending the fan shaft. However, you should now tack a fan blade on to each side of the shaft.\n\nYou will want to do this a total of seven times.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 33,
+            "yPos": 24,
+            "width": 157.0,
+            "height": 169.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Baby_s_First_Turbine/2016-03-20_01.09.41.png",
+            "xPos": 226,
+            "yPos": 16,
+            "width": 174.0,
+            "height": 172.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Shove a turbine power tap somewhere on the side where you can get to it! You might need more than one. You will be seeing upwards of 5,000 RF/tick when this thing is done. Can your conduits handle it? If not, you will need multiple taps and multiple conduits draining the energy out.\n\nOh shoot! You also need a turbine controller!",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 31,
+            "yPos": 24,
+            "width": 157.0,
+            "height": 148.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Baby_s_First_Turbine/2016-03-20_01.11.23.png",
+            "xPos": 221,
+            "yPos": 18,
+            "width": 175.0,
+            "height": 162.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "The turbine runs on steam, and spits the condensed steam out as water. You will want a total of four turbine fluid ports. Two will be for water, and two for steam. Red is steam, blue is water. They all start out as red, but you can right-click two with a wrench to make them water output.\n\nFor this one, bop the two on the right-hand side.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 31,
+            "yPos": 23,
+            "width": 154.0,
+            "height": 160.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Baby_s_First_Turbine/2016-03-20_01.11.51.png",
+            "xPos": 220,
+            "yPos": 15,
+            "width": 181.0,
+            "height": 174.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "The reactor now needs four coolant ports to match the turbine. Color match them. You\u0027ll want blue to go to blue and red to go to red.\n\nYou were given advanced mechanical ducts when you finished the turbine quest. They each can handle 400mB/tick of water and steam. The reactor generates upwards of 800mB/tick of each. To keep up, you have to use a pair of these for both water and steam. Hence the 4 ports on each rig.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 34,
+            "yPos": 23,
+            "width": 156.0,
+            "height": 164.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Baby_s_First_Turbine/2016-03-20_01.13.56.png",
+            "xPos": 222,
+            "yPos": 17,
+            "width": 177.0,
+            "height": 161.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Connect red to red, and blue to blue, without them running into each other.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 38,
+            "yPos": 27,
+            "width": 157.0,
+            "height": 158.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Baby_s_First_Turbine/2016-03-20_01.10.07.png",
+            "xPos": 226,
+            "yPos": 17,
+            "width": 170.0,
+            "height": 171.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "We can finish off the turbine now! The top layer needs to have a rotor shaft bearing where the turbine shaft ends. The rest can be just turbine casing, but I still like to have glass in the inner area. This should finish off the turbine.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 35,
+            "yPos": 26,
+            "width": 155.0,
+            "height": 147.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Baby_s_First_Turbine/2016-03-20_01.15.06.png",
+            "xPos": 224,
+            "yPos": 18,
+            "width": 169.0,
+            "height": 165.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "These reactors eat a ton of water. I don\u0027t want to mess around, so we\u0027re going to take this here aqueous accumulator . . .",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 33,
+            "yPos": 26,
+            "width": 158.0,
+            "height": 153.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Baby_s_First_Turbine/2016-03-20_01.15.42.png",
+            "xPos": 222,
+            "yPos": 16,
+            "width": 176.0,
+            "height": 169.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": ". . . and make four more of them in a tower next to the reactor.\n\nAqueous accumulator generate water from nothing, but they do it much faster with water. Stay tuned!",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 33,
+            "yPos": 25,
+            "width": 153.0,
+            "height": 152.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Baby_s_First_Turbine/2016-03-20_01.16.45.png",
+            "xPos": 227,
+            "yPos": 18,
+            "width": 168.0,
+            "height": 168.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "It\u0027s a little easier to get some advanced mechanical ducts on the backs of these machines before you\u0027re swimming in randomly-running water. You might need a ladder to get back out of the frame.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 36,
+            "yPos": 28,
+            "width": 152.0,
+            "height": 159.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Baby_s_First_Turbine/2016-03-20_01.17.18.png",
+            "xPos": 222,
+            "yPos": 17,
+            "width": 174.0,
+            "height": 170.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Run the back of the accumulators over to the water inlet--the blue ones--on the reactor. This will supply the reactor with the starting water it needs.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 33,
+            "yPos": 29,
+            "width": 148.0,
+            "height": 143.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Baby_s_First_Turbine/2016-03-20_01.18.42.png",
+            "xPos": 224,
+            "yPos": 17,
+            "width": 174.0,
+            "height": 170.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Filling that water collection system is pretty tedious unless you know how to make an infinite water source. Ahhh... Minecraft fluid dynamics.\n\nMake yourself a 2x2 hollow area somewhere, like right next to all of this mess.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 31,
+            "yPos": 25,
+            "width": 164.0,
+            "height": 165.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Baby_s_First_Turbine/2016-03-20_01.18.47.png",
+            "xPos": 230,
+            "yPos": 21,
+            "width": 63.0,
+            "height": 66.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Baby_s_First_Turbine/2016-03-20_01.18.51.png",
+            "xPos": 300,
+            "yPos": 21,
+            "width": 61.0,
+            "height": 66.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Baby_s_First_Turbine/2016-03-20_01.18.55.png",
+            "xPos": 230,
+            "yPos": 93,
+            "width": 100.0,
+            "height": 100.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Fill one corner with water, and the opposite corner with another bucket of water. Now, if you take some water out with a bucket, it will replenish!\n\nI am sorry for those of you that know this. Seriously, why are you reading this?\n\n",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 32,
+            "yPos": 25,
+            "width": 165.0,
+            "height": 166.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Baby_s_First_Turbine/2016-03-20_01.19.09.png",
+            "xPos": 224,
+            "yPos": 17,
+            "width": 172.0,
+            "height": 172.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Start filling up the watering hole! \n\nZ... z... z... z...",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 30,
+            "yPos": 24,
+            "width": 163.0,
+            "height": 166.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Baby_s_First_Turbine/2016-03-20_01.20.09.png",
+            "xPos": 223,
+            "yPos": 16,
+            "width": 173.0,
+            "height": 173.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "The reactor will fill with water. By the way, once things are stable, you can tear down the water feeding system because the turbine recycles steam to water without any loss. It becomes a closed system.\n\nIt is just annoying to get water into it in the first place.\n\nWait until you try a large reactor. Hey, they call it \"Big Reactors,\" not \"Tiny Little Cute Puny Reactors!\"",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 31,
+            "yPos": 24,
+            "width": 161.0,
+            "height": 155.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Baby_s_First_Turbine/2016-03-20_01.20.18.png",
+            "xPos": 104,
+            "yPos": 16,
+            "width": 100.0,
+            "height": 100.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Baby_s_First_Turbine/2016-03-20_01.20.28.png",
+            "xPos": 221,
+            "yPos": 16,
+            "width": 100.0,
+            "height": 100.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "So hey... let\u0027s turn on the reactor. You might notice instead of showing RF/t, it is showing mB/t. That\u0027s how much steam it generates. When you added the coolant ports, the reactor already transformed from \"passively cooled\" to \"actively cooled.\"",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 30,
+            "yPos": 117,
+            "width": 170.0,
+            "height": 80.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "An actively-cooled reactor cycles water through itself to cool it off. It turns the heat into steam! It\u0027s a steam generator!\n\nNotice it generated 696mB/t here. It will swing upwards of 750mB/t down to 680mB/t depending on waste in the fuel.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 222,
+            "yPos": 118,
+            "width": 178.0,
+            "height": 74.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Baby_s_First_Turbine/2016-03-20_01.20.58.png",
+            "xPos": 218,
+            "yPos": 18,
+            "width": 179.0,
+            "height": 169.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Did you still forget the turbine controller?\n\nPut that somewhere on the side of the reactor where you can remember it.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 31,
+            "yPos": 20,
+            "width": 165.0,
+            "height": 160.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Baby_s_First_Turbine/2016-03-20_01.21.07.png",
+            "xPos": 224,
+            "yPos": 17,
+            "width": 175.0,
+            "height": 170.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "The turbine should have some steam in it. It might not have water now, but it will when you turn it on. Use the bottom right button the activate it. It\u0027s the same as the reactor.\n\nYou will see that this device is the one that\u0027s generating the RF power now. It\u0027s generation rate will vary based on RPM and the layout of the reactor. We want to freeze it around 900 RPM or 1800 RPM.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 30,
+            "yPos": 26,
+            "width": 167.0,
+            "height": 164.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Baby_s_First_Turbine/2016-03-20_01.21.37.png",
+            "xPos": 25,
+            "yPos": 16,
+            "width": 161.0,
+            "height": 125.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Baby_s_First_Turbine/2016-03-20_01.22.48.png",
+            "xPos": 223,
+            "yPos": 17,
+            "width": 161.0,
+            "height": 143.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "It\u0027s going to take its sweet time with the coils engaged, so disengage with the top green arrow button there. It won\u0027t generate RF, but it will speed up!",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 25,
+            "yPos": 144,
+            "width": 169.0,
+            "height": 49.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "When it gets over 1700 RPM, engage the coils again, and it will generate TONS OF POWER!",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 225,
+            "yPos": 165,
+            "width": 166.0,
+            "height": 26.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Baby_s_First_Turbine/2016-03-20_01.22.24.png",
+            "xPos": 220,
+            "yPos": 16,
+            "width": 181.0,
+            "height": 145.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "You now have a starter turbine. You can now look up all the crazy math on how to calculate the right number of things and what things to use in a turbine.\n\nThere isn\u0027t entirely a perfect answer here. Well, ludicrite is the best coil material, but it\u0027s stupid to find.\n\nRegarding fuel: You should be able to power a laser drill precharger now, and the drill should have lime focuses. That can extract yellorium and uranium faster than you burn it.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 29,
+            "yPos": 22,
+            "width": 163.0,
+            "height": 170.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "PS: The traditional plural of \"focus\" is \"focuses\" because it is Greek, but it has been so abused that it might as well be \"foci.\"",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 221,
+            "yPos": 164,
+            "width": 177.0,
+            "height": 26.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "THE END",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF000000",
+            "xPos": 97,
+            "yPos": 91,
+            "width": 50.0,
+            "height": 50.0
+          }
+        }
+      ],
+      "pageName": ""
+    }
+  ],
+  "uniqueName": "Baby_s_First_Turbine",
+  "color": 16777215,
+  "showBackground": true,
+  "showArrows": true,
+  "showNumber": true,
+  "iconPass1": "",
+  "iconPass2": "",
+  "iconColorisePass1": false,
+  "iconColorisePass2": false,
+  "iconColorPass1": 0,
+  "iconColorPass2": 0,
+  "language": "en_US",
+  "displayName": "Baby_s_First_Turbine",
+  "displayInCreative": true
+}
