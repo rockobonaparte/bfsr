@@ -1,0 +1,54 @@
+{
+    "DialogShowWheel": 0b,
+    "AvailabilityQuestId": -1,
+    "Options": [
+    ],
+    "DialogHideNPC": 0b,
+    "AvailabilityFactionStance": 0,
+    "AvailabilityQuest": 0,
+    "AvailabilityDialog4": 0,
+    "AvailabilityDialog3": 0,
+    "AvailabilityQuest2": 0,
+    "AvailabilityQuest3": 0,
+    "AvailabilityQuest4": 0,
+    "ModRev": 16,
+    "DecreaseFaction1Points": 0b,
+    "DialogQuest": -1,
+    "AvailabilityDialog2": 0,
+    "OptionFactions1": -1,
+    "AvailabilityDayTime": 0,
+    "OptionFactions2": -1,
+    "AvailabilityFaction2Id": -1,
+    "OptionFaction1Points": 100,
+    "DialogDisableEsc": 0b,
+    "AvailabilityFaction": 0,
+    "DialogTitle": "Moon Base Strategy II",
+    "AvailabilityDialog": 0,
+    "AvailabilityFaction2": 0,
+    "AvailabilityFactionId": -1,
+    "AvailabilityFaction2Stance": 0,
+    "DialogCommand": "",
+    "AvailabilityDialogId": -1,
+    "OptionFaction2Points": 100,
+    "DialogText": "Assuming you have set up the teleporters, that farm is very important. You will not renew your oxygen supply without it. Begin to prepare the layers of the farm as you would on the Overworld. Set up an oxygen collector at the top. Route power down and away from this. You can now work on the frame of the base. Lay out the 11x11 tin decoration block floor, then prepare the walls and then close it off. At this point, you do not have the airlocks set up. You could presumably practice with the airlocks in the Overworld. You want to right-click the controllers so they activate when you are 1m from them. Then they will auto-open and auto-close. It should then be a breeze to install the airlock. Mount the solar panels on top of the base and connect the power. I recommend installing a capacitor where all the panels link, before they feed any equipment.Once you have all these pieces, you route the power and oxygen into the base. Set up the oxygen sealer first and foremost. Pay attention that it achieves a seal. An oxygen detector to the side should help to keep you confident all is well. At this point, you should be able to work in the base at your leisure. You might consider refilling your tanks first!",
+    "AvailabilityQuest4Id": -1,
+    "AvailabilityQuest3Id": -1,
+    "AvailabilityQuest2Id": -1,
+    "AvailabilityDialog2Id": -1,
+    "AvailabilityDialog3Id": -1,
+    "AvailabilityDialog4Id": -1,
+    "AvailabilityMinPlayerLevel": 0,
+    "DecreaseFaction2Points": 0b,
+    "DialogMail": {
+        "Sender": "",
+        "BeenRead": 0b,
+        "Message": {
+        },
+        "MailItems": [
+        ],
+        "MailQuest": -1,
+        "TimePast": 1460181958855L,
+        "Time": 0L,
+        "Subject": ""
+    }
+}
