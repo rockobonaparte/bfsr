@@ -1,32 +1,5 @@
 {
-	"surface_lava":
-	{
-        "template": {
-			"type": "surface", 
-			"generator": "lake",
-			"outlineBlock": "Artifice:tile.artifice.basalt",
-			"useMaterial": "true"
-		},
-        "block": "minecraft:lava",
-        "material": [
-			{ "name": "minecraft:stone" },
-			{ "name": "minecraft:dirt" },
-			{ "name": "minecraft:grass" }
-		],
-        "clusterSize": 20,
-        "numClusters": 2,
-        "minHeight": 58,
-        "maxHeight": 128,
-        "retrogen": "false",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
-	},
-    "pond_clay": 
+   "pond_clay": 
 	{
         "template": {
 			"type": "underfluid",
