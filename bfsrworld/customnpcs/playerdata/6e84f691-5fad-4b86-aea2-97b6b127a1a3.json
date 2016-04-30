@@ -7,6 +7,10 @@
         {
             "Points": 2000,
             "Faction": 0
+        },
+        {
+            "Points": 0,
+            "Faction": 2
         }
     ],
     "BankData": [
@@ -219,6 +223,9 @@
         },
         {
             "Dialog": 78
+        },
+        {
+            "Dialog": 81
         }
     ]
 }

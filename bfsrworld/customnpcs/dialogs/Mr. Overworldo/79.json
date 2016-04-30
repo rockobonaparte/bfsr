@@ -2,26 +2,6 @@
     "DialogShowWheel": 0b,
     "AvailabilityQuestId": -1,
     "Options": [
-        {
-            "OptionSlot": 0,
-            "Option": {
-                "DialogCommand": "",
-                "Dialog": 71,
-                "Title": "How am I getting there?",
-                "DialogColor": 14737632,
-                "OptionType": 1
-            }
-        },
-        {
-            "OptionSlot": 1,
-            "Option": {
-                "DialogCommand": "",
-                "Dialog": 70,
-                "Title": "What am I doing when I get there?",
-                "DialogColor": 14737632,
-                "OptionType": 1
-            }
-        }
     ],
     "DialogHideNPC": 0b,
     "AvailabilityFactionStance": 0,
@@ -42,7 +22,7 @@
     "OptionFaction1Points": 100,
     "DialogDisableEsc": 0b,
     "AvailabilityFaction": 0,
-    "DialogTitle": "Moon Mission",
+    "DialogTitle": "Cave Spawn",
     "AvailabilityDialog": 0,
     "AvailabilityFaction2": 0,
     "AvailabilityFactionId": -1,
@@ -50,7 +30,7 @@
     "DialogCommand": "",
     "AvailabilityDialogId": -1,
     "OptionFaction2Points": 100,
-    "DialogText": "Baby's First Space City takes pride in the technology prowess of its babies. They can make nuclear reactors out of stuff laying around on a wooden table, for Pete's sake! So they intend to demonstrate this power to the galaxy and start expanding into the \"Great Beyond.\" The moon is a natural first step. We all can remember staring at it for one hot second at night before crawling under a rock in abject terror. Now we believe we can go out, touch it, and... kill everything on it. Then we may take a detour to set up a space station, go to Mars, and do all the other things because we can.",
+    "DialogText": "Oh wow... raw deal there, huh. Yeah that's not *supposed* to happen, but all the stuff that makes this possible sometimes screws up. We have a backup plan here. By the door here are a few tool racks with paper picks. If there aren't, well, Paige Turner down with the shops gives them away for free from leftover paper. They'll let you mine a good... 9 blocks or so of stone so you can claw your way out onto the surface. If that's too much for you, you can go play over in the park. It has wood and stone. You can practice there and get a stone pick for your troubles. But pay if forward! You want keep the sandbox clean and ready for the next poor fool.",
     "AvailabilityQuest4Id": -1,
     "AvailabilityQuest3Id": -1,
     "AvailabilityQuest2Id": -1,
@@ -67,7 +47,7 @@
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1461909058035L,
+        "TimePast": 1461908185139L,
         "Time": 0L,
         "Subject": ""
     }

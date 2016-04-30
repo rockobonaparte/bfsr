@@ -2,26 +2,6 @@
     "DialogShowWheel": 0b,
     "AvailabilityQuestId": -1,
     "Options": [
-        {
-            "OptionSlot": 0,
-            "Option": {
-                "DialogCommand": "",
-                "Dialog": 71,
-                "Title": "How am I getting there?",
-                "DialogColor": 14737632,
-                "OptionType": 1
-            }
-        },
-        {
-            "OptionSlot": 1,
-            "Option": {
-                "DialogCommand": "",
-                "Dialog": 70,
-                "Title": "What am I doing when I get there?",
-                "DialogColor": 14737632,
-                "OptionType": 1
-            }
-        }
     ],
     "DialogHideNPC": 0b,
     "AvailabilityFactionStance": 0,
@@ -42,7 +22,7 @@
     "OptionFaction1Points": 100,
     "DialogDisableEsc": 0b,
     "AvailabilityFaction": 0,
-    "DialogTitle": "Moon Mission",
+    "DialogTitle": "Gossip",
     "AvailabilityDialog": 0,
     "AvailabilityFaction2": 0,
     "AvailabilityFactionId": -1,
@@ -50,7 +30,7 @@
     "DialogCommand": "",
     "AvailabilityDialogId": -1,
     "OptionFaction2Points": 100,
-    "DialogText": "Baby's First Space City takes pride in the technology prowess of its babies. They can make nuclear reactors out of stuff laying around on a wooden table, for Pete's sake! So they intend to demonstrate this power to the galaxy and start expanding into the \"Great Beyond.\" The moon is a natural first step. We all can remember staring at it for one hot second at night before crawling under a rock in abject terror. Now we believe we can go out, touch it, and... kill everything on it. Then we may take a detour to set up a space station, go to Mars, and do all the other things because we can.",
+    "DialogText": "Eh well, Nurse Pinky has a crush on Mr. Overworldo, but that guy has no self-esteem because he farts uncontrollably. It has something to do with the diet. I don't know. But Admiral Luna is my favorite. She doesn't screw around! She's more blunt than a hammer.One time I caught her in the Dad Bar, asking out dads. I know, right? I mean, a dad. Like, we live in interesting times, but you have a good shot they're already married. She wasn't even flirting. It was just kind of like, \"Hi, who are you? I am Admiral Luna. Let's go on a date.\" I think she's used to just getting whatever she wants. I'm jealous.",
     "AvailabilityQuest4Id": -1,
     "AvailabilityQuest3Id": -1,
     "AvailabilityQuest2Id": -1,
@@ -67,7 +47,7 @@
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1461909058035L,
+        "TimePast": 1461908486284L,
         "Time": 0L,
         "Subject": ""
     }

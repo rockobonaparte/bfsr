@@ -2,6 +2,16 @@
     "DialogShowWheel": 0b,
     "AvailabilityQuestId": -1,
     "Options": [
+        {
+            "OptionSlot": 0,
+            "Option": {
+                "DialogCommand": "",
+                "Dialog": 80,
+                "Title": "Gossip. Now.",
+                "DialogColor": 14737632,
+                "OptionType": 1
+            }
+        }
     ],
     "DialogHideNPC": 0b,
     "AvailabilityFactionStance": 0,
@@ -47,7 +57,7 @@
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1459836417956L,
+        "TimePast": 1461908529484L,
         "Time": 0L,
         "Subject": ""
     }

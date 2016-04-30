@@ -7,8 +7,8 @@
             "Option": {
                 "DialogCommand": "",
                 "Dialog": 71,
-                "Title": "How am I getting there?",
-                "DialogColor": 14737632,
+                "Title": "What about space exploration",
+                "DialogColor": 16777215,
                 "OptionType": 1
             }
         },
@@ -17,8 +17,8 @@
             "Option": {
                 "DialogCommand": "",
                 "Dialog": 70,
-                "Title": "What am I doing when I get there?",
-                "DialogColor": 14737632,
+                "Title": "What about the moon?",
+                "DialogColor": 16777215,
                 "OptionType": 1
             }
         }
@@ -42,7 +42,7 @@
     "OptionFaction1Points": 100,
     "DialogDisableEsc": 0b,
     "AvailabilityFaction": 0,
-    "DialogTitle": "Moon Mission",
+    "DialogTitle": "Philadelphia Experiment",
     "AvailabilityDialog": 0,
     "AvailabilityFaction2": 0,
     "AvailabilityFactionId": -1,
@@ -50,7 +50,7 @@
     "DialogCommand": "",
     "AvailabilityDialogId": -1,
     "OptionFaction2Points": 100,
-    "DialogText": "Baby's First Space City takes pride in the technology prowess of its babies. They can make nuclear reactors out of stuff laying around on a wooden table, for Pete's sake! So they intend to demonstrate this power to the galaxy and start expanding into the \"Great Beyond.\" The moon is a natural first step. We all can remember staring at it for one hot second at night before crawling under a rock in abject terror. Now we believe we can go out, touch it, and... kill everything on it. Then we may take a detour to set up a space station, go to Mars, and do all the other things because we can.",
+    "DialogText": "I must admit I'm getting into Academy folklore here. As the story goes, the Navy wanted to sneak war assets by compressing them in space time into hard disks. The idea was you could then deploy this thing elsewhere very suddenly without all the travel in between. They set up one of the smaller ships for an experiment using spatial storage. They beamed the ship away just fine, but when they restored it in place, something terrible happened. Stuff like hell breaking loose... literally. Everybody was crazy. The ship's nuclear reactor filled with blood. Complete madness. A real tragedy.It was a fun story to scare young sailors, but I never saw anything to do with it. Consider I deal with space and interdimensional travel here. It is probably a myth. They say those crazy quest books they give you have something about it. It is probably just a little fluff to keep up your spirits. I'm sorry.",
     "AvailabilityQuest4Id": -1,
     "AvailabilityQuest3Id": -1,
     "AvailabilityQuest2Id": -1,
@@ -67,7 +67,7 @@
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1461909058035L,
+        "TimePast": 1461909186337L,
         "Time": 0L,
         "Subject": ""
     }

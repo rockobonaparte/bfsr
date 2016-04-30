@@ -21,6 +21,16 @@
                 "DialogColor": 14737632,
                 "OptionType": 1
             }
+        },
+        {
+            "OptionSlot": 2,
+            "Option": {
+                "DialogCommand": "",
+                "Dialog": 81,
+                "Title": "What about the Philadelphia Experiment?",
+                "DialogColor": 15262472,
+                "OptionType": 1
+            }
         }
     ],
     "DialogHideNPC": 0b,
@@ -67,7 +77,7 @@
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1460180791754L,
+        "TimePast": 1461909141285L,
         "Time": 0L,
         "Subject": ""
     }
