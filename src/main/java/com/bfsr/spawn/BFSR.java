@@ -1,5 +1,6 @@
 package com.bfsr.spawn;
 
+import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.event.FMLServerStartingEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
@@ -18,7 +19,7 @@ import net.minecraftforge.common.DimensionManager;
 @Mod(modid = BFSR.MODID, version = BFSR.VERSION)
 public class BFSR {
     public static final String MODID = "bfsr";
-    public static final String VERSION = "1.0";
+    public static final String VERSION = "1.1";
 
     public static Item safetyRattle;
 
@@ -48,12 +49,24 @@ public class BFSR {
                 "A",
                 "A",
                 'A',sandStack);
+
     }
 
     @EventHandler
     public void init(FMLInitializationEvent event) {
         // some example code
         System.out.println("Initialized BFSR spawn helpers.");
+    }
+
+    @EventHandler
+    public void postInit(FMLPostInitializationEvent event) {
+        // Need to wait until init to register this because we need to make sure Natura's loaded first!
+        Block taintedSoilBlock = GameRegistry.findBlock("Natura", "soil.tainted");
+        ItemStack taintedStack = new ItemStack(taintedSoilBlock);
+        GameRegistry.addRecipe(new ItemStack(BFSR.safetyRattle),
+                "A",
+                "A",
+                'A',taintedStack);
     }
 
     @EventHandler
