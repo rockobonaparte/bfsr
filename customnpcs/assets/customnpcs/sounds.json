@@ -1,3 +1,6 @@
 {
-
+  "sound.autism_warcry": {
+    "category": "player",
+    "sounds": ["russian_autism_warcry", "russian_autism_warcry2"]
+  }
 }
