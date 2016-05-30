@@ -1,84 +1,84 @@
 {
-    "AvailabilityQuest4": 0,
-    "DecreaseFaction1Points": 0b,
-    "AvailabilityQuest3": 0,
-    "AvailabilityFactionId": -1,
-    "AvailabilityMinPlayerLevel": 0,
-    "AvailabilityQuest3Id": -1,
-    "AvailabilityQuest2": 0,
-    "AvailabilityQuest2Id": -1,
-    "AvailabilityQuestId": -1,
-    "DialogQuest": -1,
-    "DialogText": "The hardened fluiducts can only handle 600 mb/tick of steam, but we're trying to run 1200 mb/tick of steam. We created two separate steam lines that meet at the generators. They split the difference. We have a backup water line going into a fluid trashcan in case the turbine gets stuck on trying to discharge water. I don't think it's really necessary.There are better conduits, but they are very advanced. We did not want to force people making a tree farm to wait for the high-end stuff. This is what you do when you're just starting out.One sad fact is that hardened fluxduct in no way can handle all the power this thing generates. No. Way. Two or three of them? Still not enough! You really need redstone energy fluxducts. If you have electrum, you're about at the point where you could make them too.",
-    "AvailabilityQuest": 0,
-    "AvailabilityFactionStance": 0,
-    "DialogDisableEsc": 0b,
-    "AvailabilityDayTime": 0,
-    "AvailabilityFaction2": 0,
-    "ModRev": 16,
-    "AvailabilityDialog": 0,
     "DialogShowWheel": 0b,
-    "DecreaseFaction2Points": 0b,
-    "AvailabilityDialog2": 0,
-    "AvailabilityFaction2Stance": 0,
+    "AvailabilityQuestId": -1,
     "Options": [
         {
             "OptionSlot": 0,
             "Option": {
-                "DialogColor": 14737632,
                 "DialogCommand": "",
                 "Dialog": 44,
-                "OptionType": 1,
-                "Title": "Tell me more about the turbine."
+                "Title": "Tell me more about the turbine.",
+                "DialogColor": 14737632,
+                "OptionType": 1
             }
         },
         {
             "OptionSlot": 1,
             "Option": {
-                "DialogColor": 14737632,
                 "DialogCommand": "",
                 "Dialog": 42,
-                "OptionType": 1,
-                "Title": "What about the steam?"
+                "Title": "What about the steam?",
+                "DialogColor": 14737632,
+                "OptionType": 1
             }
         },
         {
             "OptionSlot": 2,
             "Option": {
-                "DialogColor": 14737632,
                 "DialogCommand": "",
                 "Dialog": 45,
-                "OptionType": 1,
-                "Title": "How else could you improve everything?"
+                "Title": "How else could you improve everything?",
+                "DialogColor": 14737632,
+                "OptionType": 1
             }
         }
     ],
-    "OptionFaction2Points": 100,
-    "AvailabilityQuest4Id": -1,
     "DialogHideNPC": 0b,
-    "AvailabilityFaction": 0,
-    "AvailabilityDialog2Id": -1,
-    "DialogCommand": "",
+    "AvailabilityFactionStance": 0,
+    "AvailabilityQuest": 0,
     "AvailabilityDialog4": 0,
     "AvailabilityDialog3": 0,
-    "DialogMail": {
-        "Sender": "",
-        "Time": 0L,
-        "Message": {
-        },
-        "Subject": "",
-        "MailItems": [
-        ],
-        "BeenRead": 0b,
-        "MailQuest": -1,
-        "TimePast": 1454994311046L
-    },
+    "AvailabilityQuest2": 0,
+    "AvailabilityQuest3": 0,
+    "AvailabilityQuest4": 0,
+    "ModRev": 16,
+    "DecreaseFaction1Points": 0b,
+    "DialogQuest": -1,
+    "AvailabilityDialog2": 0,
     "OptionFactions1": -1,
-    "AvailabilityDialogId": -1,
+    "AvailabilityDayTime": 0,
     "OptionFactions2": -1,
     "AvailabilityFaction2Id": -1,
     "OptionFaction1Points": 100,
+    "DialogDisableEsc": 0b,
+    "AvailabilityFaction": 0,
     "DialogTitle": "Why So Many Pipes",
+    "AvailabilityDialog": 0,
+    "AvailabilityFaction2": 0,
+    "AvailabilityFactionId": -1,
+    "AvailabilityFaction2Stance": 0,
+    "DialogCommand": "",
+    "AvailabilityDialogId": -1,
+    "OptionFaction2Points": 100,
+    "DialogText": "The hardened fluiducts can only handle 600 mb/tick of steam, but we're trying to run 1200 mb/tick of steam. We created two separate steam lines that meet at the generators. They split the difference.There are better conduits, but they are very advanced. We did not want to force people making a tree farm to wait for the high-end stuff. This is what you do when you're just starting out. Heck, the power connection cannot even discharge the turbine as fast as it generates power!",
+    "AvailabilityQuest4Id": -1,
+    "AvailabilityQuest3Id": -1,
+    "AvailabilityQuest2Id": -1,
+    "AvailabilityDialog2Id": -1,
     "AvailabilityDialog3Id": -1,
-    "AvailabilityDialog4Id": -1
+    "AvailabilityDialog4Id": -1,
+    "AvailabilityMinPlayerLevel": 0,
+    "DecreaseFaction2Points": 0b,
+    "DialogMail": {
+        "Sender": "",
+        "BeenRead": 0b,
+        "Message": {
+        },
+        "MailItems": [
+        ],
+        "MailQuest": -1,
+        "TimePast": 1463984090496L,
+        "Time": 0L,
+        "Subject": ""
+    }
 }

@@ -1,0 +1,84 @@
+{
+    "DialogShowWheel": 0b,
+    "AvailabilityQuestId": -1,
+    "Options": [
+        {
+            "OptionSlot": 0,
+            "Option": {
+                "DialogCommand": "",
+                "Dialog": 98,
+                "Title": "So then this all runs into those crazy ore machines?",
+                "DialogColor": 14737632,
+                "OptionType": 1
+            }
+        },
+        {
+            "OptionSlot": 1,
+            "Option": {
+                "DialogCommand": "",
+                "Dialog": 101,
+                "Title": "You mentioned getting more fuel. How?",
+                "DialogColor": 14737632,
+                "OptionType": 1
+            }
+        },
+        {
+            "OptionSlot": 2,
+            "Option": {
+                "DialogCommand": "",
+                "Dialog": 99,
+                "Title": "So this goes into that AE2 supercomputer? Then what?",
+                "DialogColor": 14737632,
+                "OptionType": 1
+            }
+        }
+    ],
+    "DialogHideNPC": 0b,
+    "AvailabilityFactionStance": 0,
+    "AvailabilityQuest": 0,
+    "AvailabilityDialog4": 0,
+    "AvailabilityDialog3": 0,
+    "AvailabilityQuest2": 0,
+    "AvailabilityQuest3": 0,
+    "AvailabilityQuest4": 0,
+    "ModRev": 16,
+    "DecreaseFaction1Points": 0b,
+    "DialogQuest": -1,
+    "AvailabilityDialog2": 0,
+    "OptionFactions1": -1,
+    "AvailabilityDayTime": 0,
+    "OptionFactions2": -1,
+    "AvailabilityFaction2Id": -1,
+    "OptionFaction1Points": 100,
+    "DialogDisableEsc": 0b,
+    "AvailabilityFaction": 0,
+    "DialogTitle": "Laser drills",
+    "AvailabilityDialog": 0,
+    "AvailabilityFaction2": 0,
+    "AvailabilityFactionId": -1,
+    "AvailabilityFaction2Stance": 0,
+    "DialogCommand": "",
+    "AvailabilityDialogId": -1,
+    "OptionFaction2Points": 100,
+    "DialogText": "Laser drills aren't THAT complicated to use. They're pretty much a fire-and-forget thing... once you figure out how to build them! Man, the research on all this stuff was something else. I'm a transplant from the Minefactory Reloaded crew, you know? Oh, come on! Yes, the nukes and those guys hate each other. Well, most of them. I married one of the nukes. Okay, sure, he jokes that if we have a kid, he hopes it won't be as stupid as those guys, and then I tell him I just hope it doesn't have multiple heads......right. So *assuming* you made one, you want to set the drill up over bedrock or the void. Nothing else can be in the vertical space from its bottom through to either of those. Then you need at least one precharger, and up to four. Line them up on each side, with one space in the middle. You power those blocks, not the drill. They each suck up 5,000 RF/tick. That's some serious business! For all the fuss, you pull ore out of... it's complicated.",
+    "AvailabilityQuest4Id": -1,
+    "AvailabilityQuest3Id": -1,
+    "AvailabilityQuest2Id": -1,
+    "AvailabilityDialog2Id": -1,
+    "AvailabilityDialog3Id": -1,
+    "AvailabilityDialog4Id": -1,
+    "AvailabilityMinPlayerLevel": 0,
+    "DecreaseFaction2Points": 0b,
+    "DialogMail": {
+        "Sender": "",
+        "BeenRead": 0b,
+        "Message": {
+        },
+        "MailItems": [
+        ],
+        "MailQuest": -1,
+        "TimePast": 1464456830047L,
+        "Time": 0L,
+        "Subject": ""
+    }
+}

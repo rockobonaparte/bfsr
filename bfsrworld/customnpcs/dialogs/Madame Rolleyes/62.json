@@ -40,7 +40,7 @@
     "DialogCommand": "",
     "AvailabilityDialogId": -1,
     "OptionFaction2Points": 100,
-    "DialogText": "...or help yourself to the spare dialing devices, power cells, and matter transmitters in that chest over there in the corner to send yourself back. And if you were an idiot and forgot to set up the matter receiver, then you can use the BFSR rattle and deal with Pinky The Nurse and Mr. Overworldo the compulsively farting creepdog. Okay, his bowels are not his fault.Man, I have lost my edge. I used to hate all the other staff in Baby's First City. Being put on guard duty in beach paradise really did sand off my corners.Oh, please! One rescue device per idiot! And please only be an idiot once! For goodness sake!",
+    "DialogText": "Or help yourself to the teleport that goes back to the lobby in Baby's First Space City. Sure, do whatever. Be my guest. You certainly wouldn't want to throw yourself off my homemade suicide machine. I'm not a clever baby like you so all I could really do was glue a diving board to a tree and put some sticks on the ground. Whatever.",
     "AvailabilityQuest4Id": -1,
     "AvailabilityQuest3Id": -1,
     "AvailabilityQuest2Id": -1,
@@ -57,7 +57,7 @@
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1461908529484L,
+        "TimePast": 1464245549974L,
         "Time": 0L,
         "Subject": ""
     }

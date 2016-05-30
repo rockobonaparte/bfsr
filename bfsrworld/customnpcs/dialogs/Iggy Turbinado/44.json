@@ -1,84 +1,84 @@
 {
-    "AvailabilityQuest4": 0,
-    "DecreaseFaction1Points": 0b,
-    "AvailabilityQuest3": 0,
-    "AvailabilityFactionId": -1,
-    "AvailabilityMinPlayerLevel": 0,
-    "AvailabilityQuest3Id": -1,
-    "AvailabilityQuest2": 0,
-    "AvailabilityQuest2Id": -1,
-    "AvailabilityQuestId": -1,
-    "DialogQuest": -1,
-    "DialogText": "We have 48 blades powering 4 straight rings of electrum--the shiny stuff on the end. That electrum are the \"coils\" and they generat the power. Each generator produces 400 mb/tick of steam, and each fan blade can cool down 25 mb/tick of steam. We have three generators. So that's 1200 mb/tick of steam. Take that by 25, and there you go, 48. We could have made a more powerful turbine from enderium, for example, but we felt we wanted to showcase less advanced materials. I mean, it's a tree farm, for Pete's sake! That's also why we stuck to pretty weak pipes. Those hardened fluiducts handling the steam can only do 600 mb/tick, so we needed to create two steam lines into the turbine. We set up two fluid lines out as a back up. We don't really need all the water so we dump half of it, just to be safe.It produces upwards of 9700 RF/tick of energy. That's over 240 furnace generators. Hmm, I did say a lower number before, didn't I?With that much power, I'd suggest putting some into a battery for shop power and sending some into a mining laser with just one precharger on it. You'd have to use redstone energy fluxduct to handle that much power. However, you'd get free ores out of it.",
-    "AvailabilityQuest": 0,
-    "AvailabilityFactionStance": 0,
-    "DialogDisableEsc": 0b,
-    "AvailabilityDayTime": 0,
-    "AvailabilityFaction2": 0,
-    "ModRev": 16,
-    "AvailabilityDialog": 0,
     "DialogShowWheel": 0b,
-    "DecreaseFaction2Points": 0b,
-    "AvailabilityDialog2": 0,
-    "AvailabilityFaction2Stance": 0,
+    "AvailabilityQuestId": -1,
     "Options": [
         {
             "OptionSlot": 0,
             "Option": {
-                "DialogColor": 14737632,
                 "DialogCommand": "",
                 "Dialog": 42,
-                "OptionType": 1,
-                "Title": "How is it getting all this steam?"
+                "Title": "How is it getting all this steam?",
+                "DialogColor": 14737632,
+                "OptionType": 1
             }
         },
         {
             "OptionSlot": 1,
             "Option": {
-                "DialogColor": 14737632,
                 "DialogCommand": "",
                 "Dialog": 48,
-                "OptionType": 1,
-                "Title": "Why are there some many pipes?"
+                "Title": "Why are there some many pipes?",
+                "DialogColor": 14737632,
+                "OptionType": 1
             }
         },
         {
             "OptionSlot": 2,
             "Option": {
-                "DialogColor": 14737632,
                 "DialogCommand": "",
                 "Dialog": 45,
-                "OptionType": 1,
-                "Title": "Could you make it better?"
+                "Title": "Could you make it better?",
+                "DialogColor": 14737632,
+                "OptionType": 1
             }
         }
     ],
-    "OptionFaction2Points": 100,
-    "AvailabilityQuest4Id": -1,
     "DialogHideNPC": 0b,
-    "AvailabilityFaction": 0,
-    "AvailabilityDialog2Id": -1,
-    "DialogCommand": "",
+    "AvailabilityFactionStance": 0,
+    "AvailabilityQuest": 0,
     "AvailabilityDialog4": 0,
     "AvailabilityDialog3": 0,
-    "DialogMail": {
-        "Sender": "",
-        "Time": 0L,
-        "Message": {
-        },
-        "Subject": "",
-        "MailItems": [
-        ],
-        "BeenRead": 0b,
-        "MailQuest": -1,
-        "TimePast": 1454994133495L
-    },
+    "AvailabilityQuest2": 0,
+    "AvailabilityQuest3": 0,
+    "AvailabilityQuest4": 0,
+    "ModRev": 16,
+    "DecreaseFaction1Points": 0b,
+    "DialogQuest": -1,
+    "AvailabilityDialog2": 0,
     "OptionFactions1": -1,
-    "AvailabilityDialogId": -1,
+    "AvailabilityDayTime": 0,
     "OptionFactions2": -1,
     "AvailabilityFaction2Id": -1,
     "OptionFaction1Points": 100,
+    "DialogDisableEsc": 0b,
+    "AvailabilityFaction": 0,
     "DialogTitle": "Turbine Details",
+    "AvailabilityDialog": 0,
+    "AvailabilityFaction2": 0,
+    "AvailabilityFactionId": -1,
+    "AvailabilityFaction2Stance": 0,
+    "DialogCommand": "",
+    "AvailabilityDialogId": -1,
+    "OptionFaction2Points": 100,
+    "DialogText": "We have 48 blades powering 4 straight rings of electrum--the shiny stuff on the end. That electrum are the \"coils\" and they generate the power. Each generator produces 400 mb/tick of steam, and each fan blade can cool down 25 mb/tick of steam. We have three generators. So that's 1200 mb/tick of steam. Take that by 25, and there you go, 48. We could have made a more powerful turbine from enderium, for example, but we felt we wanted to showcase less advanced materials. I mean, it's a tree farm, for Pete's sake! That's also why we stuck to pretty weak pipes. Those hardened fluiducts handling the steam can only do 600 mb/tick, so we needed to create two steam lines into the turbine. We set up two fluid lines out as a back up. We don't really need all the water so we dump half of it, just to be safe.It produces upwards of 9700 RF/tick of energy. That's over 240 furnace generators.With that much power, I'd suggest putting some into a battery for shop power and sending some into a mining laser with just one precharger on it. You'd have to use redstone energy fluxduct to handle that much power. However, you'd get free ores out of it.",
+    "AvailabilityQuest4Id": -1,
+    "AvailabilityQuest3Id": -1,
+    "AvailabilityQuest2Id": -1,
+    "AvailabilityDialog2Id": -1,
     "AvailabilityDialog3Id": -1,
-    "AvailabilityDialog4Id": -1
+    "AvailabilityDialog4Id": -1,
+    "AvailabilityMinPlayerLevel": 0,
+    "DecreaseFaction2Points": 0b,
+    "DialogMail": {
+        "Sender": "",
+        "BeenRead": 0b,
+        "Message": {
+        },
+        "MailItems": [
+        ],
+        "MailQuest": -1,
+        "TimePast": 1463983931848L,
+        "Time": 0L,
+        "Subject": ""
+    }
 }

@@ -1,0 +1,54 @@
+{
+    "DialogShowWheel": 0b,
+    "AvailabilityQuestId": -1,
+    "Options": [
+    ],
+    "DialogHideNPC": 0b,
+    "AvailabilityFactionStance": 0,
+    "AvailabilityQuest": 0,
+    "AvailabilityDialog4": 0,
+    "AvailabilityDialog3": 0,
+    "AvailabilityQuest2": 0,
+    "AvailabilityQuest3": 0,
+    "AvailabilityQuest4": 0,
+    "ModRev": 16,
+    "DecreaseFaction1Points": 0b,
+    "DialogQuest": -1,
+    "AvailabilityDialog2": 0,
+    "OptionFactions1": -1,
+    "AvailabilityDayTime": 0,
+    "OptionFactions2": -1,
+    "AvailabilityFaction2Id": -1,
+    "OptionFaction1Points": 100,
+    "DialogDisableEsc": 0b,
+    "AvailabilityFaction": 0,
+    "DialogTitle": "MFR Basics",
+    "AvailabilityDialog": 0,
+    "AvailabilityFaction2": 0,
+    "AvailabilityFactionId": -1,
+    "AvailabilityFaction2Stance": 0,
+    "DialogCommand": "",
+    "AvailabilityDialogId": -1,
+    "OptionFaction2Points": 100,
+    "DialogText": "Sure. I'm probably the first one you're talking to about Minefactory Reloaded stuff. The basic theory is that you make these machines out of some rubber and other special ingredients. They generally take power to do common resource collection kinds of things. Like this harvester over here is for farming in general. There are other machines for handling livestock, for example. There's also stuff for fishing and, well, automatically killing monsters for their treasures. It's good stuff!They generally have a range in front of them that can be upgraded. Well, it's not always true. If you right-click on the machine, you can see a slot in the bottom right corner for an upgrade--or maybe not. The upgrades work in tiers based on the material used in them. Cobblestone actually *reduces* the range. Believe or not, sometimes you want to do that! Iron is a good basic booster. Iron upgrades, for example, would expand this farm from a starting area of 3x3 to 9x9. We use bronze here, which makes it 13x13.The machines are smart enough not do harvest yourself. Don't worry about that. They're very safe!",
+    "AvailabilityQuest4Id": -1,
+    "AvailabilityQuest3Id": -1,
+    "AvailabilityQuest2Id": -1,
+    "AvailabilityDialog2Id": -1,
+    "AvailabilityDialog3Id": -1,
+    "AvailabilityDialog4Id": -1,
+    "AvailabilityMinPlayerLevel": 0,
+    "DecreaseFaction2Points": 0b,
+    "DialogMail": {
+        "Sender": "",
+        "BeenRead": 0b,
+        "Message": {
+        },
+        "MailItems": [
+        ],
+        "MailQuest": -1,
+        "TimePast": 1464505924327L,
+        "Time": 0L,
+        "Subject": ""
+    }
+}

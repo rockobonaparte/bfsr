@@ -1,0 +1,74 @@
+{
+    "DialogShowWheel": 0b,
+    "AvailabilityQuestId": -1,
+    "Options": [
+        {
+            "OptionSlot": 0,
+            "Option": {
+                "DialogCommand": "",
+                "Dialog": 83,
+                "Title": "So how are they muched up? What's the grinder do?",
+                "DialogColor": 14737632,
+                "OptionType": 1
+            }
+        },
+        {
+            "OptionSlot": 1,
+            "Option": {
+                "DialogCommand": "",
+                "Dialog": 84,
+                "Title": "What about regular monsters? What makes them spawn?",
+                "DialogColor": 14737632,
+                "OptionType": 1
+            }
+        }
+    ],
+    "DialogHideNPC": 0b,
+    "AvailabilityFactionStance": 0,
+    "AvailabilityQuest": 0,
+    "AvailabilityDialog4": 0,
+    "AvailabilityDialog3": 0,
+    "AvailabilityQuest2": 0,
+    "AvailabilityQuest3": 0,
+    "AvailabilityQuest4": 0,
+    "ModRev": 16,
+    "DecreaseFaction1Points": 0b,
+    "DialogQuest": -1,
+    "AvailabilityDialog2": 0,
+    "OptionFactions1": -1,
+    "AvailabilityDayTime": 0,
+    "OptionFactions2": -1,
+    "AvailabilityFaction2Id": -1,
+    "OptionFaction1Points": 100,
+    "DialogDisableEsc": 0b,
+    "AvailabilityFaction": 0,
+    "DialogTitle": "Using AutoSpawner",
+    "AvailabilityDialog": 0,
+    "AvailabilityFaction2": 0,
+    "AvailabilityFactionId": -1,
+    "AvailabilityFaction2Stance": 0,
+    "DialogCommand": "",
+    "AvailabilityDialogId": -1,
+    "OptionFaction2Points": 100,
+    "DialogText": "The autospawner clones a naughty monster trapped inside it!Its needs are three. First, the power of machines. Second, the essence of mobs. Third, a mob trapped in a safari net.The power is easy. Make power, master. You can do that.The essence comes from mobs you have ground into paste! It is the experience they would drop, but as tasty, green juice. You can drink it to get experience. I have tried it! When I was interviewed for this job, master, they asked for proof of 30 levels of experience. I just reached over to the tank with a plastic straw, took a few sips, and there I was.The safari net. Now, I must confess, I am not good with that. The safari net means going outside, and I am not good with that. Please forgive! It is bright outside. I am not good with that. But I know. You need a reusable safari net. A regular will not do. Trap the monster you want to spawn, and put it in the autospawner.Most monsters will come out fine, but if you want a wither skeleton, you must select \"Spawn Exact.\" This eats up much essence, but you will have plenty with this torture chamber! Muahahaha!They work in a 9x9x5 area. Beware! That is larger than the grinders! If you do this in a 5x5 area, they will spill out! Bad monsters!",
+    "AvailabilityQuest4Id": -1,
+    "AvailabilityQuest3Id": -1,
+    "AvailabilityQuest2Id": -1,
+    "AvailabilityDialog2Id": -1,
+    "AvailabilityDialog3Id": -1,
+    "AvailabilityDialog4Id": -1,
+    "AvailabilityMinPlayerLevel": 0,
+    "DecreaseFaction2Points": 0b,
+    "DialogMail": {
+        "Sender": "",
+        "BeenRead": 0b,
+        "Message": {
+        },
+        "MailItems": [
+        ],
+        "MailQuest": -1,
+        "TimePast": 1464153596725L,
+        "Time": 0L,
+        "Subject": ""
+    }
+}

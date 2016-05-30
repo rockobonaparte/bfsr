@@ -1,0 +1,64 @@
+{
+    "DialogShowWheel": 0b,
+    "AvailabilityQuestId": -1,
+    "Options": [
+        {
+            "OptionSlot": 0,
+            "Option": {
+                "DialogCommand": "",
+                "Dialog": 94,
+                "Title": "What goes into designing these things?",
+                "DialogColor": 14737632,
+                "OptionType": 1
+            }
+        }
+    ],
+    "DialogHideNPC": 0b,
+    "AvailabilityFactionStance": 0,
+    "AvailabilityQuest": 0,
+    "AvailabilityDialog4": 0,
+    "AvailabilityDialog3": 0,
+    "AvailabilityQuest2": 0,
+    "AvailabilityQuest3": 0,
+    "AvailabilityQuest4": 0,
+    "ModRev": 16,
+    "DecreaseFaction1Points": 0b,
+    "DialogQuest": -1,
+    "AvailabilityDialog2": 0,
+    "OptionFactions1": -1,
+    "AvailabilityDayTime": 0,
+    "OptionFactions2": -1,
+    "AvailabilityFaction2Id": -1,
+    "OptionFaction1Points": 100,
+    "DialogDisableEsc": 0b,
+    "AvailabilityFaction": 0,
+    "DialogTitle": "These Reactors",
+    "AvailabilityDialog": 0,
+    "AvailabilityFaction2": 0,
+    "AvailabilityFactionId": -1,
+    "AvailabilityFaction2Stance": 0,
+    "DialogCommand": "",
+    "AvailabilityDialogId": -1,
+    "OptionFaction2Points": 100,
+    "DialogText": "THESE reactors as opposed to THOSE reactors, right? The actively cooled crazy gizmos? Do you even know about them? Oh, well, you will if you don't. These reactors are self-contained. They do all their cooling and power generation inside themselves. You could just pop fluid ports on them and the things will suddenly start spitting out steam instead of power. You could send that to a turbine for active-cooling. Or, you know, you could take a really steamy shower!Don't do that. I'm serious! We had some staff tried that once and it ripped the flesh right off their bones! Why am I telling you this?!Okay! Okay! Okay!!! So right behind me here is the simplest, stupidest reactor you can make. If you want me opinion, if this is all you can make, then don't bother. This mod is called \"Big Reactors,\" not \"Little-Puny-Reactors-for-Little-Puny-People-Seriously-Go-Big-Or-Go-Home-You-Gotta-Compensate-For-*Something*-Right?\"So to the right in front here is your basic starter reactor. You put that together to set up your lab for a little bit. You basically use that reactor to normally make something like the big guy to my left in front there. That one is full of destabilized redstone, which is pretty easy to set up and really boosts energy production and fuel efficiency. It also has a pair of rednet ports. One is set to output how full the battery is, and the other controls the control rods. So it'll automatically shut off if the battery is 100% full, and run full-blast if the battery is completely empty. That'll save a lot of fuel. Pretty neat, huh?The stuff in back? Oh yeah that's NEXT LEVEL. Those puppies are full of resonant ender that just kind of teleport the excess heat away. Those are *POWERFUL.*",
+    "AvailabilityQuest4Id": -1,
+    "AvailabilityQuest3Id": -1,
+    "AvailabilityQuest2Id": -1,
+    "AvailabilityDialog2Id": -1,
+    "AvailabilityDialog3Id": -1,
+    "AvailabilityDialog4Id": -1,
+    "AvailabilityMinPlayerLevel": 0,
+    "DecreaseFaction2Points": 0b,
+    "DialogMail": {
+        "Sender": "",
+        "BeenRead": 0b,
+        "Message": {
+        },
+        "MailItems": [
+        ],
+        "MailQuest": -1,
+        "TimePast": 1464245014943L,
+        "Time": 0L,
+        "Subject": ""
+    }
+}

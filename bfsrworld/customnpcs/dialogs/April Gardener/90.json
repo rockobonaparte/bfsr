@@ -1,0 +1,54 @@
+{
+    "DialogShowWheel": 0b,
+    "AvailabilityQuestId": -1,
+    "Options": [
+    ],
+    "DialogHideNPC": 0b,
+    "AvailabilityFactionStance": 0,
+    "AvailabilityQuest": 0,
+    "AvailabilityDialog4": 0,
+    "AvailabilityDialog3": 0,
+    "AvailabilityQuest2": 0,
+    "AvailabilityQuest3": 0,
+    "AvailabilityQuest4": 0,
+    "ModRev": 16,
+    "DecreaseFaction1Points": 0b,
+    "DialogQuest": -1,
+    "AvailabilityDialog2": 0,
+    "OptionFactions1": -1,
+    "AvailabilityDayTime": 0,
+    "OptionFactions2": -1,
+    "AvailabilityFaction2Id": -1,
+    "OptionFaction1Points": 100,
+    "DialogDisableEsc": 0b,
+    "AvailabilityFaction": 0,
+    "DialogTitle": "Farming stuff",
+    "AvailabilityDialog": 0,
+    "AvailabilityFaction2": 0,
+    "AvailabilityFactionId": -1,
+    "AvailabilityFaction2Stance": 0,
+    "DialogCommand": "",
+    "AvailabilityDialogId": -1,
+    "OptionFaction2Points": 100,
+    "DialogText": "Hmm okay. There are some categories here for using this planter/harvester combination.Most seeds are sent through a loop from the harvester to the planter. You want excess seeds to get thrown out, or else the farm will bog down. An alternate use for surplus seeds is for biofuel, by the way! The harvester will produce sludge and slow down unless the sludge is drained. If you don't care for sludge, just get it thrown out.Common seeds done in a basic loop like shown here are wheat, barley, cotton, potatoes, and carrots.The harvester is smart enough to know when sugar cane and cactus grow to 2 units tall, and will only harvest that growth. They are pretty lazy to do.Oh! Yeah! Pumpkins and watermelons! Yeah you don't need a planter for that. What you want to do is plant them just outside of the harvester's range, and let the stuff drop into the harvest zone. Block off the other sides so the pumpkins and watermelons don't try to grown in the wrong direction!",
+    "AvailabilityQuest4Id": -1,
+    "AvailabilityQuest3Id": -1,
+    "AvailabilityQuest2Id": -1,
+    "AvailabilityDialog2Id": -1,
+    "AvailabilityDialog3Id": -1,
+    "AvailabilityDialog4Id": -1,
+    "AvailabilityMinPlayerLevel": 0,
+    "DecreaseFaction2Points": 0b,
+    "DialogMail": {
+        "Sender": "",
+        "BeenRead": 0b,
+        "Message": {
+        },
+        "MailItems": [
+        ],
+        "MailQuest": -1,
+        "TimePast": 1464154598729L,
+        "Time": 0L,
+        "Subject": ""
+    }
+}

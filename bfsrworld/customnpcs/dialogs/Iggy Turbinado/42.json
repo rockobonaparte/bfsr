@@ -1,64 +1,64 @@
 {
-    "AvailabilityQuest4": 0,
-    "DecreaseFaction1Points": 0b,
-    "AvailabilityQuest3": 0,
-    "AvailabilityFactionId": -1,
-    "AvailabilityMinPlayerLevel": 0,
-    "AvailabilityQuest3Id": -1,
-    "AvailabilityQuest2": 0,
-    "AvailabilityQuest2Id": -1,
-    "AvailabilityQuestId": -1,
-    "DialogQuest": -1,
-    "DialogText": "So yeah, steam power. The Extra Utilities Generators work without water. Good for them. The Thermal Expansion dynamos technically work on steam. That's why you feed them water. Some mods like to play around with steam, so Minefactory Industries offers the steam generator. It needs water and fuel. It will slowly build up heat from fuel, doing nothing, until it hits 100 degrees Celsius. After that, water boils, and you will get a smooth 400mB/tick of steam so long as you're at 100C or higher. More fuel inreases the furnace temperature, and just gives it a little reserve.You could technically them pump that steam straight into Thermal Expansion dynamos. We, well, just decided to pump that steam into a turbine. The turbine doesn't care if it comes from a nuclear reactor or a wood burning stove, it's steam!",
-    "AvailabilityQuest": 0,
-    "AvailabilityFactionStance": 0,
-    "DialogDisableEsc": 0b,
-    "AvailabilityDayTime": 0,
-    "AvailabilityFaction2": 0,
-    "ModRev": 16,
-    "AvailabilityDialog": 0,
     "DialogShowWheel": 0b,
-    "DecreaseFaction2Points": 0b,
-    "AvailabilityDialog2": 0,
-    "AvailabilityFaction2Stance": 0,
+    "AvailabilityQuestId": -1,
     "Options": [
         {
             "OptionSlot": 0,
             "Option": {
-                "DialogColor": 14737632,
                 "DialogCommand": "",
                 "Dialog": 44,
-                "OptionType": 1,
-                "Title": "All right, what's the turbine again?"
+                "Title": "All right, what's the turbine again?",
+                "DialogColor": 14737632,
+                "OptionType": 1
             }
         }
     ],
-    "OptionFaction2Points": 100,
-    "AvailabilityQuest4Id": -1,
     "DialogHideNPC": 0b,
-    "AvailabilityFaction": 0,
-    "AvailabilityDialog2Id": -1,
-    "DialogCommand": "",
+    "AvailabilityFactionStance": 0,
+    "AvailabilityQuest": 0,
     "AvailabilityDialog4": 0,
     "AvailabilityDialog3": 0,
-    "DialogMail": {
-        "Sender": "",
-        "Time": 0L,
-        "Message": {
-        },
-        "Subject": "",
-        "MailItems": [
-        ],
-        "BeenRead": 0b,
-        "MailQuest": -1,
-        "TimePast": 1454994214796L
-    },
+    "AvailabilityQuest2": 0,
+    "AvailabilityQuest3": 0,
+    "AvailabilityQuest4": 0,
+    "ModRev": 16,
+    "DecreaseFaction1Points": 0b,
+    "DialogQuest": -1,
+    "AvailabilityDialog2": 0,
     "OptionFactions1": -1,
-    "AvailabilityDialogId": -1,
+    "AvailabilityDayTime": 0,
     "OptionFactions2": -1,
     "AvailabilityFaction2Id": -1,
     "OptionFaction1Points": 100,
+    "DialogDisableEsc": 0b,
+    "AvailabilityFaction": 0,
     "DialogTitle": "Steam Boilers",
+    "AvailabilityDialog": 0,
+    "AvailabilityFaction2": 0,
+    "AvailabilityFactionId": -1,
+    "AvailabilityFaction2Stance": 0,
+    "DialogCommand": "",
+    "AvailabilityDialogId": -1,
+    "OptionFaction2Points": 100,
+    "DialogText": "So yeah, steam power. The Extra Utilities Generators work without water. Good for them. The Thermal Expansion dynamos technically work on steam. That's why you feed them water. Some mods like to play around with steam, so Minefactory Reloaded offers the steam generator. It needs water and fuel. It will slowly build up heat from fuel, doing nothing, until it hits 100 degrees Celsius. After that, water boils, and you will get a smooth 400mB/tick of steam so long as you're at 100C or higher. More fuel increases the furnace temperature, which really just gives it a little reserve.You could technically then pump that steam straight into Thermal Expansion dynamos. We, well, just decided to pump that steam into a turbine. The turbine doesn't care if it comes from a nuclear reactor or a wood burning stove, it's steam!",
+    "AvailabilityQuest4Id": -1,
+    "AvailabilityQuest3Id": -1,
+    "AvailabilityQuest2Id": -1,
+    "AvailabilityDialog2Id": -1,
     "AvailabilityDialog3Id": -1,
-    "AvailabilityDialog4Id": -1
+    "AvailabilityDialog4Id": -1,
+    "AvailabilityMinPlayerLevel": 0,
+    "DecreaseFaction2Points": 0b,
+    "DialogMail": {
+        "Sender": "",
+        "BeenRead": 0b,
+        "Message": {
+        },
+        "MailItems": [
+        ],
+        "MailQuest": -1,
+        "TimePast": 1463983872946L,
+        "Time": 0L,
+        "Subject": ""
+    }
 }
