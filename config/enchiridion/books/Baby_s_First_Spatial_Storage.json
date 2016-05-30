@@ -1,0 +1,358 @@
+{
+  "book": [
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "So, you want to warp in that crazy ship in the quest book. Let\u0027s assume you have slightly followed what is going on and have some of the basics of spatial storage in your head. Now let\u0027s not assume you know how to do anything with that.\n\nThis little book here isn\u0027t really going to step you through all the painful details of spatial storage. We assume you managed to do basic, stupid things like store yourself.\n\nWhat this book will do is give you a real sense of what it takes to manage HUGE volumes.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 33,
+            "yPos": 23,
+            "width": 165.0,
+            "height": 169.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Baby_s_First_Spatial_Storage/2016-05-29_14.25.16.png",
+            "xPos": 226,
+            "yPos": 18,
+            "width": 175.0,
+            "height": 132.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "By HUGE volumes, we\u0027re talking this 42x42x16 area right here as an example.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 228,
+            "yPos": 163,
+            "width": 165.0,
+            "height": 29.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Start by laying out the pylons in the three major axes so it knows what volume you\u0027re trying to use.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 28,
+            "yPos": 21,
+            "width": 174.0,
+            "height": 165.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Baby_s_First_Spatial_Storage/2016-05-29_12.20.26.png",
+            "xPos": 30,
+            "yPos": 62,
+            "width": 170.0,
+            "height": 135.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Turning on chunk boundaries can help here. At the corner, set up the basic rig. You need power, the drive, and a button.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 225,
+            "yPos": 21,
+            "width": 169.0,
+            "height": 39.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Baby_s_First_Spatial_Storage/2016-05-29_12.20.12.png",
+            "xPos": 226,
+            "yPos": 63,
+            "width": 173.0,
+            "height": 134.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "For the example, we will use a creative energy cell, so ignore the supplied power. Look instead at how much power the drive wants.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 30,
+            "yPos": 20,
+            "width": 170.0,
+            "height": 46.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Baby_s_First_Spatial_Storage/2016-05-29_12.20.46.png",
+            "xPos": 22,
+            "yPos": 66,
+            "width": 186.0,
+            "height": 119.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "In case you can\u0027t read it, the drive wants 4.56 GRF. That\u0027s 4,560,000,000 RF!",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FFFF0000",
+            "xPos": 224,
+            "yPos": 22,
+            "width": 164.0,
+            "height": 37.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Generally speaking, a REALLY GOOD nuclear reactor will be pumping 100,000 RF/tick. At 20 ticks per second, we\u0027re talking 2,000,000 RF per second. So filling up those cells would take something towards an hour, where you shut everything else off. Actually, not so bad, eh?\n\nThe real problem is dense energy cells can only hold 3.2 million RF. So you need 1,425 of them. Yeech!",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 225,
+            "yPos": 68,
+            "width": 169.0,
+            "height": 122.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "You can do this better with more spatial pylons! You may have noticed the low \"efficiency.\" You can improve that by adding more pylons to the frame.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 30,
+            "yPos": 21,
+            "width": 167.0,
+            "height": 29.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Baby_s_First_Spatial_Storage/2016-05-29_12.25.18.png",
+            "xPos": 28,
+            "yPos": 74,
+            "width": 172.0,
+            "height": 121.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Baby_s_First_Spatial_Storage/2016-05-29_12.25.31.png",
+            "xPos": 220,
+            "yPos": 74,
+            "width": 183.0,
+            "height": 121.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "So add an alternating row of pylons (pylons can\u0027t touch). You do need a controller now because each pylon row counts as a device. But adding 160 pylons reduced the needed cells down to 991.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 221,
+            "yPos": 19,
+            "width": 176.0,
+            "height": 48.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Let\u0027s keep going by extend the long side.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 26,
+            "yPos": 20,
+            "width": 172.0,
+            "height": 23.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Baby_s_First_Spatial_Storage/2016-05-29_12.29.04.png",
+            "xPos": 26,
+            "yPos": 68,
+            "width": 178.0,
+            "height": 124.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Baby_s_First_Spatial_Storage/2016-05-29_12.29.21.png",
+            "xPos": 218,
+            "yPos": 68,
+            "width": 185.0,
+            "height": 125.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "For the cost 420 pylons, you reduced the number of necessary cells to 118. You could stop here, but a pylon has roughly 1/8 the cost of a dense cell, so...",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 223,
+            "yPos": 19,
+            "width": 176.0,
+            "height": 43.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "...let\u0027s take this to its illogical conclusion. Now we\u0027ve gone across the other side with pylons. Another 420 of them:",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 27,
+            "yPos": 21,
+            "width": 166.0,
+            "height": 38.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Baby_s_First_Spatial_Storage/2016-05-29_14.25.16.png",
+            "xPos": 28,
+            "yPos": 64,
+            "width": 174.0,
+            "height": 132.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Baby_s_First_Spatial_Storage/2016-05-29_14.25.36.png",
+            "xPos": 221,
+            "yPos": 64,
+            "width": 178.0,
+            "height": 131.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Read it and weap. We took it down to 12 dense energy cells! The efficiency claims to be 100%, but it\u0027s more like 99.9%. You could keep going, but this is good.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 224,
+            "yPos": 19,
+            "width": 170.0,
+            "height": 38.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Now, let\u0027s not act like tacking on pylons is super-duper cheap. Look at the side of this rig:",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 31,
+            "yPos": 24,
+            "width": 163.0,
+            "height": 31.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Baby_s_First_Spatial_Storage/2016-05-29_14.25.25.png",
+            "xPos": 31,
+            "yPos": 57,
+            "width": 168.0,
+            "height": 133.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Since each pylon is a device, you eventually have to throw in a complete ME controller to manage everything. That\u0027s pretty expensive right there. On top of that, you need two different banks of dense ME cables to manage the pylons. That\u0027s also some major change. However, you can at least re-use that.\n\nNow that you know what\u0027s involved, you can summon that ship. THEN you can do a whole 128x128x128 area. Some people like to do that and put their whole base inside an ME drive. They then carry the drive into the storage area and keep it there. That\u0027s pretty meta.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 224,
+            "yPos": 21,
+            "width": 172.0,
+            "height": 173.0
+          }
+        }
+      ],
+      "pageName": ""
+    }
+  ],
+  "uniqueName": "Baby_s_First_Spatial_Storage",
+  "color": 16777215,
+  "showBackground": true,
+  "showArrows": true,
+  "showNumber": true,
+  "iconPass1": "",
+  "iconPass2": "",
+  "iconColorisePass1": false,
+  "iconColorisePass2": false,
+  "iconColorPass1": 0,
+  "iconColorPass2": 0,
+  "language": "en_US",
+  "displayName": "Baby_s_First_Spatial_Storage",
+  "displayInCreative": true
+}
