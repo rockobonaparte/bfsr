@@ -1,0 +1,963 @@
+{
+  "name": "Go To Hell",
+  "description": "There is an alternate dimension called \"The Nether\" which is something like a hell dimension. In regular old Minecraft, you have to work at getting there. With a few mods, it\u0027s possible to make a bum rush to The Nether. Why would you do it? It now has ores in it that are twice as dense as regular ores. That is, one iron ore there is worth two here. If you go to around Y\u003d34, you can just pound away at diamonds. You might get killed a thousand times over in the process, so be careful! If you have a seasoned player in your team, they should consider trying it.",
+  "quests": [
+    {
+      "name": "What Is In A Flame?",
+      "description": "The Nether is a hell dimension that is in the base Minecraft game. Some mods have made it a little more interesting. There are now versions of the various ores in The Nether that are much more productive than in the Overworld. You are encouraged to brave The Nether early and often.",
+      "x": 60,
+      "y": 12,
+      "icon": {
+        "id": "minecraft:flint_and_steel"
+      },
+      "prerequisites": [
+        "{Vanilla Minecraft}[Iron Man]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "You will need a flint and steel to ignite the portal to The Nether. Get started on that first.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:flint_and_steel"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:flint"
+        },
+        {
+          "id": "minecraft:iron_ingot"
+        }
+      ]
+    },
+    {
+      "name": "Mining In The Nether",
+      "description": "You will want to protect your Nether Portal. Wrap it in a shell of cobble stone and maybe put in protected door. The base rock of The Nether is netherrack. It mines fast but blows up easily. However, it makes better tools than stone, although metal is usually better. If you went here early, this is useful to you.",
+      "x": 64,
+      "y": 143,
+      "icon": {
+        "id": "minecraft:netherrack"
+      },
+      "prerequisites": [
+        "The Nether Portal"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:netherrack"
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:apple",
+          "amount": 4
+        },
+        {
+          "id": "minecraft:bow"
+        },
+        {
+          "id": "minecraft:arrow",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "Nether Quartz",
+      "description": "Nether quartz is in the base Minecraft game, but isn\u0027t too useful. Various mods use it as a generic crystal that assumes you\u0027ve advanced at least a little into the game. You might need some, depending on what crazy stuff you do.",
+      "x": 24,
+      "y": 102,
+      "icon": {
+        "id": "minecraft:quartz"
+      },
+      "prerequisites": [
+        "Mining In The Nether"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Nether quartz comes in white veins in netherrack. Be careful mining it. If you hear a hissing sound like a fuse being lit, then run back! It might blow up!",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:quartz"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:apple"
+        },
+        {
+          "id": "minecraft:ladder",
+          "amount": 32
+        },
+        {
+          "id": "OpenBlocks:ropeladder"
+        }
+      ]
+    },
+    {
+      "name": "Nether Diamond",
+      "description": "Nether diamonds are usually easier to get than diamonds in the Overworld. Even better, they turn into two blocks of diamonds when smelted. You can find them around Y\u003d34 in The Nether. Beware, lava flows as fast as water in The Nether. You will want to dig down in a protected way. If you hit a pocket of lava, you can drop sand or gravel down into it to move it out of the way.",
+      "x": 59,
+      "y": 188,
+      "icon": {
+        "id": "NetherOres:tile.netherores.ore.0",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Mining In The Nether"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "NetherOres:tile.netherores.ore.0",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:bread",
+          "amount": 3
+        },
+        {
+          "id": "minecraft:cobblestone",
+          "amount": 64
+        },
+        {
+          "id": "minecraft:potion",
+          "damage": 8227
+        }
+      ]
+    },
+    {
+      "name": "Cobalt",
+      "description": "Cobalt tools mine very quickly, and are unrivaled in this pack when it comes to base tool speed. However, you will have to struggle to find some. When making a cobalt pick, you may just use it on the head. Same for a hammer, use it for the hammer head, and you can make the plates out of other stuff. That will affect durability, but you\u0027ll get your speed.",
+      "x": 137,
+      "y": 143,
+      "icon": {
+        "id": "TConstruct:SearedBrick",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Mining In The Nether"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "This mod pack sprays cobalt everywhere in The Nether, but it can be hard to tell it apart from lapis lazuli.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:SearedBrick",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:materials",
+          "damage": 3
+        },
+        {
+          "id": "minecraft:apple"
+        }
+      ]
+    },
+    {
+      "name": "Nether Redstone",
+      "description": "Nether redstone breaks as solid block. You can run it through a furnace to get two redstone blocks, but there are some machines that can refine it for very large amounts of redstone. You can find redstone at mid-level height levels in the nether, like around Y\u003d60 to Y\u003d80.",
+      "x": 27,
+      "y": 184,
+      "icon": {
+        "id": "NetherOres:tile.netherores.ore.0",
+        "damage": 5
+      },
+      "prerequisites": [
+        "Mining In The Nether"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "NetherOres:tile.netherores.ore.0",
+                "damage": 5
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:apple",
+          "amount": 2
+        },
+        {
+          "id": "minecraft:potion",
+          "damage": 8261
+        }
+      ]
+    },
+    {
+      "name": "The Nether Portal",
+      "description": "Now you must build a portal to The Nether. It is made out of obsidian. Obsidian is created where water has touched a still block of lava. You will need strong tools to mine it. To get there earlier, skip mining it, and just produce it with technology! You will need 10 buckets worth of lava, and 1 bucket of water. Build a 4x5 square with the corners missing out of it. In X,Y coordinates, with Y\u003d0 being the ground, try this: (1, 1) (2, 1) (0, 2) (3, 2) (0, 3) (3, 3) (0, 4) (3, 4) (1, 5) (2, 5). Then light it with your flint and steel.",
+      "x": 62,
+      "y": 95,
+      "icon": {
+        "id": "minecraft:fire"
+      },
+      "prerequisites": [
+        "What Is In A Flame?"
+      ],
+      "tasks": [
+        {
+          "type": "LOCATION",
+          "locations": [
+            {
+              "name": "New",
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "dim": -1,
+              "radius": -1
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "OpenBlocks:tank",
+          "nbt": "{tank:{FluidName:\"lava\",Amount:16000}}"
+        },
+        {
+          "id": "minecraft:ladder",
+          "amount": 32
+        },
+        {
+          "id": "OpenBlocks:ropeladder"
+        }
+      ]
+    },
+    {
+      "name": "Your Most Ardite Supporter",
+      "description": "Ardite is not a very interesting metal by itself, but it can be combined with cobalt to make manyullyn, which is a very powerful alloy.",
+      "x": 103,
+      "y": 156,
+      "icon": {
+        "id": "TConstruct:SearedBrick",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Mining In The Nether"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:SearedBrick",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:materials",
+          "damage": 4
+        },
+        {
+          "id": "MineFactoryReloaded:meat.ingot.cooked"
+        }
+      ]
+    },
+    {
+      "name": "Manyullyn",
+      "description": "Manyullyn is an alloy made 1:1 colbalt:ardite. It is a very strong and powerful metal. Cobalt may mine faster, but manyullyn makes for better weapons. In other mod packs, you may need a manyullyn pick to harvest even tougher ores, although not here.",
+      "x": 133,
+      "y": 186,
+      "icon": {
+        "id": "TConstruct:rapier",
+        "nbt": "{InfiTool:{BaseDurability:2099,Head:12,Built:1b,HarvestLevel:5,Attack:6,RenderHead:12,ModDurability:0.0f,Handle:12,Broken:0b,Shoddy:0.0f,RenderHandle:12,Accessory:12,MiningSpeed:900,RenderAccessory:12,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:2099},display:{Name:\"ï¿½fManyullyn Rapier\"}}"
+      },
+      "prerequisites": [
+        "Your Most Ardite Supporter",
+        "Cobalt"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "At this point you should know how to make tools from the various metals already, so I will just be checking that you can make this alloy. A pick from this alloy is really good, and weapons from it are even better. You can use it in arrow heads, but it would be dumb to waste it on arrow bodies or fletchings.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:materials",
+                "damage": 5
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:materials",
+          "damage": 5
+        },
+        {
+          "id": "TConstruct:scythe",
+          "nbt": "{InfiTool:{RenderExtra:12,BaseDurability:18000,Head:12,BaseAttack:8,Built:1b,HarvestLevel:5,Attack:8,RenderHead:12,ModDurability:0.0f,Handle:12,Broken:0b,Shoddy:0.0f,RenderHandle:12,Accessory:12,Extra:12,MiningSpeed:900,RenderAccessory:12,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:18000},display:{Name:\"§fManyullyn Scythe\"}}"
+        },
+        {
+          "id": "minecraft:bread"
+        }
+      ]
+    },
+    {
+      "name": "Pop My Nether Wart",
+      "description": "Nether wart is a plant that grows in soul sand used for various magic kind of things. You probably don\u0027t need it in your race to the moon, but some of the stranger recipes will call for if you get unorthodox.",
+      "x": 185,
+      "y": 38,
+      "icon": {
+        "id": "minecraft:nether_wart"
+      },
+      "prerequisites": [
+        "Mining In The Nether"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "You will find nether wart in nether fortresses. These are dark purple buildings poking out of The Nether. You may have to wander quite a bit, but use your map to see if you can find straight lines of purple.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:nether_wart"
+              },
+              "required": 12
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "xreliquary:lilypad"
+        }
+      ]
+    },
+    {
+      "name": "They\u0027re Ablazing!",
+      "description": "You can get blaze rods by killing blazes in nether fortresses. They are hard to miss, given that they are on fire, and set you on fire. You will want to engage them at a distance, as they will fly up and out of reach in close combat. If you can corner one over an enclosure, then you can wail on it with a sword.",
+      "x": 229,
+      "y": 56,
+      "icon": {
+        "id": "minecraft:blaze_rod"
+      },
+      "prerequisites": [
+        "Pop My Nether Wart"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "PS--You don\u0027t really need to do this to get to the Moon. Also, if you trip across anything that needs blaze powder, you can make the stuff from destabilized redstone and glowstone using a fluid transposer. You\u0027d make the destabilized redstone in a magma crucible.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:blaze_rod"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:blaze_rod"
+        },
+        {
+          "id": "ThermalFoundation:material",
+          "damage": 1024
+        }
+      ]
+    },
+    {
+      "name": "Wither Skeletons",
+      "description": "Wandering around nether fortresses, you might find some dark gray skeletons that are really big and scary. If you manage to kill a few, one might leave a skull behind. You can expedite this if you use a Tinkers\u0027 Construct cleaver. Either way, WHY ARE YOU DOING THIS? THESE GUYS HAVE NO BEARING ON GETTING TO THE MOOOOON!",
+      "x": 228,
+      "y": 18,
+      "icon": {
+        "id": "minecraft:skull",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Pop My Nether Wart"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:skull",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:skull",
+          "damage": 1,
+          "amount": 2
+        },
+        {
+          "id": "OpenBlocks:tank",
+          "nbt": "{tank:{FluidName:\"glue\",Amount:16000}}"
+        },
+        {
+          "id": "minecraft:potion",
+          "damage": 8260
+        },
+        {
+          "id": "minecraft:potion",
+          "damage": 8225,
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "Glowstone",
+      "description": "Glowstone is a vanilla Minecraft item of ... limited use. In mods, it\u0027s often used in recipes that would have some kind of illuminance. You may find you need some in a pinch. Glowstone hangs off the cavern ceilings in The Nether. It illuminates the surround area, so it\u0027s usually easy to find. The trick is getting to the stuff without getting mauled by zombie pigmen and/or falling to your doom.",
+      "x": 115,
+      "y": 123,
+      "icon": {
+        "id": "minecraft:glowstone"
+      },
+      "prerequisites": [
+        "Mining In The Nether"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:glowstone_dust"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:apple",
+          "amount": 3
+        },
+        {
+          "id": "GalacticraftCore:tile.glowstoneTorch"
+        },
+        {
+          "id": "Natura:Glowshroom",
+          "amount": 4
+        },
+        {
+          "id": "minecraft:glowstone"
+        }
+      ]
+    },
+    {
+      "name": "Manly Obsidian Making!",
+      "description": "Okay this method is really stupid but it\u0027s really simple too. You can, like, suck up lava into your mouth with a straw, and then suck up some water right afterwards. You\u0027ll then spit out a block of obsidian. Yes, I know! Seriously! Some important notes... set up a pool of water next to the lava that you will stand in because the lava will set you on fire. You will also take 4 hearts of damage each time you do this. So you will need to pace yourself and have food on standby to heal yourself.",
+      "x": 92,
+      "y": 40,
+      "icon": {
+        "id": "MineFactoryReloaded:straw"
+      },
+      "prerequisites": [
+        "{A Post-Scarcity Economy}[Minefactory Reloaded]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Drawing Straws",
+          "longDescription": "You make this from plastic. For some information on that, look at the Minefactory Reloaded quests in the \"Post-Scarcity Economy\" chapter.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:straw"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Blowing Obsidian",
+          "longDescription": "I\u0027m asking for 6 blocks. Consider it will take 24 hearts of damage to get there. Look at the hearts at the bottom of the screen. Pace yourself . . .",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:obsidian"
+              },
+              "required": 6
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:obsidian",
+          "amount": 6
+        },
+        {
+          "id": "OpenBlocks:trophy"
+        },
+        {
+          "id": "TConstruct:buckets",
+          "damage": 16
+        }
+      ]
+    },
+    {
+      "name": "Channel Your Inner Demon",
+      "description": "You can cleverly arrange smeltery components so that you pump lava and water into the smeltery, making obsidian. You can then cast the obsidian into blocks. You can build a Nether Portal this way, without having tools that could mine obsidian in the wild. Here\u0027s what you do. Build a smeltery drain, but point it INTO your smeltery. I like to put mine over the smeltery controller. Do not install a faucet on it. Install a channel on the outside of that drain. Place a seared tank above it. Put a faucet on the tank such that it\u0027s over the channel. Fill the tank with one bucket of lava. Right click the faucet. It will pour lava into the smeltery. Fill the tank with a bucket of water. Right click the faucet. When the water goes in, you will have 2 ingots worth of obsidian, which is equivalent to one block of obsidian.",
+      "x": 34,
+      "y": 41,
+      "icon": {
+        "id": "TConstruct:CastingChannel"
+      },
+      "prerequisites": [
+        "What Is In A Flame?"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Make The Channel",
+          "longDescription": "Make the channel from seared bricks. You will also need a seared tank, and a drain. This drain points INTO the smeltery, WITHOUT a faucet. It must be part of the normally smeltery enclosure. It cannot, say, be put on top of a new level of the smeltery by itself.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:CastingChannel"
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:Smeltery",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Make Some Obsidian",
+          "longDescription": "Before making all this obsidian, make sure the channel is only pointing into the drain you\u0027re trying to use. If you have faucets right next to the drain, the channel will try to link with them. Right-click on the offending sides to disconnect it. The connection might not be obvious; just make sure visually it isn\u0027t making an L-shape or a T-shape.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:obsidian"
+              },
+              "required": 6
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:obsidian",
+          "amount": 6
+        },
+        {
+          "id": "TConstruct:LavaTank"
+        },
+        {
+          "id": "TConstruct:materials",
+          "damage": 2,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Try The Pink Stuff",
+      "description": "Alumite is an alloy of 5:2:2 aluminum:iron:obsidian. Now that you can smelt obsidian, you can make this alloy. It is stronger than bronze, but a little weaker than steel. It can handle all the important ores in The Nether. It is also pink, if you are into that. Pipe one bucket of lava and water into the smeltery, then add one iron ore. Finally, place 3 aluminum ores in the smeltery. This will leave you one spare aluminum ingot (don\u0027t forget the smeltery doubles ingots from ores).",
+      "x": 34,
+      "y": 70,
+      "icon": {
+        "id": "TConstruct:pickaxe",
+        "nbt": "{InfiTool:{BaseDurability:909,Head:15,Built:1b,HarvestLevel:4,Attack:4,RenderHead:15,ModDurability:0.0f,Handle:15,Broken:0b,Shoddy:0.0f,RenderHandle:15,Accessory:15,MiningSpeed:800,RenderAccessory:15,Unbreaking:2,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:909},display:{Name:\"ï¿½fAlumite Pickaxe\"}}"
+      },
+      "prerequisites": [
+        "Channel Your Inner Demon"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "The Stone Forms",
+          "longDescription": "If you have progressed to bronze in the \"Tools And Toys\" chapter, then you have seen this before. Otherwise, we are going to create casts from spare stone parts. So make the parts for a stone pick, but don\u0027t assemble them into a pick.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:pickaxeHead",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:toolRod",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:binding",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Meet The Cast",
+          "longDescription": "Place each part on the casting table and pour some aluminum brass (or gold) on it to make a cast. Aluminum brass is an alloy of 3:1 aluminum:copper.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:metalPattern",
+                "damage": 2
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:metalPattern",
+                "damage": 9
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:metalPattern",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Make The Parts",
+          "longDescription": "Pour the alumite into the casts. They will set, and then you can pull out the parts. Assembling the pick is an exercise for the student. The quest book has issues actually detecting the completed pick.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:pickaxeHead",
+                "damage": 15
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:binding",
+                "damage": 15
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:toolRod",
+                "damage": 15
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:materials",
+          "damage": 15,
+          "amount": 2
+        },
+        {
+          "id": "TConstruct:materials",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "My Burning Passion",
+      "description": "The Nether Furnace was added by the Natura mod. Assemble eight blocks of netherrack in a hollow square like you would for a regular furnace. For that effort, you get a furnace that is twice as efficient with fuel. You can theoretically do better with electrically-powered devices, but this gets you real close to \"good enough.\"",
+      "x": 22,
+      "y": 155,
+      "icon": {
+        "id": "Natura:NetherFurnace"
+      },
+      "prerequisites": [
+        "Mining In The Nether"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Natura:NetherFurnace"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Natura:NetherFurnace"
+        },
+        {
+          "id": "Natura:natura.sword.bloodwood"
+        }
+      ]
+    },
+    {
+      "name": "Bloody Wood",
+      "description": "Natura provides a few goofy trees to The Nether that are normally not worth your business unless you\u0027re planning to live there. However, the bloodwood tree sometimes comes in handy. The wood is strong, but more importantly, it is FIRE RESISTANT. The leaves also decay into redstone. The one trick is that it, well, grows upside down. You can grow it in the Overworld, but you have to use a Nether block like tainted soil, and plant the sapling underneath it.",
+      "x": 132,
+      "y": 48,
+      "icon": {
+        "id": "Natura:natura.axe.bloodwood"
+      },
+      "prerequisites": [
+        "The Nether Portal"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Bloodwood trees grow on the cavern ceilings. You have to look up to find them! Look for their distinct red leaves. Good ceiling expanses can be found over lava oceans down around Y\u003d29. You will need an advanced tool to harvest this wood. You can use your pick. Or you can just steal a sapling for now from the leaves, and grow one where this is all more convenient.",
+          "items": [
+            {
+              "item": {
+                "id": "Natura:planks",
+                "damage": 4
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Natura:florasapling",
+          "damage": 5,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Rock Your Underworld",
+      "description": "You can make a pick out of netherrack, and it will be a little bit better than stone. At this point, you probably are beyond that, but I wanted to highlight it in a quest. If you are playing a modpack that has Metallurgy, there are all kinds of bongo metals you have to progressively acquire. It\u0027s easier in the early game to make a beeline to The Nether before you have an iron pick. Then make a netherrack pick, and mine vyroxeres. That can then tech you up rather quickly!",
+      "x": 93,
+      "y": 183,
+      "icon": {
+        "id": "TConstruct:pickaxe",
+        "nbt": "{InfiTool:{BaseDurability:157,Head:7,BaseAttack:2,Built:1b,HarvestLevel:2,Attack:2,RenderHead:7,ModDurability:0.0f,Handle:7,Broken:0b,Shoddy:1.0f,RenderHandle:7,Accessory:7,MiningSpeed:400,RenderAccessory:7,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:157},display:{Name:\"§fNetherrack Pickaxe\"}}"
+      },
+      "prerequisites": [
+        "Mining In The Nether"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "I can\u0027t test for the specific pick using the quest book, so I\u0027ll just check that you got the parts.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:pickaxeHead",
+                "damage": 7
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:toolRod",
+                "damage": 7
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:binding",
+                "damage": 7
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Natura:florasapling",
+          "damage": 7,
+          "amount": 3
+        },
+        {
+          "id": "Natura:florasapling",
+          "damage": 4,
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "Ghastbusting",
+      "description": "Ghast tears can be harvested by killing ghasts. They are those huge, white, floating things making all the horrific noises. Ghast tears are a generic mod \"exotic enchanting ingredient,\" so you may trip across the need for one at some point. You don\u0027t need it for the moon mission though.",
+      "x": 100,
+      "y": 87,
+      "icon": {
+        "id": "minecraft:ghast_tear"
+      },
+      "prerequisites": [
+        "The Nether Portal"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Hunting ghasts gets pretty annoying. You want to build yourself a cobblestone safe wall for a breather, and use a bow for ranged attacks. You can rebound their fireballs back if you are skillful. The shots will rebound where you are looking, so point yourself where you think the rebound could hit, and take a crack at it. I\u0027d recommend bronze armor or better.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:ghast_tear"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:ghast_tear"
+        },
+        {
+          "id": "minecraft:spawn_egg",
+          "damage": 56
+        }
+      ]
+    },
+    {
+      "name": "Whither You\u0027re Ready Or Not",
+      "description": "So hey, nether stars, the most expensive resource in the game! You have to this whole tedium to summon a wither, and then you have to kill the thing, and then you get a nether star for whatever some modder decided was an overpowered thing in their mod. You will eventually run into this and groan. Well, party time! People do this in Vanilla with Vanilla stuff perfectly fine, but we are a lazy species, us people who play technical mods. There are quite a few ways to handle this, including fully-automated solutions, but let\u0027s not go there right away. Here\u0027s a way to set up a little Wither jail and just kind of nibble on him until he drops dead. We\u0027ll make a reinforced obsidian cage, summon him, and then just pelt away from a hole in the side. Do this... VERY FAR FROM ANYTHING ANYBODY MIGHT CONSIDER IMPORTANT. If this thing escapes, it will be blasting holes in stuff. If you die while fighting it, it might just keep on going, blowing away the wild animals.",
+      "x": 271,
+      "y": 35,
+      "icon": {
+        "id": "minecraft:nether_star"
+      },
+      "prerequisites": [
+        "Wither Skeletons"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "The Fear Cage",
+          "longDescription": "Reinforced obsidian from Ender IO can put up with Wither boom-booms. We\u0027re going to make a 5x5x7 cell for the bastard! This is kind of annoying to make, but worth it for a safe, lazy fight. You can leave a hole in the side to summon the wither. Plug it up until it\u0027s just a 1x1 hole for the final fight. Then you can kind of just nibble on the monster.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockReinforcedObsidian"
+              },
+              "required": 130
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Tee-Totaling It",
+          "longDescription": "You should have this kind of stuff by now. You got one wither skeleton skull yourself, and I gave you the other two! You want to make a \u0027T\u0027 out of the soul sand. That\u0027s one base block, then three across the top of it. Lay the skulls on top of that . . . when you are ready. That summons the wither. You want to do this in that cage, then plug it up except for a hole in the side. It will start to generate itself, and when its health is full, it emits a huge explosion that your cage should subdue. Then you can start hacking at the thing.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:skull",
+                "damage": 1
+              },
+              "required": 3
+            },
+            {
+              "item": {
+                "id": "minecraft:soul_sand"
+              },
+              "required": 4
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Wither You Like It Or Not",
+          "longDescription": "Time to doof on that critter. It makes a satisfying \"Guh!\" sound when you hit it. You can do half the battle with missile weapons, but then it puts up a shield that blocks most missile weapons. You are supposed to then go up close on it with a sword. You might find more clever weapons for it. Holy hand grenades are one option. Rockets from various mods are another. TNT is a comedy option.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:nether_star"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:nether_star"
+        },
+        {
+          "id": "minecraft:obsidian",
+          "amount": 32
+        },
+        {
+          "id": "Mekanism:Ingot",
+          "damage": 4,
+          "amount": 32
+        }
+      ]
+    },
+    {
+      "name": "A Little Less Ablazing",
+      "description": "Over above here you might see a quest for blaze rods. You generally get those to make blaze powder. You can do that, but you can do that another way. I recommend ramming some destablized redstone through glowstone dust using a fluid transposer. This requires a magma crucible to cook down the destabilized redstone first. No big whoop. That requires some nether brick to make. You can make that from cooking down some netherrack. All done! Now, if you happen to have some blaze rods, you can just put them in a crafting grid to get two of them. That is stupid. Do not do this! If you run them through a pulverizer or a SAG mill, you\u0027ll get 4 blaze powders, which is double the efficiency!",
+      "x": 230,
+      "y": 98,
+      "icon": {
+        "id": "minecraft:blaze_powder"
+      },
+      "prerequisites": [
+        "Glowstone"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "I Don\u0027t Care How...",
+          "longDescription": "...but get me four blaze powder. Four just happens to be how many you get from grinding down a blaze rod in a proper machine.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:blaze_powder"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:blaze_rod"
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

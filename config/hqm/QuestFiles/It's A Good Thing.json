@@ -1,0 +1,1360 @@
+{
+  "name": "It\u0027s A Good Thing",
+  "description": "People like to admit that their bases are usually horrifically ugly. The Baby\u0027s First Base Guide recommends digging in somewhere for the beginning of the game. These places are rarely pretty. The thing is that making things pretty ultimately is not that hard. You just have to know what is out there. This chapter showcases some of the different common decorating and architectural mods that clean up your base and make you proud of it.",
+  "quests": [
+    {
+      "name": "The Builder\u0027s Wand",
+      "description": "This thing is hot stuff. I sometimes just cheat one in because I don\u0027t see why it should be THIS HARD to make one. Like, is it really \"overpowered?\" Whatever. The routine for making this involves unstable ingots using that division sigil. These things will blow up and kill you if you fart around, so I can\u0027t have an intermediate step here. You have to do this in one go. So look at the recipe for the builder\u0027s wand, then look at it again. Then make a crafting table a good 20-30+ blocks from your base in case you blow yourself up. Line up all your ingredients, and just fly through making this thing!",
+      "x": 133,
+      "y": 168,
+      "icon": {
+        "id": "ExtraUtilities:builderswand"
+      },
+      "prerequisites": [
+        "{Bear Grylls\u0027 Poop Menu}[Before The Sacrifice!]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Good luck!",
+          "longDescription": "No really, it\u0027s totally worth it! You can select an edge of a wall/floor you are building, and if you have items matching that edge in your inventory, it will just place them down for you over a large area. This is great for building our large structures!",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:builderswand"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ExtraUtilities:creativebuilderswand"
+        }
+      ]
+    },
+    {
+      "name": "Introduction To Chisel",
+      "description": "Chisel is a mod that adds all kinds of decorative blocks. There are some base blocks that can become one of many in a family of blocks by selecting with ... Chisel\u0027s chisel. You have to start by making this chisel.",
+      "x": 31,
+      "y": 42,
+      "icon": {
+        "id": "chisel:chisel"
+      },
+      "prerequisites": [
+        "{Vanilla Minecraft}[Iron Man]"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Carving Out Some Time",
+          "longDescription": "It is iron on a stick. Quite simple. I will give you a chisel you can recharge in a capacitor bank so you can reuse it without it breaking. I honestly think the durability on the chisel is kind of dumb. Like, are people afraid that making a pretty building is over-powered?",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:chisel"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "morechisels:ItemChiselFluxed",
+          "nbt": "{Energy:100000}"
+        }
+      ]
+    },
+    {
+      "name": "Konnichiwa!",
+      "description": "Now you can have your own Japanese-themed garden house. Heck, if you were like me, you probably built pogodas in Vanilla Minecraft anyways. Now you can do it right! There are two families here. One set are flat pieces, since these walls are notorious for being so thin. However, there are also block forms.",
+      "x": 54,
+      "y": 17,
+      "icon": {
+        "id": "chisel:paperwall",
+        "damage": 3
+      },
+      "prerequisites": [
+        "Introduction To Chisel"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "The Most Base Piece",
+          "longDescription": "You start with a basic paperwall. True to its name, it requires quite a bit of paper.",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:paperwall"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "The Basic Block",
+          "longDescription": "Put 4 paperwalls in a square in a crafting grid, you can get them in block form.",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:paperwall_block"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Pretty Stuff",
+          "longDescription": "Use the chisel on them to make these particular blocks!",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:paperwall",
+                "damage": 3
+              }
+            },
+            {
+              "item": {
+                "id": "chisel:paperwall_block",
+                "damage": 3
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chisel:paperwall",
+          "amount": 127
+        },
+        {
+          "id": "chisel:paperwall_block",
+          "amount": 64
+        }
+      ]
+    },
+    {
+      "name": "The Industrial Zone",
+      "description": "This is my favorite block family for no-frills factory labs.",
+      "x": 30,
+      "y": 77,
+      "icon": {
+        "id": "chisel:factoryblock"
+      },
+      "prerequisites": [
+        "Introduction To Chisel"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Base Block",
+          "longDescription": "Some stone and iron will make you a small pile of these blocks. If you can\u0027t afford the iron to make all the blocks you want, remember that you can use carpenter\u0027s blocks to stretch everything.",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:factoryblock"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Chiseled Block",
+          "longDescription": "Right-click with your chisel, send that base block through, and select the one that doesn\u0027t have rivets all over it. I like to use that one as girders, and place the riveted ones where they meet.",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:factoryblock",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chisel:factoryblock",
+          "amount": 127
+        }
+      ]
+    },
+    {
+      "name": "Your Purpled Fantasy",
+      "description": "Purpled fantasy blocks are really fancy. It\u0027s almost offensive to put your ugly machines in them!",
+      "x": 54,
+      "y": 92,
+      "icon": {
+        "id": "chisel:fantasyblock",
+        "damage": 10
+      },
+      "prerequisites": [
+        "Introduction To Chisel"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Base Block",
+          "longDescription": "The base block is stone surrounding a single gold nugget. The base block looks pretty boring, but some of the variations here are extremely fancy.",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:fantasyblock"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Pretty Gold Stuff",
+          "longDescription": "Right-click on the chisel with that base block, and you can pick this gold-trimmed block. These are great for caps.",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:fantasyblock",
+                "damage": 8
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chisel:fantasyblock",
+          "amount": 127
+        }
+      ]
+    },
+    {
+      "name": "Jesus Was a Carpenter Too",
+      "description": "The carpenter\u0027s blocks mod provides little scaffolds that you can \"skin\" over with other types of blocks. This lets you very cheaply create elaborate structures. Let\u0027s say you wanted to make a castle out of diamond blocks, but you don\u0027t want to put down all those diamonds. You could frame the castle out in these blocks, then right click all of them with a diamond block. Each block will take on the appearance of the diamond block.",
+      "x": 203,
+      "y": 55,
+      "icon": {
+        "id": "CarpentersBlocks:blockCarpentersBlock"
+      },
+      "prerequisites": [
+        "{Vanilla Minecraft}[Deforestation]"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "It just takes a lot of wood to do the big stuff. But, hey, it\u0027s renewable. Set up a tree farm if it really bothers you.",
+          "items": [
+            {
+              "item": {
+                "id": "CarpentersBlocks:blockCarpentersBlock"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "CarpentersBlocks:blockCarpentersBlock",
+          "amount": 64
+        }
+      ]
+    },
+    {
+      "name": "An Open Door Policy",
+      "description": "Carpenters\u0027 Blocks provides a skinnable door too. My favorite block to use on this is a clear glass block.",
+      "x": 174,
+      "y": 35,
+      "icon": {
+        "id": "CarpentersBlocks:itemCarpentersDoor"
+      },
+      "prerequisites": [
+        "Jesus Was a Carpenter Too"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "The funny thing is that in terms of raw material cost, this door is cheaper to make than a vanilla door!",
+          "items": [
+            {
+              "item": {
+                "id": "CarpentersBlocks:itemCarpentersDoor"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "CarpentersBlocks:itemCarpentersDoor"
+        },
+        {
+          "id": "CarpentersBlocks:blockCarpentersHatch"
+        }
+      ]
+    },
+    {
+      "name": "Hammering It Home",
+      "description": "Use the hammer from Carpenter\u0027s Blocks to reconfigure and reorient blocks. This is especially useful for fixing little goofs when laying out slopes. This can change the shape and turn around slopes through various left and right mouse clicks.",
+      "x": 233,
+      "y": 52,
+      "icon": {
+        "id": "CarpentersBlocks:itemCarpentersHammer"
+      },
+      "prerequisites": [
+        "Jesus Was a Carpenter Too"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "Absolutely worth it.",
+          "items": [
+            {
+              "item": {
+                "id": "CarpentersBlocks:itemCarpentersHammer"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "CarpentersBlocks:blockCarpentersGarageDoor",
+          "amount": 2
+        },
+        {
+          "id": "minecraft:iron_ingot",
+          "amount": 3
+        },
+        {
+          "id": "CarpentersBlocks:blockCarpentersBlock",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "This Is Fun, Tom Sawyer!",
+      "description": "Thanks to OpenBlocks, you can paint just about anything any color you want. You will need a paint mixer, a paint brush, a bucket of milk and source for various dyes: red, green, blue, and black. Yes, milk. That is the paint base. From there, you can mix it into any other color you want. Then you can slap that color on blocks to your heart\u0027s content using your paintbrush.",
+      "x": 38,
+      "y": 143,
+      "icon": {
+        "id": "OpenBlocks:paintmixer"
+      },
+      "prerequisites": [
+        "{Go To Hell}[Mining In The Nether]"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Paint Supplies",
+          "longDescription": "The mixer recipe is kind of dumb. You need three obsidian and five iron. It could be more dumb, so just be happy with this. It doesn\u0027t require any power or anything, but it does need red, blue, green, and black dyes of some kind. I won\u0027t bother checking for them in particular.",
+          "items": [
+            {
+              "item": {
+                "id": "OpenBlocks:paintmixer"
+              }
+            },
+            {
+              "item": {
+                "id": "OpenBlocks:paintBrush"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Does A Body Good",
+          "longDescription": "And now for the milk ritual. If you actually don\u0027t know how this is done, well, that is possible... so you walk up to a cow with an empty bucket, and right click the cow with it. Just like my nephew says, \"It\u0027s just like real life!\"",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:milk_bucket"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:dye",
+          "damage": 1,
+          "amount": 5
+        },
+        {
+          "id": "minecraft:dye",
+          "damage": 2,
+          "amount": 5
+        },
+        {
+          "id": "Artifice:item.artifice.dye",
+          "amount": 5
+        },
+        {
+          "id": "Artifice:item.artifice.dye",
+          "damage": 1,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Carving Out A Niche",
+      "description": "Tinkers\u0027 Construct has its own chisel. This one can apply those extra levels of detail on top of a few types of blocks--notably sandstone and regular stone. It is definitely not as elaborate as most of the decorating mods, but it\u0027s a quick way to make your first basement base look less ugly. Also, you sometimes need to craft something using chiseled blocks, and this can make them pretty quickly. Some of the crafting grid recipes with it can be interesting too, namely the bricks and the roads.",
+      "x": 126,
+      "y": 27,
+      "icon": {
+        "id": "TConstruct:chisel",
+        "nbt": "{InfiTool:{BaseDurability:65,Head:1,BaseAttack:1,Built:1b,HarvestLevel:1,Attack:1,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,MiningSpeed:400,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:65,Modifiers:3},display:{Name:\"§fStone Chisel\"}}"
+      },
+      "prerequisites": [
+        "{Tools and Toys}[Pattern After Me]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Patterns",
+          "longDescription": "Chisel head + tool rod",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:woodPattern",
+                "damage": 13
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:woodPattern",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Parts",
+          "longDescription": "Just make it out of stone. This isn\u0027t a tool affected by modifiers, and durability is hardly an issue here. It will probably choke on a stack of items, but it\u0027s easy enough to repair.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:chiselHead",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:toolRod",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Perfect",
+          "longDescription": "And now the chisel.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:chisel",
+                "nbt": "{InfiTool:{BaseDurability:65,Head:1,BaseAttack:1,Built:1b,HarvestLevel:1,Attack:1,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,MiningSpeed:400,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:65,Modifiers:3},display:{Name:\"§fStone Chisel\"}}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:SpeedBlock",
+          "damage": 1,
+          "amount": 64
+        },
+        {
+          "id": "TConstruct:chisel",
+          "nbt": "{InfiTool:{BaseDurability:1575,Head:1024,BaseAttack:5,Built:1b,HarvestLevel:4,Attack:5,RenderHead:1024,ModDurability:0.0f,Handle:1024,Broken:0b,Shoddy:0.0f,RenderHandle:1024,MiningSpeed:1400,Unbreaking:2,Damage:0,BonusDurability:0,TotalDurability:1575,Modifiers:3},display:{Name:\"§fShiny Chisel\"}}"
+        }
+      ]
+    },
+    {
+      "name": "Ding Ding Ding Ding Ding",
+      "description": "Holystone is particularly fun to use as floors because it makes these chiming sounds when you walk across it, and it also emits glowing particles. It doesn\u0027t have any other special effects than that, but that\u0027s probably enough for you to try them!",
+      "x": 78,
+      "y": 81,
+      "icon": {
+        "id": "chisel:holystone",
+        "damage": 10
+      },
+      "prerequisites": [
+        "Introduction To Chisel"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "The Base Block",
+          "longDescription": "Wrap a feather in some stones and you get the base holystone.",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:holystone"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Something More Interesting",
+          "longDescription": "Use this chisel to turn the base block into something more interesting.",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:holystone",
+                "damage": 10
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chisel:holystone",
+          "amount": 127
+        }
+      ]
+    },
+    {
+      "name": "Happy Halloween!",
+      "description": "Use a chisel on a pumpkin to get different faces. In turn, use a torch on them to get a jack-o-lantern. This gives you some more fun possibilities for your Halloween decorations.",
+      "x": 96,
+      "y": 52,
+      "icon": {
+        "id": "chisel:jackolantern14"
+      },
+      "prerequisites": [
+        "Introduction To Chisel"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Without A Light",
+          "longDescription": "I picked the frowning one. If you get it wrong, you can run it through the chisel again.",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:pumpkin4"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Now Lit",
+          "longDescription": "Craft it with a torch and it will become lit!",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:jackolantern4"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:pumpkin",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:torch",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "A Well-Chiseled Chest",
+      "description": "If you ever played Minecraft on Christmas, you will find that all the chests are turned into gift boxes. Chisel brought those back for any time of the year, and added on more colors. You just put the chest in a crafting grid with a dye, and you will get a colored gift box.",
+      "x": 84,
+      "y": 29,
+      "icon": {
+        "id": "chisel:present",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Introduction To Chisel"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "They\u0027ll Be Green With Envy",
+          "longDescription": "Use a green dye to make this guy. You probably have some laying around for the spaceship. If not... start looking! You can use cactus green, or combine blue and yellow colors to make green.",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:present",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:dye",
+          "damage": 2
+        },
+        {
+          "id": "chisel:present",
+          "damage": 9
+        }
+      ]
+    },
+    {
+      "name": "They Come In Slopes?",
+      "description": "Now here\u0027s a big bombshell in this mod. You can have ramps and slopes! Now you can build a roof to your house that actually looks like a roof!",
+      "x": 196,
+      "y": 15,
+      "icon": {
+        "id": "CarpentersBlocks:blockCarpentersSlope"
+      },
+      "prerequisites": [
+        "Jesus Was a Carpenter Too"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "More wood. Wood wood wood.",
+          "items": [
+            {
+              "item": {
+                "id": "CarpentersBlocks:blockCarpentersSlope"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "CarpentersBlocks:blockCarpentersSlope",
+          "amount": 64
+        }
+      ]
+    },
+    {
+      "name": "I Saw The Sign",
+      "description": "Bibiliocraft has these awesome signs. You can change the font size, alignment, color, among many other things. The editor is a little more versatile than what you get with a Vanilla Minecraft sign too. When you right-click, it will get slapped down blank. You want to shift-right-click it with an empty hand to guarantee bringing up the editor.",
+      "x": 75,
+      "y": 143,
+      "icon": {
+        "id": "BiblioCraft:BiblioFancySign"
+      },
+      "prerequisites": [
+        "{Vanilla Minecraft}[Deforestation]",
+        "{Vanilla Minecraft}[Sugar Cane Make Paper]"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Sign Me Up!",
+          "longDescription": "It does require a little more resources, but for how many signs you make in a game, it\u0027s best to post passive-aggressive messages to your base-sharing buddies in style!",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:BiblioFancySign"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:paper",
+          "amount": 2
+        },
+        {
+          "id": "minecraft:planks",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "name": "DecoCraft And Microwaves",
+      "description": "DecoCraft lets you create all kinds of props that will make you feel at home in Minecraft. It\u0027s an essential if you\u0027re trying to replicate your house in Minecraft. Most of the stuff you can make are just props, although some things will have some storage in them. You make all of these items out of special dyed clays on a special DecoCraft bench.",
+      "x": 116,
+      "y": 139,
+      "icon": {
+        "id": "props:props",
+        "damage": 599
+      },
+      "prerequisites": [
+        "{Vanilla Minecraft}[Clay More]"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Play With Clay",
+          "longDescription": "You might have to do some more dye hunting to make these clays. If you are extracting them from flowers, I recommend using a pulverizer since you\u0027ll get more yield. You need two of each of these colors: red, green, and blue. From there, you can make the crafting clay by combining those dyes with a dirt and a sand. I guess they decided clay is a hard-enough resource to get in Minecraft that it isn\u0027t actually used in making... clay. That\u0027s fair enough honestly, but the dyes are usually even harder to get!",
+          "items": [
+            {
+              "item": {
+                "id": "props:clay"
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "props:clay",
+                "damage": 2
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "props:clay",
+                "damage": 1
+              },
+              "required": 2
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Another Bench",
+          "longDescription": "The bench is made by combining a crafting bench with one each of the three different crafting clays.",
+          "items": [
+            {
+              "item": {
+                "id": "props:props",
+                "damage": 508
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Microwaving Goodbye",
+          "longDescription": "From there, search for the microwave in the decobench, feed it the rest of the clay, and you should have yourself a microwave prop! Try to place it. Note that you have a lot of flexibility in orientation. Note: I\u0027m looking for the regular microwave, NOT THE DARK ONE.",
+          "items": [
+            {
+              "item": {
+                "id": "props:props",
+                "damage": 599
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "props:clay",
+          "amount": 64
+        },
+        {
+          "id": "props:clay",
+          "damage": 2,
+          "amount": 64
+        },
+        {
+          "id": "props:clay",
+          "damage": 1,
+          "amount": 64
+        }
+      ]
+    },
+    {
+      "name": "Something More Concrete",
+      "description": "Concrete is some great stuff. For the cost of cooking some gravel, you get a block that doubles your speed! However, something about them will keep you from going through doorways, so you need to switch out to another block.",
+      "x": 103,
+      "y": 76,
+      "icon": {
+        "id": "chisel:concrete"
+      },
+      "prerequisites": [
+        "Introduction To Chisel"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Base Block",
+          "longDescription": "Cook down some gravel in a furnace to make concrete. Note that this has nothing to do with how you make this in real life, just in case you were curious.",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:concrete"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "A Kick In The Asphalt",
+          "longDescription": "You can use the chisel on concrete to get some interesting patterns for sidewalks, but the most-common alternative pattern is asphalt. This is what you want to use for roads in most parts of the world.",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:concrete",
+                "damage": 10
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chisel:concrete",
+          "amount": 127
+        }
+      ]
+    },
+    {
+      "name": "I Saw The Wisdom",
+      "description": "These saws let you get into Forge Microblocks. These let you subdivide regular blocks into all kinds of smaller shapes. The best shape, in my opinion, is the cover. With covers, you can plaster over conduit, pipe, and whatever else and make your base look much more clean.",
+      "x": 271,
+      "y": 26,
+      "icon": {
+        "id": "ForgeMicroblock:sawStone"
+      },
+      "prerequisites": [
+        "{Vanilla Minecraft}[Upping The Heat]"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Stone Saw",
+          "longDescription": "The idea of a saw made out of stone is really amusing to me, but whatever. You can find out if you like this stuff from making this basic saw. Practice on some wood or cobblestone because it can be fussy first learning how to create the right shapes.",
+          "items": [
+            {
+              "item": {
+                "id": "ForgeMicroblock:sawStone"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ForgeMicroblock:sawDiamond"
+        }
+      ]
+    },
+    {
+      "name": "I Blacked Out For A Bit",
+      "description": "Blackout curtains halve the amount of light passing through them. The most common use for these is to black out an area for a monster farm. People like to set up glass rooms for their monster farms so they can see what is happening, but the glass lets light through, preventing the monsters from spawning. Blackout curtains help here.",
+      "x": 201,
+      "y": 114,
+      "icon": {
+        "id": "ExtraUtilities:curtains"
+      },
+      "prerequisites": [
+        "{Vanilla Minecraft}[Wool In Your Eyes]"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "I\u0027ll reimburse your wool if you craft this.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:curtains"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:wool",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "name": "It\u0027s Downright Heavenly",
+      "description": "The Angel Block can be placed anywhere in space without being attached to something. This is useful for setting up an island in the middle of the ocean, or well, an island in the middle of the air. Other blocks can then be built off of it to create the structure you wish to have.",
+      "x": 192,
+      "y": 150,
+      "icon": {
+        "id": "ExtraUtilities:angelBlock"
+      },
+      "prerequisites": [
+        "{Go To Hell}[Mining In The Nether]"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "It seems like a dumb thing, but it sure beats nerdpoles. You know, when you just jump up and, over and over, building a tower under you into the heavens.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:angelBlock"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:gold_ingot"
+        },
+        {
+          "id": "minecraft:feather"
+        },
+        {
+          "id": "minecraft:obsidian"
+        }
+      ]
+    },
+    {
+      "name": "Read This Building Guide",
+      "description": "The Building Guide will set out a template for various shapes. You can set the sizes it should use in all dimensions. This makes it much easier to do things like domes and spheres.",
+      "x": 249,
+      "y": 170,
+      "icon": {
+        "id": "OpenBlocks:guide"
+      },
+      "prerequisites": [
+        "{Vanilla Minecraft}[Covering Your Glass Hole]"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "It\u0027s Really Easy To Make Too",
+          "longDescription": "Glass and torches... etc.",
+          "items": [
+            {
+              "item": {
+                "id": "OpenBlocks:guide"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:glass",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "Am I Clear?",
+      "description": "There are two very important clear glass blocks for decoration. The smeltery can product Clear Glass, and the Ender IO alloy smelter can product Quite Clear Glass. They are generally interchangeable.",
+      "x": 131,
+      "y": 105,
+      "icon": {
+        "id": "TConstruct:GlassBlock"
+      },
+      "prerequisites": [
+        "{Vanilla Minecraft}[Covering Your Glass Hole]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Crystal Clear",
+          "longDescription": "They combine into larger structures very well. Most importantly, they don\u0027t shatter when you break them!",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:GlassBlock"
+              }
+            },
+            {
+              "item": {
+                "id": "EnderIO:blockFusedQuartz",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:sand",
+          "amount": 64
+        }
+      ]
+    },
+    {
+      "name": "Oh This Is A Great Thing!",
+      "description": "Maybe you have outgrown your base, or it\u0027s just driving you nuts. If you just want to blow it all to smithereens, then obsidian TNT is for you. This has a huge blast radius. You want to stay well clear of it. Note that you will lose most of the stuff it blows up. You want to gut your base before resorting to this!",
+      "x": 258,
+      "y": 76,
+      "icon": {
+        "id": "Mekanism:ObsidianTNT"
+      },
+      "prerequisites": [
+        "{Go To Hell}[Mining In The Nether]"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "No really, it blows up pretty big.",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:ObsidianTNT"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Mekanism:ObsidianTNT"
+        }
+      ]
+    },
+    {
+      "name": "Torch It Up",
+      "description": "Yeap, you guessed it: torches can be skinned too!",
+      "x": 228,
+      "y": 14,
+      "icon": {
+        "id": "CarpentersBlocks:blockCarpentersTorch"
+      },
+      "prerequisites": [
+        "Jesus Was a Carpenter Too"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "Charcoal/coal plus one carpenter\u0027s block. Z...z...z...",
+          "items": [
+            {
+              "item": {
+                "id": "CarpentersBlocks:blockCarpentersTorch"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "CarpentersBlocks:blockCarpentersLever"
+        },
+        {
+          "id": "CarpentersBlocks:blockCarpentersLadder",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "Random Illumination",
+      "description": "Any Carpenter\u0027s Block can be self-illuminating if you give it some glowstone. If you have a big room, this is one way to light up parts of it without having to outright place a lamp or torch.",
+      "x": 170,
+      "y": 67,
+      "icon": {
+        "id": "minecraft:glowstone_dust"
+      },
+      "prerequisites": [
+        "Jesus Was a Carpenter Too"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "I can\u0027t check that you did this in the quest book since this all happens in-world, so scout\u0027s honor, okay?",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:glowstone_dust"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:glowstone_dust",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "A Bright Idea",
+      "description": "You can chisel torches! This turns them all kinds of shapes that might make better sense in your base than random flaming sticks.",
+      "x": 23,
+      "y": 17,
+      "icon": {
+        "id": "chisel:torch9"
+      },
+      "prerequisites": [
+        "Introduction To Chisel"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Light Bulb",
+          "longDescription": "Torch in, bulb out.",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:torch9"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:torch",
+          "amount": 64
+        }
+      ]
+    },
+    {
+      "name": "Oh Hey, Another Chisel!",
+      "description": "This chisel lets you overlay textures over some existing carpenter\u0027s blocks. There are just a handful of them. That being said, I find I like the vertical wavy pattern to make a roof appear corrugated.",
+      "x": 201,
+      "y": 87,
+      "icon": {
+        "id": "CarpentersBlocks:itemCarpentersChisel"
+      },
+      "prerequisites": [
+        "Jesus Was a Carpenter Too"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Chisel chisel chisel",
+          "longDescription": "Chisel chisel chisel chisel chisel... ",
+          "items": [
+            {
+              "item": {
+                "id": "CarpentersBlocks:itemCarpentersChisel"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:iron_ingot"
+        },
+        {
+          "id": "CarpentersBlocks:blockCarpentersBlock",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "A Bench Worth Warming",
+      "description": "This bench lets you create a variety of elaborate furniture, decorations, and ... kind of stinky weapons. It\u0027s a good way to flush out your base. Right click the \"...\" that shows up in its menu to see all the stuff you can make.",
+      "x": 228,
+      "y": 84,
+      "icon": {
+        "id": "customnpcs:npcCarpentyBench"
+      },
+      "prerequisites": [
+        "Oh Hey, Another Chisel!",
+        "Hammering It Home"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "customnpcs:npcCarpentyBench"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:wool",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:planks",
+          "amount": 16
+        },
+        {
+          "id": "CarpentersBlocks:blockCarpentersBlock",
+          "amount": 64
+        },
+        {
+          "id": "CarpentersBlocks:blockCarpentersSafe"
+        }
+      ]
+    },
+    {
+      "name": "Let Me Stencil You In",
+      "description": "You can apply different textures to your paint. Using these stencils cleverly, you can have multiple colors in stripes and bands, or just allow some of the original material to shine through. You right click the stencil on the wall, then paint over it, and the unblocked parts of the stencil will be the only parts painted. So if you get one offset of vertical stripes, you can paint one band of stripes, switch the stencil, and paint the other band of stripes.",
+      "x": 58,
+      "y": 168,
+      "icon": {
+        "id": "OpenBlocks:stencil",
+        "damage": 2
+      },
+      "prerequisites": [
+        "This Is Fun, Tom Sawyer!"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "The Basics",
+          "longDescription": "The drawing table creates patterned stencils from the base stencil. So you\u0027ll need something like three stencils: two for the table, and one to change.",
+          "items": [
+            {
+              "item": {
+                "id": "OpenBlocks:generic",
+                "damage": 10
+              }
+            },
+            {
+              "item": {
+                "id": "OpenBlocks:drawingtable"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Loving It",
+          "longDescription": "Okay I\u0027ll fess up. I picked the heart pattern because it was pretty obvious. I\u0027ll give you plenty of blanks to do whatever other ones you want.",
+          "items": [
+            {
+              "item": {
+                "id": "OpenBlocks:stencil",
+                "damage": 12
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "OpenBlocks:generic",
+          "damage": 10,
+          "amount": 14
+        }
+      ]
+    },
+    {
+      "name": "Dyeing To Get These",
+      "description": "What a pain in the butt it is to hunt down flowers for dyes. Well, if you have fistfuls of bonemeal, just spray grass outside with it. You\u0027ll get a bunch of tall grass, but some flowers here and there. That should help you get some of these flowers.",
+      "x": 133,
+      "y": 55,
+      "icon": {
+        "id": "Artifice:tile.artifice.flora",
+        "damage": 2
+      },
+      "prerequisites": [
+        "{A Post-Scarcity Economy}[Minefactory Reloaded]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Flower Power",
+          "longDescription": "Blablabla flowers. If you need lots of bonemeal, it\u0027s time to set up a mob farm. See the post-scarcity chapter for setting up a grinder. You could just set up a dark space near your base and just punch into it from time to time, but it\u0027s tedious, and you still get bopped by the monsters sometimes.",
+          "items": [
+            {
+              "item": {
+                "id": "Artifice:tile.artifice.flora",
+                "damage": 2
+              }
+            },
+            {
+              "item": {
+                "id": "Artifice:tile.artifice.flora",
+                "damage": 3
+              }
+            },
+            {
+              "item": {
+                "id": "Artifice:tile.artifice.flora",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "Artifice:tile.artifice.flora"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:double_plant",
+                "damage": 4
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:red_flower",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:red_flower",
+                "damage": 2
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:yellow_flower"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:red_flower",
+                "damage": 3
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:dye",
+          "damage": 5
+        },
+        {
+          "id": "minecraft:dye",
+          "damage": 6
+        },
+        {
+          "id": "MineFactoryReloaded:ceramicdye",
+          "damage": 14
+        },
+        {
+          "id": "minecraft:dye",
+          "damage": 10
+        }
+      ]
+    },
+    {
+      "name": "Canvasing For OpenBlocks",
+      "description": "When you start painting stuff in OpenBlocks, it turns the blocks into canvas blocks. This can be a problem if you are using expensive blocks. Here\u0027s a better idea: use canvas. It\u0027ll eat paper alive to make it in bulk, but that\u0027s a problem you can solve too.",
+      "x": 24,
+      "y": 175,
+      "icon": {
+        "id": "OpenBlocks:canvas"
+      },
+      "prerequisites": [
+        "This Is Fun, Tom Sawyer!"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Paper Paper Paper",
+          "longDescription": "8 paper and a fence for 9 canvas. I\u0027ll give you, a lot of canvas and paper for the fuss.",
+          "items": [
+            {
+              "item": {
+                "id": "OpenBlocks:canvas"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "OpenBlocks:canvas",
+          "amount": 127
+        },
+        {
+          "id": "OpenBlocks:canvas",
+          "amount": 127
+        },
+        {
+          "id": "minecraft:paper",
+          "amount": 16
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

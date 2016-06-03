@@ -1,0 +1,1692 @@
+{
+  "name": "Electrical Power",
+  "description": "You will have to use electrically-powered equipment to build some of the components for your moon rocket. Well, they aren\u0027t technically powered electrically. They\u0027re powered by a system known as \"Redstone Flux.\" Some other mods have their own systems, but they are all compatible with this. It\u0027s quite close to an idea of electrical power, with generators sending power through ducts/cables to devices. Here you can see some of the options, including a nuclear reactor (not as scary as it sounds).",
+  "quests": [
+    {
+      "name": "Steel My Thunder",
+      "description": "Time to make an ingot of steel. Combine 1 iron ingot with either 4 pulverized charcoal or 2 pulverized coal in the induction smelter. When first using the machine, press the \"unlock flux slot\" button so you can make this alloy. Normally the induction furnace takes flux materials (sand) to double ingot yield. So it can double ore output just like the smeltery. Sometimes you will get byproducts, and certain additives can actually triple yields!",
+      "x": 289,
+      "y": 13,
+      "icon": {
+        "id": "Mekanism:Ingot",
+        "damage": 4
+      },
+      "prerequisites": [
+        "I Induce You Need Steel"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:Ingot",
+                "damage": 4
+              },
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Mekanism:Ingot",
+          "damage": 4,
+          "amount": 4
+        },
+        {
+          "id": "ThermalFoundation:material",
+          "damage": 20,
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "I Induce You Need Steel",
+      "description": "The rocket will need to be made with some steel. It is an alloy you cannot make from that crude smeltery you probably have built by now. Instead, you will need to use an electrically-powered induction smelter. The steel recipe requires 4 crushed charcoal or 2 crushed coal. For that you will need a pulverizer. You will have to power these machines with redstone flux. See the \"electrical power\" chapter to get started.",
+      "x": 257,
+      "y": 15,
+      "icon": {
+        "id": "ThermalExpansion:Machine",
+        "damage": 3,
+        "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[0:\"6 bytes\"],Level:3b,Augments:[0:{Slot:0,id:4370s,Count:1b,Damage:0s},1:{Slot:1,id:4370s,Count:1b,Damage:32s},2:{Slot:2,id:4370s,Count:1b,Damage:16s}]}"
+      },
+      "prerequisites": [
+        "I Pulverize Your Head!"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Create the basic versions of the pulverizer and the induction smelter.",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalExpansion:Machine",
+                "damage": 1,
+                "nbt": "{RSControl:0b,Facing:4b,Energy:39339,SideCache:[0:\"6 bytes\"],Level:0b,Augments:[0:{Slot:0,id:4370s,Count:1b,Damage:0s},1:{Slot:1,id:4370s,Count:1b,Damage:32s},2:{Slot:2,id:4370s,Count:1b,Damage:16s}]}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ThermalExpansion:Machine",
+                "damage": 3,
+                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[0:\"6 bytes\"],Level:0b,Augments:[0:{Slot:0,id:4370s,Count:1b,Damage:0s},1:{Slot:1,id:4370s,Count:1b,Damage:32s},2:{Slot:2,id:4370s,Count:1b,Damage:16s}]}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ThermalFoundation:material",
+          "damage": 2,
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "Power Starts With Redstone",
+      "description": "Redstone is a material mined in the original Minecraft. There, it\u0027s used like a signal for basic logic. If you heard somebody simulate a processor in Minecraft, it was with redstone. In Minecraft mods, redstone is very often used for power generation. The technical mods tend to use a power system to operate their machines. Most have settled on a power system known as \"redstone flux\" or RF. So let\u0027s start generating RF!",
+      "x": 99,
+      "y": 50,
+      "icon": {
+        "id": "minecraft:redstone"
+      },
+      "prerequisites": [
+        "{Tools and Toys}[Mining Like The Romans]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Redstone is fairly common once you dig deep enough. In the Nether, it\u0027s actually more at and above the center height of Y\u003d64. So if you go to the Nether, dig up, not down.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:redstone"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:redstone",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:redstone_torch"
+        },
+        {
+          "id": "minecraft:lever"
+        },
+        {
+          "id": "minecraft:piston"
+        }
+      ]
+    },
+    {
+      "name": "The Survivalist\u0027s Generator",
+      "description": "This little generator is extremely fuel-efficient, but outputs power SLOOOWLY. You could fix that by... making a ton of them. However, if you make a giant tower out of them, I might find you, and mock it. You have been warned. This is still a great way to get started.",
+      "x": 63,
+      "y": 79,
+      "icon": {
+        "id": "ExtraUtilities:generator"
+      },
+      "prerequisites": [
+        "Power Starts With Redstone"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Okay, you make one, I\u0027ll give you one. I recommend feeding it wood planks.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:generator"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ExtraUtilities:generator"
+        }
+      ]
+    },
+    {
+      "name": "Your Basic Power Cable",
+      "description": "There are various connectors, but we will focus on the ones in Thermal Dynamics, a bulwark for power delivery pipes. The basic power cable there is the leadstone fluxduct. It\u0027s fairly simple to make. However, it cannot transmit too much power. You can attach it to multiple sides and create alternate routes to get around this . . . for a while.",
+      "x": 60,
+      "y": 18,
+      "icon": {
+        "id": "ThermalDynamics:ThermalDynamics_0"
+      },
+      "prerequisites": [
+        "Power Starts With Redstone"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalDynamics:ThermalDynamics_0"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ThermalFoundation:material",
+          "damage": 67,
+          "amount": 3
+        },
+        {
+          "id": "minecraft:redstone",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Graphite . . . For Nukes!",
+      "description": "So you have a problem. You decide, \"I will build a nuclear reactor.\" Now you have . . . lots of problems. This reactor can\u0027t explode on you, contaminate the world, and kill you constantly. It just requires a lot of stuff to make. It will take over a hundred graphite, made from 1 charcoal/coal each, and over a hundred yellorium ingots. For your trouble, you will build a 5x5x5 structure that will provide WAAAAY more power than you need for the moon trip. You can reduce the burn rate, or just build crazier stuff to use up all the RF.",
+      "x": 77,
+      "y": 125,
+      "icon": {
+        "id": "BigReactors:BRIngot",
+        "damage": 2
+      },
+      "prerequisites": [
+        "The Survivalist\u0027s Generator"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Burn wood into charcoal, and then charcoal into graphite. Repeat lots of times. You can use coal too, but that\u0027s a nice thing to keep around for making steel. Note, consider automating this step and making tons of graphite. For one, you can line the reactor with graphite blocks to boost performance. This could double its performance. For another, turbine components also need graphite . . . when we get there.",
+          "items": [
+            {
+              "item": {
+                "id": "BigReactors:BRIngot",
+                "damage": 2
+              },
+              "required": 116
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "BigReactors:BRIngot",
+          "amount": 64
+        }
+      ]
+    },
+    {
+      "name": "Lava Power",
+      "description": "This generator runs on lava. No joke. Right click it with a bucket of lava and it will take it into its tank and start to hum on it. It\u0027s possible to get your rocket put together with just this power alone.",
+      "x": 45,
+      "y": 130,
+      "icon": {
+        "id": "ExtraUtilities:generator",
+        "damage": 2
+      },
+      "prerequisites": [
+        "The Survivalist\u0027s Generator"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:generator",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:lava_bucket",
+          "amount": 4
+        },
+        {
+          "id": "ExtraUtilities:generator",
+          "damage": 9
+        },
+        {
+          "id": "minecraft:wool",
+          "damage": 6,
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Big People Solar",
+      "description": "If you get 4 of the basic solar generators, you can combine them into the advanced generator. It will generate 1.5x the power of the original 4 cells.",
+      "x": 122,
+      "y": 132,
+      "icon": {
+        "id": "MekanismGenerators:Generator",
+        "damage": 5
+      },
+      "prerequisites": [
+        "Weak Solar Power"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "MekanismGenerators:Generator",
+                "damage": 5,
+                "nbt": "{electricity:0.0d}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "MekanismGenerators:Generator",
+          "damage": 1,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Burning Food For Science",
+      "description": "The culinary generator . . . burns food to produce RF. It\u0027s not that bad really if you have an automatic farm set up. It\u0027s just kind of silly.",
+      "x": 30,
+      "y": 98,
+      "icon": {
+        "id": "ExtraUtilities:generator",
+        "damage": 5
+      },
+      "prerequisites": [
+        "The Survivalist\u0027s Generator"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:generator",
+                "damage": 5
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:bread",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "I\u0027m Your Biggest Fan",
+      "description": "This is a turnkey, sustainable, fire-and-forget power generator. So long as the turbine can see the sky overhead and has plenty of room around it. It also generates more power the higher up in the world it is. If you built on top of a mountain, this should work pretty well for you.",
+      "x": 20,
+      "y": 66,
+      "icon": {
+        "id": "MekanismGenerators:Generator",
+        "damage": 6
+      },
+      "prerequisites": [
+        "The Survivalist\u0027s Generator"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Side-note: Solar panels and wind turbines are considered \"passive generation.\" Some mods have these, and they usually have low generation rates. Resist the urge to build tons of these to compensate. If you play on a server, the server will choke, and everybody will make fun of you. Switch to the tougher, more powerful, active generators. They are more interesting to work with anyways.",
+          "items": [
+            {
+              "item": {
+                "id": "MekanismGenerators:Generator",
+                "damage": 6
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "MekanismGenerators:Generator",
+          "damage": 6
+        }
+      ]
+    },
+    {
+      "name": "A Hardcore Fluxduct",
+      "description": "The hardened fluxduct can transmit 4x the RF power of a leadstone fluxduct. You make it by augmenting existing leadstone fluxduct with invar. Invar is a 2:1 alloy of iron:nickel. You may find nickel in the world as ferrous ore. It\u0027s pretty rare. These ducts are more than you need to get to the moon . . . unless you make that nuclear reactor and maybe that digital miner.",
+      "x": 24,
+      "y": 17,
+      "icon": {
+        "id": "ThermalDynamics:ThermalDynamics_0",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Your Basic Power Cable"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalDynamics:ThermalDynamics_0",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ThermalExpansion:Machine",
+          "damage": 4,
+          "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[6 bytes],Level:3b,Augments:[0:{Slot:0,id:4382s,Count:1b,Damage:0s},1:{Slot:1,id:4382s,Count:1b,Damage:32s},2:{Slot:2,id:4382s,Count:1b,Damage:16s}]}"
+        },
+        {
+          "id": "Artifice:tile.artifice.orenickel",
+          "damage": 1,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Weak Solar Power",
+      "description": "Solar power is sustainable, turnkey, and fire-and-forget . . . except that it stops at night. You will need an energy cell to store power for the night. You will also need some Mekanism equipment to make these. However, if you make that gear, you\u0027re part of the way to the Digital Miner in the Post-Scarcity section. Think about it.",
+      "x": 101,
+      "y": 107,
+      "icon": {
+        "id": "MekanismGenerators:Generator",
+        "damage": 1
+      },
+      "prerequisites": [
+        "The Survivalist\u0027s Generator"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "One of these will provide 40RF/tick, which is better than the survivalist generator, but only during the day! Given a 24-hour cycle, the solar generator is only marginally better, but at least you don\u0027t have to constantly feed it wood.",
+          "items": [
+            {
+              "item": {
+                "id": "MekanismGenerators:Generator",
+                "damage": 1,
+                "nbt": "{electricity:0.0d}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "MekanismGenerators:Generator",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Baby\u0027s First Battery",
+      "description": "The leadstone energy cell is a starter battery. All the power generators maintain a power reserve, but that might not be enough. This is especially an issue if you are using solar power. You need to buffer it overnight! Even if you don\u0027t, an energy cell can discharge much more quickly than some generators, and are good for jobs on the pinch. The fact that they\u0027re portable is quite useful too. USE A CRESCENT HAMMER TO MOVE THEM!",
+      "x": 58,
+      "y": 49,
+      "icon": {
+        "id": "ThermalExpansion:Frame",
+        "damage": 4
+      },
+      "prerequisites": [
+        "The Survivalist\u0027s Generator"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "***NOTE*** Ender IO capacitor banks have generally taken the place of these energy cells. They do a lot of it better and cheaper.",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalExpansion:Cell",
+                "damage": 1,
+                "nbt": "{Recv:200,RSControl:1b,Facing:3b,Energy:0,SideCache:[6 bytes],Send:200}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ThermalExpansion:Cell",
+          "damage": 1,
+          "nbt": "{Recv:200,RSControl:1b,Facing:3b,Energy:0,SideCache:[6 bytes],Send:200}"
+        }
+      ]
+    },
+    {
+      "name": "Yellowcake, yellowcake . . .",
+      "description": "Remember the 64 ingots I gave you for the graphite? That won\u0027t be enough! You will need more just to build the reactor. It will need fuel. So I will be asking for 64 yellorium ingots.",
+      "x": 95,
+      "y": 150,
+      "icon": {
+        "id": "BigReactors:BRIngot"
+      },
+      "prerequisites": [
+        "Graphite . . . For Nukes!"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Do not use your furnace or smeltery for this! The yield is terrible! Consider pulverizing or crushing the ore first, then running it through a furnace. You can also use Artifice uranium ore generally, but I cannot set up the quest book to detect one or the other, so yellorium it is! You should be able to normally find that ore in any modpack that includes Big Reactors.",
+          "items": [
+            {
+              "item": {
+                "id": "BigReactors:BRIngot"
+              },
+              "required": 64,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:diamond"
+        },
+        {
+          "id": "minecraft:redstone",
+          "amount": 16
+        },
+        {
+          "id": "BigReactors:BRIngot",
+          "damage": 2,
+          "amount": 16
+        },
+        {
+          "id": "minecraft:iron_ingot",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "The Power Of The Atom",
+      "description": "Let\u0027s start putting all this together. You will need reactor blocks first. You will then use some of them to make a controller, an access port, a power tap, and a control rod. You will then need 3 fuel rods. Build a 5x5 floor out of the reactor blocks. Place the 3 fuel rods as a tower in the center. Encase it on all sides, except for placing the port, tap, and controller somewhere accessible from the outside--but not the corners. Close it off with the remaining cases. Put yellorium in the access port, and try to activate the reactor from the controller. It will tell you if it doesn\u0027t like something, and exactly where the thing it doesn\u0027t like is or isn\u0027t. Good luck!",
+      "x": 110,
+      "y": 187,
+      "icon": {
+        "id": "chisel:warningSign"
+      },
+      "prerequisites": [
+        "Yellowcake, yellowcake . . ."
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "All The Reactor Blocks",
+          "longDescription": "If I did the math right, this should be all the blocks you need for a 5x5x5 reactor, including what is consumed in making the controller, access port, and power tap. Previous editions of this book recommended filling the reactor with water. DO NOT DO THIS. You can improve this reactor if you fill it up with blocks of graphite, or dump buckets of destabilized redstone into the top of it.",
+          "items": [
+            {
+              "item": {
+                "id": "BigReactors:BRReactorPart"
+              },
+              "required": 110
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "The Special Blocks",
+          "items": [
+            {
+              "item": {
+                "id": "BigReactors:YelloriumFuelRod"
+              },
+              "required": 3
+            },
+            {
+              "item": {
+                "id": "BigReactors:BRReactorPart",
+                "damage": 2
+              }
+            },
+            {
+              "item": {
+                "id": "BigReactors:BRReactorPart",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "BigReactors:BRReactorPart",
+                "damage": 3
+              }
+            },
+            {
+              "item": {
+                "id": "BigReactors:BRReactorPart",
+                "damage": 4
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chisel:warningSign",
+          "amount": 64
+        },
+        {
+          "id": "OpenBlocks:tank",
+          "nbt": "{tank:{FluidName:\"ender\",Amount:16000}}"
+        },
+        {
+          "id": "minecraft:blaze_rod"
+        },
+        {
+          "id": "minecraft:iron_block",
+          "amount": 3
+        },
+        {
+          "id": "Enchiridion2:book",
+          "nbt": "{identifier:\"Baby_s_First_Reactor\"}"
+        }
+      ]
+    },
+    {
+      "name": "Cooking With RF",
+      "description": "The RF furnace is a no-frills furnace replacement. Well, one perk it has is that can cook food especially fast compared to the other heating machines, if you are into that kind of thing.",
+      "x": 191,
+      "y": 16,
+      "icon": {
+        "id": "ThermalExpansion:Machine",
+        "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[6 bytes],Level:3b,Augments:[0:{Slot:0,id:5667s,Count:1b,Damage:0s},1:{Slot:1,id:5667s,Count:1b,Damage:32s},2:{Slot:2,id:5667s,Count:1b,Damage:16s}]}"
+      },
+      "prerequisites": [
+        "Love Machines"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Getting The Right Gears",
+          "longDescription": "Let\u0027s start with what you need for the basic frame, a tin gear.",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalFoundation:material",
+                "damage": 129
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Getting The Right Frame",
+          "longDescription": "The basic machine frame needs that tin gear and some basic materials like iron and glass.",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalExpansion:Frame"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Baking A Furnace",
+          "longDescription": "Now the furnace.",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalExpansion:Machine",
+                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[6 bytes],Level:3b,Augments:[0:{Slot:0,id:5667s,Count:1b,Damage:0s},1:{Slot:1,id:5667s,Count:1b,Damage:32s},2:{Slot:2,id:5667s,Count:1b,Damage:16s}]}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:materials",
+          "damage": 10,
+          "amount": 4
+        },
+        {
+          "id": "minecraft:beef",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "I Pulverize Your Head!",
+      "description": "Here is another grinding machine that has a chance of side-products. When you see pulverizer recipes in NEI, this is what it is talking about. You can get basic ore-doubling with this and the RF-furnace, which isn\u0027t really the best. One thing that sets the pulverizer apart from the other machines is how consistently it grinds cobblestone into sand. This can help with making glass.",
+      "x": 223,
+      "y": 15,
+      "icon": {
+        "id": "ThermalExpansion:Machine",
+        "damage": 1,
+        "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[6 bytes],Level:3b,Augments:[0:{Slot:0,id:5667s,Count:1b,Damage:0s},1:{Slot:1,id:5667s,Count:1b,Damage:32s},2:{Slot:2,id:5667s,Count:1b,Damage:16s}]}"
+      },
+      "prerequisites": [
+        "Love Machines"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Gearing Up",
+          "longDescription": "Unnamed",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalFoundation:material",
+                "damage": 129
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Framing Things",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalExpansion:Frame"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Breaking It All Down",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalExpansion:Machine",
+                "damage": 1,
+                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[6 bytes],Level:3b,Augments:[0:{Slot:0,id:5667s,Count:1b,Damage:0s},1:{Slot:1,id:5667s,Count:1b,Damage:32s},2:{Slot:2,id:5667s,Count:1b,Damage:16s}]}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:materials",
+          "damage": 10,
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "Three Times The Alloy",
+      "description": "Well hey, another RF-powered furnace! This one is from Ender IO. One big claim to fame for it is it can burn down three things at once. It is pretty intense on the iron, but if that is cheap for you, you should consider it over the others. You will also need this if you want to make other Ender IO stuff like their conduits.",
+      "x": 204,
+      "y": 46,
+      "icon": {
+        "id": "Mekanism:MachineBlock",
+        "damage": 10
+      },
+      "prerequisites": [
+        "Love Machines"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Checking Your Capacity",
+          "longDescription": "Get used to these capacitors. They are a regular Ender IO component. They take a little gold, a copper ingot, and redstone. This is the most exotic component.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemBasicCapacitor"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Tighten The Chasis Belt",
+          "longDescription": "It\u0027s time to start feeding this thing lots of iron. The chasis is a common item for the Ender IO machines in general.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemMachinePart"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Throwing It Together",
+          "longDescription": "Since it can burn through three things at once, it does make sense it wants three furnaces. The rest comes to the previous steps, and a bunch of iron.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockAlloySmelter"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "EnderIO:itemBasicCapacitor",
+          "damage": 1
+        },
+        {
+          "id": "minecraft:iron_ingot",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Rolling In Balls",
+      "description": "In real life, SAG stands for \"semi-autogenous grinding.\" It\u0027s a tub full of ball bearings that are spin. They pound away on your product. The EnderIO one uses flint. You can grind without extra flint, but feeding some in will potentially increase your yield. For example, an iron ore without flint will give you two dusts, which give you two ingots. However, a SAG mill with flint fed into the right-hand slot will sometimes quadruple that. Statistically, it will boost your base yield by 2.5x, and that\u0027s better than the smeltery.",
+      "x": 195,
+      "y": 66,
+      "icon": {
+        "id": "Mekanism:MachineBlock",
+        "damage": 3
+      },
+      "prerequisites": [
+        "Love Machines"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "Pro tip: You can use the Mekanism crusher to turn cobblestone into gravel. From there, the SAG mill can process the gravel into flint. If you run the flint through a crusher again, you\u0027ll get gunpowder. Hint, hint . . .",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockSagMill"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:flint",
+          "amount": 32
+        }
+      ]
+    },
+    {
+      "name": "Kind of Stinks As-Is, But...",
+      "description": "...this machine can go through a fairly straightforward set of upgrades to be ridiculously fast and efficient, using the same upgrades that will go into the digital miner. If you are heading for that, you should soon have the tooling to make this too. I generally just use an energized smelter when setting up *triple ore processing* since it works well with the other Mekanism machines.",
+      "x": 216,
+      "y": 100,
+      "icon": {
+        "id": "EnderIO:blockAlloySmelter"
+      },
+      "prerequisites": [
+        "Love Machines"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Yeah, it needs steel!",
+          "longDescription": "The obnoxious thing is you need steel to make an otherwise straightforward machine.",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:Ingot",
+                "damage": 4
+              },
+              "required": 4,
+              "precision": "ORE_DICTIONARY"
+            },
+            {
+              "item": {
+                "id": "Mekanism:Ingot",
+                "damage": 1
+              },
+              "required": 2
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "longDescription": "Yeah, it needs osmium and you help from a metallurgic infuser to make the circuit boards.",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:MachineBlock",
+                "damage": 10
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Mekanism:Ingot",
+          "damage": 4,
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "I Crush Your Head!",
+      "description": "Continuing the theme of Mekanism machines sounding like stuff from a Nine Inch Nails video, the crusher sounds like it is brutally executing your ores and objects. You will need one crusher for the digital miner quest line eventually due to very peculiar outputs from this machine for doing Mekanism stuff.",
+      "x": 228,
+      "y": 81,
+      "icon": {
+        "id": "EnderIO:blockSagMill"
+      },
+      "prerequisites": [
+        "Love Machines"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "I\u0027d like to highlight that a crusher turns cobblestone into gravel. A SAG mill can turn gravel into flint, and you can turn around to another crusher and turn the flint into gunpowder . . . hint, hint.",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:MachineBlock",
+                "damage": 3
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Mekanism:Ingot",
+          "damage": 4,
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Love Machines",
+      "description": "Now you can do the basic machines! Unfortunately, we have three packs that do the starter machines. The typical thing is to get some kind of heating machine, and some kind of grinding machine. One replaces your coal-fired furnace, and the other processes items to break them down. They usually get you some ore multiplication bonus. The bonuses can vary, so you want to see what you need and then determine which way to go. Ender IO machines tend to be high in iron. Thermal Expansion machines will eat on the copper. Mekanism will require steel and osmium. They all have their perks.",
+      "x": 140,
+      "y": 78,
+      "icon": {
+        "id": "CompactMachines:innerwallcreative"
+      },
+      "prerequisites": [
+        "The Survivalist\u0027s Generator"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Across the machines, you will at least need some glass, copper, gold, and glass.",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalFoundation:material",
+                "damage": 64
+              },
+              "required": 4,
+              "precision": "ORE_DICTIONARY"
+            },
+            {
+              "item": {
+                "id": "Mekanism:Ingot",
+                "damage": 1
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "minecraft:gold_ingot"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:glass"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ThermalFoundation:material",
+          "damage": 64,
+          "amount": 4
+        },
+        {
+          "id": "Mekanism:Ingot",
+          "damage": 1
+        },
+        {
+          "id": "minecraft:gold_ingot"
+        },
+        {
+          "id": "minecraft:glass",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "All Along The Boomtower",
+      "description": "Advanced Quest! You can combine the processing machines into something that gives you all the ingredients to make TNT. You can then feed the TNT into the TNT generator! This will shoot out random explosions all over the place. I normally stuff them up on a tower. It\u0027s mostly just for giggles. If you\u0027re a kid, you should make sure your speakers are plugged in when you\u0027re running this so you can show your annoyed parents how awesome you are!",
+      "x": 276,
+      "y": 51,
+      "icon": {
+        "id": "ExtraUtilities:generator",
+        "damage": 8
+      },
+      "prerequisites": [
+        "I Pulverize Your Head!",
+        "I Crush Your Head!"
+      ],
+      "reward": [
+        {
+          "id": "Enchiridion2:book",
+          "nbt": "{identifier:\"Boomhauer_s_Boomtower\"}"
+        },
+        {
+          "id": "ExtraUtilities:generator",
+          "damage": 8,
+          "amount": 3
+        },
+        {
+          "id": "EnderIO:itemItemConduit",
+          "amount": 32
+        },
+        {
+          "id": "EnderIO:itemPowerConduit",
+          "damage": 1,
+          "amount": 32
+        }
+      ]
+    },
+    {
+      "name": "Cyanora",
+      "description": "Cyanite is the waste product of a Big Reactor. You want to check your fuel ports for an accumulation of them, because your reactor\u0027s efficiency will steadily drop as converts all the fuel. That being said, this is good stuff! You can reprocess it to get a little more fuel, or use it as a base material in turbines.",
+      "x": 175,
+      "y": 165,
+      "icon": {
+        "id": "BigReactors:BRIngot",
+        "damage": 1
+      },
+      "prerequisites": [
+        "The Power Of The Atom",
+        "So Hot And Steamy!"
+      ],
+      "parentrequirement": 1,
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Take Your Cyanite",
+          "longDescription": "Hey, I don\u0027t care how you get it. Either pull some out of your reactor, or mix some yellorium with sand, and you\u0027ll have some cyanite to play with. I\u0027m going to give you some more to make a turbine!",
+          "items": [
+            {
+              "item": {
+                "id": "BigReactors:BRIngot",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "BigReactors:BRIngot",
+          "damage": 1,
+          "amount": 64
+        }
+      ]
+    },
+    {
+      "name": "Turning The Blues Around",
+      "description": "Maybe you don\u0027t want to build a turbine, or maybe you\u0027re past that point and now you have cyanite coming out of your ears. You can reprocess it into blutonium and get some more fuel use out of it. The blutonium disintegrates when used up, so this means you can only get two ingots\u0027 worth of yellorite out of one starting ingot of fuel. However, the laws of half-life decay conclude that you ultimately get twice the yield per yellorium ingot if you reprocess them!",
+      "x": 208,
+      "y": 187,
+      "icon": {
+        "id": "BigReactors:BRIngot",
+        "damage": 3
+      },
+      "prerequisites": [
+        "Cyanora"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Run That By Me Again",
+          "longDescription": "The reprocessor is pretty boring to make at this point. You can probably guess what some of the ingredients might even be!",
+          "items": [
+            {
+              "item": {
+                "id": "BigReactors:BRDevice"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Blue\u0027s Fuels",
+          "longDescription": "It looks like a Big Reactor block, but it\u0027s an independent machine. Don\u0027t try to stack it into your reactor\u0027s frame. You will also need to get water into it. You can try to use buckets of water, but you should also be comfortable with our friend the aqueous accumulator by now. Pipe some water in to whatever side you designate as blue. Feed it two cyanite ingots and it should crank out one blutonium ingot. There\u0027s your 2:1 half-life right there.",
+          "items": [
+            {
+              "item": {
+                "id": "BigReactors:BRIngot",
+                "damage": 3
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "BigReactors:BRIngot",
+          "damage": 1,
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "A Turbine Relationship",
+      "description": "Assuming you built that 5x5x5 reactor with a 3x3x3 inner chamber, and let\u0027s assume you have filled it up with some of that liquid ender you got as a reward (drop some on the top layer and let it flow down). That should be pooping out around 1,400 RF/tick, depending on circumstances in the reactor. Good job. Good for you. Do you want... more? Would you like to get more than 4,000 RF/tick? It\u0027s turbine time! Warning! This is complicated as all get-go! You need to convert the reactor into a giant steam generator, and then build a large, customizable turbine that is tuned to your reactor.",
+      "x": 227,
+      "y": 162,
+      "icon": {
+        "id": "BigReactors:BRTurbinePart"
+      },
+      "prerequisites": [
+        "Cyanora"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "This Is *Our* Housing",
+          "longDescription": "Right... turbine blocks. This is going to be a 12-block-tall structure that is 5 blocks wide on all sides. You should make room for it near your reactor now! The framing alone is about ... 69 turbine blocks. Then you will need something like 112 to make the glass--and you really do want to have glass on the pretty turbine. Then there\u0027s the components. So let\u0027s go for a cool 200 turbine blocks. You make a stack of them, and I\u0027ll give you the rest.",
+          "items": [
+            {
+              "item": {
+                "id": "BigReactors:BRTurbinePart"
+              },
+              "required": 64
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Hitting The Glass Ceiling",
+          "longDescription": "Now be a good baby and start turning all those turbine blocks into glass. Remember, I\u0027m giving you the extras. Be good!",
+          "items": [
+            {
+              "item": {
+                "id": "BigReactors:BRMultiblockGlass",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "BigReactors:BRTurbinePart",
+          "amount": 64
+        },
+        {
+          "id": "BigReactors:BRTurbinePart",
+          "amount": 64
+        },
+        {
+          "id": "BigReactors:BRTurbinePart",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "Getting Shafted",
+      "description": "So what\u0027s the turbine doing? It\u0027s dissipating the heat from the steam across fan blades spinning along a central shaft. Each blade to dissipite 25mB/tick of steam. You are averaging 700mB/tick of steam. With a single blade per side, that\u0027s 28 blades. With 4 blades per shaft level, that\u0027s 7 levels. Add on the 3 levels for the coils. Wait, the coils? Yes! Coils are converting the mechanical force of the turbine into RF. Look at the electrum quest! You need to add 3 layers to handle that. So you need 10 shaft pieces. I\u0027ll help you out.",
+      "x": 251,
+      "y": 136,
+      "icon": {
+        "id": "BigReactors:BRTurbineRotorPart"
+      },
+      "prerequisites": [
+        "A Turbine Relationship"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Now That\u0027s A Big Shaft",
+          "longDescription": "You make 5 shaft pieces, and I\u0027ll give you 5 more.",
+          "items": [
+            {
+              "item": {
+                "id": "BigReactors:BRTurbineRotorPart"
+              },
+              "required": 5
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Slinging Blades",
+          "longDescription": "Same thing. You make 14 blades, and I\u0027ll give you 14 more.",
+          "items": [
+            {
+              "item": {
+                "id": "BigReactors:BRTurbineRotorPart",
+                "damage": 1
+              },
+              "required": 14
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Bear With Me Here",
+          "longDescription": "Now here\u0027s one people like to forget about. Opposite the side you put the coils--probably the ceiling--you want to put in a shaft bearing. The shaft has to run out from this bearing. It\u0027s part of the outer casing.",
+          "items": [
+            {
+              "item": {
+                "id": "BigReactors:BRTurbinePart",
+                "damage": 4
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "BigReactors:BRTurbineRotorPart",
+          "amount": 5
+        },
+        {
+          "id": "BigReactors:BRTurbineRotorPart",
+          "damage": 1,
+          "amount": 14
+        },
+        {
+          "id": "BigReactors:BRMetalBlock",
+          "damage": 1,
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "name": "An Electrum Personality",
+      "description": "So you have a spinny thingy. You need a coil on one end of it to convert the spin into power. There is a lot of voodoo algebra here that cannot be written in this little book. You *could* calculate it. Anyways, many materials work, but I recommend electrum for beginners. You are probably swimming in gold and silver. There are better materials, but you are probably not tooled to handle them (yet). Electrum is in the top five of many options.",
+      "x": 253,
+      "y": 183,
+      "icon": {
+        "id": "ThermalFoundation:Storage",
+        "damage": 7
+      },
+      "prerequisites": [
+        "A Turbine Relationship"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Invest In Gold And Silver!",
+          "longDescription": "Ten?! Yes! Ten! I mean, you actually need TWENTY, but I am a cool dude and will give you the other ten. Electrum is a blend of gold and silver. One each gives you two ingots worth of electrum. If you\u0027re using the good old smeltery, then that\u0027s, what, 23 gold ores and 23 silver ores. Is that so scary now?",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalFoundation:Storage",
+                "damage": 7
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ThermalFoundation:Storage",
+          "damage": 7,
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "A Ludicrous Turbine",
+      "description": "Ludicrite is the #1 super-duper best coil material that was added to Big Reactors to shut up the overoptimizers that can\u0027t help themselves. The mod author regrets it to this day. But whatever, it\u0027s there. It is the devil to make! I sprinkled some around in mob drops, but you will need much more if you want to use it in your coils. So look at the recipes, and prove to me you can make one . . . someday.",
+      "x": 285,
+      "y": 189,
+      "icon": {
+        "id": "BigReactors:BRMetalBlock",
+        "damage": 4
+      },
+      "prerequisites": [
+        "An Electrum Personality"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "And by \"Crafting task,\" I mean \"actually make it in a crafting table like a Big Baby,\" not \"cheating it in or forcing detection like a Little Baby.\"",
+          "items": [
+            {
+              "item": {
+                "id": "BigReactors:BRMetalBlock",
+                "damage": 4
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "BigReactors:BRMetalBlock",
+          "damage": 4,
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "name": "You Might Be A Rednet If...",
+      "description": "Big Reactors has a Rednet port that you can use to control your reactor. Cool kids will set up PID controllers and all kinds of crazy stuff for this, but you can do a very basic differential compensator with two Rednet ports. Set one to output on the white channel to output power capacity %, and the other on its white channel to control rod insertion. The reactor will start to moderate the reaction as your battery fills up, making fuel use very efficient and basically shutting of the reactor when it\u0027s not needed.",
+      "x": 141,
+      "y": 156,
+      "icon": {
+        "id": "BigReactors:BRReactorPart",
+        "damage": 6
+      },
+      "prerequisites": [
+        "The Power Of The Atom"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Start with the cables",
+          "longDescription": "You need 4 cables per rednet port, and 2 to connect them. So that would be 10 total, but I\u0027m going to get you a rednet port for free, so you only need 6.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:cable.redstone"
+              },
+              "required": 6
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Time to start porting",
+          "longDescription": "By the way, if you start using turbines, you will have to change how this all works. Turbines are slow to get going and have varying efficiencies. At that point, you probably just want to laser drill for constant fuel and leave the thing running 100% at all times.",
+          "items": [
+            {
+              "item": {
+                "id": "BigReactors:BRReactorPart",
+                "damage": 6
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "BigReactors:BRReactorPart",
+          "damage": 6
+        }
+      ]
+    },
+    {
+      "name": "So Hot And Steamy!",
+      "description": "The Minefactory Reloaded steam boiler takes burnable fuels and turns them into steam. It is a picky beast. It will start at 20C, and pick up heat SLOWLY until it reaches 100C. At that point, it generates steam, so long as you keep feeding it fuel and water. You can feed it fuel from a tree farm, and water from an aquaeous accumulator. There is a demonstration of it in the Minefactory Reloaded tower in Baby\u0027s First City.",
+      "x": 137,
+      "y": 113,
+      "icon": {
+        "id": "MineFactoryReloaded:machine.1",
+        "damage": 6
+      },
+      "prerequisites": [
+        "Power Starts With Redstone"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "I should note this is an unconventional way of getting to advanced electrical power. Most people don\u0027t do this, but the people that do are awesome. You need some intense materials to do this right!",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.1",
+                "damage": 6
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "MineFactoryReloaded:machine.1",
+          "damage": 6
+        },
+        {
+          "id": "ThermalFoundation:material",
+          "damage": 72,
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Ender\u0027s Conduit",
+      "x": 94,
+      "y": 16,
+      "icon": {
+        "id": "EnderIO:itemPowerConduit"
+      },
+      "prerequisites": [
+        "Power Starts With Redstone"
+      ]
+    },
+    {
+      "name": "Focusing On Getting Fuel",
+      "description": "You might whine about how nuclear power isn\u0027t \"sustainable\" like the tree farms are. For what you\u0027re doing, and for how much yellorium is in this pack, that doesn\u0027t really matter. But hey, maybe sustainability is your thing. If that\u0027s the case, use a few lime-colored laser focuses in your laser drill. Or call them \"focii\" instead of \"focuses.\" English is the devil like that.",
+      "x": 296,
+      "y": 161,
+      "icon": {
+        "id": "MineFactoryReloaded:laserfocus",
+        "damage": 5
+      },
+      "prerequisites": [
+        "Getting Shafted",
+        "An Electrum Personality",
+        "Taking Control"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "I\u0027ll trade you 1:1. For best effect, you have to completely load up a laser drill with these. Then you\u0027ll get a bunch of uranium and yellorium. You will get them faster than you can burn the stuff. Laser drill? That\u0027s a different activity!",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:laserfocus",
+                "damage": 5
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "MineFactoryReloaded:laserfocus",
+          "damage": 5,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "An Enriching Experience",
+      "description": "An enrichment chamber is another part of Mekanism\u0027s 3x (and higher) ore processing. However, it can also break down some ore blocks more efficiently than other machines like a pulverizer. Look at recipes for ores like nether quartz ore, redstone ore, and diamond ore see which machines do each best. You might need silk touch on a tool to really take advantage of it.",
+      "x": 208,
+      "y": 122,
+      "icon": {
+        "id": "Mekanism:MachineBlock"
+      },
+      "prerequisites": [
+        "Love Machines"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "You made it here after making a metallurgic infuser, so you can probably figure this one out.",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:MachineBlock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:quartz_ore"
+        }
+      ]
+    },
+    {
+      "name": "The Trouble With Triples",
+      "description": "Ore doubling is cool and all, but let\u0027s triple the yield now! Mekanism has ways to do that... and more! You could go up to 5x if you do some stuff that is really crazy. However, doing 3x is pretty much just lining up some machines and getting some plumbing working. The main machine you\u0027re missing is the purification chamber. However, it needs oxygen, which suddenly drags in other equipment.",
+      "x": 278,
+      "y": 80,
+      "icon": {
+        "id": "Mekanism:Clump"
+      },
+      "prerequisites": [
+        "An Enriching Experience",
+        "Kind of Stinks As-Is, But...",
+        "I Crush Your Head!"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Breathe Ore Die",
+          "longDescription": "You will breathe oxygen into the purifer in order to get your first boost in ore productivity. You can get oxygen be separating oxygen from hydrogen with the electrolytic separators. Note: If you plan to do a lot of this, you probably need a bank of these machines, or at least a some upgrades.",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:MachineBlock2",
+                "damage": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Can\u0027t Get Enough Water",
+          "longDescription": "You might have been through this before already, but you need an aqueous accumulator for producing the water the seperator needs. So this is just a detection task.",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalExpansion:Machine",
+                "damage": 8,
+                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[6 bytes],Level:3b,Augments:[0:{Slot:0,id:5667s,Count:1b,Damage:0s},1:{Slot:1,id:5667s,Count:1b,Damage:32s},2:{Slot:2,id:5667s,Count:1b,Damage:16s}]}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Recouping Losses",
+          "longDescription": "You\u0027ll be getting some hydrogen, and it will build up in the electrolytic separator. You can just have it vent it, but you can also recoup some of your power consumption by pumping it into a gas-burning generator. This isn\u0027t power-positive, but it does put a waste product to good use.",
+          "items": [
+            {
+              "item": {
+                "id": "MekanismGenerators:Generator",
+                "damage": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Don\u0027t Cave To Pressure",
+          "longDescription": "You need some pressurized tubes for the hydrogen and oxygen. You may have been given some of this before, but I\u0027m not letting you go unless you craft some this time.",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:PartTransmitter",
+                "damage": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Purestrain Stupidity",
+          "longDescription": "Well, let\u0027s poop out the purification chamber too. You will load this up with oxygen, and it will partially convert your ores",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:MachineBlock",
+                "damage": 9
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Mekanism:SpeedUpgrade",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "Taking Control",
+      "description": "Now you need to make all the little fiddly bits of the turbine. Remember how difficult that was with the original reactor? It should be pretty casual to you now. Building the turbine is going to stink though!",
+      "x": 261,
+      "y": 161,
+      "icon": {
+        "id": "BigReactors:BRTurbinePart",
+        "damage": 1
+      },
+      "prerequisites": [
+        "A Turbine Relationship"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "First, The Turbine",
+          "longDescription": "You need *FOUR* fluid ports. That\u0027s 2 in and 2 out. That\u0027s because we\u0027re going to use Mekanism advanced pipes to move the water and steam between the reactor and the turbine. Each one of those can only do 400mB/tick, so you need a pair to cover the flow rate.",
+          "items": [
+            {
+              "item": {
+                "id": "BigReactors:BRTurbinePart",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "BigReactors:BRTurbinePart",
+                "damage": 2
+              }
+            },
+            {
+              "item": {
+                "id": "BigReactors:BRTurbinePart",
+                "damage": 3
+              },
+              "required": 4
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "The Reactor Changes Too!",
+          "longDescription": "So yeah, the reactor needs fluid ports too! Four of them, of course, to much the turbine. Once you put these in, your reactor becomes \"actively-cooled.\" It will stop generating RF and will instead generate steam. Lots of steam. If you followed the specifications, you\u0027ll get a range of 749mB/tick to 680mB/tick. If you altered the design, then this whole scheme falls apart and you\u0027re on your own! :p",
+          "items": [
+            {
+              "item": {
+                "id": "BigReactors:BRReactorPart",
+                "damage": 5
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Mekanism:PartTransmitter",
+          "damage": 5,
+          "amount": 32
+        },
+        {
+          "id": "Enchiridion2:book",
+          "nbt": "{identifier:\"Baby_s_First_Turbine\"}"
+        }
+      ]
+    },
+    {
+      "name": "Taking It To The Bank",
+      "description": "Ender IO capacitor banks are very versatile. They serve as portable batterys, permanent RF-storing stations, and machines for charging portable electronics. If you shift-right-click one with a wrench, it will break while keeping its charge. If you right-click it normally, you can configure which sides do what, what rate it charges/discharges, and pop stuff into charge.",
+      "x": 148,
+      "y": 43,
+      "icon": {
+        "id": "EnderIO:blockCapBank",
+        "damage": 1,
+        "nbt": "{type:\"SIMPLE\",storedEnergyRF:1000000}"
+      },
+      "prerequisites": [
+        "The Survivalist\u0027s Generator",
+        "So Hot And Steamy!",
+        "Taking Control"
+      ],
+      "parentrequirement": 1,
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "It is nice to have some kind of power storage nearby your main power line. At a glance, you can look at it and see if you have problems. If it\u0027s full, your power generators are keeping up. If it\u0027s draining, then you have a problem! Keep a second one charged and off the grid as a backup grid to restore things if you have a total outage,",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockCapBank",
+                "damage": 1,
+                "nbt": "{type:\"SIMPLE\",storedEnergyRF:0}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ThermalFoundation:material",
+          "damage": 64,
+          "amount": 4
+        },
+        {
+          "id": "minecraft:gold_ingot"
+        },
+        {
+          "id": "minecraft:redstone",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "A Stirling Proposition",
+      "description": "A stirling generator is a basic solid-fuel power generation machine. It will live off of basic fuels like coal and wood, burning them at 20 RF/tick. A survivalist generator is more efficient, but requires much more metal and only produces a puny 5 RF/tick.",
+      "x": 132,
+      "y": 17,
+      "icon": {
+        "id": "EnderIO:blockStirlingGenerator"
+      },
+      "prerequisites": [
+        "Power Starts With Redstone"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "Your quest reward is an upgrade that increases the generator\u0027s performance. It\u0027ll make it pretty darn competitive!",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockStirlingGenerator"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "EnderIO:itemBasicCapacitor",
+          "damage": 1
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

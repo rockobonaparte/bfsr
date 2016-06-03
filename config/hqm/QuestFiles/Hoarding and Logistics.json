@@ -1,0 +1,1340 @@
+{
+  "name": "Hoarding and Logistics",
+  "description": "This chapter shows some ways to move items and fluids around. There are also some novel storage devices. It also introduces Applied Energistics 2, which is a comprehensive storage and automation modification. Your entire item storage system can be represented in basically hard disks with it. You whole bases\u0027 inventory could collapse down into a single, searchable storage box with a screen. If you are getting all your stuff mixed up, I would suggest trying it out. The quest rewards eliminate some of the tedium in setting it up.",
+  "quests": [
+    {
+      "name": "Fetch Me An Ale, Wrench!",
+      "description": "You will find various technical mods have their own magic tool for doing this or that. The crescent hammer from Thermal Expansion works with most of them. When it becomes time to start setting up machinery in your base, the wrench because more important than your pickaxe. When you right-click machines with this tool, it will preserve the state of the machines--often even preserving their inventory so it isn\u0027t vomited on the floor. Fluid tanks keep their fluids. Batteries keep their power. Most convenient is that one right-click will dismantle the machine, duct, pipe, conduit, or whatever you have. This is much more convenient than having to bang on them with a pick.",
+      "x": 65,
+      "y": 19,
+      "icon": {
+        "id": "ThermalExpansion:wrench"
+      },
+      "prerequisites": [
+        "{Vanilla Minecraft}[Iron Man]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "You will need 3 iron ingots and 1 tin ingot to make this crescent hammer. It will never wear out, so you will have this for the rest of your game. You should look into creating a traveller\u0027s belt so you can set up a \"domestic\" hotbar separate from an \"adventure\" hotbar.",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalExpansion:wrench"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ThermalExpansion:meter"
+        }
+      ]
+    },
+    {
+      "name": "Ducts For Items And Water",
+      "description": "You can use ducts to connect machines to chests, chests to chests, and machines to machines. There are ducts specifically for items and ducts specifically for fluids. They can be upgraded. Note, you don\u0027t want to pump lava through these basic fluid ducts; they\u0027ll blow up.",
+      "x": 67,
+      "y": 85,
+      "icon": {
+        "id": "ThermalDynamics:ThermalDynamics_32"
+      },
+      "prerequisites": [
+        "Fetch Me An Ale, Wrench!"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalDynamics:ThermalDynamics_16",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "ThermalDynamics:ThermalDynamics_32",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:materials",
+          "damage": 9,
+          "amount": 4
+        },
+        {
+          "id": "TConstruct:materials",
+          "damage": 10,
+          "amount": 4
+        },
+        {
+          "id": "minecraft:glass",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Item Filtering",
+      "description": "Filters control items going in, and servos control items going out. This is how you can set up routing between places. Slap them on the ends of ducts and then configure them with your bare hand. You can right-click on one with that crescent hammer to take it off the pipe.",
+      "x": 22,
+      "y": 87,
+      "icon": {
+        "id": "ThermalDynamics:servo"
+      },
+      "prerequisites": [
+        "Ducts For Items And Water"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Pushing And Pulling",
+          "longDescription": "Annoying tip: The servos don\u0027t automatically draw from connected devices. They have to be activated. You could put a lever next to one and flip it on, but that\u0027s dumb. When right-clicking on one, you will see its options. Over in the top-right is a red area you can expand to determine how it triggers from redstone signals. Disable that and it will switch to \"always on.\"",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalDynamics:filter"
+              }
+            },
+            {
+              "item": {
+                "id": "ThermalDynamics:servo"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Levers For The Servos",
+          "longDescription": "Well, maybe you want to use a lever. I\u0027m not your mom.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:lever"
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ThermalDynamics:retriever",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Storing Fluids",
+      "description": "Sometimes you\u0027ll feel the need to move some fluids around. Specifically, lava, and probably destabilized redstone later. You can put in and take out fluids from these with a bucket, connect them with fluiducts, or put them right on top of machines that take their fluids. The seared tanks from Tinker\u0027s Construct can handle most fluids too, but only 4 buckets worth. These can handle 8. There are higher-tier ones that can handle more.",
+      "x": 63,
+      "y": 141,
+      "icon": {
+        "id": "ThermalExpansion:Tank",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Ducts For Items And Water"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Fun note: If you fill one of these up with lava, put it on top of a lava generator for electrical power, and then left click the bottom of it with a crescent hammer, it will automatically dump into it. It could be enough RF power for the machines you need to get to the moon. However, you\u0027d have to be frugal, and you\u0027re probably better off... using more than two lava generators.",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalExpansion:Tank",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ThermalDynamics:ThermalDynamics_16",
+          "damage": 2,
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "name": "A Higher-Capacity Chest",
+      "description": "If you want to just cram more stuff into the same chest, try an iron chest. It has more slots to it. Wasn\u0027t that nice?",
+      "x": 174,
+      "y": 20,
+      "icon": {
+        "id": "IronChest:BlockIronChest"
+      },
+      "prerequisites": [
+        "{Vanilla Minecraft}[Iron Man]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "IronChest:BlockIronChest"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "IronChest:BlockIronChest"
+        }
+      ]
+    },
+    {
+      "name": "Deep Storage Unit",
+      "description": "This is a powered device that can store ridiculous amount of ... one single item. It\u0027s a great place to stuff cobblestone, for example. Lots and lots of cobblestone. Like, billions of cobblestone.",
+      "x": 287,
+      "y": 181,
+      "icon": {
+        "id": "MineFactoryReloaded:machine.1",
+        "damage": 3
+      },
+      "prerequisites": [
+        "{Vanilla Minecraft}[Iron Man]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:machine.1",
+                "damage": 3
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "IronChest:BlockIronChest",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Back To School",
+      "description": "You may find that your inventory is just loaded up with random junk, and it\u0027s getting really tedious to run back to your base just to throw it all into storage. You could make a backpack. Right click on it, and it will open up a brand-new inventory into which you can shove stuff and keep going. It\u0027s made from leather. If you\u0027re short on cows or don\u0027t want to harm them, you can run some zombie flesh through a furnace to make the leather.",
+      "x": 223,
+      "y": 132,
+      "icon": {
+        "id": "Backpack:backpack"
+      },
+      "prerequisites": [
+        "{Bear Grylls\u0027 Poop Menu}[Crawling In My Skin]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "Backpack:backpack"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Backpack:workbenchbackpack",
+          "damage": 17
+        }
+      ]
+    },
+    {
+      "name": "Hardcore Plumbers",
+      "description": "The hardened fluiduct can withstand the extreme temperatures of lava. You are thinking of pumping lava into your smeltery, you will want to use these. The basic copper fluiducts will disintegrate very quickly.",
+      "x": 22,
+      "y": 140,
+      "icon": {
+        "id": "ThermalDynamics:ThermalDynamics_16",
+        "damage": 3
+      },
+      "prerequisites": [
+        "Ducts For Items And Water"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "These require invar, which is an alloy of 2:1 iron:nickel. You might need to dig down a little deeper to find ferrous/nickel ore. Fortunately, you don\u0027t need much of it.",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalDynamics:ThermalDynamics_16",
+                "damage": 3
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ThermalDynamics:ThermalDynamics_16",
+          "damage": 2,
+          "amount": 4
+        },
+        {
+          "id": "TConstruct:Smeltery",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "No, You Can\u0027t Sleep In It",
+      "description": "The knapsack is yet another way of portably storing an entire inventory\u0027s worth of stuff. The benefit of it over a backpack is that it exists in a separate inventory tab, so you don\u0027t normally have to see it. Well, that can also get annoying. It\u0027s better to use a backpack for fast storage, and a knapsack for longer-term storage. It requires making two iron tough tool rods. People usually make this thing later in the game then they could because they forget they can cast tough tool rods with a base Tinkers Construct tables.",
+      "x": 214,
+      "y": 19,
+      "icon": {
+        "id": "TConstruct:knapsack"
+      },
+      "prerequisites": [
+        "{Bear Grylls\u0027 Poop Menu}[Crawling In My Skin]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Tough Tool Rods",
+          "longDescription": "The tough rod templating is confusing because the stencil is shaped different than the cast. You want to make sure you\u0027re getting the *tough* tool rod, not just a regular tool rod. If you screw up, throw the components back in the smeltery for a do-over.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:woodPattern",
+                "damage": 14
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:metalPattern",
+                "damage": 14
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Hit The Sack",
+          "longDescription": "You will have to cast two iron tough tool rods, which is an odd amount of iron. Think about what you use to make swords and picks, and then think about all the iron going into something you\u0027re slinging over your back. I don\u0027t get it either.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:knapsack"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:leather",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "Earning Your ... Brownish Belt",
+      "description": "The traveler\u0027s belt can only hold 9 items, which is coincidentally how many items you see in your hotbar. In fact, the belt lets you flip between your current hotbar and one it contains. So you can throw a bunch of junk in the toolbelt hotbar that you are normally struggling to balance in your current hotbar. Important note: You have to wear the belt through the armor screen in your inventory, and you have to use the belt toggle key to make the flip. That is mapped by default to \u0027B\u0027 which apparently every other mod is trying to use. I recommend going to the control configuration screen and changing it to \u0027V\u0027 or something else quick at your disposal.",
+      "x": 221,
+      "y": 54,
+      "icon": {
+        "id": "TConstruct:travelBelt",
+        "nbt": "{TinkerAccessory:{BaseDurability:500,Built:1b,Damage:0,BonusDurability:0,ModDurability:0.0f,TotalDurability:500,Modifiers:5,Broken:0b}}"
+      },
+      "prerequisites": [
+        "{Bear Grylls\u0027 Poop Menu}[Crawling In My Skin]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Pay special attention to the aluminum you need. Yes, this is a really goofy belt. You will never be the cool kid in school with this belt, but with all the swords you\u0027ll hang off of it, nobody is going to say a thing to you.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:travelBelt",
+                "nbt": "{TinkerAccessory:{BaseDurability:500,Built:1b,Damage:0,BonusDurability:0,ModDurability:0.0f,Modifiers:5,TotalDurability:500,Broken:0b}}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:leather",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "name": "The Golden Horde",
+      "description": "This little bag has the capacity of a double chest! It is a nice bag to root for if you have a bunch of resources, but no leather. This usually happens when you\u0027re running around underground too much. However, you will need a diamond, a pile of gold, and some wool. You can make wool from string, but preferably you have been farming cotton. If not, I guess you will now!",
+      "x": 179,
+      "y": 180,
+      "icon": {
+        "id": "ExtraUtilities:golden_bag"
+      },
+      "prerequisites": [
+        "{Vanilla Minecraft}[Wool In Your Eyes]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Seriously, start handling cotton early in your game. If you are ever playing some other quest mod pack... get that cotton!",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:golden_bag"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ExtraUtilities:golden_bag"
+        }
+      ]
+    },
+    {
+      "name": "Awww Soo Cute!!! ::^_^::",
+      "description": "It\u0027s just little! If you put a chest in a crafting grid, you can turn it into 9 mini chests! This is totally stupid! Actually, it\u0027s a nice thing to have when you are setting up some automated piping system for your machines, and you need a buffer, but not a huge buffer. These little guys do the job perfectly.",
+      "x": 173,
+      "y": 55,
+      "icon": {
+        "id": "ExtraUtilities:chestMini"
+      },
+      "prerequisites": [
+        "{Vanilla Minecraft}[Nice Chest]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Throw a chest in a crafting grid. End of story. If you hate it, put all 9 of the mini chests back in the grid and get your chest back.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:chestMini"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chisel:present",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Getting Drawered In",
+      "description": "The Storage Drawers mod is new for Minecraft 1.7.10. Applied Energistics is still well-regarded as the ultimate storage solution, but storage drawers gives you something you can use very early in the game. Instead of poring through piles of chests, you can slap all your items on the wall in drawers, and pull/push them through right and left clicks. You can get pretty fast with this once you get the hang of them. This requires a ton of wood, but you should be able to acquire that easily.",
+      "x": 258,
+      "y": 17,
+      "icon": {
+        "id": "StorageDrawers:halfDrawers4"
+      },
+      "prerequisites": [
+        "{Vanilla Minecraft}[Deforestation]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "1x1 Drawer",
+          "longDescription": "The 1x1 drawer seems kind of stupid, but it makes for a nice hole for throwing in the base stone you are mining (cobblestone, limestone, marble, granite, blablabla). This slaps it up on a wall where you can pull/push it quickly.",
+          "items": [
+            {
+              "item": {
+                "id": "StorageDrawers:fullDrawers1"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "2x2 Drawer",
+          "longDescription": "A 2x2 lets you slap 4 things in one block. By the way, I come from a part of the US where they pronounce \"drawer\" as \"draw.\" My mother still does it, and it makes my wife squeal because she loves regional accents.",
+          "items": [
+            {
+              "item": {
+                "id": "StorageDrawers:fullDrawers4"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "StorageDrawers:fullDrawers4",
+          "amount": 16
+        },
+        {
+          "id": "StorageDrawers:fullDrawers1",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "Compacting Drawers",
+      "description": "These are a good place to stuff refined metals. They can go in as blocks, ingots, or nuggets, and it will just internally cram them into blocks. This gives you a lot of space.",
+      "x": 257,
+      "y": 49,
+      "icon": {
+        "id": "StorageDrawers:compDrawers"
+      },
+      "prerequisites": [
+        "Getting Drawered In"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Just make one, and I\u0027ll give you some more.",
+          "items": [
+            {
+              "item": {
+                "id": "StorageDrawers:compDrawers"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "StorageDrawers:compDrawers",
+          "amount": 7
+        }
+      ]
+    },
+    {
+      "name": "Controlling Drawers",
+      "description": "The drawer controller serves as a giant mouth for pulling crap out of your inventory and into your storage drawers. Later, when you set up Applied Energistics, you can slap a storage bus on it, and make your storage drawer inventory available to your ME network. This is a smart thing to make in the long term.",
+      "x": 256,
+      "y": 86,
+      "icon": {
+        "id": "StorageDrawers:controller"
+      },
+      "prerequisites": [
+        "Compacting Drawers"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "It does require a diamond. Apparently, it works in a 12x12 area. What you want to do is arrange your drawers on a wall and shove the controller on the ground somewhere in the middle of the wall. If you double-right-click it, it will suck up all the non-tool stuff in your inventory it can and add it to your drawers in one swoop.",
+          "items": [
+            {
+              "item": {
+                "id": "StorageDrawers:controller"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "StorageDrawers:upgradeStatus",
+          "damage": 2,
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "Increasing Drawer Space",
+      "description": "There are various tiers of upgrades your can apply to your drawers. Some let you know if they are full. Others increase space. The obsidian-level upgrade should be pretty easy to make if you have been following the hell tutorials. Use these to boost space in some of the drawers where you\u0027ve been having space problems.",
+      "x": 289,
+      "y": 52,
+      "icon": {
+        "id": "StorageDrawers:upgrade",
+        "damage": 4
+      },
+      "prerequisites": [
+        "Compacting Drawers"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "If you want to do this a lot, and lava is becoming a problem, look up the lava fabricator to make lava quickly.",
+          "items": [
+            {
+              "item": {
+                "id": "StorageDrawers:upgrade",
+                "damage": 4
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "StorageDrawers:upgrade",
+          "damage": 4,
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "No Bag Ban Here!",
+      "description": "I live in a city that banned plastic bags, which makes the MFR plastic bags pretty funny. These things can only hold a few stacks of items, but they are so easy to make. They require plastic, but not leather or wool. They are a great way to prolong finding your final base by letting you pack up all your junk as you wander the country-side like a gypsy bag lady.",
+      "x": 177,
+      "y": 132,
+      "icon": {
+        "id": "MineFactoryReloaded:plastic.bag"
+      },
+      "prerequisites": [
+        "{A Post-Scarcity Economy}[Minefactory Reloaded]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "They do require string though. Hey, how about farming some cotton! I will throw in some explosives so you can carve out your next base with less fuss!",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:plastic.bag"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "MineFactoryReloaded:plastic.bag",
+          "amount": 3
+        },
+        {
+          "id": "TConstruct:explosive.slime",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Nice Rack! Oh, nice shelf too",
+      "description": "There are a few things that should get dedicated storage. You should have a tool rack near the door to your base. You put your weapons and \"outside tools\" in there. When you go outside, you put your wrenches and base tools in that rack and take out all the outside tools. A bookshelf organizes all the manuals, guides, and whatnot you accumulate playing other quest packs. A shelf for potions is also nice if you horde that kind of stuff.",
+      "x": 221,
+      "y": 178,
+      "icon": {
+        "id": "BiblioCraft:BiblioRack"
+      },
+      "prerequisites": [
+        "{Vanilla Minecraft}[Deforestation]",
+        "{Vanilla Minecraft}[Iron Man]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Tool rack",
+          "longDescription": "Each tool rack can hold four tools. I generally need three racks to hold all the random stuff I get when playing for real.",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:BiblioRack"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Bookcase",
+          "longDescription": "Yeah, you can throw all your books in a chest, but you have conditioned yourself your whole life to look for books in a bookcase, so make one that you\u0027ll put somewhere accessible.",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:Bibliotheca"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Potion Shelf",
+          "longDescription": "One of these should last you for a long time . . . until you build a mob grinder.",
+          "items": [
+            {
+              "item": {
+                "id": "BiblioCraft:BiblioPotionShelf"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "BiblioCraft:Armor Stand"
+        },
+        {
+          "id": "BiblioCraft:BiblioRack",
+          "damage": 6
+        },
+        {
+          "id": "BiblioCraft:BiblioPotionShelf",
+          "damage": 6
+        }
+      ]
+    },
+    {
+      "name": "Not Just For Smoking Meat",
+      "description": "Extra Utilities provides drums for storing fluids. Fluids can be automatically inserted/removed from drums from the top and bottom. You can use a bucket on them instead if that is your thing. The big deal is that one drum can store 256 buckets worth of one liquid. Remember to use a wrench to move them!",
+      "x": 175,
+      "y": 97,
+      "icon": {
+        "id": "ExtraUtilities:drum"
+      },
+      "prerequisites": [
+        "{Vanilla Minecraft}[Iron Man]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "It does take a lot of iron, but you are probably swimming in iron by this point.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:drum"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ExtraUtilities:drum"
+        }
+      ]
+    },
+    {
+      "name": "Only The Strongest Survive",
+      "description": "If you wrap up a chest in 4 tin, you can make a strongbox. For this, you get a chest that has... less capacity than the original one. What?! Well, if you fill it up and bust it with a pick, it will keep its contents! It is not as nice as a backpack since you have to pop it back down to use it, but chances are that you\u0027ll have the chest and then tin before the leather or cloth.",
+      "x": 28,
+      "y": 18,
+      "icon": {
+        "id": "ThermalExpansion:Strongbox",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Fetch Me An Ale, Wrench!"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "Just surround a chest with a tin ingot on each side in a crafting grid.",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalExpansion:Strongbox",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ThermalExpansion:Strongbox",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Box Of Enchantment",
+      "description": "Here\u0027s a fun one. You can enchant these strongboxes! Maybe you\u0027ve run into the enchantment table. Maybe not. We haven\u0027t really mentioned it because vanilla enchanting is a lottery of suck. You get to pick one of three enchantments without knowing what they will be. However, a strongbox can only take one enchantment: holding. It doesn\u0027t matter what you pick for it then, so pick the cheapest.",
+      "x": 26,
+      "y": 52,
+      "icon": {
+        "id": "ThermalExpansion:Strongbox"
+      },
+      "prerequisites": [
+        "Only The Strongest Survive"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "An Enchantment Table",
+          "longDescription": "Well I guess you need an enchantment table. This is annoying to make, but you might as well as somewhere in your adventures, you need to give something somewhere one of these as a crafting ingredient. You will need some obsidian, two diamonds, and a book.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:enchanting_table"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "The Bigger Box",
+          "longDescription": "Slap the strongbox in the enchantment table, and just pick which ever one is the cheapest enchantment. It will sap from your experience bar, but you should have more than enough to do it by now, just from gathering coal and charcoal. To have the quest detect it correctly, empty out the box first. Oh, and use the original strongbox, not the cool resonant one I gave you. Your reward are essence berries which can be eaten to restore the XP you spent making this thing. THEN you can enchant the resonant strongbox too! Muahaha!",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalExpansion:Strongbox",
+                "damage": 1,
+                "nbt": "{ench:[0:{lvl:1s,id:100s}],Inventory:[]}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:oreBerries",
+          "damage": 5,
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "Yatta!",
+      "description": "If you haven\u0027t figured out by now, this modpack has lots of pipes, tubes, ducts, and whatnot. EnderIO is part of that mix. People have started to favor these conduits in particular because item, fluid, and power conduits can be overlapped in one block! This makes them generally cleaner to use in tight spaces. Of course, it has to start with *another* wrench.",
+      "x": 129,
+      "y": 101,
+      "icon": {
+        "id": "EnderIO:itemYetaWrench"
+      },
+      "prerequisites": [
+        "{Vanilla Minecraft}[Iron Man]"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "The yeta wrench manipulates Ender IO conduits and equipment. Other wrenches kind of work too, but the yeta will do the best job with some of the fiddly bits. Hey, when you overlap conduits in one space, you have to expect some fine print...",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemYetaWrench"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:iron_ingot",
+          "amount": 3
+        },
+        {
+          "id": "minecraft:ender_pearl"
+        }
+      ]
+    },
+    {
+      "name": "Doing The Long Con",
+      "description": "Here\u0027s EnderIO\u0027s item conduit. It will transport items here and there. It doesn\u0027t need servo and filters to manage behavior at the places it is connected, although you need filter upgrades if you want to be picky about what moves where.",
+      "x": 129,
+      "y": 144,
+      "icon": {
+        "id": "EnderIO:itemItemConduit"
+      },
+      "prerequisites": [
+        "Yatta!"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Skimming Through My Binder",
+          "longDescription": "I don\u0027t know why, but I hate making the conduit binder. It\u0027s much cheaper than other mods\u0027 stuff, but I\u0027m just not thinking of clay, gravel, and sand when I\u0027m making pipes. But, well, here you go. You need this as a pretty common base for EnderIO stuff.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemMaterial",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Pulsating With Frustration",
+          "longDescription": "You also need some pulsating iron. Fortunately, you don\u0027t need much. It is still a fussy thing to have early in the game. Well, what did you expect from a mod named \"Ender IO?\" This mod gobbles up them ender pearls. But you can\u0027t complain because I know if you made it here, I already gave you one! You can make this alloy using an induction furnace, or Ender IO\u0027s own alloy furnace.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemAlloy",
+                "damage": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "The Pipe Dream",
+          "longDescription": "Put it all together and get yourself some item conduits! For all the effort, you at least don\u0027t need to also create filters and servos like you need from Thermal Dynamics. You right-click where these conduits run into stuff, and you can specify which way the go and what they do. Make sure that redstone control is off; usually that\u0027s what you want. Also, make sure they are set to the right mode (insert/extract).",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemItemConduit"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "EnderIO:itemItemConduit",
+          "amount": 12
+        }
+      ]
+    },
+    {
+      "name": "Filtering Out The Garbage",
+      "description": "The time will come with Ender IO where you will want item conduits to filter specific things to specific devices. This will end up using up quite a bit of resources for what it needs to do. You need some paper, a chest, and some iron. You will be making a hopper and wrapping it in paper. For your troubles, you get something you can put in the GUI of the item conduits to have them filter for this or that thing.",
+      "x": 131,
+      "y": 176,
+      "icon": {
+        "id": "EnderIO:itemBasicFilterUpgrade"
+      },
+      "prerequisites": [
+        "Doing The Long Con"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemBasicFilterUpgrade"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:iron_ingot",
+          "amount": 5
+        },
+        {
+          "id": "minecraft:chest"
+        },
+        {
+          "id": "minecraft:paper",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Poking Around",
+      "description": "The conduit probe is a nice little toy for checking what destinations can accept from what places in your network of pipes. Truth be told, more complicated routing should be handled by an AE2 ME network, but this can help you diagnose if something is screwed up.",
+      "x": 101,
+      "y": 140,
+      "icon": {
+        "id": "EnderIO:itemConduitProbe"
+      },
+      "prerequisites": [
+        "Doing The Long Con"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "It\u0027s Electric!",
+          "longDescription": "Electrical steel is a particularly goofy requirement for this. You can make alloys at this point, so you should be able to roll out some steel. So bind it to some silicon, which you can make from burning sand. You also need a redstone alloy, made by burning some redstone with silicon. There\u0027s a lot of heat going on around here!",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemAlloy"
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "EnderIO:itemAlloy",
+                "damage": 3
+              },
+              "required": 3
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Poke",
+          "longDescription": "There are some other crafting steps to make this probe, but you should have the hard stuff out of the way now--except maybe for getting a little bit of nether quartz. After that, you can make the probe!",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemConduitProbe"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Mekanism:Ingot",
+          "damage": 4,
+          "amount": 2
+        },
+        {
+          "id": "EnderIO:itemMaterial",
+          "amount": 4
+        },
+        {
+          "id": "minecraft:quartz"
+        },
+        {
+          "id": "minecraft:redstone",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "RF Chameleon",
+      "description": "Mekanism has these Universal Cables that are aware of how to transfer power across a large variety of mods. A lot more mods have been standardizing on redstone flux, so this has become less of a problem. Even without that, they transmit pretty well! The base cables can transfer over 1,000 RF/tick, and they\u0027re pretty simple to make. The next step up are also pretty easy to make and transmit over 5,000 RF/tick.",
+      "x": 131,
+      "y": 28,
+      "icon": {
+        "id": "Mekanism:PartTransmitter"
+      },
+      "prerequisites": [
+        "{Electrical Power}[Steel My Thunder]"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "Two steel and some redstone dust. It\u0027s almost refreshing compared to what it takes to make some of these cables!",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:PartTransmitter"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Mekanism:PartTransmitter",
+          "damage": 1,
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "Fluctuating Heart",
+      "description": "The fluctuating itemduct is actually a really good duct, but it wasn\u0027t well publicized in the transition from Thermal Expansion in 1.6.4 to Thermal Dynamics in 1.7.10. For the cost of an itemduct, and a bit of redstone, you can make a duct that performs better than a hardened fluxduct--transmitting 2,000RF/tick. It also can carry items! The trick is cramming destabilized redstone into the device, using a magma crucible and a fluid transposer.",
+      "x": 92,
+      "y": 30,
+      "icon": {
+        "id": "ThermalDynamics:ThermalDynamics_32",
+        "damage": 7
+      },
+      "prerequisites": [
+        "Ducts For Items And Water"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "The Machines",
+          "longDescription": "The magma crucible is a non-trivial machine to craft, but it\u0027s great for busting down redstone into destabilized redstone. You might have already made this machine because it comes up in the book in a few places. I\u0027ll only check if you have one. You feed it redstone, and it will turn it into a fluid. You can butt the fluid transposer alongside the magma crucible. You can get the fluids to transfer over directly.",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalExpansion:Machine",
+                "damage": 4,
+                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[6 bytes],Level:3b,Augments:[0:{Slot:0,id:5667s,Count:1b,Damage:0s},1:{Slot:1,id:5667s,Count:1b,Damage:32s},2:{Slot:2,id:5667s,Count:1b,Damage:16s}]}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ThermalExpansion:Machine",
+                "damage": 5,
+                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[6 bytes],Level:3b,Augments:[0:{Slot:0,id:5667s,Count:1b,Damage:0s},1:{Slot:1,id:5667s,Count:1b,Damage:32s},2:{Slot:2,id:5667s,Count:1b,Damage:16s}]}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "The Duct",
+          "longDescription": "Stuff 200mb of destabilized redstone into an opaque itemduct, and you\u0027ll get a fluctuating itemduct. Use two pieces of redstone to get 200mb.",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalDynamics:ThermalDynamics_32",
+                "damage": 7
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ThermalDynamics:ThermalDynamics_32",
+          "damage": 7,
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "Are We Transceiving?",
+      "description": "This is EnderIO\u0027s version of a tesseract. This is almost easier to make, except for needing an enderman\u0027s head. If you need some help with that, look at the \"Leave It To Cleaver\" quest in the Tools and Toys chapter. You also need some ender pearls. That being said, you get something that is technically a little bit more versatile than a tesseract because it has built-in filters. What\u0027s a tesseract? Oh, I got ahead of myself. That lets you send items, fluids, and powers across huge distances and multiple dimensions. For multiple dimensions, you probably want a chunkloader, by the way. See the Philadephia Experiment chapter for that one.",
+      "x": 102,
+      "y": 173,
+      "icon": {
+        "id": "EnderIO:blockTransceiver"
+      },
+      "prerequisites": [
+        "Doing The Long Con"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Feeling My Vibe",
+          "longDescription": "You\u0027ll need to make vibrant alloys, which eat up some ender pearls. Not many... about four. If you are investing into this, then you want to get an endermen farm going, or have a nice vein of Ender Ore to harvest.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemAlloy",
+                "damage": 2
+              },
+              "required": 4
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Okay, That Is Morbid",
+          "longDescription": "Yeah... this machine does creative surgery with heads. You can use it to repurpose zombie heads, but we\u0027re using it on an enderman head here. Yeah...",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockSliceAndSplice"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Loud And Clear",
+          "longDescription": "If you get this far, then you must have been able to splice an enderman head. Good for you!",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockTransceiver"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:ender_pearl",
+          "amount": 5
+        },
+        {
+          "id": "EnderIO:blockEndermanSkull"
+        },
+        {
+          "id": "EnderIO:blockTransceiver"
+        }
+      ]
+    },
+    {
+      "name": "Are You Dense?",
+      "description": "Dense and vacuum itemducts fool the duct network into thinking things are much closer or much further away than they actually are. They are useful for assigning priority to different areas of a duct. A good example for using these are in a tree farm. You probably want a dense itemduct heading to a trash can to take care of overflow, but it shouldn\u0027t trigger unless there is overflow. You might combust saplings from the tree farm, but you only want to do that if the planter has enough saplings to sustain the farm. So you put a vacuum duct on the path to the planter. This will get saplings first.",
+      "x": 97,
+      "y": 64,
+      "icon": {
+        "id": "ThermalDynamics:ThermalDynamics_32",
+        "damage": 1,
+        "nbt": "{DenseType:1b}"
+      },
+      "prerequisites": [
+        "Ducts For Items And Water"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Laying It Thick",
+          "longDescription": "Craft a regular itemduct with some pulverized lead, and you\u0027ll get a dense itemduct. This will act like 1,000 itemducts in terms of distance. So if you have two segments with dense itemducts, they will be prioritized by which one has the longest real path. If that\u0027s not what you want, add one more dense itemduct on the one you want to have the lowest priority.",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalDynamics:ThermalDynamics_32",
+                "damage": 1,
+                "nbt": "{DenseType:1b}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Sucking Instead",
+          "longDescription": "Throw some pulverized silver on the duct, and it becomes a vacuum itemduct. I don\u0027t have the specifics of how this duct functions. I think it basically subtracts 1000 to the distance, the the network just uses the lowest score. In this case, negative numbers are lower, so the path with the vacuum duct will win out. It might be more subtle, but that\u0027s how it tends to go for me.",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalDynamics:ThermalDynamics_32",
+                "damage": 1,
+                "nbt": "{DenseType:2b}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ThermalDynamics:ThermalDynamics_32",
+          "damage": 1,
+          "amount": 16
+        },
+        {
+          "id": "ThermalFoundation:material",
+          "damage": 35
+        },
+        {
+          "id": "ThermalFoundation:material",
+          "damage": 34
+        }
+      ]
+    },
+    {
+      "name": "A Pet Purple Retriever",
+      "description": "Retrievers are a new thing brought by Thermal Dynamics when that all was created for Minecraft 1.7.10. They are very peculiar filtering system. At their most basic, you can use it instead of a servo/filter combination. Put it on the destination, give it something to look for, and it will draw those items from any inventories attached to any item ducts in the whole network, so long as the destination has room for it. So they can be particularly useful if you do not want to overload the pipes with dumped items, or you have multiple places to look and don\u0027t want to deal with all the servos.",
+      "x": 21,
+      "y": 113,
+      "icon": {
+        "id": "ThermalDynamics:retriever"
+      },
+      "prerequisites": [
+        "Item Filtering"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "More Than Meets The Eye",
+          "longDescription": "Making one of these is a huge pain. That\u0027s the downside. You need an Eye of Ender. :( That\u0027s an ender pearl crossed with blaze powder.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:ender_eye"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Retrieve This",
+          "longDescription": "Retriever time! This is the easy part. It\u0027s an easy recipe after you get that Eye of Ender.",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalDynamics:retriever"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:ender_pearl"
+        },
+        {
+          "id": "minecraft:blaze_powder"
+        }
+      ]
+    },
+    {
+      "name": "Mechanically Speaking",
+      "description": "Mechanical pipes are particularly useful for transfer fluids, even though they can also do items. They fill a nice niche for Big Reactors\u0027 turbines--particularly the advanced ones. The base one can do fluids normally at 100mb/tick without worrying about hot fluids melting them down like if you transfer lava. The next tier is 400mb/tick, which is generally superior to other fluid pipes in its class.",
+      "x": 131,
+      "y": 62,
+      "icon": {
+        "id": "Mekanism:PartTransmitter",
+        "damage": 4
+      },
+      "prerequisites": [
+        "{Electrical Power}[Steel My Thunder]"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "I\u0027ll give you 16 advanced mechanical pipes if you can make the base one.",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:PartTransmitter",
+                "damage": 4
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Mekanism:PartTransmitter",
+          "damage": 5,
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "Conducive To Irony",
+      "description": "This is Ender IO\u0027s base power transmitting conduit. This transmits at 640 RF/tick, which is much better than the 200 RF/tick of Thermal Dynamics\u0027 leadstone fluxduct. However, it requires making an alloy that needs either an alloy smelter or an induction smelter.",
+      "x": 99,
+      "y": 110,
+      "icon": {
+        "id": "EnderIO:itemPowerConduit"
+      },
+      "prerequisites": [
+        "Yatta!"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Binder Binder Set On Fire",
+          "longDescription": "So let\u0027s rewind from all this metal and stuff, and make a little bit of conduit binder from sand, gravel, and clay. I always miss this because I\u0027m always thinking, \"Metal, metal, metal.\" Maybe you\u0027ll get better at it than me.",
+          "items": []
+        },
+        {
+          "type": "DETECT",
+          "description": "A Conducive Alloy",
+          "longDescription": "You need three ingots of this conductive alloy. Each ingot is made by smelter an iron ingot with a redstone dust. You need a Thermal Expansion induction smelter or an Ender IO alloy smelter for this. The former takes less of more advanced materials, and the latter requires more of less advanced materials. You might be wondering how people do these machines without power cables. Well, they just cram the machines against their generators!",
+          "items": []
+        },
+        {
+          "type": "CRAFT",
+          "description": "The Final Pipe",
+          "longDescription": "A stripe of binder, a stripe of allow, and another stripe of binder. Bam.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemAlloy",
+                "damage": 4
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:iron_ingot",
+          "amount": 3
+        },
+        {
+          "id": "minecraft:redstone",
+          "amount": 3
+        },
+        {
+          "id": "EnderIO:itemPowerConduit",
+          "amount": 16
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

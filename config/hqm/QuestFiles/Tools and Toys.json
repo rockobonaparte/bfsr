@@ -1,0 +1,1818 @@
+{
+  "name": "Tools and Toys",
+  "description": "Most of this chapter is dedicated to a mod called Tinkers\u0027 Construct. We did not disable the normal Minecraft tools, but the versions in this pack are generally better for various reasons. For one, they can be repaired for much less than remaking the tool. You can upgrade them in other ways. Beyond that, there is a smeltery, which can double your metal yield for ore. Later in the sequence, we will explore steelmaking using electrically-powered machines.",
+  "quests": [
+    {
+      "name": "Pattern After Me",
+      "description": "Let\u0027s start playing with Tinkers Construct, which is a very ubiquitous Minecraft mod for tools. We will eventually build its smeltery, but we will start with some toolmaking tables and chests. To start making them, create some patterns. By the way, this might be a good time to look at that \"Materials And You\" book you started with.",
+      "x": 55,
+      "y": 37,
+      "icon": {
+        "id": "TConstruct:ToolStationBlock"
+      },
+      "prerequisites": [
+        "{Vanilla Minecraft}[Deforestation]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Making Patterns",
+          "longDescription": "Two sticks and two planks diagonally across each other will make 4 patterns. You will use all 4 to make the supporting tables and chest.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:blankPattern"
+              },
+              "required": 4
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Making Tool Tables",
+          "longDescription": "These are the basic toolmaking tables. Note that you should really consider placing the pattern chest and the part builder next to each other, since you can see the chest\u0027s inventory from the part builder. The easiest way to remember how to make all these is that each is made from one pattern on top of one of four things: a log, a plank, a chest, and a crafting table.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:ToolStationBlock",
+                "damage": 10
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "TConstruct:ToolStationBlock",
+                "damage": 5
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:ToolStationBlock",
+                "damage": 1
+              },
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "TConstruct:ToolStationBlock"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:log",
+          "amount": 4
+        },
+        {
+          "id": "minecraft:apple",
+          "amount": 2
+        },
+        {
+          "id": "TConstruct:slime.sapling"
+        },
+        {
+          "id": "minecraft:cobblestone",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "Picking From The Parts",
+      "description": "Let\u0027s build a stone pick using Tinkers Construct methods. This pick will be more durable than a base-game stone pick, repairable with one cobblestone, and becomes faster as you wear it down. You can do most of your tunneling with this pick. Make a tool station for yourself to carry around, and you can quickly repair it in tunnels.",
+      "x": 98,
+      "y": 39,
+      "icon": {
+        "id": "TConstruct:pickaxe",
+        "nbt": "{InfiTool:{BaseDurability:65,Head:1,Built:1b,HarvestLevel:1,Attack:2,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,Accessory:1,MiningSpeed:400,RenderAccessory:1,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:65},display:{Name:\"ï¿½fStone Pickaxe\"}}"
+      },
+      "prerequisites": [
+        "Pattern After Me"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Building The Patterns",
+          "longDescription": "You will have to make more patterns. After that, go to the stencil table and place the patterns inside. You can leave them there. Create a pattern each for: pickaxe head, tool binding, and tool rod. You need all three to make a pickaxe.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:woodPattern",
+                "damage": 2
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:woodPattern",
+                "damage": 9
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:woodPattern",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Building The Parts",
+          "longDescription": "Take the patterns to the part builder. One at a time, place a pattern in one of the left boxes, and some stone in the right box. You need 1 cobblestone for the head, and half a cobblestone for the binding and rod. If you use cobblestone on one, you\u0027ll get a leftover stone piece that you can then use to make the other (binding and rods are half a cobblestone each).",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:pickaxeHead",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:toolRod",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:binding",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Assemble The Pick",
+          "longDescription": "Take the parts over to the tool station. Select the pickaxe template, and fill the parts into the slots. You should see an assembled stone pick in the right-hand slot. It\u0027s yours to take now! Oh, if you are feeling creative, you can give the tool a name.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:pickaxe",
+                "nbt": "{InfiTool:{BaseDurability:65,Head:1,BaseAttack:2,Built:1b,HarvestLevel:1,Attack:2,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,Accessory:1,MiningSpeed:400,RenderAccessory:1,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:65},display:{Name:\"§fStone Pickaxe\"}}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:woodPattern",
+          "damage": 22
+        },
+        {
+          "id": "minecraft:apple"
+        },
+        {
+          "id": "TConstruct:shovelHead",
+          "damage": 1
+        },
+        {
+          "id": "TConstruct:hatchetHead",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Get Thee To A Smeltery!",
+      "description": "Things are about to get serious. A smeltery is a multiblock furnace that can produce metal ingots twice as efficiently as a Minecraft furnace. It can also cast metal tools that are superior to the base game. Just for doubling ore yield alone, you should build this. The manual will show you a 3x3 smeltery, but you can build a 1x1 to get started. Here we will ask for the materials to build a 1x1, and then reward you with enough to build a comfortable 3x3 (or even larger!). Oh. One of the quest rewards is... lava! Slap those four blocks down somewhere that\u0027s safe for them to get scooped back up into a bucket and put in your smeltery tank. I used to have the game create tons of lava ponds on the surface, but it killed too many fellow babies playing the game. Sad babies. So now you can choose where they go!",
+      "x": 71,
+      "y": 87,
+      "icon": {
+        "id": "TConstruct:Smeltery"
+      },
+      "prerequisites": [
+        "Pattern After Me"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Base Materials",
+          "longDescription": "You will build the bricks for the smeltery out of grout. Two bricks worth of grout are made from one each of sand, clay, and gravel. If you have full stacks of each, you have enough to make a modest smeltery. Remember that you can use the Veinminer key (~ by default) on each of these types of blocks to dig whole veins of them at once. Also consider using a stone shovel from the tool station to do this!",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:clay_ball"
+              },
+              "required": 20
+            },
+            {
+              "item": {
+                "id": "minecraft:sand"
+              },
+              "required": 21,
+              "precision": "FUZZY"
+            },
+            {
+              "item": {
+                "id": "minecraft:gravel"
+              },
+              "required": 20
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Grout",
+          "longDescription": "Combine all that sand, gravel, and clay in a crafting screen and you\u0027ll get twice as much grout as you had the individual ingredients. Leave one sand aside to make a block of glass.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:CraftedSoil",
+                "damage": 1
+              },
+              "required": 40
+            },
+            {
+              "item": {
+                "id": "minecraft:glass"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Seared Bricks",
+          "longDescription": "Run all that grout through a furnace and you\u0027ll get seared bricks. Oh, your furnace is taking forever? You can always make more furnaces! How much cobblestone do you have by now?",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:materials",
+                "damage": 2
+              },
+              "required": 40
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Smeltery Components",
+          "longDescription": "You probably noticed the Mighty Smelting book in your inventory by this point if you were making all these ingredients. That book explains how to build and operate a smeltery. The requirements for this task are the barest minimum in order to have a functioning smeltery. Note that you don\u0027t need to put seared bricks around the corners of the smeltery.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:Smeltery"
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:LavaTank"
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:Smeltery",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:SearedBlock",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:SearedBlock"
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:Smeltery",
+                "damage": 2
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:materials",
+          "damage": 11,
+          "amount": 3
+        },
+        {
+          "id": "ThermalFoundation:material",
+          "damage": 64
+        },
+        {
+          "id": "TConstruct:materials",
+          "damage": 2,
+          "amount": 120
+        },
+        {
+          "id": "TConstruct:explosive.slime",
+          "amount": 2
+        },
+        {
+          "id": "minecraft:stone_button",
+          "amount": 2
+        },
+        {
+          "id": "minecraft:flowing_lava",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Casting Call",
+      "description": "You can pour 9 ingots worth of metal into a casting basin to make a metal block, but if you just want single ingots, or don\u0027t have 9 ingots worth of metal, you will need to pour them into an ingot cast. First, produce aluminum brass by placing 3:1 parts aluminum:copper into the smeltery. Then place a brick or ingot on the casting table. Pour the brass on top of it, and you will make an ingot cast.",
+      "x": 63,
+      "y": 137,
+      "icon": {
+        "id": "TConstruct:metalPattern"
+      },
+      "prerequisites": [
+        "Get Thee To A Smeltery!"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:metalPattern"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:mossy_cobblestone",
+          "amount": 9
+        },
+        {
+          "id": "minecraft:apple"
+        },
+        {
+          "id": "minecraft:cobblestone",
+          "amount": 127
+        }
+      ]
+    },
+    {
+      "name": "Bronze Age",
+      "description": "At this point, you\u0027re probably swimming in copper and tin because your picks can pick them up just fine. If you combine 3:1 parts copper:tin, you can make bronze. Bronze is a pretty decent alloy in most cases. It will work comparably to iron for a pick, but it leaves your iron alone to make other things (like a nuclear reactor and steel). Bronze armor will generally keep you safe most of the game.",
+      "x": 98,
+      "y": 150,
+      "icon": {
+        "id": "TConstruct:materials",
+        "damage": 13
+      },
+      "prerequisites": [
+        "Casting Call"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Bronze Ingots",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:materials",
+                "damage": 13
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Bronze Armor",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalFoundation:armor.helmetBronze"
+              }
+            },
+            {
+              "item": {
+                "id": "ThermalFoundation:armor.plateBronze"
+              }
+            },
+            {
+              "item": {
+                "id": "ThermalFoundation:armor.legsBronze"
+              }
+            },
+            {
+              "item": {
+                "id": "ThermalFoundation:armor.bootsBronze"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "denseores:block1",
+          "amount": 3
+        },
+        {
+          "id": "denseores:block1",
+          "damage": 1
+        },
+        {
+          "id": "TConstruct:frypan",
+          "nbt": "{InfiTool:{BaseDurability:714,Head:14,Built:1b,HarvestLevel:2,Attack:4,RenderHead:14,ModDurability:0.0f,Handle:14,Broken:0b,Shoddy:0.0f,RenderHandle:14,MiningSpeed:800,Unbreaking:1,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:714},display:{Name:\"ï¿½fBronze Frying Pan\"}}"
+        },
+        {
+          "id": "minecraft:apple"
+        }
+      ]
+    },
+    {
+      "name": "I Pick You!",
+      "description": "Steel tools mine faster, mine harder, make better armor, and make better swords. It\u0027s the good stuff. Oh, and you need steel for your MOON ROCKET. But let\u0027s revel in a steel pick for a second. It mines just about everything quickly, and is extremely durable.",
+      "x": 230,
+      "y": 74,
+      "icon": {
+        "id": "TConstruct:pickaxe",
+        "nbt": "{InfiTool:{BaseDurability:974,Head:16,Built:1b,HarvestLevel:4,Attack:5,RenderHead:16,ModDurability:0.0f,Handle:16,Broken:0b,Shoddy:0.0f,RenderHandle:16,Accessory:16,MiningSpeed:1000,RenderAccessory:16,Unbreaking:2,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:974},display:{Name:\"ï¿½fSteel Pickaxe\"}}"
+      },
+      "prerequisites": [
+        "{Electrical Power}[Steel My Thunder]",
+        "The Forge"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Make The Parts",
+          "longDescription": "You know the drill. Or should I say, you know the pickaxe . . . I can\u0027t check if you actually made the pick due to some detection issues in the quest book, so the parts will have to do. Social contract blablabla.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:pickaxeHead",
+                "damage": 16
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:binding",
+                "damage": 16
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:toolRod",
+                "damage": 16
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:materials",
+          "damage": 16,
+          "amount": 2
+        },
+        {
+          "id": "minecraft:chainmail_helmet"
+        },
+        {
+          "id": "TConstruct:frypan",
+          "nbt": "{InfiTool:{BaseDurability:974,Head:16,Built:1b,HarvestLevel:4,Attack:6,RenderHead:16,ModDurability:0.0f,Handle:16,Broken:0b,Shoddy:0.0f,RenderHandle:16,MiningSpeed:1000,Unbreaking:2,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:974},display:{Name:\"ï¿½fSteel Frying Pan\"}}"
+        }
+      ]
+    },
+    {
+      "name": "Mining Like The Romans",
+      "description": "Time for a bronze pick. This can blast through most things you\u0027ll find, except obsidian, which you can get around for now.",
+      "x": 67,
+      "y": 187,
+      "icon": {
+        "id": "TConstruct:pickaxe",
+        "nbt": "{InfiTool:{BaseDurability:714,Head:14,Built:1b,HarvestLevel:2,Attack:3,RenderHead:14,ModDurability:0.0f,Handle:14,Broken:0b,Shoddy:0.0f,RenderHandle:14,Accessory:14,MiningSpeed:800,RenderAccessory:14,Unbreaking:1,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:714},display:{Name:\"ï¿½fBronze Pickaxe\"}}"
+      },
+      "prerequisites": [
+        "Casting Call",
+        "Bronze Age"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Casting Base Parts",
+          "longDescription": "Remember these? Don\u0027t make a pick out of them! Create them and then use them for creating casts in the smeltery!",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:pickaxeHead",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:toolRod",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:binding",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Forming Casts",
+          "longDescription": "Pour some aluminum brass (or gold, if you are desperate), onto a casting table with the stone parts to make casts.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:metalPattern",
+                "damage": 2
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:metalPattern",
+                "damage": 9
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:metalPattern",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Creating The Pick",
+          "longDescription": "I can really only check that you made the materials for the pick. There\u0027s a bug in the guide that prevents me from checking for the pick itself.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:pickaxeHead",
+                "damage": 14
+              },
+              "precision": "ORE_DICTIONARY"
+            },
+            {
+              "item": {
+                "id": "TConstruct:toolRod",
+                "damage": 14
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:binding",
+                "damage": 14
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:materials",
+          "damage": 11,
+          "amount": 3
+        },
+        {
+          "id": "ThermalFoundation:material",
+          "damage": 64,
+          "amount": 4
+        },
+        {
+          "id": "TConstruct:materials",
+          "damage": 10
+        },
+        {
+          "id": "ThermalFoundation:tool.fishingRodBronze"
+        },
+        {
+          "id": "minecraft:mossy_cobblestone",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "The Moss Boss",
+      "description": "Tools can take modifiers for enhancement. A common one for all tools is moss. Place the tool in the tool station, and then put some moss (made from 9 moss stone) into another slot. Take the goopy-looking tool out. It\u0027s ugly, but the tool now **automatically repairs itself over time** when it\u0027s in your inventory. You will probably want to save this for a good tool, like one made of bronze, alumite, cobalt, or steel.",
+      "x": 130,
+      "y": 67,
+      "icon": {
+        "id": "TConstruct:materials",
+        "damage": 6
+      },
+      "prerequisites": [
+        "Picking From The Parts"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:mossy_cobblestone"
+              },
+              "required": 9,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:materials",
+                "damage": 6
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:mossy_cobblestone",
+          "amount": 9
+        },
+        {
+          "id": "TConstruct:pickaxeHead",
+          "damage": 15
+        }
+      ]
+    },
+    {
+      "name": "I Am Not Making A Rapier Pun",
+      "description": "The longsword is my preferred Tinkers\u0027 Construct weapon, but I know a lot of people prefer the rapier. Its base damage is low, so you shouldn\u0027t bother making a stone one, but that damage ignores armor. It also stabs very quickly! You can just stab, stab, stab like a psycho! Right-click causes you to quickly leap backwards. This seems dumb, but if you are slick, you can exploit that to jump over certain terrain, although a longsword lets you jump over more.",
+      "x": 135,
+      "y": 180,
+      "icon": {
+        "id": "TConstruct:rapier",
+        "nbt": "{InfiTool:{BaseDurability:500,Head:14,BaseAttack:4,Built:1b,HarvestLevel:2,Attack:4,RenderHead:14,ModDurability:0.0f,Handle:14,Broken:0b,Shoddy:0.0f,RenderHandle:14,Accessory:14,MiningSpeed:800,RenderAccessory:14,Unbreaking:1,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:500},display:{Name:\"ï¿½fBronze Rapier\"}}"
+      },
+      "prerequisites": [
+        "Bronze Age"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Stone Casting Parts",
+          "longDescription": "The guard is the crossbar. Pay special attention to that because the sword guards all look very similar. You will also need a stone tool rod, but that\u0027s not unique to this task.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:crossbar",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:swordBlade",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Making Casts",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:metalPattern",
+                "damage": 5
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:metalPattern",
+                "damage": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Sword Parts",
+          "longDescription": "I can\u0027t check you made the specific sword, so I\u0027m just checking for the parts. Pour some bronze from the smeltery into these casts on a casting table. You will need a tool rod too.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:swordBlade",
+                "damage": 14
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:crossbar",
+                "damage": 14
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:slime_ball",
+          "amount": 3
+        },
+        {
+          "id": "minecraft:string",
+          "amount": 3
+        },
+        {
+          "id": "minecraft:apple"
+        },
+        {
+          "id": "TConstruct:chisel",
+          "nbt": "{InfiTool:{BaseDurability:714,Head:14,Built:1b,HarvestLevel:2,Attack:2,RenderHead:14,ModDurability:0.0f,Handle:14,Broken:0b,Shoddy:0.0f,RenderHandle:14,MiningSpeed:800,Unbreaking:1,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:714},display:{Name:\"ï¿½fBronze Chisel\"}}"
+        }
+      ]
+    },
+    {
+      "name": "The Forge",
+      "description": "There are some crazier tools you can make, but you have to upgrade your tool station. A tool forge requires 4 blocks (that\u0027s 36 ingots) total. You will want to use the ore for which you have a ton of surplus . . . probably tin or copper.",
+      "x": 186,
+      "y": 101,
+      "icon": {
+        "id": "TConstruct:ToolForgeBlock"
+      },
+      "prerequisites": [
+        "Get Thee To A Smeltery!"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:ToolForgeBlock",
+                "damage": 9
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:materials",
+          "damage": 14,
+          "amount": 5
+        },
+        {
+          "id": "TConstruct:materials",
+          "damage": 34,
+          "amount": 3
+        },
+        {
+          "id": "minecraft:bow"
+        }
+      ]
+    },
+    {
+      "name": "Hammer Time",
+      "description": "Hammers can mine a 3x3 area around the block that\u0027s targeted by it. You could send one of your teammates out on mining duty, and they\u0027d probably come back with everything you need for that moon trip. It\u0027s very fast, goes through everything, and also beats the snot out of zombies (smite bonus)!",
+      "x": 235,
+      "y": 107,
+      "icon": {
+        "id": "TConstruct:hammer",
+        "nbt": "{InfiTool:{RenderExtra:16,BaseDurability:8774,Built:1b,HarvestLevel:4,HarvestLevelExtra:4,MiningSpeedExtra:1000,RenderHead:16,ModDurability:0.0f,Shoddy:0.0f,RenderHandle:16,Accessory:16,MiningSpeed:1000,Unbreaking:2,Damage:0,HarvestLevel2:4,BonusDurability:0,TotalDurability:8774,MiningSpeed2:1000,Head:16,Attack:6,Handle:16,Broken:0b,Extra:16,RenderAccessory:16,Modifiers:3},display:{Name:\"ï¿½fSteel Hammer\"}}"
+      },
+      "prerequisites": [
+        "{Electrical Power}[Steel My Thunder]",
+        "The Forge"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Make The Parts",
+          "longDescription": "At this point, you should know the drill. Go to the tool forge, look up the hammer, and see all that stuff you need. You will need lots of steel . . . something like 27 ingots worth. It\u0027s worth it though.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:heavyPlate",
+                "damage": 16
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "TConstruct:hammerHead",
+                "damage": 16
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:toughRod",
+                "damage": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Make The Hammer",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:hammer",
+                "nbt": "{InfiTool:{RenderExtra:16,BaseDurability:8774,BaseAttack:6,Built:1b,HarvestLevel:4,HarvestLevelExtra:4,MiningSpeedExtra:1000,RenderHead:16,ModDurability:0.0f,Shoddy:0.0f,RenderHandle:16,Accessory:16,MiningSpeed:1000,Unbreaking:2,Damage:0,HarvestLevel2:4,BonusDurability:0,TotalDurability:8774,MiningSpeed2:1000,Head:16,Attack:6,Handle:16,Broken:0b,Extra:16,RenderAccessory:16,Modifiers:3},display:{Name:\"§fSteel Hammer\"}}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Mekanism:BasicBlock",
+          "damage": 5
+        },
+        {
+          "id": "minecraft:ender_pearl",
+          "amount": 4
+        },
+        {
+          "id": "TConstruct:materials",
+          "damage": 3,
+          "amount": 24
+        }
+      ]
+    },
+    {
+      "name": "Beware Of Woodpeckers",
+      "description": "Wood armor is terrible, but it can help survive a concussive blast from a creeper. Plus, logs should start being commonplace. Tinkers\u0027 Construct added wood armor, and since we\u0027re talking about that mod now, you might as well start making some of that armor.",
+      "x": 25,
+      "y": 16,
+      "icon": {
+        "id": "TConstruct:chestplateWood"
+      },
+      "prerequisites": [
+        "{Vanilla Minecraft}[Deforestation]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:chestplateWood"
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:helmetWood"
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:leggingsWood"
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:bootsWood"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:apple"
+        },
+        {
+          "id": "Artifice:item.artifice.upgrade",
+          "damage": 6,
+          "amount": 4
+        },
+        {
+          "id": "Artifice:item.artifice.upgrade",
+          "damage": 7,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Let\u0027s Get Really Stoned",
+      "description": "Arguably, the best tool that\u0027s unlocked in the tool forge is the hammer. It will blow out a 3x3 area centered around where you strike. It requires 27 units of material, so it\u0027s not cheap. A stone one, however, is. What stone? Well, most of the crap you mine is stone. You are probably strapped for space in your base, so this will clear out most of the gunk. You can then use a superior pick with the veinminer key to knock out the ores. This thing will eat stone alive. Well, it will mine it well but it will also require a steady supply of cobblestone to repair it.",
+      "x": 223,
+      "y": 144,
+      "icon": {
+        "id": "TConstruct:hammer",
+        "nbt": "{InfiTool:{RenderExtra:1,BaseDurability:589,Built:1b,HarvestLevel:1,HarvestLevelExtra:1,MiningSpeedExtra:400,RenderHead:1,ModDurability:0.0f,Shoddy:1.0f,RenderHandle:1,Accessory:1,MiningSpeed:400,Unbreaking:0,Damage:0,HarvestLevel2:1,BonusDurability:0,TotalDurability:589,MiningSpeed2:400,Head:1,Attack:3,Handle:1,Broken:0b,Extra:1,RenderAccessory:1,Modifiers:3},display:{Name:\"ï¿½fStone Hammer\"}}"
+      },
+      "prerequisites": [
+        "The Forge"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Ingredients",
+          "longDescription": "These are all the parts you need for this hammer. Note that you need TWO plates.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:hammerHead",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:heavyPlate",
+                "damage": 1
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "TConstruct:toughRod",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Hammer",
+          "longDescription": "Assemble them together in the tool forge. Feel free to name the tool something too. Note, this might trigger if you made a hammer another way. I\u0027m fine with that. A hammer is a hammer.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:hammer",
+                "nbt": "{InfiTool:{RenderExtra:1,BaseDurability:589,BaseAttack:3,Built:1b,HarvestLevel:1,HarvestLevelExtra:1,MiningSpeedExtra:400,RenderHead:1,ModDurability:0.0f,Shoddy:1.0f,RenderHandle:1,Accessory:1,MiningSpeed:400,Unbreaking:0,Damage:0,HarvestLevel2:1,BonusDurability:0,TotalDurability:589,MiningSpeed2:400,Head:1,Attack:3,Handle:1,Broken:0b,Extra:1,RenderAccessory:1,Modifiers:3},display:{Name:\"§fStone Hammer\"}}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:materials",
+          "damage": 6
+        },
+        {
+          "id": "minecraft:cobblestone",
+          "amount": 64
+        }
+      ]
+    },
+    {
+      "name": "Blinghammer",
+      "description": "The the previous quest, I was all, \"blabla stone hammers can\u0027t mine the cool stuff.\" Well, if you attach a single diamond to that stone hammer in your tool forge, it will be able to mine anything a diamond pick could handle. That is to say . . . just about everything. The durability is still terrible.",
+      "x": 197,
+      "y": 184,
+      "icon": {
+        "id": "TConstruct:hammer",
+        "nbt": "{InfiTool:{RenderExtra:1,BaseDurability:589,Built:1b,Effect1:0,HarvestLevel:3,ModifierTip1:\"ï¿½bDiamond\",HarvestLevelExtra:1,RenderHead:1,ModDurability:0.0f,MiningSpeedExtra:400,Shoddy:1.0f,RenderHandle:1,Accessory:1,MiningSpeed:400,Unbreaking:0,Damage:0,HarvestLevel2:1,BonusDurability:500,TotalDurability:1089,MiningSpeed2:400,Head:1,Tooltip1:\"ï¿½bDurability +500\",Diamond:1b,Attack:3,Handle:1,Broken:0b,Extra:1,RenderAccessory:1,Modifiers:2},display:{Name:\"ï¿½fStone Hammer\"}}"
+      },
+      "prerequisites": [
+        "Let\u0027s Get Really Stoned"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "I can\u0027t check that you specifically made the stone hammer because it will trigger on anything. So social contract, etc.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:diamond"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "TConstruct:hammer",
+                "nbt": "{InfiTool:{RenderExtra:1,BaseDurability:589,BaseAttack:3,Built:1b,HarvestLevel:1,HarvestLevelExtra:1,MiningSpeedExtra:400,RenderHead:1,ModDurability:0.0f,Shoddy:1.0f,RenderHandle:1,Accessory:1,MiningSpeed:400,Unbreaking:0,Damage:0,HarvestLevel2:1,BonusDurability:0,TotalDurability:589,MiningSpeed2:400,Head:1,Attack:3,Handle:1,Broken:0b,Extra:1,RenderAccessory:1,Modifiers:3},display:{Name:\"§fStone Hammer\"}}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:diamond"
+        }
+      ]
+    },
+    {
+      "name": "Excavate The Premises",
+      "description": "The excavator is a giant shovel that knocks out a 3x3 area of dirt, sand, or gravel. You don\u0027t need it often, but when you do, you *really* need it. This is also the tool of choice if you are digging on the bottom of the ocean to build a sea dome (exercise for the reader).",
+      "x": 174,
+      "y": 139,
+      "icon": {
+        "id": "TConstruct:excavator",
+        "nbt": "{InfiTool:{MiningSpeed2:400,RenderExtra:1,BaseDurability:405,Head:1,Built:1b,HarvestLevel:1,Attack:4,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,Accessory:1,Extra:1,MiningSpeed:400,RenderAccessory:1,Unbreaking:0,Damage:0,HarvestLevel2:1,BonusDurability:0,Modifiers:3,TotalDurability:405},display:{Name:\"ï¿½fStone Excavator\"}}"
+      },
+      "prerequisites": [
+        "The Forge"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Shovel Parts",
+          "longDescription": "Usually an excavator is not worth more than being made out of stone, since you won\u0027t rely on it too much. You will need (a lot) of cobblestone to repair it. So if you go on a digging frenzy, mine some stone with a pick or hammer sometimes.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:heavyPlate",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:toughBinding",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:toughRod",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:excavatorHead",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Throwing It Together",
+          "longDescription": "You will need a tool forge to assemble this. Note that you can use a regular tool station to repair it. So consider making one of those to carry around with you.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:excavator",
+                "nbt": "{InfiTool:{MiningSpeed2:400,RenderExtra:1,BaseDurability:405,Head:1,BaseAttack:4,Built:1b,HarvestLevel:1,Attack:4,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,Accessory:1,Extra:1,MiningSpeed:400,RenderAccessory:1,Unbreaking:0,Damage:0,HarvestLevel2:1,BonusDurability:0,Modifiers:3,TotalDurability:405},display:{Name:\"§fStone Excavator\"}}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:clay_ball",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:sand",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:gravel",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:cobblestone",
+          "amount": 64
+        }
+      ]
+    },
+    {
+      "name": "Digging Your Own Grave",
+      "description": "Now we can make a Tinkers Construct shovel. This is like a regular minecraft shovel, except that you can repair it for less resources, and upgrade it if you really wanted to. You probably don\u0027t.",
+      "x": 134,
+      "y": 14,
+      "icon": {
+        "id": "TConstruct:shovel",
+        "nbt": "{InfiTool:{BaseDurability:65,Head:1,Built:1b,HarvestLevel:1,Attack:3,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,MiningSpeed:400,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:65},display:{Name:\"ï¿½fStone Shovel\"}}"
+      },
+      "prerequisites": [
+        "Picking From The Parts"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Get The Patterns",
+          "longDescription": "You already have the tool rod, so I won\u0027t ask for it again.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:woodPattern",
+                "damage": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Get The Parts",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:shovelHead",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:toolRod",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Assemble The Shovel",
+          "longDescription": "Tool station. You know the drill.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:shovel",
+                "nbt": "{InfiTool:{BaseDurability:65,Head:1,BaseAttack:3,Built:1b,HarvestLevel:1,Attack:3,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,MiningSpeed:400,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:65},display:{Name:\"§fStone Shovel\"}}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:materials",
+          "damage": 2,
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "Hatchet Job",
+      "description": "Let\u0027s stop running around with vanilla Minecraft wooden axes. This hatchet is more robust, repairable, and makes a decent early-game sidearm.",
+      "x": 97,
+      "y": 67,
+      "icon": {
+        "id": "TConstruct:hatchet",
+        "nbt": "{InfiTool:{BaseDurability:65,Head:1,Built:1b,HarvestLevel:1,Attack:4,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,MiningSpeed:400,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:65},display:{Name:\"ï¿½fStone Hatchet\"}}"
+      },
+      "prerequisites": [
+        "Picking From The Parts"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Axe Pattern",
+          "longDescription": "You already have the tool rod, so I\u0027m just asking for the axe head.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:woodPattern",
+                "damage": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "The Parts",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:hatchetHead",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:toolRod",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Assembling The Hatchet",
+          "longDescription": "Take parts to tool station, boom boom. You know the drill.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:hatchet",
+                "nbt": "{InfiTool:{BaseDurability:65,Head:1,BaseAttack:4,Built:1b,HarvestLevel:1,Attack:4,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,MiningSpeed:400,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:65},display:{Name:\"§fStone Hatchet\"}}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:materials",
+          "damage": 2,
+          "amount": 12
+        }
+      ]
+    },
+    {
+      "name": "A Mattock Moment",
+      "description": "The mattock is Tinkers Construct\u0027s hoe. It\u0027s quite different, really. You can plow the earth with it, dig dirt quickly (although sand and gravel are just like by hand), and chop trees with it. It\u0027s very versatile. I still keep a hatchet because it\u0027s a better early weapon.",
+      "x": 80,
+      "y": 10,
+      "icon": {
+        "id": "TConstruct:mattock",
+        "nbt": "{InfiTool:{MiningSpeed2:400,BaseDurability:98,Head:1,BaseAttack:4,Built:1b,HarvestLevel:1,Attack:4,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,Accessory:1,MiningSpeed:400,RenderAccessory:1,Unbreaking:0,Damage:0,HarvestLevel2:1,BonusDurability:0,Modifiers:3,TotalDurability:98},display:{Name:\"§fStone Mattock\"}}"
+      },
+      "prerequisites": [
+        "Picking From The Parts"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Make The Patterns",
+          "longDescription": "It\u0027s quite possible you already have these if you made the other tools first, but if not, take a trip to the stencil table and crank these out.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:woodPattern",
+                "damage": 3
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:woodPattern",
+                "damage": 4
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:woodPattern",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Make The Parts",
+          "longDescription": "Making the mattock is a little annoying because you\u0027ll have a stone fragment left over. You can use that to repair tools later.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:shovelHead",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:hatchetHead",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:toolRod",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Assemble The Mattock",
+          "longDescription": "Take parts to tool station, select the mattock, fill it in with the parts . . . you know, like you did with the pick z...z...z...",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:mattock",
+                "nbt": "{InfiTool:{MiningSpeed2:400,BaseDurability:98,Head:1,BaseAttack:4,Built:1b,HarvestLevel:1,Attack:4,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,Accessory:1,MiningSpeed:400,RenderAccessory:1,Unbreaking:0,Damage:0,HarvestLevel2:1,BonusDurability:0,Modifiers:3,TotalDurability:98},display:{Name:\"§fStone Mattock\"}}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:materials",
+          "damage": 2,
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "Pulling Your Strings",
+      "description": "Vanilla Minecraft has a bow, but it kind of stinks. It can\u0027t be upgraded consistently, and the thing falls completely apart when it takes enough damage. This shortbow can be repaired by just throwing wood on at at a tool station. You can try your hand at making arrows too, but I recommend using the vanilla recipe. I won\u0027t ask to see the bow itself, because there\u0027s some bug that makes the bow invisible in the quest book, so it\u0027s really confusing.",
+      "x": 18,
+      "y": 62,
+      "icon": {
+        "id": "minecraft:bow"
+      },
+      "prerequisites": [
+        "Pattern After Me"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "The Stencils",
+          "longDescription": "These stencils are on the RIGHT-HAND side of the stencil table GUI. Stop looking on the left!",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:Pattern",
+                "damage": 3
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:woodPattern",
+                "damage": 23
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "The Parts",
+          "longDescription": "Note that you need TWO bow limbs. You can then assemble this in a tool station, although that\u0027s an exercise for the reader.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:BowLimbPart"
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "TConstruct:bowstring"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:arrow",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "Rambo: First Slime",
+      "description": "A bow made out of slime crystal has a faster draw and a stronger push than a wooden bow. It\u0027s a very good bow material. Whether or not you actually make bow limbs from slime crystals is your problem. You should also consider using flamestring, but you have to kill spiders in The Nether to get that stuff. However, that further improves draw and power.",
+      "x": 27,
+      "y": 125,
+      "icon": {
+        "id": "TConstruct:materials",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Pulling Your Strings"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "My Name Is Mud",
+          "longDescription": "You make slime mud from 4 green slime balls, 1 dirt, and 1 sand. You can use blue slime, but this quest is looking for green. You can get that from green slimes that spawn near swamps, or from some slime trees, which you can get in an earlier quest. Or finally, you can make a Unifier and convert blue (gelatinous) slime to green slime in it, no questions asked.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:CraftedSoil"
+              },
+              "required": 4
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "It Starts To Crystalize",
+          "longDescription": "Run four slimy muds through a furnace.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:materials",
+                "damage": 1
+              },
+              "required": 4
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Bow Parts",
+          "longDescription": "Make the bow limbs. You\u0027ll have leftovers. It\u0027s kind of annoying.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:BowLimbPart",
+                "damage": 8
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:slime_ball",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:arrow",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "Cobbling It Together",
+      "description": "Let\u0027s make the smeltery stupidly huge! You can make the inside of the smeltery as large as 7x7, and then on top of that you can start stacking levels. This pack is really good about finding clay to make all that grout, but you are not so blessed in normal packs in normal terrain generation. Meanwhile, those packs have less resources, which means more stone. You can run cobblestone through your smeltery to make blocks that you can use for the base of a huge smeltery. To make it less tedious, you can compress the cobblestone first, such that each block is really 9 cobblestone in one. It takes 8 cobblestone to make one seared stone block. 2 cobblestone make one brick, but bricks are boring.",
+      "x": 111,
+      "y": 115,
+      "icon": {
+        "id": "TConstruct:Smeltery",
+        "damage": 4
+      },
+      "prerequisites": [
+        "Get Thee To A Smeltery!"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Cramming Cobble",
+          "longDescription": "If you arrange cobblestone in all 9 cells of a crafting grid, you will get one compressed cobblestone. You can keep going on like that, eventually making octuple-compressed cobblestone. That much cobblestone is something like a large fraction of Pluto\u0027s mass. If you are having problems finding cobblestone, consider the \"Infinite Cobblestone\" quest in the \"Post-Scarcity Economy\" chapter. That will give you an infinite cobblestone generator in one machine with just a bucket of water and a bucket of lava.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:cobblestone_compressed"
+              },
+              "required": 7
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Cooking Rocks",
+          "longDescription": "Throw the compressed cobblestone into a smeltery, and be on your way. Note that 7 of them give you 63 stone\u0027s worth of material, but you need a clean multiple of 8, so through one regular cobblestone in to balance it out. That gives you 8 seared stones.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:Smeltery",
+                "damage": 4
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:Smeltery",
+          "damage": 4,
+          "amount": 40
+        }
+      ]
+    },
+    {
+      "name": "The Long-Jump Sword",
+      "description": "You might end up settling on a different sword as your favorite for actually fighting, but the longsword has a great jumping ability. Heck, a stone hatchet is just as effective as an actual weapon. However, if you hold down the right mouse button while holding this sword, it will charge up. When you let go, you will jump. If you jump straight up right as you let go, you can jump very high! I find this indispensable, even for just leaping around my base.",
+      "x": 140,
+      "y": 43,
+      "icon": {
+        "id": "TConstruct:longsword",
+        "nbt": "{InfiTool:{BaseDurability:65,Head:1,BaseAttack:5,Built:1b,HarvestLevel:1,Attack:5,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,Accessory:1,MiningSpeed:400,RenderAccessory:1,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:65},display:{Name:\"ï¿½fStone Longsword\"}}"
+      },
+      "prerequisites": [
+        "Picking From The Parts"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "The Patterns",
+          "longDescription": "You need a tool rod, a hand guard, and a sword pattern. Pay special attention for the hand guard pattern. They do look alike.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:woodPattern",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:woodPattern",
+                "damage": 7
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:woodPattern",
+                "damage": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "The Parts",
+          "longDescription": "You know the drill. The tool rod and the hand guard cost half a cobblestone each, so you can make one with the scraps from the other.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:toolRod",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:handGuard",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:swordBlade",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "The Sword",
+          "longDescription": "You know the drill. Fun fact: you can make the longsword even if you pick the wrong sword to make in the tool station.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:longsword",
+                "nbt": "{InfiTool:{BaseDurability:65,Head:1,BaseAttack:5,Built:1b,HarvestLevel:1,Attack:5,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,Accessory:1,MiningSpeed:400,RenderAccessory:1,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:65},display:{Name:\"§fStone Longsword\"}}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:heartCanister",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "Crossing Paths",
+      "description": "The crossbow is a new tool to Tinkers\u0027 Construct. It is nice because it starts tensioned. When you see a monster, you just pull it out, and the first shot is ready. After the shot, it recharges. A signalum crossbow fires very rapidly. The ammo you use is also important. You want to put moss on it so that the ammo regenerates. Yes, that\u0027s a little strange.",
+      "x": 187,
+      "y": 61,
+      "icon": {
+        "id": "TConstruct:Crossbow",
+        "nbt": "{InfiTool:{RenderExtra:0,BaseDurability:97,BaseAttack:0,DrawSpeed:33,Built:1b,HarvestLevel:1,RenderHead:0,ModDurability:0.0f,Shoddy:0.0f,RenderHandle:0,Accessory:0,MiningSpeed:350,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:97,BaseDrawSpeed:33,Head:0,Attack:0,Handle:0,Broken:0b,Extra:0,RenderAccessory:0,FlightSpeed:4.5f,Modifiers:3},display:{Name:\"ï¿½fWooden Crossbow\"}}"
+      },
+      "prerequisites": [
+        "The Forge"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Patterns",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:Pattern",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:woodPattern",
+                "damage": 23
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:Pattern",
+                "damage": 2
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:woodPattern",
+                "damage": 24
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:woodPattern",
+                "damage": 15
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Parts",
+          "longDescription": "The bolts are iron. First, cast yourself an iron tool rod. Then remove the tool rod cast, leaving the rod, and pour more iron on it. It will turn into an iron bolt. This is the base for making crossbow bolts. The crossbow limb, binding, and body is wood. The string is ... string. You could use flamestring or something else, but not for this quest! The bolt fletching is feathers. Go yell at some chickens for some feathers!",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:CrossbowLimbPart"
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:bowstring"
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:fletching"
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:CrossbowBodyPart"
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:BoltPart",
+                "damage": 2,
+                "nbt": "{DualMat:{Material2:2}}"
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:toughBinding"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "The Gear",
+          "longDescription": "We are assuming again the bolts are all iron.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:Crossbow",
+                "nbt": "{InfiTool:{RenderExtra:0,BaseDurability:97,BaseDrawSpeed:33,Head:0,BaseAttack:0,DrawSpeed:33,HarvestLevel:1,Attack:0,RenderHead:0,ModDurability:0.0f,Handle:0,Broken:0b,Shoddy:0.0f,RenderHandle:0,Accessory:0,Extra:0,MiningSpeed:350,RenderAccessory:0,FlightSpeed:4.5f,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:97},display:{Name:\"§fWooden Crossbow\"}}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "TConstruct:BoltAmmo",
+                "nbt": "{InfiTool:{BreakChance:0.055000003f,BaseDurability:325,Head:2,BaseAttack:2,Built:1b,HarvestLevel:2,Attack:2,RenderHead:2,ModDurability:0.0f,Handle:137,Broken:0b,Mass:12.750001f,Shoddy:0.0f,Ammo:33,RenderHandle:137,Accuracy:97.5f,Accessory:0,MiningSpeed:600,RenderAccessory:0,Unbreaking:1,Damage:0,BonusDurability:0,Modifiers:2,TotalDurability:325},display:{Name:\"§fIron Bolts\"}}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ThermalFoundation:material",
+          "damage": 74,
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "A Panning Review",
+      "description": "The frying pan can cook food . . . even a wooden one! That\u0027s not why I want you to use it. You see, it also has a built-in knockback that\u0027s much strong than a regular weapon. If you, say, upgrade it with pistons, it becomes absolutely ridiculous! You make the pan, and I will give you the pistons. To upgrade the pan, put it in a tool station in the right slot, and fill the left slots with pistons. Take the pan out of the right slight and you should hear some swiping. That means it\u0027s working! Keep doing it! Pistons all the way!",
+      "x": 45,
+      "y": 81,
+      "icon": {
+        "id": "TConstruct:frypan",
+        "nbt": "{InfiTool:{BaseDurability:97,Head:0,BaseAttack:2,Built:1b,Tooltip1:\"§7Knockback\",Effect1:3,HarvestLevel:1,ModifierTip1:\"§7Knockback (3/10)\",Attack:2,RenderHead:0,ModDurability:0.0f,Handle:0,Broken:0b,Shoddy:0.0f,RenderHandle:0,MiningSpeed:350,Piston:[3,10,1,],Knockback:0.3f,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:97,Modifiers:2},display:{Name:\"§fWooden Frying Pan\"}}"
+      },
+      "prerequisites": [
+        "Pattern After Me"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Start with the patterns",
+          "longDescription": "Create the patterns at the pattern table. You need a pan head and a tool rod. If you already have the tool rod from doing other stuff, then good for you!",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:woodPattern",
+                "damage": 10
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:woodPattern",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Make the parts . . .",
+          "longDescription": "Use a part builder with the patterns and some oak to make the pan parts.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:frypanHead"
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:toolRod"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Make the pan!",
+          "longDescription": "It\u0027s hard to test that you did the pistons right, so I will stop at the pan and make it a social contract that you slap on all those pistons!",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:frypan",
+                "nbt": "{InfiTool:{BaseDurability:97,Head:0,BaseAttack:2,Built:1b,HarvestLevel:1,Attack:2,RenderHead:0,ModDurability:0.0f,Handle:0,Broken:0b,Shoddy:0.0f,RenderHandle:0,MiningSpeed:350,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:97,Modifiers:3},display:{Name:\"§fWooden Frying Pan\"}}"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:piston",
+          "amount": 30
+        }
+      ]
+    },
+    {
+      "name": "Leave It To Cleaver",
+      "description": "The cleaver has a huge amount of attack damage, but it is really unwieldy. You actually get mining fatigue while holding it! The main reason to use it is to chop off the heads of your opponents. Yeah, some stuff here requires heads. Using a cleaver greatly improves the chances of getting those heads.",
+      "x": 238,
+      "y": 23,
+      "icon": {
+        "id": "TConstruct:cleaver",
+        "nbt": "{InfiTool:{RenderExtra:9,MiningSpeed2:1300,BaseDurability:1350,Head:190,BaseAttack:16,HarvestLevel:10,Attack:16,RenderHead:190,ModDurability:0.0f,Handle:9,Broken:0b,Shoddy:0.0f,RenderHandle:9,Accessory:190,Extra:9,MiningSpeed:1300,RenderAccessory:190,Unbreaking:0,Damage:0,HarvestLevel2:10,BonusDurability:0,TotalDurability:1350,Modifiers:5},display:{Name:\"§fSignalum Cleaver\"}}"
+      },
+      "prerequisites": [
+        "The Forge"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Cutting The Signal",
+          "longDescription": "We\u0027ll use signalum to make the blade and the reinforcing plate. Signalum is a 3:1 blend of copper:silver, with a bucket of destablized redstone thrown on top for good measure. You need a magma crucible (machine) to cook down the redstone, unless you use pyrotheum in your smeltery (don\u0027t bother). Also note that you need to make a LARGE sword blade.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraTiC:largeplate",
+                "damage": 190
+              }
+            },
+            {
+              "item": {
+                "id": "ExtraTiC:largeSwordBlade",
+                "damage": 190
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Paper Cut",
+          "longDescription": "Now this is kind of goofy. We\u0027re going to make the handle out of paper. This will reduce the tool\u0027s durability by a factor of FOUR! On the other hand, it will give us 5 modifier slots. Put a ball of moss in the first slot. After that... ehhh go wild. I recommend putting obsidian and ender pearls together in it to increase the chance of beheading! You might also throw in some nether quartz to increase the damage. Given the bulkiness of the sword, you want to just sucker punch stuff and get a head right away. No fussy combat. NOTE: TOUGH TOOL RODS. TOUGH! THE ONES THAT NEED A TON OF PAPER!",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:toughRod",
+                "damage": 9
+              },
+              "required": 2
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Chop Chop",
+          "longDescription": "I can\u0027t prove that you made this exactly how I asked, so just try your best.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:cleaver",
+                "nbt": "{InfiTool:{RenderExtra:9,MiningSpeed2:1300,BaseDurability:1350,Head:190,BaseAttack:16,HarvestLevel:10,Attack:16,RenderHead:190,ModDurability:0.0f,Handle:9,Broken:0b,Shoddy:0.0f,RenderHandle:9,Accessory:190,Extra:9,MiningSpeed:1300,RenderAccessory:190,Unbreaking:0,Damage:0,HarvestLevel2:10,BonusDurability:0,TotalDurability:1350,Modifiers:5},display:{Name:\"§fSignalum Cleaver\"}}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:paper",
+          "amount": 16
+        },
+        {
+          "id": "TConstruct:materials",
+          "damage": 6
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

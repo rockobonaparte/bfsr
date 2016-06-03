@@ -1,0 +1,1369 @@
+{
+  "name": "A Lunar Odyssey",
+  "description": "This is the moon mission! You have to build a rocket, make it to the moon, and survive long enough to claim the quest reward. Actually getting back to the planet is optional, but recommended. You should look at the starting quests and figure out how to complete them ASAP. It will require generating lots of compressed metals in a metal compressing machine. You want to get moving on them ASAP.",
+  "quests": [
+    {
+      "name": "To The Moon!",
+      "description": "Let\u0027s go to the moon! Assume you have fueled up the rocket, and have your parachute, and the rocket is on a pad, AND you have oxygen, then let\u0027s go for it! Right-click on that rocket, and hit the space bar. If it complains about something, STRONGLY CONSIDER PAYING ATTENTION. You can override by hitting space bar again. It will start a 20-second countdown, and you will launch. In the destination screen, double-click on the overworld, then select the moon. You then click the launch button and it will take you there. It will then deploy the lunar lander. You will want to hold down the space bar so you don\u0027t smack into the moon!",
+      "x": 102,
+      "y": 149,
+      "icon": {
+        "id": "GalacticraftCore:tile.moonBlock",
+        "damage": 4
+      },
+      "prerequisites": [
+        "Rocket Man",
+        "Give Me Some Air Here!",
+        "Getting Back Safely",
+        "Fueling The Rocket",
+        "Launchpad"
+      ],
+      "tasks": [
+        {
+          "type": "LOCATION",
+          "longDescription": "Well, before lifting off, I heavily recommend bringing along an energy cell and your fuel loader. You will have to fuel the ship for the return trip when you\u0027re on the moon itself! If you set up teleporters, then you don\u0027t even have to do this. Another point: you have to carefully land the lunar module. If you don\u0027t spend some fuel using the spacebar to pad out your descent, you will not so much land on the moon as blast into the side of it!",
+          "locations": [
+            {
+              "name": "New",
+              "x": 85,
+              "y": 65,
+              "z": 980,
+              "dim": -28,
+              "radius": -1
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "GalacticraftCore:tile.fuelLoader"
+        },
+        {
+          "id": "GalacticraftMars:item.spaceshipTier2"
+        },
+        {
+          "id": "Artifice:bucket",
+          "damage": 1
+        },
+        {
+          "id": "ThermalExpansion:Cell",
+          "damage": 1,
+          "nbt": "{Recv:200,RSControl:1b,Facing:3b,Energy:400000,SideCache:[6 bytes],Send:200}"
+        }
+      ]
+    },
+    {
+      "name": "Rocket Man",
+      "description": "Well here it is . . . the rocket. Stop by here after you build it to get some prizes!",
+      "x": 118,
+      "y": 104,
+      "icon": {
+        "id": "GalacticraftCore:item.spaceship"
+      },
+      "prerequisites": [
+        "Rocket Manufacturing"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "You can see the recipe for it if you search for \"tier 1\" in the bottom search bar from the inventory screen. You are going to need to compress a lot of metal!",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:item.spaceship"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "GalacticraftCore:item.spaceship",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Rocket Manufacturing",
+      "description": "You will have to build a NASA workbench to build the rocket. It comes with plans for the first-tier rocket that you need to get to the moon.",
+      "x": 88,
+      "y": 72,
+      "icon": {
+        "id": "GalacticraftCore:tile.rocketWorkbench"
+      },
+      "prerequisites": [
+        "Rolling Sheet Metal"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:tile.rocketWorkbench"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Artifice:item.artifice.steel",
+          "amount": 8
+        },
+        {
+          "id": "TConstruct:materials",
+          "damage": 11,
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "Give Me Some Air Here!",
+      "description": "Ummm, there isn\u0027t much air on the moon. Did you think about that? You are going to need an oxygen mask. You might notice a slot for that near your armor and everything in your inventory. You are also going to need some oxygen tanks. For the short duration of your mission, lights tanks will do.",
+      "x": 28,
+      "y": 156,
+      "icon": {
+        "id": "GalacticraftCore:item.oxygenGear"
+      },
+      "prerequisites": [
+        "Rolling Sheet Metal"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Note: To make the oxygen cannister, you\u0027ll need cactus green die. You don\u0027t actually need to find a cactus. You can blend yellow and blue dies. You can get these from dandelions and bluebells.",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:item.oxygenTankLightFull",
+                "damage": 900
+              }
+            },
+            {
+              "item": {
+                "id": "GalacticraftCore:item.oxygenGear"
+              }
+            },
+            {
+              "item": {
+                "id": "GalacticraftCore:tile.oxygenCollector"
+              }
+            },
+            {
+              "item": {
+                "id": "GalacticraftCore:tile.oxygenCompressor"
+              }
+            },
+            {
+              "item": {
+                "id": "GalacticraftCore:tile.oxygenPipe"
+              }
+            },
+            {
+              "item": {
+                "id": "GalacticraftCore:item.oxygenMask"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "GalacticraftCore:item.oxygenTankLightFull",
+          "damage": 900
+        },
+        {
+          "id": "GalacticraftCore:tile.oxygenCompressor",
+          "damage": 4
+        },
+        {
+          "id": "GalacticraftCore:tile.distributor"
+        },
+        {
+          "id": "GalacticraftCore:tile.sealer"
+        },
+        {
+          "id": "GalacticraftCore:tile.oxygenDetector"
+        }
+      ]
+    },
+    {
+      "name": "Rolling Sheet Metal",
+      "description": "You are going to need sheet metal for various components on the way to this moon mission. You will have to start with the press, and then start rolling the sheets.",
+      "x": 65,
+      "y": 49,
+      "icon": {
+        "id": "GalacticraftCore:item.basicItem",
+        "damage": 9
+      },
+      "prerequisites": [
+        "Wafer Madness!",
+        "{Electrical Power}[Steel My Thunder]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Build the compressor",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:tile.machine",
+                "damage": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Compress Steel",
+          "longDescription": "The compressor is powered by coal/charcoal. You will have to feed it some to run it. Run some steel through it to get a sheet. Then start running lots of bronze, aluminum, iron, tin, and more steel through it. You need lots of this stuff. Build another compressor! Then build two more!",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:item.basicItem",
+                "damage": 9
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "GalacticraftCore:item.heavyPlating",
+          "amount": 8
+        },
+        {
+          "id": "GalacticraftCore:tile.machine",
+          "damage": 12
+        }
+      ]
+    },
+    {
+      "name": "Getting Back Safely",
+      "description": "You did plan to get back from the moon, right? You\u0027re going to need a parachute!",
+      "x": 140,
+      "y": 134,
+      "icon": {
+        "id": "GalacticraftCore:item.parachute"
+      },
+      "prerequisites": [
+        "{Vanilla Minecraft}[Wool In Your Eyes]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:item.parachute"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "GalacticraftCore:item.parachute",
+          "damage": 5
+        }
+      ]
+    },
+    {
+      "name": "Wafer Madness!",
+      "description": "To get started on the trip to the moon, you are going to have to make some silicon wafers. The ones for the moon mission require a circuit fabricator. You will also need silicon ore from the deeper recesses. They can be hard to find; the ore looks like coal, but it\u0027s a different shade of gray.",
+      "x": 36,
+      "y": 24,
+      "icon": {
+        "id": "GalacticraftCore:item.basicItem",
+        "damage": 13
+      },
+      "prerequisites": [
+        "{Electrical Power}[The Survivalist\u0027s Generator]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Collect silicon",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:item.basicItem",
+                "damage": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "The Circuit Fabricator",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:tile.machine2",
+                "damage": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Your First Wafer",
+          "longDescription": "I should mention that the fabricator can only be powered from its left side. Galacticraft machines are really fond of this for some bizarre reason.",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:item.basicItem",
+                "damage": 13
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "GalacticraftCore:item.basicItem",
+          "damage": 14
+        },
+        {
+          "id": "GalacticraftCore:item.basicItem",
+          "damage": 2,
+          "amount": 4
+        },
+        {
+          "id": "minecraft:diamond"
+        }
+      ]
+    },
+    {
+      "name": "Fueling The Rocket",
+      "description": "How did you plan to get to the moon without any fuel? Run some oil through this refinery to make fuel. You\u0027ll have to then pump it into the rocket right on the pad. You know, I thought rockets ran on hydrogen and oxygen mixes, but apparently in Galcticraft, they run off of petroleum products.",
+      "x": 60,
+      "y": 140,
+      "icon": {
+        "id": "GalacticraftCore:tile.refinery"
+      },
+      "prerequisites": [
+        "Rolling Sheet Metal"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Note: The refinery has to be placed UNDER a source of power. Don\u0027t look at me like that. I didn\u0027t do it. Also, you want to bring the fuel loader with you to the moon with an energy cell. You need that to refuel the rocket in the lander for getting back!",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:tile.refinery"
+              }
+            },
+            {
+              "item": {
+                "id": "GalacticraftCore:tile.fuelLoader"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "GalacticraftCore:tile.glowstoneTorch",
+          "amount": 64
+        }
+      ]
+    },
+    {
+      "name": "Launchpad",
+      "description": "The rocket can\u0027t launch on any old thing. You have to set up a launch platform. Make nine of these things and set them up for a 3x3 square on the ground. Ummm... do that somewhere where you have a clear view of the sky.",
+      "x": 82,
+      "y": 115,
+      "icon": {
+        "id": "GalacticraftCore:tile.landingPad"
+      },
+      "prerequisites": [
+        "Rolling Sheet Metal"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:tile.landingPad"
+              },
+              "required": 9
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Artifice:bucket",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "A Cheesy Ore",
+      "description": "Yes, the moon is made of cheese in Galacticraft. You can eat it too. To mine it, you need a diamond-level pickaxe, which you definitely should have at this time. That will drop cheese curds when you mine it. You want to have the fortune modifier on your tool if you want to improve your yield. This material is used in sparing amounts for super-advanced technology later in the game, so you do want to pick up some of it.",
+      "x": 241,
+      "y": 186,
+      "icon": {
+        "id": "GalacticraftCore:tile.moonBlock",
+        "damage": 2
+      },
+      "prerequisites": [
+        "To The Moon!"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Curds And Why?",
+          "longDescription": "I did not improve the ore generation rate on the moon, so be prepared for a grind here. You will probably readily find this stuff with mining automation. Failing that, get yourself a good oxygen supply and a Tinkers\u0027 Construct hammer. Just drop down a little under ground and go off in some direction until you trip across the stuff.",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:item.cheeseCurd"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Block Of Unrefined Cheese",
+          "longDescription": "Okay, the Orion Drive requires the ore block, not the cheese itself. This is some funny business here! You will need a tool with silk touch to harvest that. The easiest way to do that is to make a silky gem and mount that on a pick of your choice. There is another quest that goes through in detail (the \"Divide By Diamond\" questline in Bear Grylls\u0027 Poop Menu).",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:tile.moonBlock",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "GalacticraftCore:tile.moonBlock",
+          "damage": 2,
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "name": "When Earth Attacks!",
+      "description": "Let\u0027s take this one step further and go to Mars! You will need that Tier 2 rocket. At this point, you should have a good handle on the pre-launch checklist, but I still heavily recommend packing along teleportation equipment. This new rocket still only needs one bucket of fuel.",
+      "x": 283,
+      "y": 79,
+      "icon": {
+        "id": "GalacticraftMars:tile.mars",
+        "damage": 9
+      },
+      "prerequisites": [
+        "A Tier In My Eye"
+      ],
+      "tasks": [
+        {
+          "type": "LOCATION",
+          "description": "Mars Needs Minecraft",
+          "longDescription": "Landing on Mars is no big deal. You\u0027ll by covered in protected balloons so you don\u0027t have to player the lunar lander game. That pile of balloons will include a takeoff pad and spare rocket to get you back to the Overworld. It won\u0027t include a parachute, a fuel loader, or spare fuel beyond what it didn\u0027t eat from its original reserve.",
+          "locations": [
+            {
+              "name": "New",
+              "x": -10,
+              "y": 91,
+              "z": 22,
+              "dim": -29,
+              "radius": -1
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Cleaning The Deshes",
+          "longDescription": "The moon has cheese. Mars has desh ore. You will need a bit of this too in order to advance to the next tier of technology.",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftMars:tile.mars",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "GalacticraftMars:tile.mars",
+          "damage": 2,
+          "amount": 20
+        },
+        {
+          "id": "Mekanism:MachineBlock2",
+          "damage": 11,
+          "nbt": "{prevScale:1.0f,fluidTank:{FluidName:\"fuel\",Amount:14000}}"
+        },
+        {
+          "id": "GalacticraftCore:tile.fuelLoader"
+        },
+        {
+          "id": "ThermalExpansion:Cell",
+          "damage": 1,
+          "nbt": "{Recv:200,RSControl:1b,Facing:3b,Energy:400000,SideCache:[6 bytes],Send:200}"
+        }
+      ]
+    },
+    {
+      "name": "A Tier In My Eye",
+      "description": "You need a tier 2 rocket if you want to go to Mars. You made a tier 1 rocket to get to the moon. How do you make a tier 2 rocket? There are two main obstacles, and they are both *tedious!* First, you need tier 2 plans. You will have to find a moon dungeon, call the guardian, and get the plans out of a chest. That assumes the chest you crack open has the plans. You might have to do this a few times! Second, you have to haul in some meteoric iron from the meteors showing up all over the moon. Between all that, you can put the tier 2 rocket together with most of the tooling you already have.",
+      "x": 241,
+      "y": 126,
+      "icon": {
+        "id": "GalacticraftMars:item.spaceshipTier2"
+      },
+      "prerequisites": [
+        "Smitten With Meteors"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Grind Grind Grind",
+          "longDescription": "I am not holding your hand as much any more since you\u0027re getting into advanced territory here. You do want to do that battle at least once. However, I should mention that there is a merchant in Baby\u0027s First Space City that can help you out if you get multiple copies of the buggy plans or something.",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:item.schematic",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Grind Grind Grind Some More",
+          "longDescription": "The plating you need is created by pressing tier 1 heavy-duty plates with a plate of meteoric iron. You need 8 of these to form the frame. I am not going to test that you built the actual rocket, because it will be obvious when you do the mars quest. I recommend crafting it with extra chests this time. Get all your Mars base stuff ready--especially the teleporters!",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftMars:item.null",
+                "damage": 3
+              },
+              "required": 8
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "...And You Will Get There.",
+          "longDescription": "Now you can slap that plan in a NASA workbench and start putting it together. You\u0027ve been through this routine before, so I\u0027m not going through all the details. Just note where the pieces are different this time.",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftMars:item.spaceshipTier2"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "GalacticraftCore:item.meteoricIronRaw",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:diamond"
+        }
+      ]
+    },
+    {
+      "name": "The Outer Ring Of My Patience",
+      "description": "Outside the range of Mars is the asteroid belt. Galacticraft kind of ends there at the moment when it comes to interesting things to do. You can go flying around to all the planets, but there isn\u0027t anything much happening there. The asteroid belt is it, and it\u0027s only interesting because you can deploy the astro miner there. You\u0027ll need a tier 3 rocket to make this happen. At this point, you should be mostly familiar with the ritual, so I\u0027m being very terse about all this.",
+      "x": 283,
+      "y": 117,
+      "icon": {
+        "id": "GalacticraftMars:item.itemTier3Rocket"
+      },
+      "prerequisites": [
+        "When Earth Attacks!"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "What\u0027s The Plan?",
+          "longDescription": "More plans. This time, you\u0027re going for Mars dungeons. You\u0027ll find holes in the ground for these too. They are guarded by a giant, mutant creeper that launches tnt at you. You have to bounce them back at the creeper to kill it. I would recommend going to The Nether and practice this against a few ghasts before you commit to this fight. On a server, this is especially true because you want to know what kind of lag you\u0027re up against. If you are good at this, the creeper boss is actually easier than that crazy skeleton you fought on the moon. Note that you might do this fight a few times, and if you are having bad luck with finding plans, you can trade them in at Baby\u0027s First Space City\u0027s shops.",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftMars:item.schematic"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Plate Of The Gods",
+          "longDescription": "More plates. More clanging and banging. These plates are annoying to make. You need to go through three levels of plates, starting with that basic heavy-duty plate, then baking in meteoric iron, then the desh metal. Guhhhhhh...",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftMars:item.itemBasicAsteroids"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Black Rocket",
+          "longDescription": "Alright, through it all together . . . eventually. Now, don\u0027t forget the usual stuff about fuel, parachutes, teleporters, and the like. At this point, I\u0027m not your mom so I\u0027m not going into all the details any more. You got this far so you must know what you\u0027re doing. Just don\u0027t get cocky like all those other rocket jockeys!",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftMars:item.itemTier3Rocket"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "GalacticraftMars:tile.mars",
+          "damage": 2,
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "A Buggy In My Eye",
+      "description": "Moving around on the moon can get pretty tedious. If you want to rip around the moonscape, then you need a buddy. I mean, it\u0027s more likely to survive driving around on the moon than a horse! This is an advanced quests. You have to do the whole moon dungeon thing and get the plans for one. Honestly, you\u0027ve seen enough with making these rockets that I trust you. So if you find the plans, I\u0027ll give you a buggy. You\u0027ll have to set up a 3x3 grid of buggy fueling pads, with a fuel loader off one side. That needs power and some fuel. Slap the buggy on it, and it will load up with fuel. Then you can zip around! Make car sounds, because there isn\u0027t enough air on the moon for the buggy to make car noises for you!",
+      "x": 126,
+      "y": 187,
+      "icon": {
+        "id": "GalacticraftCore:item.buggy"
+      },
+      "prerequisites": [
+        "To The Moon!"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Dungeons and ... Buggies",
+          "longDescription": "This is like the tier 2 plans quest. You have to find a hole in the ground, fall down in there, and get into a fight with a really goofy skeleton. I recommend bringing advanced armor and weapons, and maybe some health/regeneration boosts. Enderium implements will make this stupidly easy.",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:item.schematic"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "GalacticraftCore:item.buggy",
+          "damage": 3
+        },
+        {
+          "id": "GalacticraftCore:tile.landingPad",
+          "damage": 1,
+          "amount": 9
+        },
+        {
+          "id": "GalacticraftCore:tile.fuelLoader"
+        },
+        {
+          "id": "Mekanism:MachineBlock2",
+          "damage": 11,
+          "nbt": "{prevScale:1.0f,fluidTank:{FluidName:\"fuel\",Amount:14000}}"
+        }
+      ]
+    },
+    {
+      "name": "Hold On There, Buddy",
+      "description": "You can keep going with the rocket and fly off to the moon safely with the following quests. However, it\u0027s actually kind of boring! I\u0027m not going to kid you there. To make it more enjoyable, there are a few quests I\u0027m gating here so you can tell if it\u0027s really worth your time. First, you want to investigate making some kind of teleporter. The \"A Philadelpha Experiment\" chapter has lots of ways to handle all this. With teleportation, you can whisk back and forth from the Overworld to the Moon without making any more rockets.",
+      "x": 121,
+      "y": 63,
+      "icon": {
+        "id": "chisel:warningSign",
+        "damage": 8
+      },
+      "prerequisites": [
+        "Rocket Man"
+      ]
+    },
+    {
+      "name": "All Systems Go!",
+      "description": "If you made it here, you have completed requirements from other quests that will make your trip to the moon more fruitful. That means being able to teleport back and forth to/from the moon at the least.",
+      "x": 125,
+      "y": 17,
+      "icon": {
+        "id": "ExtraUtilities:greenscreen",
+        "damage": 5
+      },
+      "prerequisites": [
+        "Hold On There, Buddy",
+        "{A Philadelphia Experiment}[What\u0027s The Matter?]",
+        "{A Philadelphia Experiment}[Let\u0027s Mek A Teleporter!]"
+      ],
+      "parentrequirement": 2
+    },
+    {
+      "name": "Moving In With The Lunatics",
+      "description": "So, you want a moon base. All the cool kids have one, right? Do you think you\u0027re cool enough for one? Let\u0027s find out! THIS IS GOING TO BE SOME FUSSY STUFF. Galacticraft is very picky about making sure your base is sealed and filled with oxygen. Only certain blocks register as sealed. Modpack authors can configure this to allow more blocks, but they usually don\u0027t, so I didn\u0027t either. We\u0027re going to stick with blocks that are known to be safe generally. This first quest will be to get the basic materials.",
+      "x": 172,
+      "y": 97,
+      "icon": {
+        "id": "GalacticraftCore:tile.oxygenCollector"
+      },
+      "prerequisites": [
+        "Rocket Man",
+        "As The World Turns"
+      ],
+      "parentrequirement": 1,
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Tin: It\u0027s What\u0027s For Decoration",
+          "longDescription": "This is going to require quite a pile of tin plates! Fortunately, one plate to one stone yields four of these blocks. So you don\u0027t even have to start with a full stack of them. It just means rolling out more metal. CLANG... CLANG... CLANG...",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:tile.gcBlockCore",
+                "damage": 4
+              },
+              "required": 192
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Glass In The... Butt.",
+          "longDescription": "\"Quite Clear Glass\" is sealable. You don\u0027t need glass, but it\u0027s really nice to be able to look outside your moonbase and see all the stuff that is trying to kill you!",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockFusedQuartz",
+                "damage": 1
+              },
+              "required": 96
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "GalacticraftCore:tile.gcBlockCore",
+          "damage": 4,
+          "amount": 127
+        },
+        {
+          "id": "GalacticraftCore:tile.gcBlockCore",
+          "damage": 4,
+          "amount": 64
+        },
+        {
+          "id": "EnderIO:blockFusedQuartz",
+          "damage": 1,
+          "amount": 96
+        }
+      ]
+    },
+    {
+      "name": "It\u0027s Not *That* Advanced",
+      "description": "You could technically drag a furnace generator up to the moon with you, but that somehow doesn\u0027t have the, \"atmosphere,\" if you know what I mean. Oh come on, I\u0027m joking about not being able to combust things on the moon. Actually, the stupid machines work fine, but it just doesn\u0027t seem appropriate. If you want the safest, yet convincing method, then use the Advanced Solar Generators in Galacticraft. I should warn you though: these machines kind of stink. You need four of them to consistently power the base. I\u0027ll guide you through making one and give you the other three. You also need an energy cell or battery to store the power the generate overnight.",
+      "x": 206,
+      "y": 61,
+      "icon": {
+        "id": "GalacticraftCore:tile.solar",
+        "damage": 4
+      },
+      "prerequisites": [
+        "Moving In With The Lunatics"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Blowing More Diamonds",
+          "longDescription": "Yeap, it\u0027s about time we did more stupid stuff with diamonds. I mean, really, diamonds. This is three diamonds\u0027 worth of waste.",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:item.basicItem",
+                "damage": 12
+              },
+              "required": 18
+            },
+            {
+              "item": {
+                "id": "GalacticraftCore:item.basicItem",
+                "damage": 14
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Wafer Layers",
+          "longDescription": "Three of those wafers makes you one module, and you need six modules to make a panel.",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:item.basicItem"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Panel Discussion",
+          "longDescription": "...Six modules for a panel.",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:item.basicItem",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Sun Of A Gun",
+          "longDescription": "Finally! Galacticraft likes it\u0027s multistep recipes, I\u0027m telling you!",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:tile.solar",
+                "damage": 4
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "GalacticraftCore:tile.solar",
+          "damage": 4,
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "Canary In The Moon Mine",
+      "description": "While working on all this oxygen business, you might want to be able to tell from a distance if your base is sealed and filled with happy, tasty, oxygen. This detector will help with that. It will emit a redstone signal when everything is A-OK. You can connect lamp or something up to it for a signal.",
+      "x": 201,
+      "y": 104,
+      "icon": {
+        "id": "GalacticraftCore:tile.oxygenDetector"
+      },
+      "prerequisites": [
+        "Moving In With The Lunatics"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "This does come in handy when first setting up stuff. You are busy trying to figure out if all the fiddly bits are working and POOF! The light turns on!",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:tile.oxygenDetector"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Artifice:tile.artifice.lamp.green"
+        }
+      ]
+    },
+    {
+      "name": "Paying The Piper",
+      "description": "You better just prepare a pile of power and oxygen piping. It\u0027s really annoying to run low and have to get \"clever\"--in other words, \"messy.\"",
+      "x": 232,
+      "y": 73,
+      "icon": {
+        "id": "GalacticraftCore:tile.oxygenPipe"
+      },
+      "prerequisites": [
+        "Moving In With The Lunatics"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "A Little Too Much Atmosphere",
+          "longDescription": "32 Oxygen pipes, pronto.",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:tile.oxygenPipe"
+              },
+              "required": 32
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Aluminum Cable Is Lame",
+          "longDescription": "Thermal Dynamics fluxducts technically connect to Galacticraft machines, but I have noticed glitches connecting the solar panels to the machines with them. It is safer to use Galacticraft\u0027s own aluminum wires to connect the panels to some cell/capacitor, and run fluxduct from there. So, 32 aluminum wires. I\u0027ll reimburse you on the wool.",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:tile.aluminumWire"
+              },
+              "required": 32
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:wool",
+          "amount": 64
+        }
+      ]
+    },
+    {
+      "name": "Locking On",
+      "description": "You\u0027ll want to safely enter and exit your moon base without the atmosphere inside tearing out and causing a ruckus. Honestly, it doesn\u0027t do anything cool like that, but that\u0027s what it would be like if you didn\u0027t have a proper airlock in real life! You need a pair of these. I\u0027m asking you to build one and I\u0027m giving you the second one. This is just enough to build a frame that a 1x2 object--namely you--can walk through.",
+      "x": 266,
+      "y": 50,
+      "icon": {
+        "id": "GalacticraftCore:tile.airLockFrame",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Paying The Piper",
+        "Smitten With Meteors"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "I Was Framed!",
+          "longDescription": "The airlock frame blocks will be layed two on top of each other to each side of you, one above, and one below. But wait, that would be six blocks! Well, one will be the controller, so you only need five . . .",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:tile.airLockFrame"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Taking Control",
+          "longDescription": "One piece of the airlock must be the controller. Right-click it in place to tell it when to open and close. I recommend setting it to react to somebody being within 1m of it. Then it\u0027s hands-free, baby! Note: Crafting this requires meteoric iron plates. This means you have to already have been on the moon a little bit. This is one reason having a teleportation system back to your Overworld base is very convenient!",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:tile.airLockFrame",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "GalacticraftCore:tile.airLockFrame",
+          "amount": 5
+        },
+        {
+          "id": "GalacticraftCore:tile.airLockFrame",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "What? What?!!",
+      "description": "Sound does not transmit in a vacuum, and the moon pretty much is one. You need a frequency module to pick up on acoustics. This is useful to hear that creeper about to blow you up in your spaceship!",
+      "x": 169,
+      "y": 126,
+      "icon": {
+        "id": "GalacticraftCore:item.basicItem",
+        "damage": 19
+      },
+      "prerequisites": [
+        "Getting Back Safely"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "Check for the Galacticraft tab where you put your other Galacticraft gear. There should be a slot specifically for this module.",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:item.basicItem",
+                "damage": 19
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:diamond"
+        }
+      ]
+    },
+    {
+      "name": "Smitten With Meteors",
+      "description": "Let\u0027s just be blunt here. Meteoric iron is something that Galacticraft threw in to try to slow down the progression. It requires a bit of a grind, I will grant you that. It means you have to at least get to the moon first--and Mars later--to harvest this material for advanced equipment. To find this stuff, you have to look for meteors on the surface of the body you\u0027re on. Bodies with atmosphere like the Overworld will never spawn them. Look first for brown objects that you can bust with a pick. If you touch those, they will burn you! Don\u0027t touch them! Over time, they cool off into a gray color.",
+      "x": 196,
+      "y": 146,
+      "icon": {
+        "id": "GalacticraftCore:item.meteoricIronRaw"
+      },
+      "prerequisites": [
+        "To The Moon!"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Meteor Hunting",
+          "longDescription": "The easiest way to hunt these down is the use the map. Look for discolorations and outstanding blocks on the map. Also, you may busy yourself making your moon base first. This will give the meteors time to start showing up nearby. You can use a chunk loader to encourage them to continue generating in a large area while you are away from the moon.",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:item.meteoricIronRaw"
+              },
+              "required": 2
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "There\u0027s A Meteor In My Plate",
+          "longDescription": "Time to run this through the gong show--your metal compressor--to get sheets of meteoric iron. You\u0027ll be needing a bunch of that as we go here.",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:item.meteoricIronIngot",
+                "damage": 1
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "GalacticraftCore:item.meteoricIronRaw",
+          "amount": 32
+        }
+      ]
+    },
+    {
+      "name": "Glowing With Embarassment",
+      "description": "So hey, torches don\u0027t work on the moon. It has something to do with there being no oxygen to burn. Try these glowstone torches instead.",
+      "x": 71,
+      "y": 188,
+      "icon": {
+        "id": "GalacticraftCore:tile.glowstoneTorch"
+      },
+      "prerequisites": [
+        "To The Moon!"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Sad Torch",
+          "longDescription": "Honestly, they kind of stink but they\u0027re okay enough for exploration. I recommend using something else like inverted lamps. Look at the moon base quests for one of those.",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:tile.glowstoneTorch"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:glowstone_dust",
+          "amount": 32
+        }
+      ]
+    },
+    {
+      "name": "Lamp Champ",
+      "description": "Those glowstone torches look pathetic. If you want something more akin to the *future* then try these inverted white lamps.",
+      "x": 290,
+      "y": 22,
+      "icon": {
+        "id": "Artifice:tile.artifice.lampinverted.white"
+      },
+      "prerequisites": [
+        "Locking On"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Non-inverted",
+          "longDescription": "It takes a little bit of glowstone, but it\u0027s worth it. This will give you a lamp that will toggle with a redstone signal, but the way. Maybe you don\u0027t want that (you don\u0027t want that). Stay tuned!",
+          "items": [
+            {
+              "item": {
+                "id": "Artifice:tile.artifice.lamp.white"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Inverted",
+          "longDescription": "Put that bad boy back in the crafting grid and it will come out inverted! Now it\u0027s always-on by default!",
+          "items": [
+            {
+              "item": {
+                "id": "Artifice:tile.artifice.lampinverted.white"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Artifice:tile.artifice.lampinverted.white",
+          "amount": 7
+        }
+      ]
+    },
+    {
+      "name": "As The World Turns",
+      "description": "You can make a space station, of course. Whether or not you do this before going to the moon is up to you. However, I would recommend doing the moon stuff first. The moon has hostile baddies, but I think the landscape is more hospitable generally. Also, I would make sure the \"All Systems, Go!\" quest comes up in this chapter before doing the space station. That being said, go for it. You have to be careful about how you move, because if you fall off, you\u0027re getting flung back to the Overworld!",
+      "x": 153,
+      "y": 65,
+      "icon": {
+        "id": "chisel:futura",
+        "damage": 3
+      },
+      "prerequisites": [
+        "Rocket Man"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Prerequisites",
+          "longDescription": "To create the space station, you will need all this in your inventory. These materials will give you a starting platform on which to create your space station. However, this is not everything! You need to also deal with setting up oxygen. That is highlighted with the moon missions, but I will allow it to activate if you complete this quest. However, just take note that it might mention all this moon stuff that you\u0027ll ignore.",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:item.basicItem",
+                "damage": 5
+              },
+              "required": 16,
+              "precision": "ORE_DICTIONARY"
+            },
+            {
+              "item": {
+                "id": "TConstruct:materials",
+                "damage": 10
+              },
+              "required": 32,
+              "precision": "ORE_DICTIONARY"
+            },
+            {
+              "item": {
+                "id": "minecraft:iron_ingot"
+              },
+              "required": 24
+            },
+            {
+              "item": {
+                "id": "GalacticraftCore:item.basicItem",
+                "damage": 14
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:diamond"
+        },
+        {
+          "id": "GalacticraftCore:tile.gcBlockCore",
+          "damage": 4,
+          "amount": 64
+        }
+      ]
+    },
+    {
+      "name": "The Gravity Of The Situation",
+      "description": "You can make your space station spin, which will induce gravity in it. This is really freaky and strange. It will rotate your station, pressing you outward from it, so down is outwards. This means as you go around the station, the magnitude and direction of gravity will vary. Try not to throw up.",
+      "x": 179,
+      "y": 33,
+      "icon": {
+        "id": "GalacticraftCore:tile.spinThruster"
+      },
+      "prerequisites": [
+        "As The World Turns"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "You want to set up to 4 of these around your station. It appears you can put them all in one spot on one end of the station. This might require some experimentation. I\u0027ll give you three if you make me one. Also--by the way--I can\u0027t actually make a quest to test that you actually are in the space station dimension. Each player gets their own dimension, so this quest book cannot track them.",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftCore:tile.spinThruster"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "GalacticraftCore:tile.spinThruster",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "Astroturfing",
+      "description": "Now let\u0027s be frank here. The ore generation rate on the Overworld in Baby\u0027s First Space Race is really high. The only reason to mine asteroids is *because you can* and that is enough for me! We\u0027re going to make ourselves a fun little toy for this exercise. The Astro Miner is another toy you should find out about in your misadventures on Mars. With that plan in hand, you can make one of the craziest things in Galacticraft.",
+      "x": 286,
+      "y": 187,
+      "icon": {
+        "id": "GalacticraftMars:item.itemAstroMiner"
+      },
+      "prerequisites": [
+        "A Cheesy Ore",
+        "Check Out This Rock Music"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Look Boss, The Plan!",
+          "longDescription": "Well, you have to rip these plans out of a Martian dungeon. I am assuming you know this routine now because you did it for the tier 3 rocket!",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftMars:item.schematic"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Driven To Insanity",
+          "longDescription": "You need 5 orion drives for the astro miner. This is by far the toughest ingredient. They are made by cramming together various ores, but I can think of three ores that will bother you in great detail: cheese ore, desh ore, and ilmenite ore. You have to get those from your space adventures.",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftMars:item.orionDrive"
+              },
+              "required": 5
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Wub wub wub wub",
+          "longDescription": "You know, after all the trouble you\u0027ve been through, this thing seems really simple to make. Pssst, don\u0027t tell the Galacticraft guy that!",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftMars:item.itemAstroMiner"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Down By The Docks",
+          "longDescription": "If you arrange 8 of these in a 2x2x2 megacube, it will turn into the docking station for the astro miner. It will fly out and back to it. Set it up in the asteroid belt, give it some power from some side or the back, feed it your astro miner, and you should have yourself an asteroid mining operation! These blocks are pretty easy to make. One recipe yields four blocks, and the ingredients are not a huge fuss.",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftMars:tile.minerBase"
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "GalacticraftMars:tile.asteroidsBlock",
+          "damage": 4,
+          "amount": 5
+        },
+        {
+          "id": "GalacticraftMars:tile.mars",
+          "damage": 2,
+          "amount": 5
+        },
+        {
+          "id": "GalacticraftCore:tile.moonBlock",
+          "damage": 2,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Check Out This Rock Music",
+      "description": "Let\u0027s go find us some giant rocks in the asteroid belt. Make sure you have spare fuel, a parachute,  teleporter, etc. Actually, this time, I also recommend you have a jetpack of some kind. You are going to be moving around between a bunch of rocks in open space. This can end quote poorly for you if you don\u0027t have a way to cross giant gaps with a lot of control!",
+      "x": 285,
+      "y": 150,
+      "icon": {
+        "id": "GalacticraftMars:tile.asteroidsBlock"
+      },
+      "prerequisites": [
+        "The Outer Ring Of My Patience"
+      ],
+      "tasks": [
+        {
+          "type": "LOCATION",
+          "description": "Roid Rage",
+          "locations": [
+            {
+              "name": "New",
+              "x": -9,
+              "y": 124,
+              "z": 74,
+              "dim": -30,
+              "radius": -1
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Them Some Ill Ores, Bro!",
+          "longDescription": "You\u0027re going to need some ilmenite to make orion drives for the astro miner. Five of them, to be exact. If you find one, I\u0027ll give you four. I should double-emphasize that digging straight down an asteroid is seriously dangerous business! You also want some good ranged weaponry for when you try to jump onto a new asteroid. Mobs spawn like crazy on to the top of asteroids. Holy hand grenades or somehow getting arrows with knockback will help. Also, a knockback melee weapon when you land on the asteroid will seriously help out. Don\u0027t try to use a digital miner for this; it can\u0027t detect the stuff. You\u0027re going to have to knock around some asteroids to find this stuff. Finally, YOU NEED SILK TOUCH to mine the ore blocks. You need the complete ore blocks to make the Orion Drives.",
+          "items": [
+            {
+              "item": {
+                "id": "GalacticraftMars:tile.asteroidsBlock",
+                "damage": 4
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "GalacticraftMars:tile.asteroidsBlock",
+          "damage": 4,
+          "amount": 4
+        },
+        {
+          "id": "Mekanism:MachineBlock2",
+          "damage": 11,
+          "nbt": "{prevScale:1.0f,fluidTank:{FluidName:\"fuel\",Amount:14000}}"
+        },
+        {
+          "id": "GalacticraftCore:tile.fuelLoader"
+        },
+        {
+          "id": "ThermalExpansion:Cell",
+          "damage": 1,
+          "nbt": "{Recv:200,RSControl:1b,Facing:3b,Energy:400000,SideCache:[6 bytes],Send:200}"
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

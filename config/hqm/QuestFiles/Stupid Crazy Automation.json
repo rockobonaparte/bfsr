@@ -1,0 +1,1447 @@
+{
+  "name": "Stupid Crazy Automation",
+  "description": "This is a chapter mostly dedicated to Applied Energistics, a support mod that turns your base into a automated tech lab for everything. You generally end up just standing in front of one spot and fire everything off from there. It can store all your stuff very compactly, and automatically craft things as you need them. We will go all the way with the item storage and autocrafting in this chapter.",
+  "quests": [
+    {
+      "name": "Applied Energistics",
+      "description": "The Applied Energistics 2 (hearby known as \"AE2\" is a crazy storage and automation Minecraft mod. You could set this up with a bunch of your machines to make everything for you before you even need it, automatically. People on servers who are into this tend to turn into the IT Guy. It\u0027s seriously nuts. But for today, we\u0027re just going to exploit storage. Imagine instead of all these stupid chests that all your items were stored on hard disks, and you could get them and craft with them from a single computer? You can!",
+      "x": 69,
+      "y": 13,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiMaterial"
+      },
+      "prerequisites": [
+        "{Vanilla Minecraft}[*MINE*craft]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Normal AE2 requires going on a scavenger hunt for a bunch of crap to really get into it. Instead, just show me some AE2 Certus Quartz and I\u0027ll give you the stuff that would require hours of hunting around.",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 15
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 14
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 13
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 19
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 1,
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Processing Logic",
+      "description": "Many of the recipes require various processors. I gave you all the forms for them in the intro quest. You will need to build a press and then use the templates to make the processors. The important thing to know is when a recipe calls for a processor, it\u0027s always the same material and press as these: engineering \u003d diamond, calculation \u003d certus quartz, logic \u003d gold, and silicon \u003d ...silicon.",
+      "x": 144,
+      "y": 14,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiMaterial",
+        "damage": 22
+      },
+      "prerequisites": [
+        "Applied Energistics"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Inscriber",
+          "longDescription": "Build an inscriber. You\u0027ll need some sticky pistons, which are derived from slime. This inscriber will produce all these processors.",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockInscriber"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Logic Processor",
+          "longDescription": "Run some gold through with the logic press, then some silicon through with the silicon press. Then put the two pieces in the two main slots without a press. Add some redstone in the middle slot and it will inscribe you an actual processor. Isn\u0027t that how you make chips in the real world? I have people in the industry, and they tell me all that stuff about hydrochloric acid and laser etching is just a front for smashing gold and burnt quartz together.",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 22
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 22,
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "Data Cables",
+      "description": "AE2\u0027s machines are connected together into what is called a \"Material Energy^3 Network,\" or \"ME Network\" for short. The basic data cable for this will connect up to 8 AE2 devices at once. You can then make more sophisticated cables to handle more devices, but you will need to build a controller to facilitate more than 8 on one network. We\u0027re just starting out with an \"ad hoc\" network.",
+      "x": 121,
+      "y": 48,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiPart",
+        "damage": 16
+      },
+      "prerequisites": [
+        "Applied Energistics"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "I suppose you shouldn\u0027t be too surprised by the number of people in IT that like AE2. It\u0027s just like their day job, except monsters literally do blow up on them! Fun fact: My manager tried this mod pack as part of a teambuilding exercise, and he literally dug himself into a hole he couldn\u0027t escape. I can\u0027t make this stuff up!",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiPart",
+                "damage": 16
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:item.ItemMultiPart",
+          "damage": 16,
+          "amount": 4
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 3,
+          "amount": 4
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 2,
+          "amount": 4
+        },
+        {
+          "id": "appliedenergistics2:tile.BlockCharger"
+        }
+      ]
+    },
+    {
+      "name": "Drive To Succeed",
+      "description": "An ME drive stores up to 10 storage cells. So you can plop 10 of those 1k drives in. This will let you store 41,600 instances spread across 630 items, depending on circumstance. It\u0027s something like having 23 chests in one space! Well, that\u0027s when you fill it up with storage cells. You\u0027ll start with your first one, although I will give you two more for putting up with this.",
+      "x": 132,
+      "y": 141,
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockDrive"
+      },
+      "prerequisites": [
+        "Your First Hard Drive"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "You\u0027re going to need two engineering processors to make this thing. You\u0027ll need to use the engineering press with diamonds to manufacture them.",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockDrive"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:tile.BlockSkyStone",
+          "amount": 8
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 1,
+          "amount": 8
+        },
+        {
+          "id": "appliedenergistics2:item.ItemBasicStorageCell.1k",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Your First Hard Drive",
+      "description": "We will make a 1K storage cell. All the storage cells can store only 63 unique items. The 1K storage cell can store 4160 items, spread across at most 63 unique items. Alternately, it can store something like 8128 instances of a single item. For our race to the moon, this is good enough. Consider putting all your logs and cobblestone somewhere else, like a Deep Storage Unit.",
+      "x": 150,
+      "y": 84,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemBasicStorageCell.1k"
+      },
+      "prerequisites": [
+        "Processing Logic",
+        "A Pain In ME Chest"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemBasicStorageCell.1k"
+              },
+              "precision": "FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 7,
+          "amount": 8
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 2,
+          "amount": 8
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 3,
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "A Terminal Condition",
+      "description": "You can\u0027t actually use this network without a terminal. We are going to build a crafting terminal. Not only will this show you everything stored inside your drives, but you can craft from it directly. You don\u0027t have to take everything out, do your stuff, and put it back in. No, you can do it right there in the built-in crafting grid!",
+      "x": 57,
+      "y": 121,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiPart",
+        "damage": 360
+      },
+      "prerequisites": [
+        "Accept My Love"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "The Basic Terminal",
+          "longDescription": "Technically, if you just make this terminal and hook it up to the network, you should be able to see your stuff. Well, after you supply power, of course!",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiPart",
+                "damage": 380
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "The Crafting Terminal",
+          "longDescription": "The little extra to make the crafting grid is totally worth it. You will now be spending most of your game staring at that terminal. If you are in multiplayer, it gets really funny because you think your friends have gone away to take a 10-minute dump, when they\u0027ve been just mucking around in the terminal the whole time.",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiPart",
+                "damage": 360
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:item.ItemBasicStorageCell.1k"
+        },
+        {
+          "id": "appliedenergistics2:tile.BlockEnergyCell"
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiPart",
+          "damage": 380
+        }
+      ]
+    },
+    {
+      "name": "I Need Some ME Time",
+      "description": "These are like the brains of an ME network. IT people would consider it more like a router. With a controller, you can handle more than 8 devices at a time. Connect power up to the controller, and it will power the rest of the network. Each side allows a cable out to as many devices as the cable supports. So with our basic cables, you can connect 8 devices out from each side individually. Assuming one side is being given power, that\u0027s 5 sides to spare, so you could operate 40 devices from this controller with basic cables.",
+      "x": 170,
+      "y": 135,
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockController"
+      },
+      "prerequisites": [
+        "Drive To Succeed",
+        "Stuck In Flux"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockController"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "extracells:storage.fluid"
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "Accept My Love",
+      "description": "Did I mention an ME network needs power? To feed it some of that RF juice, you will need an energy acceptor. Put that somewhere on the network and connect your power generators to it.",
+      "x": 93,
+      "y": 85,
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockEnergyAcceptor"
+      },
+      "prerequisites": [
+        "Purple Crystal Thingies"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockEnergyAcceptor"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:glowstone_dust",
+          "amount": 4
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 10,
+          "amount": 4
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 7,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Trade Deficit",
+      "description": "Import buses will attach to something with an inventory, and suck the inventory into your ME network\u0027s storage. We are showing you this fairly early because it\u0027s nice to be able to dump one of these on a chest or whatever you already have for storage, and have it automatically get imported into the network. It can save on running around. As you start connecting machines to your ME network, you will use these to import the machine\u0027s output into your network.",
+      "x": 192,
+      "y": 44,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiPart",
+        "damage": 240
+      },
+      "prerequisites": [
+        "Your First Hard Drive"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Getting Into Formation",
+          "longDescription": "A formation core is an import ingredient of import buses. Somehow, one logic processor can create two of these. I\u0027m not entirely sure how it cuts the processors in half. Maybe they\u0027re multicore?",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 43
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Start Importing",
+          "longDescription": "After creating the annihilation core, the rest is easy.",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiPart",
+                "damage": 240
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 44
+        }
+      ]
+    },
+    {
+      "name": "Trying To Go Export-Heavy",
+      "description": "You have hopefully made an import bus to bring things into your network. Now you can make an export bus to automatically take things out of your network. A very common example for this is by sticking one on the start of your ore processing rig, and then programming in the export bus all the ores that should automatically go out from it. Your network will then automatically process those ores as they come into the network. Actually, you probably want to stick a bunch of export buses on a chest and direct THAT into the ore processing, but details . . .",
+      "x": 239,
+      "y": 71,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiPart",
+        "damage": 260
+      },
+      "prerequisites": [
+        "I Need Some ME Time"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Annihilate! Exterminate!",
+          "longDescription": "Now you need *formation* cores. Seriously, these are kind of obnoxious because they look like annihilation cores, and you will probably screw it up. The secret is to get all this stuff into autocrafting as soon as possible!",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 43
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Getting Off The Bus",
+          "longDescription": "Toot! Toot! Now departing: Your ME network! Prepare the export bus!",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiPart",
+                "damage": 260
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 43
+        }
+      ]
+    },
+    {
+      "name": "Thinking About Autocrafting",
+      "description": "Getting basic autocrafting started is a very involved process. You need to set up a molecular assembler, but that\u0027s another quest. This is for setting up an autocrafting system. This is a series of crafting processors and crafting storage modules that calculate the steps for creating elaborate items. Having more crafting co-processors will allow you to run multiple crafting activities at once. You eventually want to do this, but you basically get one for free in your network. So what you need is crafting storage. We will start with a 4k module. You want to set a space aside around your network to eventually build this out. So long as you keep attaching more co-processors and storage in a rectoid block, you can expand it from one place. The best part is the entire block only takes one channel in your network.",
+      "x": 239,
+      "y": 153,
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockCraftingStorage",
+        "damage": 1
+      },
+      "prerequisites": [
+        "I Need Some ME Time"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Central Processing",
+          "longDescription": "Start with the base CPU. This is the basic crafting ingredient from which you create crafting storage modules and co-processors.",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockCraftingUnit"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Craft Room",
+          "longDescription": "One of these should get you started. Create a few more and you\u0027ll definitely be okay for the advanced quest. Actually, I\u0027ll just give you one!",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockCraftingStorage",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:tile.BlockCraftingStorage",
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Addressing The Assembly",
+      "description": "The molecular assembler handles automatic crafting in Applied Energistics 2. It is a mysterious, quantum crafting table. Or something. By itself, it is useless. What you need to do is attach ME interfaces on each side--sparing one side for an ME cable. The molecular assembler doesn\u0027t need an import bus to place the result back in the network. Each ME interface can handle logic for crafting a few things, so you can do a lot of crafting from one molecular assembler. You eventually will set up a whole array of them anyways.",
+      "x": 247,
+      "y": 127,
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockMolecularAssembler"
+      },
+      "prerequisites": [
+        "I Need Some ME Time"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Interface Center",
+          "longDescription": "ME interfaces are actually extremely versatile, and we\u0027re doing it a disservice here, but this is how I see it most often used. Slap one beside a molecular assembler and put patterns in it. Then it can instruct the assembler to make the necessary items.",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockInterface"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Learning Assembler",
+          "longDescription": "The molecular assembler will take care of the rest.",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockMolecularAssembler"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:tile.BlockMolecularAssembler"
+        },
+        {
+          "id": "appliedenergistics2:tile.BlockInterface"
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 52,
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "name": "More Possibilities",
+      "description": "A capacity card allows you to specify more things to filter in your ME devices. It will, for example, allow you to export more, different things from your export buses.",
+      "x": 275,
+      "y": 47,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiMaterial",
+        "damage": 27
+      },
+      "prerequisites": [
+        "Trying To Go Export-Heavy"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Your Biggest Card",
+          "longDescription": "So you know you have to make a basic card first . . . I hope. Then you do a little more and you get a capacity card.",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 27
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 25
+        }
+      ]
+    },
+    {
+      "name": "Controlling Emissions",
+      "description": "You probably want to control stuff leaving your network. These level emitters will take care of that. When your network has more or less of the given amount of the given item, it will toggle a redstone signal. You can use that to control ME interfaces, export buses, or anything that takes redstone inputs.",
+      "x": 228,
+      "y": 103,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiPart",
+        "damage": 280
+      },
+      "prerequisites": [
+        "I Need Some ME Time"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "I can think of two main ways I normally use these. First, if I get too much of some item, I can toggle an export bus to pump the excess into trash. Second, if I am short of some particular renewable resource, I can toggle an export bus or ME interface to make me more of it.",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiPart",
+                "damage": 280
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:item.ItemMultiPart",
+          "damage": 280
+        }
+      ]
+    },
+    {
+      "name": "Becoming Sensitive",
+      "description": "A redstone signal upgrade card in your devices will allow them to turn on and shut off based on a redstone signal. One *very important* use for this is piping excess into trash. If you have, say, infinite cobblestone going into your network, you can put this card in the import bus connecting to the cobblestone generator. Then, you can have a level emitter beside the import bus set to go off if there are more than 1000 cobblestone in your network. This will stop importing cobble once there are more than 1000 of them already in the network. Or maybe you have an export bus instead piping excess cobblestone into trash. Your call.",
+      "x": 216,
+      "y": 11,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiMaterial",
+        "damage": 26
+      },
+      "prerequisites": [
+        "Trade Deficit",
+        "Trying To Go Export-Heavy"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "You need a basic card, but then it\u0027s not so bad.",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 26
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 25
+        }
+      ]
+    },
+    {
+      "name": "Okay, Now That\u0027s Just Lazy",
+      "description": "So you can now tell your network to automatically make some stuff for you. What if you\u0027re too lazy to even do that? Maybe you just want it to make junk on its own. Well, you can use a crafting card upgrade to tell it to submit crafting jobs for you. However, you want to be smart about this. I heavily recommend using a level emitter signal to control it, or you might your network run off and blow all your resources making a million pickaxes or whatever.",
+      "x": 259,
+      "y": 99,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiMaterial",
+        "damage": 53
+      },
+      "prerequisites": [
+        "Addressing The Assembly"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "It almost seems funny to manually craft this thing. To be really meta about it, you should automate the crafting of these cards hahaha.",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 53
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 25
+        }
+      ]
+    },
+    {
+      "name": "Understanding The Patterns",
+      "description": "These are not Tinkers\u0027 Construct patterns. These are instructions on how to create things through your network. Now we\u0027re going to start using your network to automate using machines and craft things. This is some serious stuff here. Just to emphasize, you will now start seeing items in your network with \"Craft\" below them, and you can tell it to make them for you. You then go do other stuff and come back to find all your machines finished making it for you. Yeah. Serious.",
+      "x": 274,
+      "y": 154,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemEncodedPattern"
+      },
+      "prerequisites": [
+        "Thinking About Autocrafting",
+        "Addressing The Assembly"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "More Terminals",
+          "longDescription": "You need a pattern terminal to make patterns. Put that next to your crafting terminal. Yeah, lots of terminals. It gets worse.",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiPart",
+                "damage": 340
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "The Patterns",
+          "longDescription": "Now you need patterns. A few words on this. The pattern terminal by default will have a crafting grid. You can tell it that it can turn anything to anything. It doesn\u0027t know. You have to have the ingredients in the network already. Lay it out and save the pattern. To the right you can turn it to \"machine mode.\" At this point, it lets you do whatever. It has no idea. But, for example, you could put a potato in the grid, and a baked potato in one of the three outputs. Save the pattern, and put that pattern in an interface plugged into a redstone furnace. Now your network can turn potatoes into baked potatoes, on-demand, from the terminal!",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 52
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 52,
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "Stuck In Flux",
+      "description": "The ME controller in particular needs pure fluix crystals. This is an annoying and time-consuming problem . . . that we will soon improve! Until then, you have to throw fluix seeds in water and let them sit there for a long time. Like, minutes and minutes on end. You want to get started on this!",
+      "x": 56,
+      "y": 76,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiMaterial",
+        "damage": 12
+      },
+      "prerequisites": [
+        "Purple Crystal Thingies"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Getting Dusty",
+          "longDescription": "You have to grind down a fluix crystal using something. The pulverizer, crusher, or SAG mill can all take care of it it\u0027s like nothing.",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Yes, A \"Seed.\"",
+          "longDescription": "Combine that dust with a sand to make a seed.",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemCrystalSeed",
+                "damage": 1200,
+                "nbt": "{progress:1200}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "longDescription": "Throw the seed in some water and walk away. It won\u0027t despawn. It will take a long time to turn into a fully-grown crystal, though. Think, 20 minutes or more. We will speed this up in the next quests.",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 12
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 12,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Faster, Daddy.",
+      "description": "Even a single crystal growth accelerator will speed up the growth rates of seeds in a way you\u0027ll feel right away. I think it can take making seeds down to five minutes or so. The important thing is you can go do something else, come back, and usually find they\u0027re done. You have to set it down beside the water used for growing stuff, so this has to be part of the wall of your crystal growing spot. You need to connect and ME cable, and your ME network has to have the juice to run it.",
+      "x": 21,
+      "y": 135,
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockQuartzGrowthAccelerator"
+      },
+      "prerequisites": [
+        "Stuck In Flux"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "You give me one, I\u0027ll give you one!",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockQuartzGrowthAccelerator"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:tile.BlockQuartzGrowthAccelerator"
+        }
+      ]
+    },
+    {
+      "name": "Woah, Daddy! Wooooah!",
+      "description": "You know, even those accelerators are too slow for full automation. They also require babysitting. You are the baby! Why are you doing the babysitting?! So use something from the \"AE2 Stuff\" mod. I know, it\u0027s a descriptive name. This crystal growth chamber eats this stuff for breakfast. You can also pipe seeds in and extract finished crystals automatically.",
+      "x": 23,
+      "y": 102,
+      "icon": {
+        "id": "ae2stuff:Grower"
+      },
+      "prerequisites": [
+        "Faster, Daddy."
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "ae2stuff:Grower"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:tile.BlockFluix",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "It\u0027s Okay To Be Dense",
+      "description": "If you have an ME controller, then you are probably worrying about channels. To get the most of your network, you want to connect dense cables to your controller, and have them branch out to regular cables. A dense cable can handle 32 devices total. A regular cable can handle 8 devices. Start with a fluix cable and then dye them. Dyed cables only connect to their own color, or fluix. This helps keep things sane.",
+      "x": 177,
+      "y": 173,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiPart",
+        "damage": 76
+      },
+      "prerequisites": [
+        "I Need Some ME Time"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Start With The Universal",
+          "longDescription": "You could stop with the basic fluix cable, but they constantly want to connect to each other, creating loops and messing up the network.",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiPart",
+                "damage": 76
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Life In Black And White",
+          "longDescription": "You can dye these cables all kinds of colors. However, I can be pretty sure you can do at least black and white, and they contrast each other very well! You can make black cables from charcoal and white cables from bonemeal. Note: put the charcoal in a crafting grid to get graphite, and then use that as the black pigment.",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiPart",
+                "damage": 75
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiPart",
+                "damage": 60
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Don\u0027t Forget The Little Guy",
+          "longDescription": "You\u0027ll want some similar colors at the ends to contrast those connections too when you drop down to regular cables.",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiPart",
+                "damage": 15
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiPart"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:item.ItemMultiPart",
+          "damage": 71,
+          "amount": 32
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiPart",
+          "damage": 11,
+          "amount": 32
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiPart",
+          "damage": 74,
+          "amount": 32
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiPart",
+          "damage": 14,
+          "amount": 32
+        }
+      ]
+    },
+    {
+      "name": "Making Things Slippery",
+      "description": "Oh hey, now let\u0027s autocraft stuff that involves fluids! Why not! A fun thing to do with this is automatically create alloys from smelted metals. Or you can work with recipes that involves buckets of stuff.",
+      "x": 292,
+      "y": 121,
+      "icon": {
+        "id": "extracells:fluidcrafter"
+      },
+      "prerequisites": [
+        "Getting More Fluid",
+        "Addressing The Assembly"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "The Interface",
+          "longDescription": "You start with an ME interface, and then you augment it with some stuff from the Extra Cells mod. You should have this down by now.",
+          "items": [
+            {
+              "item": {
+                "id": "extracells:ecbaseblock"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "The Assembler",
+          "longDescription": "Ditto for the assembler. You start with a regular one and augment it a little. I think it\u0027s funny it needs blue dye. Color matters! Remember the trick that you can wrap one of these on multiple sides with multiple interfaces to get more crafting possibilities out of a single assembler.",
+          "items": [
+            {
+              "item": {
+                "id": "extracells:fluidcrafter"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:tile.BlockInterface"
+        },
+        {
+          "id": "appliedenergistics2:tile.BlockMolecularAssembler"
+        }
+      ]
+    },
+    {
+      "name": "Getting More Fluid",
+      "description": "Thanks to the Extra Cells mod, you can also store fluids in your network! That means you can put stuff in your network like water! Ahh, water\u0027s boring. Let\u0027s store blood! Or milk. Yes, milk. Definitely milk. Blood.",
+      "x": 246,
+      "y": 14,
+      "icon": {
+        "id": "extracells:storage.fluid",
+        "damage": 1
+      },
+      "prerequisites": [
+        "Trying To Go Export-Heavy",
+        "Trade Deficit"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Yes, Another Stupid Terminal",
+          "longDescription": "If you actually want to know what is one your drives, you will need a fluid terminal. This also lets you import and export fluid into your network through an inventory slot that takes buckets or fluid tanks.",
+          "items": [
+            {
+              "item": {
+                "id": "extracells:part.base",
+                "damage": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Riding Around With A Tank",
+          "longDescription": "Get used to these tanks. You need them for all the fluid drives.",
+          "items": [
+            {
+              "item": {
+                "id": "extracells:certustank"
+              },
+              "required": 3
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Driving Me Crazy",
+          "longDescription": "Let\u0027s go for the 4k cell. Why not. That way, you might actually get a few different types of fluids in it. You know, like blood. Blood.",
+          "items": [
+            {
+              "item": {
+                "id": "extracells:storage.fluid",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "extracells:storage.fluid",
+          "damage": 1
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 10,
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "Pulling Items Out Of Your Butt",
+      "description": "Now for wireless access. This wireless terminal doesn\u0027t have the crafting grid that the crafting terminal has, but it\u0027s an easy way to quickly put things into and take things out of inventory. Later, you can use it to trigger crafting jobs once we have autocrafting.",
+      "x": 128,
+      "y": 186,
+      "icon": {
+        "id": "appliedenergistics2:item.ToolWirelessTerminal",
+        "nbt": "{internalMaxPower:1600000.0d,internalCurrentPower:1600000.0d}"
+      },
+      "prerequisites": [
+        "Secure In Your Belongings"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Mother Of Fluix Pearl",
+          "longDescription": "Fluix pearls are obnoxious to make (right now). You need an ender pearl surrounded by fluix crystal and fluix crystal dust. That\u0027s a lot of tough stuff to get, but pay attention! You will be making a lot of these for The Philadelphia Experiment!",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 9
+              },
+              "required": 2
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Phoning Home",
+          "longDescription": "You need the wireless transmitter connected to your ME network. You need your security terminal connected to the network too. Run the wireless terminal through the security terminal and it will be bound to that network. To supply it power, run the wireless receiver through a capacitor bank as given in the Electrical Power capacitor bank quest. There are a few other ways, but that\u0027s the official way I\u0027m giving you here.",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockWireless"
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ToolWirelessTerminal"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:ender_pearl",
+          "amount": 2
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 7,
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Taking Charge",
+      "description": "It can get obnoxious to look for charged certus quartz. If you have some fluix quartz, and a source of power, you can get much more. Heck, with the kind of power you\u0027re putting out, you could probably charge up all the certus quartz you had without a problem.",
+      "x": 26,
+      "y": 74,
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockCharger"
+      },
+      "prerequisites": [
+        "Stuck In Flux"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "Connect this to your ME network, and it will draw power from it to charge regular quartz. This will turn it into charged certus quartz. Just right-click it with regular certus to insert it.",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockCharger"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 7,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Secure In Your Belongings",
+      "description": "The ME security terminal won\u0027t stop people from physically destroying your network, but you can use it to restrict who can or can\u0027t use it. This isn\u0027t entirely that useful with troll people on the Internet. You are probably not playing with those people, so you probably don\u0027t care. The reason to care is you can use it to set up wireless access to your network. That means you can run around your base and check all its inventory.",
+      "x": 28,
+      "y": 186,
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockSecurity"
+      },
+      "prerequisites": [
+        "A Pain In ME Chest"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockSecurity"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:ender_pearl",
+          "amount": 2
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 7,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Encompassing Meteors",
+      "description": "Let\u0027s say you\u0027re playing a modpack that isn\u0027t this one, and you have to find all the goofy presses for making processors for this mod. They\u0027re normally buried in meteors in the Overworld. Where? Who knows! You need to make this very special compass to find them. I would add a second quest forcing you to prove you did it, but you have been spared because this quest book mod keeps crashing when I try to put in the quest to detect the necessary stuff. So this is scout\u0027s honor, right? You\u0027ll do it, right? Right?",
+      "x": 38,
+      "y": 43,
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockSkyCompass"
+      },
+      "prerequisites": [
+        "Applied Energistics"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "People complain about meteor hunting because this compass only tells you when you\u0027re closing. It\u0027s still a lot of stupid digging. However, we have TRICKS. Follow the direction that compass gives you until it spins. Then press F9. You\u0027ll see all this goofy grid stuff show up. That\u0027s telling you what Minecraft chunk you\u0027re in. The compass will spin if you\u0027re in a chunk that has part of a meteor. Now, for some tricks. Try nearby chunks. If it spins for only the one you\u0027re in, then dig in the exact center of that chunk, and you\u0027ll probably find it. If it spins between only two chunks, the dig down at the middle of those two chunk boundaries. If it spins between four chunks, then dig down at the intersection where all those chunks meet. Doing this will save you a lot of fuss. Just remember that digging *straight* down is a Minecraft no-no!",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockSkyCompass"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "denseores:block2",
+          "damage": 9
+        }
+      ]
+    },
+    {
+      "name": "Inscription Reads, \"Advanced.\"",
+      "description": "The advanced inscriber, in my opinion, requires far too much stuff for being an inscriber that you\u0027d actually like to automate using. It\u0027s a shame, really. You see, the base inscribers require you connect to specific sides to automate them. You can do this, but it\u0027s just kind of messy. This machine does it better. Much better. You can go any side you want. I think it\u0027s faster too! I set one of these up for each type of AE2 processor core, and then a final one to assembler processors. This lets me autocraft processors, which I think you can appreciate now!",
+      "x": 245,
+      "y": 186,
+      "icon": {
+        "id": "ae2stuff:Inscriber"
+      },
+      "prerequisites": [
+        "Processing Logic"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Just Make One",
+          "longDescription": "If you slave yourself away making just one, I\u0027ll give you four more. Then you can get going on advanced autocrafting.",
+          "items": [
+            {
+              "item": {
+                "id": "ae2stuff:Inscriber"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ae2stuff:Inscriber",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "The 64k Question",
+      "description": "This is an advanced quest. Using your automated ME network, poop out 64k storage cells like they\u0027re hotcakes. That\u0027s it. You\u0027ll need to set up layers and layers of patterns, automate CPU creation, and have some ore processing to keep things moving.",
+      "x": 289,
+      "y": 183,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiMaterial",
+        "damage": 38
+      },
+      "prerequisites": [
+        "Understanding The Patterns",
+        "Inscription Reads, \"Advanced.\""
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "Yeah, you *could* do this manually, but you\u0027d kill yourself out of boredom. That\u0027s not the idea. Automate this!",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemBasicStorageCell.64k"
+              },
+              "required": 6
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:item.ItemBasicStorageCell.64k",
+          "amount": 6
+        }
+      ]
+    },
+    {
+      "name": "Taking The Bus To The Store",
+      "description": "The storage bus connects the network to outside storage. You could connect it to a chest and see the inventory on your terminal. You might think that\u0027s kind of stupid, and you\u0027d be right! The storage bus connects to anything that servers as storage. Try it on your drawer controller. You\u0027re welcome. It can also connect to deep storage units, so you can have banks of really huge storage of single things.",
+      "x": 180,
+      "y": 15,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiPart",
+        "damage": 220
+      },
+      "prerequisites": [
+        "Processing Logic"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "In classic Applied Energistics, you\u0027d go straight to drives, but they kind of drew out the progression in AE2, so it\u0027s often smarter to take this intermediate step.",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiPart",
+                "damage": 220
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 22,
+          "amount": 2
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Purple Crystal Thingies",
+      "description": "Fluix crystals are a tricky beast in the early game. You need to throw a CHARGED certus quartz crystal in a block of water along with a nether quarts and one redstone dust. It\u0027ll zap itself into two of these crystals. Some advanced recipes require them, and we do not need them right away. However, getting this stuff is annoying, and I want you thinking about it.",
+      "x": 92,
+      "y": 59,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiMaterial",
+        "damage": 7
+      },
+      "prerequisites": [
+        "Applied Energistics"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Scout\u0027s Honor",
+          "longDescription": "You can probably get these from later quest rewards, so it\u0027s up to you to put the time in to figure out how to make these yourself. Just to repeat, you do not make these from a crafting table. You have to throw stuff in a puddle of water. Drop it out of your inventory or use the drop item key (\u0027q\u0027 by default).",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 7
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 1
+        },
+        {
+          "id": "minecraft:quartz"
+        },
+        {
+          "id": "minecraft:redstone"
+        }
+      ]
+    },
+    {
+      "name": "A Pain In ME Chest",
+      "description": "You can get a head start on using storage in Applied Energistics 2 if you make an ME chest. This can hold a single drive and lets you inspect it. In truth, this is a pretty weak way to use the mod, since that is not much better than regular storage. However, you need to make the chest to eventually access your storage wireless from anywhere near your base, so you might as well get started on it now.",
+      "x": 85,
+      "y": 162,
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockChest"
+      },
+      "prerequisites": [
+        "A Terminal Condition",
+        "Data Cables"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "A Tingle In My Chest",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockChest"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:item.ItemMultiPart",
+          "damage": 16,
+          "amount": 2
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 7
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiPart",
+          "damage": 380
+        }
+      ]
+    },
+    {
+      "name": "Speed It Up, Man!",
+      "description": "You can improve the performance of your ME devices with an acceleration card. However, they\u0027re kind of tough to make, and I\u0027m ashamed to mention these so soon. You see, it requires advanced cards, which are harder to make than--you guessed it--basic cards. Still, the most common upgrade I use are acceleration upgrades, so they get the full treatment now.",
+      "x": 209,
+      "y": 70,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiMaterial",
+        "damage": 30
+      },
+      "prerequisites": [
+        "Trade Deficit"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "She Plays All Her Cards",
+          "longDescription": "The advanced card is terrible to make. It requires a calculation processor, which isn\u0027t a big deal. However, then you have to stud it with a pair of diamonds. For that much effort, you\u0027d think you were proposing to marry you\u0027re ME network! Actually . . .",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 28
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Flooring It",
+          "longDescription": "After all that work, you just slap a fluix crystal on the card and get an acceleration card for your troubles. This should help if you have a bottleneck getting things in and out of your network.",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 30
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:diamond",
+          "amount": 2
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 7
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

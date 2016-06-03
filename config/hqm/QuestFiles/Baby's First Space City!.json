@@ -1,0 +1,366 @@
+{
+  "name": "Baby\u0027s First Space City!",
+  "quests": [
+    {
+      "name": "Welcome To BFSR!",
+      "x": 36,
+      "y": 25,
+      "icon": {
+        "id": "minecraft:sign"
+      },
+      "reward": [
+        {
+          "id": "minecraft:dirt",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "The Nursery",
+      "x": 174,
+      "y": 119,
+      "icon": {
+        "id": "props:props",
+        "damage": 240
+      },
+      "prerequisites": [
+        "Make The Safety Rattle!"
+      ],
+      "tasks": [
+        {
+          "type": "LOCATION",
+          "locations": []
+        }
+      ],
+      "reward": [
+        {
+          "id": "customnpcs:npcMoney"
+        }
+      ]
+    },
+    {
+      "name": "Make The Safety Rattle!",
+      "x": 80,
+      "y": 26,
+      "icon": {
+        "id": "bfsr:genericItem"
+      },
+      "prerequisites": [
+        "Welcome To BFSR!"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": []
+        }
+      ],
+      "reward": [
+        {
+          "id": "bfsr:genericItem"
+        }
+      ]
+    },
+    {
+      "name": "The Dad Bar!",
+      "x": 173,
+      "y": 68,
+      "icon": {
+        "id": "props:props",
+        "damage": 116
+      },
+      "prerequisites": [
+        "The Nursery"
+      ],
+      "tasks": [
+        {
+          "type": "LOCATION",
+          "locations": []
+        }
+      ],
+      "reward": [
+        {
+          "id": "customnpcs:npcMoney"
+        }
+      ]
+    },
+    {
+      "name": "Overworld Portal",
+      "x": 140,
+      "y": 121,
+      "icon": {
+        "id": "minecraft:grass"
+      },
+      "prerequisites": [
+        "The Nursery"
+      ],
+      "tasks": [
+        {
+          "type": "LOCATION",
+          "locations": []
+        }
+      ],
+      "reward": [
+        {
+          "id": "customnpcs:npcMoney"
+        }
+      ]
+    },
+    {
+      "name": "Community Storage",
+      "x": 174,
+      "y": 155,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiPart",
+        "damage": 360
+      },
+      "prerequisites": [
+        "The Nursery"
+      ],
+      "tasks": [
+        {
+          "type": "LOCATION",
+          "locations": []
+        }
+      ],
+      "reward": [
+        {
+          "id": "customnpcs:npcMoney"
+        }
+      ]
+    },
+    {
+      "name": "Abandoned Nuclear Plant",
+      "x": 141,
+      "y": 171,
+      "icon": {
+        "id": "chisel:warningSign"
+      },
+      "prerequisites": [
+        "Overworld Portal"
+      ],
+      "tasks": [
+        {
+          "type": "LOCATION",
+          "locations": []
+        }
+      ],
+      "reward": [
+        {
+          "id": "customnpcs:npcMoney"
+        }
+      ]
+    },
+    {
+      "name": "Abandoned Factory",
+      "x": 269,
+      "y": 119,
+      "icon": {
+        "id": "chisel:factoryblock"
+      },
+      "prerequisites": [
+        "Smeltery Demo"
+      ],
+      "tasks": [
+        {
+          "type": "LOCATION",
+          "locations": []
+        }
+      ]
+    },
+    {
+      "name": "The Moonbase Demo",
+      "x": 173,
+      "y": 29,
+      "icon": {
+        "id": "GalacticraftCore:item.spaceship"
+      },
+      "prerequisites": [
+        "The Dad Bar!"
+      ],
+      "tasks": [
+        {
+          "type": "LOCATION",
+          "locations": []
+        }
+      ],
+      "reward": [
+        {
+          "id": "customnpcs:npcMoney"
+        }
+      ]
+    },
+    {
+      "name": "Shopping",
+      "x": 104,
+      "y": 83,
+      "icon": {
+        "id": "MineFactoryReloaded:plastic.bag"
+      },
+      "prerequisites": [
+        "The Nursery"
+      ],
+      "tasks": [
+        {
+          "type": "LOCATION",
+          "locations": []
+        }
+      ],
+      "reward": [
+        {
+          "id": "customnpcs:npcMoney"
+        }
+      ]
+    },
+    {
+      "name": "Resource Exchange",
+      "x": 70,
+      "y": 82,
+      "icon": {
+        "id": "customnpcs:npcMoney"
+      },
+      "prerequisites": [
+        "Shopping"
+      ],
+      "tasks": [
+        {
+          "type": "LOCATION",
+          "locations": []
+        }
+      ],
+      "reward": [
+        {
+          "id": "customnpcs:npcMoney"
+        }
+      ]
+    },
+    {
+      "name": "Tree Farm Demo",
+      "x": 41,
+      "y": 107,
+      "icon": {
+        "id": "MineFactoryReloaded:machine.0",
+        "damage": 2
+      },
+      "prerequisites": [
+        "Portal Room"
+      ],
+      "tasks": [
+        {
+          "type": "LOCATION",
+          "locations": []
+        }
+      ],
+      "reward": [
+        {
+          "id": "customnpcs:npcMoney"
+        }
+      ]
+    },
+    {
+      "name": "Passive Nuclear Reactors",
+      "x": 38,
+      "y": 137,
+      "icon": {
+        "id": "BigReactors:BRReactorPart",
+        "damage": 3
+      },
+      "prerequisites": [
+        "Portal Room"
+      ],
+      "reward": [
+        {
+          "id": "customnpcs:npcMoney"
+        }
+      ]
+    },
+    {
+      "name": "Turbine-Cooled Reactors",
+      "x": 38,
+      "y": 171,
+      "icon": {
+        "id": "BigReactors:BRTurbineRotorPart"
+      },
+      "prerequisites": [
+        "Portal Room"
+      ],
+      "tasks": [
+        {
+          "type": "LOCATION",
+          "locations": []
+        }
+      ],
+      "reward": [
+        {
+          "id": "customnpcs:npcMoney"
+        }
+      ]
+    },
+    {
+      "name": "Portal Room",
+      "x": 114,
+      "y": 118,
+      "icon": {
+        "id": "rftools:matterTransmitterBlock"
+      },
+      "prerequisites": [
+        "Overworld Portal"
+      ],
+      "tasks": [
+        {
+          "type": "LOCATION",
+          "locations": []
+        }
+      ],
+      "reward": [
+        {
+          "id": "customnpcs:npcMoney"
+        }
+      ]
+    },
+    {
+      "name": "Smeltery Demo",
+      "x": 223,
+      "y": 121,
+      "icon": {
+        "id": "TConstruct:Smeltery"
+      },
+      "prerequisites": [
+        "The Nursery"
+      ],
+      "tasks": [
+        {
+          "type": "LOCATION",
+          "locations": []
+        }
+      ],
+      "reward": [
+        {
+          "id": "customnpcs:npcMoney"
+        }
+      ]
+    },
+    {
+      "name": "The Sandbox",
+      "x": 142,
+      "y": 65,
+      "icon": {
+        "id": "minecraft:sand"
+      },
+      "prerequisites": [
+        "The Nursery"
+      ],
+      "tasks": [
+        {
+          "type": "LOCATION",
+          "locations": []
+        }
+      ],
+      "reward": [
+        {
+          "id": "customnpcs:npcMoney"
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}

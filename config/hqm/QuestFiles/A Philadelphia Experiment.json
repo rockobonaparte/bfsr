@@ -1,0 +1,1698 @@
+{
+  "name": "A Philadelphia Experiment",
+  "description": "The Philadelphia Experiment is some tinfoil conspiracy folklore that the US government tried to teleport a ship from one harbor to another. As the story goes, they actually succeeded, but the result was sailors with their torsos poking out of the floors of the ships, screaming for their lives. ANYWAYS, start hoarding ender pearls, because we\u0027re going to be teleporting too! Yaaay! We\u0027ll go to strange places, enter machines that break space-time, create new dimensions, and ... store ourselves.",
+  "quests": [
+    {
+      "name": "Your Ultimate Getaway",
+      "description": "The Last Millenium is a great place to remember how to spell \"millennium\" BECAUSE THEY SPELL IT WRONG!!! Beyond that, it is a monster-free, blank space where you are free to build your base in completely lazy comfort. This requires some ender pearls, but is oddly not too resource-intensive. The dyes, however, are unconventional, and you must actively work towards getting all this junk if you want to make the portal. One catch: If you choose to go back to the overworld, it will take you back to the world spawn, not where where you placed the portal.",
+      "x": 285,
+      "y": 68,
+      "icon": {
+        "id": "ExtraUtilities:dark_portal",
+        "damage": 2
+      },
+      "prerequisites": [
+        "{Go To Hell}[Nether Quartz]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "A Task To Dye For",
+          "longDescription": "You need some purple and magenta dyes. Get your mittens on some rose red, bone meal, and lapis lazuli.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:dye",
+                "damage": 13
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:dye",
+                "damage": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "The Portal",
+          "longDescription": "Don\u0027t forget the ender pearls! Once you make this thing, slap it down somewhere and right-click to enter. You can right-click on a block in the starting spot once you have beamed over to return. Use the chunkloader I give as a reward to keep the area running when you go back to the overworld/whatever to do things.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:dark_portal",
+                "damage": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "LOCATION",
+          "description": "The End Of Time",
+          "longDescription": "Time for a field trip! Oh, um, by the way, don\u0027t fall off the edge! And also, remember when you return, it\u0027s dropping you off at world spawn!",
+          "locations": [
+            {
+              "name": "The Last Millenium",
+              "icon": {
+                "id": "xreliquary:lantern_of_paranoia"
+              },
+              "x": 60,
+              "y": 66,
+              "z": -63,
+              "dim": -112,
+              "radius": 3
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ChickenChunks:chickenChunkLoader"
+        }
+      ]
+    },
+    {
+      "name": "Deep Dork",
+      "description": "The deep dark is a dangerous place that isn\u0027t that much better of a place to be in this pack than other places. However, in other packs, it\u0027s worth trying. Hell, there is a survival pack that starts you here! You have to know it\u0027s very easy to die in it. Darkness actually hurts, and you have to bring tons of torches. The monsters are strong too. Also, there are holes in the world. I am not making it sound appealing, but it\u0027s fun to try at least once.",
+      "x": 281,
+      "y": 109,
+      "icon": {
+        "id": "ExtraUtilities:dark_portal"
+      },
+      "prerequisites": [
+        "{Bear Grylls\u0027 Poop Menu}[Dividing By Diamond]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Quadruple Compressed Cob",
+          "longDescription": "This requires 4 quadruple-compressed cobblestone.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:cobblestone_compressed",
+                "damage": 3
+              },
+              "required": 4
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Quintuple Compressed Cob",
+          "longDescription": "I did not pay too much attention to the quintiuple-compressed cobblestone requirement when I built this the first time. So I got blown sky-high when I tried to make the portal when I did not have one. This thing needs some unstable ingots, so you really need to make sure you have everything straight before you build it.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:cobblestone_compressed",
+                "damage": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "The Portal",
+          "longDescription": "Finally, the portal. This requires unstable ingots. Again, these will blow you up if you don\u0027t handle them quickly enough! You want to set up a crafting table 20-30+ blocks away from your base, get all your stuff arranged together, and do this very quickly! We are talking 10 seconds here!",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:dark_portal"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ExtraUtilities:magnumTorch"
+        },
+        {
+          "id": "OpenBlocks:ropeladder",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "Pearl Diving",
+      "description": "Ender pearls are pretty obnoxious to get in vanilla Minecraft, and gate the end game part, if you are into that kind of thing. A lot of mods use ender pearls as ingredients. Artifice provides ender ore. It is strange stuff. I cannot tell you exactly where it generates, but I think it has a chance of generating when endermen spawn or teleport underground. I have good luck finding it around Y\u003d12 in lava caves.",
+      "x": 118,
+      "y": 51,
+      "icon": {
+        "id": "Artifice:item.artifice.resource",
+        "damage": 2
+      },
+      "prerequisites": [
+        "{Tools and Toys}[Mining Like The Romans]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Pearls Before Swine",
+          "longDescription": "Hey, just find it once and I\u0027ll feed you a pile of ender pearls.",
+          "items": [
+            {
+              "item": {
+                "id": "Artifice:item.artifice.resource",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:ender_pearl",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "Pearls Before Swine",
+      "description": "In vanilla Minecraft, there are tall, skinny black aliens called endermen that pop up particularly at night. They don\u0027t care about you... unless you look at them. Then they go nuts. They hate water and sunlight and attempt to escape both. They can also teleport all over the place. They drop these green ender pearls when you kill them. You can also make them from ender dust from ender ore thanks to the Artifice mod. If you throw one with a right-click, it will teleport you where it lands. A lot of mods then decided to use ender pearls as a major ingredient of teleportation gear. You had best start stockpiling some.",
+      "x": 131,
+      "y": 89,
+      "icon": {
+        "id": "minecraft:ender_pearl"
+      },
+      "prerequisites": [
+        "{Tools and Toys}[The Long-Jump Sword]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Show Me Four Pearls",
+          "longDescription": "The easiest way in the early-game to get ender pearls here is through ender ore, or mugging a few endermen if you can hid in a two-block-high murder hole. In the advanced game, you can set up a mob farm to spawn them and autokill them. You\u0027ll be swimming in them at that point.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:ender_pearl"
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:ender_pearl",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Swimming Through Spacetime",
+      "description": "You can melt down ender pearls into resonant ender. Note that I sometimes refer to it as \"fluid ender\" because as a memory trick, I learned it was just melted down ender pearls. The stuff isn\u0027t hot, or rather there\u0027s no really way to tell. Whenever you jump in the stuff, it just beams you somewhere nearby. Fluid ender can be used to cool off a Big Reactor. It is also a component for enderium, which is a very powerful alloy.",
+      "x": 78,
+      "y": 51,
+      "icon": {
+        "id": "ThermalFoundation:FluidEnder"
+      },
+      "prerequisites": [
+        "Pearls Before Swine"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Melt And Pump",
+          "longDescription": "**The smeltery cannot smelt ender pearls from lava!**. You can look into hotter fuels like pyrotheum. Better yet, you\u0027re become a Big Baby now, so you can try a magma crucible. This will melt just about anything for just a little RF. Then you transfer the fluid ender to a bucket using a fluid transposer. The magma crucible may be kind of rough to make right away.",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalExpansion:Machine",
+                "damage": 4,
+                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[6 bytes],Level:3b,Augments:[0:{Slot:0,id:5667s,Count:1b,Damage:0s},1:{Slot:1,id:5667s,Count:1b,Damage:32s},2:{Slot:2,id:5667s,Count:1b,Damage:16s}]}"
+              },
+              "precision": "NBT_FUZZY"
+            },
+            {
+              "item": {
+                "id": "ThermalExpansion:Machine",
+                "damage": 5,
+                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[6 bytes],Level:3b,Augments:[0:{Slot:0,id:5667s,Count:1b,Damage:0s},1:{Slot:1,id:5667s,Count:1b,Damage:32s},2:{Slot:2,id:5667s,Count:1b,Damage:16s}]}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Ender In A Bucket",
+          "longDescription": "If you put the machines side-by-side, you can configure the crucible to pump directly into the transposer. Then you don\u0027t have to do any plumbing. Get me some of this in a bucket.",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:buckets",
+                "damage": 23
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:ender_pearl",
+          "amount": 2
+        },
+        {
+          "id": "TConstruct:materials",
+          "damage": 9,
+          "amount": 8
+        },
+        {
+          "id": "ThermalFoundation:material",
+          "damage": 72,
+          "amount": 8
+        },
+        {
+          "id": "minecraft:netherrack",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "This Is A Tess",
+      "description": "The tesseract is an end-game conduit. It transmits across infinite space--including into other dimensions! It has theoretically infinite transfer rates for items, fluids, and power. You should be reaching the point where making these is kind of a casual thing. After this, you will still use conduit in some places to logically organize things, but you\u0027ll start using tesseracts for your big stuff. One of the big places to park one is on an import bus into your ME network. You bring another one in your travels and you can unload into your base at any time! However, if you want two different places to communicate with each other, they have to both be within your player\u0027s general range, or you have to use chunk loaders to keep the space they\u0027re in active!",
+      "x": 43,
+      "y": 29,
+      "icon": {
+        "id": "ThermalExpansion:Frame",
+        "damage": 11
+      },
+      "prerequisites": [
+        "Ender Is Forever",
+        "Swimming Through Spacetime"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Framing A Crime",
+          "longDescription": "The parts for a tesseract are generally useless until you reach the end stage, but the device is so powerful that it was warranted necessary to break crafting one into three parts. You will start with a tesseract frame. This will require some serious materials: enderium, a diamond, and some hardened glass. You should have all the equipment to make all this stuff now. Note: You can use a variety of special glasses, but the hardened glass is among the cheapest and easiest to make.",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalExpansion:Frame",
+                "damage": 10
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Full Of It",
+          "longDescription": "Fill that empty frame with 1,000mb of resonant ender. That may be a full bucket, but it require 4 ender pearls.",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalExpansion:Frame",
+                "damage": 11
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "This Concludes Our Tess",
+          "longDescription": "We are not done! You have to now encase that filled frame with bronze and silver. Now, when you make the thing, you are not done, because you need at least two of these to get anything out of them! I will give you one! They have to be set to the same channel, and have one has to be receiving where the other is sending if you want anything to move between them.",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalExpansion:Tesseract",
+                "nbt": "{RSControl:1b,ModeEnergy:1b,ModeItems:1b,Frequency:-1,ModeFluid:1b}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:ender_pearl",
+          "amount": 8
+        },
+        {
+          "id": "minecraft:diamond"
+        },
+        {
+          "id": "minecraft:obsidian",
+          "amount": 2
+        },
+        {
+          "id": "TConstruct:materials",
+          "damage": 13,
+          "amount": 4
+        },
+        {
+          "id": "ThermalExpansion:Tesseract",
+          "nbt": "{RSControl:1b,ModeEnergy:1b,ModeItems:1b,Frequency:-1,ModeFluid:1b}"
+        }
+      ]
+    },
+    {
+      "name": "Stating Things Compactly",
+      "description": "So let\u0027s talk about compact machines. This mod let\u0027s you create little pocket dimensions inside cubes where you can set up some machines. For example, you could put an entire ore processing rig in one, and just tuck the machine in the corner. It comes with a chunk loader, so stuff happening inside the machine will keep happening even if you leave it automatically. There are a few downsides. One, you have to put this machine exactly where you want it, because everything inside spills out if you move the machine (unless you feed it a nether start... really). Second, It sure does eat up an awful lot of materials to make. I think the big-sized machines are the best bang-for-your-buck. You can run a tree farm inside of one.",
+      "x": 97,
+      "y": 20,
+      "icon": {
+        "id": "CompactMachines:machine",
+        "damage": 3
+      },
+      "prerequisites": [
+        "{Vanilla Minecraft}[Diamonds!]"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Lots Of Atom Stuff",
+          "longDescription": "Get used to these atom modules. You need six of them each as base ingredients of every compact machine.",
+          "items": [
+            {
+              "item": {
+                "id": "CompactMachines:shrinker"
+              },
+              "required": 6
+            },
+            {
+              "item": {
+                "id": "CompactMachines:enlarger"
+              },
+              "required": 6
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "World Resizing Cube",
+          "longDescription": "The world resizing cube is your common block for all compact machines. You then stud it in other resources to make which tier of machine you want.",
+          "items": [
+            {
+              "item": {
+                "id": "CompactMachines:resizingcube"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Going For The Big One",
+          "longDescription": "Now you stud that machine block in obsidian, and it will make the \"big\" one.",
+          "items": [
+            {
+              "item": {
+                "id": "CompactMachines:machine",
+                "damage": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Your Very Own Shrink",
+          "longDescription": "Not done yet! You need to make a personal shrinking device to actually enter the machine and set up stuff. Once you do, right-click the machine with the shrinking device and it will take you there. You can then use a wrench on the ports on each side to change which side does what. This will let you put things into and take things out of your machine.",
+          "items": [
+            {
+              "item": {
+                "id": "CompactMachines:psd"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:diamond",
+          "amount": 4
+        },
+        {
+          "id": "minecraft:slime_ball",
+          "amount": 8
+        },
+        {
+          "id": "minecraft:iron_ingot",
+          "amount": 16
+        },
+        {
+          "id": "CompactMachines:machine",
+          "damage": 5
+        }
+      ]
+    },
+    {
+      "name": "Construct Additional Pylons",
+      "description": "Now we get into spatial storage. Applied Energistics lets you set up a frame of which anything you put inside gets stores as a space. If you set up teleporters, you can even store yourself! There are four major components. First, you need a special kind of storage module to store physical space. Second, you need to make a frame out of pylons. Third, you need enough energy cells to power the operation. Beware, it can take a lot of energy cells. Finally, you have to set up a spatial drive with a toggle to start the operation.",
+      "x": 213,
+      "y": 138,
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockSpatialPylon"
+      },
+      "prerequisites": [
+        "Applied Energistic\u0027s Pearl"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Physical Space",
+          "longDescription": "The 16-cubed device let\u0027s you store a full chunk\u0027s worth space, 16 blocks high. So to be exact, it can contain 16 blocks in all directions. This is a reasonable size for using for various things. However, if you\u0027re just teleporting a mob spawner or something, the basic 2-cubed is good enough.",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemSpatialStorageCell.16Cubed"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Pylons",
+          "longDescription": "You must build a frame out of pylons to denote the space you\u0027re trying to store. This doesn\u0027t have to fully encompass the volume. It doesn\u0027t even need to cover all sides. However, you have to move out from one corner into the three majors directions representing the cube. Separate each direction with an ME cable; don\u0027t run the pylons directly around corners.",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockSpatialPylon"
+              },
+              "required": 48
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Big Old Energy Cell",
+          "longDescription": "This operation gobbles up lots of power. Note, the MORE pylons you use, the LESS energy you need. That being said, prepare for the worst and make the biggest energy storage cell you can muster.",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockDenseEnergyCell"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "The Spatial IO Port",
+          "longDescription": "Put the 16^3 drive in this IO port, and stuck a button on it. If you set up everything right--including the power--the stuff inside the volume should disappear into storage. If you set up some teleporters and also maybe a chunk loader, you could go inside of it!",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockSpatialIOPort"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:tile.BlockSpatialPylon",
+          "amount": 96
+        },
+        {
+          "id": "appliedenergistics2:item.ItemSpatialStorageCell.128Cubed"
+        },
+        {
+          "id": "appliedenergistics2:tile.BlockDenseEnergyCell",
+          "amount": 3,
+          "nbt": "{internalMaxPower:1600000.0d,internalCurrentPower:1600000.0d}"
+        }
+      ]
+    },
+    {
+      "name": "This Drink Takes You Places",
+      "x": 86,
+      "y": 123,
+      "icon": {
+        "id": "MineFactoryReloaded:plastic.cup"
+      },
+      "prerequisites": [
+        "Pearls Before Swine"
+      ]
+    },
+    {
+      "name": "Extreme Bro Teleportation",
+      "description": "Do you even teleport?!",
+      "x": 71,
+      "y": 91,
+      "icon": {
+        "id": "MineFactoryReloaded:straw"
+      },
+      "prerequisites": [
+        "This Drink Takes You Places"
+      ]
+    },
+    {
+      "name": "You Summoned My Battleship!",
+      "description": "Admiral Luna thinks this whole thing is some folklore from Baby\u0027s First Space Academy, but it\u0027s VERY REAL. You have in your possession a spatial drive storing the spatial-compacted ship from the myth. It can be reconstituted in our reality within a spatial storage grid we have been hinting at here. The ship is 48 blocks long, 40 blocks high, and 16 blocks across. You can use a larger grid to be safe. You want to do this a safe distance from your base, and BE READY FOR WAR! The ship is crewed by mind-warped former sailors, and THEY ARE ARMED. I am not talking \"slash slash slash\" here. I\u0027m talking \"pow pow pow boom\" here!",
+      "x": 283,
+      "y": 173,
+      "icon": {
+        "id": "minecraft:boat"
+      },
+      "prerequisites": [
+        "Discount Self-Storage",
+        "Forming A Supercell"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "The Plans",
+          "longDescription": "The former captain has some plans on him we would love to have recovered. What are in the plans? We have no idea. We\u0027re not even sure if we can read them. He will helm the ship from the upper deck. In life, he enjoyed automatic weapons. In the afterlife... he still enjoys automatic weapons.",
+          "items": []
+        },
+        {
+          "type": "DETECT",
+          "description": "I Don\u0027t Even",
+          "longDescription": "Crucial to early attempts at spatial storage were these red orbs. It turned out what we did with them was dumb, dumb, dumb. There\u0027s a stash of them near the nuclear reactor. Don\u0027t get any ideas. Just try to bring one back to us so we can see what happened to them.",
+          "items": []
+        },
+        {
+          "type": "DETECT",
+          "description": "The Key To... What?",
+          "longDescription": "Sure, we could blow a hole in any chest or vault or whatever that was locked all these years. The thing is we don\u0027t know where to look. The key is more important for us to tell where to raid for original plans on the experiment. Admiral Luna would have a field day.",
+          "items": []
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:beacon"
+        },
+        {
+          "id": "minecraft:ender_pearl",
+          "amount": 64
+        },
+        {
+          "id": "TConstruct:heartCanister",
+          "damage": 6,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Discount Self-Storage",
+      "description": "Apparently, there are some Buddhist monks that will stuff themselves in a burial chamber, eat nothing but honey for a long time, then mummify themselves before they die for some crazy reason. We\u0027re going to do something similarly crazy! Applied Energistics\u0027 spatial storage allows you to store yourself! Don\u0027t forget to pack a way out! You set up a spatial storage array with an IO port. Toggle that port once you have power and storage--while you are inside of it--and poof! I would recommend not placing the way back until you have stored yourself because some stuff doesn\u0027t teleport across space correctly . . . include certain teleporters. :(",
+      "x": 247,
+      "y": 116,
+      "icon": {
+        "id": "minecraft:chest"
+      },
+      "prerequisites": [
+        "Construct Additional Pylons"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Making Space For Yourself",
+          "longDescription": "You need a spatial IO port, a 16x16x16 spatial drive, and some way to toggle the IO port. I just slap a button on it. When I want to store myself, I just reach over the pylons and tap it. I\u0027m surprised my arm doesn\u0027t get ripped off when I do that hehehe.",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockSpatialIOPort"
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemSpatialStorageCell.16Cubed"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "LOCATION",
+          "description": "Self-Storage",
+          "longDescription": "Before you take the trip, I\u0027d recommend laying out some cobblestone in the chamber so you can build off of it. The default void space doesn\u0027t let you place any blocks, so even if you get all the important stuff into your inventory, you can\u0027t place any of it! Anyways, you need to set up some pylons in three different directions so it knows the region you\u0027re beaming up. The pylons should have a cable connecting them all together in one corner; pylons themselves are just little girders themselves that can only go out in one dimension. If you run a pylon into one going another direction, the whole spatial storage region goes down. You know you have it right when you see the purplish color of the pylons turn redder. You will want to make something like a 4x4x4 space so you can fit yourself, some teleports, and power into the space.",
+          "locations": [
+            {
+              "name": "New",
+              "x": 1,
+              "y": 66,
+              "z": 5,
+              "dim": 9,
+              "radius": -1
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "bfsr:genericItem"
+        },
+        {
+          "id": "appliedenergistics2:item.ItemSpatialStorageCell.128Cubed"
+        },
+        {
+          "id": "appliedenergistics2:tile.BlockDenseEnergyCell",
+          "amount": 32,
+          "nbt": "{internalMaxPower:1600000.0d,internalCurrentPower:1600000.0d}"
+        },
+        {
+          "id": "appliedenergistics2:tile.BlockSpatialPylon",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "Living In The Spectrum",
+      "description": "Safe spaces are all the rage these days. The Random Things mod delivers with the Spectral Dimension. This is a quiet little place only you can personally retreat to in order to build a nice little hiding hole. Combined with compact machines, you get a pretty sweet little hiding place here. I mean, the dimension only gives you a personal 16x16x16 space, but it\u0027s an especially great place to stash stuff early in the game. I love this key when I am in \"gypsy mode.\" Sometimes I Just can\u0027t find the perfect base, but I can pretty easily make this key and camp somewhere when I need to do some machine stuff. By the way, only you can be inside your own little spectral dimension. If you invite other players in, they\u0027ll get whisked out. No griefers for you!",
+      "x": 286,
+      "y": 25,
+      "icon": {
+        "id": "RandomThings:spectreKey"
+      },
+      "prerequisites": [
+        "{Vanilla Minecraft}[Iron Man]"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "It\u0027s A Slimer",
+          "longDescription": "Oddly enough, this will probably be the hardest thing to get. By default, mobs will turn into spirits at a rate of 1% or so. These things zip around arbitrarily and are really hard to nab. But hey, if you do, you get some of this... usually. Apparently the rate improves with different phases of the moon. Also, it doesn\u0027t care what kind of mob, so you might set up a little chicken farm just to murder the little buggers for some ectoplasm. Hey! Sometimes to make an omelette you have to break some eggs!",
+          "items": [
+            {
+              "item": {
+                "id": "RandomThings:ingredient",
+                "damage": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Ingot On A Stick",
+          "longDescription": "Combine that ectoplasm with some iron and you\u0027ll get a spectre iron ingot you can put on a stick. That\u0027s your key. Hold down the use button on your mouse (right-click by default) for a little bit and it will whisk you away! Use it again to get sent back. It\u0027s reusable, so do not fret.",
+          "items": [
+            {
+              "item": {
+                "id": "RandomThings:spectreKey"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "RandomThings:ingredient",
+          "damage": 3
+        },
+        {
+          "id": "CompactMachines:machine",
+          "damage": 4
+        }
+      ]
+    },
+    {
+      "name": "Ender Is Forever",
+      "description": "Enderium is a serious material. It is used for very advanced, end-game kind of things. For one, tesseracts want them. For another, they are a fantastic Big Reactor turbine coil material; they dramatically outpace electrum and are only beaten by ludicrite, which is a ridiculous material to hunt down. Tools and weapons made from them are also extremely powerful.",
+      "x": 42,
+      "y": 79,
+      "icon": {
+        "id": "ThermalFoundation:Storage",
+        "damage": 12
+      },
+      "prerequisites": [
+        "Swimming Through Spacetime"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Fluid Powder Power",
+          "longDescription": "Let\u0027s talk about the basic ingredients here. This is an alloy made from 4:2:1:1 ender pearls:tin:silver:platinum. Platinum may be called \"shiny metal\" depending on what you use. The ender pearls come in as a single bucket of resonant ender. For all this effort, you get for resonant ender dusts, which make four ingots.",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalFoundation:material",
+                "damage": 37
+              },
+              "precision": "ORE_DICTIONARY"
+            },
+            {
+              "item": {
+                "id": "ThermalFoundation:material",
+                "damage": 34
+              },
+              "precision": "ORE_DICTIONARY"
+            },
+            {
+              "item": {
+                "id": "ThermalFoundation:material",
+                "damage": 34
+              },
+              "required": 2,
+              "precision": "ORE_DICTIONARY"
+            },
+            {
+              "item": {
+                "id": "ThermalFoundation:bucket",
+                "damage": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Touchy Little Ingots",
+          "longDescription": "Run that dust through something to get some ingots. Just cooking them up in a furnace is enough. You won\u0027t be doubling these yields!",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalFoundation:material",
+                "damage": 76
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:ender_pearl",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Drunk Dialing",
+      "description": "We established that you use the dimension enscriber to configure new dimensions. We did not specify how. The way to configure a dimension is to arrange \"dimlets\" inside of the enscriber to describe various aspects of this universe. This follows a specific syntax that I will not delve into here. You see, you can just skip all that and let it come up with something completely crazy! Who knows what you\u0027ll get! You might want to be your BFSR rattle to get out in a jiffy if it\u0027s really bad! Also, bring a matter transmitter and some power to it. Also, a dialing device as a backup might be smart! You need to be able to beam back home somehow! The new dimension only has a matter receiver to let you in.",
+      "x": 83,
+      "y": 190,
+      "icon": {
+        "id": "rftools:dialingDeviceBlock"
+      },
+      "prerequisites": [
+        "Seeing From A New Dimension"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "A Blank Expression",
+          "longDescription": "You\u0027ll need an empty dimension tab that the enscriber can enscribe.",
+          "items": [
+            {
+              "item": {
+                "id": "rftools:emptyDimensionTab"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Realizing Something",
+          "longDescription": "Program the empty tab without any extra dimlets. Just let the escriber knock itself out! You will then have to bring it to the dimension builder and have it build it. You will then have to set up your matter transformer to point to the receiver in the new dimension. Fun fact: The enscriber will create the same random dimension over and over unless you put *some* dimlet in the enscriber. I am giving you digit dimlets so you can make a few random dimensions.",
+          "items": [
+            {
+              "item": {
+                "id": "rftools:realizedDimensionTab"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "rftools:knownDimlet",
+          "damage": 14,
+          "nbt": "{dkey:\"0\",ktype:\"d\"}"
+        },
+        {
+          "id": "rftools:knownDimlet",
+          "damage": 15,
+          "nbt": "{dkey:\"1\",ktype:\"d\"}"
+        },
+        {
+          "id": "rftools:knownDimlet",
+          "damage": 16,
+          "nbt": "{dkey:\"2\",ktype:\"d\"}"
+        },
+        {
+          "id": "rftools:emptyDimensionTab"
+        }
+      ]
+    },
+    {
+      "name": "A Dim Outlook",
+      "x": 89,
+      "y": 161,
+      "icon": {
+        "id": "rftools:knownDimlet",
+        "damage": 354,
+        "nbt": "{dkey:\"Beach\",ktype:\"B\"}"
+      },
+      "prerequisites": [
+        "{Electrical Power}[Power Starts With Redstone]",
+        "Seeing From A New Dimension"
+      ]
+    },
+    {
+      "name": "Blowing Chunks",
+      "description": "Let\u0027s talk about chunks. They are 16x16 regions in the Minecraft world that is uses to sort and organize world data. If you press F9, you can see where these boundaries are. They go infinitely up and done inside those regions, so the area is the only part that really matters. When chunks generally go out of view by walking away or going to another dimension, everything happening in that chunk just freezes. So if you wanted a huge thing to happen while you went somewhere else, that would explain why it didn\u0027t happen while you were gone. You can get around this with chunk loaders. If you put one of these down in the area you want to keep active, everything in that chunk will keep moving and running. Now, if you spray these everywhere, your game might grind to a halt because the game has to do all the math constantly for these chunks. You want to use them sparingly--especially on servers!",
+      "x": 139,
+      "y": 19,
+      "icon": {
+        "id": "ChickenChunks:chickenChunkLoader"
+      },
+      "prerequisites": [
+        "{Vanilla Minecraft}[Diamonds!]"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Super Chunky",
+          "longDescription": "This guy will give you a big, centralized chunk loader that can work in a circular or square chunk area. This is particularly useful for large areas, but the lack of precision means you will probably keep some chunks loaded that you don\u0027t care about.",
+          "items": [
+            {
+              "item": {
+                "id": "ChickenChunks:chickenChunkLoader"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Little Chunks",
+          "longDescription": "If you put that chunk loader in a crafting grid, you get 10 little ones. They call these \"spot loaders.\" put one in each chunk in a place you can remember them. They\u0027re tiny so it\u0027s easy to forget where they are! This little guys let you be more precise. Honestly, you shouldn\u0027t normally need more than four of these in a huge base, plus one or two here and there for stuff like your moon base and other outposts in the multiverse.",
+          "items": [
+            {
+              "item": {
+                "id": "ChickenChunks:chickenChunkLoader",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:diamond"
+        },
+        {
+          "id": "minecraft:obsidian",
+          "amount": 4
+        },
+        {
+          "id": "minecraft:ender_pearl",
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "Eye Have Got An Adventure",
+      "description": "The Eye of Ender is a Vanilla Minecraft object added to try to get some kind of endering to the game. You can toss them with a right-click, and they\u0027ll fly out in the direction of the nearest underground stronghold. You can either make a bunch of these and just follow where they go until they crash right into the ground in front of you, or you can have two tops, toss them a couple hundred blocks apart, and use a linear intersection formal to triangulate where the stronghold is. I do that latter because I am a giant dork. A lot of people that play modded Minecraft have never even gone through all this trouble, but you at least need to make a for eyes of ender for *very advanced* crafting recipes in some mods.",
+      "x": 188,
+      "y": 22,
+      "icon": {
+        "id": "minecraft:ender_eye"
+      },
+      "prerequisites": [
+        "Pearls Before Swine"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Going Down In A Blaze",
+          "longDescription": "Combine an ender pearl with blaze powder. If blaze powder is scarce for you, look at recipes for creating it, and you\u0027ll find some machines can more efficiently crunch down blaze rods into powder.",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:ender_eye"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:ender_eye",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "Return To Ender",
+      "description": "So Vanilla Minecraft has something like 3 strongholds within 1km of the Overworld spawn. If you start heading out in a direction, you can start sending out Eyes of Ender with a right click, and watching where they fly. Note the direction they go in, and check underneath them to see if they come back to the ground. Sometimes they just go *poof*. Again, you can do that linear intersection calculation from just two attempts like I do, but with modded Minecraft, vomiting these magical Eyes of Ender out is good enough. The goal is to get to the dimension called \"The End.\" Yeah, it\u0027s because Minecraft was set up to end there. There\u0027s a dragon there that will trigger a Minecraft ending sequence (that is really strange). Don\u0027t worry, you can keep playing afterwards. Doing this doesn\u0027t have much value. The one perk is that the end stone in that dimension grows ender lilies ridiculously fast.",
+      "x": 238,
+      "y": 20,
+      "icon": {
+        "id": "EnderIO:blockEndermanSkull"
+      },
+      "prerequisites": [
+        "Eye Have Got An Adventure"
+      ],
+      "tasks": [
+        {
+          "type": "LOCATION",
+          "description": "The Beginning Of The End",
+          "longDescription": "So you get to the stronghold, and you plug in some of the portal bases with spare eyes of ender to activate the portal. Not so fast! This is a rough fight. Well, people do it in Vanilla. I did it wearing a pumpkin, which keeps the endermen from getting mad at me, and using an infinity bow. You can gear up just a little bit better than that and be in good shape. You need to shoot out the crystals on top of the towers because they restore the dragon\u0027s health. Then you can plink away on him. Enderium equipment will do this highly effectively. If you\u0027re on a server, somebody might have already done all this, so I can only check that you made it to The End at all.",
+          "locations": [
+            {
+              "name": "New",
+              "icon": {
+                "id": "minecraft:ender_eye"
+              },
+              "x": 18,
+              "y": 86,
+              "z": 33,
+              "dim": 1,
+              "radius": -1
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "The End Of Stone",
+          "longDescription": "While you\u0027re here, take some end stone with you. Ender lilies grow like my madness on them!",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:end_stone"
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ExtraUtilities:plant/ender_lilly",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:dragon_egg"
+        }
+      ]
+    },
+    {
+      "name": "An Ender-Game Weapon",
+      "description": "Thanks to the ExtraTiC mod, enderium can be forged into weapons! It is some serious stuff. Let\u0027s say, a manullyn cleaver does +14 damage. An enderium *rapier* can do the same . . . and much faster! An enderium cleaver can do +30 damage! It might be smarter to do the rapier because that skips armor, is enough to one-shot most stuff on a critical hit, and hits very quickly. Also: You want to tip your arrows and bolts with this stuff too.",
+      "x": 26,
+      "y": 118,
+      "icon": {
+        "id": "TConstruct:rapier",
+        "nbt": "{InfiTool:{BaseDurability:1539,Head:189,BaseAttack:18,Built:1b,HarvestLevel:8,Attack:18,RenderHead:189,ModDurability:0.0f,Handle:189,Broken:0b,Shoddy:0.0f,RenderHandle:189,Accessory:189,MiningSpeed:2300,RenderAccessory:189,Unbreaking:1,Damage:0,BonusDurability:0,TotalDurability:1539,Modifiers:3},display:{Name:\"§fEnderium Rapier\"}}"
+      },
+      "prerequisites": [
+        "Ender Is Forever"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Ending To The Parts",
+          "longDescription": "You know the deal. I can\u0027t check you made the specific weapon yadda yadda, but I can test you tried!",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraTiC:toolrod",
+                "damage": 189
+              }
+            },
+            {
+              "item": {
+                "id": "ExtraTiC:crossbar",
+                "damage": 189
+              }
+            },
+            {
+              "item": {
+                "id": "ExtraTiC:swordBlade",
+                "damage": 189
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ThermalFoundation:material",
+          "damage": 76,
+          "amount": 2
+        },
+        {
+          "id": "TConstruct:BoltPart",
+          "damage": 189,
+          "nbt": "{DualMat:{Material2:2}}"
+        },
+        {
+          "id": "minecraft:ender_pearl",
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Forming A Supercell",
+      "description": "My friends, we are reaching the REAL end of this modpack. This is some serious stuff here. We are going to try to warp in a 48x16x30 ship from spatial storage. Do you know the kind of resources this requires? If you do this naively with just pylons going in the major directions once, you\u0027ll need tens of thousands of energy cells to power this mess. To improve on this, we need to lay out more and more and more pylons. I will describe this in better detail in the quest reward. The important thing is you need lots of dense energy cells, and lots of pylons. I\u0027m talking over 1,000 of them! And that\u0027s just to get the number of dense energy cells you need below 30!",
+      "x": 242,
+      "y": 168,
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockDenseEnergyCell",
+        "nbt": "{internalMaxPower:1600000.0d,internalCurrentPower:1600000.0d}"
+      },
+      "prerequisites": [
+        "Construct Additional Pylons"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Pocket Full Of Pylons",
+          "longDescription": "You make 250 of them, and I\u0027ll give you a cool 1,000 more! This is a good time to go into the Stupid Crazy Automation chapter and look up autocrafting...",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockSpatialPylon"
+              },
+              "required": 250
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Charge!!!",
+          "longDescription": "Yeah, gonna need a pile of cells too. I mean the dense ones here. None of that weeny regular energy cell business!",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockDenseEnergyCell"
+              },
+              "required": 15
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:tile.BlockDenseEnergyCell",
+          "amount": 20
+        },
+        {
+          "id": "ExtraUtilities:golden_bag",
+          "nbt": "{items_53:{id:193s,Count:64b,Damage:0s},items_52:{id:400s,Count:1b,Damage:0s},items_44:{id:4958s,Count:1b,tag:{dkey:\"tile.appliedenergistics2.OreQuartz\",ktype:\"m\"},Damage:132s},items_2:{id:193s,Count:64b,Damage:0s},items_1:{id:193s,Count:64b,Damage:0s},items_0:{id:193s,Count:64b,Damage:0s},items_6:{id:193s,Count:64b,Damage:0s},items_5:{id:193s,Count:64b,Damage:0s},items_4:{id:193s,Count:64b,Damage:0s},items_3:{id:193s,Count:64b,Damage:0s},items_9:{id:193s,Count:64b,Damage:0s},items_27:{id:193s,Count:64b,Damage:0s},items_8:{id:193s,Count:64b,Damage:0s},items_7:{id:193s,Count:64b,Damage:0s},items_18:{id:193s,Count:64b,Damage:0s},items_35:{id:4958s,Count:1b,tag:{dkey:\"tile.oreRedstone\",ktype:\"m\"},Damage:40s},items_45:{id:193s,Count:64b,Damage:0s},items_36:{id:193s,Count:64b,Damage:0s}}"
+        }
+      ]
+    },
+    {
+      "name": "Let\u0027s Mek A Teleporter!",
+      "description": "If you have made the digital miner, you are tooled to make this teleporter. It requires chunkloading too, and it is pretty resource intensive. However, if you have the stuff for it, then whatever. I\u0027m not going to guide you through the tedium of making this like I did with the digital miner. I\u0027m more focused on using it. You need a frame made of 9 teleporter frame blocks, and one teleporter core at the bottom. You make two of these, set up their frames and set them to the same channel. Poof! You have a teleporter.",
+      "x": 250,
+      "y": 74,
+      "icon": {
+        "id": "Mekanism:MachineBlock",
+        "damage": 11
+      },
+      "prerequisites": [
+        "{A Post-Scarcity Economy}[With Alloys Like These . . .]"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "This Should Keep You Busy",
+          "longDescription": "This requires a lot of the same advanced alloys and ingredients you had to make for the digital miner. Good luck! I\u0027ll be over here with a second set of teleporter parts so you can actually try it out!",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:BasicBlock",
+                "damage": 7
+              },
+              "required": 9
+            },
+            {
+              "item": {
+                "id": "Mekanism:MachineBlock",
+                "damage": 11
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Mekanism:BasicBlock",
+          "damage": 7,
+          "amount": 9
+        },
+        {
+          "id": "Mekanism:MachineBlock",
+          "damage": 11
+        }
+      ]
+    },
+    {
+      "name": "What\u0027s The Matter?",
+      "description": "Welcome to RFTools teleporters. Even if you decide to generally teleport yourself around through some other means for day-to-day stuff, you will need to make some of these for using the RFTools dimension building feature. What is that? Glad you asked! You can set up a device to create a parallel universe with all kinds of goofy differences and explore it to your hearts content. It could be a flat world, an empty sky world, an alien deathscape, floating islands, and oceans of liquid cocaine! Umm, regarding that last one, it seems to happen a lot if you install MineChem. It\u0027s not in this pack. :p",
+      "x": 125,
+      "y": 161,
+      "icon": {
+        "id": "rftools:matterReceiverBlock"
+      },
+      "prerequisites": [
+        "Pearls Before Swine"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "In And Out",
+          "longDescription": "You need a matter receiver and a matter transmitter. They both require the same basic block, which isn\u0027t too hard to make. Then you use 3 ender pearls with some extra materials to make each of the pair. Transmitters put the pearls on top, and receivers put the pearls on the bottom. Connect them to your power setup. They won\u0027t help you until you get a dialer. I\u0027d also right-click each to give them unique names.",
+          "items": [
+            {
+              "item": {
+                "id": "rftools:matterReceiverBlock"
+              }
+            },
+            {
+              "item": {
+                "id": "rftools:matterTransmitterBlock"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Calling All Freaks",
+          "longDescription": "Make this dialer and power it too. Then you can set up teleportation from the matter transmitter to the matter receiver.",
+          "items": [
+            {
+              "item": {
+                "id": "rftools:dialingDeviceBlock"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:ender_pearl",
+          "amount": 6
+        },
+        {
+          "id": "minecraft:redstone",
+          "amount": 8
+        },
+        {
+          "id": "minecraft:iron_ingot",
+          "amount": 12
+        },
+        {
+          "id": "rftools:rfToolsManualDimensionItem"
+        }
+      ]
+    },
+    {
+      "name": "Life Is A Beach",
+      "description": "Hey, remember that dimension tab you got from the previous quest? Why don\u0027t you give that guy a spin? It\u0027s a great place! The water\u0027s warm! Okay, the *great* thing about is the mixture of beach and ocean biomes. You are looking for these little buildings out in the distance that give you extra dimlets that let you create more dimensions. Being able to paddle out to a bunch of them in a boat in flat ocean is a big deal!",
+      "x": 37,
+      "y": 187,
+      "icon": {
+        "id": "minecraft:sand"
+      },
+      "prerequisites": [
+        "Drunk Dialing"
+      ],
+      "tasks": [
+        {
+          "type": "LOCATION",
+          "locations": [
+            {
+              "name": "New",
+              "x": 8,
+              "y": 65,
+              "z": 8,
+              "dim": 8,
+              "radius": 10
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "rftools:knownDimlet",
+          "damage": 137,
+          "nbt": "{dkey:\"Peaceful\",ktype:\"X\"}"
+        },
+        {
+          "id": "rftools:knownDimlet",
+          "damage": 138,
+          "amount": 5,
+          "nbt": "{dkey:\"Efficiency\",ktype:\"X\"}"
+        }
+      ]
+    },
+    {
+      "name": "Spooky Action At A Distance",
+      "description": "Let\u0027s talk about quantum entanglement in AE2. You can create a remote portal to your ME network using a quantum entanglement chamber. Well, a \"ring\" would probably be a better definition after all is said and done. You will pipe a whole bunch of dense cable into it if you\u0027re trying to pass stuff back-and-forth through it. However, most of the time, a basic cable will suffice since all you want is to hit your terminal from some other place--like the moon.",
+      "x": 174,
+      "y": 158,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiMaterial",
+        "damage": 48
+      },
+      "prerequisites": [
+        "Applied Energistic\u0027s Pearl"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Cobblestone",
+          "longDescription": "The matter condenser will consume items and start preparing a singularity from them. The value it places on each item is always the same: 1. So why not use the cheapest gunk you can make... cobblestone! However, this is going to take quite a bit of cobblestone...",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:extractor_base"
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "ExtraUtilities:nodeUpgrade",
+                "damage": 2
+              },
+              "required": 4
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Lots Of Cobblestone",
+          "longDescription": "No, really, lots of cobblestone. 256,000 of them, to be exact. You need to speed this show up! Use some speed upgrades in the transfer nodes.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:nodeUpgrade"
+              },
+              "required": 10
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Lots Of Storage Too",
+          "longDescription": "You need a 64k storage module too. If you got to the advanced quest in the Applied Energistics 2 questline, then you can just queue up one of these babies and walk away.",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 38
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Condensing This All Down",
+          "longDescription": "The matter condenser will take care of that cobblestone. First, set it off of dispose mode into singularity mode. The matter ball mode is some fun you can have later; you can make little bullets and shoot stuff with them. But skip that. Insert the 64k cell in the TOP SLOT. DO THIS BY HAND. TAKE NO CHANCES OF IT ACCIDENTALLY DESTROYING THAT THING. Pipe in the cobblestone, and you should be able to see the cell fill up with \"energy.\" You can hover over it to tell.",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockCondenser"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "...After Some Minutes...",
+          "longDescription": "...You should have a singularity.",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 47
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Ender With A Bang",
+          "longDescription": "Now this is the strangest part. Dig yourself a little hole, drop the singularity in with an ender DUST, put some TNT next to it, and set it off. After the explosion, you should have two quantum entangled singularities. If you did the Boomtower quest, you can easily \"borrow\" some TNT for this.",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 48
+              },
+              "required": 2,
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ExtraUtilities:nodeUpgrade",
+          "amount": 15
+        },
+        {
+          "id": "MineFactoryReloaded:machine.1",
+          "damage": 3
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 47
+        },
+        {
+          "id": "minecraft:gold_ingot",
+          "amount": 32
+        }
+      ]
+    },
+    {
+      "name": "Entangled In ME Web.",
+      "description": "Getting those quantumly-entangled singularities was definitely the most tedious part of this process, but crafting the rings is going to eat up a lot of resources! You need 16 quantum rings and 2 quantum linking chambers. I will only ask for half of this and give you the other half. To set this up, you need to reserve some bandwidth on your ME network. I recommended evenly branching your network, and here you want to probably have a full branch dedicated to quantum entanglement. You probably want to keep most of your crafting happening at your home base, and ultimately just use a regular, 8-channel cable for the remote network. You can just punch in a terminal and do most of your stuff remotely.",
+      "x": 205,
+      "y": 185,
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockQuantumLinkChamber"
+      },
+      "prerequisites": [
+        "Spooky Action At A Distance"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Diamonds Diamonds Diamonds",
+          "longDescription": "I\u0027ll just ask for enough to make one of the rings and give you enough to build the second ring! I\u0027ll throw in some yellow cable so you have something distinct to show at least one of your connections between the networks. Anyways, you build a 3x3 hollow ring out of the quantum rings, slap the chamber in the center, and pop an entangled singularity inside the chamber\u0027s GUI. Once you do that on the remote end--and supply it power--you will link! You probably need chunk loaders to keep both ends alive, by the way!",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockQuantumRing"
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockQuantumLinkChamber"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:tile.BlockQuantumRing",
+          "amount": 8
+        },
+        {
+          "id": "appliedenergistics2:tile.BlockQuantumLinkChamber"
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiPart",
+          "damage": 64,
+          "amount": 16
+        },
+        {
+          "id": "ChickenChunks:chickenChunkLoader",
+          "damage": 1,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "Seeing From A New Dimension",
+      "description": "So maybe you want to go to some of these crazy dimensions. Very well. You need a dimension enscriber and a dimension builder. The enscriber configures the new dimension. The builder then creates it and powers it. Note that powering dimensions have different power costs, and they are more severe the more, well, over-powered the dimension is. Say, if you wanted to teleporting into diamond crystal land, then you\u0027re going to need a lot of juice!",
+      "x": 136,
+      "y": 191,
+      "icon": {
+        "id": "rftools:dimensionEnscriberBlock"
+      },
+      "prerequisites": [
+        "What\u0027s The Matter?"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "This is actually easier to make than the teleporters!",
+          "items": [
+            {
+              "item": {
+                "id": "rftools:dimensionEnscriberBlock"
+              }
+            },
+            {
+              "item": {
+                "id": "rftools:dimensionBuilderBlock"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "rftools:matterTransmitterBlock"
+        },
+        {
+          "id": "ThermalExpansion:Cell",
+          "damage": 1,
+          "nbt": "{Recv:200,RSControl:1b,Facing:3b,Energy:400000,SideCache:[6 bytes],Send:200}"
+        }
+      ]
+    },
+    {
+      "name": "Consulting My Travel Staff",
+      "description": "You can lay out travel anchors all over your base, or between bases, or wherever you want, and use the staff of travel when standing on them to beam between them. Remote travel anchors will become more visible when you standing on one, so it is easy to point yourself the right way. Note that JourneyMap lets you set waypoints on its map that you can jump to at will, but this is a nice method to use for close-in, fine-tuned travel, like in a large base.",
+      "x": 181,
+      "y": 63,
+      "icon": {
+        "id": "EnderIO:itemTravelStaff",
+        "nbt": "{Energy:250000}"
+      },
+      "prerequisites": [
+        "Pearls Before Swine"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "This Staff Is Tedious",
+          "longDescription": "The final step for making the staff isn\u0027t that bad. The soul binder is going to be a real pain, however. You need to start collecting heads, and specific ones! You may want to make yourself a Tinkers\u0027 Construct cleaver for this. Then you have to produce various alloys in an Ender IO alloy smelter. You have to make a crystal in that soul binder, and then it comes together. Is it worth it? Eventually. By the time your base is big enough to want one of these, you probably have the means to produce these things. Finally, you have the charge the thing. If you have a capacitor bank, then that\u0027s easy.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemTravelStaff",
+                "damage": 16,
+                "nbt": "{Energy:0}"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Creating Safe Harbors",
+          "longDescription": "Making the anchors are straight-forward in comparison. But seriously, each one requires a diamond. I think that\u0027s dumb, so if you build one of these, I\u0027ll give you five more!",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:blockTravelAnchor"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "EnderIO:blockTravelAnchor",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "Why Can\u0027t I Be Normal?",
+      "description": "Just about every mundane dimlet is craftable. So it\u0027s possible to make a dimension very similar to the Overworld without much work. Similarly, void dimensions and flat dimensions can be done from craftable dimlets. There\u0027s no point trying to explore for these particular ones.",
+      "x": 56,
+      "y": 142,
+      "icon": {
+        "id": "rftools:knownDimlet",
+        "damage": 366,
+        "nbt": "{dkey:\"Birch Forest Hills\",ktype:\"B\"}"
+      },
+      "prerequisites": [
+        "A Dim Outlook"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Material Needs",
+          "longDescription": "Use the default materials and liquids to get your regular stone/ore compositions and regular water/lava stuff. If you don\u0027t have these, your mundane dimension might end up being solid clay blocks with oceans of destabilized redstone. That\u0027s pretty cool, but it\u0027s probably not what you wanted!",
+          "items": [
+            {
+              "item": {
+                "id": "rftools:knownDimlet",
+                "damage": 24,
+                "nbt": "{dkey:\"None\",ktype:\"m\"}"
+              }
+            },
+            {
+              "item": {
+                "id": "rftools:knownDimlet",
+                "damage": 136,
+                "nbt": "{dkey:\"None\",ktype:\"L\"}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "The Sky Isn\u0027t Falling",
+          "longDescription": "You want to have the normal sky attributes if you want things to look right. Me? Sometimes I like to sneak in random planets and colors, but that\u0027s because I\u0027m a nut.",
+          "items": [
+            {
+              "item": {
+                "id": "rftools:knownDimlet",
+                "damage": 174,
+                "nbt": "{dkey:\"Normal Day\",ktype:\"s\"}"
+              }
+            },
+            {
+              "item": {
+                "id": "rftools:knownDimlet",
+                "damage": 173,
+                "nbt": "{dkey:\"Normal\",ktype:\"s\"}"
+              }
+            },
+            {
+              "item": {
+                "id": "rftools:knownDimlet",
+                "damage": 177,
+                "nbt": "{dkey:\"Normal Night\",ktype:\"s\"}"
+              }
+            },
+            {
+              "item": {
+                "id": "rftools:knownDimlet",
+                "damage": 224,
+                "nbt": "{dkey:\"Default\",ktype:\"W\"}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Controlling Terrain",
+          "longDescription": "The Default controller will approximate the Minecraft biome controller. It isn\u0027t going to necessarily produce all biomes, however. If you\u0027re making a dimension for your base, you might just want the Single controller. Just make sure to put a dimlet representing a biome in front of it. Otherwise, it will be some odd, random thing!",
+          "items": [
+            {
+              "item": {
+                "id": "rftools:knownDimlet",
+                "damage": 2,
+                "nbt": "{dkey:\"Single\",ktype:\"C\"}"
+              }
+            },
+            {
+              "item": {
+                "id": "rftools:knownDimlet",
+                "damage": 1,
+                "nbt": "{dkey:\"Default\",ktype:\"C\"}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Getting The Gang Together",
+          "longDescription": "If you are creating a dimension for your base, you might decide that you don\u0027t want mobs. However, if you create a mob farm that\u0027s supposed to work in the dark, then you\u0027re in trouble. Is the default mob dimlet to keep things regular. Furthermore, if you omit this dimlet, that doesn\u0027t mean it won\u0027t just throw in mobs anyways. You need the \"none\" dimlet. You can\u0027t craft that. :p",
+          "items": [
+            {
+              "item": {
+                "id": "rftools:knownDimlet",
+                "damage": 144,
+                "nbt": "{dkey:\"Default\",ktype:\"M\"}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "As Interesting As Wisconsin",
+          "longDescription": "You don\u0027t want a permanent effect in your dimension. I mean, regeneration might be fun, but that\u0027s a ton of extra RF, and you can\u0027t craft it! So you need the \"none\" effect dimlet. Features represent things like strongholds, fortresses, dungeons, and villages. They\u0027re nice to have, but if you are trying to control your dimension, you want to exclude them. Finally, the normal time dimlet makes sure everything grows at the normal rate. There\u0027s a fast time dimlet that\u0027ll make your crops go crazy, but it eats a ton of RF power. You also can\u0027t craft it!",
+          "items": [
+            {
+              "item": {
+                "id": "rftools:knownDimlet",
+                "damage": 273,
+                "nbt": "{dkey:\"None\",ktype:\"e\"}"
+              }
+            },
+            {
+              "item": {
+                "id": "rftools:knownDimlet",
+                "damage": 332,
+                "nbt": "{dkey:\"Normal\",ktype:\"t\"}"
+              }
+            },
+            {
+              "item": {
+                "id": "rftools:knownDimlet",
+                "damage": 256,
+                "nbt": "{dkey:\"None\",ktype:\"f\"}"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Alternative Terrains",
+          "longDescription": "Let\u0027s close off with two dimlets that are not normal, but are craftable. The flat world dimlet will give you a flat world like you\u0027d get in the Minecraft editor. However, I think it will give you ground all the way up at Y\u003d64, instead of putting you around Y\u003d3. Also, there\u0027s a void world that lets you have a skyblock. Don\u0027t worry! You will start on the same old platform you get whenever you warp into a new dimension. I personally like to use the flat dimlet when making a world for exploring for more dimlets because it makes all those dimlet storage buildings stand out like sore thumbs.",
+          "items": [
+            {
+              "item": {
+                "id": "rftools:knownDimlet",
+                "damage": 239,
+                "nbt": "{dkey:\"Flat\",ktype:\"T\"}"
+              }
+            },
+            {
+              "item": {
+                "id": "rftools:knownDimlet",
+                "damage": 238,
+                "nbt": "{dkey:\"Void\",ktype:\"T\"}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "rftools:knownDimlet",
+          "damage": 451,
+          "nbt": "{dkey:\"glass.molten\",ktype:\"L\"}"
+        },
+        {
+          "id": "rftools:knownDimlet",
+          "damage": 431,
+          "nbt": "{dkey:\"steel.molten\",ktype:\"L\"}"
+        }
+      ]
+    },
+    {
+      "name": "Applied Energistic\u0027s Pearl",
+      "description": "Applied Energistics likes to wrap ender pearls in fluix for all the stuff it uses for beaming stuff up. If you did the wireless quest, you have run into this guy already. If not, how convenient! I will give you some if you make me some!",
+      "x": 178,
+      "y": 124,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiMaterial",
+        "damage": 9
+      },
+      "prerequisites": [
+        "Pearls Before Swine"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "Hopefully, you\u0027re swimming in fluix at this point.",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 9
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 9,
+          "amount": 16
+        }
+      ]
+    }
+  ],
+  "reputationBar": []
+}
