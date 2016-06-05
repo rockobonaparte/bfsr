@@ -1,10 +1,10 @@
 {
   "name": "A Post-Scarcity Economy",
-  "description": "Various mods provide ways to generate and harvest wood in loops, or make pulling ore at the ground easy and automatic. They have different levels of sophistication with matching levels of requirements. You can explore some of them here. If you are on a team with a few beginners, you may consider making some of these and assigning them to keep an eye on the gear.",
+  "description": "Various mods provide ways to tend plants, harvest crops, chop trees, and extract ore easily and automatically. They have different levels of sophistication with matching levels of requirements. You can explore some of them here. If you do this right, you can mine all your resources without ever venturing into a cave! If you are on a team with a few beginners, you may consider delegating to them to make and operate this equipment.",
   "quests": [
     {
       "name": "Infinite Cobblestone",
-      "description": "Wait . . . MORE cobblestone? Well, there are plenty of ways to use it. You can turn them into gravel and sand, turn them into stone blocks, or plain-old stone. Or you might feed it into the progressive automation miner included in this section. You thought you were done with the stuff. Hahahaha! Use a transfer node to generate it. To make the node, use transfer pipes since they are cheap. Then place the cobblestone block between a block of water and a block of lava. Place the node on top. Give it the world interaction upgrade. It will start filling up with cobblestone. You can then direct it out of the transfer node into a chest.",
+      "description": "Wait . . . MORE cobblestone? Well, there are plenty of ways to use it. You can turn them into gravel and sand, turn them into stone blocks, or plain-old stone. Or you might feed it into the progressive automation miner included in this section. You thought you were done with the stuff. Hahahaha! Use a transfer node to generate it. To make the node, use transfer pipes since they are cheap. Then place the cobblestone block between a block of water and a block of lava somewhere in your base. Place the node on top of the cabblestone block between them. Give it the world interaction upgrade. It will start filling up with cobblestone. You can then direct them out of the transfer node into a chest.",
       "x": 19,
       "y": 70,
       "icon": {
@@ -69,7 +69,7 @@
     },
     {
       "name": "Minefactory Reloaded",
-      "description": "There is a mod called \"Minefactory Reloaded.\" It handles general industrial material gathering. Of particular interest to us here is farming. With this set up, you can create a hands-free tree farm. If you hook up wood-fired generators to it, it becomes self-perpetuating. Isn\u0027t that creepy?!",
+      "description": "There is a mod called \"Minefactory Reloaded.\" It handles general industrial material gathering. Of particular interest to us here is farming. With this set up, you can create a hands-free tree farm. If you hook up wood-fired generators to it, it becomes self-perpetuating.",
       "x": 96,
       "y": 13,
       "icon": {
@@ -79,7 +79,7 @@
         {
           "type": "DETECT",
           "description": "Getting Rubber",
-          "longDescription": "To start things off, you have to pound on a rubber tree. You will have to look for them out in the wild. They generally have smooth bark. There are especially prolific in wet areas like swamps, but they\u0027ll be scattered all over. Find one and I\u0027ll give you a special surprise!",
+          "longDescription": "To start things off, you have to pound down a rubber tree. You will have to look for them out in the wild. They generally have smooth bark. They are especially prolific in wet areas like swamps, but they\u0027ll be scattered all over. Find one and I\u0027ll give you some precooked rubber!",
           "items": [
             {
               "item": {
@@ -110,7 +110,7 @@
     },
     {
       "name": "An Automated Farm",
-      "description": "You will need a planter, a harvester, some power ducts, and some item ducts. Oh, and a power generator. Place the planter underneath the center of a 3x3 grid of dirt. Place the harvester facing the 3x3 patch just off to the middle of one side. Put seeds in the planter, and start hooking it all up. You can set up a basic loop this way. Seeds go back into the planter, perpetuating the process. I should note it doesn\u0027t need water near it; it will manage to dampen the soil on its own. I don\u0027t know how. Don\u0027t ask.",
+      "description": "You will need a planter, a harvester, some power ducts, and some item ducts. Oh--and a power generator. Place the planter underneath the center of a 3x3 grid of dirt near your base. Place the harvester facing the 3x3 patch just off to the middle of one side. Put seeds in the planter, and start hooking it all up. You can set up a basic loop this way. Seeds go back into the planter, perpetuating the process. I should note it doesn\u0027t need water near it; it will manage to dampen the soil on its own. I don\u0027t know how. Don\u0027t ask.",
       "x": 82,
       "y": 44,
       "icon": {
@@ -123,7 +123,7 @@
       "tasks": [
         {
           "type": "DETECT",
-          "longDescription": "PS: The harvester\u0027s sludge will eventually slow the unit down unless you draw it off some how. Consider immediately making the sludge boiler, or at least piping the stuff off and ... I dunno, make a moat or something.",
+          "longDescription": "PS: The harvester\u0027s sludge will eventually slow the unit down unless you draw it off some how. Consider immediately making the sludge boiler, or at least piping the stuff off and ... I dunno, make a moat or something. Okay--you could pump that into a sludge boiler. That's a topic for another time.",
           "items": [
             {
               "item": {
@@ -159,7 +159,7 @@
     },
     {
       "name": "Farming Monsters Muahaha",
-      "description": "The grinder will automatically kill monsters in a 5x5 area in front of it and spit out all the stuff it got from taking them out. Monsters will spawn in any dark area a certain distance away from players. You will want to go over 16 blocks away from the dark recess where you place this just to be sure. Try it in a test area. Set it up inside an enclosure, with power (portable energy cell) and a chest, and come back in awhile. If there\u0027s monster stuff in it, you did it right!",
+      "description": "The grinder will automatically kill monsters in a 5x5 area in front of it and spit out all the stuff it robbed from their bodies. Monsters will spawn in any dark area a certain distance away from players. You will want put this over 16 blocks away from the regular areas you inhabit, or else few monsters will spawn near it. Try it in a test area. Set it up inside an enclosure, with power (portable energy cell) and a chest, make sure the area is dark, and come back in awhile. If there\u0027s monster stuff coming out of it, you did it right!",
       "x": 131,
       "y": 14,
       "icon": {
@@ -192,7 +192,7 @@
     },
     {
       "name": "Progressive Automation",
-      "description": "This is the poor man\u0027s post-scarcity economy. With these machines, you can start mining the ground underneath them with a steady supply of coal, cobblestone, and picks. You do have to tend to them, but the resources to make these machines is available earlier. Place it over the part of the ground you want to mine, and it will extract ores, replacing them with the cobblestone you give it. You can increase its range with upgrades.",
+      "description": "This is the poor man\u0027s post-scarcity economy, but this machine can substitute for all the initial caving you would normally do. With these machines, you can start mining the ground underneath them with a steady supply of coal, cobblestone, and picks. You do have to tend to them, but the resources to make these machines is available earlier. Place it over the part of the ground you want to mine, and it will extract ores, replacing them with the cobblestone you give it. You can increase its range with upgrades.",
       "x": 89,
       "y": 89,
       "icon": {
@@ -206,7 +206,7 @@
         {
           "type": "DETECT",
           "description": "Make The Wooden Miner",
-          "longDescription": "Start with a wooden miner. It can only extract items that can be mined with a wooden pick, and you have to give it wooden picks. That doesn\u0027t leave much stuff to mine. So don\u0027t use it. However, you need it to make the stone miner. Note: you might have to fill in the recipe into a crafting board by hand; a lot of recipes won\u0027t autofill on the question mark symbol if they use Minecraft tools.",
+          "longDescription": "Start with a wooden miner. It can only extract items that can be mined with a wooden pick, and you have to give it wooden picks. That doesn\u0027t leave much stuff to mine. So don\u0027t use it. However, you need it to make the stone miner with one. Note: you might have to fill in the recipe into a crafting board by hand; a lot of recipes won\u0027t auto-fill from the question mark symbol if they use Minecraft tools.",
           "items": [
             {
               "item": {
@@ -378,7 +378,7 @@
       "tasks": [
         {
           "type": "DETECT",
-          "longDescription": "Since the crusher requires lava buckets, it probably won\u0027t autofill in a crafting table if you click on the question mark icon for the crusher. You will have to put all the pieces on the crafting table yourself.",
+          "longDescription": "Since the crusher requires lava buckets, it probably won\u0027t auto-fill in a crafting table if you click on the question mark icon for the crusher. You will have to put all the pieces on the crafting table yourself.",
           "items": [
             {
               "item": {
@@ -402,7 +402,7 @@
     },
     {
       "name": "Intro To The Digital Miner",
-      "description": "The digital miner is God\u0027s gift to automated mining. It will zap out ores in the surrounding ground with a range you give it, for ores you can optionally specify. It can do it without breaking the ores, giving you a chance to multiply your diamond yield. It can be upgraded to mine very quickly and efficiently. It also ... costs something like 14 diamonds. You will want to set up multiple crafting tables from Tinker\u0027s Construct to hold the intermediate steps while making it, if you chose to even try.",
+      "description": "The digital miner is God\u0027s gift to automated mining. It will zap out ores in the surrounding ground with a range you give it, for ores you can optionally specify. It can do it without breaking the ores, giving you a chance to multiply your diamond yield. It can be upgraded to mine very quickly and efficiently. It also ... costs something like 14 diamonds. You will want to set up multiple crafting tables from Tinker\u0027s Construct to hold the intermediate steps while making it, if you choose to even try.",
       "x": 229,
       "y": 88,
       "icon": {
@@ -500,7 +500,7 @@
     },
     {
       "name": "Baby\u0027s First Alloy",
-      "description": "This basic alloy is a bulwark of Mekanism equipment. You will make MANY of these along the path towards the digital miner. You combine redstone dust and iron ingots in the metallurgic infuser, and listen to in whine, buzz, and fuzz as it makes them. Feel free to raise the volume and annoy your neighbors.",
+      "description": "This basic alloy is a bulwark of Mekanism equipment. You will make MANY of these along the path towards the digital miner. You combine redstone dust and iron ingots in the metallurgic infuser, and listen to in whine, buzz, and fizz as it makes them. Feel free to raise the volume and annoy your neighbors.",
       "x": 278,
       "y": 114,
       "icon": {
@@ -618,7 +618,7 @@
     },
     {
       "name": "Bread and Circuits",
-      "description": "The digital miner (and other equipment) needs circuit boards! Run some osmium and redstone through your metallurgic infuser to make some!",
+      "description": "The digital miner, along with many other Mekanism machines--need circuit boards! Run some osmium and redstone through your metallurgic infuser to make some!",
       "x": 196,
       "y": 111,
       "icon": {
@@ -648,7 +648,7 @@
     },
     {
       "name": "The Sludge Boiler",
-      "description": "You may notice sludge storing up in the harvester. That can stay there indefinitely, but the harvester will slow down. You could also run it to this thing with some fluiduct and power. You will want to do this well away from everything else because it\u0027s operation is toxic! It will give you poison and nausea. For your trouble, you will get all kinds of sand, dirt, nether stuff, clay, and other bizarre things you sometimes need. That\u0027s useless in this pack, but it\u0027s a godsend in resource-scarce packs.",
+      "description": "You may notice sludge storing up in the harvester. That can stay there indefinitely, but the harvester will slow down. You could also run it to this thing with some fluid pipes and power. You will want to do this well away from everything else because it\u0027s operation is toxic! It will give you poison and nausea. For your trouble, you will get all kinds of sand, dirt, nether stuff, clay, and other bizarre things you sometimes need. That\u0027s less useful in this pack, but it\u0027s a godsend in resource-scarce packs.",
       "x": 112,
       "y": 45,
       "icon": {
@@ -784,7 +784,7 @@
     },
     {
       "name": "Water Ordinance Violation",
-      "description": "For lazy crop speed-up, use a sprinkler. You will need to feed it water. We recommend an aqueous accumulator in a pool of water, with some fluiduct running from it to the sprinkler. The sprinkler will spray water in a 7x7 area, speeding up growth of all plants around it.",
+      "description": "For lazy crop speed-up, use a sprinkler. You will need to feed it water. We recommend an aqueous accumulator in a pool of water, with some fluiduct running from it to the sprinkler. The sprinkler will spray water in a 7x7 area, speeding up growth of all plants around it. Any grass blocks with water have a chance of generating grasses, shrubs, and flowers.",
       "x": 45,
       "y": 33,
       "icon": {
@@ -827,7 +827,7 @@
     },
     {
       "name": "Range Upgrades",
-      "description": "The planter/harvesters work in a 3x3 area by default. If you want to work a larger area, you don\u0027t necessarily have to build more of them. You can upgrade the range of existing ones. Note that each tier of upgrade increases the RADIUS. This means this measly lapis upgrade we want which has a +1 radius upgrade to it increases your farm to a 5x5. You may be tempted to make the biggest one you got, but range upgrades don\u0027t accelerate the machines\u0027 own abilities to detect changes in their area. Once you get a farm that is accelerating plant growth, this becomes a problem. So a 6x6 is often the biggest you\u0027d want to go. Otherwise, you\u0027re waiting on the harvester to detect a crop or tree when it is busy scanning quiet parts of the plot.",
+      "description": "The planter/harvesters work in a 3x3 area by default. If you want to work a larger area, you don\u0027t necessarily have to build more of them. You can upgrade the range of existing ones. Note that each tier of upgrade increases the RADIUS. This means this measly lapis upgrade we want which has a +1 radius upgrade to it actually increases your farm to a 5x5. You may be tempted to make the biggest one you got, but range upgrades don\u0027t accelerate the machines\u0027 own abilities to detect changes in their area. Once you get a farm that is accelerating plant growth, this becomes a problem. So a 6x6 is often the biggest you\u0027d want to go. Otherwise, you\u0027re waiting on the harvester to detect a crop or tree when it is busy scanning quiet parts of the plot.",
       "x": 59,
       "y": 68,
       "icon": {
@@ -860,7 +860,7 @@
     },
     {
       "name": "Ender-Thermic Pump",
-      "description": "I wanted to put in a few words for the ender-thermic pump. You have to build two of these to make the quarry, but it\u0027s a first-class machine of its own. You can use one of these to pump out a fluid below it into tanks. Take this to The Nether and you will not be short of lava. It will also pump if you go offline from a server, or walk away from it. It replaces liquid with blocks, which reduces lag from fluid issues. In packs with alternate dimensions of molten metal seas (this is a thing!), this is a handy machine.",
+      "description": "I wanted to put in a few words for the ender-thermic pump. You have to build two of these to make the quarry, but it\u0027s a first-class machine of its own. You can use one of these to pump out a fluid below it into tanks. Take this to The Nether and you will not be short of lava. It will also pump if you go offline from a server, or walk away from it. It replaces liquid with blocks, which reduces lag from fluid issues. In packs with alternate dimensions of molten metal seas (this is a thing!), this can be a handy machine.",
       "x": 133,
       "y": 135,
       "icon": {
@@ -970,7 +970,7 @@
     },
     {
       "name": "A Use For Magic Books",
-      "description": "The ender quarry requires magical wood. This is by far the strangest ingredient in the hole process. If you look at the recipe, you will see it requires magical books. You can make one by crafting together a regular book with an emerald. However, any normal enchanted book will do. At this point, you probably have built up your mining levels, so you can blow them on enchanting some books the old-fashioned way. That\u0027s cheaper than emeralds!",
+      "description": "The ender quarry requires magical wood. This is by far the strangest ingredient in the whole process. If you look at the recipe, you will see it requires magical books. You can make one by crafting together a regular book with an emerald. However, any normal enchanted book will do. At this point, you probably have built up your mining levels, so you can blow them on enchanting some books the old-fashioned way. That\u0027s cheaper than emeralds!",
       "x": 161,
       "y": 145,
       "icon": {
@@ -1101,7 +1101,7 @@
       "tasks": [
         {
           "type": "DETECT",
-          "longDescription": "Here\u0027s how it works. Enclose an area in fence. Punch a hole out of it. Place the quarry there. Supply it power. Put a chest somewhere next to it but not within the mining area. Have itemducts pump out from that to bigger storage. Make sure the area up to 5 blocks above it is clear; it will mine there too! If you were setting up power generation above that hole in that area, it will mine your machines! Whoops! Once powered, it should start chomping away. Right-clicking it should tell you if it\u0027s doing something, or if it\u0027s angry.",
+          "longDescription": "Here\u0027s how it works. Enclose an area in fence. Leave a gap somewhere convenient in it. Place the quarry there. Supply it power. Put a chest somewhere next to it but not within the mining area. Have item piping pump out from that to bigger storage. Make sure the area up to 5 blocks above it is clear; it will mine there too! If you were setting up power generation above that hole in that area, it will mine your machines! Whoops! Once powered, it should start chomping away. Right-clicking it should tell you if it\u0027s doing something, or if it\u0027s angry.",
           "items": [
             {
               "item": {
@@ -1124,7 +1124,7 @@
     },
     {
       "name": "Drill, Baby, Drill!",
-      "description": "Ahhh, the laser drill. This is a fun toy. It just takes a TON of RF power to run it! You need one mining laser, and at least one laser precharger for it. Only prechargers can drive it. You arrange one precharger on each side, with one space in between. You power the precharger, and it will charge the drill. You\u0027ll need to double check the prechargers are pointing the right way. Each precharger consumes 5,000 RF per tick to operate. The basic Big Reactor will almost power one. You\u0027ll need to do better to run a full four prechargers. For your effort, you get something that vomits random ore all day and night, forever.",
+      "description": "Ahhh, the laser drill. This is a fun toy. It just takes a TON of RF power to run it! You need one mining laser, and at least one laser precharger for it. Only prechargers can drive it. You arrange one precharger on each side, with one space in between them and the drill. You power the precharger, and it will charge the drill. You\u0027ll need to double check the prechargers are pointing at the drill. You have it right if you can see it shooting a laser beam at the drill. Each precharger consumes 5,000 RF per tick to operate. The basic Big Reactor will almost power one. You\u0027ll need to do better to run a full four prechargers. For your effort, you get something that vomits random ore all day and night, forever.",
       "x": 205,
       "y": 14,
       "icon": {
@@ -1140,7 +1140,7 @@
         {
           "type": "CRAFT",
           "description": "The Drill",
-          "longDescription": "You might think it\u0027s bad to making the laser drill itself. Wait until you make the prechargers! Just remember: IT WILL PAY FOR ITSELF. Oh and also... you have to give it a clear path straight to the bedrock. Important detail. You need a hole going straight down. I recommend doing that incrementally so you don\u0027t fall into some death hole somewhere.",
+          "longDescription": "You might think it\u0027s bad to make the laser drill itself. Wait until you make the prechargers! Just remember: IT WILL PAY FOR ITSELF. Oh and also... you have to give it a clear path straight to the bedrock. Important detail: you need a hole going straight down. I recommend doing that incrementally so you don\u0027t fall into some death trap you accidentally made.",
           "items": [
             {
               "item": {
@@ -1152,7 +1152,7 @@
         {
           "type": "CRAFT",
           "description": "Pink crystals?!",
-          "longDescription": "The laser drill precharger needs a pink slime crystal. You get that from pink slimes. You get pink slimes from running... animals through slaughterhouse. Yeah, this ain\u0027t no rodeo. Actually, given the cows involved, it kind of is...",
+          "longDescription": "The laser drill precharger needs a pink slime crystal. You get that from pink slimes. You get pink slimes from running... animals through a slaughterhouse. Yeah, this ain\u0027t no rodeo. Actually, given the cows involved, it kind of is...",
           "items": [
             {
               "item": {
@@ -1190,7 +1190,7 @@
     },
     {
       "name": "Finding Laughter In Slaughter",
-      "description": "You can run animals through a grinder to get the normal stuff out of them, but a slaughterhouse will be useful to turn your animals into... basically, Spam. That sounds like a terrible idea, but you need some pink slime to make mining laser prechargers, and that is serious business.",
+      "description": "You can run animals through a grinder to get the normal stuff out of them, but a slaughterhouse will be useful to turn your animals into... basically, Spam. That sounds kind of silly, but you need some pink slime to make mining laser prechargers, and that is serious business.",
       "x": 172,
       "y": 14,
       "icon": {
@@ -1239,7 +1239,7 @@
         {
           "type": "CRAFT",
           "description": "Making Babies",
-          "longDescription": "When using this machine, you probably want to extend your fence up and around it, because animals can get up on top of it and escape their pen. I like to run items into it from the back, and power it it from underneath. Making this thing is also kind of rough. You need golden carrots and a golden apple. Oddly enough, the hard part might be the purple dye! Go on a hunt for some red flowers.",
+          "longDescription": "When using this machine, you probably want to extend your fence up and around it, because animals can get up on top of the machines and escape their pen. I like to run items into it from the back, and power it it from underneath. Making this thing is also kind of rough. You need golden carrots and a golden apple. Oddly enough, the hard part might be the purple dye! Go on a hunt for some red flowers that you can mix with lapis lazuli",
           "items": [
             {
               "item": {
@@ -1366,7 +1366,7 @@
         {
           "type": "CRAFT",
           "description": "Getting Engaged To A Miner",
-          "longDescription": "Only the best for our diamond miner. If you\u0027re going through all this trouble, you might as well increase the range from a weak one to something else. Remember that the number of blocks you mine grows non-linearly for each upgrade. So a range 1 miner only does 1 column. A range 2 does 9. A range 3 does 16. A range 4 does 27. If you want to keep your miner off the streets, you will want to improve its range.",
+          "longDescription": "Only the best for our diamond miner. If you\u0027re going through all this trouble, you might as well increase the range from a weak one to something else. Remember that the number of blocks you mine grows non-linearly for each upgrade. So a range 1 miner only does 1 column. A range 2 does 9. A range 3 does 16. A range 4 does 27. If you want to keep your miner off the streets, you will want to improve its range so it stays busy!",
           "items": [
             {
               "item": {
@@ -1385,7 +1385,7 @@
     },
     {
       "name": "Automated Mining",
-      "description": "For a game called \"Minecraft,\" you\u0027d think people liked mining. Well, not so much with technical mods. There are all kinds of ways to automatically mine. I am presenting here three of them. First, there is Progressive Automation. This gets you an automated miner the quickest, but it is not as advanced as the other miners. I recommend making this one before replacing it with a more advanced one. This way, you can potentially play the whole game without going in a cave. The second miner is the ender quarry. This one can run unattended since it comes with its own chunk loader. You may have discovered machines stop working when you walk far away from them. Not this guy! It also can mine very large ranges. However, the ingredients for it are very exotic. Very. Finally, there is the digital miner. This one gives you the most control and flexibility, and is my personal preference. However, you have to set up all kinds of intermediate tools and machines to even make it, and then you have to upgrade it to make it shine. I recommend ultimately making all of them. When you play another pack, one or more of these miners may not be available. Knowing how to use them all becomes very useful.",
+      "description": "For a game called \"Minecraft,\" you\u0027d think people liked mining. Well, not so much with technical mods. There are all kinds of ways to automatically mine. I am presenting here three of them. First, there is Progressive Automation. This gets you an automated miner the quickest, but it is not as advanced as the other miners. I recommend making this one before replacing it with a more advanced one. This way, you can potentially play the whole game without going in a cave. The second miner is the ender quarry. This one can run unattended since it comes with its own chunk loader. You may have discovered machines stop working when you walk far away from them. Not this guy! It also can mine very large ranges. However, the ingredients for it are very exotic. Very. Finally, there is the digital miner. This one gives you the most control and flexibility, and is my personal preference. However, you have to set up all kinds of intermediate tools and machines to even make it, and then you have to upgrade it to make it shine. I recommend ultimately making all of them. When you play another pack, one or more of these miners may not be available. Knowing how to use them all makes sure you always have one.",
       "x": 117,
       "y": 73,
       "icon": {
@@ -1409,7 +1409,7 @@
         {
           "type": "CRAFT",
           "description": "I Think I Can",
-          "longDescription": "Actually, this is pretty easy to make. Why did I wait so long to highlight it? People are usually using this miner very early in their game, and they don\u0027t even necessarily have RF power setup yet.",
+          "longDescription": "Actually, this is pretty easy to make. Why did I wait so long to highlight it? People are usually using this miner very early in their game, and they don\u0027t even necessarily have RF power setup yet. Well, at some point you\u0027ll have electrical power, and at that point, you should switch over to this.",
           "items": [
             {
               "item": {
