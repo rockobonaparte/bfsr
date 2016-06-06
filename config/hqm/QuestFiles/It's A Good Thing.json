@@ -328,7 +328,7 @@
       ]
     },
     {
-      "name": "Whitewashing Is Fun, Tom Sawyer!",
+      "name": "Let Me Whitewash, Tom!",
       "description": "Thanks to OpenBlocks, you can paint just about anything any color you want. You will need a paint mixer, a paint brush, a bucket of milk and sources for various dyes: red, green, blue, and black. Yes, milk. That is the paint base. You should be happy Minecraft doesn't have smell-o-vision! From there, you can mix it into any other color you want. Then you can slap that color on blocks to your heart\u0027s content using your paintbrush.",
       "x": 38,
       "y": 143,
@@ -1180,7 +1180,7 @@
         "damage": 2
       },
       "prerequisites": [
-        "This Is Fun, Tom Sawyer!"
+        "Let Me Whitewash, Tom!"
       ],
       "tasks": [
         {
@@ -1324,7 +1324,7 @@
         "id": "OpenBlocks:canvas"
       },
       "prerequisites": [
-        "This Is Fun, Tom Sawyer!"
+        "Let Me Whitewash, Tom!"
       ],
       "tasks": [
         {
