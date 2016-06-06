@@ -49,7 +49,7 @@
     },
     {
       "name": "Have A Berry Good Time",
-      "description": "Natura provides berries: raspberries, blackberries, blueberries, and malobarries. They are individually nutritionally weak. You have farm a ton of them. However, they grow like mad. The most important part is you can slap a berry bush inside your base, on dirt, without a water source, and they will thrive! One bush will turn into three. I recommend setting up a wall of them. You can run down the line of them and go nuts . . . er, go berries!",
+      "description": "Natura provides berries: raspberries, blackberries, blueberries, and malobarries. They are individually nutritionally weak. You have to farm a ton of them. However, they grow like mad. The most important part is you can slap a berry bush inside your base, on dirt, without a water source, and they will thrive! One bush will turn into three. I recommend setting up a wall of them. You can run down the line of them and go nuts . . . er, go berries!",
       "x": 63,
       "y": 15,
       "icon": {
@@ -141,7 +141,7 @@
       "tasks": [
         {
           "type": "DETECT",
-          "longDescription": "This may take some time, but you will have 2/4 of the berry types before you hit this quest. Now it\u0027s a game of finding blackberries and blueberries. They are fairly common.",
+          "longDescription": "This may take some time, but you will have 2/4 of the berry types before you hit this quest due to previous rewards. Now it\u0027s a game of finding blackberries and blueberries. They are fairly common.",
           "items": [
             {
               "item": {
@@ -194,7 +194,7 @@
         {
           "type": "DETECT",
           "description": "Alternate Hippy Fuels",
-          "longDescription": "You can burn some sugar, or just use some rubber, to as fuel for torches.",
+          "longDescription": "You can burn some sugar--or just use some rubber--as fuel for torches.",
           "items": [
             {
               "item": {
@@ -234,7 +234,7 @@
     },
     {
       "name": "Before The Sacrifice!",
-      "description": "When you trigger \"the sacrifice,\" a bolt will come down and start turning all the dirt around the altar into \"cursed earth.\" This spawns tougher versions of regular monsters very frequently. You want this dirt for a mob farm! Prepare a shovel with silk touch so you can harvest it.",
+      "description": "When you trigger \"the sacrifice,\" a bolt will come down and start turning all the dirt around the altar into \"cursed earth.\" This spawns tougher versions of regular monsters and spawns them much more quickly than other surfaces. You want this dirt for a mob farm! Prepare a shovel with silk touch so you can harvest it intact.",
       "x": 25,
       "y": 121,
       "icon": {
@@ -247,7 +247,7 @@
       "tasks": [
         {
           "type": "DETECT",
-          "longDescription": "The silk touch gem requires and emerald and a pile of string. Hey, how about that cotton farm?",
+          "longDescription": "The silk touch gem requires an emerald and a pile of string. String? Hey, how about that cotton farm?",
           "items": [
             {
               "item": {
@@ -301,7 +301,7 @@
     },
     {
       "name": "Power Gloves",
-      "description": "This glove can be upgraded. In fact, the upgrades you place on it expand on any tools you use while wearing them. So you should slap tons of redstone on them! This makes your mining and bow draw speeds faster!",
+      "description": "This glove can be upgraded. In fact, the upgrades you place on it boost any tools you use while wearing them. So you should slap tons of redstone on them! This makes your mining and bow draw speeds faster!",
       "x": 99,
       "y": 51,
       "icon": {
@@ -364,7 +364,7 @@
     },
     {
       "name": "Crawling In My Skin",
-      "description": "One of the best quality-of-life mods simply adds a recipe to convert zombie flesh into leather by running it through a furnace. Most good modpacks do this. Some don\u0027t because it\u0027s \"unrealistic.\" Think about that for a minute. So instead of punching cows for leather, you can punch zombies for leather.",
+      "description": "One of the best quality-of-life mods simply adds a recipe to convert zombie flesh into leather by running it through a furnace. Most good modpacks do this. Some don\u0027t because it\u0027s \"unrealistic.\" Think about that for a minute. Watch a video on how leather is really made and you will find something that has no mod to do in Minecraft. So instead of punching cows for leather, you can punch zombies for leather.",
       "x": 117,
       "y": 15,
       "icon": {
@@ -386,7 +386,7 @@
         {
           "type": "DETECT",
           "description": "The Concept is Kinda\u0027 Gross",
-          "longDescription": "I specifically made sure this made it into the pack for the original teambuilding exercise at work for which I made the pack in the first place. I had some folks from India that I was afraid would not want to punch cows for leather. When we started playing, they gleefully were pushing cows into lava pits and doing all kinds of crap to them. Then I found out they were from Pakistan. I am a terrible person.",
+          "longDescription": "I specifically made sure this made it into the pack for the original teambuilding exercise at work for which I made the pack in the first place. I had some folks from India that I was afraid would not want to punch cows for leather. When we started playing, they gleefully were pushing cows into lava pits and doing all kinds of crap to them. Then I found out they were from Pakistan. And somehow I am the terrible person for mistaking where they were from.",
           "items": [
             {
               "item": {
@@ -408,7 +408,7 @@
     },
     {
       "name": "Bikini Bottom Visitor Kit",
-      "description": "Let\u0027s say you want to walk along the botton of the ocean? Maybe you want to build an undersea dome. Maybe you\u0027re playing a different modpack that doesn\u0027t spray clay, sand, and gravel everywhere? I have just the thing! Artifice provides armor upgrades that act like targeted enchantments. Take a fresh, sturdy helmet, put it in a crafting grid with these upgrades, one-at-a-time, and you can suddenly tolerate the ocean much more.",
+      "description": "Let\u0027s say you want to walk along the botton of the ocean. Maybe you want to build an undersea dome. Maybe you\u0027re playing a different modpack that doesn\u0027t spray clay, sand, and gravel everywhere? I have just the thing! Artifice provides armor upgrades that act like targeted enchantments. Take a fresh, sturdy helmet, put it in a crafting grid with these upgrades, one-at-a-time, and you can suddenly tolerate the ocean much more.",
       "x": 183,
       "y": 16,
       "icon": {
@@ -421,7 +421,7 @@
       "tasks": [
         {
           "type": "DETECT",
-          "longDescription": "These upgrades can be stacked, so if you don\u0027t like the original results, just apply more of them. I recommend reserving a special helmet for this that you only wear when going underwater. I will give you an armor stand so you can put it in a prominent spot.",
+          "longDescription": "These upgrades can be stacked, so if the original results are too weak, just apply more upgrades. I recommend reserving a special helmet for this that you only wear when going underwater. I will give you an armor stand so you can put it in a prominent spot.",
           "items": [
             {
               "item": {
@@ -451,7 +451,7 @@
     },
     {
       "name": "Working At A Reasonable Clip",
-      "description": "It is so nice of me to lay out all the things you have to do to progress in the pack. You will not always have that luxury. Heck, you might be playing this on a server with friends logging in at different times, and nobody knows what\u0027s up. Maybe they text you or something to ask what to do. To keep you all from having to actually talk to each other, try the clipboard. You can lay out lists of tasks that have to be done, and then you can mark them off.",
+      "description": "It is so nice of me to lay out all the things you have to do to progress in the pack. You will not always have that luxury. Heck, you might be playing this on a server with friends logging in at different times, and nobody knows what\u0027s up. Maybe they text you or something to ask what to do. To keep you all from having to actually talk to each other like normal, social human beings, try the clipboard. You can lay out lists of tasks that have to be done, and then you can mark them off.",
       "x": 222,
       "y": 15,
       "icon": {
@@ -482,11 +482,31 @@
     },
     {
       "name": "Not Your Average Ladder",
+      "description": "Ladders are a fine thing to have, but it can get annoying to use them on long trips. OpenBlocks' elevators are a better option for your base, but another pack might not have them, or that pack may charge you your XP to use it, for some dumb reason. An alternative is a dark steel ladder. Getting to dark steel tech will take a little bit of a fuss with EnderIO, but if you play with that mod in this pack, you get a ladder you can climb and descend at twice the normal rate.",
       "x": 181,
       "y": 57,
       "icon": {
         "id": "EnderIO:blockDarkSteelLadder"
       }
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": "You can use dark steel for tools and such, but their quality can be matched from cheaper materials. So other than for EnderIO-specific things, I just use it for ladders. You make some, and I will just give you a stack of them.",
+          "items": [
+            {
+              "item": {
+				"id": "EnderIO:blockDarkSteelLadder"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+		  "id": "EnderIO:blockDarkSteelLadder"
+          "amount": 64
+        }
+      ]
     }
   ],
   "reputationBar": []
