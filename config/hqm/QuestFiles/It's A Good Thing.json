@@ -398,7 +398,7 @@
       "y": 27,
       "icon": {
         "id": "TConstruct:chisel",
-        "nbt": "{InfiTool:{BaseDurability:65,Head:1,BaseAttack:1,Built:1b,HarvestLevel:1,Attack:1,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,MiningSpeed:400,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:65,Modifiers:3},display:{Name:\"§fStone Chisel\"}}"
+        "nbt": "{InfiTool:{BaseDurability:65,Head:1,BaseAttack:1,Built:1b,HarvestLevel:1,Attack:1,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,MiningSpeed:400,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:65,Modifiers:3},display:{Name:\"Stone Chisel\"}}"
       },
       "prerequisites": [
         "{Tools and Toys}[Pattern After Me]"
@@ -450,7 +450,7 @@
             {
               "item": {
                 "id": "TConstruct:chisel",
-                "nbt": "{InfiTool:{BaseDurability:65,Head:1,BaseAttack:1,Built:1b,HarvestLevel:1,Attack:1,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,MiningSpeed:400,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:65,Modifiers:3},display:{Name:\"§fStone Chisel\"}}"
+                "nbt": "{InfiTool:{BaseDurability:65,Head:1,BaseAttack:1,Built:1b,HarvestLevel:1,Attack:1,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,MiningSpeed:400,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:65,Modifiers:3},display:{Name:\"Stone Chisel\"}}"
               },
               "precision": "NBT_FUZZY"
             }
@@ -465,7 +465,7 @@
         },
         {
           "id": "TConstruct:chisel",
-          "nbt": "{InfiTool:{BaseDurability:1575,Head:1024,BaseAttack:5,Built:1b,HarvestLevel:4,Attack:5,RenderHead:1024,ModDurability:0.0f,Handle:1024,Broken:0b,Shoddy:0.0f,RenderHandle:1024,MiningSpeed:1400,Unbreaking:2,Damage:0,BonusDurability:0,TotalDurability:1575,Modifiers:3},display:{Name:\"§fShiny Chisel\"}}"
+          "nbt": "{InfiTool:{BaseDurability:1575,Head:1024,BaseAttack:5,Built:1b,HarvestLevel:4,Attack:5,RenderHead:1024,ModDurability:0.0f,Handle:1024,Broken:0b,Shoddy:0.0f,RenderHandle:1024,MiningSpeed:1400,Unbreaking:2,Damage:0,BonusDurability:0,TotalDurability:1575,Modifiers:3},display:{Name:\"Shiny Chisel\"}}"
         }
       ]
     },

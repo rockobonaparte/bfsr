@@ -1,10 +1,10 @@
 {
   "name": "Vanilla Minecraft",
-  "description": "This is a modified version of Minecraft using mods from the greater Minecraft community. However, if you have never played Minecraft before, you are probably completely lost. This book isn\u0027t really a good guide for surviving your first few nights, but it will get you in the right direction for getting established nonetheless. Just remember that a normal day is 20 minutes. Immediately think of good areas where you might want to set up a base. Either dig into the ground or cover yourself into a cave. Building a house right away isn\u0027t possible.",
+  "description": "This is a modified version of Minecraft using mods from the greater Minecraft community. However, if you have never played Minecraft before, you are probably completely lost. This book isn\u0027t really a good guide for surviving your first few nights, but it will get you in the right direction for getting established nonetheless. Just remember that a normal day is 20 minutes. Immediately think of good areas where you might want to set up a base. Either dig into the ground or cover yourself into a cave. Building a house right away isn\u0027t possible. You should have a book that explains good starting places. You might want to review that before even entering the Overworld.",
   "quests": [
     {
       "name": "Punching Trees",
-      "description": "The PC version of Minecraft does not come with an instruction manual. This means learning how to play by reading contradictory Wikis and watching lots of video on YouTube. Let\u0027s not do that. This chapter will guide you through some basics of playing the unmodified game. You should know this stuff before starting the modified parts of the game.",
+      "description": "The PC version of Minecraft does not come with an instruction manual. This means learning how to play means reading contradictory Wikis and watching lots of video on YouTube. Let\u0027s not do that. This chapter will guide you through some basics of playing the unmodified game. You should know this stuff before starting most modified parts of the game. Other chapters and quests using mods will unlock as it becomes materially possible to work towards them.",
       "x": 22,
       "y": 16,
       "icon": {
@@ -82,7 +82,7 @@
       "tasks": [
         {
           "type": "DETECT",
-          "longDescription": "Right click your crafting table. Then type \"axe\" into the search bar at the bottom. On the right you will have many choices, but select the wooden axe with a left click. On the bottom right of the recipe is a question mark. Shift-left-click it and it will autocomplete the recipe in your crafting table. You can always lay out the recipe manually if it doesn\u0027t work, but it usually fails because it can\u0027t find the items it needs.",
+          "longDescription": "Right click your crafting table. Then type \"axe\" into the search bar at the bottom. On the right you will have many choices, but select the wooden axe with a left click. On the bottom right of the recipe is a question mark. Shift-left-click it and it will auto-complete the recipe in your crafting table. You can always lay out the recipe manually if it doesn\u0027t work, but it usually fails because it can\u0027t find the items it needs.",
           "items": [
             {
               "item": {
@@ -113,7 +113,7 @@
     },
     {
       "name": "Deforestation",
-      "description": "Now you can go on a woodcutting rampage with your axe! But wait! There is one mod called VeinMiner that speeds this up. If you hold down the tilde key (by default) while hitting a tree with an axe, it will knock out the whole tree. It will take a little longer, and wear down your axe and your energy as if you had knocked out each block manually. Still, it\u0027s a real timesaver. It also works for digging certain blocks as well as for mining ores.",
+      "description": "Now you can go on a woodcutting rampage with your axe! But wait! There is one mod called VeinMiner that speeds this up. If you hold down the tilde key (by default) while hitting a tree with an axe, it will knock out the whole tree. It will take a little longer, and wear down your axe and your energy as if you had knocked out each block manually. Still, it\u0027s a real time saver. It also works for digging certain blocks as well as for mining ores.",
       "x": 127,
       "y": 112,
       "icon": {
@@ -373,7 +373,7 @@
     },
     {
       "name": "Start Graveling",
-      "description": "Gravel is usually something you just run into underground and gets in the way. However, there are a few recipes that put it to use in modified Minecraft. Also, extracting it exposes flint, which is another useful ingredient in arrows, a flint/steel lighter, and various modded items.",
+      "description": "Gravel is usually something you just run into under the ground and gets in the way. However, there are a few recipes that put it to use in modified Minecraft. Also, extracting it exposes flint, which is another useful ingredient in arrows, a flint/steel lighter, and various modded items.",
       "x": 99,
       "y": 190,
       "icon": {
@@ -568,7 +568,7 @@
         {
           "type": "DETECT",
           "description": "Iron Ingots",
-          "longDescription": "Turn in one iron ingot. You make one by running the iron ore through that furnace you should have by now. I should warn you this quest book is going to open up all kinds of new stuff when you finish this.",
+          "longDescription": "Turn in one iron ingot. You make one by running the iron ore through that furnace you should have by now. I should warn you this quest book is going to open up all kinds of new stuff when you finish this quest. Iron gates a lot of stuff.",
           "items": [
             {
               "item": {
@@ -679,7 +679,7 @@
     },
     {
       "name": "Knock Knock",
-      "description": "Hopefully it has not gotten dark yet. If so, you are in trouble! You need a safe shelter. You could probably turn some logs into planks and surround yourself with them. Now how do you get out! Make a door! Doors keep bad guys out. They don\u0027t know how to use them. Meanwhile, you can stare through doors to see if there are nasties on the other side.",
+      "description": "Hopefully it has not gotten dark yet. If so, you are in trouble! You need a safe shelter. You could probably turn some logs into planks and surround yourself with them. Now how do you get out? Make a door! Doors keep bad guys out. They don\u0027t know how to use them. Meanwhile, you can stare through doors to see if there are nasties on the other side.",
       "x": 108,
       "y": 51,
       "icon": {
@@ -1118,7 +1118,7 @@
     },
     {
       "name": "Dynamite!! (Actually, TNT)",
-      "description": "You may have noticed you got two TNT for punching a tree. This is a bizarre reward, but I have my reasons. You have to find yourself a place to set up your base before the sun goes down. While on a tree murdering spree, look for cool places to tuck into for, well, the rest of the game. The most surefire thing you can do is get to sea level and just scrape into the side of a mound. Or you can just start digging downwards diagonally into the dirt. If there\u0027s a redwood tree nearby, you can live in that, although it\u0027s a liability for fires, as well as if you run a tree harvester near it; it will end up eating up your base! On the plus side, VeinMiner ignores the bark, so you can quickly clear the inside without risking wrecking the whole tree. However, for this game, I am partial to caves, if you can find them. You have to be fast. You want to plug off the cave with whatever you have at hand (wood, dirt, sand) so baddies can\u0027t come from deeper inside and kill you before you illuminate the whole cave. Either way, the dynamite will help you very quickly, and ceremoniously, make some holes in the rock. You will want to put it, say, at least 8 blocks of dirt underground. Otherwise, it might pop a big hole in the roof and leave you exposed. It\u0027s usually better to deploy it once you\u0027re hitting rock. Use the buttons you\u0027re getting here for free to trigger the TNT. Place the button next to the TNT, right click it, and run back a good 12 blocks or more. The two blocks of TNT should carve you out a nice starting space.",
+      "description": "You may have noticed you got two TNT for punching a tree. This is a bizarre reward, but I have my reasons. You have to find yourself a place to set up your base before the sun goes down. While on a tree murdering spree, look for cool places to tuck into for, well, the rest of the game. The dynamite will help you very quickly, and ceremoniously, make some holes in the rock. You will want to put it, say, at least 8 blocks of dirt underground. Otherwise, it might pop a big hole overhead and leave you exposed. It\u0027s usually better to deploy it once you\u0027re hitting rock. Use the buttons you\u0027re getting here for free to trigger the TNT. Place the button next to the TNT, right click it, and run back a good 12 blocks or more. The two blocks of TNT should carve you out a nice starting space.",
       "x": 72,
       "y": 15,
       "icon": {

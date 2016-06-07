@@ -305,7 +305,7 @@
       "y": 186,
       "icon": {
         "id": "TConstruct:rapier",
-        "nbt": "{InfiTool:{BaseDurability:2099,Head:12,Built:1b,HarvestLevel:5,Attack:6,RenderHead:12,ModDurability:0.0f,Handle:12,Broken:0b,Shoddy:0.0f,RenderHandle:12,Accessory:12,MiningSpeed:900,RenderAccessory:12,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:2099},display:{Name:\"ï¿½fManyullyn Rapier\"}}"
+        "nbt": "{InfiTool:{BaseDurability:2099,Head:12,Built:1b,HarvestLevel:5,Attack:6,RenderHead:12,ModDurability:0.0f,Handle:12,Broken:0b,Shoddy:0.0f,RenderHandle:12,Accessory:12,MiningSpeed:900,RenderAccessory:12,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:2099},display:{Name:\"Manyullyn Rapier\"}}"
       },
       "prerequisites": [
         "Your Most Ardite Supporter",
@@ -332,7 +332,7 @@
         },
         {
           "id": "TConstruct:scythe",
-          "nbt": "{InfiTool:{RenderExtra:12,BaseDurability:18000,Head:12,BaseAttack:8,Built:1b,HarvestLevel:5,Attack:8,RenderHead:12,ModDurability:0.0f,Handle:12,Broken:0b,Shoddy:0.0f,RenderHandle:12,Accessory:12,Extra:12,MiningSpeed:900,RenderAccessory:12,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:18000},display:{Name:\"§fManyullyn Scythe\"}}"
+          "nbt": "{InfiTool:{RenderExtra:12,BaseDurability:18000,Head:12,BaseAttack:8,Built:1b,HarvestLevel:5,Attack:8,RenderHead:12,ModDurability:0.0f,Handle:12,Broken:0b,Shoddy:0.0f,RenderHandle:12,Accessory:12,Extra:12,MiningSpeed:900,RenderAccessory:12,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:18000},display:{Name:\"Manyullyn Scythe\"}}"
         },
         {
           "id": "minecraft:bread"
@@ -609,7 +609,7 @@
       "y": 70,
       "icon": {
         "id": "TConstruct:pickaxe",
-        "nbt": "{InfiTool:{BaseDurability:909,Head:15,Built:1b,HarvestLevel:4,Attack:4,RenderHead:15,ModDurability:0.0f,Handle:15,Broken:0b,Shoddy:0.0f,RenderHandle:15,Accessory:15,MiningSpeed:800,RenderAccessory:15,Unbreaking:2,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:909},display:{Name:\"ï¿½fAlumite Pickaxe\"}}"
+        "nbt": "{InfiTool:{BaseDurability:909,Head:15,Built:1b,HarvestLevel:4,Attack:4,RenderHead:15,ModDurability:0.0f,Handle:15,Broken:0b,Shoddy:0.0f,RenderHandle:15,Accessory:15,MiningSpeed:800,RenderAccessory:15,Unbreaking:2,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:909},display:{Name:\"Alumite Pickaxe\"}}"
       },
       "prerequisites": [
         "Channel Your Inner Demon"
@@ -775,7 +775,7 @@
       "y": 183,
       "icon": {
         "id": "TConstruct:pickaxe",
-        "nbt": "{InfiTool:{BaseDurability:157,Head:7,BaseAttack:2,Built:1b,HarvestLevel:2,Attack:2,RenderHead:7,ModDurability:0.0f,Handle:7,Broken:0b,Shoddy:1.0f,RenderHandle:7,Accessory:7,MiningSpeed:400,RenderAccessory:7,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:157},display:{Name:\"§fNetherrack Pickaxe\"}}"
+        "nbt": "{InfiTool:{BaseDurability:157,Head:7,BaseAttack:2,Built:1b,HarvestLevel:2,Attack:2,RenderHead:7,ModDurability:0.0f,Handle:7,Broken:0b,Shoddy:1.0f,RenderHandle:7,Accessory:7,MiningSpeed:400,RenderAccessory:7,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:157},display:{Name:\"Netherrack Pickaxe\"}}"
       },
       "prerequisites": [
         "Mining In The Nether"
