@@ -50,7 +50,7 @@
     "DialogCommand": "",
     "AvailabilityDialogId": -1,
     "OptionFaction2Points": 100,
-    "DialogText": "We normally consider passive power generation such as solar to be for wusses and weak people of little brains. It is just too easy to litter the countryside with them and not put any thought into more interesting technologies. However, on the moon, solar *is* the interesting technology. They are very weak, but they can get you started, and from there, you can build a more permanent power setup like nuclear. One advanced generator roughly produces 19RF/tick of power, while this setup you see here consumes 21RF/tick. You would think, \"Great, so I need two of them.\" This would be deadly. When the sun sets, these generators go offline. You must double to four generators, and include some kind of battery like a capacitor bank to tide you through the lunar nights.",
+    "DialogText": "We normally consider passive power generation such as solar to be for weak people of little brains. It is just too easy to litter the countryside with them and not put any thought into more challenging technologies. However, on the moon, solar *is* the challenging technology. They are very weak, but they can get you started, and from there, you can build a more permanent power setup like nuclear. One advanced generator roughly produces 19RF/tick of power, while this setup you see here consumes 21RF/tick. You would think, \"Great, so I need two of them.\" This would be deadly. When the sun sets, these generators go offline. You must double to four generators, and include some kind of battery like a capacitor bank to tide you through the lunar nights.",
     "AvailabilityQuest4Id": -1,
     "AvailabilityQuest3Id": -1,
     "AvailabilityQuest2Id": -1,
