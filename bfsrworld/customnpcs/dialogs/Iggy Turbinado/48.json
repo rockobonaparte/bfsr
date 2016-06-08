@@ -60,7 +60,7 @@
     "DialogCommand": "",
     "AvailabilityDialogId": -1,
     "OptionFaction2Points": 100,
-    "DialogText": "The hardened fluiducts can only handle 600 mb/tick of steam, but we're trying to run 1200 mb/tick of steam. We created two separate steam lines that meet at the generators. They split the difference.There are better conduits, but they are very advanced. We did not want to force people making a tree farm to wait for the high-end stuff. This is what you do when you're just starting out. Heck, the power connection cannot even discharge the turbine as fast as it generates power!",
+    "DialogText": "The hardened fluiducts can only handle 600 mb/tick of steam, but we're trying to run 1200 mb/tick of steam. We created two separate steam lines that meet at the generators. They split the difference.There are better conduits, but they are very advanced. We did not want to force people making a tree farm to wait for the high-end stuff. This is what you do when you're just starting out. Heck, the power connection cannot even discharge from the turbine as fast as it generates power!",
     "AvailabilityQuest4Id": -1,
     "AvailabilityQuest3Id": -1,
     "AvailabilityQuest2Id": -1,
