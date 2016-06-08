@@ -30,7 +30,7 @@
     "DialogCommand": "",
     "AvailabilityDialogId": -1,
     "OptionFaction2Points": 100,
-    "DialogText": "It handles taking the extracted ore to ore processing, and then stores the output inside the network. This network is overkill, but it's the kind of nonsense I have to do to impress the nukes. The controller is the brain and has nerves coming off on all sides. They are color-coded so they don't connect to each other.Each side has a job:Left: Ore extractionRight: Ore processingBottom: Love and care of the reactorsFront: ConsolesThe top and back aren't doing anything . . . yet. In a normal lab, one would probably handle autocrafting, and another a bank of other various machines.",
+    "DialogText": "It handles taking the extracted ore to ore processing, and then stores the output inside the network. This network is overkill, but it's the kind of nonsense I have to do to impress the nukes. The controller is the brain and has nerves coming off on all sides. They are color-coded so they don't accidentally connect to each other.Each side has a job:Left: Ore extractionRight: Ore processingBottom: Love and care of the reactorsFront: ConsolesThe top and back aren't doing anything . . . yet. In a normal lab, one would probably handle autocrafting, and another a bank of other various machines.",
     "AvailabilityQuest4Id": -1,
     "AvailabilityQuest3Id": -1,
     "AvailabilityQuest2Id": -1,

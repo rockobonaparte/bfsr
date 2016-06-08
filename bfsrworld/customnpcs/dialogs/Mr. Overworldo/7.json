@@ -9,7 +9,9 @@
     "AvailabilityQuest2Id": -1,
     "AvailabilityQuestId": -1,
     "DialogQuest": -1,
-    "DialogText": "Baby's First Space Race is normally tested using the \"Alternate Terrain Generator\" also known as \"ATG.\" When you create a new world, you can change the terrain type from Default to ATG if you keep clicking on that button. It makes nice islands with useful caves. The lava pools and resource generation is tweaked particularly for it. If this is your first time playing, you can just create a new world now and throw this one out. You should probably also enable cheats so you can get yourself out of a jam. This is a tutorial modpack, after all! I'd just skip the bonus chest because you can get cool stuff right here in Baby's First City.",
+    "DialogText": "Baby's First Space Race is normally tested using the \"Alternate Terrain Generator\" also known as \"ATG.\" When you create a new world, you can change the terrain type from Default to ATG if you keep clicking on that button. It makes nice islands with useful caves. The resource generation is tweaked particularly for it. If this is your first time playing, you can just create a new world now and throw this one out. You should probably also enable cheats so you can get yourself out of a jam. This is a tutorial modpack, after all! I'd just skip creating a bonus chest because you can get cool stuff right here in Baby's First City.
+	
+Okay, things have changed here since the early days. We also try out the \"Realistic Terrain Generator\" (RTG). It's rough on a computer, but it creates some amazing terrain sometimes. It can be hard to find certain stuff though due to the HUGE biomes. Use the shops to trade what you can find for what you might need.",
     "AvailabilityQuest": 0,
     "AvailabilityFactionStance": 0,
     "DialogDisableEsc": 0b,

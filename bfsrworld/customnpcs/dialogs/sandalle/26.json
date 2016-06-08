@@ -9,7 +9,7 @@
     "AvailabilityQuest2Id": -1,
     "AvailabilityQuestId": -1,
     "DialogQuest": -1,
-    "DialogText": "So yeah, I work on a script called EZNuke that you can find on GitHub. You need to have ComputerCraft for it to work, which this modpack doesn't have. If you find yourself with it, though, it's a fun way to moderate your nuclear reactor while having a really flashy status screen. We use it on the Modderation: Permabanned FYAD Edition modpacks server.",
+    "DialogText": "So yeah, I work on a script called EZNuke that you can find on GitHub. You need to have ComputerCraft for it to work, which this modpack doesn't have. If you find yourself with it, though, it's a fun way to moderate your nuclear reactor while having a really flashy status screen. We use it on the Modderation: Permabanned and FYAD Edition modpacks' servers.",
     "AvailabilityQuest": 0,
     "AvailabilityFactionStance": 0,
     "DialogDisableEsc": 0b,

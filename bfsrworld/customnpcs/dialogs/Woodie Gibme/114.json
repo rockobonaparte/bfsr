@@ -30,7 +30,7 @@
     "DialogCommand": "",
     "AvailabilityDialogId": -1,
     "OptionFaction2Points": 100,
-    "DialogText": "This is a full demo, which includes everything you can reasonably do. If you're just starting out, there are a lot of things you can do.1. Skip the sludge boiler. You want to trash that sludge or do *something* with it, however. If it builds up in the harvester, the harvester slows down.2. Skip the sprinklers. They greatly improve the rate trees grow, but you don't have to start with it.3. Simplify the power generators. You usually should just start with survivalist generators. At that point, you just need bursts of power, so you can tap from them from time to time. You won't really notice how slow they are that way.You still need a planter underneath, so there is some basic piping you'll have to do.",
+    "DialogText": "This is a full demo, which includes everything you can reasonably do. If you're just starting out, there are a lot of things you can do.1. Skip the sludge boiler. You want to trash that sludge or do *something* with it, however. If it builds up in the harvester, the harvester slows down.2. Skip the sprinklers. They greatly improve the rate trees grow, but you don't have to start with it.3. Simplify the power generators. You usually should just start with survivalist generators. At that point, you just need bursts of power. They generate very slowly, but they have large storage. So you can tap from them from time to time. You won't really notice how slow they are that way.You still need a planter underneath, so there is some basic piping you'll have to do.",
     "AvailabilityQuest4Id": -1,
     "AvailabilityQuest3Id": -1,
     "AvailabilityQuest2Id": -1,

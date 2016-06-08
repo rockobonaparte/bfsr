@@ -50,7 +50,7 @@
     "DialogCommand": "",
     "AvailabilityDialogId": -1,
     "OptionFaction2Points": 100,
-    "DialogText": "Yeah--there are quite a few rigs going on over there:1. A Mekanism 3x ore processing rig. One ore goes in, three ingots come out.2. A plain-old pulverizer. Some stuff just yields better pulverized.3. An enrichment chamber. Diamonds in particular double in them.4. Some redstone furnaces. These turn nether ores into two regular ores. They then go on to the other machines.5. An induction smelter. It specifically handles desh ore, which is really rare and expensive, so don't even make fun of me for doubling it.Combined together, these are superior to most smelteries. I mean, you would only get 2x ore processing, but a really tall smeltery could probably beat this on raw throughput, but you also risk creating alloys.It's my pride and joy.",
+    "DialogText": "Yeah--there are quite a few rigs going on over there:1. A Mekanism 3x ore processing rig. One ore goes in, three ingots come out.2. A plain-old pulverizer. Some stuff just yields better when it's pulverized.3. An enrichment chamber. Diamonds in particular double in them.4. Some redstone furnaces. These turn nether ores into two regular ores. They then go on to the other machines.5. An induction smelter. It specifically handles desh ore, which is really rare and expensive, so don't even make fun of me for making a rig just for it.Combined together, these are superior to most smelteries. I mean, you would only get 2x ore processing, but a really tall smeltery could probably beat this on raw throughput, but you also risk creating alloys.It's my pride and joy.",
     "AvailabilityQuest4Id": -1,
     "AvailabilityQuest3Id": -1,
     "AvailabilityQuest2Id": -1,
