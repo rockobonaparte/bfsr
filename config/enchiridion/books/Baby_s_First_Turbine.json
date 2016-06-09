@@ -72,7 +72,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "The turbine is a chasis of turbine blocks and turbine glass that spins when filled with steam, codensing the steam into water. Meanwhile, certain blocks at the base of the turbine, called coils, are siphoning off some of that spin to generate RF power.\n\nThe turbine walls don\u0027t have to be turbine glass, but they sure are pretty, so you should really think about it.\n\nThe fan is a long column with multiple fan blades sticking off of it.",
+            "text": "The turbine is a chassis of turbine blocks and turbine glass that spins when filled with steam, condensing the steam into water. Meanwhile, certain blocks at the base of the turbine, called coils, are siphoning off some of that spin to generate RF power.\n\nThe turbine walls don\u0027t have to be turbine glass, but they sure are pretty, so you should really think about it.\n\nThe fan is a long column with multiple fan blades sticking off of it.",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -123,7 +123,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "You have either:\n1. The liquid ender reactor\n2. Two fueled steam boilers\n\nThis turbine can roughly do both",
+            "text": "You have either:\n1. The resonant ender reactor\n2. Two fueled steam boilers\n\nThis turbine can roughly do both",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -842,7 +842,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "PS: The traditional plural of \"focus\" is \"focuses\" because it is Greek, but it has been so abused that it might as well be \"foci.\"",
+            "text": "PS: The traditional plural of \"focus\" is \"focuses\" because it is Greek, but it has been so abused that it might as well be \"focii.\"",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",

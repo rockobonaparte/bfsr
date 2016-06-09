@@ -5,7 +5,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "Baby\u0027s First Base!\n\nWhen you start the game, you are thrown into a world with pretty much nothing, and no clue where to go. The quest book will give you guidance on the first things to do, but there is a nagging problem overhead: the sun. It will set, darkness will fall, and all the riff-raff will come out and turn you into paste.\n\nLet\u0027s find some shelter . . . fast!",
+            "text": "Baby\u0027s First Base!\n\nWhen you start the game, you are thrown into a world with pretty much nothing, and no clue where to go. The quest book will give you guidance on the first things to do, but there is a nagging problem overhead: the sun. It will set, darkness will fall, and all the riffraff will come out and turn you into paste.\n\nLet\u0027s find some shelter . . . fast!",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -18,7 +18,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "You would first think to build a base: a house, a castle, a whatever. However, the easiest thing to do for the first nights is to dig in somewhere. If all else fails, you can probably just dig straight down and weather out the first night. Just start making torches and work on getting the starters tools. On sunrise, you can crawl out with your stuff and renew your search.\n\nHere are some examples of places you might want to consider staging yourself for most of the game.",
+            "text": "You would first think to build a base: a house, a castle, a whatever. However, the easiest thing to do for the first few nights is to dig in somewhere. If all else fails, you can probably just dig straight down and weather out the first night. Just start making torches and work on getting the starter tools. On sunrise, you can crawl out with your stuff and renew frolicking in the open.\n\nHere are some examples of places you might want to consider staging yourself for most of the game.",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -82,7 +82,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "- You might fall!\n- You ultimately have to secure the entire chasm to be safe",
+            "text": "- You might fall!\n- You ultimately have to secure and illuminate the entire chasm to be safe",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -402,7 +402,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "- Now you have to get a bunch of stuff\n- Still can burn down or get harvested",
+            "text": "- You have to get a bunch of redwood saplings\n- Still can burn down or get harvested",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -443,7 +443,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "If you must, then set up a quarry out of site of the village, and acquire enough torches and walls that you can pen the entire plance in.\n\nHowever, what you really should do is steal their smeltery, if they have one. Look at this poor smeltery! It is overgrown with trees and sheep! It just needs a controller and a tank to be fully-functional. Also, steal all the stuff in their chests. Muahahaha!",
+            "text": "If you must, then set up a quarry out of site of the village, and acquire enough torches and walls that you can pen the entire place in.\n\nHowever, what you really should do is steal their smeltery, if they have one. Look at this poor smeltery! It is overgrown with trees and sheep! It just needs a controller and a tank to be fully-functional. Also, steal all the stuff in their chests. Muahahaha!",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",

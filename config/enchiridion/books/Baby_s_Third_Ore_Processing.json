@@ -201,7 +201,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "If you did it right, the separator should look kind of like this. You should be able to put metal ores into the purification chamber, and it will start to chew them up. Note, the crusher is a first bottleneck because it has to consume the result of the tripling.",
+            "text": "If you did it right, the separator should look kind of like this. You should be able to put metal ores into the purification chamber, and it will start to chew them up. Note, the crusher is the first bottleneck because it has to consume the result of the tripling. Think about it, one machine turns one thing into three. The next one--the crusher--would have to be three times as fast. Well, it is not!",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",

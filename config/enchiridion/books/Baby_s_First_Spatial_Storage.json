@@ -28,7 +28,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "By HUGE volumes, we\u0027re talking this 42x42x16 area right here as an example.",
+            "text": "By HUGE volumes, we\u0027re talking this 48x48x16 area right here as an example. Note that a certain SPECIAL QUEST requires different dimensions. Check the quest!",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -97,7 +97,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "For the example, we will use a creative energy cell, so ignore the supplied power. Look instead at how much power the drive wants.",
+            "text": "For the example, we will use a creative energy cell, so ignore the supplied power. Look instead at how much power the system wants.",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -120,7 +120,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "In case you can\u0027t read it, the drive wants 4.56 GRF. That\u0027s 4,560,000,000 RF!",
+            "text": "In case you can\u0027t read it, the system wants 4.56 GRF. That\u0027s 4,560,000,000 RF!",
             "wrap": 0,
             "size": 1.0,
             "color": "FFFF0000",
@@ -133,7 +133,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "Generally speaking, a REALLY GOOD nuclear reactor will be pumping 100,000 RF/tick. At 20 ticks per second, we\u0027re talking 2,000,000 RF per second. So filling up those cells would take something towards an hour, where you shut everything else off. Actually, not so bad, eh?\n\nThe real problem is dense energy cells can only hold 3.2 million RF. So you need 1,425 of them. Yeech!",
+            "text": "Generally speaking, a REALLY GOOD nuclear reactor will be pumping 100,000 RF/tick. At 20 ticks per second, we\u0027re talking 2,000,000 RF per second. So filling up those cells would take something towards an hour, where you shut off other operations. Actually, not so bad, eh?\n\nThe real problem is dense energy cells can only hold 3.2 million RF. So you need 1,425 of them. Yeeech!",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -202,7 +202,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "Let\u0027s keep going by extend the long side.",
+            "text": "Let\u0027s keep going by extending the long side.",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -286,7 +286,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "Read it and weap. We took it down to 12 dense energy cells! The efficiency claims to be 100%, but it\u0027s more like 99.9%. You could keep going, but this is good.",
+            "text": "Read it and weep. We took it down to 12 dense energy cells! The efficiency claims to be 100%, but it\u0027s more like 99.9%. You could keep going, but this is good.",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",

@@ -638,7 +638,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "Make sure the extruder\u0027s conduit is set to extract, and that its redstone mode is \"Active without signal.\" You are not going to trigger the conduit, so you want that junk disabled!",
+            "text": "Make sure the extruder\u0027s conduit is set to extract, and that its redstone mode is \"Active without signal.\" You want it always-on, so disable the mode control!",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -651,7 +651,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "Also, turn on round-robin mode with that blue spinning loop icon. This will split the cobblestone output between the two different sides.",
+            "text": "Also, turn on round-robin mode with that blue spinning loop icon. This will evenly split the cobblestone output between the two different sides.",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -855,7 +855,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "Run some item conduit up and out of that crusher. Don\u0027t forget to make sure the top of the crusher has conduit set to extract! Run it up and over everything, then down beside the cycle assemble so you get it in its back. Then rin some more up out the top of the assembler.\n\nNote: We just created a CYCLE. These are generally bad with item conduits. Machines that get full will try to spin stuff around in these loops and crash stuff. Mods have gotten better at this, but don\u0027t test it. We\u0027ll fix it next.",
+            "text": "Run some item conduit up and out of that crusher. Don\u0027t forget to make sure the top of the crusher has conduit set to extract! Run it up and over everything, then down beside the cycle assemble so you get it in its back. Then run some more up out the top of the assembler.\n\nNote: We just created a CYCLE. These are generally bad with item conduits. Machines that get full will try to spin stuff around in these loops and crash stuff. Mods have gotten better at this, but don\u0027t test it. We\u0027ll fix it next.",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -1046,7 +1046,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "Did you remember the cycle assembler had to extract out the top? Yes? Did you disable redstone control of it? Yes? Did you set it to round robin so all the TNT generators would get their even ration of fuel?\n\nI didn\u0027t think so!!!",
+            "text": "Did you remember the cyclic assembler had to extract out the top? Yes? Did you disable redstone control of it? Yes? Did you set it to round robin so all the TNT generators would get their even ration of fuel?\n\nI didn\u0027t think so!!!",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -1153,7 +1153,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "So hey.\n\nThe funny thing about this power generation rig is that, well, it needs power to run.\n\nThat sucks.\n\nI gave you this quest after you got the basics, so you should be able to get some starting juice into here. I shoved an energy cell in and get it moving tha way.",
+            "text": "So hey.\n\nThe funny thing about this power generation rig is that, well, it needs power to run.\n\nThat sucks.\n\nI gave you this quest after you got the basics, so you should be able to get some starting juice into here. I shoved an energy cell in and got it moving that way.",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -1344,7 +1344,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "PS: If the explosions are annoying you for some reason (why?), you can put in 3 sound mufflers from OpenBlocks across from them. That will completely mute them.\n\nBut that is crazy!",
+            "text": "PS: If the explosions are annoying you for some reason (why?), you can put in 3 sound mufflers from OpenBlocks across from them. That will completely mute them.\n\nBut that is crazy! Raise the volume instead!",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",

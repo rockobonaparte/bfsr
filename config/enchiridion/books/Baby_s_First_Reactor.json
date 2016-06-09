@@ -15,7 +15,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "So, you want to build a nuclear reactor? That sounds like a completely safe and typical kind of thing to do! We\u0027re going to assume you already got all the stuff to do this. Eventually, I will be showing things off with a little big of reactor glass. I suggest you work towards that too.\n\nStart with a 5x5 base of reactor blocks. Your reactor will sit on top of this. You can embed it in the ground--I don\u0027t really care.",
+            "text": "So, you want to build a nuclear reactor? That sounds like a completely safe and typical kind of thing to do! We\u0027re going to assume you already got all the stuff to do this. Eventually, I will be showing things off with a little bit of reactor glass. I suggest you work towards that too.\n\nStart with a 5x5 base of reactor blocks. Your reactor will sit on top of this. You can embed it in the ground--I don\u0027t really care.",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -43,7 +43,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "The next layer has an outer rig of reactor blocks. However, I pop in the power tap, the access port, and the controller all on one side. You can put those blocks anywhere on the outside of the reactor, so long as they\u0027re not in the corners. I\u0027m just doing it here. Also, not the fuel rod in the middle of the reactor.",
+            "text": "The next layer has an outer ring of reactor blocks. However, I pop in the power tap, the access port, and the controller all on one side. You can put those blocks anywhere on the outside of the reactor, so long as they\u0027re not in the corners. I\u0027m just doing it here. Also, note the fuel rod in the middle of the reactor.",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -280,7 +280,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "When you complete the reactor quest, you get a huge pile of fluid ender. That stuff can be used as a coolant in your reactor. If you put a bucket of it in the four major directions around the topmost fuel rod, you will triple the yield of your reactor!",
+            "text": "When you complete the reactor quest, you get a huge pile of resonant ender. That stuff can be used as a coolant in your reactor. If you put a bucket of it in the four major directions around the topmost fuel rod, you will triple the yield of your reactor!",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -308,7 +308,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "Don\u0027t bother with the corners! Adding fluid ender there won\u0027t help any further.\n\nAlso, maybe you want some reactor glass at this point, because this is kind of pretty.\n\nHowever, squids spawn in the stuff. I have no idea how. Think about that... squids in a nuclear reactor. Yeah...",
+            "text": "Don\u0027t bother with the corners! Adding resonant ender there won\u0027t help any further.\n\nAlso, maybe you want some reactor glass at this point, because this is kind of pretty.\n\nHowever, squids spawn in the stuff. I have no idea how. Think about that... squids spawning in a nuclear reactor. Yeah...",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -364,7 +364,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "Be careful with that stuff! If you land in it, it will teleport you some random place away from where you landed. That could be in the ground, in the air, who knows?\n\nTry to clean up the source block of any spills and then let the runoff naturally flow away.\n\nOr you can prank your friends. Shiny green stuff coming out of a reactor? Sounds safe!",
+            "text": "Be careful with that stuff! If you land in it, it will teleport you some random place away from where you landed. That could be in the ground, in the air, who knows?\n\nTry to re-bucket the source block of any spills and then let the runoff naturally flow away.\n\nOr you can prank your friends. Shiny green stuff coming out of a reactor? Sounds safe!",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -392,7 +392,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "So you were doing something like 560 RF/tick before. Now you\u0027re coming in with 1,450 RF/tick. That\u0027s quite a jump. Big Reactors are modular and can be tweaked with all kinds of materials.\n\nIf I hadn\u0027t given you the fluid ender, you could have gotten \"good enough\" with destabilized redstone.\n\nThere are also things better than fluid ender, but I can\u0027t be telling you everything!",
+            "text": "So you were doing something like 560 RF/tick before. Now you\u0027re coming in with 1,450 RF/tick. That\u0027s quite a jump. Big Reactors are modular and can be tweaked with all kinds of materials.\n\nIf I hadn\u0027t given you the resonant ender, you could have gotten \"good enough\" with destabilized redstone.\n\nThere are also things better than resonant ender. Well, pretty much just gelid cryotheum and maybe ludicrite.",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
