@@ -30,7 +30,7 @@
     "DialogCommand": "",
     "AvailabilityDialogId": -1,
     "OptionFaction2Points": 100,
-    "DialogText": "Yeah this is some fun plumbing! Well, sludge goes into the boiler. The output gets stored in a chest, and the excess is trashed. That harvester produces saplings, wood, and apples. The apples go in a culinary generator. The wood goes into that bank of power generators. There are survivalist generators first in line for base power. Regular furnace generators come in after that. There's a high-temperature furnace to take any remaining wood--and saplings--that nothing else needs. Theoretically, if you can keep that constantly fed, it gets very efficient.The water system here is for the sprinklers. oddly enough, it doesn't need any power!",
+    "DialogText": "Yeah this is some fun plumbing! Well, sludge goes into the boiler. The output gets stored in a chest, and the excess is trashed. That harvester produces saplings, wood, and apples. The apples go in a culinary generator. The wood goes into that bank of power generators. There are survivalist generators first in line for base power. Regular furnace generators come in after that. There's a high-temperature furnace to take any remaining wood--and saplings--that nothing else needs. Theoretically, if you can keep that constantly fed, it gets very efficient.The water system here is for the sprinklers. It doesn't need any power at all to run those.",
     "AvailabilityQuest4Id": -1,
     "AvailabilityQuest3Id": -1,
     "AvailabilityQuest2Id": -1,
