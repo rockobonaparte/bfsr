@@ -40,7 +40,9 @@
     "DialogCommand": "",
     "AvailabilityDialogId": -1,
     "OptionFaction2Points": 100,
-    "DialogText": "So yeah, steam power. The Extra Utilities Generators work without water. Good for them. The Thermal Expansion dynamos technically work on steam. That's why you feed them water. Some mods like to play around with steam, so Minefactory Reloaded offers the steam generator. It needs water and fuel. It will slowly build up heat from fuel, doing nothing, until it hits 100 degrees Celsius. After that, water boils, and you will get a smooth 400mB/tick of steam so long as you're at 100C or higher. More fuel increases the furnace temperature, which really just gives it a little reserve.You could technically then pump that steam straight into Thermal Expansion dynamos. We, well, just decided to pump that steam into a turbine. The turbine doesn't care if it comes from a nuclear reactor or a wood burning stove, it's steam!",
+    "DialogText": "So yeah, steam power. The Extra Utilities generators work without water. Good for them. The Thermal Expansion dynamos technically work on steam. That's why you feed them water. Some mods like to play around with steam, so Minefactory Reloaded offers the steam generator. It needs water and fuel. It will slowly build up heat from fuel, doing nothing, until it hits 100 degrees Celsius. After that, water boils, and you will get a smooth 400mB/tick of steam so long as you're at 100C or higher. More fuel increases the furnace temperature, which really just gives it a little reserve.
+
+You could technically then pump that steam straight into Thermal Expansion dynamos. We, well, just decided to pump that steam into a turbine. The turbine doesn't care if it comes from a nuclear reactor or a wood burning stove, it's steam!",
     "AvailabilityQuest4Id": -1,
     "AvailabilityQuest3Id": -1,
     "AvailabilityQuest2Id": -1,
