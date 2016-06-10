@@ -50,7 +50,13 @@
     "DialogCommand": "",
     "AvailabilityDialogId": -1,
     "OptionFaction2Points": 100,
-    "DialogText": "Yeah, sure. I mean, this is kind of a medium-tier thing by my standards. However, it's also pretty well-tuned for what it is. So there isn't anything minor you can do to make this better with this kind of setup.The easy thing would be to just put another 16 fan blades on it after getting another steam generator going. You will then need some more coil blocks, by the way. I think the farming side of this operation could do it as-is. That will get you over 10,000 RF/tick, which means you could run two mining lasers prechargers continuously.If you have some cool stuff, you could make enderium and replace the coils with it. Then you could use the electrum to make all the advanced conduit you'd need to run all this power everywhere. Seriously, the entry-level conduit is not very good for this stuff. You might have to settle for putting on a bunch of power taps and just running the inferior stuff everywhere until you can get better pipes.We wanted around 1800 rpm from the turbine because that's a performance sweet spot. You're not going to improve that much more. It's pretty tight! You just want to make sure when adding more steam and such that you are scaling that up. You only can handle 2,000 mb/tick of steam in a single turbine. This one is taking in 1,200 mb/tick from these three turbines. Two more will max it out.",
+    "DialogText": "Yeah, sure. I mean, this is kind of a medium-tier thing by my standards. However, it's also pretty well-tuned for what it is. So there isn't anything minor you can do to make this better with this kind of setup.
+
+The easy thing would be to just put another 16 fan blades on it after getting another steam generator going. You will then need some more coil blocks, by the way. I think the farming side of this operation could do it as-is. That will get you over 10,000 RF/tick, which means you could run two mining lasers prechargers continuously.
+
+If you have some cool stuff, you could make enderium and replace the coils with it. Then you could use the electrum to make all the advanced conduit you'd need to run all this power everywhere. Seriously, the entry-level conduit is not very good for this stuff. You might have to settle for putting on a bunch of power taps and just running the inferior stuff everywhere until you can get better pipes.
+
+We wanted around 1800 rpm from the turbine because that's a performance sweet spot. You're not going to improve that much more. It's pretty tight! You just want to make sure when adding more steam and such that you are scaling that up. You only can handle 2,000 mb/tick of steam in a single turbine. This one is taking in 1,200 mb/tick from these three generators. Two more will max it out.",
     "AvailabilityQuest4Id": -1,
     "AvailabilityQuest3Id": -1,
     "AvailabilityQuest2Id": -1,
