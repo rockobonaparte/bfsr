@@ -43,7 +43,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "The next layer has an outer rig of reactor blocks. However, I pop in the power tap, the access port, and the controller all on one side. You can put those blocks anywhere on the outside of the reactor, so long as they\u0027re not in the corners. I\u0027m just doing it here. Also, not the fuel rod in the middle of the reactor.",
+            "text": "The next layer has an outer rig of reactor blocks. However, I pop in the power tap, the access port, and the controller all on one side. You can put those blocks anywhere on the outside of the reactor, so long as they\u0027re not in the corners. I\u0027m just doing it here. Also, note the fuel rod in the middle of the reactor.",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
