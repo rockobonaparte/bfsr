@@ -750,7 +750,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "The turbine should have some steam in it. It might not have water now, but it will when you turn it on. Use the bottom right button the activate it. It\u0027s the same as the reactor.\n\nYou will see that this device is the one that\u0027s generating the RF power now. It\u0027s generation rate will vary based on RPM and the layout of the reactor. We want to freeze it around 900 RPM or 1800 RPM.",
+            "text": "The turbine should have some steam in it. It might not have water now, but it will when you turn it on. Use the bottom right button to activate it. It\u0027s the same as the reactor.\n\nYou will see that this device is the one that\u0027s generating the RF power now. It\u0027s generation rate will vary based on RPM and the layout of the reactor. We want to freeze it around 900 RPM or 1800 RPM.",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
