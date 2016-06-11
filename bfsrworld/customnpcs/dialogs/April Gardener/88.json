@@ -27,7 +27,7 @@
             "Option": {
                 "DialogCommand": "",
                 "Dialog": 91,
-                "Title": "How about the wind farm!",
+                "Title": "How about the wind farm?",
                 "DialogColor": 14737632,
                 "OptionType": 1
             }
@@ -60,7 +60,11 @@
     "DialogCommand": "",
     "AvailabilityDialogId": -1,
     "OptionFaction2Points": 100,
-    "DialogText": "Welcome to the farm! We're showing off how a Minefactory Reloaded farming setup can handle different crops!The farm on the left is handling sugar cane, cactus, wheat, cotton, potatoes, carrots, and barley. Phew!The farm on the right is goofy. If you run a sprinkler over grass (it has to be grass, not just dirt!) you'll get random plants. It's a convenient way to get flowers for dyes.",
+    "DialogText": "Welcome to the farm! We're showing off how a Minefactory Reloaded farming setup can handle different crops!
+
+The farm on the left is handling sugar cane, cactus, wheat, cotton, potatoes, carrots, and barley. Phew!
+
+The farm on the right is goofy. If you run a sprinkler over grass (it has to be grass, not just dirt!) you'll get random plants. It's a convenient way to get flowers for dyes.",
     "AvailabilityQuest4Id": -1,
     "AvailabilityQuest3Id": -1,
     "AvailabilityQuest2Id": -1,
