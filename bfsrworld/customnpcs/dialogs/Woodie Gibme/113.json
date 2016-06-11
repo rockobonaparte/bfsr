@@ -30,7 +30,15 @@
     "DialogCommand": "",
     "AvailabilityDialogId": -1,
     "OptionFaction2Points": 100,
-    "DialogText": "Well, we do have a demo rig showing how to use this tree farm technology to power a steam turbine. That thing cranks out LOTS of power. It makes this setup look like a waste of time. Well, the turbine isn't the easiest thing in the world to make, so think about that.That demo rig uses a fertilizer that spreads compost across its field. It gets that stuff from cow dung using sewers. Really!You can probably improve a farm like this very quickly with just more sprinklers. You can also increase the farm's range with upgrades. Finally, you can install additional harvesters.By the way, the harvester will chop down stuff starting in its working area, but it can follow the trees back to spots outside its range. So you can make a harvester with a fairly small range, but you would then make the planter work a larger plot.Warning! Since this harvester can chase outside its normal working area, some bad stuff can happen! I used to live in a giant redwood with one of these in a basement. We had it 15 blocks below the roots of the tree. Somehow, it get its hands on those roots, and ultimately ate the entire tree! It was on a server. I came on to find the entire tree missing, and a sign somebody posted with \"I am sorry for your loss.\"",
+    "DialogText": "Well, we do have a demo rig showing how to use this tree farm technology to power a steam turbine. That thing cranks out LOTS of power. It makes this setup look like a waste of time. Well, the turbine isn't the easiest thing in the world to make, so think about that.
+
+That demo rig uses a fertilizer that spreads compost across its field. It gets that stuff from cow dung using sewers. Really!
+
+You can probably improve a farm like this very quickly with just more sprinklers. You can also increase the farm's range with upgrades. Finally, you can install additional harvesters.
+
+By the way, the harvester will chop down stuff starting in its working area, but it can follow the trees back to spots outside its range. So you can make a harvester with a fairly small range, but you would then make the planter work a larger plot.
+
+Warning! Since this harvester can chase outside its normal working area, some bad stuff can happen! I used to live in a giant redwood with one of these in a basement. We had it 15 blocks below the roots of the tree. Somehow, it got its hands on those roots, and ultimately ate the entire tree! It was on a server. I came on to find the entire tree missing, and a sign somebody posted with \"I am sorry for your loss.\"",
     "AvailabilityQuest4Id": -1,
     "AvailabilityQuest3Id": -1,
     "AvailabilityQuest2Id": -1,
