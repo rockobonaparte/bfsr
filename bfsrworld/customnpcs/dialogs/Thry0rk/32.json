@@ -9,7 +9,9 @@
     "AvailabilityQuest2Id": -1,
     "AvailabilityQuestId": -1,
     "DialogQuest": -1,
-    "DialogText": "You haven't heard about Blightfall? It was plastered all over Technic awhile ago! It's a themed quest pack. You play a specialist member of an operation to colonize another planet, but it's covered in taint from Thaumcraft. So you first have to adapt to the planet's hostile, alien environment. Then you start figuring out the magic that drives the world, and then you start cleaning up all the taint so the colony can live on the surface. It has a great theme.Rocko Bonaparte learned a few tricks from playing it too. He gives it an endorsement.",
+    "DialogText": "You haven't heard about Blightfall? It was plastered all over Technic a while ago! It's a themed quest pack. You play a specialist member of an operation to colonize another planet, but it's covered in taint from Thaumcraft. So you first have to adapt to the planet's hostile, alien environment. Then you start figuring out the magic that drives the world, and then you start cleaning up all the taint so the colony can live on the surface. It has a great theme.
+
+Rocko Bonaparte learned a few tricks from playing it too. He gives it an endorsement.",
     "AvailabilityQuest": 0,
     "AvailabilityFactionStance": 0,
     "DialogDisableEsc": 0b,
