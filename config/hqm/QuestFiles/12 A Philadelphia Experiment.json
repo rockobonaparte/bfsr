@@ -1,10 +1,10 @@
 {
   "name": "A Philadelphia Experiment",
-  "description": "The Philadelphia Experiment is some tinfoil conspiracy folklore that the US government tried to teleport the ship USS Eldridge from one harbor to another. You can actually find stuff about this online. I'm not making it up--somebody else made it up! As the story goes, they actually succeeded, but the result was sailors were teleported mid-ship with their torsos poking out of the floors of the ships, screaming for their lives. ANYWAYS, start hoarding ender pearls, because we\u0027re going to be teleporting too! Yaaay! We\u0027ll go to strange places, enter machines that break space-time, create new dimensions, and ... store ourselves.",
+  "description": "The Philadelphia Experiment is some tinfoil conspiracy folklore that the US government tried to teleport a ship from one harbor to another. As the story goes, they actually succeeded, but the result was sailors with their torsos poking out of the floors of the ships, screaming for their lives. ANYWAYS, start hoarding ender pearls, because we\u0027re going to be teleporting too! Yaaay! We\u0027ll go to strange places, enter machines that break space-time, create new dimensions, and ... store ourselves.",
   "quests": [
     {
       "name": "Your Ultimate Getaway",
-      "description": "The Last Millenium is a great place to remember how to spell \"millennium\" BECAUSE THEY SPELL IT WRONG!!! Beyond that, it is a monster-free, blank space where you are free to build your base in completely lazy comfort. This requires some ender pearls, but is oddly not too resource-intensive. The dyes, however, are unconventional, and you must actively work towards getting all this junk if you want to make the portal. One catch: If you choose to go back to the overworld, it will take you back to the world spawn, not where you placed the portal.",
+      "description": "The Last Millenium is a great place to remember how to spell \"millennium\" BECAUSE THEY SPELL IT WRONG!!! Beyond that, it is a monster-free, blank space where you are free to build your base in completely lazy comfort. This requires some ender pearls, but is oddly not too resource-intensive. The dyes, however, are unconventional, and you must actively work towards getting all this junk if you want to make the portal. One catch: If you choose to go back to the overworld, it will take you back to the world spawn, not where where you placed the portal.",
       "x": 285,
       "y": 68,
       "icon": {
@@ -37,7 +37,7 @@
         {
           "type": "DETECT",
           "description": "The Portal",
-          "longDescription": "Don\u0027t forget the ender pearls! Once you make this thing, slap it down somewhere and right-click it to enter. You can right-click on a block in the dimension's starting spot to return. Use the chunkloader I give as a reward to keep the area running when you go back to the overworld/whatever to do things.",
+          "longDescription": "Don\u0027t forget the ender pearls! Once you make this thing, slap it down somewhere and right-click to enter. You can right-click on a block in the starting spot once you have beamed over to return. Use the chunkloader I give as a reward to keep the area running when you go back to the overworld/whatever to do things.",
           "items": [
             {
               "item": {
@@ -74,7 +74,7 @@
     },
     {
       "name": "Deep Dork",
-      "description": "The deep dark is a dangerous place that isn\u0027t that much better of a place to be in this pack than other places. However, in other packs, it\u0027s worth trying. Hell, there is a survival pack that starts you here! You have to know it\u0027s very easy to die in it. The empty, dark space actually hurts, and you have to bring tons of torches. The monsters are strong too. Also, there are holes into the void at the bottom of the dimension. I am not making it sound appealing, but it\u0027s fun to try at least once.",
+      "description": "The deep dark is a dangerous place that isn\u0027t that much better of a place to be in this pack than other places. However, in other packs, it\u0027s worth trying. Hell, there is a survival pack that starts you here! You have to know it\u0027s very easy to die in it. Darkness actually hurts, and you have to bring tons of torches. The monsters are strong too. Also, there are holes in the world. I am not making it sound appealing, but it\u0027s fun to try at least once.",
       "x": 281,
       "y": 109,
       "icon": {
@@ -101,7 +101,7 @@
         {
           "type": "DETECT",
           "description": "Quintuple Compressed Cob",
-          "longDescription": "I did not pay too much attention to the quintiuple-compressed cobblestone requirement when I built this the first time. So I got blown sky-high from the unstable ingots this recipe needs when I tried to make the portal without it.",
+          "longDescription": "I did not pay too much attention to the quintiuple-compressed cobblestone requirement when I built this the first time. So I got blown sky-high when I tried to make the portal when I did not have one. This thing needs some unstable ingots, so you really need to make sure you have everything straight before you build it.",
           "items": [
             {
               "item": {
@@ -114,7 +114,7 @@
         {
           "type": "DETECT",
           "description": "The Portal",
-          "longDescription": "Finally, the portal. This requires unstable ingots. Again, these will blow you up if you don\u0027t handle them quickly enough! You want to set up a crafting table 20-30+ blocks away from your base, get all your stuff arranged together, and do this very quickly! As soon as you make the ingots, the countdown starts on them. We are talking 10 seconds here!",
+          "longDescription": "Finally, the portal. This requires unstable ingots. Again, these will blow you up if you don\u0027t handle them quickly enough! You want to set up a crafting table 20-30+ blocks away from your base, get all your stuff arranged together, and do this very quickly! We are talking 10 seconds here!",
           "items": [
             {
               "item": {
@@ -136,7 +136,7 @@
     },
     {
       "name": "Pearl Diving",
-      "description": "Ender pearls are pretty obnoxious to get in vanilla Minecraft, and gate the end game part--if you are into that kind of thing. A lot of mods use ender pearls as ingredients. Artifice provides ender ore. It is strange stuff. I cannot tell you exactly where it generates, but I think it has a chance of generating when endermen spawn or teleport underground. I have good luck finding it around Y\u003d12 in lava caves.",
+      "description": "Ender pearls are pretty obnoxious to get in vanilla Minecraft, and gate the end game part, if you are into that kind of thing. A lot of mods use ender pearls as ingredients. Artifice provides ender ore. It is strange stuff. I cannot tell you exactly where it generates, but I think it has a chance of generating when endermen spawn or teleport underground. I have good luck finding it around Y\u003d12 in lava caves.",
       "x": 118,
       "y": 51,
       "icon": {
@@ -170,7 +170,7 @@
     },
     {
       "name": "Pearls Before Swine",
-      "description": "In vanilla Minecraft, there are tall, skinny black aliens called endermen that pop up particularly at night. They don\u0027t care about you... unless you look at them. Then they go nuts. They hate water and sunlight and attempt to escape both. They can also teleport all over the place. They drop these green ender pearls when you kill them. You can also make ender pearls from ender dust from ender ore thanks to the Artifice mod. If you throw one with a right-click, it will teleport you where it lands. A lot of mods then decided to use ender pearls as a major ingredient of teleportation gear. You had best start stockpiling some. For this chapter!",
+      "description": "In vanilla Minecraft, there are tall, skinny black aliens called endermen that pop up particularly at night. They don\u0027t care about you... unless you look at them. Then they go nuts. They hate water and sunlight and attempt to escape both. They can also teleport all over the place. They drop these green ender pearls when you kill them. You can also make them from ender dust from ender ore thanks to the Artifice mod. If you throw one with a right-click, it will teleport you where it lands. A lot of mods then decided to use ender pearls as a major ingredient of teleportation gear. You had best start stockpiling some.",
       "x": 131,
       "y": 89,
       "icon": {
@@ -183,7 +183,7 @@
         {
           "type": "DETECT",
           "description": "Show Me Four Pearls",
-          "longDescription": "The easiest way in the early-game to get ender pearls here is through ender ore, or mugging a few endermen if you can hide in a two-block-high murder hole. In the advanced game, you can set up a mob farm to spawn them and autokill them. You\u0027ll be swimming in them at that point.",
+          "longDescription": "The easiest way in the early-game to get ender pearls here is through ender ore, or mugging a few endermen if you can hid in a two-block-high murder hole. In the advanced game, you can set up a mob farm to spawn them and autokill them. You\u0027ll be swimming in them at that point.",
           "items": [
             {
               "item": {
@@ -301,7 +301,7 @@
         {
           "type": "DETECT",
           "description": "Full Of It",
-          "longDescription": "Fill that empty frame with 1,000mb of resonant ender. That may be a single bucket, but it requires 4 ender pearls to fill it.",
+          "longDescription": "Fill that empty frame with 1,000mb of resonant ender. That may be a full bucket, but it require 4 ender pearls.",
           "items": [
             {
               "item": {
@@ -314,7 +314,7 @@
         {
           "type": "CRAFT",
           "description": "This Concludes Our Tess",
-          "longDescription": "We are not done! You have to now encase that filled frame with bronze and silver. Now, when you make the thing, you are not done, because you need at least two of these to get anything out of them! I will give you one! They have to be set to the same channel. One has to be receiving the other has to be transmitting if you want anything to move between them.",
+          "longDescription": "We are not done! You have to now encase that filled frame with bronze and silver. Now, when you make the thing, you are not done, because you need at least two of these to get anything out of them! I will give you one! They have to be set to the same channel, and have one has to be receiving where the other is sending if you want anything to move between them.",
           "items": [
             {
               "item": {
@@ -351,7 +351,7 @@
     },
     {
       "name": "Stating Things Compactly",
-      "description": "So let\u0027s talk about compact machines. This mod let\u0027s you create little pocket dimensions inside cubes where you can set up some machines. For example, you could put an entire ore processing rig in one, and just tuck the machine in the corner. It comes with a chunk loader, so stuff happening inside the machine will keep happening even if you leave it automatically. There are a few downsides. One, you have to put this machine exactly where you want it, because everything inside spills out if you move the machine (unless you feed it a nether star... really). Second, It sure does eat up an awful lot of materials to make. I think the big-sized machines are the best bang-for-your-buck. You can run a tree farm inside of one.",
+      "description": "So let\u0027s talk about compact machines. This mod let\u0027s you create little pocket dimensions inside cubes where you can set up some machines. For example, you could put an entire ore processing rig in one, and just tuck the machine in the corner. It comes with a chunk loader, so stuff happening inside the machine will keep happening even if you leave it automatically. There are a few downsides. One, you have to put this machine exactly where you want it, because everything inside spills out if you move the machine (unless you feed it a nether start... really). Second, It sure does eat up an awful lot of materials to make. I think the big-sized machines are the best bang-for-your-buck. You can run a tree farm inside of one.",
       "x": 97,
       "y": 20,
       "icon": {
@@ -440,7 +440,7 @@
     },
     {
       "name": "Construct Additional Pylons",
-      "description": "Now we get into spatial storage. Applied Energistics lets you set up a frame of which anything you put inside gets stored in space. If you have teleporters, you can even (safely) store yourself! There are four major components. First, you need a special kind of storage module to store physical space. Second, you need to make a frame out of pylons. Third, you need enough energy cells to power the operation. Beware, it can take a lot of energy cells. Finally, you have to set up a spatial drive with a toggle to start the operation.",
+      "description": "Now we get into spatial storage. Applied Energistics lets you set up a frame of which anything you put inside gets stores as a space. If you set up teleporters, you can even store yourself! There are four major components. First, you need a special kind of storage module to store physical space. Second, you need to make a frame out of pylons. Third, you need enough energy cells to power the operation. Beware, it can take a lot of energy cells. Finally, you have to set up a spatial drive with a toggle to start the operation.",
       "x": 213,
       "y": 138,
       "icon": {
@@ -453,7 +453,7 @@
         {
           "type": "CRAFT",
           "description": "Physical Space",
-          "longDescription": "The 16-cubed device let\u0027s you store a full chunk\u0027s worth space, 16 blocks high. So to be exact, it can contain 16 blocks in all directions. This is a reasonable size for using for various things. However, if you\u0027re just teleporting a mob spawner or something, the basic 2-cubed is good enough. We need the larger one to beam ourselves up safely.",
+          "longDescription": "The 16-cubed device let\u0027s you store a full chunk\u0027s worth space, 16 blocks high. So to be exact, it can contain 16 blocks in all directions. This is a reasonable size for using for various things. However, if you\u0027re just teleporting a mob spawner or something, the basic 2-cubed is good enough.",
           "items": [
             {
               "item": {
@@ -490,7 +490,7 @@
         {
           "type": "CRAFT",
           "description": "The Spatial IO Port",
-          "longDescription": "Put the 16^3 drive in this IO port, and stick a button on it. If you set up everything right--including the power--the stuff inside the volume should disappear into storage. If you set up some teleporters and also maybe a chunk loader, you could go inside of it!",
+          "longDescription": "Put the 16^3 drive in this IO port, and stuck a button on it. If you set up everything right--including the power--the stuff inside the volume should disappear into storage. If you set up some teleporters and also maybe a chunk loader, you could go inside of it!",
           "items": [
             {
               "item": {
@@ -566,7 +566,7 @@
         {
           "type": "DETECT",
           "description": "The Key To... What?",
-          "longDescription": "This goes to some lockbox or whatever. If we knew which one, we'd just blow a hole in it, but the key has the ID. The key is more important for us to tell where to raid for original plans on the experiment. Admiral Luna would have a field day.",
+          "longDescription": "Sure, we could blow a hole in any chest or vault or whatever that was locked all these years. The thing is we don\u0027t know where to look. The key is more important for us to tell where to raid for original plans on the experiment. Admiral Luna would have a field day.",
           "items": []
         }
       ],
@@ -587,7 +587,7 @@
     },
     {
       "name": "Discount Self-Storage",
-      "description": "Apparently, there are some Buddhist monks that will stuff themselves in a burial chamber, eat nothing but honey for a long time, then mummify themselves before they die. We\u0027re going to do something similarly crazy! Applied Energistics\u0027 spatial storage allows you to store yourself! Don\u0027t forget to pack a way out! You set up a spatial storage array with an IO port. Toggle that port once you have power and storage--while you are inside of it--and poof! I would recommend not placing the way back until you have stored yourself because some stuff doesn\u0027t teleport across space correctly . . . including all the different teleporters. :(",
+      "description": "Apparently, there are some Buddhist monks that will stuff themselves in a burial chamber, eat nothing but honey for a long time, then mummify themselves before they die for some crazy reason. We\u0027re going to do something similarly crazy! Applied Energistics\u0027 spatial storage allows you to store yourself! Don\u0027t forget to pack a way out! You set up a spatial storage array with an IO port. Toggle that port once you have power and storage--while you are inside of it--and poof! I would recommend not placing the way back until you have stored yourself because some stuff doesn\u0027t teleport across space correctly . . . include certain teleporters. :(",
       "x": 247,
       "y": 116,
       "icon": {
@@ -618,7 +618,7 @@
         {
           "type": "LOCATION",
           "description": "Self-Storage",
-          "longDescription": "Before you take the trip, I\u0027d recommend laying out some cobblestone in the chamber for scaffolding. The default void space doesn\u0027t let you place any blocks, so even if you get all the important stuff into your inventory, you can\u0027t place any of it! Anyways, you need to set up some pylons in three different directions so it knows the region you\u0027re beaming up. The pylons should have a cable connecting them all together in one corner; pylons themselves are just little girders themselves that can only go out in one dimension. If you run a pylon into one going another direction, the whole spatial storage region goes down. You know you have it right when you see the purplish color of the pylons turn redder. Once powered, they turn purple. You will want to make something like a 4x4x4 space so you can fit yourself, some teleporters, and power into the space.",
+          "longDescription": "Before you take the trip, I\u0027d recommend laying out some cobblestone in the chamber so you can build off of it. The default void space doesn\u0027t let you place any blocks, so even if you get all the important stuff into your inventory, you can\u0027t place any of it! Anyways, you need to set up some pylons in three different directions so it knows the region you\u0027re beaming up. The pylons should have a cable connecting them all together in one corner; pylons themselves are just little girders themselves that can only go out in one dimension. If you run a pylon into one going another direction, the whole spatial storage region goes down. You know you have it right when you see the purplish color of the pylons turn redder. You will want to make something like a 4x4x4 space so you can fit yourself, some teleports, and power into the space.",
           "locations": [
             {
               "name": "New",
@@ -651,7 +651,7 @@
     },
     {
       "name": "Living In The Spectrum",
-      "description": "Safe spaces are all the rage these days. The Random Things mod delivers with the Spectral Dimension. This is a quiet little place only you can personally retreat to in order to build a nice little hiding hole. Combined with compact machines, you get a pretty sweet little hiding place here. I mean, the dimension only gives you a personal 16x16x16 space, but it\u0027s an especially great place to stash stuff early in the game. I love this when I am in \"nomad mode.\" Sometimes I just can\u0027t find the perfect base, but I can pretty easily make this key and camp somewhere when I start needing a lab. By the way, only you can be inside your own little spectral dimension. If you invite other players in, they\u0027ll get whisked out. No griefers for you!",
+      "description": "Safe spaces are all the rage these days. The Random Things mod delivers with the Spectral Dimension. This is a quiet little place only you can personally retreat to in order to build a nice little hiding hole. Combined with compact machines, you get a pretty sweet little hiding place here. I mean, the dimension only gives you a personal 16x16x16 space, but it\u0027s an especially great place to stash stuff early in the game. I love this key when I am in \"gypsy mode.\" Sometimes I Just can\u0027t find the perfect base, but I can pretty easily make this key and camp somewhere when I need to do some machine stuff. By the way, only you can be inside your own little spectral dimension. If you invite other players in, they\u0027ll get whisked out. No griefers for you!",
       "x": 286,
       "y": 25,
       "icon": {
@@ -677,7 +677,7 @@
         {
           "type": "CRAFT",
           "description": "Ingot On A Stick",
-          "longDescription": "Combine that ectoplasm with some iron and you\u0027ll get a spectre iron ingot you can put on a stick. That\u0027s your key. Hold down the use button on your mouse (right-click by default) for a little bit and it will whisk you away! Use it again to get sent back. It\u0027s reusable, so do not fret. If you lose it and make another key, it will take you back to the same place.",
+          "longDescription": "Combine that ectoplasm with some iron and you\u0027ll get a spectre iron ingot you can put on a stick. That\u0027s your key. Hold down the use button on your mouse (right-click by default) for a little bit and it will whisk you away! Use it again to get sent back. It\u0027s reusable, so do not fret.",
           "items": [
             {
               "item": {
@@ -714,7 +714,7 @@
         {
           "type": "DETECT",
           "description": "Fluid Powder Power",
-          "longDescription": "Let\u0027s talk about the basic ingredients here. This is an alloy made from 4:2:1:1 ender pearls:tin:silver:platinum. Platinum may be called \"shiny metal\" depending on what you use. The ender pearls come in as a single bucket of resonant ender. For all this effort, you get four resonant ender dusts, which make four ingots.",
+          "longDescription": "Let\u0027s talk about the basic ingredients here. This is an alloy made from 4:2:1:1 ender pearls:tin:silver:platinum. Platinum may be called \"shiny metal\" depending on what you use. The ender pearls come in as a single bucket of resonant ender. For all this effort, you get for resonant ender dusts, which make four ingots.",
           "items": [
             {
               "item": {
@@ -770,7 +770,7 @@
     },
     {
       "name": "Drunk Dialing",
-      "description": "We established that you use the dimension enscriber to configure new dimensions. We did not specify how. The way to configure a dimension is to arrange \"dimlets\" inside of the enscriber to describe various aspects of this universe. This follows a specific syntax that I will not delve into here. You see, you can just skip all that and let it come up with something completely crazy! Who knows what you\u0027ll get! You might want to bring your BFSR rattle to get out in a jiffy if it\u0027s really bad! Also, bring a matter transmitter and some power to it. Also, a dialing device as a backup might be smart! You need to be able to beam back home somehow! The new dimension only has a matter receiver to let you in.",
+      "description": "We established that you use the dimension enscriber to configure new dimensions. We did not specify how. The way to configure a dimension is to arrange \"dimlets\" inside of the enscriber to describe various aspects of this universe. This follows a specific syntax that I will not delve into here. You see, you can just skip all that and let it come up with something completely crazy! Who knows what you\u0027ll get! You might want to be your BFSR rattle to get out in a jiffy if it\u0027s really bad! Also, bring a matter transmitter and some power to it. Also, a dialing device as a backup might be smart! You need to be able to beam back home somehow! The new dimension only has a matter receiver to let you in.",
       "x": 83,
       "y": 190,
       "icon": {
@@ -843,7 +843,7 @@
     },
     {
       "name": "Blowing Chunks",
-      "description": "Let\u0027s talk about chunks. They are 16x16 regions in the Minecraft world that is uses to sort and organize world data. If you press F9, you can see where these boundaries are. They go infinitely up and done inside those regions, so the XZ coordinates are all that really matters. When chunks generally go out of view by walking away or going to another dimension, everything happening in that chunk just freezes. So if you wanted a huge thing to happen while you went somewhere else, that would explain why it didn\u0027t happen while you were gone. You can get around this with chunk loaders. If you put one of these down in the chunk you want to keep active, everything in that chunk will keep moving and running. Now, if you spray these everywhere, your game might grind to a halt because the game has to do all the math constantly for these chunks. You want to use them sparingly--especially on servers!",
+      "description": "Let\u0027s talk about chunks. They are 16x16 regions in the Minecraft world that is uses to sort and organize world data. If you press F9, you can see where these boundaries are. They go infinitely up and done inside those regions, so the area is the only part that really matters. When chunks generally go out of view by walking away or going to another dimension, everything happening in that chunk just freezes. So if you wanted a huge thing to happen while you went somewhere else, that would explain why it didn\u0027t happen while you were gone. You can get around this with chunk loaders. If you put one of these down in the area you want to keep active, everything in that chunk will keep moving and running. Now, if you spray these everywhere, your game might grind to a halt because the game has to do all the math constantly for these chunks. You want to use them sparingly--especially on servers!",
       "x": 139,
       "y": 19,
       "icon": {
@@ -895,7 +895,7 @@
     },
     {
       "name": "Eye Have Got An Adventure",
-      "description": "The Eye of Ender is a Vanilla Minecraft object added to try to get some kind of ending to the game. You can toss them with a right-click, and they\u0027ll fly out in the direction of the nearest underground stronghold. You can either make a bunch of these and just follow where they go until they crash right into the ground in front of you, or you can have just two, toss them a couple hundred blocks apart, and use a linear intersection formula to triangulate where the stronghold is. I do that because I am a giant dork. A lot of people that play modded Minecraft have never even gone through all this trouble, but you at least need to make eyes of ender for *very advanced* crafting recipes in some mods.",
+      "description": "The Eye of Ender is a Vanilla Minecraft object added to try to get some kind of endering to the game. You can toss them with a right-click, and they\u0027ll fly out in the direction of the nearest underground stronghold. You can either make a bunch of these and just follow where they go until they crash right into the ground in front of you, or you can have two tops, toss them a couple hundred blocks apart, and use a linear intersection formal to triangulate where the stronghold is. I do that latter because I am a giant dork. A lot of people that play modded Minecraft have never even gone through all this trouble, but you at least need to make a for eyes of ender for *very advanced* crafting recipes in some mods.",
       "x": 188,
       "y": 22,
       "icon": {
@@ -927,7 +927,7 @@
     },
     {
       "name": "Return To Ender",
-      "description": "So Vanilla Minecraft has something like 3 strongholds within 1km of the Overworld spawn. If you start heading out in a direction, you can start sending out Eyes of Ender with a right click, and watch where they fly. Note the direction they go in, and check underneath them to see if they come back to the ground. Sometimes they just go *poof*. Again, you can do that linear intersection calculation from just two attempts like I do, but with modded Minecraft, vomiting these magical Eyes of Ender out pretty easy. The goal is to get to the dimension called \"The End.\" Yeah, it\u0027s because Minecraft was set up to end there. There\u0027s a dragon there that will trigger a Minecraft ending sequence (that is really strange). Don\u0027t worry, you can keep playing afterwards. Doing this doesn\u0027t have much value. The one perk is that the end stone in that dimension grows ender lilies ridiculously fast.",
+      "description": "So Vanilla Minecraft has something like 3 strongholds within 1km of the Overworld spawn. If you start heading out in a direction, you can start sending out Eyes of Ender with a right click, and watching where they fly. Note the direction they go in, and check underneath them to see if they come back to the ground. Sometimes they just go *poof*. Again, you can do that linear intersection calculation from just two attempts like I do, but with modded Minecraft, vomiting these magical Eyes of Ender out is good enough. The goal is to get to the dimension called \"The End.\" Yeah, it\u0027s because Minecraft was set up to end there. There\u0027s a dragon there that will trigger a Minecraft ending sequence (that is really strange). Don\u0027t worry, you can keep playing afterwards. Doing this doesn\u0027t have much value. The one perk is that the end stone in that dimension grows ender lilies ridiculously fast.",
       "x": 238,
       "y": 20,
       "icon": {
@@ -940,7 +940,7 @@
         {
           "type": "LOCATION",
           "description": "The Beginning Of The End",
-          "longDescription": "So you get to the stronghold, and you plug in some of the portal bases with spare eyes of ender to activate the portal. Not so fast! This is a rough fight. Well, people do it in Vanilla. I did it wearing a pumpkin, which keeps the endermen from getting mad at me, and using an infinity bow. You can gear up just a little bit better than that and be in good shape. Use enderium arrows and it'll be almost boring! You need to shoot out the crystals on top of the towers because they restore the dragon\u0027s health. Then you can plink away on him. Enderium equipment will do this highly effectively. If you\u0027re on a server, somebody might have already done all this, so I can only check that you made it to The End at all. Fun trick: You can set up an open smeltery here with a chunk loader. Endermen will spawn in it and get cooked down into resonant ender. Gross!",
+          "longDescription": "So you get to the stronghold, and you plug in some of the portal bases with spare eyes of ender to activate the portal. Not so fast! This is a rough fight. Well, people do it in Vanilla. I did it wearing a pumpkin, which keeps the endermen from getting mad at me, and using an infinity bow. You can gear up just a little bit better than that and be in good shape. You need to shoot out the crystals on top of the towers because they restore the dragon\u0027s health. Then you can plink away on him. Enderium equipment will do this highly effectively. If you\u0027re on a server, somebody might have already done all this, so I can only check that you made it to The End at all.",
           "locations": [
             {
               "name": "New",
@@ -981,7 +981,7 @@
     },
     {
       "name": "An Ender-Game Weapon",
-      "description": "Thanks to the ExtraTiC mod, enderium can be forged into weapons! It is some serious stuff. Let\u0027s say, a manullyn cleaver does +14 damage. An enderium *rapier* can do the same . . . and much faster! An enderium cleaver can do +30 damage! It might be smarter to do the rapier because that skips armor, is enough to one-shot most vanilla stuff on a critical hit, and hits very quickly. Also: You want to tip your arrows and bolts with this stuff too.",
+      "description": "Thanks to the ExtraTiC mod, enderium can be forged into weapons! It is some serious stuff. Let\u0027s say, a manullyn cleaver does +14 damage. An enderium *rapier* can do the same . . . and much faster! An enderium cleaver can do +30 damage! It might be smarter to do the rapier because that skips armor, is enough to one-shot most stuff on a critical hit, and hits very quickly. Also: You want to tip your arrows and bolts with this stuff too.",
       "x": 26,
       "y": 118,
       "icon": {
@@ -1367,7 +1367,7 @@
         {
           "type": "CRAFT",
           "description": "Diamonds Diamonds Diamonds",
-          "longDescription": "I\u0027ll just ask for enough to make one of the rings and give you enough to build the second ring! I\u0027ll throw in some yellow cable so you have something distinct mark off part of the network. Anyways, you build a 3x3 hollow ring out of the quantum rings, slap the chamber in the center, and pop an entangled singularity inside the chamber\u0027s GUI. Once you do that on the remote end--and supply it power--you will link! You probably need chunk loaders to keep both ends alive, by the way!",
+          "longDescription": "I\u0027ll just ask for enough to make one of the rings and give you enough to build the second ring! I\u0027ll throw in some yellow cable so you have something distinct to show at least one of your connections between the networks. Anyways, you build a 3x3 hollow ring out of the quantum rings, slap the chamber in the center, and pop an entangled singularity inside the chamber\u0027s GUI. Once you do that on the remote end--and supply it power--you will link! You probably need chunk loaders to keep both ends alive, by the way!",
           "items": [
             {
               "item": {
@@ -1405,7 +1405,7 @@
     },
     {
       "name": "Seeing From A New Dimension",
-      "description": "So maybe you want to go to some of these crazy dimensions. Very well. You need a dimension enscriber and a dimension builder. The enscriber configures the new dimension. The builder then creates it and powers it. Note that dimensions have different power costs, and they are more severe the more, well, over-powered the dimension is. Say, if you wanted to teleporting into diamond crystal land, then you\u0027re going to need a lot of juice!",
+      "description": "So maybe you want to go to some of these crazy dimensions. Very well. You need a dimension enscriber and a dimension builder. The enscriber configures the new dimension. The builder then creates it and powers it. Note that powering dimensions have different power costs, and they are more severe the more, well, over-powered the dimension is. Say, if you wanted to teleporting into diamond crystal land, then you\u0027re going to need a lot of juice!",
       "x": 136,
       "y": 191,
       "icon": {
@@ -1459,7 +1459,7 @@
         {
           "type": "CRAFT",
           "description": "This Staff Is Tedious",
-          "longDescription": "The final step for making the staff isn\u0027t that bad. The soul binder is going to be a real pain, however. You need to start collecting heads, and specific ones! You may want to make yourself a Tinkers\u0027 Construct cleaver for this. Then you have to produce various alloys in an Ender IO alloy smelter. You have to make a crystal in that soul binder, and then it comes together. Is it worth it? Eventually. By the time your base is big enough to want one of these, you probably have the means to produce these things. Finally, you have to charge the thing. If you have a capacitor bank, then that\u0027s easy.",
+          "longDescription": "The final step for making the staff isn\u0027t that bad. The soul binder is going to be a real pain, however. You need to start collecting heads, and specific ones! You may want to make yourself a Tinkers\u0027 Construct cleaver for this. Then you have to produce various alloys in an Ender IO alloy smelter. You have to make a crystal in that soul binder, and then it comes together. Is it worth it? Eventually. By the time your base is big enough to want one of these, you probably have the means to produce these things. Finally, you have the charge the thing. If you have a capacitor bank, then that\u0027s easy.",
           "items": [
             {
               "item": {
@@ -1585,7 +1585,7 @@
         {
           "type": "CRAFT",
           "description": "Getting The Gang Together",
-          "longDescription": "If you are creating a dimension for your base, you might decide that you don\u0027t want mobs. However, if you create a mob farm that\u0027s supposed to work in the dark, then you\u0027re in trouble. Use the default mob dimlet to keep things regular. Furthermore, if you omit this dimlet, that doesn\u0027t mean it won\u0027t just throw in mobs anyways. You need the \"none\" dimlet. You can\u0027t craft that. :p",
+          "longDescription": "If you are creating a dimension for your base, you might decide that you don\u0027t want mobs. However, if you create a mob farm that\u0027s supposed to work in the dark, then you\u0027re in trouble. Is the default mob dimlet to keep things regular. Furthermore, if you omit this dimlet, that doesn\u0027t mean it won\u0027t just throw in mobs anyways. You need the \"none\" dimlet. You can\u0027t craft that. :p",
           "items": [
             {
               "item": {
@@ -1599,7 +1599,7 @@
         {
           "type": "CRAFT",
           "description": "As Interesting As Wisconsin",
-          "longDescription": "You don\u0027t want a permanent effect in your dimension. I mean, regeneration might be fun, but that\u0027s a ton of extra RF, and you can\u0027t craft it! So you need the \"none\" effect dimlet. Features represent things like strongholds, fortresses, dungeons, and villages. They\u0027re nice to have, but if you are trying to make a cozy hangout dimension, then you want to exclude them. Finally, the normal time dimlet makes sure everything grows at the normal rate. There\u0027s a fast time dimlet that\u0027ll make your crops go crazy, but it eats a ton of RF power. You also can\u0027t craft it!",
+          "longDescription": "You don\u0027t want a permanent effect in your dimension. I mean, regeneration might be fun, but that\u0027s a ton of extra RF, and you can\u0027t craft it! So you need the \"none\" effect dimlet. Features represent things like strongholds, fortresses, dungeons, and villages. They\u0027re nice to have, but if you are trying to control your dimension, you want to exclude them. Finally, the normal time dimlet makes sure everything grows at the normal rate. There\u0027s a fast time dimlet that\u0027ll make your crops go crazy, but it eats a ton of RF power. You also can\u0027t craft it!",
           "items": [
             {
               "item": {
@@ -1627,7 +1627,7 @@
         {
           "type": "CRAFT",
           "description": "Alternative Terrains",
-          "longDescription": "Let\u0027s close off with two dimlets that are not normal, but are craftable. The flat world dimlet will give you a flat world like you can select when creating a new world. However, I think it will give you ground all the way up at Y\u003d64, instead of putting you around Y\u003d3. Also, there\u0027s a void world that lets you have a skyblock. Don\u0027t worry! You will start on the same old platform you get whenever you warp into a new dimension. I personally like to use the flat dimlet when making a world for exploring for more dimlets because it makes all those dimlet storage buildings stand out like sore thumbs.",
+          "longDescription": "Let\u0027s close off with two dimlets that are not normal, but are craftable. The flat world dimlet will give you a flat world like you\u0027d get in the Minecraft editor. However, I think it will give you ground all the way up at Y\u003d64, instead of putting you around Y\u003d3. Also, there\u0027s a void world that lets you have a skyblock. Don\u0027t worry! You will start on the same old platform you get whenever you warp into a new dimension. I personally like to use the flat dimlet when making a world for exploring for more dimlets because it makes all those dimlet storage buildings stand out like sore thumbs.",
           "items": [
             {
               "item": {
@@ -1661,7 +1661,7 @@
     },
     {
       "name": "Applied Energistic\u0027s Pearl",
-      "description": "Applied Energistics likes to wrap ender pearls in fluix for all the stuff it uses for beaming stuff up. If you did the wireless quest, you have run into this guy already. If not, how convenient! You get to make some now! I will give you some if you make me some!",
+      "description": "Applied Energistics likes to wrap ender pearls in fluix for all the stuff it uses for beaming stuff up. If you did the wireless quest, you have run into this guy already. If not, how convenient! I will give you some if you make me some!",
       "x": 178,
       "y": 124,
       "icon": {

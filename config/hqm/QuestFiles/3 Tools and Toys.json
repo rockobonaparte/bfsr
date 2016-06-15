@@ -4,7 +4,7 @@
   "quests": [
     {
       "name": "Pattern After Me",
-      "description": "Let\u0027s start playing with Tinkers Construct, which is a very ubiquitous Minecraft mod for tools. We will eventually build its smeltery, but we will start with some toolmaking tables and chests. To start making them, create some patterns. By the way, this might be a good time to look at that \"Materials And You\" book. If you do not have one, Ms. Paige Turner in the free book store in Baby\u0027 First Space City can help you out.",
+      "description": "Let\u0027s start playing with Tinkers Construct, which is a very ubiquitous Minecraft mod for tools. We will eventually build its smeltery, but we will start with some toolmaking tables and chests. To start making them, create some patterns. By the way, this might be a good time to look at that \"Materials And You\" book you started with.",
       "x": 55,
       "y": 37,
       "icon": {
@@ -80,12 +80,12 @@
     },
     {
       "name": "Picking From The Parts",
-      "description": "Let\u0027s build a stone pick using Tinkers Construct methods. This pick will be more durable than a base-game stone pick, repairable with one cobblestone, and becomes faster as you wear it down. You can do most of your tunneling with this pick. Make a tool station for yourself to carry around, and you can quickly repair it between swings.",
+      "description": "Let\u0027s build a stone pick using Tinkers Construct methods. This pick will be more durable than a base-game stone pick, repairable with one cobblestone, and becomes faster as you wear it down. You can do most of your tunneling with this pick. Make a tool station for yourself to carry around, and you can quickly repair it in tunnels.",
       "x": 98,
       "y": 39,
       "icon": {
         "id": "TConstruct:pickaxe",
-        "nbt": "{InfiTool:{BaseDurability:65,Head:1,Built:1b,HarvestLevel:1,Attack:2,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,Accessory:1,MiningSpeed:400,RenderAccessory:1,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:65},display:{Name:\"Stone Pickaxe\"}}"
+        "nbt": "{InfiTool:{BaseDurability:65,Head:1,Built:1b,HarvestLevel:1,Attack:2,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,Accessory:1,MiningSpeed:400,RenderAccessory:1,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:65},display:{Name:\"ï¿½fStone Pickaxe\"}}"
       },
       "prerequisites": [
         "Pattern After Me"
@@ -119,7 +119,7 @@
         {
           "type": "DETECT",
           "description": "Building The Parts",
-          "longDescription": "Take the patterns to the part builder. One at a time, place a pattern in one of the left boxes, and some stone in the right box. You need 1 cobblestone for the head, and half a cobblestone for the binding and rod each. If you use cobblestone on one, you\u0027ll get a leftover stone piece that you can then use to make the other.",
+          "longDescription": "Take the patterns to the part builder. One at a time, place a pattern in one of the left boxes, and some stone in the right box. You need 1 cobblestone for the head, and half a cobblestone for the binding and rod. If you use cobblestone on one, you\u0027ll get a leftover stone piece that you can then use to make the other (binding and rods are half a cobblestone each).",
           "items": [
             {
               "item": {
@@ -149,7 +149,7 @@
             {
               "item": {
                 "id": "TConstruct:pickaxe",
-                "nbt": "{InfiTool:{BaseDurability:65,Head:1,BaseAttack:2,Built:1b,HarvestLevel:1,Attack:2,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,Accessory:1,MiningSpeed:400,RenderAccessory:1,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:65},display:{Name:\"Stone Pickaxe\"}}"
+                "nbt": "{InfiTool:{BaseDurability:65,Head:1,BaseAttack:2,Built:1b,HarvestLevel:1,Attack:2,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,Accessory:1,MiningSpeed:400,RenderAccessory:1,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:65},display:{Name:\"§fStone Pickaxe\"}}"
               },
               "precision": "NBT_FUZZY"
             }
@@ -416,7 +416,7 @@
         },
         {
           "id": "TConstruct:frypan",
-          "nbt": "{InfiTool:{BaseDurability:714,Head:14,Built:1b,HarvestLevel:2,Attack:4,RenderHead:14,ModDurability:0.0f,Handle:14,Broken:0b,Shoddy:0.0f,RenderHandle:14,MiningSpeed:800,Unbreaking:1,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:714},display:{Name:\"Bronze Frying Pan\"}}"
+          "nbt": "{InfiTool:{BaseDurability:714,Head:14,Built:1b,HarvestLevel:2,Attack:4,RenderHead:14,ModDurability:0.0f,Handle:14,Broken:0b,Shoddy:0.0f,RenderHandle:14,MiningSpeed:800,Unbreaking:1,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:714},display:{Name:\"ï¿½fBronze Frying Pan\"}}"
         },
         {
           "id": "minecraft:apple"
@@ -430,7 +430,7 @@
       "y": 74,
       "icon": {
         "id": "TConstruct:pickaxe",
-        "nbt": "{InfiTool:{BaseDurability:974,Head:16,Built:1b,HarvestLevel:4,Attack:5,RenderHead:16,ModDurability:0.0f,Handle:16,Broken:0b,Shoddy:0.0f,RenderHandle:16,Accessory:16,MiningSpeed:1000,RenderAccessory:16,Unbreaking:2,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:974},display:{Name:\"Steel Pickaxe\"}}"
+        "nbt": "{InfiTool:{BaseDurability:974,Head:16,Built:1b,HarvestLevel:4,Attack:5,RenderHead:16,ModDurability:0.0f,Handle:16,Broken:0b,Shoddy:0.0f,RenderHandle:16,Accessory:16,MiningSpeed:1000,RenderAccessory:16,Unbreaking:2,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:974},display:{Name:\"ï¿½fSteel Pickaxe\"}}"
       },
       "prerequisites": [
         "{Electrical Power}[Steel My Thunder]",
@@ -474,18 +474,18 @@
         },
         {
           "id": "TConstruct:frypan",
-          "nbt": "{InfiTool:{BaseDurability:974,Head:16,Built:1b,HarvestLevel:4,Attack:6,RenderHead:16,ModDurability:0.0f,Handle:16,Broken:0b,Shoddy:0.0f,RenderHandle:16,MiningSpeed:1000,Unbreaking:2,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:974},display:{Name:\"Steel Frying Pan\"}}"
+          "nbt": "{InfiTool:{BaseDurability:974,Head:16,Built:1b,HarvestLevel:4,Attack:6,RenderHead:16,ModDurability:0.0f,Handle:16,Broken:0b,Shoddy:0.0f,RenderHandle:16,MiningSpeed:1000,Unbreaking:2,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:974},display:{Name:\"ï¿½fSteel Frying Pan\"}}"
         }
       ]
     },
     {
       "name": "Mining Like The Romans",
-      "description": "Time for a bronze pick. This can blast through most things you\u0027ll find--except obsidian, which you can get around for now.",
+      "description": "Time for a bronze pick. This can blast through most things you\u0027ll find, except obsidian, which you can get around for now.",
       "x": 67,
       "y": 187,
       "icon": {
         "id": "TConstruct:pickaxe",
-        "nbt": "{InfiTool:{BaseDurability:714,Head:14,Built:1b,HarvestLevel:2,Attack:3,RenderHead:14,ModDurability:0.0f,Handle:14,Broken:0b,Shoddy:0.0f,RenderHandle:14,Accessory:14,MiningSpeed:800,RenderAccessory:14,Unbreaking:1,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:714},display:{Name:\"Bronze Pickaxe\"}}"
+        "nbt": "{InfiTool:{BaseDurability:714,Head:14,Built:1b,HarvestLevel:2,Attack:3,RenderHead:14,ModDurability:0.0f,Handle:14,Broken:0b,Shoddy:0.0f,RenderHandle:14,Accessory:14,MiningSpeed:800,RenderAccessory:14,Unbreaking:1,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:714},display:{Name:\"ï¿½fBronze Pickaxe\"}}"
       },
       "prerequisites": [
         "Casting Call",
@@ -648,7 +648,7 @@
       "y": 180,
       "icon": {
         "id": "TConstruct:rapier",
-        "nbt": "{InfiTool:{BaseDurability:500,Head:14,BaseAttack:4,Built:1b,HarvestLevel:2,Attack:4,RenderHead:14,ModDurability:0.0f,Handle:14,Broken:0b,Shoddy:0.0f,RenderHandle:14,Accessory:14,MiningSpeed:800,RenderAccessory:14,Unbreaking:1,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:500},display:{Name:\"Bronze Rapier\"}}"
+        "nbt": "{InfiTool:{BaseDurability:500,Head:14,BaseAttack:4,Built:1b,HarvestLevel:2,Attack:4,RenderHead:14,ModDurability:0.0f,Handle:14,Broken:0b,Shoddy:0.0f,RenderHandle:14,Accessory:14,MiningSpeed:800,RenderAccessory:14,Unbreaking:1,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:500},display:{Name:\"ï¿½fBronze Rapier\"}}"
       },
       "prerequisites": [
         "Bronze Age"
@@ -725,7 +725,7 @@
         },
         {
           "id": "TConstruct:chisel",
-          "nbt": "{InfiTool:{BaseDurability:714,Head:14,Built:1b,HarvestLevel:2,Attack:2,RenderHead:14,ModDurability:0.0f,Handle:14,Broken:0b,Shoddy:0.0f,RenderHandle:14,MiningSpeed:800,Unbreaking:1,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:714},display:{Name:\"Bronze Chisel\"}}"
+          "nbt": "{InfiTool:{BaseDurability:714,Head:14,Built:1b,HarvestLevel:2,Attack:2,RenderHead:14,ModDurability:0.0f,Handle:14,Broken:0b,Shoddy:0.0f,RenderHandle:14,MiningSpeed:800,Unbreaking:1,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:714},display:{Name:\"ï¿½fBronze Chisel\"}}"
         }
       ]
     },
@@ -777,7 +777,7 @@
       "y": 107,
       "icon": {
         "id": "TConstruct:hammer",
-        "nbt": "{InfiTool:{RenderExtra:16,BaseDurability:8774,Built:1b,HarvestLevel:4,HarvestLevelExtra:4,MiningSpeedExtra:1000,RenderHead:16,ModDurability:0.0f,Shoddy:0.0f,RenderHandle:16,Accessory:16,MiningSpeed:1000,Unbreaking:2,Damage:0,HarvestLevel2:4,BonusDurability:0,TotalDurability:8774,MiningSpeed2:1000,Head:16,Attack:6,Handle:16,Broken:0b,Extra:16,RenderAccessory:16,Modifiers:3},display:{Name:\"Steel Hammer\"}}"
+        "nbt": "{InfiTool:{RenderExtra:16,BaseDurability:8774,Built:1b,HarvestLevel:4,HarvestLevelExtra:4,MiningSpeedExtra:1000,RenderHead:16,ModDurability:0.0f,Shoddy:0.0f,RenderHandle:16,Accessory:16,MiningSpeed:1000,Unbreaking:2,Damage:0,HarvestLevel2:4,BonusDurability:0,TotalDurability:8774,MiningSpeed2:1000,Head:16,Attack:6,Handle:16,Broken:0b,Extra:16,RenderAccessory:16,Modifiers:3},display:{Name:\"ï¿½fSteel Hammer\"}}"
       },
       "prerequisites": [
         "{Electrical Power}[Steel My Thunder]",
@@ -817,7 +817,7 @@
             {
               "item": {
                 "id": "TConstruct:hammer",
-                "nbt": "{InfiTool:{RenderExtra:16,BaseDurability:8774,BaseAttack:6,Built:1b,HarvestLevel:4,HarvestLevelExtra:4,MiningSpeedExtra:1000,RenderHead:16,ModDurability:0.0f,Shoddy:0.0f,RenderHandle:16,Accessory:16,MiningSpeed:1000,Unbreaking:2,Damage:0,HarvestLevel2:4,BonusDurability:0,TotalDurability:8774,MiningSpeed2:1000,Head:16,Attack:6,Handle:16,Broken:0b,Extra:16,RenderAccessory:16,Modifiers:3},display:{Name:\"Steel Hammer\"}}"
+                "nbt": "{InfiTool:{RenderExtra:16,BaseDurability:8774,BaseAttack:6,Built:1b,HarvestLevel:4,HarvestLevelExtra:4,MiningSpeedExtra:1000,RenderHead:16,ModDurability:0.0f,Shoddy:0.0f,RenderHandle:16,Accessory:16,MiningSpeed:1000,Unbreaking:2,Damage:0,HarvestLevel2:4,BonusDurability:0,TotalDurability:8774,MiningSpeed2:1000,Head:16,Attack:6,Handle:16,Broken:0b,Extra:16,RenderAccessory:16,Modifiers:3},display:{Name:\"§fSteel Hammer\"}}"
               },
               "precision": "NBT_FUZZY"
             }
@@ -901,7 +901,7 @@
       "y": 144,
       "icon": {
         "id": "TConstruct:hammer",
-        "nbt": "{InfiTool:{RenderExtra:1,BaseDurability:589,Built:1b,HarvestLevel:1,HarvestLevelExtra:1,MiningSpeedExtra:400,RenderHead:1,ModDurability:0.0f,Shoddy:1.0f,RenderHandle:1,Accessory:1,MiningSpeed:400,Unbreaking:0,Damage:0,HarvestLevel2:1,BonusDurability:0,TotalDurability:589,MiningSpeed2:400,Head:1,Attack:3,Handle:1,Broken:0b,Extra:1,RenderAccessory:1,Modifiers:3},display:{Name:\"Stone Hammer\"}}"
+        "nbt": "{InfiTool:{RenderExtra:1,BaseDurability:589,Built:1b,HarvestLevel:1,HarvestLevelExtra:1,MiningSpeedExtra:400,RenderHead:1,ModDurability:0.0f,Shoddy:1.0f,RenderHandle:1,Accessory:1,MiningSpeed:400,Unbreaking:0,Damage:0,HarvestLevel2:1,BonusDurability:0,TotalDurability:589,MiningSpeed2:400,Head:1,Attack:3,Handle:1,Broken:0b,Extra:1,RenderAccessory:1,Modifiers:3},display:{Name:\"ï¿½fStone Hammer\"}}"
       },
       "prerequisites": [
         "The Forge"
@@ -941,7 +941,7 @@
             {
               "item": {
                 "id": "TConstruct:hammer",
-                "nbt": "{InfiTool:{RenderExtra:1,BaseDurability:589,BaseAttack:3,Built:1b,HarvestLevel:1,HarvestLevelExtra:1,MiningSpeedExtra:400,RenderHead:1,ModDurability:0.0f,Shoddy:1.0f,RenderHandle:1,Accessory:1,MiningSpeed:400,Unbreaking:0,Damage:0,HarvestLevel2:1,BonusDurability:0,TotalDurability:589,MiningSpeed2:400,Head:1,Attack:3,Handle:1,Broken:0b,Extra:1,RenderAccessory:1,Modifiers:3},display:{Name:\"Stone Hammer\"}}"
+                "nbt": "{InfiTool:{RenderExtra:1,BaseDurability:589,BaseAttack:3,Built:1b,HarvestLevel:1,HarvestLevelExtra:1,MiningSpeedExtra:400,RenderHead:1,ModDurability:0.0f,Shoddy:1.0f,RenderHandle:1,Accessory:1,MiningSpeed:400,Unbreaking:0,Damage:0,HarvestLevel2:1,BonusDurability:0,TotalDurability:589,MiningSpeed2:400,Head:1,Attack:3,Handle:1,Broken:0b,Extra:1,RenderAccessory:1,Modifiers:3},display:{Name:\"§fStone Hammer\"}}"
               },
               "precision": "NBT_FUZZY"
             }
@@ -961,12 +961,12 @@
     },
     {
       "name": "Blinghammer",
-      "description": "The the previous quest, I was all, \"blabla stone hammers can\u0027t mine the cool stuff.\" Well, if you attach a single diamond to that stone hammer in your tool forge, it will be able to mine anything a diamond pick could handle. That is to say . . . just about everything. The durability is still terrible, but the diamond is forever. Just repair that bad boy and keep going!",
+      "description": "The the previous quest, I was all, \"blabla stone hammers can\u0027t mine the cool stuff.\" Well, if you attach a single diamond to that stone hammer in your tool forge, it will be able to mine anything a diamond pick could handle. That is to say . . . just about everything. The durability is still terrible.",
       "x": 197,
       "y": 184,
       "icon": {
         "id": "TConstruct:hammer",
-        "nbt": "{InfiTool:{RenderExtra:1,BaseDurability:589,Built:1b,Effect1:0,HarvestLevel:3,ModifierTip1:\"ï¿½bDiamond\",HarvestLevelExtra:1,RenderHead:1,ModDurability:0.0f,MiningSpeedExtra:400,Shoddy:1.0f,RenderHandle:1,Accessory:1,MiningSpeed:400,Unbreaking:0,Damage:0,HarvestLevel2:1,BonusDurability:500,TotalDurability:1089,MiningSpeed2:400,Head:1,Tooltip1:\"ï¿½bDurability +500\",Diamond:1b,Attack:3,Handle:1,Broken:0b,Extra:1,RenderAccessory:1,Modifiers:2},display:{Name:\"Stone Hammer\"}}"
+        "nbt": "{InfiTool:{RenderExtra:1,BaseDurability:589,Built:1b,Effect1:0,HarvestLevel:3,ModifierTip1:\"ï¿½bDiamond\",HarvestLevelExtra:1,RenderHead:1,ModDurability:0.0f,MiningSpeedExtra:400,Shoddy:1.0f,RenderHandle:1,Accessory:1,MiningSpeed:400,Unbreaking:0,Damage:0,HarvestLevel2:1,BonusDurability:500,TotalDurability:1089,MiningSpeed2:400,Head:1,Tooltip1:\"ï¿½bDurability +500\",Diamond:1b,Attack:3,Handle:1,Broken:0b,Extra:1,RenderAccessory:1,Modifiers:2},display:{Name:\"ï¿½fStone Hammer\"}}"
       },
       "prerequisites": [
         "Let\u0027s Get Really Stoned"
@@ -974,7 +974,7 @@
       "tasks": [
         {
           "type": "DETECT",
-          "longDescription": "I can\u0027t check that you specifically made the stone hammer because it will trigger on any hammer. So social contract, etc.",
+          "longDescription": "I can\u0027t check that you specifically made the stone hammer because it will trigger on anything. So social contract, etc.",
           "items": [
             {
               "item": {
@@ -985,7 +985,7 @@
             {
               "item": {
                 "id": "TConstruct:hammer",
-                "nbt": "{InfiTool:{RenderExtra:1,BaseDurability:589,BaseAttack:3,Built:1b,HarvestLevel:1,HarvestLevelExtra:1,MiningSpeedExtra:400,RenderHead:1,ModDurability:0.0f,Shoddy:1.0f,RenderHandle:1,Accessory:1,MiningSpeed:400,Unbreaking:0,Damage:0,HarvestLevel2:1,BonusDurability:0,TotalDurability:589,MiningSpeed2:400,Head:1,Attack:3,Handle:1,Broken:0b,Extra:1,RenderAccessory:1,Modifiers:3},display:{Name:\"Stone Hammer\"}}"
+                "nbt": "{InfiTool:{RenderExtra:1,BaseDurability:589,BaseAttack:3,Built:1b,HarvestLevel:1,HarvestLevelExtra:1,MiningSpeedExtra:400,RenderHead:1,ModDurability:0.0f,Shoddy:1.0f,RenderHandle:1,Accessory:1,MiningSpeed:400,Unbreaking:0,Damage:0,HarvestLevel2:1,BonusDurability:0,TotalDurability:589,MiningSpeed2:400,Head:1,Attack:3,Handle:1,Broken:0b,Extra:1,RenderAccessory:1,Modifiers:3},display:{Name:\"§fStone Hammer\"}}"
               },
               "precision": "NBT_FUZZY"
             }
@@ -1005,7 +1005,7 @@
       "y": 139,
       "icon": {
         "id": "TConstruct:excavator",
-        "nbt": "{InfiTool:{MiningSpeed2:400,RenderExtra:1,BaseDurability:405,Head:1,Built:1b,HarvestLevel:1,Attack:4,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,Accessory:1,Extra:1,MiningSpeed:400,RenderAccessory:1,Unbreaking:0,Damage:0,HarvestLevel2:1,BonusDurability:0,Modifiers:3,TotalDurability:405},display:{Name:\"Stone Excavator\"}}"
+        "nbt": "{InfiTool:{MiningSpeed2:400,RenderExtra:1,BaseDurability:405,Head:1,Built:1b,HarvestLevel:1,Attack:4,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,Accessory:1,Extra:1,MiningSpeed:400,RenderAccessory:1,Unbreaking:0,Damage:0,HarvestLevel2:1,BonusDurability:0,Modifiers:3,TotalDurability:405},display:{Name:\"ï¿½fStone Excavator\"}}"
       },
       "prerequisites": [
         "The Forge"
@@ -1050,7 +1050,7 @@
             {
               "item": {
                 "id": "TConstruct:excavator",
-                "nbt": "{InfiTool:{MiningSpeed2:400,RenderExtra:1,BaseDurability:405,Head:1,BaseAttack:4,Built:1b,HarvestLevel:1,Attack:4,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,Accessory:1,Extra:1,MiningSpeed:400,RenderAccessory:1,Unbreaking:0,Damage:0,HarvestLevel2:1,BonusDurability:0,Modifiers:3,TotalDurability:405},display:{Name:\"Stone Excavator\"}}"
+                "nbt": "{InfiTool:{MiningSpeed2:400,RenderExtra:1,BaseDurability:405,Head:1,BaseAttack:4,Built:1b,HarvestLevel:1,Attack:4,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,Accessory:1,Extra:1,MiningSpeed:400,RenderAccessory:1,Unbreaking:0,Damage:0,HarvestLevel2:1,BonusDurability:0,Modifiers:3,TotalDurability:405},display:{Name:\"§fStone Excavator\"}}"
               },
               "precision": "NBT_FUZZY"
             }
@@ -1083,7 +1083,7 @@
       "y": 14,
       "icon": {
         "id": "TConstruct:shovel",
-        "nbt": "{InfiTool:{BaseDurability:65,Head:1,Built:1b,HarvestLevel:1,Attack:3,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,MiningSpeed:400,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:65},display:{Name:\"Stone Shovel\"}}"
+        "nbt": "{InfiTool:{BaseDurability:65,Head:1,Built:1b,HarvestLevel:1,Attack:3,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,MiningSpeed:400,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:65},display:{Name:\"ï¿½fStone Shovel\"}}"
       },
       "prerequisites": [
         "Picking From The Parts"
@@ -1128,7 +1128,7 @@
             {
               "item": {
                 "id": "TConstruct:shovel",
-                "nbt": "{InfiTool:{BaseDurability:65,Head:1,BaseAttack:3,Built:1b,HarvestLevel:1,Attack:3,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,MiningSpeed:400,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:65},display:{Name:\"Stone Shovel\"}}"
+                "nbt": "{InfiTool:{BaseDurability:65,Head:1,BaseAttack:3,Built:1b,HarvestLevel:1,Attack:3,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,MiningSpeed:400,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:65},display:{Name:\"§fStone Shovel\"}}"
               },
               "precision": "NBT_FUZZY"
             }
@@ -1150,7 +1150,7 @@
       "y": 67,
       "icon": {
         "id": "TConstruct:hatchet",
-        "nbt": "{InfiTool:{BaseDurability:65,Head:1,Built:1b,HarvestLevel:1,Attack:4,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,MiningSpeed:400,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:65},display:{Name:\"Stone Hatchet\"}}"
+        "nbt": "{InfiTool:{BaseDurability:65,Head:1,Built:1b,HarvestLevel:1,Attack:4,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,MiningSpeed:400,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:65},display:{Name:\"ï¿½fStone Hatchet\"}}"
       },
       "prerequisites": [
         "Picking From The Parts"
@@ -1190,12 +1190,12 @@
         {
           "type": "DETECT",
           "description": "Assembling The Hatchet",
-          "longDescription": "Take parts to tool station, boom, etc. You know the drill.",
+          "longDescription": "Take parts to tool station, boom boom. You know the drill.",
           "items": [
             {
               "item": {
                 "id": "TConstruct:hatchet",
-                "nbt": "{InfiTool:{BaseDurability:65,Head:1,BaseAttack:4,Built:1b,HarvestLevel:1,Attack:4,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,MiningSpeed:400,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:65},display:{Name:\"Stone Hatchet\"}}"
+                "nbt": "{InfiTool:{BaseDurability:65,Head:1,BaseAttack:4,Built:1b,HarvestLevel:1,Attack:4,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,MiningSpeed:400,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:65},display:{Name:\"§fStone Hatchet\"}}"
               },
               "precision": "NBT_FUZZY"
             }
@@ -1217,7 +1217,7 @@
       "y": 10,
       "icon": {
         "id": "TConstruct:mattock",
-        "nbt": "{InfiTool:{MiningSpeed2:400,BaseDurability:98,Head:1,BaseAttack:4,Built:1b,HarvestLevel:1,Attack:4,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,Accessory:1,MiningSpeed:400,RenderAccessory:1,Unbreaking:0,Damage:0,HarvestLevel2:1,BonusDurability:0,Modifiers:3,TotalDurability:98},display:{Name:\"Stone Mattock\"}}"
+        "nbt": "{InfiTool:{MiningSpeed2:400,BaseDurability:98,Head:1,BaseAttack:4,Built:1b,HarvestLevel:1,Attack:4,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,Accessory:1,MiningSpeed:400,RenderAccessory:1,Unbreaking:0,Damage:0,HarvestLevel2:1,BonusDurability:0,Modifiers:3,TotalDurability:98},display:{Name:\"§fStone Mattock\"}}"
       },
       "prerequisites": [
         "Picking From The Parts"
@@ -1281,7 +1281,7 @@
             {
               "item": {
                 "id": "TConstruct:mattock",
-                "nbt": "{InfiTool:{MiningSpeed2:400,BaseDurability:98,Head:1,BaseAttack:4,Built:1b,HarvestLevel:1,Attack:4,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,Accessory:1,MiningSpeed:400,RenderAccessory:1,Unbreaking:0,Damage:0,HarvestLevel2:1,BonusDurability:0,Modifiers:3,TotalDurability:98},display:{Name:\"Stone Mattock\"}}"
+                "nbt": "{InfiTool:{MiningSpeed2:400,BaseDurability:98,Head:1,BaseAttack:4,Built:1b,HarvestLevel:1,Attack:4,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,Accessory:1,MiningSpeed:400,RenderAccessory:1,Unbreaking:0,Damage:0,HarvestLevel2:1,BonusDurability:0,Modifiers:3,TotalDurability:98},display:{Name:\"§fStone Mattock\"}}"
               },
               "precision": "NBT_FUZZY"
             }
@@ -1355,7 +1355,7 @@
     },
     {
       "name": "Rambo: First Slime",
-      "description": "A bow made out of slime crystal has a faster draw and a stronger push than a wooden bow. It\u0027s a very good bow material. Whether or not you actually make bow limbs from slime crystals is your problem. You should also consider using flamestring, but you have to kill heatscar spiders in The Nether to get that stuff. However, that further improves draw and power.",
+      "description": "A bow made out of slime crystal has a faster draw and a stronger push than a wooden bow. It\u0027s a very good bow material. Whether or not you actually make bow limbs from slime crystals is your problem. You should also consider using flamestring, but you have to kill spiders in The Nether to get that stuff. However, that further improves draw and power.",
       "x": 27,
       "y": 125,
       "icon": {
@@ -1448,7 +1448,7 @@
         {
           "type": "DETECT",
           "description": "Cooking Rocks",
-          "longDescription": "Throw the compressed cobblestone into a smeltery, and be on your way. Note that 7 of them give you 63 stone\u0027s worth of material, but you need a clean multiple of 8, so throw one regular cobblestone in to balance it out. That gives you 8 seared stones.",
+          "longDescription": "Throw the compressed cobblestone into a smeltery, and be on your way. Note that 7 of them give you 63 stone\u0027s worth of material, but you need a clean multiple of 8, so through one regular cobblestone in to balance it out. That gives you 8 seared stones.",
           "items": [
             {
               "item": {
@@ -1469,12 +1469,12 @@
     },
     {
       "name": "The Long-Jump Sword",
-      "description": "You might end up settling on a different sword as your favorite for actually fighting, but the longsword has a great jumping ability. Heck, a stone hatchet is just as effective as an actual weapon. However, if you hold down the right mouse button while holding this sword, it will charge up. When you let go, you will jump. If you jump straight up with the normal jump button right when you let go, you can jump very high! If you do it while moving forward, you can jump very far! I find this indispensable, even for just leaping around my base.",
+      "description": "You might end up settling on a different sword as your favorite for actually fighting, but the longsword has a great jumping ability. Heck, a stone hatchet is just as effective as an actual weapon. However, if you hold down the right mouse button while holding this sword, it will charge up. When you let go, you will jump. If you jump straight up right as you let go, you can jump very high! I find this indispensable, even for just leaping around my base.",
       "x": 140,
       "y": 43,
       "icon": {
         "id": "TConstruct:longsword",
-        "nbt": "{InfiTool:{BaseDurability:65,Head:1,BaseAttack:5,Built:1b,HarvestLevel:1,Attack:5,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,Accessory:1,MiningSpeed:400,RenderAccessory:1,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:65},display:{Name:\"Stone Longsword\"}}"
+        "nbt": "{InfiTool:{BaseDurability:65,Head:1,BaseAttack:5,Built:1b,HarvestLevel:1,Attack:5,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,Accessory:1,MiningSpeed:400,RenderAccessory:1,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:65},display:{Name:\"ï¿½fStone Longsword\"}}"
       },
       "prerequisites": [
         "Picking From The Parts"
@@ -1538,7 +1538,7 @@
             {
               "item": {
                 "id": "TConstruct:longsword",
-                "nbt": "{InfiTool:{BaseDurability:65,Head:1,BaseAttack:5,Built:1b,HarvestLevel:1,Attack:5,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,Accessory:1,MiningSpeed:400,RenderAccessory:1,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:65},display:{Name:\"Stone Longsword\"}}"
+                "nbt": "{InfiTool:{BaseDurability:65,Head:1,BaseAttack:5,Built:1b,HarvestLevel:1,Attack:5,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,Accessory:1,MiningSpeed:400,RenderAccessory:1,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:65},display:{Name:\"§fStone Longsword\"}}"
               },
               "precision": "NBT_FUZZY"
             }
@@ -1554,12 +1554,12 @@
     },
     {
       "name": "Crossing Paths",
-      "description": "The crossbow is a new tool to Tinkers\u0027 Construct. It is nice because it starts tensioned. When you see a monster, you just pull it out, and the first shot is ready. After the shot, it recharges. A signalum crossbow fires very rapidly. The ammo you use is also important. You want to put moss on the bolts so that they regenerate. Yes, that\u0027s a little strange.",
+      "description": "The crossbow is a new tool to Tinkers\u0027 Construct. It is nice because it starts tensioned. When you see a monster, you just pull it out, and the first shot is ready. After the shot, it recharges. A signalum crossbow fires very rapidly. The ammo you use is also important. You want to put moss on it so that the ammo regenerates. Yes, that\u0027s a little strange.",
       "x": 187,
       "y": 61,
       "icon": {
         "id": "TConstruct:Crossbow",
-        "nbt": "{InfiTool:{RenderExtra:0,BaseDurability:97,BaseAttack:0,DrawSpeed:33,Built:1b,HarvestLevel:1,RenderHead:0,ModDurability:0.0f,Shoddy:0.0f,RenderHandle:0,Accessory:0,MiningSpeed:350,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:97,BaseDrawSpeed:33,Head:0,Attack:0,Handle:0,Broken:0b,Extra:0,RenderAccessory:0,FlightSpeed:4.5f,Modifiers:3},display:{Name:\"Wooden Crossbow\"}}"
+        "nbt": "{InfiTool:{RenderExtra:0,BaseDurability:97,BaseAttack:0,DrawSpeed:33,Built:1b,HarvestLevel:1,RenderHead:0,ModDurability:0.0f,Shoddy:0.0f,RenderHandle:0,Accessory:0,MiningSpeed:350,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:97,BaseDrawSpeed:33,Head:0,Attack:0,Handle:0,Broken:0b,Extra:0,RenderAccessory:0,FlightSpeed:4.5f,Modifiers:3},display:{Name:\"ï¿½fWooden Crossbow\"}}"
       },
       "prerequisites": [
         "The Forge"
@@ -1648,14 +1648,14 @@
             {
               "item": {
                 "id": "TConstruct:Crossbow",
-                "nbt": "{InfiTool:{RenderExtra:0,BaseDurability:97,BaseDrawSpeed:33,Head:0,BaseAttack:0,DrawSpeed:33,HarvestLevel:1,Attack:0,RenderHead:0,ModDurability:0.0f,Handle:0,Broken:0b,Shoddy:0.0f,RenderHandle:0,Accessory:0,Extra:0,MiningSpeed:350,RenderAccessory:0,FlightSpeed:4.5f,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:97},display:{Name:\"Wooden Crossbow\"}}"
+                "nbt": "{InfiTool:{RenderExtra:0,BaseDurability:97,BaseDrawSpeed:33,Head:0,BaseAttack:0,DrawSpeed:33,HarvestLevel:1,Attack:0,RenderHead:0,ModDurability:0.0f,Handle:0,Broken:0b,Shoddy:0.0f,RenderHandle:0,Accessory:0,Extra:0,MiningSpeed:350,RenderAccessory:0,FlightSpeed:4.5f,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:97},display:{Name:\"§fWooden Crossbow\"}}"
               },
               "precision": "NBT_FUZZY"
             },
             {
               "item": {
                 "id": "TConstruct:BoltAmmo",
-                "nbt": "{InfiTool:{BreakChance:0.055000003f,BaseDurability:325,Head:2,BaseAttack:2,Built:1b,HarvestLevel:2,Attack:2,RenderHead:2,ModDurability:0.0f,Handle:137,Broken:0b,Mass:12.750001f,Shoddy:0.0f,Ammo:33,RenderHandle:137,Accuracy:97.5f,Accessory:0,MiningSpeed:600,RenderAccessory:0,Unbreaking:1,Damage:0,BonusDurability:0,Modifiers:2,TotalDurability:325},display:{Name:\"Iron Bolts\"}}"
+                "nbt": "{InfiTool:{BreakChance:0.055000003f,BaseDurability:325,Head:2,BaseAttack:2,Built:1b,HarvestLevel:2,Attack:2,RenderHead:2,ModDurability:0.0f,Handle:137,Broken:0b,Mass:12.750001f,Shoddy:0.0f,Ammo:33,RenderHandle:137,Accuracy:97.5f,Accessory:0,MiningSpeed:600,RenderAccessory:0,Unbreaking:1,Damage:0,BonusDurability:0,Modifiers:2,TotalDurability:325},display:{Name:\"§fIron Bolts\"}}"
               },
               "precision": "NBT_FUZZY"
             }
@@ -1672,12 +1672,12 @@
     },
     {
       "name": "A Panning Review",
-      "description": "The frying pan can cook food . . . even a wooden one! That\u0027s not why I want you to use it. You see, it also has a built-in knockback that\u0027s much stronger than a regular weapon. If you, say, upgrade it with pistons, it becomes absolutely ridiculous! You make the pan, and I will give you the pistons. To upgrade the pan, put it in a tool station in the right slot, and fill the left slots with pistons. Take the pan out of the right slight and you should hear some swiping. That means it\u0027s working! Keep doing it! Pistons all the way!",
+      "description": "The frying pan can cook food . . . even a wooden one! That\u0027s not why I want you to use it. You see, it also has a built-in knockback that\u0027s much strong than a regular weapon. If you, say, upgrade it with pistons, it becomes absolutely ridiculous! You make the pan, and I will give you the pistons. To upgrade the pan, put it in a tool station in the right slot, and fill the left slots with pistons. Take the pan out of the right slight and you should hear some swiping. That means it\u0027s working! Keep doing it! Pistons all the way!",
       "x": 45,
       "y": 81,
       "icon": {
         "id": "TConstruct:frypan",
-        "nbt": "{InfiTool:{BaseDurability:97,Head:0,BaseAttack:2,Built:1b,Tooltip1:\"§7Knockback\",Effect1:3,HarvestLevel:1,ModifierTip1:\"§7Knockback (3/10)\",Attack:2,RenderHead:0,ModDurability:0.0f,Handle:0,Broken:0b,Shoddy:0.0f,RenderHandle:0,MiningSpeed:350,Piston:[3,10,1,],Knockback:0.3f,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:97,Modifiers:2},display:{Name:\"Wooden Frying Pan\"}}"
+        "nbt": "{InfiTool:{BaseDurability:97,Head:0,BaseAttack:2,Built:1b,Tooltip1:\"§7Knockback\",Effect1:3,HarvestLevel:1,ModifierTip1:\"§7Knockback (3/10)\",Attack:2,RenderHead:0,ModDurability:0.0f,Handle:0,Broken:0b,Shoddy:0.0f,RenderHandle:0,MiningSpeed:350,Piston:[3,10,1,],Knockback:0.3f,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:97,Modifiers:2},display:{Name:\"§fWooden Frying Pan\"}}"
       },
       "prerequisites": [
         "Pattern After Me"
@@ -1727,7 +1727,7 @@
             {
               "item": {
                 "id": "TConstruct:frypan",
-                "nbt": "{InfiTool:{BaseDurability:97,Head:0,BaseAttack:2,Built:1b,HarvestLevel:1,Attack:2,RenderHead:0,ModDurability:0.0f,Handle:0,Broken:0b,Shoddy:0.0f,RenderHandle:0,MiningSpeed:350,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:97,Modifiers:3},display:{Name:\"Wooden Frying Pan\"}}"
+                "nbt": "{InfiTool:{BaseDurability:97,Head:0,BaseAttack:2,Built:1b,HarvestLevel:1,Attack:2,RenderHead:0,ModDurability:0.0f,Handle:0,Broken:0b,Shoddy:0.0f,RenderHandle:0,MiningSpeed:350,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:97,Modifiers:3},display:{Name:\"§fWooden Frying Pan\"}}"
               },
               "precision": "FUZZY"
             }
@@ -1748,7 +1748,7 @@
       "y": 23,
       "icon": {
         "id": "TConstruct:cleaver",
-        "nbt": "{InfiTool:{RenderExtra:9,MiningSpeed2:1300,BaseDurability:1350,Head:190,BaseAttack:16,HarvestLevel:10,Attack:16,RenderHead:190,ModDurability:0.0f,Handle:9,Broken:0b,Shoddy:0.0f,RenderHandle:9,Accessory:190,Extra:9,MiningSpeed:1300,RenderAccessory:190,Unbreaking:0,Damage:0,HarvestLevel2:10,BonusDurability:0,TotalDurability:1350,Modifiers:5},display:{Name:\"Signalum Cleaver\"}}"
+        "nbt": "{InfiTool:{RenderExtra:9,MiningSpeed2:1300,BaseDurability:1350,Head:190,BaseAttack:16,HarvestLevel:10,Attack:16,RenderHead:190,ModDurability:0.0f,Handle:9,Broken:0b,Shoddy:0.0f,RenderHandle:9,Accessory:190,Extra:9,MiningSpeed:1300,RenderAccessory:190,Unbreaking:0,Damage:0,HarvestLevel2:10,BonusDurability:0,TotalDurability:1350,Modifiers:5},display:{Name:\"§fSignalum Cleaver\"}}"
       },
       "prerequisites": [
         "The Forge"
@@ -1757,7 +1757,7 @@
         {
           "type": "DETECT",
           "description": "Cutting The Signal",
-          "longDescription": "We\u0027ll use signalum to make the blade and the reinforcing plate. Signalum is a 3:1 blend of copper:silver, with a bucket of destabilized redstone thrown on top for good measure. You need a magma crucible (machine) to cook down the redstone, unless you use pyrotheum in your smeltery (don\u0027t bother). Also note that you need to make a LARGE sword blade.",
+          "longDescription": "We\u0027ll use signalum to make the blade and the reinforcing plate. Signalum is a 3:1 blend of copper:silver, with a bucket of destablized redstone thrown on top for good measure. You need a magma crucible (machine) to cook down the redstone, unless you use pyrotheum in your smeltery (don\u0027t bother). Also note that you need to make a LARGE sword blade.",
           "items": [
             {
               "item": {
@@ -1795,7 +1795,7 @@
             {
               "item": {
                 "id": "TConstruct:cleaver",
-                "nbt": "{InfiTool:{RenderExtra:9,MiningSpeed2:1300,BaseDurability:1350,Head:190,BaseAttack:16,HarvestLevel:10,Attack:16,RenderHead:190,ModDurability:0.0f,Handle:9,Broken:0b,Shoddy:0.0f,RenderHandle:9,Accessory:190,Extra:9,MiningSpeed:1300,RenderAccessory:190,Unbreaking:0,Damage:0,HarvestLevel2:10,BonusDurability:0,TotalDurability:1350,Modifiers:5},display:{Name:\"Signalum Cleaver\"}}"
+                "nbt": "{InfiTool:{RenderExtra:9,MiningSpeed2:1300,BaseDurability:1350,Head:190,BaseAttack:16,HarvestLevel:10,Attack:16,RenderHead:190,ModDurability:0.0f,Handle:9,Broken:0b,Shoddy:0.0f,RenderHandle:9,Accessory:190,Extra:9,MiningSpeed:1300,RenderAccessory:190,Unbreaking:0,Damage:0,HarvestLevel2:10,BonusDurability:0,TotalDurability:1350,Modifiers:5},display:{Name:\"§fSignalum Cleaver\"}}"
               },
               "precision": "NBT_FUZZY"
             }

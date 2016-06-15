@@ -1,6 +1,6 @@
 {
   "name": "Go To Hell",
-  "description": "There is an alternate dimension called \"The Nether\" which is something like a hell dimension. In regular old Minecraft, you have to work at getting there. With a few mods, it\u0027s possible to make a bum rush to The Nether. Why would you do it? It now has ores in it that are twice as dense as regular ores. That is, one iron ore there is worth two in the Overworld. If you go to around Y\u003d34, you can just pound away at diamonds. You might get killed a thousand times over in the process, so be careful! If you have a seasoned player in your team, they should consider trying it.",
+  "description": "There is an alternate dimension called \"The Nether\" which is something like a hell dimension. In regular old Minecraft, you have to work at getting there. With a few mods, it\u0027s possible to make a bum rush to The Nether. Why would you do it? It now has ores in it that are twice as dense as regular ores. That is, one iron ore there is worth two here. If you go to around Y\u003d34, you can just pound away at diamonds. You might get killed a thousand times over in the process, so be careful! If you have a seasoned player in your team, they should consider trying it.",
   "quests": [
     {
       "name": "What Is In A Flame?",
@@ -37,7 +37,7 @@
     },
     {
       "name": "Mining In The Nether",
-      "description": "You will want to protect your Nether Portal. Wrap it in a shell of cobblestone and maybe put in protected door. The base rock of The Nether is netherrack. It mines fast but is very weak against explosions. However, it makes better tools than stone, although metal is usually better. If you went here early, this is useful to you.",
+      "description": "You will want to protect your Nether Portal. Wrap it in a shell of cobble stone and maybe put in protected door. The base rock of The Nether is netherrack. It mines fast but blows up easily. However, it makes better tools than stone, although metal is usually better. If you went here early, this is useful to you.",
       "x": 64,
       "y": 143,
       "icon": {
@@ -75,7 +75,7 @@
     },
     {
       "name": "Nether Quartz",
-      "description": "Nether quartz is in the base Minecraft game, but isn\u0027t too useful. Various mods use it as a generic crystal that assumes you\u0027ve advanced at least a little into the game. You might need some, depending on what crazy stuff you do. It is also a generic upgrade for Tinkers\u0027 Construct weapons for extra damage",
+      "description": "Nether quartz is in the base Minecraft game, but isn\u0027t too useful. Various mods use it as a generic crystal that assumes you\u0027ve advanced at least a little into the game. You might need some, depending on what crazy stuff you do.",
       "x": 24,
       "y": 102,
       "icon": {
@@ -153,7 +153,7 @@
     },
     {
       "name": "Cobalt",
-      "description": "Cobalt tools mine very quickly, and are excellent in this pack when it comes to base tool speed. However, you will have to struggle to find some. When making a cobalt pick, you may just use it on the head. Same for a hammer, use it for the hammer head, and you can make the plates out of other stuff. That will affect durability, but you\u0027ll get your speed.",
+      "description": "Cobalt tools mine very quickly, and are unrivaled in this pack when it comes to base tool speed. However, you will have to struggle to find some. When making a cobalt pick, you may just use it on the head. Same for a hammer, use it for the hammer head, and you can make the plates out of other stuff. That will affect durability, but you\u0027ll get your speed.",
       "x": 137,
       "y": 143,
       "icon": {
@@ -300,12 +300,12 @@
     },
     {
       "name": "Manyullyn",
-      "description": "Manyullyn is an alloy made from 1:1 colbalt:ardite. It is a very strong and powerful metal. Cobalt may mine faster, but manyullyn makes for better weapons. In other mod packs, you may need a manyullyn pick to harvest even tougher ores, although not here.",
+      "description": "Manyullyn is an alloy made 1:1 colbalt:ardite. It is a very strong and powerful metal. Cobalt may mine faster, but manyullyn makes for better weapons. In other mod packs, you may need a manyullyn pick to harvest even tougher ores, although not here.",
       "x": 133,
       "y": 186,
       "icon": {
         "id": "TConstruct:rapier",
-        "nbt": "{InfiTool:{BaseDurability:2099,Head:12,Built:1b,HarvestLevel:5,Attack:6,RenderHead:12,ModDurability:0.0f,Handle:12,Broken:0b,Shoddy:0.0f,RenderHandle:12,Accessory:12,MiningSpeed:900,RenderAccessory:12,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:2099},display:{Name:\"Manyullyn Rapier\"}}"
+        "nbt": "{InfiTool:{BaseDurability:2099,Head:12,Built:1b,HarvestLevel:5,Attack:6,RenderHead:12,ModDurability:0.0f,Handle:12,Broken:0b,Shoddy:0.0f,RenderHandle:12,Accessory:12,MiningSpeed:900,RenderAccessory:12,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:2099},display:{Name:\"ï¿½fManyullyn Rapier\"}}"
       },
       "prerequisites": [
         "Your Most Ardite Supporter",
@@ -332,7 +332,7 @@
         },
         {
           "id": "TConstruct:scythe",
-          "nbt": "{InfiTool:{RenderExtra:12,BaseDurability:18000,Head:12,BaseAttack:8,Built:1b,HarvestLevel:5,Attack:8,RenderHead:12,ModDurability:0.0f,Handle:12,Broken:0b,Shoddy:0.0f,RenderHandle:12,Accessory:12,Extra:12,MiningSpeed:900,RenderAccessory:12,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:18000},display:{Name:\"Manyullyn Scythe\"}}"
+          "nbt": "{InfiTool:{RenderExtra:12,BaseDurability:18000,Head:12,BaseAttack:8,Built:1b,HarvestLevel:5,Attack:8,RenderHead:12,ModDurability:0.0f,Handle:12,Broken:0b,Shoddy:0.0f,RenderHandle:12,Accessory:12,Extra:12,MiningSpeed:900,RenderAccessory:12,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:18000},display:{Name:\"§fManyullyn Scythe\"}}"
         },
         {
           "id": "minecraft:bread"
@@ -406,7 +406,7 @@
     },
     {
       "name": "Wither Skeletons",
-      "description": "Wandering around nether fortresses, you might find some dark gray skeletons that are really big and scary. If you manage to kill a few, one might leave a skull behind. You can expedite this if you use a Tinkers\u0027 Construct cleaver. This will not help you get to the moon any faster, by the way...",
+      "description": "Wandering around nether fortresses, you might find some dark gray skeletons that are really big and scary. If you manage to kill a few, one might leave a skull behind. You can expedite this if you use a Tinkers\u0027 Construct cleaver. Either way, WHY ARE YOU DOING THIS? THESE GUYS HAVE NO BEARING ON GETTING TO THE MOOOOON!",
       "x": 228,
       "y": 18,
       "icon": {
@@ -452,7 +452,7 @@
     },
     {
       "name": "Glowstone",
-      "description": "Glowstone is a vanilla Minecraft item of ... limited use. In mods, it\u0027s often used in recipes that would have some kind of luminance. You may find you need some in a pinch. Glowstone hangs off the cavern ceilings in The Nether. It illuminates the surround area, so it\u0027s usually easy to find. The trick is getting to the stuff without getting mauled by angry zombie pigmen and/or falling to your doom.",
+      "description": "Glowstone is a vanilla Minecraft item of ... limited use. In mods, it\u0027s often used in recipes that would have some kind of illuminance. You may find you need some in a pinch. Glowstone hangs off the cavern ceilings in The Nether. It illuminates the surround area, so it\u0027s usually easy to find. The trick is getting to the stuff without getting mauled by zombie pigmen and/or falling to your doom.",
       "x": 115,
       "y": 123,
       "icon": {
@@ -604,12 +604,12 @@
     },
     {
       "name": "Try The Pink Stuff",
-      "description": "Alumite is an alloy of 5:2:2 aluminum:iron:obsidian. Now that you can smelt obsidian, you can make this alloy. It is stronger than bronze, but a little weaker than steel. It can handle all the important ores in The Nether. It is also pink, if you are into that. Pipe one bucket of lava and water into the smeltery, then add one iron ore. Finally, place 3 aluminum ores in the smeltery. This will leave you one spare aluminum ingot as a byproduct (don\u0027t forget the smeltery doubles ingots from ores).",
+      "description": "Alumite is an alloy of 5:2:2 aluminum:iron:obsidian. Now that you can smelt obsidian, you can make this alloy. It is stronger than bronze, but a little weaker than steel. It can handle all the important ores in The Nether. It is also pink, if you are into that. Pipe one bucket of lava and water into the smeltery, then add one iron ore. Finally, place 3 aluminum ores in the smeltery. This will leave you one spare aluminum ingot (don\u0027t forget the smeltery doubles ingots from ores).",
       "x": 34,
       "y": 70,
       "icon": {
         "id": "TConstruct:pickaxe",
-        "nbt": "{InfiTool:{BaseDurability:909,Head:15,Built:1b,HarvestLevel:4,Attack:4,RenderHead:15,ModDurability:0.0f,Handle:15,Broken:0b,Shoddy:0.0f,RenderHandle:15,Accessory:15,MiningSpeed:800,RenderAccessory:15,Unbreaking:2,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:909},display:{Name:\"Alumite Pickaxe\"}}"
+        "nbt": "{InfiTool:{BaseDurability:909,Head:15,Built:1b,HarvestLevel:4,Attack:4,RenderHead:15,ModDurability:0.0f,Handle:15,Broken:0b,Shoddy:0.0f,RenderHandle:15,Accessory:15,MiningSpeed:800,RenderAccessory:15,Unbreaking:2,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:909},display:{Name:\"ï¿½fAlumite Pickaxe\"}}"
       },
       "prerequisites": [
         "Channel Your Inner Demon"
@@ -737,7 +737,7 @@
     },
     {
       "name": "Bloody Wood",
-      "description": "Natura provides a few goofy trees to The Nether that are normally not worth your business unless you\u0027re planning to live there. However, the bloodwood tree sometimes comes in handy. The wood is strong, fire resistant, and its tools are as strong as steel. The leaves also decay into redstone. The one trick is that it, well, grows upside down off the ceiling. You can grow it in the Overworld, but you have to use a Nether block like tainted soil, and plant the sapling underneath it.",
+      "description": "Natura provides a few goofy trees to The Nether that are normally not worth your business unless you\u0027re planning to live there. However, the bloodwood tree sometimes comes in handy. The wood is strong, but more importantly, it is FIRE RESISTANT. The leaves also decay into redstone. The one trick is that it, well, grows upside down. You can grow it in the Overworld, but you have to use a Nether block like tainted soil, and plant the sapling underneath it.",
       "x": 132,
       "y": 48,
       "icon": {
@@ -775,7 +775,7 @@
       "y": 183,
       "icon": {
         "id": "TConstruct:pickaxe",
-        "nbt": "{InfiTool:{BaseDurability:157,Head:7,BaseAttack:2,Built:1b,HarvestLevel:2,Attack:2,RenderHead:7,ModDurability:0.0f,Handle:7,Broken:0b,Shoddy:1.0f,RenderHandle:7,Accessory:7,MiningSpeed:400,RenderAccessory:7,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:157},display:{Name:\"Netherrack Pickaxe\"}}"
+        "nbt": "{InfiTool:{BaseDurability:157,Head:7,BaseAttack:2,Built:1b,HarvestLevel:2,Attack:2,RenderHead:7,ModDurability:0.0f,Handle:7,Broken:0b,Shoddy:1.0f,RenderHandle:7,Accessory:7,MiningSpeed:400,RenderAccessory:7,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:157},display:{Name:\"§fNetherrack Pickaxe\"}}"
       },
       "prerequisites": [
         "Mining In The Nether"
@@ -833,7 +833,7 @@
       "tasks": [
         {
           "type": "DETECT",
-          "longDescription": "Hunting ghasts gets pretty annoying. You want to build yourself a cobblestone safe wall for a breather, and use a bow for ranged attacks. You can rebound their fireballs back if you are skillful. The shots will rebound where you are looking, so point yourself where you think the rebound could hit the ghast, and take a crack at it. I\u0027d recommend bronze armor or better.",
+          "longDescription": "Hunting ghasts gets pretty annoying. You want to build yourself a cobblestone safe wall for a breather, and use a bow for ranged attacks. You can rebound their fireballs back if you are skillful. The shots will rebound where you are looking, so point yourself where you think the rebound could hit, and take a crack at it. I\u0027d recommend bronze armor or better.",
           "items": [
             {
               "item": {
@@ -855,7 +855,7 @@
     },
     {
       "name": "Whither You\u0027re Ready Or Not",
-      "description": "So hey, nether stars, the most expensive resource in the game! You have to this whole tedium to summon a wither, and then you have to kill the thing, and then you get a nether star for whatever some modder decided was an overpowered thing in their mod. You will eventually run into this and groan. Well, party time! People do this in Vanilla with Vanilla stuff perfectly fine, but us people who play technical mods are a lazy species. There are quite a few ways to handle this, including fully-automated solutions, but let\u0027s not go there right away. Here\u0027s a way to set up a little Wither jail and just kind of nibble on him until he drops dead. We\u0027ll make a reinforced obsidian cage, summon him, and then just pelt away from a hole in the side. Do this... VERY FAR FROM ANYTHING ANYBODY MIGHT CONSIDER IMPORTANT. If this thing escapes, it will be blasting holes in stuff. If you die while fighting it, it might just keep on going, blowing away the wild animals.",
+      "description": "So hey, nether stars, the most expensive resource in the game! You have to this whole tedium to summon a wither, and then you have to kill the thing, and then you get a nether star for whatever some modder decided was an overpowered thing in their mod. You will eventually run into this and groan. Well, party time! People do this in Vanilla with Vanilla stuff perfectly fine, but we are a lazy species, us people who play technical mods. There are quite a few ways to handle this, including fully-automated solutions, but let\u0027s not go there right away. Here\u0027s a way to set up a little Wither jail and just kind of nibble on him until he drops dead. We\u0027ll make a reinforced obsidian cage, summon him, and then just pelt away from a hole in the side. Do this... VERY FAR FROM ANYTHING ANYBODY MIGHT CONSIDER IMPORTANT. If this thing escapes, it will be blasting holes in stuff. If you die while fighting it, it might just keep on going, blowing away the wild animals.",
       "x": 271,
       "y": 35,
       "icon": {
@@ -881,7 +881,7 @@
         {
           "type": "DETECT",
           "description": "Tee-Totaling It",
-          "longDescription": "You should have this kind of stuff by now. You got one wither skeleton skull yourself, and I gave you the other two! You want to make a \u0027T\u0027 out of the soul sand. That\u0027s one base block, then three across the top of it. Lay the skulls on top of that... when you are ready; that immediately summons the wither. You want to do this in that cage, where it is plugged up except for a hole in the side. It will start to generate itself, and when its health is full, it emits a huge explosion that your cage should subdue. Then you can start hacking at the thing from the hole.",
+          "longDescription": "You should have this kind of stuff by now. You got one wither skeleton skull yourself, and I gave you the other two! You want to make a \u0027T\u0027 out of the soul sand. That\u0027s one base block, then three across the top of it. Lay the skulls on top of that . . . when you are ready. That summons the wither. You want to do this in that cage, then plug it up except for a hole in the side. It will start to generate itself, and when its health is full, it emits a huge explosion that your cage should subdue. Then you can start hacking at the thing.",
           "items": [
             {
               "item": {
@@ -928,7 +928,7 @@
     },
     {
       "name": "A Little Less Ablazing",
-      "description": "Over above here you might see a quest for blaze rods. You generally get those to make blaze powder. You can do that, but there is another way. I recommend ramming some destablized redstone through glowstone dust using a fluid transposer. This requires a magma crucible to cook down the destabilized redstone first. No big whoop. That requires some nether brick to make. You can make that from cooking down some netherrack. All done! Now, if you happen to have some blaze rods, you can just put them in a crafting grid to get two of them. That is stupid. Do not do this! If you run them through a pulverizer or a SAG mill, you\u0027ll get 4 blaze powders, which is double the efficiency!",
+      "description": "Over above here you might see a quest for blaze rods. You generally get those to make blaze powder. You can do that, but you can do that another way. I recommend ramming some destablized redstone through glowstone dust using a fluid transposer. This requires a magma crucible to cook down the destabilized redstone first. No big whoop. That requires some nether brick to make. You can make that from cooking down some netherrack. All done! Now, if you happen to have some blaze rods, you can just put them in a crafting grid to get two of them. That is stupid. Do not do this! If you run them through a pulverizer or a SAG mill, you\u0027ll get 4 blaze powders, which is double the efficiency!",
       "x": 230,
       "y": 98,
       "icon": {

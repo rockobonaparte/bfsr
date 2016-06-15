@@ -1,6 +1,6 @@
 {
   "name": "Electrical Power",
-  "description": "You will have to use electrically-powered equipment to build some of the components for your moon rocket. Well, they aren\u0027t technically powered electrically. They\u0027re powered by a system known as \"Redstone Flux\" (RF). Some other mods have their own systems, but they are all compatible with this. It\u0027s quite close to an idea of electrical power, with generators sending power through ducts/cables to devices. Here you can see some of the options, including a nuclear reactor (not as scary as it sounds).",
+  "description": "You will have to use electrically-powered equipment to build some of the components for your moon rocket. Well, they aren\u0027t technically powered electrically. They\u0027re powered by a system known as \"Redstone Flux.\" Some other mods have their own systems, but they are all compatible with this. It\u0027s quite close to an idea of electrical power, with generators sending power through ducts/cables to devices. Here you can see some of the options, including a nuclear reactor (not as scary as it sounds).",
   "quests": [
     {
       "name": "Steel My Thunder",
@@ -88,7 +88,7 @@
     },
     {
       "name": "Power Starts With Redstone",
-      "description": "Redstone is a material mined in the original Minecraft. There, it\u0027s used like a signal for basic logic. If you heard somebody simulate a processor in Minecraft, it was with redstone and redstone implements. In Minecraft mods, redstone is very often used for power generation. The technical mods tend to use a power system to operate their machines. Most have settled on a power system known as \"redstone flux\" or RF. So let\u0027s start generating RF!",
+      "description": "Redstone is a material mined in the original Minecraft. There, it\u0027s used like a signal for basic logic. If you heard somebody simulate a processor in Minecraft, it was with redstone. In Minecraft mods, redstone is very often used for power generation. The technical mods tend to use a power system to operate their machines. Most have settled on a power system known as \"redstone flux\" or RF. So let\u0027s start generating RF!",
       "x": 99,
       "y": 50,
       "icon": {
@@ -100,7 +100,7 @@
       "tasks": [
         {
           "type": "DETECT",
-          "longDescription": "Redstone is fairly common once you dig deep enough. In the Nether, the Nether Ores mod actually generates it at and above the center height of Y\u003d64. So if you go to the Nether, dig up, not down.",
+          "longDescription": "Redstone is fairly common once you dig deep enough. In the Nether, it\u0027s actually more at and above the center height of Y\u003d64. So if you go to the Nether, dig up, not down.",
           "items": [
             {
               "item": {
@@ -141,7 +141,7 @@
       "tasks": [
         {
           "type": "DETECT",
-          "longDescription": "Okay, you make one, I\u0027ll give you one. I recommend feeding it wood planks. It generally burns them more efficiently than logs.",
+          "longDescription": "Okay, you make one, I\u0027ll give you one. I recommend feeding it wood planks.",
           "items": [
             {
               "item": {
@@ -159,7 +159,7 @@
     },
     {
       "name": "Your Basic Power Cable",
-      "description": "There are various connectors, but we will focus on the ones in Thermal Dynamics, a bulwark for power delivery pipes. The basic power cable there is the leadstone fluxduct. It\u0027s fairly simple to make. However, it cannot transmit too much power. You can attach it to multiple sides of things, and create alternate routes to get around this limitation, but that can't scale forever. You will eventually upgrade from this.",
+      "description": "There are various connectors, but we will focus on the ones in Thermal Dynamics, a bulwark for power delivery pipes. The basic power cable there is the leadstone fluxduct. It\u0027s fairly simple to make. However, it cannot transmit too much power. You can attach it to multiple sides and create alternate routes to get around this . . . for a while.",
       "x": 60,
       "y": 18,
       "icon": {
@@ -349,7 +349,7 @@
       "tasks": [
         {
           "type": "DETECT",
-          "longDescription": "Side-note: Solar panels and wind turbines are considered \"passive generation.\" Some mods have these, and they usually have low generation rates. Resist the urge to build tons of these to compensate. If you play on a server, the server will choke, and everybody will make fun of you. Switch to the more difficult, more powerful, \"active\" generators that require fuel. They are more interesting to work with anyways.",
+          "longDescription": "Side-note: Solar panels and wind turbines are considered \"passive generation.\" Some mods have these, and they usually have low generation rates. Resist the urge to build tons of these to compensate. If you play on a server, the server will choke, and everybody will make fun of you. Switch to the tougher, more powerful, active generators. They are more interesting to work with anyways.",
           "items": [
             {
               "item": {
@@ -408,7 +408,7 @@
     },
     {
       "name": "Weak Solar Power",
-      "description": "Solar power is sustainable, turnkey, and fire-and-forget . . . except that it stops at night. You will need an energy cell to store power for the night. You will also need some Mekanism equipment to make these. However, if you make that gear, you\u0027re part of the way to the Digital Miner in the Post-Scarcity chapter. Think about it nibbling on that quest too.",
+      "description": "Solar power is sustainable, turnkey, and fire-and-forget . . . except that it stops at night. You will need an energy cell to store power for the night. You will also need some Mekanism equipment to make these. However, if you make that gear, you\u0027re part of the way to the Digital Miner in the Post-Scarcity section. Think about it.",
       "x": 101,
       "y": 107,
       "icon": {
@@ -443,7 +443,7 @@
     },
     {
       "name": "Baby\u0027s First Battery",
-      "description": "The leadstone energy cell is a starter battery. All the power generators maintain a power reserve, but that might not be enough. This is especially an issue if you are using solar power. You need to buffer it overnight! Even if you don\u0027t, an energy cell can discharge much more quickly than some generators, and are good for jobs in a pinch. The fact that they\u0027re portable is quite useful too. USE A CRESCENT HAMMER TO MOVE THEM!",
+      "description": "The leadstone energy cell is a starter battery. All the power generators maintain a power reserve, but that might not be enough. This is especially an issue if you are using solar power. You need to buffer it overnight! Even if you don\u0027t, an energy cell can discharge much more quickly than some generators, and are good for jobs on the pinch. The fact that they\u0027re portable is quite useful too. USE A CRESCENT HAMMER TO MOVE THEM!",
       "x": 58,
       "y": 49,
       "icon": {
@@ -456,7 +456,7 @@
       "tasks": [
         {
           "type": "DETECT",
-          "longDescription": "***NOTE*** EnderIO capacitor banks have generally taken the place of these energy cells. They do a lot of it better and cheaper.",
+          "longDescription": "***NOTE*** Ender IO capacitor banks have generally taken the place of these energy cells. They do a lot of it better and cheaper.",
           "items": [
             {
               "item": {
@@ -478,7 +478,7 @@
     },
     {
       "name": "Yellowcake, yellowcake . . .",
-      "description": "Remember the 64 yellorium ingots I gave you for the graphite? That won\u0027t be enough! You will need more just to build the reactor. It will also need some for fuel. So I will be asking for 64 yellorium ingots.",
+      "description": "Remember the 64 ingots I gave you for the graphite? That won\u0027t be enough! You will need more just to build the reactor. It will need fuel. So I will be asking for 64 yellorium ingots.",
       "x": 95,
       "y": 150,
       "icon": {
@@ -490,13 +490,13 @@
       "tasks": [
         {
           "type": "DETECT",
-          "longDescription": "Do not use your furnace or smeltery for this! The yield is terrible! Consider pulverizing or crushing the ore first, then running it through a furnace. You can also use Artifice uranium ore generally, but I cannot set up the quest book to detect one or the other, so yellorium it is! You should be able to normally find that ore in any modpack that includes Big Reactors. I am actually asking for 128, but that's because I have to factor in the 64 you already have.",
+          "longDescription": "Do not use your furnace or smeltery for this! The yield is terrible! Consider pulverizing or crushing the ore first, then running it through a furnace. You can also use Artifice uranium ore generally, but I cannot set up the quest book to detect one or the other, so yellorium it is! You should be able to normally find that ore in any modpack that includes Big Reactors.",
           "items": [
             {
               "item": {
                 "id": "BigReactors:BRIngot"
               },
-              "required": 128,
+              "required": 64,
               "precision": "ORE_DICTIONARY"
             }
           ]
@@ -523,7 +523,7 @@
     },
     {
       "name": "The Power Of The Atom",
-      "description": "Let\u0027s start putting all this together. You will need reactor blocks first. You will then use some of them to make a reactor controller, access port, power tap, and control rod. You will then need 3 fuel rods. Build a 5x5 floor out of the reactor blocks. Place the 3 fuel rods as a tower in the center. Encase it on all sides, except for placing the port, tap, and controller somewhere accessible from the outside--but not the corners. Close it off with the remaining cases. Put yellorium in the access port, and try to activate the reactor from the controller. It will tell you if it doesn\u0027t like something, and exactly where the thing it doesn\u0027t like is or isn\u0027t. Good luck!",
+      "description": "Let\u0027s start putting all this together. You will need reactor blocks first. You will then use some of them to make a controller, an access port, a power tap, and a control rod. You will then need 3 fuel rods. Build a 5x5 floor out of the reactor blocks. Place the 3 fuel rods as a tower in the center. Encase it on all sides, except for placing the port, tap, and controller somewhere accessible from the outside--but not the corners. Close it off with the remaining cases. Put yellorium in the access port, and try to activate the reactor from the controller. It will tell you if it doesn\u0027t like something, and exactly where the thing it doesn\u0027t like is or isn\u0027t. Good luck!",
       "x": 110,
       "y": 187,
       "icon": {
@@ -672,7 +672,7 @@
     },
     {
       "name": "I Pulverize Your Head!",
-      "description": "Here is another grinding machine that has a chance of side-products. When you see pulverizer recipes in NEI, this is what it is talking about. You can get basic ore-doubling with this and the RF-furnace, which isn\u0027t really the best. One thing that sets the pulverizer apart from the other machines is how consistently it grinds cobblestone into sand. This can help with making glass . . . or TNT!",
+      "description": "Here is another grinding machine that has a chance of side-products. When you see pulverizer recipes in NEI, this is what it is talking about. You can get basic ore-doubling with this and the RF-furnace, which isn\u0027t really the best. One thing that sets the pulverizer apart from the other machines is how consistently it grinds cobblestone into sand. This can help with making glass.",
       "x": 223,
       "y": 15,
       "icon": {
@@ -687,7 +687,7 @@
         {
           "type": "DETECT",
           "description": "Gearing Up",
-          "longDescription": "Make a tin gear...",
+          "longDescription": "Unnamed",
           "items": [
             {
               "item": {
@@ -700,7 +700,6 @@
         {
           "type": "DETECT",
           "description": "Framing Things",
-          "longDescription": "...to make a machine frame...",
           "items": [
             {
               "item": {
@@ -712,7 +711,6 @@
         {
           "type": "CRAFT",
           "description": "Breaking It All Down",
-          "longDescription": "...to make the full machine.",
           "items": [
             {
               "item": {
@@ -735,7 +733,7 @@
     },
     {
       "name": "Three Times The Alloy",
-      "description": "Well hey, another RF-powered furnace! This one is from EnderIO. One big claim to fame for it is it can burn down three things at once. It is pretty intense on the iron, but if that is cheap for you, you should consider it over the others. You will also need this if you want to make other EnderIO stuff like their conduits.",
+      "description": "Well hey, another RF-powered furnace! This one is from Ender IO. One big claim to fame for it is it can burn down three things at once. It is pretty intense on the iron, but if that is cheap for you, you should consider it over the others. You will also need this if you want to make other Ender IO stuff like their conduits.",
       "x": 204,
       "y": 46,
       "icon": {
@@ -749,7 +747,7 @@
         {
           "type": "DETECT",
           "description": "Checking Your Capacity",
-          "longDescription": "Get used to these capacitors. They are a regular EnderIO component. They take a little gold, a copper ingot, and redstone. This is the most exotic component.",
+          "longDescription": "Get used to these capacitors. They are a regular Ender IO component. They take a little gold, a copper ingot, and redstone. This is the most exotic component.",
           "items": [
             {
               "item": {
@@ -761,7 +759,7 @@
         {
           "type": "DETECT",
           "description": "Tighten The Chasis Belt",
-          "longDescription": "It\u0027s time to start feeding this thing lots of iron. The chasis is a common item for the EnderIO machines in general.",
+          "longDescription": "It\u0027s time to start feeding this thing lots of iron. The chasis is a common item for the Ender IO machines in general.",
           "items": [
             {
               "item": {
@@ -796,7 +794,7 @@
     },
     {
       "name": "Rolling In Balls",
-      "description": "In real life, SAG stands for \"semi-autogenous grinding.\" It\u0027s a tub full of ball bearings that are tumbled. They pound away on your product. The EnderIO one uses flint. You can grind without extra flint, but feeding some in will potentially increase your yield. For example, an iron ore without flint will give you two dusts, which give you two ingots. However, a SAG mill with flint fed into the right-hand slot will sometimes quadruple that. Statistically, it will boost your base yield by 2.5x, and that\u0027s better than the smeltery.",
+      "description": "In real life, SAG stands for \"semi-autogenous grinding.\" It\u0027s a tub full of ball bearings that are spin. They pound away on your product. The EnderIO one uses flint. You can grind without extra flint, but feeding some in will potentially increase your yield. For example, an iron ore without flint will give you two dusts, which give you two ingots. However, a SAG mill with flint fed into the right-hand slot will sometimes quadruple that. Statistically, it will boost your base yield by 2.5x, and that\u0027s better than the smeltery.",
       "x": 195,
       "y": 66,
       "icon": {
@@ -862,7 +860,7 @@
         },
         {
           "type": "CRAFT",
-          "longDescription": "Yeah, it needs osmium run through a metallurgic infuser to make the circuit boards.",
+          "longDescription": "Yeah, it needs osmium and you help from a metallurgic infuser to make the circuit boards.",
           "items": [
             {
               "item": {
@@ -884,7 +882,7 @@
     },
     {
       "name": "I Crush Your Head!",
-      "description": "Continuing the theme of Mekanism machines sounding like sounds they play in industrial music, the crusher sounds like it is brutally executing your ores and objects. You will need one crusher for the digital miner quest line eventually due to very peculiar outputs from this machine for doing Mekanism stuff.",
+      "description": "Continuing the theme of Mekanism machines sounding like stuff from a Nine Inch Nails video, the crusher sounds like it is brutally executing your ores and objects. You will need one crusher for the digital miner quest line eventually due to very peculiar outputs from this machine for doing Mekanism stuff.",
       "x": 228,
       "y": 81,
       "icon": {
@@ -896,7 +894,7 @@
       "tasks": [
         {
           "type": "CRAFT",
-          "longDescription": "I\u0027d like to highlight that a crusher turns cobblestone into gravel. A SAG mill can turn gravel into flint, and you can turn around that into another crusher for gunpowder... hint, hint.",
+          "longDescription": "I\u0027d like to highlight that a crusher turns cobblestone into gravel. A SAG mill can turn gravel into flint, and you can turn around to another crusher and turn the flint into gunpowder . . . hint, hint.",
           "items": [
             {
               "item": {
@@ -917,7 +915,7 @@
     },
     {
       "name": "Love Machines",
-      "description": "Now you can do the basic machines! Unfortunately, we have three packs that do similar starter machines. The typical thing is to get some kind of heating machine, and some kind of grinding machine. One replaces your coal-fired furnace, and the other processes items to break them down. They usually get you some ore multiplication bonus. The bonuses can vary, so you want to see what you need and then determine which way to go. EnderIO machines tend to be high in iron. Thermal Expansion machines will eat on the copper. Mekanism will require steel and osmium. They all have their perks.",
+      "description": "Now you can do the basic machines! Unfortunately, we have three packs that do the starter machines. The typical thing is to get some kind of heating machine, and some kind of grinding machine. One replaces your coal-fired furnace, and the other processes items to break them down. They usually get you some ore multiplication bonus. The bonuses can vary, so you want to see what you need and then determine which way to go. Ender IO machines tend to be high in iron. Thermal Expansion machines will eat on the copper. Mekanism will require steel and osmium. They all have their perks.",
       "x": 140,
       "y": 78,
       "icon": {
@@ -1015,7 +1013,7 @@
     },
     {
       "name": "Cyanora",
-      "description": "Cyanite is the waste product of a Big Reactor. You want to check your fuel ports for an accumulation of them, because your reactor\u0027s efficiency will steadily drop as converts all that fuel. That being said, this is good stuff! You can reprocess it to get a little more fuel, or use it as a base material in turbines.",
+      "description": "Cyanite is the waste product of a Big Reactor. You want to check your fuel ports for an accumulation of them, because your reactor\u0027s efficiency will steadily drop as converts all the fuel. That being said, this is good stuff! You can reprocess it to get a little more fuel, or use it as a base material in turbines.",
       "x": 175,
       "y": 165,
       "icon": {
@@ -1052,7 +1050,7 @@
     },
     {
       "name": "Turning The Blues Around",
-      "description": "Maybe you don\u0027t want to build a turbine, or maybe you\u0027re past that point and now you have cyanite coming out of your ears. You can reprocess it into blutonium and get some more fuel use out of it. The blutonium disintegrates when used up, but also produces some more cyanite that you can further reprocess. The law of half-life decay concludes that you ultimately get twice the yield per yellorium ingot if you reprocess them! Um, that excludes power lost reprocessing them and blablabla, but you get the point.",
+      "description": "Maybe you don\u0027t want to build a turbine, or maybe you\u0027re past that point and now you have cyanite coming out of your ears. You can reprocess it into blutonium and get some more fuel use out of it. The blutonium disintegrates when used up, so this means you can only get two ingots\u0027 worth of yellorite out of one starting ingot of fuel. However, the laws of half-life decay conclude that you ultimately get twice the yield per yellorium ingot if you reprocess them!",
       "x": 208,
       "y": 187,
       "icon": {
@@ -1153,7 +1151,7 @@
     },
     {
       "name": "Getting Shafted",
-      "description": "So what\u0027s the turbine doing? It\u0027s dissipating the heat from the steam across fan blades spinning along a central shaft. Each blade dissipates 25mB/tick of steam. You are averaging 700mB/tick of steam. With a single blade per side, that\u0027s 28 blades. With 4 blades per shaft level, that\u0027s 7 levels. Add on the 3 levels for the coils. Wait, the coils? Yes! Coils are converting the mechanical force of the turbine into RF. Look at the electrum quest! You need to add 3 layers to handle that. So you need 10 shaft pieces. I\u0027ll help you out.",
+      "description": "So what\u0027s the turbine doing? It\u0027s dissipating the heat from the steam across fan blades spinning along a central shaft. Each blade to dissipite 25mB/tick of steam. You are averaging 700mB/tick of steam. With a single blade per side, that\u0027s 28 blades. With 4 blades per shaft level, that\u0027s 7 levels. Add on the 3 levels for the coils. Wait, the coils? Yes! Coils are converting the mechanical force of the turbine into RF. Look at the electrum quest! You need to add 3 layers to handle that. So you need 10 shaft pieces. I\u0027ll help you out.",
       "x": 251,
       "y": 136,
       "icon": {
@@ -1193,7 +1191,7 @@
         {
           "type": "CRAFT",
           "description": "Bear With Me Here",
-          "longDescription": "Now here\u0027s one people like to forget about. Opposite the side you put the coils--which probably means use the ceiling--you want to put in a shaft bearing. The shaft has to run out from this bearing. It\u0027s part of the outer casing.",
+          "longDescription": "Now here\u0027s one people like to forget about. Opposite the side you put the coils--probably the ceiling--you want to put in a shaft bearing. The shaft has to run out from this bearing. It\u0027s part of the outer casing.",
           "items": [
             {
               "item": {
@@ -1272,7 +1270,7 @@
       "tasks": [
         {
           "type": "CRAFT",
-          "longDescription": "And by \"Crafting task,\" I mean \"actually make it in a crafting table like a Big Baby,\" not \"cheating it in or forcing detection like a Weeny Baby.\"",
+          "longDescription": "And by \"Crafting task,\" I mean \"actually make it in a crafting table like a Big Baby,\" not \"cheating it in or forcing detection like a Little Baby.\"",
           "items": [
             {
               "item": {
@@ -1293,7 +1291,7 @@
     },
     {
       "name": "You Might Be A Rednet If...",
-      "description": "Big Reactors has a Rednet port that you can use to control your reactor. Cool kids will set up PID controllers and all kinds of crazy stuff for this, but you can do a very basic differential compensator with two Rednet ports. Set one to output on the white channel to output power capacity %, and the other on its white channel to control rod insertion. The reactor will start to moderate the reaction as your battery fills up, making fuel use very efficient and basically shutting off the reactor whenever it has a full charge stored.",
+      "description": "Big Reactors has a Rednet port that you can use to control your reactor. Cool kids will set up PID controllers and all kinds of crazy stuff for this, but you can do a very basic differential compensator with two Rednet ports. Set one to output on the white channel to output power capacity %, and the other on its white channel to control rod insertion. The reactor will start to moderate the reaction as your battery fills up, making fuel use very efficient and basically shutting of the reactor when it\u0027s not needed.",
       "x": 141,
       "y": 156,
       "icon": {
@@ -1340,7 +1338,7 @@
     },
     {
       "name": "So Hot And Steamy!",
-      "description": "The Minefactory Reloaded steam boiler takes burnable fuels and turns them into steam. It is a picky beast. It will start at 20C, and pick up heat SLOWLY until it reaches 100C. At that point, it generates steam, so long as you keep feeding it fuel and water. You can feed it fuel from a tree farm, and water from an aqueous accumulator. There is a demonstration of it in some of the Minefactory Reloaded demonstrations in Baby\u0027s First City.",
+      "description": "The Minefactory Reloaded steam boiler takes burnable fuels and turns them into steam. It is a picky beast. It will start at 20C, and pick up heat SLOWLY until it reaches 100C. At that point, it generates steam, so long as you keep feeding it fuel and water. You can feed it fuel from a tree farm, and water from an aquaeous accumulator. There is a demonstration of it in the Minefactory Reloaded tower in Baby\u0027s First City.",
       "x": 137,
       "y": 113,
       "icon": {
@@ -1425,7 +1423,7 @@
     },
     {
       "name": "An Enriching Experience",
-      "description": "An enrichment chamber is another part of Mekanism\u0027s 3x (and higher) ore processing. However, it can also break down some ore blocks more efficiently than other machines like a pulverizer. Look at recipes for ores like nether quartz ore, redstone ore, and diamond ore to see which machines do each best. You might need silk touch on a tool to really take advantage of it because many of those ores break apart without giving you the ore block.",
+      "description": "An enrichment chamber is another part of Mekanism\u0027s 3x (and higher) ore processing. However, it can also break down some ore blocks more efficiently than other machines like a pulverizer. Look at recipes for ores like nether quartz ore, redstone ore, and diamond ore see which machines do each best. You might need silk touch on a tool to really take advantage of it.",
       "x": 208,
       "y": 122,
       "icon": {
@@ -1471,7 +1469,7 @@
         {
           "type": "CRAFT",
           "description": "Breathe Ore Die",
-          "longDescription": "You will breathe oxygen into the purifer in order to get your first boost in ore productivity. You can get oxygen be separating oxygen from hydrogen with the electrolytic separators. Note: If you plan to do a lot of this, you probably need a bank of these machines, or at least some upgrades.",
+          "longDescription": "You will breathe oxygen into the purifer in order to get your first boost in ore productivity. You can get oxygen be separating oxygen from hydrogen with the electrolytic separators. Note: If you plan to do a lot of this, you probably need a bank of these machines, or at least a some upgrades.",
           "items": [
             {
               "item": {
@@ -1484,7 +1482,7 @@
         {
           "type": "DETECT",
           "description": "Can\u0027t Get Enough Water",
-          "longDescription": "You might have been through this before already, but you need an aqueous accumulator for producing the water the separator needs. So this is just a detection task.",
+          "longDescription": "You might have been through this before already, but you need an aqueous accumulator for producing the water the seperator needs. So this is just a detection task.",
           "items": [
             {
               "item": {
@@ -1586,7 +1584,7 @@
         {
           "type": "CRAFT",
           "description": "The Reactor Changes Too!",
-          "longDescription": "So yeah, the reactor needs fluid ports too! Four of them, of course, to match the turbine. Once you put these in, your reactor becomes \"actively-cooled.\" It will stop generating RF and will instead generate steam. Lots of steam. If you followed the specifications, you\u0027ll get a range of 749mB/tick to 680mB/tick. If you altered the design, then this whole scheme falls apart and you\u0027re on your own! :p",
+          "longDescription": "So yeah, the reactor needs fluid ports too! Four of them, of course, to much the turbine. Once you put these in, your reactor becomes \"actively-cooled.\" It will stop generating RF and will instead generate steam. Lots of steam. If you followed the specifications, you\u0027ll get a range of 749mB/tick to 680mB/tick. If you altered the design, then this whole scheme falls apart and you\u0027re on your own! :p",
           "items": [
             {
               "item": {
@@ -1612,7 +1610,7 @@
     },
     {
       "name": "Taking It To The Bank",
-      "description": "EnderIO capacitor banks are very versatile. They serve as portable batteries, permanent RF-storing stations, and machines for charging portable electronics. If you shift-right-click one with a wrench, it will break while keeping its charge. If you right-click it normally, you can configure which sides do what, what rate it charges/discharges, and pop stuff into charge.",
+      "description": "Ender IO capacitor banks are very versatile. They serve as portable batterys, permanent RF-storing stations, and machines for charging portable electronics. If you shift-right-click one with a wrench, it will break while keeping its charge. If you right-click it normally, you can configure which sides do what, what rate it charges/discharges, and pop stuff into charge.",
       "x": 148,
       "y": 43,
       "icon": {
@@ -1629,7 +1627,7 @@
       "tasks": [
         {
           "type": "CRAFT",
-          "longDescription": "It is nice to have some kind of power storage nearby your main power line. At a glance, you can look at it and see if you have problems. If it\u0027s full, your power generators are keeping up. If it\u0027s draining, then you have a problem! Keep a second one charged and off the grid as backup power to restore things if you have a total outage,",
+          "longDescription": "It is nice to have some kind of power storage nearby your main power line. At a glance, you can look at it and see if you have problems. If it\u0027s full, your power generators are keeping up. If it\u0027s draining, then you have a problem! Keep a second one charged and off the grid as a backup grid to restore things if you have a total outage,",
           "items": [
             {
               "item": {

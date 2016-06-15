@@ -1,6 +1,6 @@
 {
   "name": "Hoarding and Logistics",
-  "description": "This chapter shows some ways to move items and fluids around. There are also some novel storage devices. Applied Energistics 2 still takes the cake for most end-game storage, but there are things to make before then, and there are some nice portable options. We also have to get into pipes. This chapter takes care of that.",
+  "description": "This chapter shows some ways to move items and fluids around. There are also some novel storage devices. It also introduces Applied Energistics 2, which is a comprehensive storage and automation modification. Your entire item storage system can be represented in basically hard disks with it. You whole bases\u0027 inventory could collapse down into a single, searchable storage box with a screen. If you are getting all your stuff mixed up, I would suggest trying it out. The quest rewards eliminate some of the tedium in setting it up.",
   "quests": [
     {
       "name": "Fetch Me An Ale, Wrench!",
@@ -165,7 +165,7 @@
     },
     {
       "name": "A Higher-Capacity Chest",
-      "description": "If you want to just cram more stuff into a chest, try an iron chest. It has more slots to it. Wasn\u0027t that nice?",
+      "description": "If you want to just cram more stuff into the same chest, try an iron chest. It has more slots to it. Wasn\u0027t that nice?",
       "x": 174,
       "y": 20,
       "icon": {
@@ -194,7 +194,7 @@
     },
     {
       "name": "Deep Storage Unit",
-      "description": "This is a powered device that can store ridiculous amounts of... one single item. It\u0027s a great place to stuff cobblestone, for example. Lots and lots of cobblestone. Like, billions of cobblestone.",
+      "description": "This is a powered device that can store ridiculous amount of ... one single item. It\u0027s a great place to stuff cobblestone, for example. Lots and lots of cobblestone. Like, billions of cobblestone.",
       "x": 287,
       "y": 181,
       "icon": {
@@ -256,7 +256,7 @@
     },
     {
       "name": "Hardcore Plumbers",
-      "description": "The hardened fluiduct can withstand the extreme temperatures of lava. If you are thinking of pumping lava into your smeltery, you will want to use these. The basic copper fluiducts will disintegrate very quickly.",
+      "description": "The hardened fluiduct can withstand the extreme temperatures of lava. You are thinking of pumping lava into your smeltery, you will want to use these. The basic copper fluiducts will disintegrate very quickly.",
       "x": 22,
       "y": 140,
       "icon": {
@@ -307,7 +307,7 @@
         {
           "type": "DETECT",
           "description": "Tough Tool Rods",
-          "longDescription": "The tough rod template is confusing because the stencil is shaped different than the cast. You want to make sure you\u0027re getting the *tough* tool rod, not just a regular tool rod. If you screw up, throw the components back in the smeltery for a do-over.",
+          "longDescription": "The tough rod templating is confusing because the stencil is shaped different than the cast. You want to make sure you\u0027re getting the *tough* tool rod, not just a regular tool rod. If you screw up, throw the components back in the smeltery for a do-over.",
           "items": [
             {
               "item": {
@@ -345,7 +345,7 @@
     },
     {
       "name": "Earning Your ... Brownish Belt",
-      "description": "The traveler\u0027s belt can only hold 9 items, which is coincidentally how many items you see in your hotbar. In fact, the belt lets you flip between your current hotbar and one it contains. So you can throw a bunch of junk in the toolbelt hotbar that you are normally struggling to balance in your current hotbar. Important note: You have to wear the belt through the armor screen in your inventory, and you have to use the belt toggle key to make the flip. That is mapped by default to \u0027B\u0027 which apparently every other mod is trying to use. I recommend going to the control configuration screen and changing it to \u0027V\u0027, the Alt key, or something else quick at your disposal.",
+      "description": "The traveler\u0027s belt can only hold 9 items, which is coincidentally how many items you see in your hotbar. In fact, the belt lets you flip between your current hotbar and one it contains. So you can throw a bunch of junk in the toolbelt hotbar that you are normally struggling to balance in your current hotbar. Important note: You have to wear the belt through the armor screen in your inventory, and you have to use the belt toggle key to make the flip. That is mapped by default to \u0027B\u0027 which apparently every other mod is trying to use. I recommend going to the control configuration screen and changing it to \u0027V\u0027 or something else quick at your disposal.",
       "x": 221,
       "y": 54,
       "icon": {
@@ -518,7 +518,7 @@
     },
     {
       "name": "Controlling Drawers",
-      "description": "The drawer controller serves as a giant mouth for pulling crap out of your inventory and into your storage drawers. Later, when you set up Applied Energistics 2, you can slap a storage bus on it, and make your storage drawer inventory available to your ME network. This is a smart thing to make in the long term.",
+      "description": "The drawer controller serves as a giant mouth for pulling crap out of your inventory and into your storage drawers. Later, when you set up Applied Energistics, you can slap a storage bus on it, and make your storage drawer inventory available to your ME network. This is a smart thing to make in the long term.",
       "x": 256,
       "y": 86,
       "icon": {
@@ -584,7 +584,7 @@
     },
     {
       "name": "No Bag Ban Here!",
-      "description": "I live in a city that banned plastic bags, which makes the MFR plastic bags pretty funny. I feel kind of dirty using them. These things can only hold a few stacks of items, but they are so easy to make. They require plastic, but not leather or wool. They are a great way to prolong finding your final base by letting you pack up all your junk as you wander the country-side like a bag lady.",
+      "description": "I live in a city that banned plastic bags, which makes the MFR plastic bags pretty funny. These things can only hold a few stacks of items, but they are so easy to make. They require plastic, but not leather or wool. They are a great way to prolong finding your final base by letting you pack up all your junk as you wander the country-side like a gypsy bag lady.",
       "x": 177,
       "y": 132,
       "icon": {
@@ -747,7 +747,7 @@
     },
     {
       "name": "Box Of Enchantment",
-      "description": "Here\u0027s a fun one. You can enchant these strongboxes! Maybe you\u0027ve run into the enchantment table. Maybe not. We haven\u0027t really mentioned it because vanilla enchanting is a lottery of suck. You get to pick one of three enchantments without knowing what they will be. However, a strongbox can only take one enchantment: holding. It doesn\u0027t matter what gibberish option you pick for it then, so pick the cheapest.",
+      "description": "Here\u0027s a fun one. You can enchant these strongboxes! Maybe you\u0027ve run into the enchantment table. Maybe not. We haven\u0027t really mentioned it because vanilla enchanting is a lottery of suck. You get to pick one of three enchantments without knowing what they will be. However, a strongbox can only take one enchantment: holding. It doesn\u0027t matter what you pick for it then, so pick the cheapest.",
       "x": 26,
       "y": 52,
       "icon": {
@@ -828,7 +828,7 @@
     },
     {
       "name": "Doing The Long Con",
-      "description": "Here\u0027s EnderIO\u0027s item conduit. It will transport items here and there. It doesn\u0027t need servos and filters to manage behavior at the places it is connected, although you need filter upgrades if you want to be picky about what moves where.",
+      "description": "Here\u0027s EnderIO\u0027s item conduit. It will transport items here and there. It doesn\u0027t need servo and filters to manage behavior at the places it is connected, although you need filter upgrades if you want to be picky about what moves where.",
       "x": 129,
       "y": 144,
       "icon": {
@@ -854,7 +854,7 @@
         {
           "type": "DETECT",
           "description": "Pulsating With Frustration",
-          "longDescription": "You also need some pulsating iron. Fortunately, you don\u0027t need much. It is still a fussy thing to have early in the game. Well, what did you expect from a mod named \"Ender IO?\" This mod gobbles up ender pearls. But you can\u0027t complain because I know if you made it here, I already gave you one! You can make this alloy using an induction furnace, or Ender IO\u0027s own alloy furnace.",
+          "longDescription": "You also need some pulsating iron. Fortunately, you don\u0027t need much. It is still a fussy thing to have early in the game. Well, what did you expect from a mod named \"Ender IO?\" This mod gobbles up them ender pearls. But you can\u0027t complain because I know if you made it here, I already gave you one! You can make this alloy using an induction furnace, or Ender IO\u0027s own alloy furnace.",
           "items": [
             {
               "item": {
@@ -924,7 +924,7 @@
     },
     {
       "name": "Poking Around",
-      "description": "The conduit probe is a nice little toy for checking what is happening inside your pipes. Truth be told, more complicated routing should be handled by an AE2 ME network, but this can help you diagnose if something is screwed up. However, it also has a mode for copying settings from one source/destination to another.",
+      "description": "The conduit probe is a nice little toy for checking what destinations can accept from what places in your network of pipes. Truth be told, more complicated routing should be handled by an AE2 ME network, but this can help you diagnose if something is screwed up.",
       "x": 101,
       "y": 140,
       "icon": {
@@ -1000,7 +1000,7 @@
       "tasks": [
         {
           "type": "CRAFT",
-          "longDescription": "Two steel and some redstone dust. It\u0027s almost refreshing compared to what it takes to make some of these other cables!",
+          "longDescription": "Two steel and some redstone dust. It\u0027s almost refreshing compared to what it takes to make some of these cables!",
           "items": [
             {
               "item": {
@@ -1034,7 +1034,7 @@
         {
           "type": "DETECT",
           "description": "The Machines",
-          "longDescription": "The magma crucible is a non-trivial machine to craft, but it\u0027s great for busting down redstone into destabilized redstone. You might have already made this machine because it comes up in the book in a few places. I\u0027ll only check if you have one. You feed it redstone, and it will turn it into a fluid. You can place the fluid transposer alongside the magma crucible. This lets you transmit fluid from the crucible to the transposer without any special fluid connectors.",
+          "longDescription": "The magma crucible is a non-trivial machine to craft, but it\u0027s great for busting down redstone into destabilized redstone. You might have already made this machine because it comes up in the book in a few places. I\u0027ll only check if you have one. You feed it redstone, and it will turn it into a fluid. You can butt the fluid transposer alongside the magma crucible. You can get the fluids to transfer over directly.",
           "items": [
             {
               "item": {
@@ -1105,7 +1105,7 @@
         {
           "type": "CRAFT",
           "description": "Okay, That Is Morbid",
-          "longDescription": "Yeah... this machine does creative surgery with heads. You can use it to re-purpose zombie heads, but we\u0027re using it on an enderman head here. Yeah...",
+          "longDescription": "Yeah... this machine does creative surgery with heads. You can use it to repurpose zombie heads, but we\u0027re using it on an enderman head here. Yeah...",
           "items": [
             {
               "item": {
@@ -1143,7 +1143,7 @@
     },
     {
       "name": "Are You Dense?",
-      "description": "Dense and vacuum itemducts fool the duct network into thinking things are much closer or much further away than they actually are. They are useful for assigning priority to different areas of a duct. A good example for using these are in a tree farm. You probably want a dense itemduct heading to a trash can to take care of overflow, but it shouldn\u0027t trigger unless there is overflow. You might combust saplings from the tree farm, but you only want to do that if the planter has enough saplings to sustain the farm. So you put a vacuum duct on the path to the planter. The planter will then get saplings until it is full since its priority is more important.",
+      "description": "Dense and vacuum itemducts fool the duct network into thinking things are much closer or much further away than they actually are. They are useful for assigning priority to different areas of a duct. A good example for using these are in a tree farm. You probably want a dense itemduct heading to a trash can to take care of overflow, but it shouldn\u0027t trigger unless there is overflow. You might combust saplings from the tree farm, but you only want to do that if the planter has enough saplings to sustain the farm. So you put a vacuum duct on the path to the planter. This will get saplings first.",
       "x": 97,
       "y": 64,
       "icon": {
@@ -1202,7 +1202,7 @@
     },
     {
       "name": "A Pet Purple Retriever",
-      "description": "Retrievers are a new thing brought by Thermal Dynamics when that all was created for Minecraft 1.7.10. They introduce a very peculiar filtering system. At their most basic, you can use it instead of a servo/filter combination. Put it on the destination, give it something to look for, and it will draw those items from any inventories attached to any item ducts in the whole network, so long as the destination has room for it. So they can be particularly useful if you do not want to overload the pipes with dumped items, or you have multiple places to look and don\u0027t want to deal with all the servos.",
+      "description": "Retrievers are a new thing brought by Thermal Dynamics when that all was created for Minecraft 1.7.10. They are very peculiar filtering system. At their most basic, you can use it instead of a servo/filter combination. Put it on the destination, give it something to look for, and it will draw those items from any inventories attached to any item ducts in the whole network, so long as the destination has room for it. So they can be particularly useful if you do not want to overload the pipes with dumped items, or you have multiple places to look and don\u0027t want to deal with all the servos.",
       "x": 21,
       "y": 113,
       "icon": {
@@ -1249,7 +1249,7 @@
     },
     {
       "name": "Mechanically Speaking",
-      "description": "Mechanical pipes are particularly useful for transferring fluids, even though they can also do items. They fill a nice niche for Big Reactors\u0027 turbines--particularly the advanced ones. The base one can do steam at 100mb/tick without worrying about hot fluids melting them down like if you transfer lava. The next tier is 400mb/tick, which is generally superior to other fluid pipes in its class.",
+      "description": "Mechanical pipes are particularly useful for transfer fluids, even though they can also do items. They fill a nice niche for Big Reactors\u0027 turbines--particularly the advanced ones. The base one can do fluids normally at 100mb/tick without worrying about hot fluids melting them down like if you transfer lava. The next tier is 400mb/tick, which is generally superior to other fluid pipes in its class.",
       "x": 131,
       "y": 62,
       "icon": {
@@ -1308,7 +1308,7 @@
         {
           "type": "CRAFT",
           "description": "The Final Pipe",
-          "longDescription": "A stripe of binder, a stripe of alloy, and another stripe of binder. Bam.",
+          "longDescription": "A stripe of binder, a stripe of allow, and another stripe of binder. Bam.",
           "items": [
             {
               "item": {

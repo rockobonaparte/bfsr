@@ -1,8 +1,10 @@
 {
   "name": "Baby\u0027s First Space City!",
+  "description": "Instead of spawning straight into the Overworld, everybody playing this pack spawns in a *mysterious dimension* that contains \"Baby\u0027s First Space City.\" This gives you a chance to understand what is going on with the game before entering the Overworld. It works out better that way because the clock is ticking, the sun is setting, and it usually sets before people know what they are supposed to do. At that point, all the riffraff comes out to kill you! What a horrible way to get started! This way, you can be safe and sheltered while you figure things out.",
   "quests": [
     {
       "name": "Welcome To BFSR!",
+      "description": "99% of the people playing this pack have played the base Minecraft at least a little bit. However, this pack was originally made for some people who had NEVER played Minecraft before. If you are brand new to things, well, first, check the controller and video settings. After that, feel free to pace yourself. For players of regular (\"Vanilla\") Minecraft, or even other modded Minecraft, you can rush out to the Overworld, punch a few trees, find a hidey hole, and then start checking off the things you\u0027ve done. For \"completing\" this quest, you will get some dirt, with which you can make a safety rattle to take you back to Baby\u0027s First Space City. This pack likes to reward you with ingredients for the next step. The goal is to teach you, not to grind you.",
       "x": 36,
       "y": 25,
       "icon": {
@@ -17,6 +19,7 @@
     },
     {
       "name": "The Nursery",
+      "description": "This is where you\u0027ll always go if you use the safety rattle. Pinky the Nurse is very protective of all her new players (\"babies\") and can give you some amusing/creepy dialog if you are into that kind of thing. Take note that I have arranged most of the places in the city based on their relative location to each other, so you can use the quest book almost like a map.",
       "x": 174,
       "y": 119,
       "icon": {
@@ -29,7 +32,17 @@
       "tasks": [
         {
           "type": "LOCATION",
-          "locations": []
+          "longDescription": "This should be pretty easy to accomplish because you basically start here automatically! Note that you are getting money as a reward. You can use that in the shops for stuff later.",
+          "locations": [
+            {
+              "name": "New",
+              "x": 13,
+              "y": 66,
+              "z": 30,
+              "dim": 2,
+              "radius": 3
+            }
+          ]
         }
       ],
       "reward": [
@@ -40,6 +53,7 @@
     },
     {
       "name": "Make The Safety Rattle!",
+      "description": "We have added a safety rattle that can take you back to Baby\u0027s First Space City at any time. If you look at your inventory (\u0027e\u0027 by default), there is a 2x2 grid. If you drag dirt in a 1x2 column, you can make this. It also works with some other ingredients like sand. This gives you an emergency out if you\u0027re in a dangerous situation. It also lets you get back to the tutorial areas to see the demonstration setups.",
       "x": 80,
       "y": 26,
       "icon": {
@@ -51,7 +65,14 @@
       "tasks": [
         {
           "type": "CRAFT",
-          "items": []
+          "longDescription": "This quest should complete when you have made one rattle. I know I gave you one already. Just physically make one for yourself. You can use it by right-clicking in open space while holding it in your hand. Note: You might eventually find yourself in a parallel dimension that is missing the ingredients for the rattle. If you suddenly need a rattle, well, ... you screwed up!",
+          "items": [
+            {
+              "item": {
+                "id": "bfsr:genericItem"
+              }
+            }
+          ]
         }
       ],
       "reward": [
@@ -62,6 +83,7 @@
     },
     {
       "name": "The Dad Bar!",
+      "description": "So many dads! So many wannabe dads! With a name like \"Baby\u0027s First Space Race,\" I shouldn\u0027t have been surprised so many dads set this up for their kids. I should though, because this pack is pretty goofy. Ahhh, the pain and peril of avoiding curse words in the quest book! As a tribute to the dads of BFSR, behold the Dad Bar. They sit there and do Dad Stuff.",
       "x": 173,
       "y": 68,
       "icon": {
@@ -74,7 +96,17 @@
       "tasks": [
         {
           "type": "LOCATION",
-          "locations": []
+          "longDescription": "PS: If you are a dad, you can join the dad bar too! You need to post on the Technic page or somewhere I can see it, and link to your Minecraft skin. Oh, and give me some information I can use for your dad dialog. Bonus points if it will make your kid panic! :p",
+          "locations": [
+            {
+              "name": "New",
+              "x": 15,
+              "y": 66,
+              "z": 3,
+              "dim": 2,
+              "radius": 3
+            }
+          ]
         }
       ],
       "reward": [
@@ -85,6 +117,7 @@
     },
     {
       "name": "Overworld Portal",
+      "description": "There is a contraption in this room with buttons on it. When you press it, you get sent to The Overworld. That is the main game world, and the way it is laid out varies based on how the world was created when this instance of the game was started. Mr. Overworldo tends to the teleportation area and can tell you some stuff if you need it. He also has a few paper picks in case the Overworld spawn likes to put you in a cave you can\u0027t otherwise escape.",
       "x": 140,
       "y": 121,
       "icon": {
@@ -96,7 +129,16 @@
       "tasks": [
         {
           "type": "LOCATION",
-          "locations": []
+          "locations": [
+            {
+              "name": "New",
+              "x": -21,
+              "y": 66,
+              "z": 39,
+              "dim": 2,
+              "radius": 3
+            }
+          ]
         }
       ],
       "reward": [
@@ -107,6 +149,7 @@
     },
     {
       "name": "Community Storage",
+      "description": "It\u0027s particularly nice on servers to have a \"community chest\" where players can donate extra stuff so new players can get started right away. This pack practically does that already, but when trying to get new players up-to-speed quickly, nothing\u0027s better than a working storage system for your beck and call. We set up one for everybody to use in Baby\u0027s First Space City. Heck, in single-player, you can just dump surplus there too.",
       "x": 174,
       "y": 155,
       "icon": {
@@ -119,7 +162,16 @@
       "tasks": [
         {
           "type": "LOCATION",
-          "locations": []
+          "locations": [
+            {
+              "name": "New",
+              "x": 8,
+              "y": 66,
+              "z": 45,
+              "dim": 2,
+              "radius": 3
+            }
+          ]
         }
       ],
       "reward": [
@@ -130,6 +182,7 @@
     },
     {
       "name": "Abandoned Nuclear Plant",
+      "description": "This used to be where we showed off the nuclear reactors, but we decided to split them off into separate areas. This keeps the load off the machine running the game (your computer or a server). We decided to keep the shell of the building we were using because it was cool. Squatters can take care of themselves here!",
       "x": 141,
       "y": 171,
       "icon": {
@@ -141,7 +194,16 @@
       "tasks": [
         {
           "type": "LOCATION",
-          "locations": []
+          "locations": [
+            {
+              "name": "New",
+              "x": 25,
+              "y": 66,
+              "z": 70,
+              "dim": 2,
+              "radius": 3
+            }
+          ]
         }
       ],
       "reward": [
@@ -152,6 +214,7 @@
     },
     {
       "name": "Abandoned Factory",
+      "description": "This used to be where we kept all the Minefactory Reloaded demo farms, but it was laggy to have so many on top of each other. We spread them out across those teleporters instead. However, I kept the building, and you can squat in it!",
       "x": 269,
       "y": 119,
       "icon": {
@@ -163,12 +226,27 @@
       "tasks": [
         {
           "type": "LOCATION",
-          "locations": []
+          "locations": [
+            {
+              "name": "New",
+              "x": 75,
+              "y": 66,
+              "z": 36,
+              "dim": 2,
+              "radius": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "customnpcs:npcMoney"
         }
       ]
     },
     {
       "name": "The Moonbase Demo",
+      "description": "Admiral Luna has been assigned to stand around and explain how to build a moon base to all the babies. This is good because moon bases are fickle to do right the first, second, third, ... heck, they are fickle all the time! You can see what it takes here before you try to make one on the moon yourself. Walk through the checkpoint to the airstrip, and then you will find the demo inside the hanger.",
       "x": 173,
       "y": 29,
       "icon": {
@@ -180,7 +258,16 @@
       "tasks": [
         {
           "type": "LOCATION",
-          "locations": []
+          "locations": [
+            {
+              "name": "New",
+              "x": -33,
+              "y": 66,
+              "z": -56,
+              "dim": 2,
+              "radius": 10
+            }
+          ]
         }
       ],
       "reward": [
@@ -191,6 +278,7 @@
     },
     {
       "name": "Shopping",
+      "description": "You may notice all this money you\u0027re getting from just walking around the city. You can use that money to buy some stuff from these stores. The main reason for this is that people sometimes spawn in worlds where certain, basic resources turn out to be scarce. You can exchange what you have for what you need here. There are also some stores underground. Look for the stairs.",
       "x": 104,
       "y": 83,
       "icon": {
@@ -202,7 +290,17 @@
       "tasks": [
         {
           "type": "LOCATION",
-          "locations": []
+          "longDescription": "The first surface store handles plants. The second surface store handles animals (and monsters). The third surface store buys things from you.",
+          "locations": [
+            {
+              "name": "New",
+              "x": -15,
+              "y": 66,
+              "z": 20,
+              "dim": 2,
+              "radius": 3
+            }
+          ]
         }
       ],
       "reward": [
@@ -213,6 +311,7 @@
     },
     {
       "name": "Resource Exchange",
+      "description": "The basement has a few shops in it, but also resource exchanges. You can replace one kind of cobblestone with another, or one kind of wood for another. Paige Turner has a booth for free books. She has every guide you might get while playing this modpack, including backup copies of supplementals. There\u0027s also a crew that will replace your spare spaceship plans with plans you might need, somebody for buying dimlets for dimensional travel, and a salesman of extremely odd stuff.",
       "x": 70,
       "y": 82,
       "icon": {
@@ -224,7 +323,16 @@
       "tasks": [
         {
           "type": "LOCATION",
-          "locations": []
+          "locations": [
+            {
+              "name": "New",
+              "x": -30,
+              "y": 60,
+              "z": 22,
+              "dim": 2,
+              "radius": 3
+            }
+          ]
         }
       ],
       "reward": [
@@ -235,6 +343,7 @@
     },
     {
       "name": "Tree Farm Demo",
+      "description": "If you go through the \"Tree Farm Demo\" portal, you will see how people run a basic tree farm using the Minefactory Reloaded mod. It includes power generation. It\u0027s completely, infinitely, self-sustaining!",
       "x": 41,
       "y": 107,
       "icon": {
@@ -247,7 +356,17 @@
       "tasks": [
         {
           "type": "LOCATION",
-          "locations": []
+          "longDescription": "There are a few farm demo areas available from the teleportation room, by the way. One even involves burning the trees for steam to spin a turbine for power. There is also a monster farm!",
+          "locations": [
+            {
+              "name": "New",
+              "x": 1002,
+              "y": 64,
+              "z": -1,
+              "dim": 2,
+              "radius": 3
+            }
+          ]
         }
       ],
       "reward": [
@@ -258,6 +377,7 @@
     },
     {
       "name": "Passive Nuclear Reactors",
+      "description": "We wanted to highlight the demo area for basic nuclear reactors. These cool themselves inside their cases without turbines. They generate a lot of power, but turbines ultimately will generate more power from the same reactor. That being said, if you haven\u0027t made a Big Reactors\u0027 nuclear reactor before, this pack will guide you through it. If that\u0027s not enough, look at these setups for a hint.",
       "x": 38,
       "y": 137,
       "icon": {
@@ -267,6 +387,21 @@
       "prerequisites": [
         "Portal Room"
       ],
+      "tasks": [
+        {
+          "type": "LOCATION",
+          "locations": [
+            {
+              "name": "New",
+              "x": 6002,
+              "y": 65,
+              "z": 0,
+              "dim": 2,
+              "radius": 3
+            }
+          ]
+        }
+      ],
       "reward": [
         {
           "id": "customnpcs:npcMoney"
@@ -275,6 +410,7 @@
     },
     {
       "name": "Turbine-Cooled Reactors",
+      "description": "These are nuclear reactors further powered by turbines. This is very advanced. To make it fancier, we also demonstrate a use for all that power. You can use mining lasers to extract random ores out of bedrock or faraway nothingness. This area has six fully-powered laser drills doing this. There is then a processing rig to duplicate the yield from those ores. It is all orchestrated from an Applied Energistics ME^3 network. By the end of this pack, you\u0027ll know how to do all of this!",
       "x": 38,
       "y": 171,
       "icon": {
@@ -286,7 +422,16 @@
       "tasks": [
         {
           "type": "LOCATION",
-          "locations": []
+          "locations": [
+            {
+              "name": "New",
+              "x": 7000,
+              "y": 65,
+              "z": 0,
+              "dim": 2,
+              "radius": 3
+            }
+          ]
         }
       ],
       "reward": [
@@ -297,6 +442,7 @@
     },
     {
       "name": "Portal Room",
+      "description": "This room contains portals to other parts of Baby\u0027s First Space City as well as demo areas. The demo areas were split apart so they would not tax your computer so much. They\u0027ll only load when you\u0027re near them. You are free to add your own teleporters, but please label them with a sign!",
       "x": 114,
       "y": 118,
       "icon": {
@@ -308,7 +454,16 @@
       "tasks": [
         {
           "type": "LOCATION",
-          "locations": []
+          "locations": [
+            {
+              "name": "New",
+              "x": -30,
+              "y": 72,
+              "z": 33,
+              "dim": 2,
+              "radius": 3
+            }
+          ]
         }
       ],
       "reward": [
@@ -319,6 +474,7 @@
     },
     {
       "name": "Smeltery Demo",
+      "description": "I remember how difficult it was to build my first smeltery. I had no idea what I was doing. It would have been so much easier if I could have just seen one in person. Well, you won\u0027t have to be like me! Next to the starting building is a smeltery demo area. If you go downstairs, you can see the rough profile of an average smeltery, and talk to an NPC that can give you some hints!",
       "x": 223,
       "y": 121,
       "icon": {
@@ -330,7 +486,16 @@
       "tasks": [
         {
           "type": "LOCATION",
-          "locations": []
+          "locations": [
+            {
+              "name": "New",
+              "x": 35,
+              "y": 66,
+              "z": 33,
+              "dim": 2,
+              "radius": 8
+            }
+          ]
         }
       ],
       "reward": [
@@ -341,6 +506,7 @@
     },
     {
       "name": "The Sandbox",
+      "description": "If you or somebody you are playing with is, well, completely helpless, feel free to use this sandbox area to practice the basics before going to The Overworld. If you are playing on a server, please try to restore it to a similar condition of how you left it. This area will let you practice tree punching, digging, and basic mining.",
       "x": 142,
       "y": 65,
       "icon": {
@@ -352,7 +518,16 @@
       "tasks": [
         {
           "type": "LOCATION",
-          "locations": []
+          "locations": [
+            {
+              "name": "New",
+              "x": -28,
+              "y": 66,
+              "z": -7,
+              "dim": 2,
+              "radius": 3
+            }
+          ]
         }
       ],
       "reward": [

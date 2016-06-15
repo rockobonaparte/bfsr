@@ -1,10 +1,10 @@
 {
   "name": "A Lunar Odyssey",
-  "description": "This is the moon mission! You have to build a rocket, make it to the moon, and survive long enough to claim the quest reward. Actually getting back to the planet is optional, but recommended. You should look at the starting quests and figure out how to complete them ASAP. It will require generating lots of compressed metals in a metal compressing machine.",
+  "description": "This is the moon mission! You have to build a rocket, make it to the moon, and survive long enough to claim the quest reward. Actually getting back to the planet is optional, but recommended. You should look at the starting quests and figure out how to complete them ASAP. It will require generating lots of compressed metals in a metal compressing machine. You want to get moving on them ASAP.",
   "quests": [
     {
       "name": "To The Moon!",
-      "description": "Let\u0027s go to the moon! Assume you have fueled up the rocket, made your parachute, dropped the rocket on a pad, AND tanked some oxygen, then let\u0027s go for it! Right-click on that rocket, and hit the space bar. If it complains about something, STRONGLY CONSIDER PAYING ATTENTION. You can override by hitting space bar again. It will start a 20-second countdown, and you will launch. A destination selection screen will appear. Double-click on the Overworld, then select the moon. You then click the launch button and it will take you there. It will then deploy the lunar lander. You will want to hold down the space bar for reverse thrust so you don\u0027t smack into the moon!",
+      "description": "Let\u0027s go to the moon! Assume you have fueled up the rocket, and have your parachute, and the rocket is on a pad, AND you have oxygen, then let\u0027s go for it! Right-click on that rocket, and hit the space bar. If it complains about something, STRONGLY CONSIDER PAYING ATTENTION. You can override by hitting space bar again. It will start a 20-second countdown, and you will launch. In the destination screen, double-click on the overworld, then select the moon. You then click the launch button and it will take you there. It will then deploy the lunar lander. You will want to hold down the space bar so you don\u0027t smack into the moon!",
       "x": 102,
       "y": 149,
       "icon": {
@@ -120,7 +120,7 @@
     },
     {
       "name": "Give Me Some Air Here!",
-      "description": "Ummm, there isn\u0027t much air on the moon. Did you think about that? You are going to need an oxygen mask. You might notice a slot for that near your armor in your inventory. You are also going to need some full oxygen tanks for that mask. For the short duration of your mission, lights tanks will do.",
+      "description": "Ummm, there isn\u0027t much air on the moon. Did you think about that? You are going to need an oxygen mask. You might notice a slot for that near your armor and everything in your inventory. You are also going to need some oxygen tanks. For the short duration of your mission, lights tanks will do.",
       "x": 28,
       "y": 156,
       "icon": {
@@ -217,7 +217,7 @@
         {
           "type": "DETECT",
           "description": "Compress Steel",
-          "longDescription": "The compressor is powered by coal/charcoal. You will have to feed it some to run it. Run some steel ingots through it to get a sheet. Then start running lots of bronze, aluminum, iron, tin, and more steel through it. You need lots of this stuff. Build another compressor! Build two more after that!",
+          "longDescription": "The compressor is powered by coal/charcoal. You will have to feed it some to run it. Run some steel through it to get a sheet. Then start running lots of bronze, aluminum, iron, tin, and more steel through it. You need lots of this stuff. Build another compressor! Then build two more!",
           "items": [
             {
               "item": {
@@ -241,7 +241,7 @@
     },
     {
       "name": "Getting Back Safely",
-      "description": "You did plan to get back from the moon, right? You\u0027re going to need a parachute when you get back to the atmosphere!",
+      "description": "You did plan to get back from the moon, right? You\u0027re going to need a parachute!",
       "x": 140,
       "y": 134,
       "icon": {
@@ -271,7 +271,7 @@
     },
     {
       "name": "Wafer Madness!",
-      "description": "To get started on the trip to the moon, you are going to have to make some silicon wafers. The ones for the moon mission require a circuit fabricator. You will also need silicon ore from the deeper recesses of the Overworld. They can be hard to find; the ore looks like coal, but it\u0027s a different shade of gray.",
+      "description": "To get started on the trip to the moon, you are going to have to make some silicon wafers. The ones for the moon mission require a circuit fabricator. You will also need silicon ore from the deeper recesses. They can be hard to find; the ore looks like coal, but it\u0027s a different shade of gray.",
       "x": 36,
       "y": 24,
       "icon": {
@@ -349,7 +349,7 @@
       "tasks": [
         {
           "type": "DETECT",
-          "longDescription": "Note: The refinery has to be placed UNDER a source of power. Don\u0027t look at me like that. I didn\u0027t do it! Also, you want to bring the fuel loader with you to the moon with an energy cell. You need that to refuel the rocket in the lander for getting back!",
+          "longDescription": "Note: The refinery has to be placed UNDER a source of power. Don\u0027t look at me like that. I didn\u0027t do it. Also, you want to bring the fuel loader with you to the moon with an energy cell. You need that to refuel the rocket in the lander for getting back!",
           "items": [
             {
               "item": {
@@ -404,7 +404,7 @@
     },
     {
       "name": "A Cheesy Ore",
-      "description": "Yes, the moon is made of cheese! You can eat it too! To mine it, you need a diamond-level pickaxe, which you definitely should have at this time. That is some hard cheese! You want to have the fortune modifier on your tool if you want to improve your yield of cheese curds. This material is used in sparing amounts for super-advanced technology later in the game, so you do want to pick up some of it.",
+      "description": "Yes, the moon is made of cheese in Galacticraft. You can eat it too. To mine it, you need a diamond-level pickaxe, which you definitely should have at this time. That will drop cheese curds when you mine it. You want to have the fortune modifier on your tool if you want to improve your yield. This material is used in sparing amounts for super-advanced technology later in the game, so you do want to pick up some of it.",
       "x": 241,
       "y": 186,
       "icon": {
@@ -430,7 +430,7 @@
         {
           "type": "DETECT",
           "description": "Block Of Unrefined Cheese",
-          "longDescription": "Okay, the Orion Drive requires the ore block, not the cheese itself. This is some funny business here! You will need a tool with silk touch to harvest that. The easiest way to do that is to make a silky gem and mount that on a pick of your choice. There is another quest that goes through in detail (the \"Divide By Diamond\" questline in Bear Grylls\u0027 Poop Menu). Some mining automation can also handle it.",
+          "longDescription": "Okay, the Orion Drive requires the ore block, not the cheese itself. This is some funny business here! You will need a tool with silk touch to harvest that. The easiest way to do that is to make a silky gem and mount that on a pick of your choice. There is another quest that goes through in detail (the \"Divide By Diamond\" questline in Bear Grylls\u0027 Poop Menu).",
           "items": [
             {
               "item": {
@@ -465,7 +465,7 @@
         {
           "type": "LOCATION",
           "description": "Mars Needs Minecraft",
-          "longDescription": "Landing on Mars is no big deal. You\u0027ll be covered in protected balloons so you don\u0027t have to play the lunar lander game again. That pile of balloons will include a takeoff pad and spare rocket to get you back to the Overworld. It won\u0027t include a parachute, a fuel loader, or spare fuel beyond what it didn\u0027t eat from its original reserve.",
+          "longDescription": "Landing on Mars is no big deal. You\u0027ll by covered in protected balloons so you don\u0027t have to player the lunar lander game. That pile of balloons will include a takeoff pad and spare rocket to get you back to the Overworld. It won\u0027t include a parachute, a fuel loader, or spare fuel beyond what it didn\u0027t eat from its original reserve.",
           "locations": [
             {
               "name": "New",
@@ -514,7 +514,7 @@
     },
     {
       "name": "A Tier In My Eye",
-      "description": "You made a tier 1 rocket to get to the moon. You need a tier 2 rocket if you want to go to Mars. How do you make a tier 2 rocket? There are two main obstacles, and they are both *tedious!* First, you need tier 2 plans. You will have to find a moon dungeon, kill the guardian, and get the plans out of a chest. That assumes the chest you crack open has the plans. You normally might have to do this a few times! However, there is a merchant in Baby's First Space City that can exchange plans for you. Second, you have to haul in some meteoric iron from the meteors showing up all over the moon. Between all that, you can put the tier 2 rocket together with most of the tooling you already have.",
+      "description": "You need a tier 2 rocket if you want to go to Mars. You made a tier 1 rocket to get to the moon. How do you make a tier 2 rocket? There are two main obstacles, and they are both *tedious!* First, you need tier 2 plans. You will have to find a moon dungeon, call the guardian, and get the plans out of a chest. That assumes the chest you crack open has the plans. You might have to do this a few times! Second, you have to haul in some meteoric iron from the meteors showing up all over the moon. Between all that, you can put the tier 2 rocket together with most of the tooling you already have.",
       "x": 241,
       "y": 126,
       "icon": {
@@ -540,7 +540,7 @@
         {
           "type": "DETECT",
           "description": "Grind Grind Grind Some More",
-          "longDescription": "The plating you need is created by pressing tier 1 heavy-duty plates with a plate of meteoric iron. You need 8 of these to form the frame. Get all your Mars base stuff ready--especially the teleporters!",
+          "longDescription": "The plating you need is created by pressing tier 1 heavy-duty plates with a plate of meteoric iron. You need 8 of these to form the frame. I am not going to test that you built the actual rocket, because it will be obvious when you do the mars quest. I recommend crafting it with extra chests this time. Get all your Mars base stuff ready--especially the teleporters!",
           "items": [
             {
               "item": {
@@ -577,7 +577,7 @@
     },
     {
       "name": "The Outer Ring Of My Patience",
-      "description": "Outside the range of Mars is the asteroid belt. Galacticraft kind of ends there at the moment when it comes to interesting things to do. You can go flying around to all the planets and moons, but there isn\u0027t anything much happening there. The asteroid belt is it, and it\u0027s only interesting because you can deploy the astro miner there. You\u0027ll need a tier 3 rocket to make this happen. At this point, you should be mostly familiar with the ritual, so I\u0027m being very terse about all this.",
+      "description": "Outside the range of Mars is the asteroid belt. Galacticraft kind of ends there at the moment when it comes to interesting things to do. You can go flying around to all the planets, but there isn\u0027t anything much happening there. The asteroid belt is it, and it\u0027s only interesting because you can deploy the astro miner there. You\u0027ll need a tier 3 rocket to make this happen. At this point, you should be mostly familiar with the ritual, so I\u0027m being very terse about all this.",
       "x": 283,
       "y": 117,
       "icon": {
@@ -590,7 +590,7 @@
         {
           "type": "DETECT",
           "description": "What\u0027s The Plan?",
-          "longDescription": "More plans. This time, you\u0027re going for Mars dungeons. You\u0027ll find holes in the ground for these too. They are guarded by a giant, mutant creeper that launches TNT at you. You have to bounce them back at the creeper to kill it. I would recommend going to The Nether to practice rebound ghast fireballs before you commit to this fight. On a server, this is especially true because you want to know what kind of lag you\u0027re up against. If you are good at this, the creeper boss is actually easier than that crazy skeleton you fought on the moon. Note that you might do this fight a few times, and if you are having bad luck with finding plans, you can trade them in at Baby\u0027s First Space City\u0027s shops.",
+          "longDescription": "More plans. This time, you\u0027re going for Mars dungeons. You\u0027ll find holes in the ground for these too. They are guarded by a giant, mutant creeper that launches tnt at you. You have to bounce them back at the creeper to kill it. I would recommend going to The Nether and practice this against a few ghasts before you commit to this fight. On a server, this is especially true because you want to know what kind of lag you\u0027re up against. If you are good at this, the creeper boss is actually easier than that crazy skeleton you fought on the moon. Note that you might do this fight a few times, and if you are having bad luck with finding plans, you can trade them in at Baby\u0027s First Space City\u0027s shops.",
           "items": [
             {
               "item": {
@@ -614,7 +614,7 @@
         {
           "type": "CRAFT",
           "description": "Black Rocket",
-          "longDescription": "Alright, throw it all together . . . eventually. Now, don\u0027t forget the usual stuff about fuel, parachutes, teleporters, and the like. At this point, I\u0027m not your mom so I\u0027m not going into all the details any more. You got this far so you must know what you\u0027re doing. Just don\u0027t get cocky like all those other rocket jockeys!",
+          "longDescription": "Alright, through it all together . . . eventually. Now, don\u0027t forget the usual stuff about fuel, parachutes, teleporters, and the like. At this point, I\u0027m not your mom so I\u0027m not going into all the details any more. You got this far so you must know what you\u0027re doing. Just don\u0027t get cocky like all those other rocket jockeys!",
           "items": [
             {
               "item": {
@@ -635,7 +635,7 @@
     },
     {
       "name": "A Buggy In My Eye",
-      "description": "Moving around on the moon can get pretty tedious. If you want to rip around the moonscape, then you need a buddy--err a buggy. I mean, it\u0027s more likely to survive driving around on the moon than a horse! This is an advanced quest. You have to do the whole moon dungeon thing and get the plans for one. Honestly, you\u0027ve seen enough with making these rockets that I trust you. So if you find the plans, I\u0027ll give you a buggy. You\u0027ll have to set up a 3x3 grid of buggy fueling pads, with a fuel loader off to one side. That needs power and some fuel. Slap the buggy on the pad, and it will load up with fuel. Then you can zip around! Make car sounds, because there isn\u0027t enough air on the moon for the buggy to make car noises for you!",
+      "description": "Moving around on the moon can get pretty tedious. If you want to rip around the moonscape, then you need a buddy. I mean, it\u0027s more likely to survive driving around on the moon than a horse! This is an advanced quests. You have to do the whole moon dungeon thing and get the plans for one. Honestly, you\u0027ve seen enough with making these rockets that I trust you. So if you find the plans, I\u0027ll give you a buggy. You\u0027ll have to set up a 3x3 grid of buggy fueling pads, with a fuel loader off one side. That needs power and some fuel. Slap the buggy on it, and it will load up with fuel. Then you can zip around! Make car sounds, because there isn\u0027t enough air on the moon for the buggy to make car noises for you!",
       "x": 126,
       "y": 187,
       "icon": {
@@ -648,7 +648,7 @@
         {
           "type": "DETECT",
           "description": "Dungeons and ... Buggies",
-          "longDescription": "This is like the tier 2 plans quest. You have to find a hole in the ground, fall down in there, and get into a fight with a really goofy skeleton. I recommend bringing advanced armor and weapons, and maybe some health/regeneration boosts. Enderium weapons will make this stupidly easy. Remember that you can exchange extra rocket plans for buggy plans in a shop in Baby's First Space City!",
+          "longDescription": "This is like the tier 2 plans quest. You have to find a hole in the ground, fall down in there, and get into a fight with a really goofy skeleton. I recommend bringing advanced armor and weapons, and maybe some health/regeneration boosts. Enderium implements will make this stupidly easy.",
           "items": [
             {
               "item": {
@@ -770,7 +770,7 @@
     },
     {
       "name": "It\u0027s Not *That* Advanced",
-      "description": "You could technically drag a furnace generator up to the moon with you, but that somehow doesn\u0027t have the, \"atmosphere,\" if you know what I mean. Oh come on, I\u0027m joking about not being able to combust things on the moon. Actually, the stupid machines work fine, but it just doesn\u0027t seem appropriate. If you want the safest, yet convincing method, then use the Advanced Solar Generators in Galacticraft. I should warn you though: these machines kind of stink. You need four of them to consistently power the base. I\u0027ll guide you through making one and give you the other three. You also need an energy cell or battery to store the power they generate so you have some when it gets dark.",
+      "description": "You could technically drag a furnace generator up to the moon with you, but that somehow doesn\u0027t have the, \"atmosphere,\" if you know what I mean. Oh come on, I\u0027m joking about not being able to combust things on the moon. Actually, the stupid machines work fine, but it just doesn\u0027t seem appropriate. If you want the safest, yet convincing method, then use the Advanced Solar Generators in Galacticraft. I should warn you though: these machines kind of stink. You need four of them to consistently power the base. I\u0027ll guide you through making one and give you the other three. You also need an energy cell or battery to store the power the generate overnight.",
       "x": 206,
       "y": 61,
       "icon": {
@@ -850,7 +850,7 @@
     },
     {
       "name": "Canary In The Moon Mine",
-      "description": "While working on all this oxygen business, you might want to be able to tell from a distance if your base is sealed and filled with happy, tasty, oxygen. This detector will help with that. It will emit a redstone signal when everything is A-OK. You can connect a lamp or something up to it for a signal.",
+      "description": "While working on all this oxygen business, you might want to be able to tell from a distance if your base is sealed and filled with happy, tasty, oxygen. This detector will help with that. It will emit a redstone signal when everything is A-OK. You can connect lamp or something up to it for a signal.",
       "x": 201,
       "y": 104,
       "icon": {
@@ -977,7 +977,7 @@
     },
     {
       "name": "What? What?!!",
-      "description": "Sound does not transmit in a vacuum, and the moon pretty much is one. You need a frequency module to pick up on acoustics. This is useful to hear that creeper about to blow you up outside of your spaceship!",
+      "description": "Sound does not transmit in a vacuum, and the moon pretty much is one. You need a frequency module to pick up on acoustics. This is useful to hear that creeper about to blow you up in your spaceship!",
       "x": 169,
       "y": 126,
       "icon": {
@@ -1055,7 +1055,7 @@
       ]
     },
     {
-      "name": "Glowing With Embarrassment",
+      "name": "Glowing With Embarassment",
       "description": "So hey, torches don\u0027t work on the moon. It has something to do with there being no oxygen to burn. Try these glowstone torches instead.",
       "x": 71,
       "y": 188,
@@ -1101,7 +1101,7 @@
         {
           "type": "CRAFT",
           "description": "Non-inverted",
-          "longDescription": "It takes a little bit of glowstone, but it\u0027s worth it. This will give you a lamp that will toggle with a redstone signal, by the way. Maybe you don\u0027t want that (you don\u0027t want that). Stay tuned!",
+          "longDescription": "It takes a little bit of glowstone, but it\u0027s worth it. This will give you a lamp that will toggle with a redstone signal, but the way. Maybe you don\u0027t want that (you don\u0027t want that). Stay tuned!",
           "items": [
             {
               "item": {
@@ -1113,7 +1113,7 @@
         {
           "type": "CRAFT",
           "description": "Inverted",
-          "longDescription": "Put that bad boy back in the crafting grid and it will come out inverted! Now it\u0027s always-on by default! Now a redstone signal turns it off!",
+          "longDescription": "Put that bad boy back in the crafting grid and it will come out inverted! Now it\u0027s always-on by default!",
           "items": [
             {
               "item": {
@@ -1132,7 +1132,7 @@
     },
     {
       "name": "As The World Turns",
-      "description": "You can make a space station in orbit around the Overworld. Whether or not you do this before going to the moon is up to you. However, I would recommend doing the moon stuff first. The moon has hostile baddies, but I think the landscape is more hospitable generally. Also, I would make sure the \"All Systems, Go!\" quest comes up in this chapter before doing the space station. That being said, go for it. You have to be careful about how you move, because if you fall off, you\u0027re getting flung back to the Overworld!",
+      "description": "You can make a space station, of course. Whether or not you do this before going to the moon is up to you. However, I would recommend doing the moon stuff first. The moon has hostile baddies, but I think the landscape is more hospitable generally. Also, I would make sure the \"All Systems, Go!\" quest comes up in this chapter before doing the space station. That being said, go for it. You have to be careful about how you move, because if you fall off, you\u0027re getting flung back to the Overworld!",
       "x": 153,
       "y": 65,
       "icon": {
@@ -1237,7 +1237,7 @@
         {
           "type": "DETECT",
           "description": "Look Boss, The Plan!",
-          "longDescription": "Well, you have to rip these plans out of a Martian dungeon. I am assuming you know this routine now.",
+          "longDescription": "Well, you have to rip these plans out of a Martian dungeon. I am assuming you know this routine now because you did it for the tier 3 rocket!",
           "items": [
             {
               "item": {
@@ -1274,7 +1274,7 @@
         {
           "type": "CRAFT",
           "description": "Down By The Docks",
-          "longDescription": "If you arrange 8 of these in a 2x2x2 megacube, it will turn into the docking station for the astro miner. The miner will fly out from it, mine, and return to it to drop off what it found. Set it up in the asteroid belt, give it some power from some side or the back, feed it your astro miner, and you should have yourself an asteroid mining operation! These blocks are pretty easy to make. One recipe yields four blocks, and the ingredients are not a huge fuss.",
+          "longDescription": "If you arrange 8 of these in a 2x2x2 megacube, it will turn into the docking station for the astro miner. It will fly out and back to it. Set it up in the asteroid belt, give it some power from some side or the back, feed it your astro miner, and you should have yourself an asteroid mining operation! These blocks are pretty easy to make. One recipe yields four blocks, and the ingredients are not a huge fuss.",
           "items": [
             {
               "item": {
@@ -1305,7 +1305,7 @@
     },
     {
       "name": "Check Out This Rock Music",
-      "description": "Let\u0027s go find us some giant rocks in the asteroid belt. Make sure you have spare fuel, a parachute, teleporter, etc. Actually, this time, I also recommend you have a jetpack of some kind. You are going to be moving around between a bunch of rocks in open space. This can end quote poorly for you if you don\u0027t have a way to cross giant gaps with some control! Also, a frying pan is nice when you fly to another asteroid. It lets you quickly swat away the welcoming committee that is usually waiting for you.",
+      "description": "Let\u0027s go find us some giant rocks in the asteroid belt. Make sure you have spare fuel, a parachute,  teleporter, etc. Actually, this time, I also recommend you have a jetpack of some kind. You are going to be moving around between a bunch of rocks in open space. This can end quote poorly for you if you don\u0027t have a way to cross giant gaps with a lot of control!",
       "x": 285,
       "y": 150,
       "icon": {
@@ -1332,7 +1332,7 @@
         {
           "type": "DETECT",
           "description": "Them Some Ill Ores, Bro!",
-          "longDescription": "You\u0027re going to need some ilmenite to make orion drives for the astro miner. Five of them, to be exact. If you find one, I\u0027ll give you four. I should double-emphasize that digging straight down an asteroid is seriously dangerous business! You also want some good ranged weaponry for when you try to jump onto a new asteroid. Mobs spawn like crazy on to the top of asteroids. Holy hand grenades or somehow getting arrows with knockback will help. Also, a knockback melee weapon when you land on the asteroid will seriously help out. Don\u0027t try to use a digital miner for this; it can\u0027t detect ilmenite. You\u0027re going to have to knock around some asteroids to find this stuff. Finally, YOU NEED SILK TOUCH to mine the ore blocks. You need the complete ore blocks to make the Orion Drives.",
+          "longDescription": "You\u0027re going to need some ilmenite to make orion drives for the astro miner. Five of them, to be exact. If you find one, I\u0027ll give you four. I should double-emphasize that digging straight down an asteroid is seriously dangerous business! You also want some good ranged weaponry for when you try to jump onto a new asteroid. Mobs spawn like crazy on to the top of asteroids. Holy hand grenades or somehow getting arrows with knockback will help. Also, a knockback melee weapon when you land on the asteroid will seriously help out. Don\u0027t try to use a digital miner for this; it can\u0027t detect the stuff. You\u0027re going to have to knock around some asteroids to find this stuff. Finally, YOU NEED SILK TOUCH to mine the ore blocks. You need the complete ore blocks to make the Orion Drives.",
           "items": [
             {
               "item": {

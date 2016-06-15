@@ -1,10 +1,10 @@
 {
   "name": "Stupid Crazy Automation",
-  "description": "This is a chapter mostly dedicated to Applied Energistics 2, a mod that turns your base into a automated tech lab for everything. You generally end up controlling all the manufacturing in your base from just one single spot. It can store all your stuff very compactly, and automatically craft things as you need them. We will go all the way with the item storage, autocrafting, and machine integration in this chapter.",
+  "description": "This is a chapter mostly dedicated to Applied Energistics, a support mod that turns your base into a automated tech lab for everything. You generally end up just standing in front of one spot and fire everything off from there. It can store all your stuff very compactly, and automatically craft things as you need them. We will go all the way with the item storage and autocrafting in this chapter.",
   "quests": [
     {
       "name": "Applied Energistics",
-      "description": "The Applied Energistics 2 (hearby known as \"AE2\" is a crazy storage and automation Minecraft mod. You could set this up with a bunch of your machines to make everything for you before you even need it, automatically. People on servers who are into this tend to turn into the IT Guy. It\u0027s seriously nuts. But we have to start simple, so we\u0027re starting with basic storage. Imagine instead of all these stupid chests that all your items were stored on hard disks, and you could get them and craft with them from a single computer? You can!",
+      "description": "The Applied Energistics 2 (hearby known as \"AE2\" is a crazy storage and automation Minecraft mod. You could set this up with a bunch of your machines to make everything for you before you even need it, automatically. People on servers who are into this tend to turn into the IT Guy. It\u0027s seriously nuts. But for today, we\u0027re just going to exploit storage. Imagine instead of all these stupid chests that all your items were stored on hard disks, and you could get them and craft with them from a single computer? You can!",
       "x": 69,
       "y": 13,
       "icon": {
@@ -16,7 +16,7 @@
       "tasks": [
         {
           "type": "DETECT",
-          "longDescription": "Normal AE2 requires going on a scavenger hunt for a bunch of crap to get started. Instead, just show me some AE2 Certus Quartz and I\u0027ll give you the stuff that would require hours of hunting around. You would normally have to hunt for meteors on the surface or in the ground, dig into them, open a chest, and hope the chest loot lottery worked out for you.",
+          "longDescription": "Normal AE2 requires going on a scavenger hunt for a bunch of crap to really get into it. Instead, just show me some AE2 Certus Quartz and I\u0027ll give you the stuff that would require hours of hunting around.",
           "items": [
             {
               "item": {
@@ -99,7 +99,7 @@
     },
     {
       "name": "Data Cables",
-      "description": "AE2\u0027s machines are connected together into what is called a \"Material Energy^3 Network,\" or \"ME Network\" for short. The basic data cable for this will connect up to 8 AE2 devices at once. You can then make more sophisticated cables to handle more devices, but you will need to build a controller to facilitate more than 8 on one network. We\u0027re just starting out with an \"ad hoc\" network, which is one that doesn't have a controller.",
+      "description": "AE2\u0027s machines are connected together into what is called a \"Material Energy^3 Network,\" or \"ME Network\" for short. The basic data cable for this will connect up to 8 AE2 devices at once. You can then make more sophisticated cables to handle more devices, but you will need to build a controller to facilitate more than 8 on one network. We\u0027re just starting out with an \"ad hoc\" network.",
       "x": 121,
       "y": 48,
       "icon": {
@@ -187,7 +187,7 @@
     },
     {
       "name": "Your First Hard Drive",
-      "description": "We will make a 1K storage cell. All the storage cells can store only 63 unique items, but the volume varies. The 1K storage cell can store 4160 items, spread across at most 63 unique items. Alternately, it can store something like 8128 instances of a single item. For our race to the moon, this is good enough. Consider putting all your logs and cobblestone somewhere else, like a Deep Storage Unit.",
+      "description": "We will make a 1K storage cell. All the storage cells can store only 63 unique items. The 1K storage cell can store 4160 items, spread across at most 63 unique items. Alternately, it can store something like 8128 instances of a single item. For our race to the moon, this is good enough. Consider putting all your logs and cobblestone somewhere else, like a Deep Storage Unit.",
       "x": 150,
       "y": 84,
       "icon": {
@@ -230,7 +230,7 @@
     },
     {
       "name": "A Terminal Condition",
-      "description": "You can\u0027t actually use access your storage easily without a terminal. We are going to build a crafting terminal. Not only will this show you everything stored inside your drives, but you can craft from it directly. You don\u0027t have to take everything out, do your stuff, and put it back in. No, you can do it right there in the built-in crafting grid!",
+      "description": "You can\u0027t actually use this network without a terminal. We are going to build a crafting terminal. Not only will this show you everything stored inside your drives, but you can craft from it directly. You don\u0027t have to take everything out, do your stuff, and put it back in. No, you can do it right there in the built-in crafting grid!",
       "x": 57,
       "y": 121,
       "icon": {
@@ -283,7 +283,7 @@
     },
     {
       "name": "I Need Some ME Time",
-      "description": "These are like the brains of an ME network. IT people would consider it more like a router. With a controller, you can handle more than 8 devices at a time. Connect power up to the controller, and it will power the rest of the network. Each side allows a cable out to as many devices as the cable supports. So with our basic cables, you can connect 8 devices out from each side individually. Assuming one side is being given power, that\u0027s 5 sides to spare, so you could operate 40 devices from this controller with just basic cables. With dense cables, it can operate 192. You can expand it by placing more controllers against it.",
+      "description": "These are like the brains of an ME network. IT people would consider it more like a router. With a controller, you can handle more than 8 devices at a time. Connect power up to the controller, and it will power the rest of the network. Each side allows a cable out to as many devices as the cable supports. So with our basic cables, you can connect 8 devices out from each side individually. Assuming one side is being given power, that\u0027s 5 sides to spare, so you could operate 40 devices from this controller with basic cables.",
       "x": 170,
       "y": 135,
       "icon": {
@@ -404,7 +404,7 @@
     },
     {
       "name": "Trying To Go Export-Heavy",
-      "description": "You have hopefully made an import bus to bring things into your network. Now you can make an export bus to automatically take things out of your network. A very common example for this is by sticking one on the start of your ore processing rig, and then programming the export bus to output all the ores that rig can handle. Your network will then automatically process those ores as they come into the network. Actually, you probably want to stick a bunch of export buses on a chest and direct THAT into the ore processing, but details . . .",
+      "description": "You have hopefully made an import bus to bring things into your network. Now you can make an export bus to automatically take things out of your network. A very common example for this is by sticking one on the start of your ore processing rig, and then programming in the export bus all the ores that should automatically go out from it. Your network will then automatically process those ores as they come into the network. Actually, you probably want to stick a bunch of export buses on a chest and direct THAT into the ore processing, but details . . .",
       "x": 239,
       "y": 71,
       "icon": {
@@ -451,7 +451,7 @@
     },
     {
       "name": "Thinking About Autocrafting",
-      "description": "Getting basic autocrafting started is a very involved process. You need to set up a molecular assembler, but that\u0027s another quest. This is for setting up the brains. This is a series of crafting processors and crafting storage modules that calculate the steps for creating elaborate items. Having more crafting co-processors will allow you to run multiple crafting activities at once. You eventually want to do this, but you basically get one for free in your network. So what you need is crafting storage. We will start with a 4k module. You want to set a space aside near your network to eventually build this out. So long as you keep attaching more co-processors and storage in a rectoid block, you can expand it from one place. The best part is the entire block only takes one channel in your network.",
+      "description": "Getting basic autocrafting started is a very involved process. You need to set up a molecular assembler, but that\u0027s another quest. This is for setting up an autocrafting system. This is a series of crafting processors and crafting storage modules that calculate the steps for creating elaborate items. Having more crafting co-processors will allow you to run multiple crafting activities at once. You eventually want to do this, but you basically get one for free in your network. So what you need is crafting storage. We will start with a 4k module. You want to set a space aside around your network to eventually build this out. So long as you keep attaching more co-processors and storage in a rectoid block, you can expand it from one place. The best part is the entire block only takes one channel in your network.",
       "x": 239,
       "y": 153,
       "icon": {
@@ -497,7 +497,7 @@
     },
     {
       "name": "Addressing The Assembly",
-      "description": "The molecular assembler handles automatic crafting in Applied Energistics 2. It is a mysterious, quantum crafting table. Or something. By itself, it is useless. What you need to do is attach ME interfaces on each side--sparing one side for an ME cable. The molecular assembler doesn\u0027t need an import bus to place the result back in the network, by the way. Each ME interface can handle logic for crafting a few things, so you can do a lot of crafting from one molecular assembler. You eventually will set up a whole array of them anyways.",
+      "description": "The molecular assembler handles automatic crafting in Applied Energistics 2. It is a mysterious, quantum crafting table. Or something. By itself, it is useless. What you need to do is attach ME interfaces on each side--sparing one side for an ME cable. The molecular assembler doesn\u0027t need an import bus to place the result back in the network. Each ME interface can handle logic for crafting a few things, so you can do a lot of crafting from one molecular assembler. You eventually will set up a whole array of them anyways.",
       "x": 247,
       "y": 127,
       "icon": {
@@ -682,7 +682,7 @@
     },
     {
       "name": "Understanding The Patterns",
-      "description": "These are not Tinkers\u0027 Construct patterns. These are instructions on how to create things through your network. Now we\u0027re going to start using your network to automate using machines and craft things. This is some serious stuff here. Just to emphasize, you will now start seeing items in your network with \"Craft\" below them, and you can tell it to make them for you. You can then stay busy elsewhere and come back to find all your machines finished making it for you. Yeah. Serious.",
+      "description": "These are not Tinkers\u0027 Construct patterns. These are instructions on how to create things through your network. Now we\u0027re going to start using your network to automate using machines and craft things. This is some serious stuff here. Just to emphasize, you will now start seeing items in your network with \"Craft\" below them, and you can tell it to make them for you. You then go do other stuff and come back to find all your machines finished making it for you. Yeah. Serious.",
       "x": 274,
       "y": 154,
       "icon": {
@@ -791,7 +791,7 @@
     },
     {
       "name": "Faster, Daddy.",
-      "description": "Even a single crystal growth accelerator will speed up the growth rates of seeds in a way you\u0027ll feel right away. I think it can take making seeds down to five minutes or so. The important thing is you can walk off to do something simple, come back, and usually find they\u0027re done. You have to set it down beside the water used for growing stuff, so this has to be part of the wall of your crystal growing spot. You need to connect and ME cable, and your ME network has to have the juice to run it.",
+      "description": "Even a single crystal growth accelerator will speed up the growth rates of seeds in a way you\u0027ll feel right away. I think it can take making seeds down to five minutes or so. The important thing is you can go do something else, come back, and usually find they\u0027re done. You have to set it down beside the water used for growing stuff, so this has to be part of the wall of your crystal growing spot. You need to connect and ME cable, and your ME network has to have the juice to run it.",
       "x": 21,
       "y": 135,
       "icon": {
@@ -1000,7 +1000,7 @@
         {
           "type": "CRAFT",
           "description": "Yes, Another Stupid Terminal",
-          "longDescription": "If you actually want to know what is in your drives, you will need a fluid terminal. This also lets you import and export fluid into your network through an inventory slot that takes buckets or fluid tanks.",
+          "longDescription": "If you actually want to know what is one your drives, you will need a fluid terminal. This also lets you import and export fluid into your network through an inventory slot that takes buckets or fluid tanks.",
           "items": [
             {
               "item": {
@@ -1188,7 +1188,7 @@
       "tasks": [
         {
           "type": "CRAFT",
-          "longDescription": "People complain about meteor hunting because this compass only tells you when you\u0027re close. It\u0027s still a lot of stupid digging. However, we have TRICKS. Follow the direction that compass gives you until it spins. Then press F9. You\u0027ll see all this goofy grid stuff show up. That\u0027s telling you what Minecraft chunk you\u0027re in. The compass will spin if you\u0027re in a chunk that has part of a meteor. Now, for some tricks. Try nearby chunks. If it spins for only the one you\u0027re in, then dig in the exact center of that chunk, and you\u0027ll probably find it. If it spins between only two chunks, the dig down at the middle of those two chunk boundaries. If it spins between four chunks, then dig down at the intersection where all those chunks meet. Doing this will save you a lot of fuss. Just remember that digging *straight* down is a Minecraft no-no!",
+          "longDescription": "People complain about meteor hunting because this compass only tells you when you\u0027re closing. It\u0027s still a lot of stupid digging. However, we have TRICKS. Follow the direction that compass gives you until it spins. Then press F9. You\u0027ll see all this goofy grid stuff show up. That\u0027s telling you what Minecraft chunk you\u0027re in. The compass will spin if you\u0027re in a chunk that has part of a meteor. Now, for some tricks. Try nearby chunks. If it spins for only the one you\u0027re in, then dig in the exact center of that chunk, and you\u0027ll probably find it. If it spins between only two chunks, the dig down at the middle of those two chunk boundaries. If it spins between four chunks, then dig down at the intersection where all those chunks meet. Doing this will save you a lot of fuss. Just remember that digging *straight* down is a Minecraft no-no!",
           "items": [
             {
               "item": {
@@ -1207,7 +1207,7 @@
     },
     {
       "name": "Inscription Reads, \"Advanced.\"",
-      "description": "The advanced inscriber, in my opinion, requires far too much stuff for being an inscriber that you\u0027d actually like to automate using. It\u0027s a shame, really. You see, the base inscribers require you connect to specific sides to automate them. You can do this, but it\u0027s just kind of messy. This machine does it better. Much better. You can go any side you want. I think it\u0027s faster too! I set one of these up for each type of AE2 processor core, and then a final one to assemble processors. This lets me autocraft processors, which I think you can appreciate now!",
+      "description": "The advanced inscriber, in my opinion, requires far too much stuff for being an inscriber that you\u0027d actually like to automate using. It\u0027s a shame, really. You see, the base inscribers require you connect to specific sides to automate them. You can do this, but it\u0027s just kind of messy. This machine does it better. Much better. You can go any side you want. I think it\u0027s faster too! I set one of these up for each type of AE2 processor core, and then a final one to assembler processors. This lets me autocraft processors, which I think you can appreciate now!",
       "x": 245,
       "y": 186,
       "icon": {
@@ -1253,7 +1253,7 @@
       "tasks": [
         {
           "type": "DETECT",
-          "longDescription": "Yeah, you *could* do this manually, but you\u0027d kill yourself out of boredom. That\u0027s not the right idea. Automate this!",
+          "longDescription": "Yeah, you *could* do this manually, but you\u0027d kill yourself out of boredom. That\u0027s not the idea. Automate this!",
           "items": [
             {
               "item": {
@@ -1273,7 +1273,7 @@
     },
     {
       "name": "Taking The Bus To The Store",
-      "description": "The storage bus connects the network to outside storage. You could connect it to a chest and see the inventory on your terminal. You might think that\u0027s kind of stupid, and you\u0027d be right! The storage bus connects to anything that serves as storage. Try it on your drawer controller. You\u0027re welcome. It can also connect to deep storage units, so you can have banks of really huge storage of single things.",
+      "description": "The storage bus connects the network to outside storage. You could connect it to a chest and see the inventory on your terminal. You might think that\u0027s kind of stupid, and you\u0027d be right! The storage bus connects to anything that servers as storage. Try it on your drawer controller. You\u0027re welcome. It can also connect to deep storage units, so you can have banks of really huge storage of single things.",
       "x": 180,
       "y": 15,
       "icon": {
@@ -1311,7 +1311,7 @@
     },
     {
       "name": "Purple Crystal Thingies",
-      "description": "Fluix crystals are a tricky beast in the early game. You need to throw a CHARGED certus quartz crystal in a block of water along with a nether quartz and one redstone dust. It\u0027ll zap itself into two of these crystals. Some advanced recipes require them, and we do not need them right away. However, getting this stuff is annoying, and I want you thinking about it.",
+      "description": "Fluix crystals are a tricky beast in the early game. You need to throw a CHARGED certus quartz crystal in a block of water along with a nether quarts and one redstone dust. It\u0027ll zap itself into two of these crystals. Some advanced recipes require them, and we do not need them right away. However, getting this stuff is annoying, and I want you thinking about it.",
       "x": 92,
       "y": 59,
       "icon": {
@@ -1352,7 +1352,7 @@
     },
     {
       "name": "A Pain In ME Chest",
-      "description": "You can get a head start on using storage in Applied Energistics 2 if you make an ME chest. This can hold a single drive and lets you inspect it. In truth, this is a pretty weak way to use the mod, since that is not much better than regular storage. However, you need to make the chest to eventually access your storage wirelessly from anywhere near your base, so you might as well get started on it now.",
+      "description": "You can get a head start on using storage in Applied Energistics 2 if you make an ME chest. This can hold a single drive and lets you inspect it. In truth, this is a pretty weak way to use the mod, since that is not much better than regular storage. However, you need to make the chest to eventually access your storage wireless from anywhere near your base, so you might as well get started on it now.",
       "x": 85,
       "y": 162,
       "icon": {

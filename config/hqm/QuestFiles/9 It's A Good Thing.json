@@ -1,10 +1,10 @@
 {
   "name": "It\u0027s A Good Thing",
-  "description": "People like to admit that their bases are usually horrifically ugly. The Baby\u0027s First Base Guide recommends digging in somewhere for the beginning of the game. Those holes in the ground are rarely pretty. The thing is that making things pretty ultimately is not that hard. You just have to know what is out there. This chapter showcases some of the different common decorating and architectural mods that clean up your base and make you proud of it.",
+  "description": "People like to admit that their bases are usually horrifically ugly. The Baby\u0027s First Base Guide recommends digging in somewhere for the beginning of the game. These places are rarely pretty. The thing is that making things pretty ultimately is not that hard. You just have to know what is out there. This chapter showcases some of the different common decorating and architectural mods that clean up your base and make you proud of it.",
   "quests": [
     {
       "name": "The Builder\u0027s Wand",
-      "description": "This thing is hot stuff. I sometimes just cheat one in because I don\u0027t see why it should be THIS HARD to make one. Like, is it really \"overpowered?\" Whatever. The routine for making this involves unstable ingots using that division sigil. The necessary unstable ingot will blow up and kill you if take your time making it, so I can\u0027t put that as an intermediate step here. You have to do this in one go. So look at the recipe for the builder\u0027s wand, then look at it again. Then make a crafting table a good 20-30+ blocks from your base in case you blow yourself up. Line up all your ingredients, and just fly through making this thing!",
+      "description": "This thing is hot stuff. I sometimes just cheat one in because I don\u0027t see why it should be THIS HARD to make one. Like, is it really \"overpowered?\" Whatever. The routine for making this involves unstable ingots using that division sigil. These things will blow up and kill you if you fart around, so I can\u0027t have an intermediate step here. You have to do this in one go. So look at the recipe for the builder\u0027s wand, then look at it again. Then make a crafting table a good 20-30+ blocks from your base in case you blow yourself up. Line up all your ingredients, and just fly through making this thing!",
       "x": 133,
       "y": 168,
       "icon": {
@@ -17,7 +17,7 @@
         {
           "type": "DETECT",
           "description": "Good luck!",
-          "longDescription": "No really, it\u0027s totally worth it! You can select an edge of a wall/floor you are building, and if you have items matching that edge in your inventory, it will just place them down for you over a large area. This is great for building out large structures!",
+          "longDescription": "No really, it\u0027s totally worth it! You can select an edge of a wall/floor you are building, and if you have items matching that edge in your inventory, it will just place them down for you over a large area. This is great for building our large structures!",
           "items": [
             {
               "item": {
@@ -35,7 +35,7 @@
     },
     {
       "name": "Introduction To Chisel",
-      "description": "Chisel is a mod that adds all kinds of decorative blocks. There are some base blocks that can become one of many in a family of blocks by using ... Chisel\u0027s chisel. You have to start by making that chisel.",
+      "description": "Chisel is a mod that adds all kinds of decorative blocks. There are some base blocks that can become one of many in a family of blocks by selecting with ... Chisel\u0027s chisel. You have to start by making this chisel.",
       "x": 31,
       "y": 42,
       "icon": {
@@ -67,7 +67,7 @@
     },
     {
       "name": "Konnichiwa!",
-      "description": "Now you can have your own Japanese-themed garden house. Heck, if you were like me, you probably built pagodas in Vanilla Minecraft any ways. Now you can do it right! There are two families here. One set are flat pieces, since these walls are notorious for being so thin. However, there are also block forms.",
+      "description": "Now you can have your own Japanese-themed garden house. Heck, if you were like me, you probably built pogodas in Vanilla Minecraft anyways. Now you can do it right! There are two families here. One set are flat pieces, since these walls are notorious for being so thin. However, there are also block forms.",
       "x": 54,
       "y": 17,
       "icon": {
@@ -148,7 +148,7 @@
         {
           "type": "CRAFT",
           "description": "Base Block",
-          "longDescription": "Some stone and iron will make you a small pile of these blocks. If you can\u0027t afford the iron to make all the blocks you want, remember that you can use carpenter\u0027s blocks to stretch everything for the cost of wood instead.",
+          "longDescription": "Some stone and iron will make you a small pile of these blocks. If you can\u0027t afford the iron to make all the blocks you want, remember that you can use carpenter\u0027s blocks to stretch everything.",
           "items": [
             {
               "item": {
@@ -206,7 +206,7 @@
         {
           "type": "DETECT",
           "description": "Pretty Gold Stuff",
-          "longDescription": "Right-click on the chisel with that base block, and you can pick this gold-trimmed block. These are great for caps and corner stones.",
+          "longDescription": "Right-click on the chisel with that base block, and you can pick this gold-trimmed block. These are great for caps.",
           "items": [
             {
               "item": {
@@ -226,7 +226,7 @@
     },
     {
       "name": "Jesus Was a Carpenter Too",
-      "description": "The Carpenter\u0027s Blocks mod provides little scaffolds that you can \"skin\" over with other types of blocks. This lets you very cheaply create elaborate structures. Let\u0027s say you wanted to make a castle out of diamond blocks, but you don\u0027t want to put down all those diamonds. You could frame the castle out in these blocks, then right click all of them with a diamond block. Each block will take on the appearance of the diamond block.",
+      "description": "The carpenter\u0027s blocks mod provides little scaffolds that you can \"skin\" over with other types of blocks. This lets you very cheaply create elaborate structures. Let\u0027s say you wanted to make a castle out of diamond blocks, but you don\u0027t want to put down all those diamonds. You could frame the castle out in these blocks, then right click all of them with a diamond block. Each block will take on the appearance of the diamond block.",
       "x": 203,
       "y": 55,
       "icon": {
@@ -328,8 +328,8 @@
       ]
     },
     {
-      "name": "Let Me Whitewash, Tom!",
-      "description": "Thanks to OpenBlocks, you can paint just about anything any color you want. You will need a paint mixer, a paint brush, a bucket of milk and sources for various dyes: red, green, blue, and black. Yes, milk. That is the paint base. You should be happy Minecraft doesn't have smell-o-vision! From there, you can mix it into any other color you want. Then you can slap that color on blocks to your heart\u0027s content using your paintbrush.",
+      "name": "This Is Fun, Tom Sawyer!",
+      "description": "Thanks to OpenBlocks, you can paint just about anything any color you want. You will need a paint mixer, a paint brush, a bucket of milk and source for various dyes: red, green, blue, and black. Yes, milk. That is the paint base. From there, you can mix it into any other color you want. Then you can slap that color on blocks to your heart\u0027s content using your paintbrush.",
       "x": 38,
       "y": 143,
       "icon": {
@@ -342,7 +342,7 @@
         {
           "type": "CRAFT",
           "description": "Paint Supplies",
-          "longDescription": "The mixer recipe is kind of dumb. You need three obsidian and five iron. It could be even more dumb, so just be happy with this. It doesn\u0027t require any power or anything, but it does need red, blue, green, and black dyes of some kind. I won\u0027t bother checking for them in particular.",
+          "longDescription": "The mixer recipe is kind of dumb. You need three obsidian and five iron. It could be more dumb, so just be happy with this. It doesn\u0027t require any power or anything, but it does need red, blue, green, and black dyes of some kind. I won\u0027t bother checking for them in particular.",
           "items": [
             {
               "item": {
@@ -398,7 +398,7 @@
       "y": 27,
       "icon": {
         "id": "TConstruct:chisel",
-        "nbt": "{InfiTool:{BaseDurability:65,Head:1,BaseAttack:1,Built:1b,HarvestLevel:1,Attack:1,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,MiningSpeed:400,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:65,Modifiers:3},display:{Name:\"Stone Chisel\"}}"
+        "nbt": "{InfiTool:{BaseDurability:65,Head:1,BaseAttack:1,Built:1b,HarvestLevel:1,Attack:1,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,MiningSpeed:400,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:65,Modifiers:3},display:{Name:\"§fStone Chisel\"}}"
       },
       "prerequisites": [
         "{Tools and Toys}[Pattern After Me]"
@@ -450,7 +450,7 @@
             {
               "item": {
                 "id": "TConstruct:chisel",
-                "nbt": "{InfiTool:{BaseDurability:65,Head:1,BaseAttack:1,Built:1b,HarvestLevel:1,Attack:1,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,MiningSpeed:400,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:65,Modifiers:3},display:{Name:\"Stone Chisel\"}}"
+                "nbt": "{InfiTool:{BaseDurability:65,Head:1,BaseAttack:1,Built:1b,HarvestLevel:1,Attack:1,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,MiningSpeed:400,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:65,Modifiers:3},display:{Name:\"§fStone Chisel\"}}"
               },
               "precision": "NBT_FUZZY"
             }
@@ -465,7 +465,7 @@
         },
         {
           "id": "TConstruct:chisel",
-          "nbt": "{InfiTool:{BaseDurability:1575,Head:1024,BaseAttack:5,Built:1b,HarvestLevel:4,Attack:5,RenderHead:1024,ModDurability:0.0f,Handle:1024,Broken:0b,Shoddy:0.0f,RenderHandle:1024,MiningSpeed:1400,Unbreaking:2,Damage:0,BonusDurability:0,TotalDurability:1575,Modifiers:3},display:{Name:\"Shiny Chisel\"}}"
+          "nbt": "{InfiTool:{BaseDurability:1575,Head:1024,BaseAttack:5,Built:1b,HarvestLevel:4,Attack:5,RenderHead:1024,ModDurability:0.0f,Handle:1024,Broken:0b,Shoddy:0.0f,RenderHandle:1024,MiningSpeed:1400,Unbreaking:2,Damage:0,BonusDurability:0,TotalDurability:1575,Modifiers:3},display:{Name:\"§fShiny Chisel\"}}"
         }
       ]
     },
@@ -648,7 +648,7 @@
         {
           "type": "CRAFT",
           "description": "Sign Me Up!",
-          "longDescription": "It does require a little more resources, but for how many signs you make in a game, it\u0027s comparatively simple to post passive-aggressive messages to your base-sharing buddies in style!",
+          "longDescription": "It does require a little more resources, but for how many signs you make in a game, it\u0027s best to post passive-aggressive messages to your base-sharing buddies in style!",
           "items": [
             {
               "item": {
@@ -755,7 +755,7 @@
     },
     {
       "name": "Something More Concrete",
-      "description": "Concrete is some great stuff. For the cost of cooking some gravel, you get a block that doubles your speed! However, something about them will keep you from going through doorways, so you need to switch out to another block around 2-block-height passages.",
+      "description": "Concrete is some great stuff. For the cost of cooking some gravel, you get a block that doubles your speed! However, something about them will keep you from going through doorways, so you need to switch out to another block.",
       "x": 103,
       "y": 76,
       "icon": {
@@ -780,7 +780,7 @@
         {
           "type": "DETECT",
           "description": "A Kick In The Asphalt",
-          "longDescription": "You can use the chisel on concrete to get some interesting patterns for sidewalks, but the most-common alternative pattern is asphalt. This is what they use for roads in most parts of the world anyways.",
+          "longDescription": "You can use the chisel on concrete to get some interesting patterns for sidewalks, but the most-common alternative pattern is asphalt. This is what you want to use for roads in most parts of the world.",
           "items": [
             {
               "item": {
@@ -874,7 +874,7 @@
       "tasks": [
         {
           "type": "CRAFT",
-          "longDescription": "It seems like a dumb thing, but it sure beats nerdpoles. You know, when you just jump up over and over while building blocks underneath you into the heavens.",
+          "longDescription": "It seems like a dumb thing, but it sure beats nerdpoles. You know, when you just jump up and, over and over, building a tower under you into the heavens.",
           "items": [
             {
               "item": {
@@ -930,7 +930,7 @@
     },
     {
       "name": "Am I Clear?",
-      "description": "There are two very important clear glass blocks for decoration. The smeltery can produce Clear Glass, and the EnderIO alloy smelter can product Quite Clear Glass. They are generally interchangeable.",
+      "description": "There are two very important clear glass blocks for decoration. The smeltery can product Clear Glass, and the Ender IO alloy smelter can product Quite Clear Glass. They are generally interchangeable.",
       "x": 131,
       "y": 105,
       "icon": {
@@ -1180,7 +1180,7 @@
         "damage": 2
       },
       "prerequisites": [
-        "Let Me Whitewash, Tom!"
+        "This Is Fun, Tom Sawyer!"
       ],
       "tasks": [
         {
@@ -1225,7 +1225,7 @@
     },
     {
       "name": "Dyeing To Get These",
-      "description": "What a pain in the butt it is to hunt down flowers for dyes! Well, if you have fistfuls of bonemeal, just spray grass outside with it. You\u0027ll get a bunch of tall grass, but some flowers here and there. That should help you get some of these flowers. If you need more than that, set up a harvester in a grassy patch getting fed water from a sprinkler.",
+      "description": "What a pain in the butt it is to hunt down flowers for dyes. Well, if you have fistfuls of bonemeal, just spray grass outside with it. You\u0027ll get a bunch of tall grass, but some flowers here and there. That should help you get some of these flowers.",
       "x": 133,
       "y": 55,
       "icon": {
@@ -1239,7 +1239,7 @@
         {
           "type": "DETECT",
           "description": "Flower Power",
-          "longDescription": "Blablabla flowers. If you need lots of bonemeal, it\u0027s time to set up a mob farm. See the post-scarcity chapter for setting up a grinder. You could just set up a dark space near your base with a small hole and just punch into it from time to time, but it\u0027s tedious, and you still get bopped by the monsters sometimes.",
+          "longDescription": "Blablabla flowers. If you need lots of bonemeal, it\u0027s time to set up a mob farm. See the post-scarcity chapter for setting up a grinder. You could just set up a dark space near your base and just punch into it from time to time, but it\u0027s tedious, and you still get bopped by the monsters sometimes.",
           "items": [
             {
               "item": {
@@ -1317,20 +1317,20 @@
     },
     {
       "name": "Canvasing For OpenBlocks",
-      "description": "When you start painting stuff in OpenBlocks, it turns the blocks into canvas blocks. This can be a problem if you are using expensive blocks. Here\u0027s a better idea: use canvas. It\u0027ll eat paper alive to make it in bulk, but that\u0027s a problem you can solve too with farming.",
+      "description": "When you start painting stuff in OpenBlocks, it turns the blocks into canvas blocks. This can be a problem if you are using expensive blocks. Here\u0027s a better idea: use canvas. It\u0027ll eat paper alive to make it in bulk, but that\u0027s a problem you can solve too.",
       "x": 24,
       "y": 175,
       "icon": {
         "id": "OpenBlocks:canvas"
       },
       "prerequisites": [
-        "Let Me Whitewash, Tom!"
+        "This Is Fun, Tom Sawyer!"
       ],
       "tasks": [
         {
           "type": "CRAFT",
           "description": "Paper Paper Paper",
-          "longDescription": "8 paper and a fence for 9 canvas. I\u0027ll give you a lot of canvas and paper for the fuss.",
+          "longDescription": "8 paper and a fence for 9 canvas. I\u0027ll give you, a lot of canvas and paper for the fuss.",
           "items": [
             {
               "item": {
