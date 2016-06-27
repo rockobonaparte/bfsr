@@ -45,7 +45,7 @@
         "template": "uniform",
         "block": "iron_ore",
         "material": "stone",
-        "clusterSize": 12,
+        "clusterSize": 18,
         "numClusters": 60,
         "minHeight": 0,
         "maxHeight": 80,
