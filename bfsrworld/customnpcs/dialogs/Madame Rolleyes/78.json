@@ -6,8 +6,8 @@
             "OptionSlot": 0,
             "Option": {
                 "DialogCommand": "",
-                "Dialog": 62,
-                "Title": "NO!!!!!!!!!!!",
+                "Dialog": 117,
+                "Title": "NO!!!!!!",
                 "DialogColor": 14737632,
                 "OptionType": 1
             }
@@ -57,7 +57,7 @@
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1460356115193L,
+        "TimePast": 1467569338965L,
         "Time": 0L,
         "Subject": ""
     }

@@ -6,8 +6,8 @@
             "OptionSlot": 0,
             "Option": {
                 "DialogCommand": "",
-                "Dialog": 78,
-                "Title": "NO!!!",
+                "Dialog": 62,
+                "Title": "NOOOO!!!!!!!!!!!!!!!!!",
                 "DialogColor": 14737632,
                 "OptionType": 1
             }
@@ -32,7 +32,7 @@
     "OptionFaction1Points": 100,
     "DialogDisableEsc": 0b,
     "AvailabilityFaction": 0,
-    "DialogTitle": "=D",
+    "DialogTitle": "=(",
     "AvailabilityDialog": 0,
     "AvailabilityFaction2": 0,
     "AvailabilityFactionId": -1,
@@ -40,7 +40,7 @@
     "DialogCommand": "",
     "AvailabilityDialogId": -1,
     "OptionFaction2Points": 100,
-    "DialogText": "=D",
+    "DialogText": "=(",
     "AvailabilityQuest4Id": -1,
     "AvailabilityQuest3Id": -1,
     "AvailabilityQuest2Id": -1,
@@ -57,7 +57,7 @@
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1467569305160L,
+        "TimePast": 1467569332013L,
         "Time": 0L,
         "Subject": ""
     }

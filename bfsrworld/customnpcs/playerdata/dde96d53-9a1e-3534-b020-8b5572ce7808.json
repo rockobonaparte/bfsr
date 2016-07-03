@@ -1,0 +1,25 @@
+{
+    "ItemGiverChained": [
+    ],
+    "TransportData": [
+    ],
+    "FactionData": [
+    ],
+    "BankData": [
+    ],
+    "ItemGiversList": [
+    ],
+    "MailData": [
+    ],
+    "PlayerName": "RockoBonaparte",
+    "QuestData": {
+        "CompletedQuests": [
+        ],
+        "ActiveQuests": [
+        ]
+    },
+    "UUID": "dde96d53-9a1e-3534-b020-8b5572ce7808",
+    "PlayerCompanionId": 0,
+    "DialogData": [
+    ]
+}
