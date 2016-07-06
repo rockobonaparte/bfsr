@@ -5,8 +5,8 @@
     {
       "name": "Your Ultimate Getaway",
       "description": "The Last Millenium is a great place to remember how to spell \"millennium\" BECAUSE THEY SPELL IT WRONG!!! Beyond that, it is a monster-free, blank space where you are free to build your base in completely lazy comfort. This requires some ender pearls, but is oddly not too resource-intensive. The dyes, however, are unconventional, and you must actively work towards getting all this junk if you want to make the portal. One catch: If you choose to go back to the overworld, it will take you back to the world spawn, not where where you placed the portal.",
-      "x": 285,
-      "y": 68,
+      "x": 260,
+      "y": 60,
       "icon": {
         "id": "ExtraUtilities:dark_portal",
         "damage": 2
@@ -75,8 +75,8 @@
     {
       "name": "Deep Dork",
       "description": "The deep dark is a dangerous place that isn\u0027t that much better of a place to be in this pack than other places. However, in other packs, it\u0027s worth trying. Hell, there is a survival pack that starts you here! You have to know it\u0027s very easy to die in it. Darkness actually hurts, and you have to bring tons of torches. The monsters are strong too. Also, there are holes in the world. I am not making it sound appealing, but it\u0027s fun to try at least once.",
-      "x": 281,
-      "y": 109,
+      "x": 289,
+      "y": 64,
       "icon": {
         "id": "ExtraUtilities:dark_portal"
       },
@@ -222,7 +222,7 @@
               "item": {
                 "id": "ThermalExpansion:Machine",
                 "damage": 4,
-                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[6 bytes],Level:3b,Augments:[0:{Slot:0,id:5667s,Count:1b,Damage:0s},1:{Slot:1,id:5667s,Count:1b,Damage:32s},2:{Slot:2,id:5667s,Count:1b,Damage:16s}]}"
+                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[0:\"6 bytes\"],Level:3b,Augments:[0:{Slot:0,id:5667s,Count:1b,Damage:0s},1:{Slot:1,id:5667s,Count:1b,Damage:32s},2:{Slot:2,id:5667s,Count:1b,Damage:16s}]}"
               },
               "precision": "NBT_FUZZY"
             },
@@ -230,7 +230,7 @@
               "item": {
                 "id": "ThermalExpansion:Machine",
                 "damage": 5,
-                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[6 bytes],Level:3b,Augments:[0:{Slot:0,id:5667s,Count:1b,Damage:0s},1:{Slot:1,id:5667s,Count:1b,Damage:32s},2:{Slot:2,id:5667s,Count:1b,Damage:16s}]}"
+                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[0:\"6 bytes\"],Level:3b,Augments:[0:{Slot:0,id:5667s,Count:1b,Damage:0s},1:{Slot:1,id:5667s,Count:1b,Damage:32s},2:{Slot:2,id:5667s,Count:1b,Damage:16s}]}"
               },
               "precision": "NBT_FUZZY"
             }
@@ -243,8 +243,8 @@
           "items": [
             {
               "item": {
-                "id": "TConstruct:buckets",
-                "damage": 23
+                "id": "ThermalFoundation:bucket",
+                "damage": 2
               }
             }
           ]
@@ -440,14 +440,14 @@
     },
     {
       "name": "Construct Additional Pylons",
-      "description": "Now we get into spatial storage. Applied Energistics lets you set up a frame of which anything you put inside gets stores as a space. If you set up teleporters, you can even store yourself! There are four major components. First, you need a special kind of storage module to store physical space. Second, you need to make a frame out of pylons. Third, you need enough energy cells to power the operation. Beware, it can take a lot of energy cells. Finally, you have to set up a spatial drive with a toggle to start the operation.",
+      "description": "Now we get into serious spatial storage. Applied Energistics lets you set up a frame of which anything you put inside gets stored as a space. If you set up teleporters, you can even store yourself! There are four major components. First, you need a special kind of storage module to store physical space. Second, you need to make a frame out of pylons. Third, you need enough energy cells to power the operation. Beware, it can take a lot of energy cells. Finally, you have to set up a spatial drive with a toggle to start the operation.",
       "x": 213,
-      "y": 138,
+      "y": 148,
       "icon": {
         "id": "appliedenergistics2:tile.BlockSpatialPylon"
       },
       "prerequisites": [
-        "Applied Energistic\u0027s Pearl"
+        "A Very Spatial Place"
       ],
       "tasks": [
         {
@@ -517,6 +517,7 @@
     },
     {
       "name": "This Drink Takes You Places",
+      "description": "Getting bored? Want to go on a field trip? Make a plastic cup, and right click it on some resonant ender you have dumped out in the world. Now you have a cup of the stuff. Now... DON\u0027T DRINK IT! Well, not yet! Hehehehe. You need to prepare for a big trip. Drinking that stuff is going to send you upwards of 10 kilometers away in any variety of directions. This is a fun way on a server to start off somewhere new and different from your friends. In this pack, prepare a rattle and make a waypoint in JourneyMap. That way, you can easily send yourself back.",
       "x": 86,
       "y": 123,
       "icon": {
@@ -524,25 +525,57 @@
       },
       "prerequisites": [
         "Pearls Before Swine"
-      ]
-    },
-    {
-      "name": "Extreme Bro Teleportation",
-      "description": "Do you even teleport?!",
-      "x": 71,
-      "y": 91,
-      "icon": {
-        "id": "MineFactoryReloaded:straw"
-      },
-      "prerequisites": [
-        "This Drink Takes You Places"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Frat Boy Cups",
+          "longDescription": "It looks like a flower pot or something as an icon, but this thing is supposed to be like those cheap, red, plastic cups you can probably find in the store to have a college drinking party.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:plastic.cup"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Fill Er\u0027 Up!",
+          "longDescription": "Yeah, so, time to load up the cup. Good luck! Fun fact: If you try to do this in creative mode, it probably won\u0027t let you, for whatever reason. Drop into survival mode.",
+          "items": [
+            {
+              "item": {
+                "id": "MineFactoryReloaded:plastic.cup",
+                "nbt": "{fluid:{FluidName:\"ender\",Amount:1000}}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "bfsr:genericItem"
+        },
+        {
+          "id": "minecraft:bread",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:boat",
+          "amount": 3
+        },
+        {
+          "id": "minecraft:torch",
+          "amount": 16
+        }
       ]
     },
     {
       "name": "You Summoned My Battleship!",
       "description": "Admiral Luna thinks this whole thing is some folklore from Baby\u0027s First Space Academy, but it\u0027s VERY REAL. You have in your possession a spatial drive storing the spatial-compacted ship from the myth. It can be reconstituted in our reality within a spatial storage grid we have been hinting at here. The ship is 48 blocks long, 40 blocks high, and 16 blocks across. You can use a larger grid to be safe. You want to do this a safe distance from your base, and BE READY FOR WAR! The ship is crewed by mind-warped former sailors, and THEY ARE ARMED. I am not talking \"slash slash slash\" here. I\u0027m talking \"pow pow pow boom\" here!",
-      "x": 283,
-      "y": 173,
+      "x": 291,
+      "y": 188,
       "icon": {
         "id": "minecraft:boat"
       },
@@ -588,37 +621,19 @@
     {
       "name": "Discount Self-Storage",
       "description": "Apparently, there are some Buddhist monks that will stuff themselves in a burial chamber, eat nothing but honey for a long time, then mummify themselves before they die for some crazy reason. We\u0027re going to do something similarly crazy! Applied Energistics\u0027 spatial storage allows you to store yourself! Don\u0027t forget to pack a way out! You set up a spatial storage array with an IO port. Toggle that port once you have power and storage--while you are inside of it--and poof! I would recommend not placing the way back until you have stored yourself because some stuff doesn\u0027t teleport across space correctly . . . include certain teleporters. :(",
-      "x": 247,
-      "y": 116,
+      "x": 258,
+      "y": 128,
       "icon": {
         "id": "minecraft:chest"
       },
       "prerequisites": [
-        "Construct Additional Pylons"
+        "A Very Spatial Place"
       ],
       "tasks": [
         {
-          "type": "CRAFT",
-          "description": "Making Space For Yourself",
-          "longDescription": "You need a spatial IO port, a 16x16x16 spatial drive, and some way to toggle the IO port. I just slap a button on it. When I want to store myself, I just reach over the pylons and tap it. I\u0027m surprised my arm doesn\u0027t get ripped off when I do that hehehe.",
-          "items": [
-            {
-              "item": {
-                "id": "appliedenergistics2:tile.BlockSpatialIOPort"
-              }
-            },
-            {
-              "item": {
-                "id": "appliedenergistics2:item.ItemSpatialStorageCell.16Cubed"
-              },
-              "precision": "NBT_FUZZY"
-            }
-          ]
-        },
-        {
           "type": "LOCATION",
           "description": "Self-Storage",
-          "longDescription": "Before you take the trip, I\u0027d recommend laying out some cobblestone in the chamber so you can build off of it. The default void space doesn\u0027t let you place any blocks, so even if you get all the important stuff into your inventory, you can\u0027t place any of it! Anyways, you need to set up some pylons in three different directions so it knows the region you\u0027re beaming up. The pylons should have a cable connecting them all together in one corner; pylons themselves are just little girders themselves that can only go out in one dimension. If you run a pylon into one going another direction, the whole spatial storage region goes down. You know you have it right when you see the purplish color of the pylons turn redder. You will want to make something like a 4x4x4 space so you can fit yourself, some teleports, and power into the space.",
+          "longDescription": "Before you take the trip, I\u0027d recommend laying out some cobblestone in the chamber so you can build off of it. The default void space doesn\u0027t always let you place any blocks, so even if you get all the important stuff into your inventory, you can\u0027t place any of it! Anyways, you need to set up some pylons in three different directions so it knows the region you\u0027re beaming up. The pylons should have a cable connecting them all together in one corner; pylons themselves are just little girders themselves that can only go out in one dimension. If you run a pylon into one going another direction, the whole spatial storage region goes down. You know you have it right when you see the purplish color of the pylons turn redder. You will want to make something like a 4x4x4 space so you can fit yourself, some teleporters, and power into the space. USE THE DRIVE I GAVE YOU IN THE LAST QUEST. It contains the proper dimension to complete this quest. Oh, and don't place down machines, teleporters, or energy storage. Most of those don't correctly teleport into the new space. Just use regular old blocks. Once you are in the other dimension, you can set up your escape. It's scary! Consider a dry run, and pack your baby rattle!",
           "locations": [
             {
               "name": "New",
@@ -733,7 +748,7 @@
             {
               "item": {
                 "id": "ThermalFoundation:material",
-                "damage": 34
+                "damage": 33
               },
               "required": 2,
               "precision": "ORE_DICTIONARY"
@@ -748,15 +763,31 @@
         },
         {
           "type": "CRAFT",
+          "description": "A Delicate Blend Of Bzzzt",
+          "longDescription": "Put all that dust and the bucket of fluid ender in a crafting grid. Don\u0027t double up the tin dust in one cell. Each dust gets a cell. You should be able to make the enderium blend from this. Cooking it down is kind of fancy. We\u0027ll get to that.",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalFoundation:material",
+                "damage": 44
+              },
+              "required": 4,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
           "description": "Touchy Little Ingots",
-          "longDescription": "Run that dust through something to get some ingots. Just cooking them up in a furnace is enough. You won\u0027t be doubling these yields!",
+          "longDescription": "Now you have to be clever. This stuff won\u0027t just cook into ingots, nor will it smelt with the strenght of the lava powering your smeltery. What is a baby to do? Ram the dust through a magma crucible, then inject the molten enderium into a fluid transposer. You can fill a tank up with the stuff; a bucket probably won\u0027t work because that needs very specific amounts. The Thermal Expansion tanks especially work. Carry that over to your smeltery. Assuming you have done the obsidian casting in a smeltery quest, you are already tooled for pouring this stuff in. You can cast the fluid enderium in your smeltery. Each dust should yield one ingot. You could skip all this and use an induction smelter with blazing pyrotheum, but the magma crucible-\u003esmeltery method does not need those extra materials.",
           "items": [
             {
               "item": {
                 "id": "ThermalFoundation:material",
                 "damage": 76
               },
-              "required": 4
+              "required": 4,
+              "precision": "ORE_DICTIONARY"
             }
           ]
         }
@@ -821,24 +852,7 @@
           "id": "rftools:knownDimlet",
           "damage": 16,
           "nbt": "{dkey:\"2\",ktype:\"d\"}"
-        },
-        {
-          "id": "rftools:emptyDimensionTab"
         }
-      ]
-    },
-    {
-      "name": "A Dim Outlook",
-      "x": 89,
-      "y": 161,
-      "icon": {
-        "id": "rftools:knownDimlet",
-        "damage": 354,
-        "nbt": "{dkey:\"Beach\",ktype:\"B\"}"
-      },
-      "prerequisites": [
-        "{Electrical Power}[Power Starts With Redstone]",
-        "Seeing From A New Dimension"
       ]
     },
     {
@@ -1037,9 +1051,9 @@
     },
     {
       "name": "Forming A Supercell",
-      "description": "My friends, we are reaching the REAL end of this modpack. This is some serious stuff here. We are going to try to warp in a 48x16x30 ship from spatial storage. Do you know the kind of resources this requires? If you do this naively with just pylons going in the major directions once, you\u0027ll need tens of thousands of energy cells to power this mess. To improve on this, we need to lay out more and more and more pylons. I will describe this in better detail in the quest reward. The important thing is you need lots of dense energy cells, and lots of pylons. I\u0027m talking over 1,000 of them! And that\u0027s just to get the number of dense energy cells you need below 30!",
-      "x": 242,
-      "y": 168,
+      "description": "My friends, we are reaching the REAL end of this modpack. This is some serious stuff here. We are going to try to warp in a 48x16x30 ship from spatial storage. Do you know the kind of resources this requires? If you do this naively with just pylons going only in the major directions once, you\u0027ll need tens of thousands of dense energy cells to power this mess. To improve on this, we need to lay out more and more and more pylons. I will describe this in better detail in the book awarded for completing this quest. The important thing is you need lots of dense energy cells, and lots more of pylons. I\u0027m talking over 1,000 pylons! And that\u0027s just to get the number of dense energy cells you need below 30!",
+      "x": 250,
+      "y": 172,
       "icon": {
         "id": "appliedenergistics2:tile.BlockDenseEnergyCell",
         "nbt": "{internalMaxPower:1600000.0d,internalCurrentPower:1600000.0d}"
@@ -1051,7 +1065,7 @@
         {
           "type": "DETECT",
           "description": "Pocket Full Of Pylons",
-          "longDescription": "You make 250 of them, and I\u0027ll give you a cool 1,000 more! This is a good time to go into the Stupid Crazy Automation chapter and look up autocrafting...",
+          "longDescription": "You make 250 of them, and I\u0027ll give you a cool 1,000 more! This is a good time to go into the Stupid Crazy Automation chapter and look up autocrafting. This is going to take a lot of fluix dust. You probably want to use an enrichment chamber to process silk-touched certus quartz ore so you can triple your yield. Then you can charge them using the crystal charger. These charged crystals will then combine with a pile of nether quartz and redstone. Oh, by the way, an enrichment chamber also serious helps in increasing yields of nether quartz and redstone.",
           "items": [
             {
               "item": {
@@ -1062,7 +1076,7 @@
           ]
         },
         {
-          "type": "CRAFT",
+          "type": "DETECT",
           "description": "Charge!!!",
           "longDescription": "Yeah, gonna need a pile of cells too. I mean the dense ones here. None of that weeny regular energy cell business!",
           "items": [
@@ -1070,7 +1084,8 @@
               "item": {
                 "id": "appliedenergistics2:tile.BlockDenseEnergyCell"
               },
-              "required": 15
+              "required": 15,
+              "precision": "FUZZY"
             }
           ]
         }
@@ -1083,14 +1098,18 @@
         {
           "id": "ExtraUtilities:golden_bag",
           "nbt": "{items_53:{id:193s,Count:64b,Damage:0s},items_52:{id:400s,Count:1b,Damage:0s},items_44:{id:4958s,Count:1b,tag:{dkey:\"tile.appliedenergistics2.OreQuartz\",ktype:\"m\"},Damage:132s},items_2:{id:193s,Count:64b,Damage:0s},items_1:{id:193s,Count:64b,Damage:0s},items_0:{id:193s,Count:64b,Damage:0s},items_6:{id:193s,Count:64b,Damage:0s},items_5:{id:193s,Count:64b,Damage:0s},items_4:{id:193s,Count:64b,Damage:0s},items_3:{id:193s,Count:64b,Damage:0s},items_9:{id:193s,Count:64b,Damage:0s},items_27:{id:193s,Count:64b,Damage:0s},items_8:{id:193s,Count:64b,Damage:0s},items_7:{id:193s,Count:64b,Damage:0s},items_18:{id:193s,Count:64b,Damage:0s},items_35:{id:4958s,Count:1b,tag:{dkey:\"tile.oreRedstone\",ktype:\"m\"},Damage:40s},items_45:{id:193s,Count:64b,Damage:0s},items_36:{id:193s,Count:64b,Damage:0s}}"
+        },
+        {
+          "id": "Enchiridion2:book",
+          "nbt": "{identifier:\"Baby_s_First_Spatial_Storage\"}"
         }
       ]
     },
     {
       "name": "Let\u0027s Mek A Teleporter!",
       "description": "If you have made the digital miner, you are tooled to make this teleporter. It requires chunkloading too, and it is pretty resource intensive. However, if you have the stuff for it, then whatever. I\u0027m not going to guide you through the tedium of making this like I did with the digital miner. I\u0027m more focused on using it. You need a frame made of 9 teleporter frame blocks, and one teleporter core at the bottom. You make two of these, set up their frames and set them to the same channel. Poof! You have a teleporter.",
-      "x": 250,
-      "y": 74,
+      "x": 223,
+      "y": 62,
       "icon": {
         "id": "Mekanism:MachineBlock",
         "damage": 11
@@ -1195,7 +1214,7 @@
     },
     {
       "name": "Life Is A Beach",
-      "description": "Hey, remember that dimension tab you got from the previous quest? Why don\u0027t you give that guy a spin? It\u0027s a great place! The water\u0027s warm! Okay, the *great* thing about is the mixture of beach and ocean biomes. You are looking for these little buildings out in the distance that give you extra dimlets that let you create more dimensions. Being able to paddle out to a bunch of them in a boat in flat ocean is a big deal!",
+      "description": "When you opened up the dialing device, you probably saw this placed call \"Beach Party.\" Eh? What is that? It\u0027s a great place! The water\u0027s warm! Okay, the *great* thing about is the mixture of beach and ocean biomes. You are looking for these little buildings out in the distance that give you extra dimlets that let you create more dimensions. Being able to paddle out to a bunch of them in a boat in flat ocean is a big deal!",
       "x": 37,
       "y": 187,
       "icon": {
@@ -1417,7 +1436,7 @@
       "tasks": [
         {
           "type": "CRAFT",
-          "longDescription": "This is actually easier to make than the teleporters!",
+          "longDescription": "This is actually easier to make than the teleporters! BIG FAT NOTE: You want to complete the chunk loader quest to keep your power generation running when in another dimension. The stability of the dimension depends on getting a steady supply of power. If you don\u0027t have that, then the dimension WILL kill you!",
           "items": [
             {
               "item": {
@@ -1439,7 +1458,7 @@
         {
           "id": "ThermalExpansion:Cell",
           "damage": 1,
-          "nbt": "{Recv:200,RSControl:1b,Facing:3b,Energy:400000,SideCache:[6 bytes],Send:200}"
+          "nbt": "{Recv:200,RSControl:1b,Facing:3b,Energy:400000,SideCache:[0:\"6 bytes\"],Send:200}"
         }
       ]
     },
@@ -1494,15 +1513,15 @@
     {
       "name": "Why Can\u0027t I Be Normal?",
       "description": "Just about every mundane dimlet is craftable. So it\u0027s possible to make a dimension very similar to the Overworld without much work. Similarly, void dimensions and flat dimensions can be done from craftable dimlets. There\u0027s no point trying to explore for these particular ones.",
-      "x": 56,
-      "y": 142,
+      "x": 90,
+      "y": 154,
       "icon": {
         "id": "rftools:knownDimlet",
         "damage": 366,
         "nbt": "{dkey:\"Birch Forest Hills\",ktype:\"B\"}"
       },
       "prerequisites": [
-        "A Dim Outlook"
+        "Seeing From A New Dimension"
       ],
       "tasks": [
         {
@@ -1662,8 +1681,8 @@
     {
       "name": "Applied Energistic\u0027s Pearl",
       "description": "Applied Energistics likes to wrap ender pearls in fluix for all the stuff it uses for beaming stuff up. If you did the wireless quest, you have run into this guy already. If not, how convenient! I will give you some if you make me some!",
-      "x": 178,
-      "y": 124,
+      "x": 173,
+      "y": 95,
       "icon": {
         "id": "appliedenergistics2:item.ItemMultiMaterial",
         "damage": 9
@@ -1690,6 +1709,140 @@
           "id": "appliedenergistics2:item.ItemMultiMaterial",
           "damage": 9,
           "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "Decoding The Multiverse",
+      "description": "By the time you got here, you have had to at least been to Beach Party. That\u0027s a great dimension for finding more dimlets. There are all these little shacks around that have unknown dimlets in them. We\u0027ll be going through what to do with them here.",
+      "x": 38,
+      "y": 153,
+      "icon": {
+        "id": "rftools:unknownDimlet"
+      },
+      "prerequisites": [
+        "Life Is A Beach"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Mysteries Of The Unknown",
+          "longDescription": "First, you need a supply of unknown dimlets. Go raid some shacks in Beach Party. That dimension is great due to the flatness and the bodies of water. With a boat, you can stroll around and very casually find out-of-place shacks that contain dimlets. You might find some as dungeon loot in the Overworld, but that will take too long.",
+          "items": [
+            {
+              "item": {
+                "id": "rftools:unknownDimlet"
+              },
+              "required": 16,
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Researching The Multiverse",
+          "longDescription": "A dimlet research will decode those dimlets into what they really are. Build this, power it, and feed it dimlets through its GUI.",
+          "items": [
+            {
+              "item": {
+                "id": "rftools:dimletResearcherBlock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "I Like Mine Scrambled",
+          "longDescription": "Dimlets have different rarities. In any sufficiently-large pile of dimlets, you will get duplicates. With this scrambler, you can get another shot at them. It will take three known dimlets and produce two unknown dimlets. If you want to stretch your supply, one of the three can be a dimlet you can craft normally--but only one!",
+          "items": [
+            {
+              "item": {
+                "id": "rftools:dimletScramblerBlock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "rftools:unknownDimlet",
+          "amount": 64
+        }
+      ]
+    },
+    {
+      "name": "A Very Spatial Place",
+      "description": "Applied Energistics is cool and all just for being able to store all your inventory in little disks. Sure, good job, AE2. However, that mod has gone completely off the deep end... or should I say, it has gone completely off the DEEP SPACE! You can actually set up frames in 3d space, and have it store all those objects in space onto disks. When you do this, you flip a switch, and poof, it all disappears onto the disk. You can then beam it back in and it reappears. Cool tricks you can do with this include: swapping parts of your base in and out of one giant frame, or even carving out a huge place in space, beaming yourself into it, and then building inside of there. Beware! You can\u0027t casually escape from storage! I mean... not in normal modpacks!",
+      "x": 214,
+      "y": 108,
+      "icon": {
+        "id": "RandomThings:voidStone"
+      },
+      "prerequisites": [
+        "Applied Energistic\u0027s Pearl"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Earning Your Storage Certus",
+          "longDescription": "This box will hold the spatial drive the stores the contents of your frame. It is toggled with a button or a switch. It has inventory for just a single spatial drive, and it shifts it from an input side to an output side each time it is toggled. You have to move the drive back to re-activate the drive. That isn\u0027t a big deal. What really is nasty is how difficult it is to make this thing! It takes two ME drives, which is two engineering processors!",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockSpatialIOPort"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Preserving The Volume",
+          "longDescription": "This task is practically just academic. I mean, you\u0027re just making the most basic of the spatial drives. The 2^3 drive is really only good for storing small areas. I normally only use it to beam up mob spawners in mod packs where there aren\u0027t other clever ways to do it. You light up the spawner so you can build in peace, and then build the pylons around it. You need three pylons vertically because the top and bottom vertical rows don't count towards the volume. Keep that in mind when calculating how many pylons you need. Eventually, you will be given a 128^3 drive containing a certain, mythical ship.",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemSpatialStorageCell.2Cubed"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Pile On The Pylons",
+          "longDescription": "The frame is made out of these pylons. Generally, you want to go nuts on the pylons. You only need to frame out the three major axes of 3d space for it to figure out what you want to store, but the power loss of such a crude frame will probably kill your energy storage. By the way, you need AE2 energy cells to store the power for the spatial teleportation. The less efficient the rig, the more energy cells you need.",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockSpatialPylon"
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 8,
+          "amount": 64
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 8,
+          "amount": 64
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 8,
+          "amount": 64
+        },
+        {
+          "id": "minecraft:glowstone_dust",
+          "amount": 8
         }
       ]
     }
