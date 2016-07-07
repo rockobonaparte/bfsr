@@ -1,0 +1,54 @@
+{
+    "DialogShowWheel": 0b,
+    "AvailabilityQuestId": -1,
+    "Options": [
+    ],
+    "DialogHideNPC": 0b,
+    "AvailabilityFactionStance": 0,
+    "AvailabilityQuest": 0,
+    "AvailabilityDialog4": 0,
+    "AvailabilityDialog3": 0,
+    "AvailabilityQuest2": 0,
+    "AvailabilityQuest3": 0,
+    "AvailabilityQuest4": 0,
+    "ModRev": 16,
+    "DecreaseFaction1Points": 0b,
+    "DialogQuest": -1,
+    "AvailabilityDialog2": 0,
+    "OptionFactions1": -1,
+    "AvailabilityDayTime": 0,
+    "OptionFactions2": -1,
+    "AvailabilityFaction2Id": -1,
+    "OptionFaction1Points": 100,
+    "DialogDisableEsc": 0b,
+    "AvailabilityFaction": 0,
+    "DialogTitle": "Quantum Basics",
+    "AvailabilityDialog": 0,
+    "AvailabilityFaction2": 0,
+    "AvailabilityFactionId": -1,
+    "AvailabilityFaction2Stance": 0,
+    "DialogCommand": "",
+    "AvailabilityDialogId": -1,
+    "OptionFaction2Points": 100,
+    "DialogText": "So... I am going to assume you are just talking about the quantum entanglement concepts that are in AE2, and not the general theory of quantum entanglement. I mean, let me know if I'm wrong, but I know our customers. You use entanglement to connect your base's main ME network with some stuff you have going on somewhere else. Like, say, at a moon base . . . especially a moon base.You have to do this whole ritual to make it work. You have to condense matter down. Basically, ram 256,000 blocks of cobblestone through a matter condenser. That'll spit out a singularity. I don't know how your types can touch those things, but they scare me to death. Anyways, you blow that thing up with some ender dust. I mean, literally, use TNT. Boom. Two quantum-entangled singularities.You set up a ring at each base like you see over there. You put one entangled singularity in the chamber in the center of each ring. Now, you need to feed it some cables from your base, and you especially need to feed it power at your remote location. Lots of power. This thing ain't cheap. Then imagine all of those cables going to your base's setup are like laying that cable across space-time into your other network. The more cables you run into your home base's rig, the more channels the remote location can support. Understand?You can see this over there. One side has the drive, and the other side has the terminal. Their cables don't otherwise touch each other.",
+    "AvailabilityQuest4Id": -1,
+    "AvailabilityQuest3Id": -1,
+    "AvailabilityQuest2Id": -1,
+    "AvailabilityDialog2Id": -1,
+    "AvailabilityDialog3Id": -1,
+    "AvailabilityDialog4Id": -1,
+    "AvailabilityMinPlayerLevel": 0,
+    "DecreaseFaction2Points": 0b,
+    "DialogMail": {
+        "Sender": "",
+        "BeenRead": 0b,
+        "Message": {
+        },
+        "MailItems": [
+        ],
+        "MailQuest": -1,
+        "TimePast": 1467933686087L,
+        "Time": 0L,
+        "Subject": ""
+    }
+}

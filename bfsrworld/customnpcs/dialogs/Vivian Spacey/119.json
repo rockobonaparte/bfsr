@@ -1,0 +1,54 @@
+{
+    "DialogShowWheel": 0b,
+    "AvailabilityQuestId": -1,
+    "Options": [
+    ],
+    "DialogHideNPC": 0b,
+    "AvailabilityFactionStance": 0,
+    "AvailabilityQuest": 0,
+    "AvailabilityDialog4": 0,
+    "AvailabilityDialog3": 0,
+    "AvailabilityQuest2": 0,
+    "AvailabilityQuest3": 0,
+    "AvailabilityQuest4": 0,
+    "ModRev": 16,
+    "DecreaseFaction1Points": 0b,
+    "DialogQuest": -1,
+    "AvailabilityDialog2": 0,
+    "OptionFactions1": -1,
+    "AvailabilityDayTime": 0,
+    "OptionFactions2": -1,
+    "AvailabilityFaction2Id": -1,
+    "OptionFaction1Points": 100,
+    "DialogDisableEsc": 0b,
+    "AvailabilityFaction": 0,
+    "DialogTitle": "Spatial Basics",
+    "AvailabilityDialog": 0,
+    "AvailabilityFaction2": 0,
+    "AvailabilityFactionId": -1,
+    "AvailabilityFaction2Stance": 0,
+    "DialogCommand": "",
+    "AvailabilityDialogId": -1,
+    "OptionFaction2Points": 100,
+    "DialogText": "You can store 3d space in Applied Energistics 2. You have to set up a rig like either of the two I'm showing over there. The one on the left with the vertical pylon is the bare minimum and the one on the right is the most efficient. It eats up a ton of power. Just look at how many energy cells we put on the left there. It needs 8.8 million RF to do a transaction. The one on the right needs only 560 thousand RF.When you set up the rig, the topmost and bottommost pylons just determine how tall the thing is, and anything inside those two boundaries don't get touched. You also have to go one block past the end of what you want to store in the other directions. Also, this thing hates most stuff that is included in any mods except Applied Energistics itself. So you if you want to mess around with whatever's in that space, do it after you've moved it, stored it, or whatever your goal is with the spatial storage itself. In particular, teleporters will be left behind when you pull the trigger. That's bad news! Put your teleporters down after you move.To run the rig, you go over to the spatial drive. That's the thing with a button. Press that and boom. If the drive is empty, it will fill up with the local 3d space in that rig, and all that stuff will disappear from this reality. If the drive is full, it will populate this reality with what it has on the disk.Oh, and for big stuff, you should know each pylon counts as a device. So you can see there are 8 devices on the network on the right. That's the most we could do without a controller. For big rigs, you probably need a controller and dense cables to manage all the separate bars of pylons.",
+    "AvailabilityQuest4Id": -1,
+    "AvailabilityQuest3Id": -1,
+    "AvailabilityQuest2Id": -1,
+    "AvailabilityDialog2Id": -1,
+    "AvailabilityDialog3Id": -1,
+    "AvailabilityDialog4Id": -1,
+    "AvailabilityMinPlayerLevel": 0,
+    "DecreaseFaction2Points": 0b,
+    "DialogMail": {
+        "Sender": "",
+        "BeenRead": 0b,
+        "Message": {
+        },
+        "MailItems": [
+        ],
+        "MailQuest": -1,
+        "TimePast": 1467935411690L,
+        "Time": 0L,
+        "Subject": ""
+    }
+}
