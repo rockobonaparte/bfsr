@@ -35,6 +35,7 @@
     "DialogTitle": "Greeting",
     "AvailabilityDialog": 0,
     "AvailabilityFaction2": 0,
+    "DialogSound": "customnpcs:human.female.villager.yes",
     "AvailabilityFactionId": -1,
     "AvailabilityFaction2Stance": 0,
     "DialogCommand": "",
@@ -57,7 +58,7 @@
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1464456529048L,
+        "TimePast": 1467955941370L,
         "Time": 0L,
         "Subject": ""
     }

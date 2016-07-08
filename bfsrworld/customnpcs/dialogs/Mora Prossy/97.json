@@ -60,7 +60,7 @@
     "DialogCommand": "",
     "AvailabilityDialogId": -1,
     "OptionFaction2Points": 100,
-    "DialogText": "Ohhh boy. Get comfortable.So off to the left over there are some mining lasers. Each one is sucking up 20,000 RF/tick from the reactors. They pull ore out of... well, it's complicated. Some of them have some filters to encourage pulling a little more yellorium and uranium to keep everything going.Yes, this is a self-sustaining loop! Well, there's probably consequences for sucking out all these ores. Like, maybe they get sucked out of somebody else's Minecraft game. Who knows?Next to me here is really spiffy AE2 rig for storing and shuffling around all the ore. It's my little computer! Boop boop!Over to my right is the ore processing rigs. There are different setups for different ores.",
+    "DialogText": "Ohhh boy. Get comfortable.So off to the left over there are some mining lasers. Each one is sucking up 20,000 RF/tick from the reactors. They pull ore out of... well, it's complicated. Some of them have some filters to encourage pulling a little more yellorium and uranium to keep everything going.Yes, this is a self-sustaining loop! Well, there's probably consequences for sucking out all these ores. Like, maybe they get sucked out of somebody else's Minecraft game. Who knows?Next to me here is my really spiffy AE2 rig for storing and shuffling around all the ore. It's my little computer! Boop boop!Over to my right is the ore processing rigs. There are different setups for different ores.",
     "AvailabilityQuest4Id": -1,
     "AvailabilityQuest3Id": -1,
     "AvailabilityQuest2Id": -1,
@@ -77,7 +77,7 @@
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1464456655198L,
+        "TimePast": 1467955763618L,
         "Time": 0L,
         "Subject": ""
     }

@@ -26,6 +26,15 @@
     "PlayerCompanionId": 0,
     "DialogData": [
         {
+            "Dialog": 96
+        },
+        {
+            "Dialog": 97
+        },
+        {
+            "Dialog": 66
+        },
+        {
             "Dialog": 118
         },
         {
@@ -33,6 +42,9 @@
         },
         {
             "Dialog": 121
+        },
+        {
+            "Dialog": 122
         }
     ]
 }
