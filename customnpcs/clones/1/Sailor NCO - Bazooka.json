@@ -65,6 +65,8 @@
     "NpcVisible": 0,
     "LinkedNpcName": "",
     "FindShelter": 2,
+    "GuardTargets": [
+    ],
     "ScriptsContainers": [
     ],
     "Air": 300s,
@@ -90,8 +92,9 @@
     },
     "PotionImmune": 0b,
     "AvoidsSun": 0b,
+    "GuardAttackCreepers": 0b,
     "Texture": "customnpcs:textures/philadelphia/nco.png",
-    "NpcJob": 0,
+    "NpcJob": 3,
     "BurstCount": 1,
     "NpcAttackLines": {
         "Lines": [
@@ -129,6 +132,7 @@
         "Lines": [
         ]
     },
+    "GuardAttackMobs": 0b,
     "UUIDMost": 4265786172918203L,
     "Fire": -1s,
     "DisablePitch": 0b,
@@ -175,6 +179,7 @@
     "AbsorptionAmount": 0.0f,
     "TransformHasRole": 0b,
     "Name": "Sailor NCO - Bazooka",
+    "GuardSpecific": 0b,
     "FallDistance": 0.0f,
     "NpcIdleSound": "",
     "Weapons": [
@@ -252,6 +257,7 @@
     "MaxHealth": 20,
     "HideBodyWhenKilled": 0b,
     "AttackSpeed": 20,
+    "GuardAttackAnimals": 0b,
     "PotionDuration": 5,
     "maxDelay": 40,
     "ScriptEnabled": 0b,
@@ -326,7 +332,7 @@
     "pGlows": 0b,
     "TransformHasAdvanced": 0b,
     "TransformHasStats": 0b,
-    "FiringSound": "customnpcs:magic.charge",
+    "FiringSound": "customnpcs:misc.old_explode",
     "ModRev": 16,
     "Accuracy": 90,
     "MinExp": 0,
@@ -344,9 +350,9 @@
     "NpcDeathSound": "minecraft:game.player.hurt",
     "FactionID": 2,
     "Title": "",
-    "TotalTicksAlive": 153213L,
+    "TotalTicksAlive": 210001L,
     "Rotation": [
-        -77.70117f,
+        -1158.6107f,
         0.0f
     ],
     "ShowName": 1,

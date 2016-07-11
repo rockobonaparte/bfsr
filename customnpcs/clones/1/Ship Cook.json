@@ -47,6 +47,8 @@
     "NpcVisible": 0,
     "LinkedNpcName": "",
     "FindShelter": 2,
+    "GuardTargets": [
+    ],
     "ScriptsContainers": [
     ],
     "Air": 300s,
@@ -72,8 +74,9 @@
     },
     "PotionImmune": 0b,
     "AvoidsSun": 0b,
+    "GuardAttackCreepers": 1b,
     "Texture": "customnpcs:textures/philadelphia/sailor.png",
-    "NpcJob": 0,
+    "NpcJob": 3,
     "BurstCount": 1,
     "NpcAttackLines": {
         "Lines": [
@@ -111,6 +114,7 @@
         "Lines": [
         ]
     },
+    "GuardAttackMobs": 0b,
     "UUIDMost": 4267234620250598L,
     "Fire": -1s,
     "DisablePitch": 0b,
@@ -157,6 +161,7 @@
     "AbsorptionAmount": 0.0f,
     "TransformHasRole": 0b,
     "Name": "Ship Cook",
+    "GuardSpecific": 0b,
     "FallDistance": 0.0f,
     "NpcIdleSound": "",
     "Weapons": [
@@ -258,6 +263,7 @@
     "MaxHealth": 20,
     "HideBodyWhenKilled": 0b,
     "AttackSpeed": 20,
+    "GuardAttackAnimals": 0b,
     "PotionDuration": 5,
     "maxDelay": 40,
     "ScriptEnabled": 0b,
@@ -350,7 +356,7 @@
     "NpcDeathSound": "minecraft:game.player.hurt",
     "FactionID": 2,
     "Title": "",
-    "TotalTicksAlive": 119514L,
+    "TotalTicksAlive": 184727L,
     "Rotation": [
         -52.574627f,
         0.0f

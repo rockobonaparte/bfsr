@@ -47,6 +47,8 @@
     "NpcVisible": 0,
     "LinkedNpcName": "",
     "FindShelter": 2,
+    "GuardTargets": [
+    ],
     "ScriptsContainers": [
     ],
     "Air": 300s,
@@ -72,8 +74,9 @@
     },
     "PotionImmune": 0b,
     "AvoidsSun": 0b,
+    "GuardAttackCreepers": 1b,
     "Texture": "customnpcs:textures/philadelphia/sailor.png",
-    "NpcJob": 0,
+    "NpcJob": 3,
     "BurstCount": 3,
     "NpcAttackLines": {
         "Lines": [
@@ -111,6 +114,7 @@
         "Lines": [
         ]
     },
+    "GuardAttackMobs": 0b,
     "UUIDMost": 4091392521573717L,
     "Fire": -1s,
     "DisablePitch": 0b,
@@ -157,6 +161,7 @@
     "AbsorptionAmount": 0.0f,
     "TransformHasRole": 0b,
     "Name": "Sailor",
+    "GuardSpecific": 0b,
     "FallDistance": 0.0f,
     "NpcIdleSound": "",
     "Weapons": [
@@ -234,6 +239,7 @@
     "MaxHealth": 20,
     "HideBodyWhenKilled": 0b,
     "AttackSpeed": 20,
+    "GuardAttackAnimals": 0b,
     "PotionDuration": 5,
     "maxDelay": 40,
     "ScriptEnabled": 0b,
@@ -326,9 +332,9 @@
     "NpcDeathSound": "minecraft:game.player.hurt",
     "FactionID": 2,
     "Title": "",
-    "TotalTicksAlive": 194601L,
+    "TotalTicksAlive": 255492L,
     "Rotation": [
-        623.5747f,
+        1644.88f,
         0.0f
     ],
     "ShowName": 1,

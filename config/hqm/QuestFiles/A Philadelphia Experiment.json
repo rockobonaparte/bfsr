@@ -440,7 +440,7 @@
     },
     {
       "name": "Construct Additional Pylons",
-      "description": "Now we get into serious spatial storage. Applied Energistics lets you set up a frame of which anything you put inside gets stored as a space. If you set up teleporters, you can even store yourself! There are four major components. First, you need a special kind of storage module to store physical space. Second, you need to make a frame out of pylons. Third, you need enough energy cells to power the operation. Beware, it can take a lot of energy cells. Finally, you have to set up a spatial drive with a toggle to start the operation.",
+      "description": "Now we get into serious spatial storage. We will ultimately wrap a 16x9x16 volume and pull it out of deep space. You see, we have this strange disk here that contains a portal to ... well, it might be modern myth.",
       "x": 213,
       "y": 148,
       "icon": {
@@ -452,49 +452,25 @@
       "tasks": [
         {
           "type": "CRAFT",
-          "description": "Physical Space",
-          "longDescription": "The 16-cubed device let\u0027s you store a full chunk\u0027s worth space, 16 blocks high. So to be exact, it can contain 16 blocks in all directions. This is a reasonable size for using for various things. However, if you\u0027re just teleporting a mob spawner or something, the basic 2-cubed is good enough.",
-          "items": [
-            {
-              "item": {
-                "id": "appliedenergistics2:item.ItemSpatialStorageCell.16Cubed"
-              }
-            }
-          ]
-        },
-        {
-          "type": "CRAFT",
           "description": "Pylons",
-          "longDescription": "You must build a frame out of pylons to denote the space you\u0027re trying to store. This doesn\u0027t have to fully encompass the volume. It doesn\u0027t even need to cover all sides. However, you have to move out from one corner into the three majors directions representing the cube. Separate each direction with an ME cable; don\u0027t run the pylons directly around corners.",
+          "longDescription": "To wrap that volume, you need to rows of pylons completely on two sides, and then a few more to keep the efficiency of the storage solution up. The more pylons you use, the more efficient it gets. This is a big deal. You have to have enough energy to run the storage operation, and that requires AE2's own energy cells. They are not as good as energy storage as other things out there, and they consume fluix to make. However, you can keep doubling your efficiency, which halves the cells you need, until it is manageable. We can frame the 16x9x16 volume using 232 pylons, and 1 dense energy cell. If you make 112 of them, I'll give you another 112. With the 8 you already have, you'll get juuust enough.",
           "items": [
             {
               "item": {
                 "id": "appliedenergistics2:tile.BlockSpatialPylon"
               },
-              "required": 48
+              "required": 112
             }
           ]
         },
         {
           "type": "CRAFT",
           "description": "Big Old Energy Cell",
-          "longDescription": "This operation gobbles up lots of power. Note, the MORE pylons you use, the LESS energy you need. That being said, prepare for the worst and make the biggest energy storage cell you can muster.",
+          "longDescription": "This operation gobbles up lots of power. Note, the MORE pylons you use, the LESS energy you need. With 232 pylons, you can clock in at 7.2 million RF.",
           "items": [
             {
               "item": {
                 "id": "appliedenergistics2:tile.BlockDenseEnergyCell"
-              }
-            }
-          ]
-        },
-        {
-          "type": "CRAFT",
-          "description": "The Spatial IO Port",
-          "longDescription": "Put the 16^3 drive in this IO port, and stuck a button on it. If you set up everything right--including the power--the stuff inside the volume should disappear into storage. If you set up some teleporters and also maybe a chunk loader, you could go inside of it!",
-          "items": [
-            {
-              "item": {
-                "id": "appliedenergistics2:tile.BlockSpatialIOPort"
               }
             }
           ]
@@ -503,15 +479,15 @@
       "reward": [
         {
           "id": "appliedenergistics2:tile.BlockSpatialPylon",
-          "amount": 96
+          "amount": 112
         },
         {
-          "id": "appliedenergistics2:item.ItemSpatialStorageCell.128Cubed"
+          "id": "appliedenergistics2:item.ItemSpatialStorageCell.16Cubed",
+          "nbt": "{sizeX:16,StorageDim:25,sizeY:9,sizeZ:16}"
         },
         {
-          "id": "appliedenergistics2:tile.BlockDenseEnergyCell",
-          "amount": 3,
-          "nbt": "{internalMaxPower:1600000.0d,internalCurrentPower:1600000.0d}"
+          "id": "Enchiridion2:book",
+          "nbt": "{identifier:\"Baby_s_First_Spatial_Storage\"}"
         }
       ]
     },
@@ -573,7 +549,7 @@
     },
     {
       "name": "You Summoned My Battleship!",
-      "description": "Admiral Luna thinks this whole thing is some folklore from Baby\u0027s First Space Academy, but it\u0027s VERY REAL. You have in your possession a spatial drive storing the spatial-compacted ship from the myth. It can be reconstituted in our reality within a spatial storage grid we have been hinting at here. The ship is 48 blocks long, 40 blocks high, and 16 blocks across. You can use a larger grid to be safe. You want to do this a safe distance from your base, and BE READY FOR WAR! The ship is crewed by mind-warped former sailors, and THEY ARE ARMED. I am not talking \"slash slash slash\" here. I\u0027m talking \"pow pow pow boom\" here!",
+      "description": "Admiral Luna thinks this whole thing is some folklore from Baby\u0027s First Space Academy, but it\u0027s VERY REAL. You have in your possession a spatial drive storing the spatial-compacted ship from the myth. It can be reconstituted in our reality within a spatial storage grid we have been hinting at here. The portal is 16 blocks either way and 9 blocks high, or 16x9x16. That means the spatial frame must be 17x11x17. You want to do this a safe distance from your base because stuff has leaked out of the portal. BE READY FOR WAR! The ship is crewed by mind-warped former sailors, and THEY ARE ARMED. I am not talking \"slash slash slash\" here. I\u0027m talking \"pow pow pow boom\" here! We recommend steal armor, an enderium cleaver, a signalum crossbow and enderium bolts, and a few potions.",
       "x": 291,
       "y": 188,
       "icon": {
@@ -581,26 +557,31 @@
       },
       "prerequisites": [
         "Discount Self-Storage",
-        "Forming A Supercell"
+        "Construct Additional Pylons"
       ],
       "tasks": [
         {
           "type": "DETECT",
-          "description": "The Plans",
-          "longDescription": "The former captain has some plans on him we would love to have recovered. What are in the plans? We have no idea. We\u0027re not even sure if we can read them. He will helm the ship from the upper deck. In life, he enjoyed automatic weapons. In the afterlife... he still enjoys automatic weapons.",
-          "items": []
-        },
-        {
-          "type": "DETECT",
-          "description": "I Don\u0027t Even",
-          "longDescription": "Crucial to early attempts at spatial storage were these red orbs. It turned out what we did with them was dumb, dumb, dumb. There\u0027s a stash of them near the nuclear reactor. Don\u0027t get any ideas. Just try to bring one back to us so we can see what happened to them.",
-          "items": []
-        },
-        {
-          "type": "DETECT",
-          "description": "The Key To... What?",
-          "longDescription": "Sure, we could blow a hole in any chest or vault or whatever that was locked all these years. The thing is we don\u0027t know where to look. The key is more important for us to tell where to raid for original plans on the experiment. Admiral Luna would have a field day.",
-          "items": []
+          "description": "Yar! The Booty!",
+          "longDescription": "There are a few items we need from the base. We need some plans for the experiment so we make sure never to do THAT again. The captain probably has that at the front of the ship in the highest room. He probably has a submachinegun. There are some broken orbs just under the deck in the reactor room in the back of the ship. We want one of those to know what happened with them. Finally, there are some keys at the bottom front of the ship in the crew quarters. We\u0027re not entirely sure what they unlock, but we can probably figure it out if we get one.",
+          "items": [
+            {
+              "item": {
+                "id": "customnpcs:npcPlans"
+              }
+            },
+            {
+              "item": {
+                "id": "customnpcs:npcKey"
+              }
+            },
+            {
+              "item": {
+                "id": "customnpcs:npcBrokenOrb",
+                "damage": 14
+              }
+            }
+          ]
         }
       ],
       "reward": [
@@ -615,12 +596,16 @@
           "id": "TConstruct:heartCanister",
           "damage": 6,
           "amount": 5
+        },
+        {
+          "id": "ExtraUtilities:golden_bag",
+          "nbt": "{items_31:{id:5145s,Count:64b,Damage:0s},items_30:{id:5145s,Count:64b,Damage:0s},items_33:{id:5145s,Count:64b,Damage:0s},items_32:{id:5145s,Count:64b,Damage:0s},items_28:{id:5145s,Count:64b,Damage:0s},items_27:{id:5145s,Count:64b,Damage:0s},items_29:{id:5145s,Count:64b,Damage:0s},items_24:{id:5145s,Count:64b,Damage:0s},items_23:{id:5145s,Count:64b,Damage:0s},items_26:{id:5145s,Count:64b,Damage:0s},items_25:{id:5145s,Count:64b,Damage:0s},items_20:{id:5145s,Count:64b,Damage:0s},items_22:{id:5145s,Count:64b,Damage:0s},items_21:{id:5145s,Count:64b,Damage:0s},items_17:{id:5145s,Count:64b,Damage:0s},items_16:{id:5145s,Count:64b,Damage:0s},items_19:{id:5145s,Count:64b,Damage:0s},items_18:{id:5145s,Count:64b,Damage:0s},items_13:{id:5145s,Count:64b,Damage:0s},items_12:{id:5145s,Count:64b,Damage:0s},items_15:{id:5145s,Count:64b,Damage:0s},items_14:{id:5145s,Count:64b,Damage:0s},items_53:{id:5145s,Count:64b,Damage:0s},items_52:{id:5145s,Count:64b,Damage:0s},items_11:{id:5145s,Count:64b,Damage:0s},items_10:{id:5145s,Count:64b,Damage:0s},items_51:{id:5145s,Count:64b,Damage:0s},items_50:{id:5145s,Count:64b,Damage:0s},items_2:{id:5145s,Count:64b,Damage:0s},items_1:{id:5145s,Count:64b,Damage:0s},items_0:{id:5145s,Count:64b,Damage:0s},items_6:{id:5145s,Count:64b,Damage:0s},items_5:{id:5145s,Count:64b,Damage:0s},items_4:{id:5145s,Count:64b,Damage:0s},items_3:{id:5145s,Count:64b,Damage:0s},items_9:{id:5145s,Count:64b,Damage:0s},items_49:{id:5145s,Count:64b,Damage:0s},items_8:{id:5145s,Count:64b,Damage:0s},items_7:{id:5145s,Count:64b,Damage:0s},items_46:{id:5145s,Count:64b,Damage:0s},items_45:{id:5145s,Count:64b,Damage:0s},items_48:{id:5145s,Count:64b,Damage:0s},items_47:{id:5145s,Count:64b,Damage:0s},items_42:{id:5145s,Count:64b,Damage:0s},items_41:{id:5145s,Count:64b,Damage:0s},items_44:{id:5145s,Count:64b,Damage:0s},items_43:{id:5145s,Count:64b,Damage:0s},items_40:{id:5145s,Count:64b,Damage:0s},items_39:{id:5145s,Count:64b,Damage:0s},items_38:{id:5145s,Count:64b,Damage:0s},items_35:{id:5145s,Count:64b,Damage:0s},items_34:{id:5145s,Count:64b,Damage:0s},items_37:{id:5145s,Count:64b,Damage:0s},items_36:{id:5145s,Count:64b,Damage:0s}}"
         }
       ]
     },
     {
       "name": "Discount Self-Storage",
-      "description": "Apparently, there are some Buddhist monks that will stuff themselves in a burial chamber, eat nothing but honey for a long time, then mummify themselves before they die for some crazy reason. We\u0027re going to do something similarly crazy! Applied Energistics\u0027 spatial storage allows you to store yourself! Don\u0027t forget to pack a way out! You set up a spatial storage array with an IO port. Toggle that port once you have power and storage--while you are inside of it--and poof! I would recommend not placing the way back until you have stored yourself because some stuff doesn\u0027t teleport across space correctly . . . include certain teleporters. :(",
+      "description": "Apparently, there are some Buddhist monks that will stuff themselves in a burial chamber, eat nothing but honey for a long time, then mummify themselves before they die for some crazy reason. We\u0027re going to do something similarly crazy! Applied Energistics\u0027 spatial storage allows you to store yourself! Don\u0027t forget to pack a way out! You set up a spatial storage array with an IO port. Toggle that port once you have power and storage--while you are inside of it--and poof! I would recommend not placing the way back until you have stored yourself because some stuff doesn\u0027t teleport across space correctly . . . including teleporters. :(",
       "x": 258,
       "y": 128,
       "icon": {
@@ -633,14 +618,14 @@
         {
           "type": "LOCATION",
           "description": "Self-Storage",
-          "longDescription": "Before you take the trip, I\u0027d recommend laying out some cobblestone in the chamber so you can build off of it. The default void space doesn\u0027t always let you place any blocks, so even if you get all the important stuff into your inventory, you can\u0027t place any of it! Anyways, you need to set up some pylons in three different directions so it knows the region you\u0027re beaming up. The pylons should have a cable connecting them all together in one corner; pylons themselves are just little girders themselves that can only go out in one dimension. If you run a pylon into one going another direction, the whole spatial storage region goes down. You know you have it right when you see the purplish color of the pylons turn redder. You will want to make something like a 4x4x4 space so you can fit yourself, some teleporters, and power into the space. USE THE DRIVE I GAVE YOU IN THE LAST QUEST. It contains the proper dimension to complete this quest. Oh, and don't place down machines, teleporters, or energy storage. Most of those don't correctly teleport into the new space. Just use regular old blocks. Once you are in the other dimension, you can set up your escape. It's scary! Consider a dry run, and pack your baby rattle!",
+          "longDescription": "Before you take the trip, prepare a rattle or escape mechanism. If you plan to use a teleporter, place some cobblestone inside the chamber so you can build off of that; the spatial dimension does not like having blocks extended off its boundaries. You need to set up some pylons in three different directions so it knows the region you\u0027re beaming up. The pylons should have a cable connecting them all together in one corner; pylons themselves are just little girders themselves that can only go out in one dimension. If you run a pylon into one going another direction, the whole spatial storage region goes down. You know you have it right when you see the purplish color of the pylons turn redder. You can see a demonstration in Baby\u0027s First Space City through the teleporter room. USE THE DRIVE I GAVE YOU IN THE LAST QUEST. It contains the proper dimension to complete this quest. Make sure you make a frame that can store a 3x3x3 area. That means the pylons need to encompass a 4x5x4 volume. Oh, and don\u0027t place down machines, teleporters, or energy storage. Most of those don\u0027t correctly teleport into the new space. Just use regular old blocks. Once you are in the other dimension, you can set up your escape. It\u0027s scary! Consider a dry run, and pack your baby rattle! Ohhhh, if you LOST that drive that I gave you in the last quest, then the dimensional salesmen in the stores in Baby\u0027s First Space City can help you out... for a price.",
           "locations": [
             {
               "name": "New",
-              "x": 1,
+              "x": 2,
               "y": 66,
-              "z": 5,
-              "dim": 9,
+              "z": 3,
+              "dim": 20,
               "radius": -1
             }
           ]
@@ -651,16 +636,13 @@
           "id": "bfsr:genericItem"
         },
         {
-          "id": "appliedenergistics2:item.ItemSpatialStorageCell.128Cubed"
-        },
-        {
-          "id": "appliedenergistics2:tile.BlockDenseEnergyCell",
-          "amount": 32,
-          "nbt": "{internalMaxPower:1600000.0d,internalCurrentPower:1600000.0d}"
-        },
-        {
           "id": "appliedenergistics2:tile.BlockSpatialPylon",
           "amount": 16
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 1,
+          "amount": 32
         }
       ]
     },
@@ -1046,62 +1028,6 @@
         {
           "id": "minecraft:ender_pearl",
           "amount": 4
-        }
-      ]
-    },
-    {
-      "name": "Forming A Supercell",
-      "description": "My friends, we are reaching the REAL end of this modpack. This is some serious stuff here. We are going to try to warp in a 48x16x30 ship from spatial storage. Do you know the kind of resources this requires? If you do this naively with just pylons going only in the major directions once, you\u0027ll need tens of thousands of dense energy cells to power this mess. To improve on this, we need to lay out more and more and more pylons. I will describe this in better detail in the book awarded for completing this quest. The important thing is you need lots of dense energy cells, and lots more of pylons. I\u0027m talking over 1,000 pylons! And that\u0027s just to get the number of dense energy cells you need below 30!",
-      "x": 250,
-      "y": 172,
-      "icon": {
-        "id": "appliedenergistics2:tile.BlockDenseEnergyCell",
-        "nbt": "{internalMaxPower:1600000.0d,internalCurrentPower:1600000.0d}"
-      },
-      "prerequisites": [
-        "Construct Additional Pylons"
-      ],
-      "tasks": [
-        {
-          "type": "DETECT",
-          "description": "Pocket Full Of Pylons",
-          "longDescription": "You make 250 of them, and I\u0027ll give you a cool 1,000 more! This is a good time to go into the Stupid Crazy Automation chapter and look up autocrafting. This is going to take a lot of fluix dust. You probably want to use an enrichment chamber to process silk-touched certus quartz ore so you can triple your yield. Then you can charge them using the crystal charger. These charged crystals will then combine with a pile of nether quartz and redstone. Oh, by the way, an enrichment chamber also serious helps in increasing yields of nether quartz and redstone.",
-          "items": [
-            {
-              "item": {
-                "id": "appliedenergistics2:tile.BlockSpatialPylon"
-              },
-              "required": 250
-            }
-          ]
-        },
-        {
-          "type": "DETECT",
-          "description": "Charge!!!",
-          "longDescription": "Yeah, gonna need a pile of cells too. I mean the dense ones here. None of that weeny regular energy cell business!",
-          "items": [
-            {
-              "item": {
-                "id": "appliedenergistics2:tile.BlockDenseEnergyCell"
-              },
-              "required": 15,
-              "precision": "FUZZY"
-            }
-          ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "appliedenergistics2:tile.BlockDenseEnergyCell",
-          "amount": 20
-        },
-        {
-          "id": "ExtraUtilities:golden_bag",
-          "nbt": "{items_53:{id:193s,Count:64b,Damage:0s},items_52:{id:400s,Count:1b,Damage:0s},items_44:{id:4958s,Count:1b,tag:{dkey:\"tile.appliedenergistics2.OreQuartz\",ktype:\"m\"},Damage:132s},items_2:{id:193s,Count:64b,Damage:0s},items_1:{id:193s,Count:64b,Damage:0s},items_0:{id:193s,Count:64b,Damage:0s},items_6:{id:193s,Count:64b,Damage:0s},items_5:{id:193s,Count:64b,Damage:0s},items_4:{id:193s,Count:64b,Damage:0s},items_3:{id:193s,Count:64b,Damage:0s},items_9:{id:193s,Count:64b,Damage:0s},items_27:{id:193s,Count:64b,Damage:0s},items_8:{id:193s,Count:64b,Damage:0s},items_7:{id:193s,Count:64b,Damage:0s},items_18:{id:193s,Count:64b,Damage:0s},items_35:{id:4958s,Count:1b,tag:{dkey:\"tile.oreRedstone\",ktype:\"m\"},Damage:40s},items_45:{id:193s,Count:64b,Damage:0s},items_36:{id:193s,Count:64b,Damage:0s}}"
-        },
-        {
-          "id": "Enchiridion2:book",
-          "nbt": "{identifier:\"Baby_s_First_Spatial_Storage\"}"
         }
       ]
     },
@@ -1774,7 +1700,7 @@
     },
     {
       "name": "A Very Spatial Place",
-      "description": "Applied Energistics is cool and all just for being able to store all your inventory in little disks. Sure, good job, AE2. However, that mod has gone completely off the deep end... or should I say, it has gone completely off the DEEP SPACE! You can actually set up frames in 3d space, and have it store all those objects in space onto disks. When you do this, you flip a switch, and poof, it all disappears onto the disk. You can then beam it back in and it reappears. Cool tricks you can do with this include: swapping parts of your base in and out of one giant frame, or even carving out a huge place in space, beaming yourself into it, and then building inside of there. Beware! You can\u0027t casually escape from storage! I mean... not in normal modpacks!",
+      "description": "Applied Energistics is cool and all just for being able to store all your inventory in little disks. Sure, good job, AE2. However, that mod has gone completely off the deep end... or should I say, it has gone completely off the DEEP SPACE! You can actually set up frames in 3d space, and have it store all those objects in space onto disks. When you do this, you flip a switch, and poof, it all disappears onto the disk. You can then beam it back in and it reappears. Cool tricks you can do with this include: swapping parts of your base in and out of one giant frame, or even carving out a huge place in space, beaming yourself into it, and then building inside of there. Beware! You can\u0027t casually escape from storage! I mean... not without other mods!",
       "x": 214,
       "y": 108,
       "icon": {
@@ -1800,7 +1726,7 @@
         {
           "type": "CRAFT",
           "description": "Preserving The Volume",
-          "longDescription": "This task is practically just academic. I mean, you\u0027re just making the most basic of the spatial drives. The 2^3 drive is really only good for storing small areas. I normally only use it to beam up mob spawners in mod packs where there aren\u0027t other clever ways to do it. You light up the spawner so you can build in peace, and then build the pylons around it. You need three pylons vertically because the top and bottom vertical rows don't count towards the volume. Keep that in mind when calculating how many pylons you need. Eventually, you will be given a 128^3 drive containing a certain, mythical ship.",
+          "longDescription": "This task is practically just academic. I mean, you\u0027re just making the most basic of the spatial drives. The 2^3 drive is really only good for storing small areas. I normally only use it to beam up mob spawners in mod packs where there aren\u0027t other clever ways to do it. You light up the spawner so you can build in peace, and then build the pylons around it. You need three pylons vertically because the top and bottom vertical rows don\u0027t count towards the volume. Keep that in mind when calculating how many pylons you need. Eventually, you will be given a 128^3 drive containing a certain, mythical ship.",
           "items": [
             {
               "item": {
@@ -1841,8 +1767,8 @@
           "amount": 64
         },
         {
-          "id": "minecraft:glowstone_dust",
-          "amount": 8
+          "id": "appliedenergistics2:item.ItemSpatialStorageCell.16Cubed",
+          "nbt": "{sizeX:3,StorageDim:20,sizeY:3,sizeZ:3}"
         }
       ]
     }
