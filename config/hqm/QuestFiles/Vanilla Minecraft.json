@@ -752,12 +752,8 @@
         "id": "minecraft:diamond"
       },
       "prerequisites": [
-        "Iron Man",
-        "{Tools and Toys}[I Pick You!]",
-        "{Tools and Toys}[Mining Like The Romans]",
-        "{Go To Hell}[Try The Pink Stuff]"
+        "Iron Man"
       ],
-      "parentrequirement": 2,
       "tasks": [
         {
           "type": "DETECT",

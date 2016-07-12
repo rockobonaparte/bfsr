@@ -397,7 +397,7 @@
         {
           "id": "ThermalExpansion:Machine",
           "damage": 4,
-          "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[6 bytes],Level:3b,Augments:[0:{Slot:0,id:4382s,Count:1b,Damage:0s},1:{Slot:1,id:4382s,Count:1b,Damage:32s},2:{Slot:2,id:4382s,Count:1b,Damage:16s}]}"
+          "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[0:\"6 bytes\"],Level:3b,Augments:[0:{Slot:0,id:4382s,Count:1b,Damage:0s},1:{Slot:1,id:4382s,Count:1b,Damage:32s},2:{Slot:2,id:4382s,Count:1b,Damage:16s}]}"
         },
         {
           "id": "Artifice:tile.artifice.orenickel",
@@ -462,7 +462,7 @@
               "item": {
                 "id": "ThermalExpansion:Cell",
                 "damage": 1,
-                "nbt": "{Recv:200,RSControl:1b,Facing:3b,Energy:0,SideCache:[6 bytes],Send:200}"
+                "nbt": "{Recv:200,RSControl:1b,Facing:3b,Energy:0,SideCache:[0:\"6 bytes\"],Send:200}"
               }
             }
           ]
@@ -472,7 +472,7 @@
         {
           "id": "ThermalExpansion:Cell",
           "damage": 1,
-          "nbt": "{Recv:200,RSControl:1b,Facing:3b,Energy:0,SideCache:[6 bytes],Send:200}"
+          "nbt": "{Recv:200,RSControl:1b,Facing:3b,Energy:0,SideCache:[0:\"6 bytes\"],Send:200}"
         }
       ]
     },
@@ -612,7 +612,7 @@
       "y": 16,
       "icon": {
         "id": "ThermalExpansion:Machine",
-        "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[6 bytes],Level:3b,Augments:[0:{Slot:0,id:5667s,Count:1b,Damage:0s},1:{Slot:1,id:5667s,Count:1b,Damage:32s},2:{Slot:2,id:5667s,Count:1b,Damage:16s}]}"
+        "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[0:\"6 bytes\"],Level:3b,Augments:[0:{Slot:0,id:5667s,Count:1b,Damage:0s},1:{Slot:1,id:5667s,Count:1b,Damage:32s},2:{Slot:2,id:5667s,Count:1b,Damage:16s}]}"
       },
       "prerequisites": [
         "Love Machines"
@@ -651,7 +651,7 @@
             {
               "item": {
                 "id": "ThermalExpansion:Machine",
-                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[6 bytes],Level:3b,Augments:[0:{Slot:0,id:5667s,Count:1b,Damage:0s},1:{Slot:1,id:5667s,Count:1b,Damage:32s},2:{Slot:2,id:5667s,Count:1b,Damage:16s}]}"
+                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[0:\"6 bytes\"],Level:3b,Augments:[0:{Slot:0,id:5667s,Count:1b,Damage:0s},1:{Slot:1,id:5667s,Count:1b,Damage:32s},2:{Slot:2,id:5667s,Count:1b,Damage:16s}]}"
               },
               "precision": "FUZZY"
             }
@@ -678,7 +678,7 @@
       "icon": {
         "id": "ThermalExpansion:Machine",
         "damage": 1,
-        "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[6 bytes],Level:3b,Augments:[0:{Slot:0,id:5667s,Count:1b,Damage:0s},1:{Slot:1,id:5667s,Count:1b,Damage:32s},2:{Slot:2,id:5667s,Count:1b,Damage:16s}]}"
+        "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[0:\"6 bytes\"],Level:3b,Augments:[0:{Slot:0,id:5667s,Count:1b,Damage:0s},1:{Slot:1,id:5667s,Count:1b,Damage:32s},2:{Slot:2,id:5667s,Count:1b,Damage:16s}]}"
       },
       "prerequisites": [
         "Love Machines"
@@ -716,7 +716,7 @@
               "item": {
                 "id": "ThermalExpansion:Machine",
                 "damage": 1,
-                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[6 bytes],Level:3b,Augments:[0:{Slot:0,id:5667s,Count:1b,Damage:0s},1:{Slot:1,id:5667s,Count:1b,Damage:32s},2:{Slot:2,id:5667s,Count:1b,Damage:16s}]}"
+                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[0:\"6 bytes\"],Level:3b,Augments:[0:{Slot:0,id:5667s,Count:1b,Damage:0s},1:{Slot:1,id:5667s,Count:1b,Damage:32s},2:{Slot:2,id:5667s,Count:1b,Damage:16s}]}"
               },
               "precision": "FUZZY"
             }
@@ -1024,7 +1024,6 @@
         "The Power Of The Atom",
         "So Hot And Steamy!"
       ],
-      "parentrequirement": 1,
       "tasks": [
         {
           "type": "DETECT",
@@ -1488,7 +1487,7 @@
               "item": {
                 "id": "ThermalExpansion:Machine",
                 "damage": 8,
-                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[6 bytes],Level:3b,Augments:[0:{Slot:0,id:5667s,Count:1b,Damage:0s},1:{Slot:1,id:5667s,Count:1b,Damage:32s},2:{Slot:2,id:5667s,Count:1b,Damage:16s}]}"
+                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[0:\"6 bytes\"],Level:3b,Augments:[0:{Slot:0,id:5667s,Count:1b,Damage:0s},1:{Slot:1,id:5667s,Count:1b,Damage:32s},2:{Slot:2,id:5667s,Count:1b,Damage:16s}]}"
               },
               "precision": "FUZZY"
             }
@@ -1623,7 +1622,6 @@
         "So Hot And Steamy!",
         "Taking Control"
       ],
-      "parentrequirement": 1,
       "tasks": [
         {
           "type": "CRAFT",

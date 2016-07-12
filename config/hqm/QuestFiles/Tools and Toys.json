@@ -433,7 +433,6 @@
         "nbt": "{InfiTool:{BaseDurability:974,Head:16,Built:1b,HarvestLevel:4,Attack:5,RenderHead:16,ModDurability:0.0f,Handle:16,Broken:0b,Shoddy:0.0f,RenderHandle:16,Accessory:16,MiningSpeed:1000,RenderAccessory:16,Unbreaking:2,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:974},display:{Name:\"�fSteel Pickaxe\"}}"
       },
       "prerequisites": [
-        "{Electrical Power}[Steel My Thunder]",
         "The Forge"
       ],
       "tasks": [
@@ -780,7 +779,6 @@
         "nbt": "{InfiTool:{RenderExtra:16,BaseDurability:8774,Built:1b,HarvestLevel:4,HarvestLevelExtra:4,MiningSpeedExtra:1000,RenderHead:16,ModDurability:0.0f,Shoddy:0.0f,RenderHandle:16,Accessory:16,MiningSpeed:1000,Unbreaking:2,Damage:0,HarvestLevel2:4,BonusDurability:0,TotalDurability:8774,MiningSpeed2:1000,Head:16,Attack:6,Handle:16,Broken:0b,Extra:16,RenderAccessory:16,Modifiers:3},display:{Name:\"�fSteel Hammer\"}}"
       },
       "prerequisites": [
-        "{Electrical Power}[Steel My Thunder]",
         "The Forge"
       ],
       "tasks": [

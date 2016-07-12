@@ -48,7 +48,7 @@
         {
           "id": "ThermalExpansion:Cell",
           "damage": 1,
-          "nbt": "{Recv:200,RSControl:1b,Facing:3b,Energy:400000,SideCache:[6 bytes],Send:200}"
+          "nbt": "{Recv:200,RSControl:1b,Facing:3b,Energy:400000,SideCache:[0:\"6 bytes\"],Send:200}"
         }
       ]
     },
@@ -508,7 +508,7 @@
         {
           "id": "ThermalExpansion:Cell",
           "damage": 1,
-          "nbt": "{Recv:200,RSControl:1b,Facing:3b,Energy:400000,SideCache:[6 bytes],Send:200}"
+          "nbt": "{Recv:200,RSControl:1b,Facing:3b,Energy:400000,SideCache:[0:\"6 bytes\"],Send:200}"
         }
       ]
     },
@@ -701,11 +701,8 @@
         "damage": 5
       },
       "prerequisites": [
-        "Hold On There, Buddy",
-        "{A Philadelphia Experiment}[What\u0027s The Matter?]",
-        "{A Philadelphia Experiment}[Let\u0027s Mek A Teleporter!]"
-      ],
-      "parentrequirement": 2
+        "Hold On There, Buddy"
+      ]
     },
     {
       "name": "Moving In With The Lunatics",
@@ -719,7 +716,6 @@
         "Rocket Man",
         "As The World Turns"
       ],
-      "parentrequirement": 1,
       "tasks": [
         {
           "type": "DETECT",
@@ -1360,7 +1356,7 @@
         {
           "id": "ThermalExpansion:Cell",
           "damage": 1,
-          "nbt": "{Recv:200,RSControl:1b,Facing:3b,Energy:400000,SideCache:[6 bytes],Send:200}"
+          "nbt": "{Recv:200,RSControl:1b,Facing:3b,Energy:400000,SideCache:[0:\"6 bytes\"],Send:200}"
         }
       ]
     }

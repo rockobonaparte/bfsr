@@ -500,7 +500,7 @@
         "id": "MineFactoryReloaded:straw"
       },
       "prerequisites": [
-        "{A Post-Scarcity Economy}[Minefactory Reloaded]"
+        "What Is In A Flame?"
       ],
       "tasks": [
         {

@@ -1040,7 +1040,7 @@
               "item": {
                 "id": "ThermalExpansion:Machine",
                 "damage": 4,
-                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[6 bytes],Level:3b,Augments:[0:{Slot:0,id:5667s,Count:1b,Damage:0s},1:{Slot:1,id:5667s,Count:1b,Damage:32s},2:{Slot:2,id:5667s,Count:1b,Damage:16s}]}"
+                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[0:\"6 bytes\"],Level:3b,Augments:[0:{Slot:0,id:5667s,Count:1b,Damage:0s},1:{Slot:1,id:5667s,Count:1b,Damage:32s},2:{Slot:2,id:5667s,Count:1b,Damage:16s}]}"
               },
               "precision": "NBT_FUZZY"
             },
@@ -1048,7 +1048,7 @@
               "item": {
                 "id": "ThermalExpansion:Machine",
                 "damage": 5,
-                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[6 bytes],Level:3b,Augments:[0:{Slot:0,id:5667s,Count:1b,Damage:0s},1:{Slot:1,id:5667s,Count:1b,Damage:32s},2:{Slot:2,id:5667s,Count:1b,Damage:16s}]}"
+                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[0:\"6 bytes\"],Level:3b,Augments:[0:{Slot:0,id:5667s,Count:1b,Damage:0s},1:{Slot:1,id:5667s,Count:1b,Damage:32s},2:{Slot:2,id:5667s,Count:1b,Damage:16s}]}"
               },
               "precision": "NBT_FUZZY"
             }

@@ -11,6 +11,9 @@
         "id": "Natura:barleyFood",
         "damage": 3
       },
+      "prerequisites": [
+        "{Baby\u0027s First Space City!}[Overworld Portal]"
+      ],
       "tasks": [
         {
           "type": "DETECT",
@@ -55,6 +58,9 @@
       "icon": {
         "id": "Natura:berry"
       },
+      "prerequisites": [
+        "{Baby\u0027s First Space City!}[Overworld Portal]"
+      ],
       "tasks": [
         {
           "type": "DETECT",
@@ -177,6 +183,9 @@
       "icon": {
         "id": "minecraft:torch"
       },
+      "prerequisites": [
+        "{Baby\u0027s First Space City!}[Overworld Portal]"
+      ],
       "tasks": [
         {
           "type": "DETECT",
@@ -341,6 +350,9 @@
       "icon": {
         "id": "TConstruct:jerky"
       },
+      "prerequisites": [
+        "{Baby\u0027s First Space City!}[Overworld Portal]"
+      ],
       "tasks": [
         {
           "type": "DETECT",
@@ -370,6 +382,9 @@
       "icon": {
         "id": "minecraft:leather"
       },
+      "prerequisites": [
+        "{Baby\u0027s First Space City!}[Overworld Portal]"
+      ],
       "tasks": [
         {
           "type": "DETECT",
@@ -457,6 +472,9 @@
       "icon": {
         "id": "BiblioCraft:item.BiblioClipboard"
       },
+      "prerequisites": [
+        "{Baby\u0027s First Space City!}[Overworld Portal]"
+      ],
       "tasks": [
         {
           "type": "DETECT",
@@ -482,20 +500,23 @@
     },
     {
       "name": "Not Your Average Ladder",
-      "description": "Ladders are a fine thing to have, but it can get annoying to use them on long trips. OpenBlocks' elevators are a better option for your base, but another pack might not have them, or that pack may charge you your XP to use it, for some dumb reason. An alternative is a dark steel ladder. Getting to dark steel tech will take a little bit of a fuss with EnderIO, but if you play with that mod in this pack, you get a ladder you can climb and descend at twice the normal rate.",
+      "description": "Ladders are a fine thing to have, but it can get annoying to use them on long trips. OpenBlocks\u0027 elevators are a better option for your base, but another pack might not have them, or that pack may charge you your XP to use it, for some dumb reason. An alternative is a dark steel ladder. Getting to dark steel tech will take a little bit of a fuss with EnderIO, but if you play with that mod in this pack, you get a ladder you can climb and descend at twice the normal rate.",
       "x": 181,
       "y": 57,
       "icon": {
         "id": "EnderIO:blockDarkSteelLadder"
       },
-	  "tasks": [
+      "prerequisites": [
+        "{Baby\u0027s First Space City!}[Overworld Portal]"
+      ],
+      "tasks": [
         {
           "type": "DETECT",
           "longDescription": "You can use dark steel for tools and such, but their quality can be matched from cheaper materials. So other than for EnderIO-specific things, I just use it for ladders. You make some, and I will just give you a stack of them.",
           "items": [
             {
               "item": {
-				"id": "EnderIO:blockDarkSteelLadder"
+                "id": "EnderIO:blockDarkSteelLadder"
               }
             }
           ]
@@ -503,7 +524,7 @@
       ],
       "reward": [
         {
-		  "id": "EnderIO:blockDarkSteelLadder",
+          "id": "EnderIO:blockDarkSteelLadder",
           "amount": 64
         }
       ]

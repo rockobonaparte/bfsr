@@ -10,6 +10,21 @@
       "icon": {
         "id": "minecraft:sign"
       },
+      "tasks": [
+        {
+          "type": "LOCATION",
+          "locations": [
+            {
+              "name": "New",
+              "x": 15,
+              "y": 66,
+              "z": 29,
+              "dim": 2,
+              "radius": 3
+            }
+          ]
+        }
+      ],
       "reward": [
         {
           "id": "minecraft:dirt",

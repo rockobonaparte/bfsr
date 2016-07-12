@@ -15,7 +15,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "Here\u0027s a quick guide to 3x ore processing, straight from lab #2. You will need:\n\nA source for water\nA purification chamber\nA crusher\nAn enrichment chamber\nAn energized smelter\nA gas-burning engine\nAn electrolytic separator\nA source of power\nPower conduit/cables/ducts\nA water pipe/conduit\nBasic pressurized pipe",
+            "text": "Here\u0027s a quick guide to 3x ore processing, straight from lab #2. You will need:\n\nA source for water\nA purification chamber\nA crusher\nAn enrichment chamber\nAn energized smelter\nA gas-burning engine\nAn electrolytic separator\nA source of power\nPower conduit/cables/ducts\nA water pipe/conduit\nBasic pressurized tube",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
@@ -150,7 +150,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "If you look at the separator from the side that has the tanks:\n\nWater: Front\nHydrogen: Left\nOxygen: Right\nPower: Top\n\nPower can go a few places, but not the fluid and gasses.\n\nInstall pressurized pipe out from each side. The oxygen side goes to the purification chamber. That machine will know enough to connect it and start using it.",
+            "text": "If you look at the separator from the side that has the tanks:\n\nWater: Front\nHydrogen: Left\nOxygen: Right\nPower: Top\n\nPower can go a few places, but not the fluid and gasses.\n\nInstall pressurized tube out from each side. The oxygen side goes to the purification chamber. That machine will know enough to connect it and start using it.",
             "wrap": 0,
             "size": 1.0,
             "color": "FF555555",
