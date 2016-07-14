@@ -1,0 +1,794 @@
+{
+  "book": [
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Baby\u0027s First Space Race\n\nby Rocko Bonaparte\n\nRelease notes, background, context, advice, credits, and more.\n\nThank you for trying my modpack. I have put considerable effort over more than a year to bring the pack to the point that you see it today. It has involved a lot of world editing, quest editing, and even writing some code. I hope you enjoy it, whether you are a beginning player or an expert.\n\n",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 30,
+            "yPos": 22,
+            "width": 166.0,
+            "height": 170.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Table Of Contents\n(click each to jump to section)",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF000000",
+            "xPos": 223,
+            "yPos": 22,
+            "width": 170.0,
+            "height": 24.0
+          }
+        },
+        {
+          "type": "FeatureBox",
+          "properties": {
+            "color": "FF000000",
+            "xPos": 219,
+            "yPos": 44,
+            "width": 182.0,
+            "height": 3.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Objective\nBackground\nContributing\nFrequent Questions\nCredits",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF0000FF",
+            "xPos": 221,
+            "yPos": 52,
+            "width": 168.0,
+            "height": 49.0
+          }
+        },
+        {
+          "type": "FeatureJump",
+          "properties": {
+            "jumpTo": "2",
+            "texture": "",
+            "xPos": 220,
+            "yPos": 54,
+            "width": 137.0,
+            "height": 3.0
+          }
+        },
+        {
+          "type": "FeatureJump",
+          "properties": {
+            "jumpTo": "3",
+            "texture": "",
+            "xPos": 220,
+            "yPos": 63,
+            "width": 137.0,
+            "height": 3.0
+          }
+        },
+        {
+          "type": "FeatureJump",
+          "properties": {
+            "jumpTo": "7",
+            "texture": "",
+            "xPos": 220,
+            "yPos": 73,
+            "width": 137.0,
+            "height": 3.0
+          }
+        },
+        {
+          "type": "FeatureJump",
+          "properties": {
+            "jumpTo": "10",
+            "texture": "",
+            "xPos": 220,
+            "yPos": 82,
+            "width": 137.0,
+            "height": 3.0
+          }
+        },
+        {
+          "type": "FeatureJump",
+          "properties": {
+            "jumpTo": "13",
+            "texture": "",
+            "xPos": 220,
+            "yPos": 92,
+            "width": 137.0,
+            "height": 3.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Objective",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF000000",
+            "xPos": 30,
+            "yPos": 22,
+            "width": 171.0,
+            "height": 12.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Baby\u0027s First Space Race (BFSR) tries to teach players how to use mods together to do very novel things in Minecraft. It was originally created for beginning players, but it turns out there\u0027s a huge demand from expert players for a pack that gives sequential challenges without most of the tedium of most questing modpacks.\n\nThe player\u0027s goal is to get to the moon. Well, that used to be the only goal. Now there\u0027s traveling beyond to other planets... and other dimensions",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 31,
+            "yPos": 38,
+            "width": 167.0,
+            "height": 152.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Background",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF000000",
+            "xPos": 29,
+            "yPos": 23,
+            "width": 130.0,
+            "height": 10.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "I had the opportunity at one point to host an afternoon of Minecraft with my teammates at work as a teambuilding activity in 2015. Nobody else had volunteered, and I managed to sucker them in with my proposal. I had previously done these with my previous army of interns, but here I was dealing with people that did not play video games. Well, most of them at least knew about Minecraft because they heard about kids playing it.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 29,
+            "yPos": 40,
+            "width": 170.0,
+            "height": 154.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "The idea was simple: give everybody something to work towards, and we could compare progress between groups at the end of the day. Hence, I started working on a Hardcore Questing Mode modpack focusing on technology, because these people were all engineers. I laid out the basic progression for getting to the moon in it, severely augmented the generation of resources to make it very fast, and tried to get people to the moon as soon as possible.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 224,
+            "yPos": 19,
+            "width": 168.0,
+            "height": 161.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "In reality, I asked too much of everybody. There were some people who had played before that I leaned upon to be team captains. They got the basics done, but hardly anybody budged on the quest book. My manager--in a very symbolic gesture--literally dug himself into a hole he couldn\u0027t escape. At the end, everybody actually did have a very good time, but the quest book itself had nothing to do with it.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 30,
+            "yPos": 23,
+            "width": 166.0,
+            "height": 170.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Nonetheless, I felt there was a wider demand for a pack like this because the only way to learn how to do something that takes a paragraph to explain was to instead watch 30-minute tutorial videos. In these videos, they usually stutter and stammer through showing off their base, what they\u0027re going to do, get diverted with something else, and somewhere near the end, they actually craft the thing they're trying to craft, and ultimately mess up using it.\n\nI am not bitter. ;)",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 224,
+            "yPos": 24,
+            "width": 174.0,
+            "height": 163.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "I learned to play modded Minecraft mostly on a server with very helpful people, but some people don\u0027t have that fortune. Either they don\u0027t know any such people, or they are too shy to even try. We know how the Internet can be. However, I leveraged that experience towards creating the quest book. I rounded it out and explained the typical ways to approach things when all of these different mods are put together.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 29,
+            "yPos": 24,
+            "width": 168.0,
+            "height": 167.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Ultimately, this all was put on Technic, and I waited. I shared the link with the Something Awful goons, and it turned out that many advanced players enjoyed getting showered in ores because they have become fed up with the tedious parts of mining. Some introduced their kids to mods with it. But what was most compelling to me were the random people from the Internet at large that started to play with it. I only know of them through the discussion board on Technic.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 227,
+            "yPos": 25,
+            "width": 164.0,
+            "height": 150.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "I liked to type the modpack name into Google to get to the Technic link more quickly on other computers. I was quite surprised then one day to start finding YouTube links of people playing the pack. Way to go! I'm totally fine with people recording live plays of stuff, just not making long videos to explain how to do something really basic. But beware! The quests that have been added since 1.5 are going to be ... ehh hehehehehe.\n\nI\u0027d like to particularly thank YouTubers for giving me a chance to show my wife what I have been doing over here when she is asleep. She didn\u0027t really know.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 28,
+            "yPos": 22,
+            "width": 167.0,
+            "height": 168.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "The pack has been stable for six months, but I have been busy on a beta. The number of quests have doubled. There is now a starting NPC village so new players aren\u0027t just thrown right into the Overworld with the sun setting on them. There are some very advanced quests that were very difficult for me to create.\n\nYou should now be able to enjoy these! However, take note that there are undoubtedly bugs. I found while playtesting \"A Philadelphia Experiment\" that I had more than one bug per quest! :(",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 227,
+            "yPos": 22,
+            "width": 167.0,
+            "height": 167.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Contributing",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF000000",
+            "xPos": 26,
+            "yPos": 23,
+            "width": 168.0,
+            "height": 10.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "There are plenty of ways to help, even if you are not particularly technically skilled.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 27,
+            "yPos": 36,
+            "width": 173.0,
+            "height": 30.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Inexperienced Beginners",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF000080",
+            "xPos": 28,
+            "yPos": 67,
+            "width": 149.0,
+            "height": 10.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "You should be shameless in complaining where things were unclear. The pack aims to instruct. The latter quests are more of a general challenge, so they may be much more terse. However, if the pack just couldn\u0027t explain a concept to you well, then that\u0027s a failure.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 27,
+            "yPos": 79,
+            "width": 166.0,
+            "height": 112.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Experts",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF191970",
+            "xPos": 225,
+            "yPos": 22,
+            "width": 120.0,
+            "height": 11.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "There are some clever ways to progress from the beginning to post-scarcity, and there are some toys with which I am not really an expert myself. Sharing those will help everybody!",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 226,
+            "yPos": 36,
+            "width": 167.0,
+            "height": 55.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "English Speakers",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF191970",
+            "xPos": 225,
+            "yPos": 98,
+            "width": 172.0,
+            "height": 13.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "There is a lot of text here. We have Enchiridion books like this one, the quest book, and NPC dialog. I get worn down typing all this out, and I screw up plenty of stuff. You can help edit!",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 225,
+            "yPos": 112,
+            "width": 170.0,
+            "height": 77.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Experienced Mod Administrators",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF000080",
+            "xPos": 27,
+            "yPos": 20,
+            "width": 172.0,
+            "height": 9.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "There is a huge pile of configuration options with which you should be familiar for these mods. I have had to edit many of them to soften the grind and make them more accessible. I am thinking of improving the progression on other planets and making asteroid mining much more interesting.\n\nI could also use help with generally updating mods.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 28,
+            "yPos": 32,
+            "width": 161.0,
+            "height": 132.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Support Modders",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF000080",
+            "xPos": 225,
+            "yPos": 21,
+            "width": 170.0,
+            "height": 11.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "In particular, I am talking about those familiar with Forge that do some modding, but don\u0027t necessarily develop or maintain some particular public mod. I know a few of these people, and they have been of a great help.\n\nI have had to tear some stuff apart, examine a good amount of code, and even write some code myself in order to accomplish what I felt was necessary to make the quests meaningful in this pack. Having experienced help here greatly improves what I can do and how quickly I can do it.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 225,
+            "yPos": 33,
+            "width": 167.0,
+            "height": 154.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Mod Developers",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF000080",
+            "xPos": 28,
+            "yPos": 21,
+            "width": 169.0,
+            "height": 9.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Oh... please put up with my nonsense! I am trying to get people to appreciate your mods by interacting with them!\n\nI have generally had a good time with the modding community while doing this. It has helped that I manage not to be a complete moron when I show up in people\u0027s communities.\n\nI would be willing to collaborate with mod authors that would like chapters focused on aspects of their mods--especially popular mods that are otherwise complicated.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 27,
+            "yPos": 32,
+            "width": 171.0,
+            "height": 151.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "I don\u0027t need your money. Don\u0027t even try. If you somehow feel compelled to financially support something related to this, pick your favorite mods, and see if they\u0027ll take any $$$. In truth, you are better off just sending a note to everybody involved about how happy you are or something.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 227,
+            "yPos": 32,
+            "width": 160.0,
+            "height": 92.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Money",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF000080",
+            "xPos": 226,
+            "yPos": 21,
+            "width": 143.0,
+            "height": 10.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Important Links",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF191970",
+            "xPos": 226,
+            "yPos": 127,
+            "width": 159.0,
+            "height": 11.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "There\u0027s a GitHub for the pack at: \nhttps://github.com/rockobonaparte/bfsr\n\nYou can submit issues there!",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 226,
+            "yPos": 141,
+            "width": 167.0,
+            "height": 50.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Frequent Questions",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF000080",
+            "xPos": 27,
+            "yPos": 21,
+            "width": 168.0,
+            "height": 10.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Will you add quests for \u003csome mod\u003e?",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF006400",
+            "xPos": 27,
+            "yPos": 33,
+            "width": 172.0,
+            "height": 17.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Ehh... maybe? I need to stabilize things though. I can say that to do quality quests any more than I can roughly do a quest a day. That\u0027s not exactly how I do it, but that\u0027s the overall average rate to create the quest, fill it out, check it, and tie it in to things. So I am not jumping up and down to jam in a new mod.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 27,
+            "yPos": 55,
+            "width": 171.0,
+            "height": 67.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Will you support magic mods?",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF006400",
+            "xPos": 28,
+            "yPos": 140,
+            "width": 170.0,
+            "height": 13.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "I had this plan for some time, actually. However, I see just how much trouble it is now!",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 28,
+            "yPos": 151,
+            "width": 168.0,
+            "height": 39.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Any magic tutorial modpack would be incomplete without Thaumcraft. I had this whole thing set up to explain it. I even had my puns lined up (\"Thaum Wrestling\"). In the time it took me to polish off this pack, Thaumcraft has advanced into 1.8+ and completely revamped the mechanics. Anything I would have done would have been obsolete. And that is the magic pack I best understand! I haven\u0027t really even gotten into Witchery. Heck, I still screw up Botania, and that\u0027s not even really a magic mod.\n\nSo if you want to see \"Baby\u0027s First Eldritch Abomination,\" I\u0027ll need A LOT OF HELP.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 225,
+            "yPos": 18,
+            "width": 173.0,
+            "height": 100.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "My save won\u0027t load, and the log complains about some ArrayIndexOutOfBoundsException",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF006400",
+            "xPos": 28,
+            "yPos": 23,
+            "width": 171.0,
+            "height": 8.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Hardcore Questing Mode ate your questbook save. Sorry. :( This isn\u0027t entirely the end of the world, actually. Back up the save. Then you can delete the HardcoreQuesting folder out of it. That blows away your progress. That sucks, but you can then start up the save, type in \"/hqm edit,\" and receive a book that lets you artificially mark off all the quests you\u0027ve finished. You probably remember. Just throw out all the rewards. Scout\u0027s honor, right?",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 27,
+            "yPos": 52,
+            "width": 165.0,
+            "height": 132.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "How do I restore all the stuff involved in the \"A Philadelphia Experiment\" chapter?",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF006400",
+            "xPos": 220,
+            "yPos": 22,
+            "width": 175.0,
+            "height": 7.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "This is a problem on servers. There can only be one ship, and it gets kind of ripped apart when one person does the quest. Well, in the bfsrworld template in the modpack, you\u0027ll see copies of dimensions, like \"DIM23 backup.\" If you replace all of those with the backups in your game save, you\u0027ll get the original data back. So you can go mess around in them again!",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 220,
+            "yPos": 53,
+            "width": 174.0,
+            "height": 133.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "When will you support Minecraft 1.8/1.9/1.10/whatever?",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF006400",
+            "xPos": 25,
+            "yPos": 20,
+            "width": 173.0,
+            "height": 11.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Generally speaking, when I can transfer this modpack over to the new Minecraft, complete with updated mods, and it won\u0027t completely fall over on itself. As it stands, different mods are in all kinds of different conditions and targeting different versions of Minecraft. When they finally settle, their gameplay will have inevitably changed, and the quest progression here will become incorrect. So this isn\u0027t a casual thing.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 25,
+            "yPos": 42,
+            "width": 176.0,
+            "height": 151.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "For this modpack to continue, it will inevitably have to update, but it\u0027s not something to take lightly. Things change, become invalid, or outright corrupt themselves just during my day-to-day editing, and that\u0027s without trying to completely jump everything to a new version at once!\n\nThe good news is that I can export all the quest data, these books, and the NPCs. Those are by far the most difficult work. They all export in industry standards that I can convert with a little bit of code.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 223,
+            "yPos": 20,
+            "width": 172.0,
+            "height": 166.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Credits",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF191970",
+            "xPos": 28,
+            "yPos": 19,
+            "width": 169.0,
+            "height": 8.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "All my friends in the Dad Bar\n\nThe Something Awful goons. Seriously, if you want to play online with people, it\u0027s worth the $10 fee to sign up and see the private game servers people host.\n\nTheresaJayne, for a lot of general support and modding experience.\n\nCicadas! (with the exclamation mark). Cicadas! created the rattle. My attempt ended up looking like the player was holding a ... let\u0027s not talk about that. Use your imagination.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 29,
+            "yPos": 33,
+            "width": 169.0,
+            "height": 168.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "taiyoko, for actually submitting edits to the GitHub!\n\nKingLemming and skyboy for putting up with my shenanigans when I was overriding oregen, and then trying to turn the CoFHCore generators upside-down to do crazy stuff. I still have code to generate one-room dungeons in The Nether. ;)\n\nMcJty, for being responsive over questions about what clever crap I could try to do with RFTools.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 227,
+            "yPos": 21,
+            "width": 161.0,
+            "height": 157.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "TheAdubbz, for letting me take the Lockdown mod out in a dark alleyway and mug it. Yes, this pack uses a version of Lockdown I had to seriously edit so that you could start in the tutorial dimension and warp into a randomly-generated Overworld. It also fixed some nasty bugs that happened with block migration when updating mods. Are you using Lockdown and you hate touching your modpack? Try the Lockdown in my folder.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF555555",
+            "xPos": 30,
+            "yPos": 23,
+            "width": 159.0,
+            "height": 166.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [],
+      "pageName": ""
+    }
+  ],
+  "uniqueName": "Modpack_Notes",
+  "color": 16777215,
+  "showBackground": true,
+  "showArrows": true,
+  "showNumber": true,
+  "iconPass1": "",
+  "iconPass2": "",
+  "iconColorisePass1": false,
+  "iconColorisePass2": false,
+  "iconColorPass1": 0,
+  "iconColorPass2": 0,
+  "language": "en_US",
+  "displayName": "Modpack_Notes",
+  "displayInCreative": true
+}
