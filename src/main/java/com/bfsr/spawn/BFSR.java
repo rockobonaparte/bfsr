@@ -75,5 +75,6 @@ public class BFSR {
         manager.registerCommand(new BfsrSpawnCommand());
         manager.registerCommand(new BfsrGotoNurseryCommand());
         manager.registerCommand(new BfsrRegenTutorialDimension());
+        manager.registerCommand(new BfsrTeleportCommand());
     }
 }
