@@ -48,44 +48,55 @@ public class BfsrGotoNurseryCommand implements ICommand {
 
     @Override
     public void processCommand(ICommandSender icommandsender, String[] params) {
-        EntityPlayer player = (EntityPlayer) icommandsender;
-        try {
-            FMLLog.info("About to send the player to the nursery");
+//        EntityPlayer player = (EntityPlayer) icommandsender;
+//        try {
+//            FMLLog.info("About to send the player to the nursery");
+//            commandNursery(player);
+//            FMLLog.info("Sent the player to the nursery");
+//        } catch(Exception e) {
+//            FMLLog.bigWarning("BFSR's /bfsr_nursery command imploded!");
+//            StringWriter sw = new StringWriter();
+//            e.printStackTrace(new PrintWriter(sw));
+//            String exceptionAsString = sw.toString();
+//            FMLLog.warning(exceptionAsString);
+//        }
+
+        if (icommandsender instanceof EntityPlayerMP) {
+            EntityPlayerMP player = (EntityPlayerMP) icommandsender;
+            //BfsrTeleportCommand.teleportToDimension(player, 2, 13.0d, 66.0d, 30.0d);
             commandNursery(player);
-            FMLLog.info("Sent the player to the nursery");
-        } catch(Exception e) {
-            FMLLog.bigWarning("BFSR's /bfsr_nursery command imploded!");
-            StringWriter sw = new StringWriter();
-            e.printStackTrace(new PrintWriter(sw));
-            String exceptionAsString = sw.toString();
-            FMLLog.warning(exceptionAsString);
         }
     }
 
-    public static void commandNursery(EntityPlayer player) {
-        World world = player.worldObj;
-        if ( world.isRemote ) { return; }
+    public static void commandNursery(EntityPlayerMP player)
+    {
+        BfsrTeleportCommand.teleportToDimension(player, 2, 13.0d, 66.0d, 30.0d);
+    }
 
-        Integer pdim = 2;
-        Integer originDim = world.provider.dimensionId;
-
-        if ( originDim != pdim ) { // if changing dimensions
-            // The following is a hack fix that overcomes a problem when directly leaving the end to any other dimension.
-            // The problem: when you leave the end to another dimension the world will NOT load.
-            // The solution: when you go to another dimension then go to a third one it WILL load, so we go to another one on the way.
-            if ((originDim ==1 )) {
-                player.travelToDimension(0);
-            }
-
-            FMLLog.info("Player is about to be sent to dimension #2");
-            player.travelToDimension(pdim); // officially change dimension now
-        } // end if changing dimensions
-
-        // actually go there now
-        FMLLog.info("Player being moved to origin in dimension.");
-        ((EntityPlayerMP) player).playerNetServerHandler.setPlayerLocation(13.0d, 66.0d, 30.0d, 0.0f, 0.0f);
-    } // end commandSpawn
-
+//    public static void commandNursery(EntityPlayer player) {
+//        World world = player.worldObj;
+//        if ( world.isRemote ) { return; }
+//
+//        Integer pdim = 2;
+//        Integer originDim = world.provider.dimensionId;
+//
+//        if ( originDim != pdim ) { // if changing dimensions
+//            // The following is a hack fix that overcomes a problem when directly leaving the end to any other dimension.
+//            // The problem: when you leave the end to another dimension the world will NOT load.
+//            // The solution: when you go to another dimension then go to a third one it WILL load, so we go to another one on the way.
+//            if ((originDim ==1 )) {
+//                player.travelToDimension(0);
+//            }
+//
+//            FMLLog.info("Player is about to be sent to dimension #2");
+//            player.travelToDimension(pdim); // officially change dimension now
+//        } // end if changing dimensions
+//
+//        // actually go there now
+//        FMLLog.info("Player being moved to origin in dimension.");
+//        ((EntityPlayerMP) player).playerNetServerHandler.setPlayerLocation(13.0d, 66.0d, 30.0d, 0.0f, 0.0f);
+//    } // end commandSpawn
+//
     @Override
     public boolean canCommandSenderUseCommand(ICommandSender icommandsender) {
         return true;

@@ -13,6 +13,8 @@ import net.minecraft.world.WorldSettings;
 import net.minecraft.world.WorldType;
 import net.minecraft.util.ChatComponentText;
 import net.minecraft.command.CommandBase;
+import net.minecraft.server.MinecraftServer;
+import net.minecraft.world.WorldServer;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;
@@ -55,7 +57,6 @@ public class BfsrTeleportCommand extends CommandBase {
             return;
         }
 
-        World world = icommandsender.getEntityWorld();
         EntityPlayerMP targetPlayer = getPlayer(icommandsender, params[0]);
 
         if(targetPlayer == null) {
@@ -70,7 +71,7 @@ public class BfsrTeleportCommand extends CommandBase {
         float z = Float.parseFloat(params[4]);
         try {
             FMLLog.info("About to teleport player");
-            commandTeleport(world, targetPlayer, dimension, x, y, z);
+            teleportToDimension(targetPlayer, dimension, x, y, z);
             FMLLog.info("Teleported player");
         } catch(Exception e) {
             FMLLog.bigWarning("BFSR's /bfsr_tp command imploded!");
@@ -81,27 +82,23 @@ public class BfsrTeleportCommand extends CommandBase {
         }
     }
 
-    public static void commandTeleport(World world, EntityPlayerMP player, int pdim, float x, float y, float z) {
-        if ( world.isRemote ) { return; }
-
-        Integer originDim = world.provider.dimensionId;
-
-        if ( originDim != pdim ) { // if changing dimensions
-            // The following is a hack fix that overcomes a problem when directly leaving the end to any other dimension.
-            // The problem: when you leave the end to another dimension the world will NOT load.
-            // The solution: when you go to another dimension then go to a third one it WILL load, so we go to another one on the way.
-            if ((originDim ==1 )) {
-                player.travelToDimension(0);
-            }
-
-            FMLLog.info("Player is about to be sent to dimension #2");
-            player.travelToDimension(pdim); // officially change dimension now
-        } // end if changing dimensions
-
-        // actually go there now
-        FMLLog.info("Player being moved to origin in dimension.");
-        player.playerNetServerHandler.setPlayerLocation(x, y, z, 0.0f, 0.0f);
-    } // end commandSpawn
+    // Shamelessly stolen from RFTools.
+    // Thanks McJty!
+    // I discovered that the reason nether portals are spawning everywhere is because the player teleportation command
+    // has logic to cause one to generate. Well, RFTool doesn't do that, and this is ground zero for executing the
+    // actual cross-dimension movement.
+    public static void teleportToDimension(EntityPlayerMP player, int dimension, double x, double y, double z) {
+        int oldDimension = player.worldObj.provider.dimensionId;
+        WorldServer worldServer = MinecraftServer.getServer().worldServerForDimension(dimension);
+        player.addExperienceLevel(0);
+        MinecraftServer.getServer().getConfigurationManager().transferPlayerToDimension(player, dimension, new NullTeleporter(worldServer, x, y, z));
+        if (oldDimension == 1) {
+            // For some reason teleporting out of the end does weird things.
+            player.setPositionAndUpdate(x, y, z);
+            worldServer.spawnEntityInWorld(player);
+            worldServer.updateEntityWithOptionalForce(player, false);
+        }
+    }
 
     @Override
     public boolean canCommandSenderUseCommand(ICommandSender icommandsender) {

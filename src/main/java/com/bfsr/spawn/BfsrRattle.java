@@ -5,6 +5,9 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
+import net.minecraft.entity.player.EntityPlayerMP;
+import net.minecraft.server.MinecraftServer;
+
 
 /**
  * Created by Adam on 2/13/2016.
@@ -17,7 +20,12 @@ public class BfsrRattle extends Item {
     }
 
     public ItemStack onItemRightClick(ItemStack stack, World world, EntityPlayer player) {
-        BfsrGotoNurseryCommand.commandNursery(player);
+        if(player instanceof EntityPlayerMP)
+        {
+            EntityPlayerMP playerMP = (EntityPlayerMP) player;
+//        EntityPlayerMP playerMP = MinecraftServer.getServer().getConfigurationManager().getPlayerForUsername(player.username);
+            BfsrGotoNurseryCommand.commandNursery(playerMP);
+        }
         return stack;
     }
 }
