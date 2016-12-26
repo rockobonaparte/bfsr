@@ -55,7 +55,7 @@ public class BFSR {
     @EventHandler
     public void init(FMLInitializationEvent event) {
         // some example code
-        System.out.println("Initialized BFSR spawn helpers.");
+        // System.out.println("Initialized BFSR spawn helpers.");
     }
 
     @EventHandler

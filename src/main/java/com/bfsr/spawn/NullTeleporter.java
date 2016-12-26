@@ -17,6 +17,8 @@ import net.minecraft.server.MinecraftServer;
 import net.minecraft.world.WorldServer;
 import net.minecraft.entity.Entity;
 import net.minecraft.world.Teleporter;
+//import org.apache.logging.log4j.LogManager;
+//import org.apache.logging.log4j.Logger;
 
 /**
  * Created by Adam on 7/20/2016.
@@ -24,39 +26,19 @@ import net.minecraft.world.Teleporter;
 public class NullTeleporter  extends Teleporter {
 
     final WorldServer worldServer;
-
-//    public NullTeleporter(WorldServer worldServer)
-//    {
-//        super(worldServer);
-//        this.worldServer = worldServer;
-//    }
-//
-//    @Override
-//    public boolean makePortal(Entity entity){return true;}
-
-
-//    @Override
-//    public void placeInPortal(Entity entity, double x, double y, double z, float yaw)
-//    {
-//        //if(entity instanceof EntityPlayer)
-//        //{
-//            //EntityPlayer player = (EntityPlayer)entity;
-//            //ChunkCoordinates spawn = player.worldObj.getSpawnPoint();
-//            //spawn.posY = player.worldObj.getTopSolidOrLiquidBlock(spawn.posX, spawn.posZ);
-//            //player.setPositionAndUpdate(spawn.posX, spawn.posY + 1, spawn.posZ);
-//
-//            //player.setPositionAndUpdate(x, y + 1, z);
-//        //}
-//    }
+//    private static Logger logger = LogManager.getLogger(BFSR.MODID);
 
     private double x, y, z;
 
     public NullTeleporter(WorldServer world, double x, double y, double z) {
         super(world);
+
         this.worldServer = world;
         this.x = x;
         this.y = y;
         this.z = z;
+
+//        logger.info("Creating a BFSR NullTeleporter");
 
     }
 
@@ -68,5 +50,8 @@ public class NullTeleporter  extends Teleporter {
         pEntity.motionX = 0.0f;
         pEntity.motionY = 0.0f;
         pEntity.motionZ = 0.0f;
+
+//        logger.info("Placing player in the BFSR NullTeleporter");
+
     }
 }

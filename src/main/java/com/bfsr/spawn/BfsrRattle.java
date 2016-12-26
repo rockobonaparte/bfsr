@@ -23,7 +23,6 @@ public class BfsrRattle extends Item {
         if(player instanceof EntityPlayerMP)
         {
             EntityPlayerMP playerMP = (EntityPlayerMP) player;
-//        EntityPlayerMP playerMP = MinecraftServer.getServer().getConfigurationManager().getPlayerForUsername(player.username);
             BfsrGotoNurseryCommand.commandNursery(playerMP);
         }
         return stack;

@@ -89,11 +89,24 @@ public class BfsrTeleportCommand extends CommandBase {
     // actual cross-dimension movement.
     public static void teleportToDimension(EntityPlayerMP player, int dimension, double x, double y, double z) {
         int oldDimension = player.worldObj.provider.dimensionId;
+
+        if (oldDimension == dimension) {
+            player.setPositionAndUpdate(x, y, z);
+            return;
+        }
+
+        EntityPlayerMP entityPlayerMP = (EntityPlayerMP) player;
         WorldServer worldServer = MinecraftServer.getServer().worldServerForDimension(dimension);
         player.addExperienceLevel(0);
-        MinecraftServer.getServer().getConfigurationManager().transferPlayerToDimension(player, dimension, new NullTeleporter(worldServer, x, y, z));
+        MinecraftServer.getServer().getConfigurationManager().transferPlayerToDimension(entityPlayerMP, dimension,
+                new NullTeleporter(worldServer, x, y, z));
+        player.setPositionAndUpdate(x, y, z);
         if (oldDimension == 1) {
             // For some reason teleporting out of the end does weird things.
+            // Yes, setPositionAndUpdate is getting called twice. I saw it in RFTools:
+            // https://github.com/McJty/RFTools/blob/9c9813bb4e706b6028c79f71e14fc118837128b4/src/main/java/mcjty/rftools/blocks/teleporter/TeleportationTools.java
+            // I am cargo-cult copying and pasting his code, even when it's for a newer Minecraft.
+            // I'm trying really hard to eliminate all jittering that's happening when I do teleportation!!!
             player.setPositionAndUpdate(x, y, z);
             worldServer.spawnEntityInWorld(player);
             worldServer.updateEntityWithOptionalForce(player, false);
