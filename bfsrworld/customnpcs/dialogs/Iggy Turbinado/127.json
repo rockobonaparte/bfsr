@@ -2,26 +2,6 @@
     "DialogShowWheel": 0b,
     "AvailabilityQuestId": -1,
     "Options": [
-        {
-            "OptionSlot": 0,
-            "Option": {
-                "DialogCommand": "",
-                "Dialog": 41,
-                "Title": "WHAT IS THIS THING?!",
-                "DialogColor": 14737632,
-                "OptionType": 1
-            }
-        },
-        {
-            "OptionSlot": 1,
-            "Option": {
-                "DialogCommand": "",
-                "Dialog": 127,
-                "Title": "Good sir, it appears that device is not working",
-                "DialogColor": 14737632,
-                "OptionType": 1
-            }
-        }
     ],
     "DialogHideNPC": 0b,
     "AvailabilityFactionStance": 0,
@@ -42,7 +22,7 @@
     "OptionFaction1Points": 100,
     "DialogDisableEsc": 0b,
     "AvailabilityFaction": 0,
-    "DialogTitle": "Greeting",
+    "DialogTitle": "It's Not Working",
     "AvailabilityDialog": 0,
     "AvailabilityFaction2": 0,
     "AvailabilityFactionId": -1,
@@ -50,7 +30,7 @@
     "DialogCommand": "",
     "AvailabilityDialogId": -1,
     "OptionFaction2Points": 100,
-    "DialogText": "Heeeey! :)",
+    "DialogText": "Wait... what?!Oh gees.What probably happened is that the turbine deactivated when the world was loaded. It doesn't carry over from the template very well. You might have to activate the turbine yourself. It should slowly start to speed up.",
     "AvailabilityQuest4Id": -1,
     "AvailabilityQuest3Id": -1,
     "AvailabilityQuest2Id": -1,
@@ -67,7 +47,7 @@
         "MailItems": [
         ],
         "MailQuest": -1,
-        "TimePast": 1483059936690L,
+        "TimePast": 1483059854589L,
         "Time": 0L,
         "Subject": ""
     }
