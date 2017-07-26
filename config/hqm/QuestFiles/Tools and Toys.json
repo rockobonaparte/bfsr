@@ -85,7 +85,7 @@
       "y": 39,
       "icon": {
         "id": "TConstruct:pickaxe",
-        "nbt": "{InfiTool:{BaseDurability:65,Head:1,Built:1b,HarvestLevel:1,Attack:2,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,Accessory:1,MiningSpeed:400,RenderAccessory:1,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:65},display:{Name:\"ï¿½fStone Pickaxe\"}}"
+        "nbt": "{InfiTool:{BaseDurability:131,Head:1,BaseAttack:2,HarvestLevel:1,Attack:2,RenderHead:1,ModDurability:0.0f,Handle:0,Broken:0b,Shoddy:0.33333334f,RenderHandle:0,Accessory:0,MiningSpeed:400,RenderAccessory:0,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:131,Modifiers:3},display:{Name:\"§fStone Pickaxe\"}}"
       },
       "prerequisites": [
         "Pattern After Me"
@@ -94,7 +94,7 @@
         {
           "type": "DETECT",
           "description": "Building The Patterns",
-          "longDescription": "You will have to make more patterns. After that, go to the stencil table and place the patterns inside. You can leave them there. Create a pattern each for: pickaxe head, tool binding, and tool rod. You need all three to make a pickaxe.",
+          "longDescription": "You will have to make more patterns. After that, go to the stencil table and place the patterns inside. You can leave them there. Create a pattern each for a pickaxe head and a tool binding. You need these and a stick handle to make the pickaxe.",
           "items": [
             {
               "item": {
@@ -107,19 +107,13 @@
                 "id": "TConstruct:woodPattern",
                 "damage": 9
               }
-            },
-            {
-              "item": {
-                "id": "TConstruct:woodPattern",
-                "damage": 1
-              }
             }
           ]
         },
         {
           "type": "DETECT",
           "description": "Building The Parts",
-          "longDescription": "Take the patterns to the part builder. One at a time, place a pattern in one of the left boxes, and some stone in the right box. You need 1 cobblestone for the head, and half a cobblestone for the binding and rod. If you use cobblestone on one, you\u0027ll get a leftover stone piece that you can then use to make the other (binding and rods are half a cobblestone each).",
+          "longDescription": "Take the patterns to the part builder. One at a time, place a pattern in one of the left boxes, and some stone in the right box. You need 1 cobblestone for the head, and a stick each for the binding and the handle. You want to use a stick for the handle since it is more durable, and it doesn\u0027t matter on the binding with this pick.",
           "items": [
             {
               "item": {
@@ -129,14 +123,12 @@
             },
             {
               "item": {
-                "id": "TConstruct:toolRod",
-                "damage": 1
+                "id": "minecraft:stick"
               }
             },
             {
               "item": {
-                "id": "TConstruct:binding",
-                "damage": 1
+                "id": "TConstruct:binding"
               }
             }
           ]
@@ -149,7 +141,7 @@
             {
               "item": {
                 "id": "TConstruct:pickaxe",
-                "nbt": "{InfiTool:{BaseDurability:65,Head:1,BaseAttack:2,Built:1b,HarvestLevel:1,Attack:2,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,Accessory:1,MiningSpeed:400,RenderAccessory:1,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:65},display:{Name:\"§fStone Pickaxe\"}}"
+                "nbt": "{InfiTool:{BaseDurability:131,Head:1,BaseAttack:2,HarvestLevel:1,Attack:2,RenderHead:1,ModDurability:0.0f,Handle:0,Broken:0b,Shoddy:0.33333334f,RenderHandle:0,Accessory:0,MiningSpeed:400,RenderAccessory:0,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:131,Modifiers:3},display:{Name:\"§fStone Pickaxe\"}}"
               },
               "precision": "NBT_FUZZY"
             }
@@ -420,60 +412,6 @@
         },
         {
           "id": "minecraft:apple"
-        }
-      ]
-    },
-    {
-      "name": "I Pick You!",
-      "description": "Steel tools mine faster, mine harder, make better armor, and make better swords. It\u0027s the good stuff. Oh, and you need steel for your MOON ROCKET. But let\u0027s revel in a steel pick for a second. It mines just about everything quickly, and is extremely durable.",
-      "x": 230,
-      "y": 74,
-      "icon": {
-        "id": "TConstruct:pickaxe",
-        "nbt": "{InfiTool:{BaseDurability:974,Head:16,Built:1b,HarvestLevel:4,Attack:5,RenderHead:16,ModDurability:0.0f,Handle:16,Broken:0b,Shoddy:0.0f,RenderHandle:16,Accessory:16,MiningSpeed:1000,RenderAccessory:16,Unbreaking:2,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:974},display:{Name:\"ï¿½fSteel Pickaxe\"}}"
-      },
-      "prerequisites": [
-        "The Forge"
-      ],
-      "tasks": [
-        {
-          "type": "DETECT",
-          "description": "Make The Parts",
-          "longDescription": "You know the drill. Or should I say, you know the pickaxe . . . I can\u0027t check if you actually made the pick due to some detection issues in the quest book, so the parts will have to do. Social contract blablabla.",
-          "items": [
-            {
-              "item": {
-                "id": "TConstruct:pickaxeHead",
-                "damage": 16
-              }
-            },
-            {
-              "item": {
-                "id": "TConstruct:binding",
-                "damage": 16
-              }
-            },
-            {
-              "item": {
-                "id": "TConstruct:toolRod",
-                "damage": 16
-              }
-            }
-          ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "TConstruct:materials",
-          "damage": 16,
-          "amount": 2
-        },
-        {
-          "id": "minecraft:chainmail_helmet"
-        },
-        {
-          "id": "TConstruct:frypan",
-          "nbt": "{InfiTool:{BaseDurability:974,Head:16,Built:1b,HarvestLevel:4,Attack:6,RenderHead:16,ModDurability:0.0f,Handle:16,Broken:0b,Shoddy:0.0f,RenderHandle:16,MiningSpeed:1000,Unbreaking:2,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:974},display:{Name:\"ï¿½fSteel Frying Pan\"}}"
         }
       ]
     },
@@ -770,75 +708,6 @@
       ]
     },
     {
-      "name": "Hammer Time",
-      "description": "Hammers can mine a 3x3 area around the block that\u0027s targeted by it. You could send one of your teammates out on mining duty, and they\u0027d probably come back with everything you need for that moon trip. It\u0027s very fast, goes through everything, and also beats the snot out of zombies (smite bonus)!",
-      "x": 235,
-      "y": 107,
-      "icon": {
-        "id": "TConstruct:hammer",
-        "nbt": "{InfiTool:{RenderExtra:16,BaseDurability:8774,Built:1b,HarvestLevel:4,HarvestLevelExtra:4,MiningSpeedExtra:1000,RenderHead:16,ModDurability:0.0f,Shoddy:0.0f,RenderHandle:16,Accessory:16,MiningSpeed:1000,Unbreaking:2,Damage:0,HarvestLevel2:4,BonusDurability:0,TotalDurability:8774,MiningSpeed2:1000,Head:16,Attack:6,Handle:16,Broken:0b,Extra:16,RenderAccessory:16,Modifiers:3},display:{Name:\"ï¿½fSteel Hammer\"}}"
-      },
-      "prerequisites": [
-        "The Forge"
-      ],
-      "tasks": [
-        {
-          "type": "DETECT",
-          "description": "Make The Parts",
-          "longDescription": "At this point, you should know the drill. Go to the tool forge, look up the hammer, and see all that stuff you need. You will need lots of steel . . . something like 27 ingots worth. It\u0027s worth it though.",
-          "items": [
-            {
-              "item": {
-                "id": "TConstruct:heavyPlate",
-                "damage": 16
-              },
-              "required": 2
-            },
-            {
-              "item": {
-                "id": "TConstruct:hammerHead",
-                "damage": 16
-              }
-            },
-            {
-              "item": {
-                "id": "TConstruct:toughRod",
-                "damage": 16
-              }
-            }
-          ]
-        },
-        {
-          "type": "DETECT",
-          "description": "Make The Hammer",
-          "items": [
-            {
-              "item": {
-                "id": "TConstruct:hammer",
-                "nbt": "{InfiTool:{RenderExtra:16,BaseDurability:8774,BaseAttack:6,Built:1b,HarvestLevel:4,HarvestLevelExtra:4,MiningSpeedExtra:1000,RenderHead:16,ModDurability:0.0f,Shoddy:0.0f,RenderHandle:16,Accessory:16,MiningSpeed:1000,Unbreaking:2,Damage:0,HarvestLevel2:4,BonusDurability:0,TotalDurability:8774,MiningSpeed2:1000,Head:16,Attack:6,Handle:16,Broken:0b,Extra:16,RenderAccessory:16,Modifiers:3},display:{Name:\"§fSteel Hammer\"}}"
-              },
-              "precision": "NBT_FUZZY"
-            }
-          ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "Mekanism:BasicBlock",
-          "damage": 5
-        },
-        {
-          "id": "minecraft:ender_pearl",
-          "amount": 4
-        },
-        {
-          "id": "TConstruct:materials",
-          "damage": 3,
-          "amount": 24
-        }
-      ]
-    },
-    {
       "name": "Beware Of Woodpeckers",
       "description": "Wood armor is terrible, but it can help survive a concussive blast from a creeper. Plus, logs should start being commonplace. Tinkers\u0027 Construct added wood armor, and since we\u0027re talking about that mod now, you might as well start making some of that armor.",
       "x": 25,
@@ -1081,7 +950,7 @@
       "y": 14,
       "icon": {
         "id": "TConstruct:shovel",
-        "nbt": "{InfiTool:{BaseDurability:65,Head:1,Built:1b,HarvestLevel:1,Attack:3,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,MiningSpeed:400,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:65},display:{Name:\"ï¿½fStone Shovel\"}}"
+        "nbt": "{InfiTool:{BaseDurability:131,Head:1,BaseAttack:3,HarvestLevel:1,Attack:3,RenderHead:1,ModDurability:0.0f,Handle:0,Broken:0b,Shoddy:0.5f,RenderHandle:0,MiningSpeed:400,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:131,Modifiers:3},display:{Name:\"§fStone Shovel\"}}"
       },
       "prerequisites": [
         "Picking From The Parts"
@@ -1090,7 +959,7 @@
         {
           "type": "DETECT",
           "description": "Get The Patterns",
-          "longDescription": "You already have the tool rod, so I won\u0027t ask for it again.",
+          "longDescription": "Just a shovel head pattern. You\u0027ll still use a stick for the handle.",
           "items": [
             {
               "item": {
@@ -1112,8 +981,7 @@
             },
             {
               "item": {
-                "id": "TConstruct:toolRod",
-                "damage": 1
+                "id": "minecraft:stick"
               }
             }
           ]
@@ -1126,7 +994,7 @@
             {
               "item": {
                 "id": "TConstruct:shovel",
-                "nbt": "{InfiTool:{BaseDurability:65,Head:1,BaseAttack:3,Built:1b,HarvestLevel:1,Attack:3,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,MiningSpeed:400,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:65},display:{Name:\"§fStone Shovel\"}}"
+                "nbt": "{InfiTool:{BaseDurability:131,Head:1,BaseAttack:3,HarvestLevel:1,Attack:3,RenderHead:1,ModDurability:0.0f,Handle:0,Broken:0b,Shoddy:0.5f,RenderHandle:0,MiningSpeed:400,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:131,Modifiers:3},display:{Name:\"§fStone Shovel\"}}"
               },
               "precision": "NBT_FUZZY"
             }
@@ -1148,7 +1016,7 @@
       "y": 67,
       "icon": {
         "id": "TConstruct:hatchet",
-        "nbt": "{InfiTool:{BaseDurability:65,Head:1,Built:1b,HarvestLevel:1,Attack:4,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,MiningSpeed:400,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:65},display:{Name:\"ï¿½fStone Hatchet\"}}"
+        "nbt": "{InfiTool:{BaseDurability:131,Head:1,BaseAttack:4,HarvestLevel:1,Attack:4,RenderHead:1,ModDurability:0.0f,Handle:0,Broken:0b,Shoddy:0.5f,RenderHandle:0,MiningSpeed:400,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:131,Modifiers:3},display:{Name:\"§fStone Hatchet\"}}"
       },
       "prerequisites": [
         "Picking From The Parts"
@@ -1157,7 +1025,7 @@
         {
           "type": "DETECT",
           "description": "Axe Pattern",
-          "longDescription": "You already have the tool rod, so I\u0027m just asking for the axe head.",
+          "longDescription": "I\u0027m just asking for the axe head. You should be able to handle this stick business.",
           "items": [
             {
               "item": {
@@ -1170,6 +1038,7 @@
         {
           "type": "DETECT",
           "description": "The Parts",
+          "longDescription": "Sticks and stone axe heads don\u0027t break my bones, they cut them instead!",
           "items": [
             {
               "item": {
@@ -1179,8 +1048,7 @@
             },
             {
               "item": {
-                "id": "TConstruct:toolRod",
-                "damage": 1
+                "id": "minecraft:stick"
               }
             }
           ]
@@ -1193,7 +1061,7 @@
             {
               "item": {
                 "id": "TConstruct:hatchet",
-                "nbt": "{InfiTool:{BaseDurability:65,Head:1,BaseAttack:4,Built:1b,HarvestLevel:1,Attack:4,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,MiningSpeed:400,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:65},display:{Name:\"§fStone Hatchet\"}}"
+                "nbt": "{InfiTool:{BaseDurability:131,Head:1,BaseAttack:4,HarvestLevel:1,Attack:4,RenderHead:1,ModDurability:0.0f,Handle:0,Broken:0b,Shoddy:0.5f,RenderHandle:0,MiningSpeed:400,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:131,Modifiers:3},display:{Name:\"§fStone Hatchet\"}}"
               },
               "precision": "NBT_FUZZY"
             }
@@ -1215,7 +1083,7 @@
       "y": 10,
       "icon": {
         "id": "TConstruct:mattock",
-        "nbt": "{InfiTool:{MiningSpeed2:400,BaseDurability:98,Head:1,BaseAttack:4,Built:1b,HarvestLevel:1,Attack:4,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,Accessory:1,MiningSpeed:400,RenderAccessory:1,Unbreaking:0,Damage:0,HarvestLevel2:1,BonusDurability:0,Modifiers:3,TotalDurability:98},display:{Name:\"§fStone Mattock\"}}"
+        "nbt": "{InfiTool:{MiningSpeed2:400,BaseDurability:196,Head:1,BaseAttack:4,HarvestLevel:1,Attack:4,RenderHead:1,ModDurability:0.0f,Handle:0,Broken:0b,Shoddy:0.6666667f,RenderHandle:0,Accessory:1,MiningSpeed:400,RenderAccessory:1,Unbreaking:0,Damage:0,HarvestLevel2:1,BonusDurability:0,TotalDurability:196,Modifiers:3},display:{Name:\"§fStone Mattock\"}}"
       },
       "prerequisites": [
         "Picking From The Parts"
@@ -1236,12 +1104,6 @@
               "item": {
                 "id": "TConstruct:woodPattern",
                 "damage": 4
-              }
-            },
-            {
-              "item": {
-                "id": "TConstruct:woodPattern",
-                "damage": 1
               }
             }
           ]
@@ -1265,8 +1127,7 @@
             },
             {
               "item": {
-                "id": "TConstruct:toolRod",
-                "damage": 1
+                "id": "minecraft:stick"
               }
             }
           ]
@@ -1472,7 +1333,7 @@
       "y": 43,
       "icon": {
         "id": "TConstruct:longsword",
-        "nbt": "{InfiTool:{BaseDurability:65,Head:1,BaseAttack:5,Built:1b,HarvestLevel:1,Attack:5,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,Accessory:1,MiningSpeed:400,RenderAccessory:1,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:65},display:{Name:\"ï¿½fStone Longsword\"}}"
+        "nbt": "{InfiTool:{BaseDurability:131,Head:1,BaseAttack:5,HarvestLevel:1,Attack:5,RenderHead:1,ModDurability:0.0f,Handle:0,Broken:0b,Shoddy:0.6666667f,RenderHandle:0,Accessory:1,MiningSpeed:400,RenderAccessory:1,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:131,Modifiers:3},display:{Name:\"§fStone Longsword\"}}"
       },
       "prerequisites": [
         "Picking From The Parts"
@@ -1481,14 +1342,8 @@
         {
           "type": "DETECT",
           "description": "The Patterns",
-          "longDescription": "You need a tool rod, a hand guard, and a sword pattern. Pay special attention for the hand guard pattern. They do look alike.",
+          "longDescription": "You need a stick, a hand guard, and a sword pattern. Pay special attention for the hand guard pattern. They do look alike.",
           "items": [
-            {
-              "item": {
-                "id": "TConstruct:woodPattern",
-                "damage": 1
-              }
-            },
             {
               "item": {
                 "id": "TConstruct:woodPattern",
@@ -1506,12 +1361,11 @@
         {
           "type": "DETECT",
           "description": "The Parts",
-          "longDescription": "You know the drill. The tool rod and the hand guard cost half a cobblestone each, so you can make one with the scraps from the other.",
+          "longDescription": "The hand guard costs half a cobblestone, which leaves you with a goofy stone shard thing. You can use it later on another thing that costs half a cobblestone, or throw it towards repairing a stone tool later. You definitely want the stone hand card since it adds a little more damage power to the sword. Make sure you get the right hand guard; there are a few to pick from that look very similar!",
           "items": [
             {
               "item": {
-                "id": "TConstruct:toolRod",
-                "damage": 1
+                "id": "minecraft:stick"
               }
             },
             {
@@ -1531,12 +1385,12 @@
         {
           "type": "DETECT",
           "description": "The Sword",
-          "longDescription": "You know the drill. Fun fact: you can make the longsword even if you pick the wrong sword to make in the tool station.",
+          "longDescription": "You know the drill. Fun fact: you can make the longsword even if you pick the wrong sword to make in the tool station, so long as you feed in the right parts.",
           "items": [
             {
               "item": {
                 "id": "TConstruct:longsword",
-                "nbt": "{InfiTool:{BaseDurability:65,Head:1,BaseAttack:5,Built:1b,HarvestLevel:1,Attack:5,RenderHead:1,ModDurability:0.0f,Handle:1,Broken:0b,Shoddy:1.0f,RenderHandle:1,Accessory:1,MiningSpeed:400,RenderAccessory:1,Unbreaking:0,Damage:0,BonusDurability:0,Modifiers:3,TotalDurability:65},display:{Name:\"§fStone Longsword\"}}"
+                "nbt": "{InfiTool:{BaseDurability:131,Head:1,BaseAttack:5,HarvestLevel:1,Attack:5,RenderHead:1,ModDurability:0.0f,Handle:0,Broken:0b,Shoddy:0.6666667f,RenderHandle:0,Accessory:1,MiningSpeed:400,RenderAccessory:1,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:131,Modifiers:3},display:{Name:\"§fStone Longsword\"}}"
               },
               "precision": "NBT_FUZZY"
             }
@@ -1742,8 +1596,8 @@
     {
       "name": "Leave It To Cleaver",
       "description": "The cleaver has a huge amount of attack damage, but it is really unwieldy. You actually get mining fatigue while holding it! The main reason to use it is to chop off the heads of your opponents. Yeah, some stuff here requires heads. Using a cleaver greatly improves the chances of getting those heads.",
-      "x": 238,
-      "y": 23,
+      "x": 237,
+      "y": 71,
       "icon": {
         "id": "TConstruct:cleaver",
         "nbt": "{InfiTool:{RenderExtra:9,MiningSpeed2:1300,BaseDurability:1350,Head:190,BaseAttack:16,HarvestLevel:10,Attack:16,RenderHead:190,ModDurability:0.0f,Handle:9,Broken:0b,Shoddy:0.0f,RenderHandle:9,Accessory:190,Extra:9,MiningSpeed:1300,RenderAccessory:190,Unbreaking:0,Damage:0,HarvestLevel2:10,BonusDurability:0,TotalDurability:1350,Modifiers:5},display:{Name:\"§fSignalum Cleaver\"}}"

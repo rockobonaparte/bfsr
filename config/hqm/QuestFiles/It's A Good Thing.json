@@ -36,8 +36,8 @@
     {
       "name": "Introduction To Chisel",
       "description": "Chisel is a mod that adds all kinds of decorative blocks. There are some base blocks that can become one of many in a family of blocks by selecting with ... Chisel\u0027s chisel. You have to start by making this chisel.",
-      "x": 31,
-      "y": 42,
+      "x": 57,
+      "y": 60,
       "icon": {
         "id": "chisel:chisel"
       },
@@ -66,10 +66,10 @@
       ]
     },
     {
-      "name": "Konnichiwa!",
+      "name": "Konnichiwa! ::^_^::",
       "description": "Now you can have your own Japanese-themed garden house. Heck, if you were like me, you probably built pogodas in Vanilla Minecraft anyways. Now you can do it right! There are two families here. One set are flat pieces, since these walls are notorious for being so thin. However, there are also block forms.",
-      "x": 54,
-      "y": 17,
+      "x": 58,
+      "y": 15,
       "icon": {
         "id": "chisel:paperwall",
         "damage": 3
@@ -136,8 +136,8 @@
     {
       "name": "The Industrial Zone",
       "description": "This is my favorite block family for no-frills factory labs.",
-      "x": 30,
-      "y": 77,
+      "x": 23,
+      "y": 87,
       "icon": {
         "id": "chisel:factoryblock"
       },
@@ -181,8 +181,8 @@
     {
       "name": "Your Purpled Fantasy",
       "description": "Purpled fantasy blocks are really fancy. It\u0027s almost offensive to put your ugly machines in them!",
-      "x": 54,
-      "y": 92,
+      "x": 44,
+      "y": 100,
       "icon": {
         "id": "chisel:fantasyblock",
         "damage": 10
@@ -472,8 +472,8 @@
     {
       "name": "Ding Ding Ding Ding Ding",
       "description": "Holystone is particularly fun to use as floors because it makes these chiming sounds when you walk across it, and it also emits glowing particles. It doesn\u0027t have any other special effects than that, but that\u0027s probably enough for you to try them!",
-      "x": 78,
-      "y": 81,
+      "x": 66,
+      "y": 101,
       "icon": {
         "id": "chisel:holystone",
         "damage": 10
@@ -518,8 +518,8 @@
     {
       "name": "Happy Halloween!",
       "description": "Use a chisel on a pumpkin to get different faces. In turn, use a torch on them to get a jack-o-lantern. This gives you some more fun possibilities for your Halloween decorations.",
-      "x": 96,
-      "y": 52,
+      "x": 99,
+      "y": 67,
       "icon": {
         "id": "chisel:jackolantern14"
       },
@@ -566,8 +566,8 @@
     {
       "name": "A Well-Chiseled Chest",
       "description": "If you ever played Minecraft on Christmas, you will find that all the chests are turned into gift boxes. Chisel brought those back for any time of the year, and added on more colors. You just put the chest in a crafting grid with a dye, and you will get a colored gift box.",
-      "x": 84,
-      "y": 29,
+      "x": 96,
+      "y": 44,
       "icon": {
         "id": "chisel:present",
         "damage": 2
@@ -670,94 +670,10 @@
       ]
     },
     {
-      "name": "DecoCraft And Microwaves",
-      "description": "DecoCraft lets you create all kinds of props that will make you feel at home in Minecraft. It\u0027s an essential if you\u0027re trying to replicate your house in Minecraft. Most of the stuff you can make are just props, although some things will have some storage in them. You make all of these items out of special dyed clays on a special DecoCraft bench.",
-      "x": 116,
-      "y": 139,
-      "icon": {
-        "id": "props:props",
-        "damage": 599
-      },
-      "prerequisites": [
-        "{Vanilla Minecraft}[Clay More]"
-      ],
-      "tasks": [
-        {
-          "type": "CRAFT",
-          "description": "Play With Clay",
-          "longDescription": "You might have to do some more dye hunting to make these clays. If you are extracting them from flowers, I recommend using a pulverizer since you\u0027ll get more yield. You need two of each of these colors: red, green, and blue. From there, you can make the crafting clay by combining those dyes with a dirt and a sand. I guess they decided clay is a hard-enough resource to get in Minecraft that it isn\u0027t actually used in making... clay. That\u0027s fair enough honestly, but the dyes are usually even harder to get!",
-          "items": [
-            {
-              "item": {
-                "id": "props:clay"
-              },
-              "required": 2
-            },
-            {
-              "item": {
-                "id": "props:clay",
-                "damage": 2
-              },
-              "required": 2
-            },
-            {
-              "item": {
-                "id": "props:clay",
-                "damage": 1
-              },
-              "required": 2
-            }
-          ]
-        },
-        {
-          "type": "CRAFT",
-          "description": "Another Bench",
-          "longDescription": "The bench is made by combining a crafting bench with one each of the three different crafting clays.",
-          "items": [
-            {
-              "item": {
-                "id": "props:props",
-                "damage": 508
-              }
-            }
-          ]
-        },
-        {
-          "type": "DETECT",
-          "description": "Microwaving Goodbye",
-          "longDescription": "From there, search for the microwave in the decobench, feed it the rest of the clay, and you should have yourself a microwave prop! Try to place it. Note that you have a lot of flexibility in orientation. Note: I\u0027m looking for the regular microwave, NOT THE DARK ONE.",
-          "items": [
-            {
-              "item": {
-                "id": "props:props",
-                "damage": 599
-              }
-            }
-          ]
-        }
-      ],
-      "reward": [
-        {
-          "id": "props:clay",
-          "amount": 64
-        },
-        {
-          "id": "props:clay",
-          "damage": 2,
-          "amount": 64
-        },
-        {
-          "id": "props:clay",
-          "damage": 1,
-          "amount": 64
-        }
-      ]
-    },
-    {
       "name": "Something More Concrete",
       "description": "Concrete is some great stuff. For the cost of cooking some gravel, you get a block that doubles your speed! However, something about them will keep you from going through doorways, so you need to switch out to another block.",
-      "x": 103,
-      "y": 76,
+      "x": 92,
+      "y": 91,
       "icon": {
         "id": "chisel:concrete"
       },
@@ -911,7 +827,7 @@
         {
           "type": "CRAFT",
           "description": "It\u0027s Really Easy To Make Too",
-          "longDescription": "Glass and torches... etc.",
+          "longDescription": "Glass and torches... etc. To trigger it, you\u0027ll need to give it a redstone signal. I recommend just shift-right-clicking a lever onto one side and flipping it.",
           "items": [
             {
               "item": {
@@ -1352,6 +1268,116 @@
         {
           "id": "minecraft:paper",
           "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "Of Course It Can Do Stone",
+      "description": "People like to think they can just encase themselves in stone bricks and act like they live in Prettytown. Unimpressive. Well, if you are one of those people, chisel will help you out. Now you don\u0027t need 4 stone just to get started. It will convert how many you have, including odd numbers. It also gives you pretty choices. Finally, you can move back and forth between choices without a problem. Now make your stone block houses look pretty!",
+      "x": 84,
+      "y": 25,
+      "icon": {
+        "id": "minecraft:monster_egg",
+        "damage": 5
+      },
+      "prerequisites": [
+        "Introduction To Chisel"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Stone Panel",
+          "longDescription": "The stone panel is somewhere in the middle of the selections. I picked that because you can\u0027t craft it from stone normally! See! It even gives you prettier options!",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:stonebricksmooth",
+                "damage": 12
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "chisel:stonebricksmooth",
+          "damage": 12,
+          "amount": 127
+        },
+        {
+          "id": "chisel:stonebricksmooth",
+          "damage": 12,
+          "amount": 127
+        },
+        {
+          "id": "Artifice:tile.artifice.marble",
+          "amount": 127
+        },
+        {
+          "id": "Artifice:tile.artifice.marble",
+          "amount": 127
+        },
+        {
+          "id": "Artifice:tile.artifice.marble",
+          "amount": 127
+        }
+      ]
+    },
+    {
+      "name": "Cobble Cobble",
+      "description": "You probably have cobblestone. Lots of it. If you have a cobblestone generator, you are absolutely swimming in it! Maybe you\u0027ve built super-ugly buildings in vanilla Minecraft with them. Unacceptable! Use the chisel on them and make pretty things!",
+      "x": 22,
+      "y": 54,
+      "icon": {
+        "id": "chisel:cobblestone",
+        "damage": 4
+      },
+      "prerequisites": [
+        "Introduction To Chisel"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Covering Up Cobblestone",
+          "longDescription": "I recommend the cobblestone panels. In particular, the regular and dark ones. They join up in interesting ways. That and the cobblestone tile, which is really pretty, but doesn\u0027t actually tile when you connect them to each other. I know it\u0027s confusing. You will ultimately have to experiment.",
+          "items": [
+            {
+              "item": {
+                "id": "chisel:cobblestone",
+                "damage": 15
+              }
+            },
+            {
+              "item": {
+                "id": "chisel:cobblestone",
+                "damage": 13
+              }
+            },
+            {
+              "item": {
+                "id": "chisel:cobblestone",
+                "damage": 10
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:cobblestone",
+          "amount": 127
+        },
+        {
+          "id": "minecraft:cobblestone",
+          "amount": 127
+        },
+        {
+          "id": "minecraft:cobblestone",
+          "amount": 127
+        },
+        {
+          "id": "minecraft:cobblestone",
+          "amount": 127
         }
       ]
     }

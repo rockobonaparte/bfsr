@@ -38,8 +38,8 @@
       "x": 174,
       "y": 119,
       "icon": {
-        "id": "props:props",
-        "damage": 240
+        "id": "minecraft:wool",
+        "damage": 6
       },
       "prerequisites": [
         "Make The Safety Rattle!"
@@ -51,9 +51,9 @@
           "locations": [
             {
               "name": "New",
-              "x": 13,
+              "x": 14,
               "y": 66,
-              "z": 30,
+              "z": 26,
               "dim": 2,
               "radius": 3
             }
@@ -102,8 +102,7 @@
       "x": 173,
       "y": 68,
       "icon": {
-        "id": "props:props",
-        "damage": 116
+        "id": "minecraft:cooked_beef"
       },
       "prerequisites": [
         "The Nursery"
@@ -147,7 +146,7 @@
           "locations": [
             {
               "name": "New",
-              "x": -21,
+              "x": -18,
               "y": 66,
               "z": 39,
               "dim": 2,
@@ -180,7 +179,7 @@
           "locations": [
             {
               "name": "New",
-              "x": 8,
+              "x": 4,
               "y": 66,
               "z": 45,
               "dim": 2,
@@ -214,7 +213,7 @@
               "name": "New",
               "x": 25,
               "y": 66,
-              "z": 70,
+              "z": 77,
               "dim": 2,
               "radius": 3
             }
@@ -244,9 +243,9 @@
           "locations": [
             {
               "name": "New",
-              "x": 75,
+              "x": 76,
               "y": 66,
-              "z": 36,
+              "z": 35,
               "dim": 2,
               "radius": 4
             }
@@ -276,9 +275,9 @@
           "locations": [
             {
               "name": "New",
-              "x": -33,
+              "x": -27,
               "y": 66,
-              "z": -56,
+              "z": -58,
               "dim": 2,
               "radius": 10
             }
@@ -311,7 +310,7 @@
               "name": "New",
               "x": -15,
               "y": 66,
-              "z": 20,
+              "z": 19,
               "dim": 2,
               "radius": 3
             }
@@ -341,9 +340,9 @@
           "locations": [
             {
               "name": "New",
-              "x": -30,
+              "x": -31,
               "y": 60,
-              "z": 22,
+              "z": 19,
               "dim": 2,
               "radius": 3
             }
@@ -359,8 +358,8 @@
     {
       "name": "Tree Farm Demo",
       "description": "If you go through the \"Tree Farm Demo\" portal, you will see how people run a basic tree farm using the Minefactory Reloaded mod. It includes power generation. It\u0027s completely, infinitely, self-sustaining!",
-      "x": 41,
-      "y": 107,
+      "x": 33,
+      "y": 122,
       "icon": {
         "id": "MineFactoryReloaded:machine.0",
         "damage": 2
@@ -393,8 +392,8 @@
     {
       "name": "Passive Nuclear Reactors",
       "description": "We wanted to highlight the demo area for basic nuclear reactors. These cool themselves inside their cases without turbines. They generate a lot of power, but turbines ultimately will generate more power from the same reactor. That being said, if you haven\u0027t made a Big Reactors\u0027 nuclear reactor before, this pack will guide you through it. If that\u0027s not enough, look at these setups for a hint.",
-      "x": 38,
-      "y": 137,
+      "x": 34,
+      "y": 162,
       "icon": {
         "id": "BigReactors:BRReactorPart",
         "damage": 3
@@ -426,8 +425,8 @@
     {
       "name": "Turbine-Cooled Reactors",
       "description": "These are nuclear reactors further powered by turbines. This is very advanced. To make it fancier, we also demonstrate a use for all that power. You can use mining lasers to extract random ores out of bedrock or faraway nothingness. This area has six fully-powered laser drills doing this. There is then a processing rig to duplicate the yield from those ores. It is all orchestrated from an Applied Energistics ME^3 network. By the end of this pack, you\u0027ll know how to do all of this!",
-      "x": 38,
-      "y": 171,
+      "x": 70,
+      "y": 180,
       "icon": {
         "id": "BigReactors:BRTurbineRotorPart"
       },
@@ -472,9 +471,9 @@
           "locations": [
             {
               "name": "New",
-              "x": -30,
+              "x": -29,
               "y": 72,
-              "z": 33,
+              "z": 34,
               "dim": 2,
               "radius": 3
             }
@@ -504,9 +503,9 @@
           "locations": [
             {
               "name": "New",
-              "x": 35,
+              "x": 31,
               "y": 66,
-              "z": 33,
+              "z": 36,
               "dim": 2,
               "radius": 8
             }
@@ -536,11 +535,60 @@
           "locations": [
             {
               "name": "New",
-              "x": -28,
+              "x": -27,
               "y": 66,
               "z": -7,
               "dim": 2,
               "radius": 3
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "customnpcs:npcMoney"
+        }
+      ]
+    },
+    {
+      "name": "The SDXperience",
+      "description": "SDX is a special explosive added by Tinkers\u0027 Construct. It is a special explosive that: 1) Blows up a volume roughly 2.5 times the size of regular TNT and 2) Preserves everything it blew up as drops. This is a great way to get started with a base in the ground, and also an exceptionally lazy way to mine. Picks? Nah! We have made it easy to get some of this stuff, and you should consider getting some before even jumping to the Overworld.",
+      "x": 30,
+      "y": 80,
+      "icon": {
+        "id": "TConstruct:explosive.slime"
+      },
+      "prerequisites": [
+        "Resource Exchange"
+      ],
+      "tasks": [
+        {
+          "type": "LOCATION",
+          "description": "Bow to The King!",
+          "longDescription": "Head on over to the King Of Crazy Sales booth at the corner of the underground stores and trade some money for an SDX.",
+          "locations": [
+            {
+              "name": "New",
+              "icon": {
+                "id": "customnpcs:npcCrown2"
+              },
+              "x": -15,
+              "y": 60,
+              "z": 18,
+              "dim": 2,
+              "radius": 2
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Teeheeheehee",
+          "longDescription": "Come back here with your SDX to get your money back... so you can buy ANOTHER SDX! Muahahaha!",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:explosive.slime"
+              }
             }
           ]
         }

@@ -48,7 +48,7 @@
         {
           "id": "ThermalExpansion:Cell",
           "damage": 1,
-          "nbt": "{Recv:200,RSControl:1b,Facing:3b,Energy:400000,SideCache:[0:\"6 bytes\"],Send:200}"
+          "nbt": "{Recv:200,RSControl:1b,Facing:3b,Energy:400000,SideCache:[6 bytes],Send:200}"
         }
       ]
     },
@@ -508,7 +508,7 @@
         {
           "id": "ThermalExpansion:Cell",
           "damage": 1,
-          "nbt": "{Recv:200,RSControl:1b,Facing:3b,Energy:400000,SideCache:[0:\"6 bytes\"],Send:200}"
+          "nbt": "{Recv:200,RSControl:1b,Facing:3b,Energy:400000,SideCache:[6 bytes],Send:200}"
         }
       ]
     },
@@ -1356,7 +1356,7 @@
         {
           "id": "ThermalExpansion:Cell",
           "damage": 1,
-          "nbt": "{Recv:200,RSControl:1b,Facing:3b,Energy:400000,SideCache:[0:\"6 bytes\"],Send:200}"
+          "nbt": "{Recv:200,RSControl:1b,Facing:3b,Energy:400000,SideCache:[6 bytes],Send:200}"
         }
       ]
     }

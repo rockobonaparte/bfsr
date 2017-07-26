@@ -5,7 +5,7 @@
     {
       "name": "Punching Trees",
       "description": "The PC version of Minecraft does not come with an instruction manual. This means learning how to play by reading contradictory Wikis and watching lots of video on YouTube. Let\u0027s not do that. This chapter will guide you through some basics of playing the unmodified game. You should know this stuff before starting the modified parts of the game.",
-      "x": 22,
+      "x": 20,
       "y": 16,
       "icon": {
         "id": "minecraft:log"
@@ -1143,6 +1143,39 @@
         },
         {
           "id": "minecraft:apple"
+        }
+      ]
+    },
+    {
+      "name": "Kitting Out Your Toolbar",
+      "description": "We\u0027re going to start into the mods early and often. This one isn\u0027t in the base game, but it\u0027s *very* useful in the early game. The crafting table is fine and all, but when you\u0027re first in the Overworld, trying to find your way, it\u0027s a pain to plop that thing down, do your thing, break it, and pick it back up. With this kit, you can have a crafting table in your toolbar. If you right-click in the world while it\u0027s in your hand, you can do some crafting with it. It doesn\u0027t auto-complete recipes or other cool stuff, but you can crank out axes, and the basics with it.",
+      "x": 20,
+      "y": 72,
+      "icon": {
+        "id": "Artifice:item.artifice.craftkit"
+      },
+      "prerequisites": [
+        "mine*CRAFT*"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "longDescription": "The recipe is a stick in the upper-left corner and wood planks in the rest of the 2x2 grid.",
+          "items": [
+            {
+              "item": {
+                "id": "Artifice:item.artifice.craftkit"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:log"
+        },
+        {
+          "id": "customnpcs:npcMoney"
         }
       ]
     }

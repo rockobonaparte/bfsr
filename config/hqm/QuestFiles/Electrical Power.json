@@ -4,19 +4,21 @@
   "quests": [
     {
       "name": "Steel My Thunder",
-      "description": "Time to make an ingot of steel. Combine 1 iron ingot with either 4 pulverized charcoal or 2 pulverized coal in the induction smelter. When first using the machine, press the \"unlock flux slot\" button so you can make this alloy. Normally the induction furnace takes flux materials (sand) to double ingot yield. So it can double ore output just like the smeltery. Sometimes you will get byproducts, and certain additives can actually triple yields!",
-      "x": 289,
-      "y": 13,
+      "description": "Time for some steel! There are two machines that can do this: the induction smelter, and the metallurgic infuser. The induction smelter works with 4 charcoal dust or 2 coal dust to one iron ingot. Make sure to unlock the flux slot, which is that goofy triangle-thing button. The metallurgic infuser takes two coal or charcoal per iron ingot. You run the iron ingot through once to enrich it, and then run it through again to make steel dust. You can cook that into a steel ingot.",
+      "x": 230,
+      "y": 39,
       "icon": {
         "id": "Mekanism:Ingot",
         "damage": 4
       },
       "prerequisites": [
-        "I Induce You Need Steel"
+        "Your First Noisy Mek Machine"
       ],
+      "parentrequirement": 1,
       "tasks": [
         {
           "type": "DETECT",
+          "longDescription": "The infuser is cheaper to make, but you theoretically can be more efficient with coal dust in the induction smelter.",
           "items": [
             {
               "item": {
@@ -43,7 +45,7 @@
     },
     {
       "name": "I Induce You Need Steel",
-      "description": "The rocket will need to be made with some steel. It is an alloy you cannot make from that crude smeltery you probably have built by now. Instead, you will need to use an electrically-powered induction smelter. The steel recipe requires 4 crushed charcoal or 2 crushed coal. For that you will need a pulverizer. You will have to power these machines with redstone flux. See the \"electrical power\" chapter to get started.",
+      "description": "The induction smelter can kinda-sorta more than double yield on specific materials. If fed sand and an ore, it will automatically double it. It will sometimes spit out flux. If you smelt with that instead of sand, you will triple your yield. However, it\u0027s main perk in this mod pack is that it can make steel ingots. The recipe is either 4 charcoal dust or 2 coal dust per iron ingot. To make that dust, you\u0027ll have to pulverize coal or charcoal. For that, you need a pulverizer. You might already have one!",
       "x": 257,
       "y": 15,
       "icon": {
@@ -52,7 +54,8 @@
         "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[0:\"6 bytes\"],Level:3b,Augments:[0:{Slot:0,id:4370s,Count:1b,Damage:0s},1:{Slot:1,id:4370s,Count:1b,Damage:32s},2:{Slot:2,id:4370s,Count:1b,Damage:16s}]}"
       },
       "prerequisites": [
-        "I Pulverize Your Head!"
+        "I Pulverize Your Head!",
+        "Steel My Thunder"
       ],
       "tasks": [
         {
@@ -63,7 +66,7 @@
               "item": {
                 "id": "ThermalExpansion:Machine",
                 "damage": 1,
-                "nbt": "{RSControl:0b,Facing:4b,Energy:39339,SideCache:[0:\"6 bytes\"],Level:0b,Augments:[0:{Slot:0,id:4370s,Count:1b,Damage:0s},1:{Slot:1,id:4370s,Count:1b,Damage:32s},2:{Slot:2,id:4370s,Count:1b,Damage:16s}]}"
+                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[6 bytes],Level:3b,Augments:[0:{Slot:0,id:5667s,Count:1b,Damage:0s},1:{Slot:1,id:5667s,Count:1b,Damage:32s},2:{Slot:2,id:5667s,Count:1b,Damage:16s}]}"
               },
               "precision": "NBT_FUZZY"
             },
@@ -71,7 +74,7 @@
               "item": {
                 "id": "ThermalExpansion:Machine",
                 "damage": 3,
-                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[0:\"6 bytes\"],Level:0b,Augments:[0:{Slot:0,id:4370s,Count:1b,Damage:0s},1:{Slot:1,id:4370s,Count:1b,Damage:32s},2:{Slot:2,id:4370s,Count:1b,Damage:16s}]}"
+                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[6 bytes],Level:3b,Augments:[0:{Slot:0,id:5667s,Count:1b,Damage:0s},1:{Slot:1,id:5667s,Count:1b,Damage:32s},2:{Slot:2,id:5667s,Count:1b,Damage:16s}]}"
               },
               "precision": "NBT_FUZZY"
             }
@@ -95,7 +98,7 @@
         "id": "minecraft:redstone"
       },
       "prerequisites": [
-        "{Tools and Toys}[Mining Like The Romans]"
+        "{Vanilla Minecraft}[Iron Man]"
       ],
       "tasks": [
         {
@@ -146,7 +149,8 @@
             {
               "item": {
                 "id": "ExtraUtilities:generator"
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -195,8 +199,8 @@
     {
       "name": "Graphite . . . For Nukes!",
       "description": "So you have a problem. You decide, \"I will build a nuclear reactor.\" Now you have . . . lots of problems. This reactor can\u0027t explode on you, contaminate the world, and kill you constantly. It just requires a lot of stuff to make. It will take over a hundred graphite, made from 1 charcoal/coal each, and over a hundred yellorium ingots. For your trouble, you will build a 5x5x5 structure that will provide WAAAAY more power than you need for the moon trip. You can reduce the burn rate, or just build crazier stuff to use up all the RF.",
-      "x": 77,
-      "y": 125,
+      "x": 58,
+      "y": 129,
       "icon": {
         "id": "BigReactors:BRIngot",
         "damage": 2
@@ -229,8 +233,8 @@
     {
       "name": "Lava Power",
       "description": "This generator runs on lava. No joke. Right click it with a bucket of lava and it will take it into its tank and start to hum on it. It\u0027s possible to get your rocket put together with just this power alone.",
-      "x": 45,
-      "y": 130,
+      "x": 22,
+      "y": 134,
       "icon": {
         "id": "ExtraUtilities:generator",
         "damage": 2
@@ -246,7 +250,8 @@
               "item": {
                 "id": "ExtraUtilities:generator",
                 "damage": 2
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -270,8 +275,8 @@
     {
       "name": "Big People Solar",
       "description": "If you get 4 of the basic solar generators, you can combine them into the advanced generator. It will generate 1.5x the power of the original 4 cells.",
-      "x": 122,
-      "y": 132,
+      "x": 83,
+      "y": 148,
       "icon": {
         "id": "MekanismGenerators:Generator",
         "damage": 5
@@ -322,7 +327,8 @@
               "item": {
                 "id": "ExtraUtilities:generator",
                 "damage": 5
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -397,7 +403,7 @@
         {
           "id": "ThermalExpansion:Machine",
           "damage": 4,
-          "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[0:\"6 bytes\"],Level:3b,Augments:[0:{Slot:0,id:4382s,Count:1b,Damage:0s},1:{Slot:1,id:4382s,Count:1b,Damage:32s},2:{Slot:2,id:4382s,Count:1b,Damage:16s}]}"
+          "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[6 bytes],Level:3b,Augments:[0:{Slot:0,id:5667s,Count:1b,Damage:0s},1:{Slot:1,id:5667s,Count:1b,Damage:32s},2:{Slot:2,id:5667s,Count:1b,Damage:16s}]}"
         },
         {
           "id": "Artifice:tile.artifice.orenickel",
@@ -409,8 +415,8 @@
     {
       "name": "Weak Solar Power",
       "description": "Solar power is sustainable, turnkey, and fire-and-forget . . . except that it stops at night. You will need an energy cell to store power for the night. You will also need some Mekanism equipment to make these. However, if you make that gear, you\u0027re part of the way to the Digital Miner in the Post-Scarcity section. Think about it.",
-      "x": 101,
-      "y": 107,
+      "x": 87,
+      "y": 118,
       "icon": {
         "id": "MekanismGenerators:Generator",
         "damage": 1
@@ -462,8 +468,9 @@
               "item": {
                 "id": "ThermalExpansion:Cell",
                 "damage": 1,
-                "nbt": "{Recv:200,RSControl:1b,Facing:3b,Energy:0,SideCache:[0:\"6 bytes\"],Send:200}"
-              }
+                "nbt": "{Recv:200,RSControl:1b,Facing:3b,Energy:0,SideCache:[6 bytes],Send:200}"
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -479,8 +486,8 @@
     {
       "name": "Yellowcake, yellowcake . . .",
       "description": "Remember the 64 ingots I gave you for the graphite? That won\u0027t be enough! You will need more just to build the reactor. It will need fuel. So I will be asking for 64 yellorium ingots.",
-      "x": 95,
-      "y": 150,
+      "x": 57,
+      "y": 164,
       "icon": {
         "id": "BigReactors:BRIngot"
       },
@@ -524,8 +531,8 @@
     {
       "name": "The Power Of The Atom",
       "description": "Let\u0027s start putting all this together. You will need reactor blocks first. You will then use some of them to make a controller, an access port, a power tap, and a control rod. You will then need 3 fuel rods. Build a 5x5 floor out of the reactor blocks. Place the 3 fuel rods as a tower in the center. Encase it on all sides, except for placing the port, tap, and controller somewhere accessible from the outside--but not the corners. Close it off with the remaining cases. Put yellorium in the access port, and try to activate the reactor from the controller. It will tell you if it doesn\u0027t like something, and exactly where the thing it doesn\u0027t like is or isn\u0027t. Good luck!",
-      "x": 110,
-      "y": 187,
+      "x": 81,
+      "y": 193,
       "icon": {
         "id": "chisel:warningSign"
       },
@@ -589,10 +596,6 @@
           "amount": 64
         },
         {
-          "id": "OpenBlocks:tank",
-          "nbt": "{tank:{FluidName:\"ender\",Amount:16000}}"
-        },
-        {
           "id": "minecraft:blaze_rod"
         },
         {
@@ -602,6 +605,10 @@
         {
           "id": "Enchiridion2:book",
           "nbt": "{identifier:\"Baby_s_First_Reactor\"}"
+        },
+        {
+          "id": "OpenBlocks:tank",
+          "nbt": "{tank:{FluidName:\"ender\",Amount:16000}}"
         }
       ]
     },
@@ -651,9 +658,9 @@
             {
               "item": {
                 "id": "ThermalExpansion:Machine",
-                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[0:\"6 bytes\"],Level:3b,Augments:[0:{Slot:0,id:5667s,Count:1b,Damage:0s},1:{Slot:1,id:5667s,Count:1b,Damage:32s},2:{Slot:2,id:5667s,Count:1b,Damage:16s}]}"
+                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[6 bytes],Level:3b,Augments:[0:{Slot:0,id:5667s,Count:1b,Damage:0s},1:{Slot:1,id:5667s,Count:1b,Damage:32s},2:{Slot:2,id:5667s,Count:1b,Damage:16s}]}"
               },
-              "precision": "FUZZY"
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -687,7 +694,7 @@
         {
           "type": "DETECT",
           "description": "Gearing Up",
-          "longDescription": "Unnamed",
+          "longDescription": "Get used to tin gears when it comes to Thermal Expansion.",
           "items": [
             {
               "item": {
@@ -700,6 +707,7 @@
         {
           "type": "DETECT",
           "description": "Framing Things",
+          "longDescription": "Get used to these machine frames too.",
           "items": [
             {
               "item": {
@@ -716,9 +724,9 @@
               "item": {
                 "id": "ThermalExpansion:Machine",
                 "damage": 1,
-                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[0:\"6 bytes\"],Level:3b,Augments:[0:{Slot:0,id:5667s,Count:1b,Damage:0s},1:{Slot:1,id:5667s,Count:1b,Damage:32s},2:{Slot:2,id:5667s,Count:1b,Damage:16s}]}"
+                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[6 bytes],Level:3b,Augments:[0:{Slot:0,id:5667s,Count:1b,Damage:0s},1:{Slot:1,id:5667s,Count:1b,Damage:32s},2:{Slot:2,id:5667s,Count:1b,Damage:16s}]}"
               },
-              "precision": "FUZZY"
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -734,8 +742,8 @@
     {
       "name": "Three Times The Alloy",
       "description": "Well hey, another RF-powered furnace! This one is from Ender IO. One big claim to fame for it is it can burn down three things at once. It is pretty intense on the iron, but if that is cheap for you, you should consider it over the others. You will also need this if you want to make other Ender IO stuff like their conduits.",
-      "x": 204,
-      "y": 46,
+      "x": 200,
+      "y": 42,
       "icon": {
         "id": "Mekanism:MachineBlock",
         "damage": 10
@@ -795,8 +803,8 @@
     {
       "name": "Rolling In Balls",
       "description": "In real life, SAG stands for \"semi-autogenous grinding.\" It\u0027s a tub full of ball bearings that are spin. They pound away on your product. The EnderIO one uses flint. You can grind without extra flint, but feeding some in will potentially increase your yield. For example, an iron ore without flint will give you two dusts, which give you two ingots. However, a SAG mill with flint fed into the right-hand slot will sometimes quadruple that. Statistically, it will boost your base yield by 2.5x, and that\u0027s better than the smeltery.",
-      "x": 195,
-      "y": 66,
+      "x": 187,
+      "y": 68,
       "icon": {
         "id": "Mekanism:MachineBlock",
         "damage": 3
@@ -825,15 +833,16 @@
       ]
     },
     {
-      "name": "Kind of Stinks As-Is, But...",
-      "description": "...this machine can go through a fairly straightforward set of upgrades to be ridiculously fast and efficient, using the same upgrades that will go into the digital miner. If you are heading for that, you should soon have the tooling to make this too. I generally just use an energized smelter when setting up *triple ore processing* since it works well with the other Mekanism machines.",
-      "x": 216,
-      "y": 100,
+      "name": "Smelting Your Face Off",
+      "description": "Yeap, another furnace. It kind of stinks as-is, but this machine can go through a fairly straightforward set of upgrades to be ridiculously fast and efficient, using the same upgrades that will go into the digital miner. If you are heading for that, you should soon have the tooling to make this too. I generally just use an energized smelter when setting up *triple ore processing* since it works well with the other Mekanism machines.",
+      "x": 232,
+      "y": 86,
       "icon": {
         "id": "EnderIO:blockAlloySmelter"
       },
       "prerequisites": [
-        "Love Machines"
+        "Your First Noisy Mek Machine",
+        "Steel My Thunder"
       ],
       "tasks": [
         {
@@ -860,6 +869,7 @@
         },
         {
           "type": "CRAFT",
+          "description": "I\u0027m Smelting!",
           "longDescription": "Yeah, it needs osmium and you help from a metallurgic infuser to make the circuit boards.",
           "items": [
             {
@@ -881,26 +891,29 @@
       ]
     },
     {
-      "name": "I Crush Your Head!",
-      "description": "Continuing the theme of Mekanism machines sounding like stuff from a Nine Inch Nails video, the crusher sounds like it is brutally executing your ores and objects. You will need one crusher for the digital miner quest line eventually due to very peculiar outputs from this machine for doing Mekanism stuff.",
-      "x": 228,
-      "y": 81,
+      "name": "I Crush Your Ores!",
+      "description": "Continuing the theme of Mekanism machines sounding like stuff from a Nine Inch Nails video, the crusher sounds like it is brutally executing your ores and objects. You will need one crusher for the digital miner quest line eventually due to very peculiar outputs from this machine for doing Mekanism stuff. Side Note: This also repeats a digital miner quest in the post-scarcity chapter. Feel good about it!",
+      "x": 261,
+      "y": 104,
       "icon": {
         "id": "EnderIO:blockSagMill"
       },
       "prerequisites": [
-        "Love Machines"
+        "Your First Noisy Mek Machine",
+        "Steel My Thunder"
       ],
       "tasks": [
         {
           "type": "CRAFT",
+          "description": "Business As Usual",
           "longDescription": "I\u0027d like to highlight that a crusher turns cobblestone into gravel. A SAG mill can turn gravel into flint, and you can turn around to another crusher and turn the flint into gunpowder . . . hint, hint.",
           "items": [
             {
               "item": {
                 "id": "Mekanism:MachineBlock",
                 "damage": 3
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -916,13 +929,13 @@
     {
       "name": "Love Machines",
       "description": "Now you can do the basic machines! Unfortunately, we have three packs that do the starter machines. The typical thing is to get some kind of heating machine, and some kind of grinding machine. One replaces your coal-fired furnace, and the other processes items to break them down. They usually get you some ore multiplication bonus. The bonuses can vary, so you want to see what you need and then determine which way to go. Ender IO machines tend to be high in iron. Thermal Expansion machines will eat on the copper. Mekanism will require steel and osmium. They all have their perks.",
-      "x": 140,
-      "y": 78,
+      "x": 144,
+      "y": 57,
       "icon": {
         "id": "CompactMachines:innerwallcreative"
       },
       "prerequisites": [
-        "The Survivalist\u0027s Generator"
+        "Power Starts With Redstone"
       ],
       "tasks": [
         {
@@ -980,15 +993,30 @@
     {
       "name": "All Along The Boomtower",
       "description": "Advanced Quest! You can combine the processing machines into something that gives you all the ingredients to make TNT. You can then feed the TNT into the TNT generator! This will shoot out random explosions all over the place. I normally stuff them up on a tower. It\u0027s mostly just for giggles. If you\u0027re a kid, you should make sure your speakers are plugged in when you\u0027re running this so you can show your annoyed parents how awesome you are!",
-      "x": 276,
-      "y": 51,
+      "x": 291,
+      "y": 125,
       "icon": {
         "id": "ExtraUtilities:generator",
         "damage": 8
       },
       "prerequisites": [
-        "I Pulverize Your Head!",
-        "I Crush Your Head!"
+        "I Crush Your Ores!"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Starting With A Bang",
+          "longDescription": "Make a TNT generator. Just one. You know, to get started. It needs some TNT in the recipe. The big deal here is the gunpowder. Crush (crusher) cobblestone to make gravel, and then pulverize (pulverizer) the gravel to get flint, and then crush (crusher again) that to get gunpowder.",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraUtilities:generator",
+                "damage": 8
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
       ],
       "reward": [
         {
@@ -1008,6 +1036,16 @@
           "id": "EnderIO:itemPowerConduit",
           "damage": 1,
           "amount": 32
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "ExtraUtilities:generator",
+          "damage": 8
+        },
+        {
+          "id": "ExtraUtilities:sound_muffler",
+          "amount": 3
         }
       ]
     },
@@ -1304,13 +1342,12 @@
         {
           "type": "CRAFT",
           "description": "Start with the cables",
-          "longDescription": "You need 4 cables per rednet port, and 2 to connect them. So that would be 10 total, but I\u0027m going to get you a rednet port for free, so you only need 6.",
+          "longDescription": "You need 4 cables per rednet port, and 2 to connect them. So that would be 10 total, but I\u0027m going to get you a rednet port for free, so you only need 6. This quest, however, will trigger if you just give me one because I was hitting a nasty bug where it would only count each group of 8 cables you crafted. :(",
           "items": [
             {
               "item": {
                 "id": "MineFactoryReloaded:cable.redstone"
-              },
-              "required": 6
+              }
             }
           ]
         },
@@ -1338,8 +1375,8 @@
     {
       "name": "So Hot And Steamy!",
       "description": "The Minefactory Reloaded steam boiler takes burnable fuels and turns them into steam. It is a picky beast. It will start at 20C, and pick up heat SLOWLY until it reaches 100C. At that point, it generates steam, so long as you keep feeding it fuel and water. You can feed it fuel from a tree farm, and water from an aquaeous accumulator. There is a demonstration of it in the Minefactory Reloaded tower in Baby\u0027s First City.",
-      "x": 137,
-      "y": 113,
+      "x": 112,
+      "y": 77,
       "icon": {
         "id": "MineFactoryReloaded:machine.1",
         "damage": 6
@@ -1375,6 +1412,7 @@
     },
     {
       "name": "Ender\u0027s Conduit",
+      "description": "We have competing means of delivering RF power--as well as fluids and items. Courtesy of EnderIO, we have these conduits. They have some nice perks. For one, their basic power conduits can deliver more power more cheaply than Thermal Dynamics\u0027 conduits. However, the big perk is that these conduits can be stacked together in one block. So you can have a power, item, fluid, and redstone conduit all in the same block. They\u0027ll just cram in there. This makes for much more elegant cabling.",
       "x": 94,
       "y": 16,
       "icon": {
@@ -1382,6 +1420,69 @@
       },
       "prerequisites": [
         "Power Starts With Redstone"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Shake...",
+          "longDescription": "The part of all this I screw up is the conduit binder. It\u0027s a gravel-intense, but otherwise simple recipe. I just forget about it all the time. You\u0027ll need to start with this for your EnderIO conduits. All of them.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemMaterial",
+                "damage": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "...And Bake",
+          "longDescription": "Cook the composite into binder. Then you\u0027ll need this conductive alloy. You have to combine one redstone dust and one iron ingot in either an induction smelter or an alloy smelter. You pick which one. For one recipe\u0027s worth of conduit, you need six binder and three conductive iron.",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemMaterial",
+                "damage": 1
+              },
+              "required": 6
+            },
+            {
+              "item": {
+                "id": "EnderIO:itemAlloy",
+                "damage": 4
+              },
+              "required": 3
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Well Conducted",
+          "longDescription": "Make a horizontal strip of binder, a strip of alloys, and another strip of binder, and you will have some conduit!",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemPowerConduit"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "EnderIO:itemPowerConduit",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:clay_ball",
+          "amount": 9
+        },
+        {
+          "id": "minecraft:sand",
+          "amount": 9
+        }
       ]
     },
     {
@@ -1423,18 +1524,20 @@
     {
       "name": "An Enriching Experience",
       "description": "An enrichment chamber is another part of Mekanism\u0027s 3x (and higher) ore processing. However, it can also break down some ore blocks more efficiently than other machines like a pulverizer. Look at recipes for ores like nether quartz ore, redstone ore, and diamond ore see which machines do each best. You might need silk touch on a tool to really take advantage of it.",
-      "x": 208,
-      "y": 122,
+      "x": 271,
+      "y": 54,
       "icon": {
         "id": "Mekanism:MachineBlock"
       },
       "prerequisites": [
-        "Love Machines"
+        "Your First Noisy Mek Machine",
+        "Steel My Thunder"
       ],
       "tasks": [
         {
           "type": "CRAFT",
-          "longDescription": "You made it here after making a metallurgic infuser, so you can probably figure this one out.",
+          "description": "Machines, machines...",
+          "longDescription": "You made it here after making a metallurgic infuser, so you can probably figure this one out. PS: Consider making two of these because you\u0027ll eventually need one for a purification chamber.",
           "items": [
             {
               "item": {
@@ -1448,21 +1551,26 @@
       "reward": [
         {
           "id": "minecraft:quartz_ore"
+        },
+        {
+          "id": "Mekanism:Ingot",
+          "damage": 4,
+          "amount": 4
         }
       ]
     },
     {
       "name": "The Trouble With Triples",
       "description": "Ore doubling is cool and all, but let\u0027s triple the yield now! Mekanism has ways to do that... and more! You could go up to 5x if you do some stuff that is really crazy. However, doing 3x is pretty much just lining up some machines and getting some plumbing working. The main machine you\u0027re missing is the purification chamber. However, it needs oxygen, which suddenly drags in other equipment.",
-      "x": 278,
-      "y": 80,
+      "x": 289,
+      "y": 82,
       "icon": {
         "id": "Mekanism:Clump"
       },
       "prerequisites": [
         "An Enriching Experience",
-        "Kind of Stinks As-Is, But...",
-        "I Crush Your Head!"
+        "Smelting Your Face Off",
+        "I Crush Your Ores!"
       ],
       "tasks": [
         {
@@ -1474,7 +1582,8 @@
               "item": {
                 "id": "Mekanism:MachineBlock2",
                 "damage": 4
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         },
@@ -1487,9 +1596,9 @@
               "item": {
                 "id": "ThermalExpansion:Machine",
                 "damage": 8,
-                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[0:\"6 bytes\"],Level:3b,Augments:[0:{Slot:0,id:5667s,Count:1b,Damage:0s},1:{Slot:1,id:5667s,Count:1b,Damage:32s},2:{Slot:2,id:5667s,Count:1b,Damage:16s}]}"
+                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[6 bytes],Level:3b,Augments:[0:{Slot:0,id:5667s,Count:1b,Damage:0s},1:{Slot:1,id:5667s,Count:1b,Damage:32s},2:{Slot:2,id:5667s,Count:1b,Damage:16s}]}"
               },
-              "precision": "FUZZY"
+              "precision": "NBT_FUZZY"
             }
           ]
         },
@@ -1502,7 +1611,8 @@
               "item": {
                 "id": "MekanismGenerators:Generator",
                 "damage": 3
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         },
@@ -1538,6 +1648,22 @@
         {
           "id": "Mekanism:SpeedUpgrade",
           "amount": 8
+        },
+        {
+          "id": "minecraft:iron_ingot",
+          "amount": 4
+        },
+        {
+          "id": "minecraft:redstone",
+          "amount": 4
+        },
+        {
+          "id": "BigReactors:YelloriteOre",
+          "amount": 3
+        },
+        {
+          "id": "Enchiridion2:book",
+          "nbt": "{identifier:\"Baby_s_Third_Ore_Processing\"}"
         }
       ]
     },
@@ -1610,17 +1736,15 @@
     {
       "name": "Taking It To The Bank",
       "description": "Ender IO capacitor banks are very versatile. They serve as portable batterys, permanent RF-storing stations, and machines for charging portable electronics. If you shift-right-click one with a wrench, it will break while keeping its charge. If you right-click it normally, you can configure which sides do what, what rate it charges/discharges, and pop stuff into charge.",
-      "x": 148,
-      "y": 43,
+      "x": 111,
+      "y": 108,
       "icon": {
         "id": "EnderIO:blockCapBank",
         "damage": 1,
         "nbt": "{type:\"SIMPLE\",storedEnergyRF:1000000}"
       },
       "prerequisites": [
-        "The Survivalist\u0027s Generator",
-        "So Hot And Steamy!",
-        "Taking Control"
+        "The Survivalist\u0027s Generator"
       ],
       "tasks": [
         {
@@ -1682,6 +1806,57 @@
         {
           "id": "EnderIO:itemBasicCapacitor",
           "damage": 1
+        }
+      ]
+    },
+    {
+      "name": "Your First Noisy Mek Machine",
+      "description": "Just about every machine in Mekanism starts with alloys produced in the metallurgic infuser. The basic alloy takes one redstone dust and crams it into an ingot of iron. Circuit boards are created by cramming redstone dust into osmium ingots. There are more advanced products made from the infuser too. Side note: This quest repeats some post-scarcity quests for the digital miner. Double the fun! Double the rewards! Oh, heh, you can also use it to make steel. Hint hint.",
+      "x": 182,
+      "y": 93,
+      "icon": {
+        "id": "Mekanism:MachineBlock",
+        "damage": 8
+      },
+      "prerequisites": [
+        "Love Machines"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "The Infuser",
+          "longDescription": "This is just a detection task--not a crafting task. This quest is repeated with the digital miner because it also needs it. Surprise, surprise, it\u0027s a Mekanism machine too!",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:MachineBlock",
+                "damage": 8
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "The Alloy",
+          "longDescription": "Feed one redstone dust and one ingot into your infuser, and it will whir away. Literally. It makes crazy noises.",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:EnrichedAlloy"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:redstone",
+          "amount": 4
+        },
+        {
+          "id": "minecraft:iron_ingot",
+          "amount": 4
         }
       ]
     }

@@ -5,14 +5,14 @@
     {
       "name": "The Fabric Of Our Lives",
       "description": "Cotton is a farmable resource for string and wool. Don\u0027t ask how cotton turns into wool. It\u0027s Minecraft magic! Anyways, this is great way to make bags and items before you get your hands on leather. Don\u0027t trivialize it. You actually want to start farming this first! If you can\u0027t find cotton plants in the wild, go on a grass punching spree and you\u0027ll eventually net some cotton seeds.",
-      "x": 25,
+      "x": 28,
       "y": 15,
       "icon": {
         "id": "Natura:barleyFood",
         "damage": 3
       },
       "prerequisites": [
-        "{Baby\u0027s First Space City!}[Overworld Portal]"
+        "{Vanilla Minecraft}[Punching Trees]"
       ],
       "tasks": [
         {
@@ -59,7 +59,7 @@
         "id": "Natura:berry"
       },
       "prerequisites": [
-        "{Baby\u0027s First Space City!}[Overworld Portal]"
+        "{Vanilla Minecraft}[Punching Trees]"
       ],
       "tasks": [
         {
@@ -184,7 +184,7 @@
         "id": "minecraft:torch"
       },
       "prerequisites": [
-        "{Baby\u0027s First Space City!}[Overworld Portal]"
+        "{Vanilla Minecraft}[Torch Yur Chamber]"
       ],
       "tasks": [
         {
@@ -351,7 +351,7 @@
         "id": "TConstruct:jerky"
       },
       "prerequisites": [
-        "{Baby\u0027s First Space City!}[Overworld Portal]"
+        "{Vanilla Minecraft}[Deforestation]"
       ],
       "tasks": [
         {
@@ -383,7 +383,7 @@
         "id": "minecraft:leather"
       },
       "prerequisites": [
-        "{Baby\u0027s First Space City!}[Overworld Portal]"
+        "{Vanilla Minecraft}[Axe Me a Question]"
       ],
       "tasks": [
         {
@@ -462,18 +462,23 @@
           "id": "minecraft:iron_ingot",
           "amount": 6
         }
+      ],
+      "rewardchoice": [
+        {
+          "id": "BiblioCraft:Armor Stand"
+        }
       ]
     },
     {
       "name": "Working At A Reasonable Clip",
       "description": "It is so nice of me to lay out all the things you have to do to progress in the pack. You will not always have that luxury. Heck, you might be playing this on a server with friends logging in at different times, and nobody knows what\u0027s up. Maybe they text you or something to ask what to do. To keep you all from having to actually talk to each other, try the clipboard. You can lay out lists of tasks that have to be done, and then you can mark them off.",
-      "x": 222,
-      "y": 15,
+      "x": 227,
+      "y": 18,
       "icon": {
         "id": "BiblioCraft:item.BiblioClipboard"
       },
       "prerequisites": [
-        "{Baby\u0027s First Space City!}[Overworld Portal]"
+        "{Vanilla Minecraft}[Sugar Cane Make Paper]"
       ],
       "tasks": [
         {
@@ -501,13 +506,13 @@
     {
       "name": "Not Your Average Ladder",
       "description": "Ladders are a fine thing to have, but it can get annoying to use them on long trips. OpenBlocks\u0027 elevators are a better option for your base, but another pack might not have them, or that pack may charge you your XP to use it, for some dumb reason. An alternative is a dark steel ladder. Getting to dark steel tech will take a little bit of a fuss with EnderIO, but if you play with that mod in this pack, you get a ladder you can climb and descend at twice the normal rate.",
-      "x": 181,
-      "y": 57,
+      "x": 189,
+      "y": 62,
       "icon": {
         "id": "EnderIO:blockDarkSteelLadder"
       },
       "prerequisites": [
-        "{Baby\u0027s First Space City!}[Overworld Portal]"
+        "{Vanilla Minecraft}[Iron Man]"
       ],
       "tasks": [
         {

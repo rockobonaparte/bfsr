@@ -10,9 +10,6 @@
       "icon": {
         "id": "minecraft:cobblestone"
       },
-      "prerequisites": [
-        "{Vanilla Minecraft}[Iron Man]"
-      ],
       "tasks": [
         {
           "type": "DETECT",
@@ -290,7 +287,7 @@
     },
     {
       "name": "Range Upgrades!",
-      "description": "Each range upgrade increases the mining radius of the miner by 1. This accumulates very rapidly. You can throw a lot of upgrades at these things! If you want them back, bust down the miner with a pick, and they\u0027ll all fall out.",
+      "description": "Each range upgrade gives the miner an additional column through which to mine. It doesn\u0027t increase like a radius, so it isn\u0027t that super-powerful. However, it\u0027s still very convenient to upgrade a miner and leave it in place rather than heave it around everywhere and baby it constantly.",
       "x": 35,
       "y": 160,
       "icon": {
@@ -302,6 +299,7 @@
       "tasks": [
         {
           "type": "DETECT",
+          "longDescription": "The upgrades have to match the technology level of your miner. Iron miners need iron upgrades. They progress similar to the miners. You make wood upgrades from a base with logs, upgrade that with stone, and then iron.",
           "items": [
             {
               "item": {
@@ -362,15 +360,15 @@
         {
           "id": "ThermalExpansion:Cell",
           "damage": 3,
-          "nbt": "{Recv:8000,RSControl:1b,Facing:3b,Energy:0,SideCache:[0:\"6 bytes\"],Send:8000}"
+          "nbt": "{Recv:8000,RSControl:1b,Facing:3b,Energy:20000000,SideCache:[6 bytes],Send:8000}"
         }
       ]
     },
     {
       "name": "I Crush Your Ores!",
       "description": "The crusher can be used to grind ores into dust as part of an ore processing rig, but your smeltery doesn\u0027t normally care. However, you do need it to crush some of the diamonds for the digital miner. You will want to follow the digital miner recipe through to figure out exactly how much diamond dust to produce. It also makes noises that will make your base sound like a Nine Inch Nails song. Note: You may have already completed this quest in the electrical power section. Good for you!",
-      "x": 230,
-      "y": 142,
+      "x": 246,
+      "y": 135,
       "icon": {
         "id": "Mekanism:MachineBlock",
         "damage": 3
@@ -406,8 +404,8 @@
     {
       "name": "Intro To The Digital Miner",
       "description": "The digital miner is God\u0027s gift to automated mining. It will zap out ores in the surrounding ground with a range you give it, for ores you can optionally specify. It can do it without breaking the ores, giving you a chance to multiply your diamond yield. It can be upgraded to mine very quickly and efficiently. It also ... costs something like 14 diamonds. You will want to set up multiple crafting tables from Tinker\u0027s Construct to hold the intermediate steps while making it, if you chose to even try.",
-      "x": 229,
-      "y": 88,
+      "x": 181,
+      "y": 86,
       "icon": {
         "id": "Mekanism:MachineBlock",
         "damage": 8
@@ -504,8 +502,8 @@
     {
       "name": "Baby\u0027s First Alloy",
       "description": "This basic alloy is a bulwark of Mekanism equipment. You will make MANY of these along the path towards the digital miner. You combine redstone dust and iron ingots in the metallurgic infuser, and listen to in whine, buzz, and fuzz as it makes them. Feel free to raise the volume and annoy your neighbors.",
-      "x": 278,
-      "y": 114,
+      "x": 256,
+      "y": 100,
       "icon": {
         "id": "Mekanism:EnrichedAlloy"
       },
@@ -571,8 +569,8 @@
     {
       "name": "Osmium Compressor",
       "description": "Here\u0027s Another Machine to make goofy sounds. Along the way of making the digital miner, you will have to create some compressed obsidian. So you will need this stupid machine. It sounds like it\u0027s squeezing the crap out of whatever you put inside, because that\u0027s what it\u0027s actually doing.",
-      "x": 197,
-      "y": 160,
+      "x": 209,
+      "y": 158,
       "icon": {
         "id": "Mekanism:MachineBlock",
         "damage": 1
@@ -622,8 +620,8 @@
     {
       "name": "Bread and Circuits",
       "description": "The digital miner (and other equipment) needs circuit boards! Run some osmium and redstone through your metallurgic infuser to make some!",
-      "x": 196,
-      "y": 111,
+      "x": 214,
+      "y": 115,
       "icon": {
         "id": "Mekanism:ControlCircuit"
       },
@@ -1350,7 +1348,14 @@
           "type": "CRAFT",
           "description": "A Progressive Wrench",
           "longDescription": "Progressive Automation has... another type of wrench. Seriously? All the mods seem to make their own wrench. This one behaves a little bit differently. You shift-right-click it to toggle its mode. The ones we care about are: Input, FuelInput, and Output. You use the Input to set two sides for cobblestone collection and tool importing. For full automation, use tools created from a crafting bench, not Tinkers\u0027 Construct tools. This way, when they break, a new one comes running in. I recommend Bloodwood. Set another side to FuelInput, and send in your wood or charcoal or whatever through that side. Finally, set one side to output and extract the mined goods out of it. With this setup, you can walk away from the miner.",
-          "items": []
+          "items": [
+            {
+              "item": {
+                "id": "progressiveautomation:Wrench",
+                "damage": 4
+              }
+            }
+          ]
         },
         {
           "type": "CRAFT",
@@ -1395,6 +1400,22 @@
       },
       "prerequisites": [
         "{Vanilla Minecraft}[*MINE*craft]"
+      ],
+      "tasks": [
+        {
+          "type": "LOCATION",
+          "longDescription": "This quest itself is just a dummy quest. I just wanted a nice entry point to describe the automated mining options you can take.",
+          "locations": [
+            {
+              "name": "New",
+              "x": 0,
+              "y": 65,
+              "z": 0,
+              "dim": 0,
+              "radius": -1
+            }
+          ]
+        }
       ]
     },
     {

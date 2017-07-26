@@ -405,7 +405,7 @@
       ]
     },
     {
-      "name": "Wither Skeletons",
+      "name": "Getting Ahead Of The Class",
       "description": "Wandering around nether fortresses, you might find some dark gray skeletons that are really big and scary. If you manage to kill a few, one might leave a skull behind. You can expedite this if you use a Tinkers\u0027 Construct cleaver. Either way, WHY ARE YOU DOING THIS? THESE GUYS HAVE NO BEARING ON GETTING TO THE MOOOOON!",
       "x": 228,
       "y": 18,
@@ -862,7 +862,7 @@
         "id": "minecraft:nether_star"
       },
       "prerequisites": [
-        "Wither Skeletons"
+        "Getting Ahead Of The Class"
       ],
       "tasks": [
         {

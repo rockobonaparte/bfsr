@@ -171,19 +171,23 @@
     {
       "name": "Pearls Before Swine",
       "description": "In vanilla Minecraft, there are tall, skinny black aliens called endermen that pop up particularly at night. They don\u0027t care about you... unless you look at them. Then they go nuts. They hate water and sunlight and attempt to escape both. They can also teleport all over the place. They drop these green ender pearls when you kill them. You can also make them from ender dust from ender ore thanks to the Artifice mod. If you throw one with a right-click, it will teleport you where it lands. A lot of mods then decided to use ender pearls as a major ingredient of teleportation gear. You had best start stockpiling some.",
-      "x": 131,
-      "y": 89,
+      "x": 135,
+      "y": 90,
       "icon": {
         "id": "minecraft:ender_pearl"
       },
       "prerequisites": [
-        "{Tools and Toys}[The Long-Jump Sword]"
+        "{Tools and Toys}[The Long-Jump Sword]",
+        "{Tools and Toys}[I Am Not Making A Rapier Pun]",
+        "{Tools and Toys}[Leave It To Cleaver]",
+        "{Tools and Toys}[Hatchet Job]"
       ],
+      "parentrequirement": 1,
       "tasks": [
         {
           "type": "DETECT",
           "description": "Show Me Four Pearls",
-          "longDescription": "The easiest way in the early-game to get ender pearls here is through ender ore, or mugging a few endermen if you can hid in a two-block-high murder hole. In the advanced game, you can set up a mob farm to spawn them and autokill them. You\u0027ll be swimming in them at that point.",
+          "longDescription": "The easiest way in the early-game to get ender pearls here is through ender ore, or mugging a few endermen if you can hide in a two-block-high murder hole. In the advanced game, you can set up a mob farm to spawn them and autokill them. You\u0027ll be swimming in them at that point.",
           "items": [
             {
               "item": {
@@ -222,7 +226,7 @@
               "item": {
                 "id": "ThermalExpansion:Machine",
                 "damage": 4,
-                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[0:\"6 bytes\"],Level:3b,Augments:[0:{Slot:0,id:5667s,Count:1b,Damage:0s},1:{Slot:1,id:5667s,Count:1b,Damage:32s},2:{Slot:2,id:5667s,Count:1b,Damage:16s}]}"
+                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[6 bytes],Level:3b,Augments:[0:{Slot:0,id:5667s,Count:1b,Damage:0s},1:{Slot:1,id:5667s,Count:1b,Damage:32s},2:{Slot:2,id:5667s,Count:1b,Damage:16s}]}"
               },
               "precision": "NBT_FUZZY"
             },
@@ -230,7 +234,7 @@
               "item": {
                 "id": "ThermalExpansion:Machine",
                 "damage": 5,
-                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[0:\"6 bytes\"],Level:3b,Augments:[0:{Slot:0,id:5667s,Count:1b,Damage:0s},1:{Slot:1,id:5667s,Count:1b,Damage:32s},2:{Slot:2,id:5667s,Count:1b,Damage:16s}]}"
+                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[6 bytes],Level:3b,Augments:[0:{Slot:0,id:5667s,Count:1b,Damage:0s},1:{Slot:1,id:5667s,Count:1b,Damage:32s},2:{Slot:2,id:5667s,Count:1b,Damage:16s}]}"
               },
               "precision": "NBT_FUZZY"
             }
@@ -453,7 +457,7 @@
         {
           "type": "CRAFT",
           "description": "Pylons",
-          "longDescription": "To wrap that volume, you need to rows of pylons completely on two sides, and then a few more to keep the efficiency of the storage solution up. The more pylons you use, the more efficient it gets. This is a big deal. You have to have enough energy to run the storage operation, and that requires AE2's own energy cells. They are not as good as energy storage as other things out there, and they consume fluix to make. However, you can keep doubling your efficiency, which halves the cells you need, until it is manageable. We can frame the 16x9x16 volume using 232 pylons, and 1 dense energy cell. If you make 112 of them, I'll give you another 112. With the 8 you already have, you'll get juuust enough.",
+          "longDescription": "To wrap that volume, you need to rows of pylons completely on two sides, and then a few more to keep the efficiency of the storage solution up. The more pylons you use, the more efficient it gets. This is a big deal. You have to have enough energy to run the storage operation, and that requires AE2\u0027s own energy cells. They are not as good as energy storage as other things out there, and they consume fluix to make. However, you can keep doubling your efficiency, which halves the cells you need, until it is manageable. We can frame the 16x9x16 volume using 232 pylons, and 1 dense energy cell. If you make 112 of them, I\u0027ll give you another 112. With the 8 you already have, you\u0027ll get juuust enough.",
           "items": [
             {
               "item": {
@@ -1384,7 +1388,7 @@
         {
           "id": "ThermalExpansion:Cell",
           "damage": 1,
-          "nbt": "{Recv:200,RSControl:1b,Facing:3b,Energy:400000,SideCache:[0:\"6 bytes\"],Send:200}"
+          "nbt": "{Recv:200,RSControl:1b,Facing:3b,Energy:400000,SideCache:[6 bytes],Send:200}"
         }
       ]
     },

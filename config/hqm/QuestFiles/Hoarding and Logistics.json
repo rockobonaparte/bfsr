@@ -193,7 +193,7 @@
       ]
     },
     {
-      "name": "Deep Storage Unit",
+      "name": "We Need To Store Deeper!",
       "description": "This is a powered device that can store ridiculous amount of ... one single item. It\u0027s a great place to stuff cobblestone, for example. Lots and lots of cobblestone. Like, billions of cobblestone.",
       "x": 287,
       "y": 181,
@@ -206,7 +206,8 @@
       ],
       "tasks": [
         {
-          "type": "DETECT",
+          "type": "CRAFT",
+          "longDescription": "There is a good chance that you have already seen one of these, but to complete the quest, you have to actually make one.",
           "items": [
             {
               "item": {
@@ -618,7 +619,7 @@
       ]
     },
     {
-      "name": "Nice Rack! Oh, nice shelf too",
+      "name": "Nice Rack! Oh, Nice Shelf Too",
       "description": "There are a few things that should get dedicated storage. You should have a tool rack near the door to your base. You put your weapons and \"outside tools\" in there. When you go outside, you put your wrenches and base tools in that rack and take out all the outside tools. A bookshelf organizes all the manuals, guides, and whatnot you accumulate playing other quest packs. A shelf for potions is also nice if you horde that kind of stuff.",
       "x": 221,
       "y": 178,
@@ -657,7 +658,7 @@
         {
           "type": "DETECT",
           "description": "Potion Shelf",
-          "longDescription": "One of these should last you for a long time . . . until you build a mob grinder.",
+          "longDescription": "One of these should last you for a long time unless you really like potions. However, you\u0027ll start getting piles of potions with a mob grinder or an automatic fisher.",
           "items": [
             {
               "item": {
@@ -683,7 +684,7 @@
     },
     {
       "name": "Not Just For Smoking Meat",
-      "description": "Extra Utilities provides drums for storing fluids. Fluids can be automatically inserted/removed from drums from the top and bottom. You can use a bucket on them instead if that is your thing. The big deal is that one drum can store 256 buckets worth of one liquid. Remember to use a wrench to move them!",
+      "description": "Extra Utilities provides drums for storing fluids. Fluids can be automatically inserted/removed from drums from the top and bottom. You can use a bucket on them instead if that is your thing. The big deal is that one drum can store 256 buckets worth of one liquid. You used to need to use a wrench to safely move tanks and barrels, but it looks like that was fixed.",
       "x": 175,
       "y": 97,
       "icon": {
@@ -778,7 +779,7 @@
               "item": {
                 "id": "ThermalExpansion:Strongbox",
                 "damage": 1,
-                "nbt": "{ench:[0:{lvl:1s,id:100s}],Inventory:[]}"
+                "nbt": "{ench:[0:{lvl:1s,id:104s}]}"
               }
             }
           ]
@@ -872,7 +873,8 @@
             {
               "item": {
                 "id": "EnderIO:itemItemConduit"
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         }
@@ -1040,7 +1042,7 @@
               "item": {
                 "id": "ThermalExpansion:Machine",
                 "damage": 4,
-                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[0:\"6 bytes\"],Level:3b,Augments:[0:{Slot:0,id:5667s,Count:1b,Damage:0s},1:{Slot:1,id:5667s,Count:1b,Damage:32s},2:{Slot:2,id:5667s,Count:1b,Damage:16s}]}"
+                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[6 bytes],Level:3b,Augments:[0:{Slot:0,id:5667s,Count:1b,Damage:0s},1:{Slot:1,id:5667s,Count:1b,Damage:32s},2:{Slot:2,id:5667s,Count:1b,Damage:16s}]}"
               },
               "precision": "NBT_FUZZY"
             },
@@ -1048,7 +1050,7 @@
               "item": {
                 "id": "ThermalExpansion:Machine",
                 "damage": 5,
-                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[0:\"6 bytes\"],Level:3b,Augments:[0:{Slot:0,id:5667s,Count:1b,Damage:0s},1:{Slot:1,id:5667s,Count:1b,Damage:32s},2:{Slot:2,id:5667s,Count:1b,Damage:16s}]}"
+                "nbt": "{RSControl:0b,Facing:3b,Energy:0,SideCache:[6 bytes],Level:3b,Augments:[0:{Slot:0,id:5667s,Count:1b,Damage:0s},1:{Slot:1,id:5667s,Count:1b,Damage:32s},2:{Slot:2,id:5667s,Count:1b,Damage:16s}]}"
               },
               "precision": "NBT_FUZZY"
             }
@@ -1110,7 +1112,8 @@
             {
               "item": {
                 "id": "EnderIO:blockSliceAndSplice"
-              }
+              },
+              "precision": "NBT_FUZZY"
             }
           ]
         },
@@ -1158,7 +1161,7 @@
         {
           "type": "CRAFT",
           "description": "Laying It Thick",
-          "longDescription": "Craft a regular itemduct with some pulverized lead, and you\u0027ll get a dense itemduct. This will act like 1,000 itemducts in terms of distance. So if you have two segments with dense itemducts, they will be prioritized by which one has the longest real path. If that\u0027s not what you want, add one more dense itemduct on the one you want to have the lowest priority.",
+          "longDescription": "Craft a regular itemduct with some pulverized lead, and you\u0027ll get a dense itemduct. This will act like 1,000 itemducts in terms of distance. So if you have two segments with dense itemducts, they will be prioritized by which one has the longest real path. If that\u0027s not what you want, add one more dense itemduct on the one you want to have the lowest priority. NOTE: The recipe for this MIGHT NOT show up in NEI!",
           "items": [
             {
               "item": {
@@ -1297,18 +1300,32 @@
           "type": "DETECT",
           "description": "Binder Binder Set On Fire",
           "longDescription": "So let\u0027s rewind from all this metal and stuff, and make a little bit of conduit binder from sand, gravel, and clay. I always miss this because I\u0027m always thinking, \"Metal, metal, metal.\" Maybe you\u0027ll get better at it than me.",
-          "items": []
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemMaterial",
+                "damage": 1
+              }
+            }
+          ]
         },
         {
           "type": "DETECT",
           "description": "A Conducive Alloy",
-          "longDescription": "You need three ingots of this conductive alloy. Each ingot is made by smelter an iron ingot with a redstone dust. You need a Thermal Expansion induction smelter or an Ender IO alloy smelter for this. The former takes less of more advanced materials, and the latter requires more of less advanced materials. You might be wondering how people do these machines without power cables. Well, they just cram the machines against their generators!",
-          "items": []
+          "longDescription": "You need three ingots of this conductive iron alloy. Each ingot is made by smelter an iron ingot with a redstone dust. You need a Thermal Expansion induction smelter or an Ender IO alloy smelter for this. The former takes less of more advanced materials, and the latter requires more of less advanced materials. You might be wondering how people do these machines without power cables. Well, they just cram the machines against their generators!",
+          "items": [
+            {
+              "item": {
+                "id": "EnderIO:itemAlloy",
+                "damage": 4
+              }
+            }
+          ]
         },
         {
           "type": "CRAFT",
           "description": "The Final Pipe",
-          "longDescription": "A stripe of binder, a stripe of allow, and another stripe of binder. Bam.",
+          "longDescription": "A stripe of binder, a stripe of alloy, and another stripe of binder. Bam.",
           "items": [
             {
               "item": {
@@ -1332,6 +1349,171 @@
         {
           "id": "EnderIO:itemPowerConduit",
           "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "Hmm, Just A Box",
+      "description": "This cardboard box from Mekanism will pick up something from the world and put it inside itself. For example, chests. So who needs a strongbox now, big guy? Another example, dungeon spawners. Heeey! Now we\u0027re talking!",
+      "x": 221,
+      "y": 97,
+      "icon": {
+        "id": "Mekanism:CardboardBox"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "Sawdust In The Wind",
+          "longDescription": "You have to get 4 sawdust. You have two main ways to do this. Mekanism wants you to use a precision sawmill. This will increase your yield of logs to wood planks from 4 to 6, as well as producing one sawdust. Alternately, shove a log into a SAG mill and get 4 sawdust right away.",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:Sawdust"
+              },
+              "required": 4
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Boxing Day",
+          "longDescription": "Four in a square. By the way, you can do other stuff with sawdust, like make paper.",
+          "items": [
+            {
+              "item": {
+                "id": "Mekanism:CardboardBox"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "Mekanism:Sawdust",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "Junior Big Storage",
+      "description": "If you don\u0027t have the means or the will for a big AE2 rig like advertised in the \"Stupid Crazy Automation\" chapter, then RFtool\u0027s modular storage system can help. For me, well, I use it before I set up the crazy AE2 rig. It requires nether quartz, which means you taking a trip to The Nether, but that\u0027s about it. It\u0027s fairly unremarkable to make. Your reward is something that can store 100, 200, or 300 different stacks of stuff. That\u0027s only a few chests, but between that and searching the stuff, you will have an easier time with all this new junk you are gathering.",
+      "x": 259,
+      "y": 131,
+      "icon": {
+        "id": "rftools:modularStorageBlock"
+      },
+      "prerequisites": [
+        "{Go To Hell}[Nether Quartz]"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "The Base Unit",
+          "longDescription": "This is the unit that takes an actual storage module. You\u0027d place this in the world and right-click it to access its inventory. Oh, but you first have to give it a storage module! I\u0027d like to note that this is in the RFtools mod, but it doesn\u0027t require RF power to run!",
+          "items": [
+            {
+              "item": {
+                "id": "rftools:modularStorageBlock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Count To 100",
+          "longDescription": "Even if you want to store more than 100 things, you need to start with the tier 1 module. It\u0027s not really that hard to make.",
+          "items": [
+            {
+              "item": {
+                "id": "rftools:storageModuleItem"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "Count To 200",
+          "longDescription": "A tier 2 module stores 200 items using just a slightly harder recipe than a tier 1 module. However, the costs for going to tier 3 are pretty high! I think tier 2 is well-balanced. But wait, maybe you want to store LOTS of stuff. Well, get some ender pearls and stay tuned!",
+          "items": [
+            {
+              "item": {
+                "id": "rftools:storageModuleItem",
+                "damage": 1
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "rftools:genericTypeItem",
+          "amount": 2
+        },
+        {
+          "id": "rftools:storageModuleItem",
+          "damage": 2
+        },
+        {
+          "id": "rftools:modularStorageBlock"
+        }
+      ]
+    },
+    {
+      "name": "My, Junior Is Getting Big!",
+      "description": "You\u0027ve probably outgrown your modular storage system. You could switch modules in and out, but it\u0027s annoying. It\u0027s like the old days when grandpa had to switch floppy disks out of the computer. It\u0027s novel the first time, but that\u0027s it. Let\u0027s get you four more bays that can turn you over for a little bit. This remote storage system requires RF power and a remote module in your existing modular storage system. For that, you can access more storage modules from one screen than before.",
+      "x": 259,
+      "y": 163,
+      "icon": {
+        "id": "rftools:remoteStorageBlock"
+      },
+      "prerequisites": [
+        "Junior Big Storage"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Floating In The Bay",
+          "longDescription": "You\u0027ll need to blow four ender pearls to get your 4-module storage bay. I\u0027ll pay you back though.",
+          "items": [
+            {
+              "item": {
+                "id": "rftools:remoteStorageBlock"
+              },
+              "precision": "NBT_FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Remote Control",
+          "longDescription": "You\u0027ll need two ender pearls for this module, which you\u0027d pop in your existing modular storage system.",
+          "items": [
+            {
+              "item": {
+                "id": "rftools:storageModuleItem",
+                "damage": 6
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:ender_pearl",
+          "amount": 6
+        },
+        {
+          "id": "rftools:remoteStorageBlock"
+        },
+        {
+          "id": "rftools:storageModuleItem",
+          "damage": 6
+        },
+        {
+          "id": "rftools:storageModuleItem",
+          "damage": 2
         }
       ]
     }
