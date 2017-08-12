@@ -132,6 +132,7 @@ if __name__ == "__main__":
         ("BigReactors:YelloriumFuelRod", "bigreactors:reactorfuelrod"),
         ("BigReactors:BRReactorRedstonePort", "bigreactors:reactorredstoneport"),
         ("BigReactors:BRDevice", "bigreactors:reactorredstoneport"),
+        ("BigReactors:BRReactorPart", "bigreactors:reactorcasing"),      # Sometimes BRReactorPart shows up without metadata. It looks like it's indicating reactor casings.
         ("Natura:natura.axe.bloodwood", "natura:bloodwood_axe"),
         ("Natura:NetherFurnace", "natura:netherrack_furnace"),
         ("Natura:berryMedley", "natura:soups"),
