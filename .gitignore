@@ -8,3 +8,4 @@ customnpcs/assets/customnpcs/textures/cache/
 bfsrworld/customnpcs/playerdata
 config/INpureProjects/logs
 scripts/.idea
+scripts/__pycache__
