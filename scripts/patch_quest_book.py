@@ -64,6 +64,8 @@ if __name__ == "__main__":
     sets = load_legacy_chapters()
 
     rules = [
+        ("GalacticraftCore:tile\.", "galacticraftcore:"),
+        ("GalacticraftCore:item\.", "galacticraftcore:"),
         ("galacticraftcore:oxygenCollector", "galacticraftcore:collector"),
         ("galacticraftcore:oxygenPipe", "galacticraftcore:fluid_pipe"),
         ("galacticraftcore:rocketWorkbench", "galacticraftcore:rocket_workbench"),
@@ -80,8 +82,6 @@ if __name__ == "__main__":
         ("galacticraftcore:spinThruster", "galacticraftcore:spin_thruster"),
         ("galacticraftcore:airLockFrame", "galacticraftcore:air_lock_frame"),
         ("galacticraftcore:meteoricIronRaw", "galacticraftcore:meteoric_iron_raw"),
-        ("GalacticraftCore:tile\.", "galacticraftcore:"),
-        ("GalacticraftCore:item\.", "galacticraftcore:"),
         ("appliedenergistics2:item\.", "appliedenergistics2:"),
         ("appliedenergistics2:tile\.", "appliedenergistics2:"),
         ("appliedenergistics2:BlockCharger", "appliedenergistics2:charger"),
