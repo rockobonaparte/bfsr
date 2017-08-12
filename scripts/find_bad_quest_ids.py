@@ -4,7 +4,7 @@ from hqm_helpers import load_legacy_chapters
 
 class LintFactory(object):
     def __init__(self):
-        self.null_quest_icon_re = re.compile(r"Set: \'(.+?)\' Quest \'(.+?)\'")
+        self.null_quest_icon_re = re.compile(r"Set: \'(.+?)\' Quest \'(.+)\'")
         self.null_quest_icons = {}
 
     def load_from_file(self, path=r"C:\temp\20170727\bfsr_lint_log.txt"):
@@ -37,4 +37,7 @@ if __name__ == "__main__":
             if quest_json is None:
                 print("Unrecognized set/quest %s . %s" % (set, quest))
             else:
-                print(quest_json["icon"])
+                if "icon" not in quest_json:
+                    print(str(quest_json))
+                else:
+                    print(quest_json["icon"])
