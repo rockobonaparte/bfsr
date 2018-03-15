@@ -1,5 +1,6 @@
 import re
 from hqm_helpers import load_legacy_chapters, dump_chapters
+from migration_map import load_remap_as_dict
 
 
 class IdRules(object):
@@ -16,27 +17,63 @@ class IdRules(object):
         return transformed
 
 
-def iterate_all_ids(json_obj, id_rules, meta_remaps):
+# Let's keep a tally of all the stuff we muck with!
+change_count = 0
+
+
+def iterate_all_ids(json_obj, id_rules, meta_remaps, remap_dict):
+    global change_count
     if type(json_obj) is dict:
         found_remap = False
-        for meta_remap in meta_remaps:
-            if meta_remap.matches_json_dict(json_obj):
-                meta_remap.remap(json_obj)
+
+        # First let's see if we have a 1:1 map for it.
+        if "id" in json_obj:
+            val = json_obj["id"]
+            remap_key = val
+            if "damage" in json_obj:
+                remap_key = "%s:%s" % (val, json_obj["damage"])
+
+            if remap_key in remap_dict:
+
+                remapped = remap_dict[remap_key]
+                new_name = remapped.name
+                json_obj["id"] = new_name
+                if hasattr(remapped, "metadata"):
+                    add_damage = remapped.metadata
+                    new_name += " metadata=%s" % remapped.metadata
+                else:
+                    if "damage" in json_obj:
+                        # We can't delete it here because we're actively iterate json_obj
+                        del_damage = True
+                print("Remap %s => %s" % (val, new_name))
                 found_remap = True
-                break
+                change_count += 1
+
+        # Try metadata remap rules
+        if not found_remap:
+            for meta_remap in meta_remaps:
+                if meta_remap.matches_json_dict(json_obj):
+                    meta_remap.remap(json_obj)
+                    found_remap = True
+                    change_count += 1
+                    break
 
         if not found_remap:
             for key, val in json_obj.items():
+                # Try the regular expressions and other sacks full of tricks.
                 if type(val) is str and key.lower() == "id":
                     original = val
                     transformed = id_rules.apply_rules(val)
-                    print("%s => %s" % (original, transformed))
+                    print("Regex %s => %s" % (original, transformed))
+                    change_count += 1
+
                     json_obj[key] = transformed
                 elif type(val) is dict or type(val) is list:
-                    iterate_all_ids(val, id_rules, meta_remaps)
+                    iterate_all_ids(val, id_rules, meta_remaps, remap_dict)
+
     elif type(json_obj) is list:
         for list_item in json_obj:
-            iterate_all_ids(list_item, id_rules, meta_remaps)
+            iterate_all_ids(list_item, id_rules, meta_remaps, remap_dict)
 
 
 class MetaBlockRemap(object):
@@ -138,6 +175,7 @@ if __name__ == "__main__":
         ("Natura:berryMedley", "natura:soups"),
         ("Natura:berry", "natura:edibles"),
         ("Natura:barley", "natura:materials"),
+        ("Natura:barleyFood", "natura:barley_crop"),
         ("rftools:remoteStorageBlock", "rftools:remote_storage"),
         ("rftools:dimensionEnscriberBlock", "rftools:dimension_enscriber"),
         ("rftools:dialingDeviceBlock", "rftools:dialing_device"),
@@ -179,6 +217,10 @@ if __name__ == "__main__":
                         MetaBlockRemap("BigReactors:BRTurbineRotorPart", 1, "bigreactors:turbinerotorblade"),
                         ]
 
-    iterate_all_ids(sets, id_rules, id_damage_remaps)
+    remap_dict = load_remap_as_dict(r"C:\temp\20170906\bfsr_ids_map.json")
+
+    iterate_all_ids(sets, id_rules, id_damage_remaps, remap_dict)
 
     dump_chapters(sets)
+
+    print("Performend %s changes" % change_count)
